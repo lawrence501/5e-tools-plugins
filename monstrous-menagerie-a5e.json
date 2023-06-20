@@ -71,7 +71,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -553,7 +553,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -669,7 +669,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -796,7 +796,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -939,7 +939,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -1093,7 +1093,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -1202,10 +1202,34 @@
 						{
 							"type": "list",
 							"items": [
-								"Abase Yourself: The creature falls prone.",
-								"Approach: The creature must use its reaction, if available, to move up to its Speed toward the solar by the most direct route that avoids hazards, not avoiding opportunity attacks.",
-								"Flee: The creature must use its reaction, if available, to move up to its Speed away from the solar, not avoiding opportunity attacks.",
-								"Surrender: The creature drops anything it is holding."
+								{
+									"type": "item",
+									"name": "Abase Yourself",
+									"entries": [
+										"The creature falls prone."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Approach",
+									"entries": [
+										"The creature must use its reaction, if available, to move up to its Speed toward the solar by the most direct route that avoids hazards, not avoiding opportunity attacks."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Flee",
+									"entries": [
+										"The creature must use its reaction, if available, to move up to its Speed away from the solar, not avoiding opportunity attacks."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Surrender",
+									"entries": [
+										"The creature drops anything it is holding."
+									]
+								}
 							]
 						}
 					]
@@ -1258,7 +1282,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -1376,10 +1400,34 @@
 						{
 							"type": "list",
 							"items": [
-								"Abase Yourself: The creature falls prone.",
-								"Approach: The creature must use its reaction, if available, to move up to its Speed toward the solar by the most direct route that avoids hazards, not avoiding opportunity attacks.",
-								"Flee: The creature must use its reaction, if available, to move up to its Speed away from the solar, not avoiding opportunity attacks.",
-								"Surrender: The creature drops anything it is holding."
+								{
+									"type": "item",
+									"name": "Abase Yourself",
+									"entries": [
+										"The creature falls prone."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Approach",
+									"entries": [
+										"The creature must use its reaction, if available, to move up to its Speed toward the solar by the most direct route that avoids hazards, not avoiding opportunity attacks."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Flee",
+									"entries": [
+										"The creature must use its reaction, if available, to move up to its Speed away from the solar, not avoiding opportunity attacks."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Surrender",
+									"entries": [
+										"The creature drops anything it is holding."
+									]
+								}
 							]
 						}
 					]
@@ -1433,7 +1481,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -1542,10 +1590,34 @@
 						{
 							"type": "list",
 							"items": [
-								"Abase Yourself: The creature falls prone.",
-								"Approach: The creature must use its reaction, if available, to move up to its Speed toward the solar by the most direct route that avoids hazards, not avoiding opportunity attacks.",
-								"Flee: The creature must use its reaction, if available, to move up to its Speed away from the solar, not avoiding opportunity attacks.",
-								"Surrender: The creature drops anything it is holding."
+								{
+									"type": "item",
+									"name": "Abase Yourself",
+									"entries": [
+										"The creature falls prone."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Approach",
+									"entries": [
+										"The creature must use its reaction, if available, to move up to its Speed toward the solar by the most direct route that avoids hazards, not avoiding opportunity attacks."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Flee",
+									"entries": [
+										"The creature must use its reaction, if available, to move up to its Speed away from the solar, not avoiding opportunity attacks."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Surrender",
+									"entries": [
+										"The creature drops anything it is holding."
+									]
+								}
 							]
 						}
 					]
@@ -1649,10 +1721,34 @@
 						{
 							"type": "list",
 							"items": [
-								"Flaming: The armour is immune to fire damage, and any damage it deals is fire damage.",
-								"Sentinel: The armour's creator receives a mental alarm if the armour is destroyed.",
-								"Spell Imbued: The creator stores a spell in the armour (typically a spell with a level equal to or lower than the armour's CR) that triggers once when certain conditions are met. For instance, the armour might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking.",
-								"Talkative: The armour can pose riddles or answer questions as if it were a sentient creature."
+								{
+									"type": "item",
+									"name": "Flaming",
+									"entries": [
+										"The armour is immune to fire damage, and any damage it deals is fire damage."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sentinel",
+									"entries": [
+										"The armour's creator receives a mental alarm if the armour is destroyed."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spell Imbued",
+									"entries": [
+										"The creator stores a spell in the armour (typically a spell with a level equal to or lower than the armour's CR) that triggers once when certain conditions are met. For instance, the armour might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Talkative",
+									"entries": [
+										"The armour can pose riddles or answer questions as if it were a sentient creature."
+									]
+								}
 							]
 						}
 					]
@@ -1740,10 +1836,34 @@
 						{
 							"type": "list",
 							"items": [
-								"Flaming: The sword is immune to fire damage, and any damage it deals is fire damage.",
-								"Sentinel: The sword's creator receives a mental alarm if the sword is destroyed.",
-								"Spell Imbued: The creator stores a spell in the sword (typically a spell with a level equal to or lower than the sword's CR) that triggers once when certain conditions are met. For instance, the sword might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking.",
-								"Talkative: The sword can pose riddles or answer questions as if it were a sentient creature."
+								{
+									"type": "item",
+									"name": "Flaming",
+									"entries": [
+										"The sword is immune to fire damage, and any damage it deals is fire damage."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sentinel",
+									"entries": [
+										"The sword's creator receives a mental alarm if the sword is destroyed."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spell Imbued",
+									"entries": [
+										"The creator stores a spell in the sword (typically a spell with a level equal to or lower than the sword's CR) that triggers once when certain conditions are met. For instance, the sword might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Talkative",
+									"entries": [
+										"The sword can pose riddles or answer questions as if it were a sentient creature."
+									]
+								}
 							]
 						}
 					]
@@ -1828,10 +1948,34 @@
 						{
 							"type": "list",
 							"items": [
-								"Flaming: The rug is immune to fire damage, and any damage it deals is fire damage.",
-								"Sentinel: The rug's creator receives a mental alarm if the rug is destroyed.",
-								"Spell Imbued: The creator stores a spell in the rug (typically a spell with a level equal to or lower than the rug's CR) that triggers once when certain conditions are met. For instance, the rug might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking.",
-								"Talkative: The rug can pose riddles or answer questions as if it were a sentient creature."
+								{
+									"type": "item",
+									"name": "Flaming",
+									"entries": [
+										"The rug is immune to fire damage, and any damage it deals is fire damage."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sentinel",
+									"entries": [
+										"The rug's creator receives a mental alarm if the rug is destroyed."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spell Imbued",
+									"entries": [
+										"The creator stores a spell in the rug (typically a spell with a level equal to or lower than the rug's CR) that triggers once when certain conditions are met. For instance, the rug might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Talkative",
+									"entries": [
+										"The rug can pose riddles or answer questions as if it were a sentient creature."
+									]
+								}
 							]
 						}
 					]
@@ -1928,10 +2072,34 @@
 						{
 							"type": "list",
 							"items": [
-								"Flaming: The statue is immune to fire damage, and any damage it deals is fire damage.",
-								"Sentinel: The statue's creator receives a mental alarm if the statue is destroyed.",
-								"Spell Imbued: The creator stores a spell in the statue (typically a spell with a level equal to or lower than the statue's CR) that triggers once when certain conditions are met. For instance, the statue might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking.",
-								"Talkative: The statue can pose riddles or answer questions as if it were a sentient creature."
+								{
+									"type": "item",
+									"name": "Flaming",
+									"entries": [
+										"The statue is immune to fire damage, and any damage it deals is fire damage."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sentinel",
+									"entries": [
+										"The statue's creator receives a mental alarm if the statue is destroyed."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spell Imbued",
+									"entries": [
+										"The creator stores a spell in the statue (typically a spell with a level equal to or lower than the statue's CR) that triggers once when certain conditions are met. For instance, the statue might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Talkative",
+									"entries": [
+										"The statue can pose riddles or answer questions as if it were a sentient creature."
+									]
+								}
 							]
 						}
 					]
@@ -2023,10 +2191,34 @@
 						{
 							"type": "list",
 							"items": [
-								"Flaming: Any damage the statue deals is fire damage.",
-								"Sentinel: The statue's creator receives a mental alarm if the statue is destroyed.",
-								"Spell Imbued: The creator stores a spell in the statue (typically a spell with a level equal to or lower than the statue's CR) that triggers once when certain conditions are met. For instance, the statue might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking.",
-								"Talkative: The statue can pose riddles or answer questions as if it were a sentient creature."
+								{
+									"type": "item",
+									"name": "Flaming",
+									"entries": [
+										"The statue is immune to fire damage, and any damage it deals is fire damage."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sentinel",
+									"entries": [
+										"The statue's creator receives a mental alarm if the statue is destroyed."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spell Imbued",
+									"entries": [
+										"The creator stores a spell in the statue (typically a spell with a level equal to or lower than the statue's CR) that triggers once when certain conditions are met. For instance, the statue might {@spell levitate|LevelUpAdventurersGuideA5E} before attacking."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Talkative",
+									"entries": [
+										"The statue can pose riddles or answer questions as if it were a sentient creature."
+									]
+								}
 							]
 						}
 					]
@@ -2464,7 +2656,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -2749,7 +2941,7 @@
 			"wis": 10,
 			"cha": 10,
 			"skill": {
-				"stealth": "+4 (+{@dice 1d4})",
+				"stealth": "+4 (+1d4)",
 				"survival": "+2"
 			},
 			"passive": 10,
@@ -2813,7 +3005,7 @@
 			"wis": 10,
 			"cha": 10,
 			"skill": {
-				"stealth": "+4 (+{@dice 1d4})",
+				"stealth": "+4 (+1d4)",
 				"survival": "+2"
 			},
 			"passive": 10,
@@ -2888,7 +3080,7 @@
 			"wis": 14,
 			"cha": 12,
 			"skill": {
-				"stealth": "+3 (+{@dice 1d4})",
+				"stealth": "+3 (+1d4)",
 				"perception": "+3",
 				"intimidation": "+3"
 			},
@@ -2960,9 +3152,9 @@
 			"cha": 10,
 			"skill": {
 				"athletics": "+4",
-				"stealth": "+4 (+{@dice 1d4})",
-				"perception": "+3 (+{@dice 1d4})",
-				"survival": "+3 (+{@dice 1d4})"
+				"stealth": "+4 (+1d4)",
+				"perception": "+3 (+1d4)",
+				"survival": "+3 (+1d4)"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -3036,9 +3228,9 @@
 			"cha": 10,
 			"skill": {
 				"athletics": "+4",
-				"stealth": "+4 (+{@dice 1d4})",
-				"perception": "+3 (+{@dice 1d4})",
-				"survival": "+3 (+{@dice 1d4})"
+				"stealth": "+4 (+1d4)",
+				"perception": "+3 (+1d4)",
+				"survival": "+3 (+1d4)"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -3114,9 +3306,9 @@
 			"cha": 10,
 			"skill": {
 				"athletics": "+6",
-				"stealth": "+4 (+{@dice 1d4})",
-				"perception": "+3 (+{@dice 1d4})",
-				"survival": "+3 (+{@dice 1d4})"
+				"stealth": "+4 (+1d4)",
+				"perception": "+3 (+1d4)",
+				"survival": "+3 (+1d4)"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -3297,7 +3489,7 @@
 				"poison",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -3390,7 +3582,7 @@
 			"cha": 10,
 			"skill": {
 				"nature": "+5",
-				"perception": "+5 (+{@dice 1d4})",
+				"perception": "+5 (+1d4)",
 				"survival": "+5"
 			},
 			"passive": 17,
@@ -3463,7 +3655,7 @@
 			"cha": 10,
 			"skill": {
 				"nature": "+5",
-				"perception": "+5 (+{@dice 1d4})",
+				"perception": "+5 (+1d4)",
 				"survival": "+5"
 			},
 			"passive": 17,
@@ -4399,10 +4591,34 @@
 						{
 							"type": "list",
 							"items": [
-								"Absorb Magic: The chuul has advantage on saving throws against spells and other magical effects. Whenever the chuul successfully saves against a spell or magical effect, it magically gains 5 temporary hit points. While these temporary hit points last, the chuul's pincer attacks deal an additional 3 ({@damage 1d6}) force damage.",
-								"King-Sized Claw: One of the chuul's pincers deals 18 ({@damage 4d6 + 4}) bludgeoning damage on a successful hit. A creature {@condition grappled} by this pincer makes ability checks to escape the grapple with disadvantage.",
-								"Rune Drinker: Whenever the chuul takes damage from a magic weapon, until the start of the chuul's next turn attacks made with that weapon have disadvantage, and the chuul gains a +4 bonus to AC.",
-								"Sparking Wand: A wand of lightning bolts adorns the chuul's carapace. A creature that starts its turn within 10 feet must make a successful {@dc 14} Dexterity saving throw or take 8 ({@damage 2d6}) lightning damage. As an action, a creature within 5 feet of the chuul can grab the wand by making a successful {@dc 14} Athletics or Sleight of Hand check. A creature that fails this check must make a {@dc 14} Dexterity saving throw. On a failed save, the creature takes 7 ({@damage 2d6}) lightning damage and is knocked {@condition prone}. On a successful save, a creature takes half damage and isn't knocked {@condition prone}."
+								{
+									"type": "item",
+									"name": "Absorb Magic",
+									"entries": [
+										"The chuul has advantage on saving throws against spells and other magical effects. Whenever the chuul successfully saves against a spell or magical effect, it magically gains 5 temporary hit points. While these temporary hit points last, the chuul's pincer attacks deal an additional 3 ({@damage 1d6}) force damage."
+									]
+								},
+								{
+									"type": "item",
+									"name": "King-Sized Claw",
+									"entries": [
+										"One of the chuul's pincers deals 18 ({@damage 4d6 + 4}) bludgeoning damage on a successful hit. A creature {@condition grappled} by this pincer makes ability checks to escape the grapple with disadvantage."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Rune Drinker",
+									"entries": [
+										"Whenever the chuul takes damage from a magic weapon, until the start of the chuul's next turn attacks made with that weapon have disadvantage, and the chuul gains a +4 bonus to AC."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sparking Wand",
+									"entries": [
+										"A wand of lightning bolts adorns the chuul's carapace. A creature that starts its turn within 10 feet must make a successful {@dc 14} Dexterity saving throw or take 8 ({@damage 2d6}) lightning damage. As an action, a creature within 5 feet of the chuul can grab the wand by making a successful {@dc 14} Athletics or Sleight of Hand check. A creature that fails this check must make a {@dc 14} Dexterity saving throw. On a failed save, the creature takes 7 ({@damage 2d6}) lightning damage and is knocked {@condition prone}. On a successful save, a creature takes half damage and isn't knocked {@condition prone}."
+									]
+								}
 							]
 						}
 					]
@@ -4462,7 +4678,7 @@
 				"wis": "+4"
 			},
 			"skill": {
-				"stealth": "+6 (+{@dice 1d4})"
+				"stealth": "+6 (+1d4)"
 			},
 			"resist": [
 				"bludgeoning"
@@ -4568,7 +4784,7 @@
 				"wis": "+4"
 			},
 			"skill": {
-				"stealth": "+6 (+{@dice 1d4})"
+				"stealth": "+6 (+1d4)"
 			},
 			"resist": [
 				"bludgeoning"
@@ -4674,7 +4890,7 @@
 				"wis": "+4"
 			},
 			"skill": {
-				"stealth": "+6 (+{@dice 1d4})"
+				"stealth": "+6 (+1d4)"
 			},
 			"resist": [
 				"bludgeoning"
@@ -4786,7 +5002,7 @@
 			"wis": 6,
 			"cha": 1,
 			"skill": {
-				"perception": "+0 (+{@dice 1d8})"
+				"perception": "+0 (+1d8)"
 			},
 			"immune": [
 				"poison",
@@ -4875,8 +5091,8 @@
 			"cha": 1,
 			"skill": {
 				"athletics": "+5",
-				"perception": "+0 (+{@dice 1d4})",
-				"survival": "+0 (+{@dice 1d4})"
+				"perception": "+0 (+1d4)",
+				"survival": "+0 (+1d4)"
 			},
 			"immune": [
 				"poison",
@@ -5258,7 +5474,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -5746,7 +5962,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -5889,7 +6105,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6049,7 +6265,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6191,7 +6407,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6431,7 +6647,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6561,7 +6777,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6680,7 +6896,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6825,7 +7041,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6935,7 +7151,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7057,7 +7273,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7176,7 +7392,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7283,7 +7499,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7404,7 +7620,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7533,7 +7749,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7649,13 +7865,13 @@
 				"athletics": "+7",
 				"deception": "+5",
 				"insight": "+5",
-				"perception": "+5 (+{@dice 1d4})"
+				"perception": "+5 (+1d4)"
 			},
 			"resist": [
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -7775,7 +7991,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -7884,7 +8100,7 @@
 			"skill": {
 				"athletics": "+8",
 				"deception": "+7",
-				"insight": "+7 (+{@dice 1d4})",
+				"insight": "+7 (+1d4)",
 				"perception": "+7",
 				"stealth": "+7"
 			},
@@ -7892,7 +8108,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8004,7 +8220,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8137,7 +8353,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8286,7 +8502,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8408,7 +8624,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8536,7 +8752,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8666,7 +8882,7 @@
 			"wis": 12,
 			"cha": 14,
 			"skill": {
-				"deception": "+4 (+{@dice 1d4})",
+				"deception": "+4 (+1d4)",
 				"insight": "+3",
 				"perception": "+3",
 				"persuasion": "+4",
@@ -8676,7 +8892,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8783,7 +8999,7 @@
 			"wis": 12,
 			"cha": 14,
 			"skill": {
-				"deception": "+4 (+{@dice 1d4})",
+				"deception": "+4 (+1d4)",
 				"insight": "+3",
 				"perception": "+3",
 				"persuasion": "+4",
@@ -8793,7 +9009,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -9102,7 +9318,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -9257,7 +9473,7 @@
 				"cold",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -9897,7 +10113,7 @@
 			"wis": 14,
 			"cha": 16,
 			"skill": {
-				"deception": "+5 (+{@dice 1d4})",
+				"deception": "+5 (+1d4)",
 				"insight": "+4",
 				"stealth": "+6"
 			},
@@ -9973,7 +10189,7 @@
 			},
 			"skill": {
 				"history": "+10",
-				"perception": "+9 (+{@dice 1d6})",
+				"perception": "+9 (+1d6)",
 				"stealth": "+9"
 			},
 			"immune": [
@@ -10150,7 +10366,7 @@
 			},
 			"skill": {
 				"history": "+10",
-				"perception": "+9 (+{@dice 1d6})",
+				"perception": "+9 (+1d6)",
 				"stealth": "+9"
 			},
 			"immune": [
@@ -10356,7 +10572,7 @@
 			},
 			"skill": {
 				"history": "+10",
-				"perception": "+9 (+{@dice 1d6})",
+				"perception": "+9 (+1d6)",
 				"stealth": "+9"
 			},
 			"immune": [
@@ -10559,7 +10775,7 @@
 			},
 			"skill": {
 				"history": "+8",
-				"perception": "+7 (+{@dice 1d6})",
+				"perception": "+7 (+1d6)",
 				"stealth": "+8"
 			},
 			"immune": [
@@ -10726,7 +10942,7 @@
 			},
 			"skill": {
 				"history": "+5",
-				"perception": "+5 (+{@dice 1d6})",
+				"perception": "+5 (+1d6)",
 				"stealth": "+6"
 			},
 			"immune": [
@@ -10839,7 +11055,7 @@
 			"cha": 12,
 			"skill": {
 				"perception": "+2",
-				"stealth": "+5 (+{@dice 1d6})"
+				"stealth": "+5 (+1d6)"
 			},
 			"immune": [
 				"acid"
@@ -10923,7 +11139,7 @@
 				"cha": "+13"
 			},
 			"skill": {
-				"perception": "+11 (+{@dice 1d6})",
+				"perception": "+11 (+1d6)",
 				"stealth": "+8",
 				"survival": "+11"
 			},
@@ -11097,7 +11313,7 @@
 				"cha": "+13"
 			},
 			"skill": {
-				"perception": "+11 (+{@dice 1d6})",
+				"perception": "+11 (+1d6)",
 				"stealth": "+8",
 				"survival": "+11"
 			},
@@ -11307,7 +11523,7 @@
 				"cha": "+13"
 			},
 			"skill": {
-				"perception": "+11 (+{@dice 1d6})",
+				"perception": "+11 (+1d6)",
 				"stealth": "+8",
 				"survival": "+11"
 			},
@@ -11516,7 +11732,7 @@
 				"cha": "+10"
 			},
 			"skill": {
-				"perception": "+8 (+{@dice 1d6})",
+				"perception": "+8 (+1d6)",
 				"stealth": "+6",
 				"survival": "+8"
 			},
@@ -11686,7 +11902,7 @@
 				"cha": "+7"
 			},
 			"skill": {
-				"perception": "+5 (+{@dice 1d6})",
+				"perception": "+5 (+1d6)",
 				"stealth": "+4",
 				"survival": "+5"
 			},
@@ -11796,7 +12012,7 @@
 			"cha": 14,
 			"skill": {
 				"perception": "+2",
-				"stealth": "+3 (+{@dice 1d6})",
+				"stealth": "+3 (+1d6)",
 				"survival": "+2"
 			},
 			"immune": [
@@ -11882,9 +12098,9 @@
 				"cha": "+11"
 			},
 			"skill": {
-				"deception": "+11 (+{@dice 1d6})",
+				"deception": "+11 (+1d6)",
 				"insight": "+10",
-				"perception": "+10 (+{@dice 1d6})",
+				"perception": "+10 (+1d6)",
 				"persuasion": "+11",
 				"stealth": "+8"
 			},
@@ -12065,9 +12281,9 @@
 				"cha": "+11"
 			},
 			"skill": {
-				"deception": "+11 (+{@dice 1d6})",
+				"deception": "+11 (+1d6)",
 				"insight": "+10",
-				"perception": "+10 (+{@dice 1d6})",
+				"perception": "+10 (+1d6)",
 				"persuasion": "+11",
 				"stealth": "+8"
 			},
@@ -12284,9 +12500,9 @@
 				"cha": "+11"
 			},
 			"skill": {
-				"deception": "+11 (+{@dice 1d6})",
+				"deception": "+11 (+1d6)",
 				"insight": "+10",
-				"perception": "+10 (+{@dice 1d6})",
+				"perception": "+10 (+1d6)",
 				"persuasion": "+11",
 				"stealth": "+8"
 			},
@@ -12498,9 +12714,9 @@
 				"cha": "+9"
 			},
 			"skill": {
-				"deception": "+9 (+{@dice 1d6})",
+				"deception": "+9 (+1d6)",
 				"insight": "+8",
-				"perception": "+8 (+{@dice 1d6})",
+				"perception": "+8 (+1d6)",
 				"persuasion": "+9",
 				"stealth": "+7"
 			},
@@ -12671,9 +12887,9 @@
 				"cha": "+6"
 			},
 			"skill": {
-				"deception": "+6 (+{@dice 1d6})",
+				"deception": "+6 (+1d6)",
 				"insight": "+5",
-				"perception": "+5 (+{@dice 1d6})",
+				"perception": "+5 (+1d6)",
 				"persuasion": "+6",
 				"stealth": "+5"
 			},
@@ -12872,7 +13088,7 @@
 			},
 			"skill": {
 				"intimidation": "+14",
-				"perception": "+11 (+{@dice 1d6})",
+				"perception": "+11 (+1d6)",
 				"stealth": "+8"
 			},
 			"immune": [
@@ -13050,7 +13266,7 @@
 			},
 			"skill": {
 				"intimidation": "+14",
-				"perception": "+11 (+{@dice 1d6})",
+				"perception": "+11 (+1d6)",
 				"stealth": "+8"
 			},
 			"immune": [
@@ -13264,7 +13480,7 @@
 			},
 			"skill": {
 				"intimidation": "+14",
-				"perception": "+11 (+{@dice 1d6})",
+				"perception": "+11 (+1d6)",
 				"stealth": "+8"
 			},
 			"immune": [
@@ -13477,7 +13693,7 @@
 			},
 			"skill": {
 				"intimidation": "+11",
-				"perception": "+9 (+{@dice 1d6})",
+				"perception": "+9 (+1d6)",
 				"stealth": "+6"
 			},
 			"immune": [
@@ -13651,7 +13867,7 @@
 			},
 			"skill": {
 				"intimidation": "+8",
-				"perception": "+5 (+{@dice 1d6})",
+				"perception": "+5 (+1d6)",
 				"stealth": "+4"
 			},
 			"immune": [
@@ -13838,7 +14054,7 @@
 			},
 			"skill": {
 				"intimidation": "+10",
-				"perception": "+10 (+{@dice 1d6})",
+				"perception": "+10 (+1d6)",
 				"stealth": "+8"
 			},
 			"immune": [
@@ -13998,7 +14214,7 @@
 			},
 			"skill": {
 				"intimidation": "+10",
-				"perception": "+10 (+{@dice 1d6})",
+				"perception": "+10 (+1d6)",
 				"stealth": "+8"
 			},
 			"immune": [
@@ -14194,7 +14410,7 @@
 			},
 			"skill": {
 				"intimidation": "+10",
-				"perception": "+10 (+{@dice 1d6})",
+				"perception": "+10 (+1d6)",
 				"stealth": "+8"
 			},
 			"immune": [
@@ -14389,7 +14605,7 @@
 			},
 			"skill": {
 				"intimidation": "+7",
-				"perception": "+7 (+{@dice 1d6})",
+				"perception": "+7 (+1d6)",
 				"stealth": "+6"
 			},
 			"immune": [
@@ -14545,7 +14761,7 @@
 			},
 			"skill": {
 				"history": "+3",
-				"perception": "+5 (+{@dice 1d6})",
+				"perception": "+5 (+1d6)",
 				"stealth": "+4"
 			},
 			"immune": [
@@ -14726,14 +14942,14 @@
 			},
 			"skill": {
 				"athletics": "+15",
-				"insight": "+13 (+{@dice 1d6})",
+				"insight": "+13 (+1d6)",
 				"nature": "+10",
-				"perception": "+13 (+{@dice 1d6})"
+				"perception": "+13 (+1d6)"
 			},
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -14889,14 +15105,14 @@
 			},
 			"skill": {
 				"athletics": "+12",
-				"insight": "+8 (+{@dice 1d6})",
+				"insight": "+8 (+1d6)",
 				"nature": "+12",
-				"perception": "+8 (+{@dice 1d6})"
+				"perception": "+8 (+1d6)"
 			},
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15048,14 +15264,14 @@
 			},
 			"skill": {
 				"athletics": "+8",
-				"insight": "+7 (+{@dice 1d6})",
+				"insight": "+7 (+1d6)",
 				"nature": "+5",
-				"perception": "+7 (+{@dice 1d6})"
+				"perception": "+7 (+1d6)"
 			},
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15173,7 +15389,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15272,7 +15488,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15459,7 +15675,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15642,7 +15858,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15768,7 +15984,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15861,7 +16077,7 @@
 				"insight": "+10",
 				"nature": "+10",
 				"perception": "+10",
-				"stealth": "+10 (+{@dice 1d6})"
+				"stealth": "+10 (+1d6)"
 			},
 			"resist": [
 				"acid",
@@ -15871,7 +16087,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -16053,7 +16269,7 @@
 				"insight": "+8",
 				"nature": "+8",
 				"perception": "+8",
-				"stealth": "+8 (+{@dice 1d6})"
+				"stealth": "+8 (+1d6)"
 			},
 			"resist": [
 				"acid",
@@ -16063,7 +16279,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -16242,7 +16458,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -16375,7 +16591,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -16471,10 +16687,10 @@
 				"cha": "+14"
 			},
 			"skill": {
-				"deception": "+14 (+{@dice 1d6})",
+				"deception": "+14 (+1d6)",
 				"insight": "+10",
 				"perception": "+10",
-				"persuasion": "+14 (+{@dice 1d6})"
+				"persuasion": "+14 (+1d6)"
 			},
 			"resist": [
 				"force",
@@ -16637,10 +16853,10 @@
 				"cha": "+11"
 			},
 			"skill": {
-				"deception": "+11 (+{@dice 1d6})",
+				"deception": "+11 (+1d6)",
 				"insight": "+8",
 				"perception": "+8",
-				"persuasion": "+11 (+{@dice 1d6})"
+				"persuasion": "+11 (+1d6)"
 			},
 			"resist": [
 				"force",
@@ -16799,10 +17015,10 @@
 				"cha": "+7"
 			},
 			"skill": {
-				"deception": "+7 (+{@dice 1d6})",
+				"deception": "+7 (+1d6)",
 				"insight": "+5",
 				"perception": "+5",
-				"persuasion": "+7 (+{@dice 1d6})"
+				"persuasion": "+7 (+1d6)"
 			},
 			"resist": [
 				"force",
@@ -17015,7 +17231,7 @@
 							"{@spell dominate person|LevelUpAdventurersGuideA5E}"
 						],
 						"1e": [
-							"{@spell irresistable dance|LevelUpAdventurersGuideA5E}",
+							"{@spell irresistible dance|LevelUpAdventurersGuideA5E}",
 							"{@spell symbol|LevelUpAdventurersGuideA5E}"
 						]
 					},
@@ -17486,8 +17702,8 @@
 				"arcana": "+15",
 				"deception": "+12",
 				"history": "+15",
-				"insight": "+14 (+{@dice 1d6})",
-				"perception": "+14 (+{@dice 1d6})",
+				"insight": "+14 (+1d6)",
+				"perception": "+14 (+1d6)",
 				"persuasion": "+12"
 			},
 			"immune": [
@@ -17659,8 +17875,8 @@
 				"arcana": "+12",
 				"deception": "+10",
 				"history": "+12",
-				"insight": "+11 (+{@dice 1d6})",
-				"perception": "+11 (+{@dice 1d6})",
+				"insight": "+11 (+1d6)",
+				"perception": "+11 (+1d6)",
 				"persuasion": "+10"
 			},
 			"immune": [
@@ -17820,8 +18036,8 @@
 				"arcana": "+8",
 				"deception": "+6",
 				"history": "+8",
-				"insight": "+7 (+{@dice 1d6})",
-				"perception": "+7 (+{@dice 1d6})",
+				"insight": "+7 (+1d6)",
+				"perception": "+7 (+1d6)",
 				"persuasion": "+6"
 			},
 			"immune": [
@@ -18000,7 +18216,7 @@
 				"arcana": "+12",
 				"history": "+12",
 				"nature": "+12",
-				"perception": "+10 (+{@dice 1d6})",
+				"perception": "+10 (+1d6)",
 				"persuasion": "+11",
 				"religion": "+12",
 				"stealth": "+7"
@@ -18201,7 +18417,7 @@
 				"arcana": "+9",
 				"history": "+9",
 				"nature": "+9",
-				"perception": "+7 (+{@dice 1d6})",
+				"perception": "+7 (+1d6)",
 				"persuasion": "+8",
 				"religion": "+9",
 				"stealth": "+5"
@@ -18398,7 +18614,7 @@
 				"arcana": "+7",
 				"history": "+7",
 				"nature": "+7",
-				"perception": "+5 (+{@dice 1d6})",
+				"perception": "+5 (+1d6)",
 				"persuasion": "+6",
 				"religion": "+7",
 				"stealth": "+4"
@@ -18622,7 +18838,7 @@
 			},
 			"skill": {
 				"insight": "+10",
-				"perception": "+10 (+{@dice 1d6})",
+				"perception": "+10 (+1d6)",
 				"stealth": "+7"
 			},
 			"immune": [
@@ -18821,7 +19037,7 @@
 			},
 			"skill": {
 				"insight": "+8",
-				"perception": "+8 (+{@dice 1d6})",
+				"perception": "+8 (+1d6)",
 				"stealth": "+6"
 			},
 			"immune": [
@@ -19014,7 +19230,7 @@
 			},
 			"skill": {
 				"insight": "+5",
-				"perception": "+5 (+{@dice 1d6})",
+				"perception": "+5 (+1d6)",
 				"stealth": "+4"
 			},
 			"immune": [
@@ -19237,7 +19453,7 @@
 			},
 			"skill": {
 				"deception": "+11",
-				"perception": "+10 (+{@dice 1d6})",
+				"perception": "+10 (+1d6)",
 				"stealth": "+8"
 			},
 			"immune": [
@@ -19268,7 +19484,7 @@
 							"{@spell polymorph|LevelUpAdventurersGuideA5E}"
 						],
 						"1e": [
-							"{@spell irresistable dance|LevelUpAdventurersGuideA5E}",
+							"{@spell irresistible dance|LevelUpAdventurersGuideA5E}",
 							"{@spell mass suggestion|LevelUpAdventurersGuideA5E}"
 						]
 					},
@@ -19430,7 +19646,7 @@
 			},
 			"skill": {
 				"deception": "+10",
-				"perception": "+9 (+{@dice 1d6})",
+				"perception": "+9 (+1d6)",
 				"stealth": "+7"
 			},
 			"immune": [
@@ -19830,7 +20046,7 @@
 			},
 			"skill": {
 				"insight": "+11",
-				"perception": "+11 (+{@dice 1d6})",
+				"perception": "+11 (+1d6)",
 				"persuasion":"+17",
 				"stealth": "+10"
 			},
@@ -20028,7 +20244,7 @@
 			},
 			"skill": {
 				"insight": "+11",
-				"perception": "+11 (+{@dice 1d6})",
+				"perception": "+11 (+1d6)",
 				"persuasion":"+17",
 				"stealth": "+10"
 			},
@@ -20257,7 +20473,7 @@
 			},
 			"skill": {
 				"insight": "+8",
-				"perception": "+8 (+{@dice 1d6})",
+				"perception": "+8 (+1d6)",
 				"persuasion":"+13",
 				"stealth": "+8"
 			},
@@ -20451,7 +20667,7 @@
 			},
 			"skill": {
 				"insight": "+5",
-				"perception": "+5 (+{@dice 1d6})",
+				"perception": "+5 (+1d6)",
 				"persuasion":"+9",
 				"stealth": "+6"
 			},
@@ -20661,7 +20877,7 @@
 			"skill": {
 				"arcana": "+11",
 				"history": "+11",
-				"perception": "+9 (+{@dice 1d6})",
+				"perception": "+9 (+1d6)",
 				"stealth": "+9"
 			},
 			"immune": [
@@ -20852,7 +21068,7 @@
 			"skill": {
 				"arcana": "+9",
 				"history": "+9",
-				"perception": "+7 (+{@dice 1d6})",
+				"perception": "+7 (+1d6)",
 				"stealth": "+8"
 			},
 			"immune": [
@@ -21039,7 +21255,7 @@
 			"skill": {
 				"arcana": "+6",
 				"history": "+6",
-				"perception": "+4 (+{@dice 1d6})",
+				"perception": "+4 (+1d6)",
 				"stealth": "+6"
 			},
 			"immune": [
@@ -22071,9 +22287,9 @@
 			"wis": 16,
 			"cha": 18,
 			"skill": {
-				"nature": "+3 (+{@dice 1d4})",
+				"nature": "+3 (+1d4)",
 				"perception": "+5",
-				"stealth": "+3 (+{@dice 1d4})",
+				"stealth": "+3 (+1d4)",
 				"survival": "+5"
 			},
 			"vulnerable": [
@@ -22163,9 +22379,9 @@
 			"wis": 16,
 			"cha": 18,
 			"skill": {
-				"nature": "+3 (+{@dice 1d4})",
+				"nature": "+3 (+1d4)",
 				"perception": "+5",
-				"stealth": "+3 (+{@dice 1d4})",
+				"stealth": "+3 (+1d4)",
 				"survival": "+5"
 			},
 			"vulnerable": [
@@ -22262,7 +22478,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22353,7 +22569,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22448,7 +22664,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22551,7 +22767,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22647,7 +22863,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22747,7 +22963,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22852,7 +23068,7 @@
 				"acid",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22956,7 +23172,7 @@
 				"acid",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -23163,7 +23379,7 @@
 				"con": "+5"
 			},
 			"skill": {
-				"perception": "+2 (+{@dice 1d4})"
+				"perception": "+2 (+1d4)"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -23831,7 +24047,7 @@
 			"cha": 10,
 			"skill": {
 				"perception": "+3",
-				"stealth": "+6 (+{@dice 1d4})"
+				"stealth": "+6 (+1d4)"
 			},
 			"passive": 13,
 			"languages": [
@@ -24323,14 +24539,14 @@
 				"intimidation": "+9",
 				"perception": "+9",
 				"persuasion": "+9",
-				"religion": "+9 (+{@dice 1d6})"
+				"religion": "+9 (+1d6)"
 			},
 			"resist": [
 				"poison",
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -24467,14 +24683,14 @@
 				"intimidation": "+9",
 				"perception": "+9",
 				"persuasion": "+9",
-				"religion": "+9 (+{@dice 1d6})"
+				"religion": "+9 (+1d6)"
 			},
 			"resist": [
 				"poison",
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -24611,14 +24827,14 @@
 				"intimidation": "+9",
 				"perception": "+9",
 				"persuasion": "+9",
-				"religion": "+9 (+{@dice 1d6})"
+				"religion": "+9 (+1d6)"
 			},
 			"resist": [
 				"poison",
 				"radiant",
 				{
 					"resist": [
-						"all"
+						"all damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -24734,6 +24950,9 @@
 				"average": 190,
 				"formula": "20d8 + 100"
 			},
+			"speed": {
+				"walk": 0
+			},
 			"str": 20,
 			"dex": 10,
 			"con": 20,
@@ -24828,6 +25047,9 @@
 				"average": 13,
 				"formula": "3d8"
 			},
+			"speed": {
+				"walk": 0
+			},
 			"str": 1,
 			"dex": 1,
 			"con": 10,
@@ -24887,6 +25109,9 @@
 			"hp": {
 				"average": 18,
 				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 0
 			},
 			"str": 1,
 			"dex": 1,
