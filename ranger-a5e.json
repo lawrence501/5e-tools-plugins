@@ -1,0 +1,4738 @@
+{
+	"_meta": {
+		"dependencies": {
+			"subclass": [
+				"generic"
+			]
+		},
+		"sources": [
+			{
+				"json": "LevelUpAdventurersGuideA5E",
+				"abbreviation": "A5E",
+				"full": "Level Up: Adventurers Guide (A5E)",
+				"authors": [
+					"Level Up"
+				],
+				"version": "0.0.1",
+				"url": "https://www.levelup5e.com/"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "class": [
+		{
+			"name": "Ranger",
+			"source": "LevelUpAdventurersGuideA5E",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
+					"(a) two {@item shortsword|phb|shortswords} or (b) two {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"A {@item longbow|phb} and a {@item quiver|phb} of {@item arrows (20)|phb|20 arrows}"
+				],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"scale mail|phb"
+						],
+						"b": [
+							"leather armor|phb"
+						]
+					},
+					{
+						"a": [
+							{
+								"item": "shortsword|phb",
+								"quantity": 2
+							}
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimpleMelee",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"longbow|phb",
+							"arrows (20)|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"{@item shield|phb|shields}"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"animal handling",
+									"athletics",
+									"insight",
+									"investigation",
+									"nature",
+									"perception",
+									"stealth",
+									"survival"
+								],
+								"count": 1
+							}
+						}
+					],
+					"weapons": [
+						"simple",
+						"martial"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Knacks Known|optionalfeatures|feature type=ek}",
+						"{@filter Maneuvers Known|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel}",
+                        "Maneuver Degree"
+					],
+					"rows": [
+						[
+							2,
+							0,
+                            0
+						],
+						[
+                            3,
+                            2,
+                            "{@filter 1st|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=1}"
+						],
+						[
+                            3,
+                            3,
+                            "{@filter 1st|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=1}"
+						],
+                        [
+                            4,
+                            3,
+                            "{@filter 1st|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=1}"
+						],
+                        [
+                            4,
+                            4,
+                            "{@filter 2nd|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=2}"
+						],
+                        [
+                            5,
+                            4,
+                            "{@filter 2nd|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=2}"
+						],
+                        [
+                            5,
+                            5,
+                            "{@filter 2nd|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=2}"
+						],
+                        [
+                            6,
+                            5,
+                            "{@filter 2nd|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=2}"
+						],
+                        [
+                            6,
+                            6,
+                            "{@filter 3rd|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=3}"
+						],
+                        [
+                            7,
+                            6,
+                            "{@filter 3rd|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=3}"
+						],
+                        [
+                            7,
+                            7,
+                            "{@filter 3rd|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=3}"
+						],
+                        [
+                            8,
+                            7,
+                            "{@filter 3rd|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=3}"
+						],
+                        [
+                            8,
+                            8,
+                            "{@filter 4th|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=4}"
+						],
+                        [
+                            9,
+                            8,
+                            "{@filter 4th|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=4}"
+						],
+                        [
+                            9,
+                            9,
+                            "{@filter 4th|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=4}"
+						],
+                        [
+                            10,
+                            9,
+                            "{@filter 4th|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=4}"
+						],
+                        [
+                            10,
+                            10,
+                            "{@filter 5th|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=5}"
+						],
+                        [
+                            11,
+                            10,
+                            "{@filter 5th|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=5}"
+						],
+                        [
+                            11,
+                            11,
+                            "{@filter 5th|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=5}"
+						],
+                        [
+                            12,
+                            11,
+                            "{@filter 5th|spells|Subschool=biting zephyr;mirror’s glint;rapid current;razor’s edge;spirited steed;unending wheel|level=5}"
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Exploration Knacks|Ranger|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
+				"Familiar Terrain|Ranger|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
+				"Studied Adversary|Ranger|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
+				"Combat Maneuvers|Ranger|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
+				"Stride and Seek|Ranger|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
+				"Trained Accuracy|Ranger|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
+				{
+					"classFeature": "Ranger Archetype|Ranger|LevelUpAdventurersGuideA5E|3|LevelUpAdventurersGuideA5E",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|4|LevelUpAdventurersGuideA5E",
+				"Wilderness Mystique|Ranger|LevelUpAdventurersGuideA5E|4|LevelUpAdventurersGuideA5E",
+				"Extra Attack|Ranger|LevelUpAdventurersGuideA5E|5|LevelUpAdventurersGuideA5E",
+				"Stride and Seek (2)|Ranger|LevelUpAdventurersGuideA5E|5|LevelUpAdventurersGuideA5E",
+				"Adversarial Focus|Ranger|LevelUpAdventurersGuideA5E|6|LevelUpAdventurersGuideA5E",
+				"Game Hunting|Ranger|LevelUpAdventurersGuideA5E|6|LevelUpAdventurersGuideA5E",
+				{
+					"classFeature": "Ranger Archetype Feature|Ranger|LevelUpAdventurersGuideA5E|7|LevelUpAdventurersGuideA5E",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|8|LevelUpAdventurersGuideA5E",
+				"Explorer's Instinct|Ranger|LevelUpAdventurersGuideA5E|8|LevelUpAdventurersGuideA5E",
+				"Flash of Steel|Ranger|LevelUpAdventurersGuideA5E|9|LevelUpAdventurersGuideA5E",
+				"Hunter's Focus|Ranger|LevelUpAdventurersGuideA5E|9|LevelUpAdventurersGuideA5E",
+				"Trackless Hunting|Ranger|LevelUpAdventurersGuideA5E|10|LevelUpAdventurersGuideA5E",
+				{
+					"classFeature": "Ranger Archetype Feature|Ranger|LevelUpAdventurersGuideA5E|11|LevelUpAdventurersGuideA5E",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|12|LevelUpAdventurersGuideA5E",
+				"Wilderness Lore|Ranger|LevelUpAdventurersGuideA5E|12|LevelUpAdventurersGuideA5E",
+				"Guarded Post|Ranger|LevelUpAdventurersGuideA5E|13|LevelUpAdventurersGuideA5E",
+				"Tactical Advantage|Ranger|LevelUpAdventurersGuideA5E|14|LevelUpAdventurersGuideA5E",
+				{
+					"classFeature": "Ranger Archetype Feature|Ranger|LevelUpAdventurersGuideA5E|15|LevelUpAdventurersGuideA5E",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|16|LevelUpAdventurersGuideA5E",
+				"Survivalcraft|Ranger|LevelUpAdventurersGuideA5E|16|LevelUpAdventurersGuideA5E",
+				"Hunter's Intent|Ranger|LevelUpAdventurersGuideA5E|17|LevelUpAdventurersGuideA5E",
+				"Flora and Fauna|Ranger|LevelUpAdventurersGuideA5E|18|LevelUpAdventurersGuideA5E",
+				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|19|LevelUpAdventurersGuideA5E",
+				"Extreme Exploration|Ranger|LevelUpAdventurersGuideA5E|19|LevelUpAdventurersGuideA5E",
+                "Nature's Scion|Ranger|LevelUpAdventurersGuideA5E|20|LevelUpAdventurersGuideA5E"
+			],
+			"subclassTitle": "Ranger Archetype"
+		}
+	],
+	"subclass": [
+		{
+			"name": "Beast Master",
+			"shortName": "Beast Master",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"subclassFeatures": [
+				"Beast Master|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|3",
+				"Exceptional Training|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|7",
+				"Bestial Fury|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|11",
+				"Share Spells|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Hunter",
+			"shortName": "Hunter",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"subclassFeatures": [
+				"Hunter|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3",
+				"Defensive Tactics|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|7",
+				"Multiattack|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|11",
+				"Superior Hunter's Defense|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Deep Stalker (UA)",
+			"shortName": "Deep Stalker (UA)",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"disguise self"
+						],
+						"5": [
+							"rope trick"
+						],
+						"9": [
+							"glyph of warding"
+						],
+						"13": [
+							"greater invisibility"
+						],
+						"17": [
+							"seeming"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Deep Stalker|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|3",
+				"Iron Mind|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|7",
+				"Stalker's Flurry|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|11",
+				"Stalker's Dodge|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Horizon Walker (UA)",
+			"shortName": "Horizon Walker (UA)",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"protection from evil and good"
+						],
+						"5": [
+							"alter self"
+						],
+						"9": [
+							"protection from energy"
+						],
+						"13": [
+							"banishment"
+						],
+						"17": [
+							"teleportation circle"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Horizon Walker|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|3",
+				"Ethereal Step|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|7",
+				"Distant Strike|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|11",
+				"Spectral Defense|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Primeval Guardian (UA)",
+			"shortName": "Primeval Guardian (UA)",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"entangle"
+						],
+						"5": [
+							"enhance ability"
+						],
+						"9": [
+							"conjure animals"
+						],
+						"13": [
+							"giant insect"
+						],
+						"17": [
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Primeval Guardian|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|3",
+				"Ancient Fortitude|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|7",
+				"Rooted Defense|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|11",
+				"Guardian Aura|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Monster Slayer (UA)",
+			"shortName": "Monster Slayer (UA)",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"protection from evil and good"
+						],
+						"5": [
+							"zone of truth"
+						],
+						"9": [
+							"magic circle"
+						],
+						"13": [
+							"banishment"
+						],
+						"17": [
+							"planar binding"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Monster Slayer|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|3",
+				"Supernatural Defense|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|7",
+				"Relentless Slayer|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|11",
+				"Slayer's Counter|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Gloom Stalker",
+			"shortName": "Gloom Stalker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 41,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"disguise self"
+						],
+						"5": [
+							"rope trick"
+						],
+						"9": [
+							"fear"
+						],
+						"13": [
+							"greater invisibility"
+						],
+						"17": [
+							"seeming"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Gloom Stalker|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|3",
+				"Iron Mind|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|7",
+				"Stalker's Flurry|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|11",
+				"Shadowy Dodge|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Horizon Walker",
+			"shortName": "Horizon Walker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 42,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"protection from evil and good"
+						],
+						"5": [
+							"misty step"
+						],
+						"9": [
+							"haste"
+						],
+						"13": [
+							"banishment"
+						],
+						"17": [
+							"teleportation circle"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Horizon Walker|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|3",
+				"Ethereal Step|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|7",
+				"Distant Strike|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|11",
+				"Spectral Defense|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Monster Slayer",
+			"shortName": "Monster Slayer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 43,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"protection from evil and good"
+						],
+						"5": [
+							"zone of truth"
+						],
+						"9": [
+							"magic circle"
+						],
+						"13": [
+							"banishment"
+						],
+						"17": [
+							"hold monster"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Monster Slayer|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|3",
+				"Supernatural Defense|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|7",
+				"Magic-User's Nemesis|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|11",
+				"Slayer's Counter|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Swarmkeeper (UA)",
+			"shortName": "Swarmkeeper (UA)",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"faerie fire"
+						],
+						"5": [
+							"web"
+						],
+						"9": [
+							"gaseous form"
+						],
+						"13": [
+							"giant insect"
+						],
+						"17": [
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Swarmkeeper|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|3",
+				"Writhing Tide|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|7",
+				"Scuttling Eyes|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|11",
+				"Gathered Swarm Improvement|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|11",
+				"Storm of Minions|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Fey Wanderer (UA)",
+			"shortName": "Fey Wanderer (UA)",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 5,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"charm person"
+						],
+						"5": [
+							"misty step"
+						],
+						"9": [
+							"dispel magic"
+						],
+						"13": [
+							"banishment"
+						],
+						"17": [
+							"mislead"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Fey Wanderer|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|3",
+				"Blessings of the Courts|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|7",
+				"Beguiling Twist|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|11",
+				"Misty Presence|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Fey Wanderer",
+			"shortName": "Fey Wanderer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 58,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"charm person"
+						],
+						"5": [
+							"misty step"
+						],
+						"9": [
+							"dispel magic"
+						],
+						"13": [
+							"dimension door"
+						],
+						"17": [
+							"mislead"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Fey Wanderer|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|3",
+				"Beguiling Twist|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|7",
+				"Fey Reinforcements|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|11",
+				"Misty Wanderer|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Swarmkeeper",
+			"shortName": "Swarmkeeper",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 59,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"mage hand#c",
+							"faerie fire"
+						],
+						"5": [
+							"web"
+						],
+						"9": [
+							"gaseous form"
+						],
+						"13": [
+							"arcane eye"
+						],
+						"17": [
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Swarmkeeper|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|3",
+				"Writhing Tide|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|7",
+				"Mighty Swarm|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|11",
+				"Swarming Dispersal|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Drakewarden",
+			"shortName": "Drakewarden",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"page": 15,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"thaumaturgy#c"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Drakewarden|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|3",
+				"Bond of Fang and Scale|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|7",
+				"Drake's Breath|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|11",
+				"Perfected Bond|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+        {
+			"name": "Beastmaster",
+			"shortName": "Beastmaster",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassFeatures": [
+				"Beast Whisperer|Ranger|LevelUpAdventurersGuideA5E|Beastmaster|LevelUpAdventurersGuideA5E|3",
+				"Hunter's Pet|Ranger|LevelUpAdventurersGuideA5E|Beastmaster|LevelUpAdventurersGuideA5E|7",
+				"Friend of a Friend|Ranger|LevelUpAdventurersGuideA5E|Beastmaster|LevelUpAdventurersGuideA5E|11",
+				"Loyalty's Reward|Ranger|LevelUpAdventurersGuideA5E|Beastmaster|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+        {
+			"name": "Warden",
+			"shortName": "Warden",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassFeatures": [
+				"Organised Training|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|3",
+                "Saddled Up|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|3",
+				"Skillful Execution|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|7",
+				"Decisive Mind|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|11",
+				"Riding Out|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+        {
+			"name": "Wildborn",
+			"shortName": "Wildborn",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+            "spellcastingAbility": "wis",
+			"casterProgression": "1/3",
+			"cantripProgression": [
+                0,
+                0,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"spellsKnownProgression": [
+                0,
+                0,
+				3,
+				4,
+				4,
+				4,
+				5,
+				6,
+				6,
+				7,
+				8,
+				8,
+				9,
+				10,
+				10,
+				11,
+				11,
+				11,
+				12,
+				13
+			],
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Wildborn",
+							"source": "LevelUpAdventurersGuideA5E"
+						}
+					],
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Druid}",
+						"{@filter Spells Known|spells|class=Druid}"
+					],
+					"rows": [
+						[
+							0,
+							0
+						],
+						[
+							0,
+							0
+						],
+						[
+							2,
+							3
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							5
+						],
+						[
+							2,
+							6
+						],
+						[
+							2,
+							6
+						],
+						[
+							3,
+							7
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							9
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							12
+						],
+						[
+							3,
+							13
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"subclasses": [
+						{
+							"name": "Wildborn",
+							"source": "LevelUpAdventurersGuideA5E"
+						}
+					],
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Druid}",
+						"{@filter 2nd|spells|level=2|class=Druid}",
+						"{@filter 3rd|spells|level=3|class=Druid}",
+						"{@filter 4th|spells|level=4|class=Druid}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						]
+					]
+				}
+			],
+			"subclassFeatures": [
+				"Spellcasting|Ranger|LevelUpAdventurersGuideA5E|Wildborn|LevelUpAdventurersGuideA5E|3",
+				"Nature's Wellspring|Ranger|LevelUpAdventurersGuideA5E|Wildborn|LevelUpAdventurersGuideA5E|7",
+				"Hardy Resilience|Ranger|LevelUpAdventurersGuideA5E|Wildborn|LevelUpAdventurersGuideA5E|11",
+				"Naturally Attuned|Ranger|LevelUpAdventurersGuideA5E|Wildborn|LevelUpAdventurersGuideA5E|15"
+			]
+		},
+		{
+			"name": "Tenebrous Stalker",
+			"shortName": "Tenebrous Stalker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassFeatures": [
+				"Pierce the Dark|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|3",
+                "Embrace the Dark|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|7",
+				"Wield the Dark|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|7",
+				"Dark Resolve|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|11",
+				"Call the Dark|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|15"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Exploration Knacks",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 1,
+			"entries": [
+				"For a ranger exploration isn't just something that happens between destinations - it's a way of life. You start with two ranger {@filter exploration knacks|optionalfeatures|feature type=ek} of your choice. The Knacks Known column of the Ranger table shows when you learn more exploration knacks."
+			]
+		},
+		{
+			"name": "Familiar Terrain",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 1,
+			"entries": [
+				"When making an Intelligence or Wisdom check related to a natural terrain, you gain an expertise die if using a skill you're proficient in. While traveling in a natural terrain, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Difficult terrain doesn't slow your group's trave.",
+						"Your group can't become lost except by magical means.",
+						"Even when you are engaged in another activity while traveling, you remain alert to danger. Your Perception for the purposes of avoiding ambushes increases by 2.",
+						"If you are traveling alone, you can move stealthily at a normal pace. This grants you advantage on Scout journey activity checks.",
+						"When you take the Harvest journey activity, you find double the number of potions you would usually find.",
+						"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
+					]
+				}
+			]
+		},
+		{
+			"name": "Studied Adversary",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 1,
+			"entries": [
+				"You have significant experience studying, tracking, hunting, and even communicating with your enemies. Choose a type of adversary: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two humanoid races as studied adversaries.",
+				"You have advantage on Survival checks to track your studied adversaries, as well as on ability checks to recall information about them. You also learn to communicate with basic words in a language of your choice that is spoken by your studied adversaries, if they speak one at all.",
+				"During a long rest, you can replace a current studied adversary with a new one."
+			]
+		},
+		{
+			"name": "Combat Maneuvers",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you gain the ability to use combat maneuvers. You gain proficiency in two combat traditions from the following list: {@filter Biting Zephyr|spells|Subschool=biting zephyr|}, {@filter Mirror’s Glint|spells|Subschool=mirror’s glint|}, {@filter Rapid Current|spells|Subschool=rapid current|}, {@filter Razor’s Edge|spells|Subschool=razor’s edge|}, {@filter Spirited Steed|spells|Subschool=spirited steed|}, and {@filter Unending Wheel|spells|Subschool=unending wheel|}. You can learn two maneuvers of your choice from traditions you are proficient with.",
+				"You gain an exertion pool equal to twice your proficiency bonus, regaining any spent exertion at the end of a short or long rest. You use your maneuvers by spending points from your exertion pool. The Manuevers Known column of the Ranger table shows when you learn more maneuvers from a tradition you are proficient with, while the Maneuver Degree column shows the highest degree you can select maneuvers from at a given level.",
+				"Additionally, whenever you take a long rest, you can choose one of the maneuvers you know and replace it with another maneuver of the same degree from a tradition you are proficient with."
+			]
+		},
+		{
+			"name": "Stride and Seek",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 2,
+			"entries": [
+				"Your wilderness survival instincts guide your physical and mental training. You gain one of the following features at 2nd level. You gain the other feature when you reach 5th level in this class.",
+				{
+					"type": "entries",
+					"name": "Hunter's Target",
+					"entries": [
+						"You can use your bonus action to focus your attention on a specific enemy. Choose a creature you can see within 90 feet to mark as your quarry. For 1 hour, you are focused on this creature. You gain a +1 bonus to weapon attack rolls against the creature, and your weapon attacks against it deal an extra {@dice 1d6} damage. In addition, you have advantage on Perception and Survival checks you make to find it. If the creature drops to 0 hit points before the hour ends, you can use a bonus action to mark a new quarry.",
+						"Once you use this feature, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swift Feet",
+					"entries": [
+						"You can use your bonus action to move with greater agility. For 1 minute, your movement doesn't provoke opportunity attacks. You can choose to end this effect early to either increase your Speed by 30 feet until the end of your turn or gain advantage on a weapon attack.",
+						"Once you use this feature, you can't use it again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stride and Seek (2)",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 5,
+			"entries": [
+				"You gain the other feature from your Stride and Seek feature."
+			]
+		},
+		{
+			"name": "Trained Accuracy",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you learn to maintain a level of discipline that spills over into everything you do. This perpetual state of focus allows you to perform incredible feats. You gain both of the following features.",
+				{
+					"type": "entries",
+					"name": "Accuracy Bonus",
+					"entries": [
+						"When you make a weapon attack, you can use your reaction to gain an attack bonus or damage bonus as shown on the Accuracy Bonus table. Between long rests, you have a number of uses equal to your Wisdom modifier (minimum 1).",
+						{
+							"type": "table",
+							"caption": "Accuracy Bonus",
+							"colLabels": [
+								"Bonus",
+								"Cost"
+							],
+							"colStyles": [
+								"col-10",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"+1 to hit or +1d6 damage",
+									"1 use"
+								],
+								[
+									"+2 to hit or +3d6 damage",
+									"2 uses"
+								],
+								[
+									"+3 to hit or +5d6 damage",
+									"3 uses"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Accuracy Reserve",
+					"entries": [
+						"If you have not moved since the beginning of your last turn, you gain a +1 bonus to weapon attack rolls until the end of your turn. You lose this bonus if you move."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ranger Archetype",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you choose an archetype that embodied your purpose as a ranger. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+			]
+		},
+		{
+			"name": "Ranger Archetype Feature",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain the next feature from your ranger archetype."
+			]
+		},
+		{
+			"name": "Ranger Archetype Feature",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain the next feature from your ranger archetype."
+			]
+		},
+		{
+			"name": "Ranger Archetype Feature",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain the next feature from your ranger archetype."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},{
+			"name": "Ability Score Improvement",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},{
+			"name": "Ability Score Improvement",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Wilderness Mystique",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 4,
+			"entries": [
+				"At 4th level your experience as an expert survivalist manifests at the subconscious level. Choose one of the following options:",
+				{
+					"type": "entries",
+					"name": "Answering Silence",
+					"entries": [
+						"When others seek your advice on wilderness matters, they often arrive at the correct conclusion despite (or perhaps because of) the silence with which you respond. When a friendly creature makes a Nature or Survival check while within 5 feet of you, it gains an expertise die."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fearsome Mysticism",
+					"entries": [
+						"Your uncanny abilities and single-minded focus can be unnerving to the uninitiated. You gain an expertise die on Intimidation checks against any creature that is neither proficient in Arcana nor casts spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kindred Spirit",
+					"entries": [
+						"You intuitively sense when another wilderness expert is nearby. Your Perception for the purposes of detecting hidden or invisible creatures within 30 feet of you increases by 5, and you instantly detect whether any creature you can see is proficient with Stealth or Survival."
+					]
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 5,
+			"entries": [
+				"At 5th level you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Adversarial Focus",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 6,
+			"entries": [
+				"At 6th level you gain an additional studied adversary, and you gain a +1 bonus to weapon attack rolls made against your studied adversaries."
+			]
+		},
+		{
+			"name": "Game Hunting",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 6,
+			"entries": [
+				"At 6th level, you have advantage on Gather Component journey activity checks.",
+				"Additionally, you have proficiency with nets, and being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls with a net."
+			]
+		},
+		{
+			"name": "Explorer's Instinct",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 8,
+			"entries": [
+				"At 8th level, once between long rests, you can take two reactions in a round instead of one.",
+				"In addition, whenever you learn an new ranger exploration knack or replace an existing one, you can choose from druid {@filter secrets of nature|optionalfeatures|feature type=sn} or fighter {@filter soldiering knacks|optionalfeatures|feature type=sk}."
+			]
+		},
+		{
+			"name": "Flash of Steel",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 9,
+			"entries": [
+				"At 9th level you gain the {@spell Missile Volley|LevelUpAdventurersGuideA5E} or {@spell Whirlind Strike|LevelUpAdventurersGuideA5E} combat maneuver. It does not count against your number of maneuvers known and you do not have to spend exertion points to activate it."
+			]
+		},
+		{
+			"name": "Hunter's Focus",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 9,
+			"entries": [
+				"At 9th level, you can remain focused on your Hunter's Target for up to 8 hours."
+			]
+		},
+		{
+			"name": "Trackless Hunting",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 10,
+			"entries": [
+				"At 10th level, you can't be tracked except by magical means, unless you choose to leave a trail.",
+				"In addition, whenever you learn a new ranger exploration knack or replace an existing one, you can choose to learn a {@filter rogue skill trick|optionalfeatures|feature type=st} instead."
+			]
+		},
+		{
+			"name": "Wilderness Lore",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 12,
+			"entries": [
+				"At 12th level, your knowledge of wilderness lore deepens. Choose one of the following options:",
+				{
+					"type": "entries",
+					"name": "Big Game Traps",
+					"entries": [
+						"Leveraging your skill with snaring small game, you take 10 minutes to set a trap or snare for a creature of Large size or smaller.",
+						"The Trap's DC is 8 + your Dexterity modifier + your proficiency bonus. A creature can spot the trap by making a Perception check against the trap's DC.",
+						"Describe the mechanics of your trap to the DM, including what triggers it and what happens when triggered. You may use the following examples or work with the DM to invent your own.",
+						"When a creature enters the trapped area or interacts with the trapped object it makes a Dexterity saving throw against the trap's DC or triggers the trap.",
+						{
+							"type": "list",
+							"items": [
+								"Pendulum Trap: Creatures within 5 feet of the trap are struck by a swinging object that deals bludeoning, piercing, or slashing damage (determined by the object) equal to 1d8 plus your Wisdom modifier.",
+								"Pit Trap: The creature falls into a pre-existing pit or hazard that you have concealed.",
+								"Rope Trap: The creature is either knocked prone or restrained by a net or rope."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Waste Not",
+					"entries": [
+						"With 10 minutes work you can scavenge valuable cuts from the corpse of a beast, dragon, monstrosity, or plant that has a CR of 1 or higher and has died within the last hour. If sold to a collector, druid, or other naturalist, this notable component is worth an amount of gold equal to 5 x the creature's CR (consult your DM to confirm this gold value)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Guarded Post",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 13,
+			"entries": [
+				"Experience has taught you that defending others is often the key to survival. At 13th level choose one of the following options:",
+				{
+					"type": "entries",
+					"name": "Defensive Marksman",
+					"entries": [
+						"When a hostile creature moves towards you or an ally, you can use your reaction to make a ranged weapon attack against it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hunter's Blind",
+					"entries": [
+						"You can spend 10 minutes constructing a natural shelter able to accommodate you. The shelter blends in with its surroundings, and as long as you don't move into or out of it, the shelter is indistinguishable from a natural object. It is designed to allow you to see out while inside, but prevent anyone outside from seeing in.",
+						"The shelter is comfortable and dry, regardless of the weather outside, and counts as a Haven for you. Any other creature that tries to use your Hunter's Blind inadvertantly ruins it after 2d4 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tactical Advantage",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 14,
+			"entries": [
+				"At 14th level you gain a third studied adversary. In addition, you can choose one of the following ranger tactics:",
+				{
+					"type": "entries",
+					"name": "Covered Shot",
+					"entries": [
+						"When you are protected by half cover, you gain the benefits of three-quarters cover."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nature's Shadow",
+					"entries": [
+						"You gain an expertise die on Stealth checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Survivalcraft",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 16,
+			"entries": [
+				"At 16th level, basic survival skills have become second nature to you. Choose one of the following options:",
+				{
+					"type": "entries",
+					"name": "Under the Stars",
+					"entries": [
+						"You gain the benefits of a long rest in half the normal amount of time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Woodlore",
+					"entries": [
+						"Using your action, you can produce a flame at a moment's notice even in wet or cold environments. This allows you to ignore the penalties of wet or cold weather on your journey activities. You can hold the flame in your hand without harming yourself or your equipment. Without additional fuel, the flame lasts for 10 minutes, shedding bright light in a 10-foot radius and dim light for an additional 10 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hunter's Intent",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 17,
+			"entries": [
+				"At 17th level, you add your Wisdom modifier to the damage you inflict with a weapon attack."
+			]
+		},
+		{
+			"name": "Flora and Fauna",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 18,
+			"entries": [
+				"At 18th level choose one of the following benefits:",
+				{
+					"type": "entries",
+					"name": "Beastly Attack",
+					"entries": [
+						"Once on each of your turns, a beast that is friendly to you and able to see or hear you can use its reaction to make a single attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "High Ground",
+					"entries": [
+						"You instantly analyse the natural foliage and features of a given terrain as well as how to leverage them to your advantage. You gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Your walking and climbing speed increase by 5 feet.",
+								"When you are protected by three-quarters cover, you gain the benefits of total cover.",
+								"If you make a weapon attack against a creature, your movement does not provoke opportunity attacks from it until the beginning of your next turn.",
+								"When you move through an area, you can cause it to become difficult terrain until the beginning of your next turn, and any creature that moves through the area during that time has disadvantage on its next attack roll."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Extreme Exploration",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 19,
+			"entries": [
+				"Your travels and training have taken you to new heights and amazing depths. At 19th level, you gain two of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain 50% resistance to fire and cold damage.",
+						"You gain immunity to poison.",
+						"You gain a swimming speed and climbing speed equal to your speed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nature's Scion",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"level": 20,
+			"entries": [
+				"At 20th level, you are a master of yourself and your natural surroundings. You become extremely familiar with all types of terrain and can use the {@optfeature Master Tracker|LevelUpAdventurersGuideA5E} exploration knack at will.",
+				"In addition, you learn Primordial if you don't already know it and gain one of the following:",
+				{
+					"type": "entries",
+					"name": "Elemental Mastery",
+					"entries": [
+						"By focusing on a specific natural element within 100 feet (air, fire, earth, water, or wood) you can attract similar essences to you. After 10 minutes of concentration, a creature of that element is drawn to your presence and becomes your loyal minion. This creature is based on one of the creatures from the below table, but with the following modifications:",
+						{
+							"type": "list",
+							"items": [
+								"The guardian's Armour Class increases by 2.",
+								"The guardian's challenge rating increases to CR 7.",
+								"The guardian speaks Primordial in addition to any other languages it knows.",
+								"The guardian gains a +1 bonus to hit with its weapon attacks, dealing an additional 5 points of force damage on a hit.",
+								"If both of the guardian's attacks hit a Medium or smaller target, the target is grappled (escape DC 15), and the guardian uses its Engulf action on it.",
+								"The guardian gains the Engulf action: The guardian engulfs a Medium or smaller creature grappled by it. The engulfed creature is {@condition blinded}, {@condition restrained}, and unable to breathe, and at the start of each of the guardian's turns it makes a DC 15 Constitution saving throw or takes 2d8 + 4 bludgeoning (or fire damage for a fire guardian). If the guardian moves, the engulfed creature moves with it. The guardian can have only one creature engulfed at a time.",
+								"The guardian gains the Guard Life action: The guardian uses it Engulf on a willing or unconscious ally without dealing damage. While engulfed, the ally is grappled but not restrained, can see and breathe normally, and has total cover. As soon as the ally takes an action, reaction, or bonus action, they are no longer engulfed. The guardian can release the ally at will (no action required)."
+							]
+						},
+						"The creature is friendly to you and your companions, takes its turn immediately after yours, and obeys your verbal commands. The creature disappears after 1 hour, when it is reduced to 0 hit point, or you use a bonus action to dismiss it. Once you have used this feature, you can't do so again until you finish a long rest.",
+						{
+							"type": "table",
+							"caption": "Elemental Mastery Wilderness Guardians",
+							"colLabels": [
+								"Guardian Type",
+								"Base Creature"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"Air",
+									"{@creature Air elemental}"
+								],
+								[
+									"Earth",
+									"{@creature Earth elemental}"
+								],
+								[
+									"Fire",
+									"{@creature Fire elemental}"
+								],
+								[
+									"Water",
+									"{@creature Water elemental}"
+								],
+								[
+									"Wood",
+									"{@creature Shambling mound}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Summon Stampede",
+					"entries": [
+						"You can spend an action speaking directly to the spirit of nature itself to request assistance. All beasts within a 1-mile radius of you are friendly to you for 1 minute, and for the duration on initiative count 20 (losing initiative ties), you can choose one of the following effects. You can't use the same effect two rounds in a row. Once you have used this feature, you can't do so again until you finish a long rest.",
+						{
+							"type": "list",
+							"items": [
+								"Enraged Fauna: Up to 3 Huge native creatures of up to CR 8 charge forward, bowling into your enemies. Choose any number of creatures you can see within 100 feet. Each creature makes a Strength saving throw against your maneuver DC or takes 6d8 bludgeoning damage, or half damage on a success. In addition, you can choose one of the Huge creatures to stay and fight. You can have only one such creature assist in this way at a time, and it retreats when bloodied or when you command it to leave.",
+								"Rushing Stamped: A Huge-sized horde of Small, Medium, and Large native creatures hurry through the area, traveling in a 30'-wide line from a direction you choose. Until the start of your next turn, the area is difficult terrain. In addition, each creature of your choice in the area makes a Dexterity saving throw against your maneuver DC. On a failure, a creature takes 6d6 bludgeoning damage, is knocked prone, and {@condition debilitated|LevelUpAdventurersGuideA5E} until the start of your next turn. On a success, a creature instead takes half damage and is {@condition rattled|LevelUpAdventurersGuideA5E} until the start of your next turn.",
+								"Swarming Pests: Several Medium-sized swarms of Tiny native creatures enter the spaces of up to 5 Small, Medium, or Large creatures you choose, or the space of a Huge or Gargantuan creature. Each enemy creature in the swarm's area must make a Constitution saving throw against your maneuver DC or become {@condition blinded} and {@condition slowed|LevelUpAdventurersGuideA5E} until the start of your next turn, and loses concentration on any spell or effect it is concentrating on. On a successful save, an enemy creature is instead {@condition slowed|LevelUpAdventurersGuideA5E}."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Drakewarden",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 15,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Your connection to the natural world takes the form of a draconic spirit, which can manifest in physical form as a drake. As your powers grow, your drake grows as well, blossoming from a small four-legged companion to a majestic winged creature large and strong enough for you to ride. Along the way, you gain an increasing share of the awe-inspiring power of dragons.",
+				"Consider the source of the draconic spirit you have bonded with. The Drakewarden Origin table offers examples.",
+				{
+					"type": "table",
+					"caption": "Drakewarden Origin",
+					"colLabels": [
+						"d6",
+						"Origin"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"You studied a dragon's scale or claw, or a trinket from a dragon's hoard, creating your bond through that token's lingering draconic magic."
+						],
+						[
+							"2",
+							"A secret order of rangers who collect and guard draconic lore taught you their ways."
+						],
+						[
+							"3",
+							"A dragon gave you a geode or gemstone to care for. To your surprise, the drake hatched from that stone."
+						],
+						[
+							"4",
+							"You ingested a few drops of dragon blood, forever infusing your nature magic with draconic power."
+						],
+						[
+							"5",
+							"An ancient Draconic inscription on a standing stone empowered you when you read it aloud."
+						],
+						[
+							"6",
+							"You had a vivid dream of a mysterious figure accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you."
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Gift|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drake Companion|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Draconic Gift",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 15,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Drakewarden feature}",
+				"The bond you share with your drake creates a connection to dragonkind, granting you understanding and empowering your presence. You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Thaumaturgy",
+							"entry": "You learn the {@spell thaumaturgy} cantrip, which is a ranger spell for you."
+						},
+						{
+							"type": "item",
+							"name": "Tongue of Dragons",
+							"entry": "You learn to speak, read, and write Draconic or one other language of your choice."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drake Companion",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 15,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Drakewarden feature}",
+				"As an action, you can magically summon the drake that is bound to you. It appears in an unoccupied space of your choice within 30 feet of you.",
+				"The drake is friendly to you and your companions, and it obeys your commands. See its game statistics in the accompanying {@creature Drake Companion|FTD} stat block, which uses your proficiency bonus (PB) in several places. Whenever you summon the drake, choose a damage type listed in its Draconic Essence trait. You can determine the cosmetic characteristics of the drake, such as its color, its scale texture, or any visible effect of its Draconic Essence; your choice has no effect on its game statistics.",
+				"In combat, the drake shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the drake can take any action of its choice, not just {@action Dodge}.",
+				"The drake remains until it is reduced to 0 hit points, until you use this feature to summon the drake again, or until you die. Anything the drake was wearing or carrying is left behind when the drake vanishes.",
+				"Once you summon the drake, you can't do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher to summon it."
+			]
+		},
+		{
+			"name": "Bond of Fang and Scale",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 15,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Drakewarden feature}",
+				"The bond you share with your drake intensifies, protecting you and stoking the drake's fury. When you summon your drake, it grows wings on its back and gains a flying speed equal to its walking speed.",
+				"In addition, while your drake is summoned, you and the drake gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Drake Mount",
+							"entries": [
+								"The drake grows to Medium size. Reflecting your special bond, you can use the drake as a mount if your size is Medium or smaller. While you are riding your drake, it can't use the flying speed of this feature."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Magic Fang",
+							"entries": [
+								"The drake's Bite attack deals an extra {@damage 1d6} damage of the type chosen for the drake's Draconic Essence."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Resistance",
+							"entries": [
+								"You gain resistance to the damage type chosen for the drake's Draconic Essence."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drake's Breath",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 15,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Drakewarden feature}",
+				"As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence). Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking {@damage 8d6} damage on a failed save, or half as much damage on a successful one.",
+				"This damage increases to {@dice 10d6} when you reach 15th level in this class.",
+				"Once you use this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again."
+			]
+		},
+		{
+			"name": "Perfected Bond",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 15,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Drakewarden feature}",
+				"Your bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Empowered Bite",
+							"entries": [
+								"The drake's Bite attack deals an extra {@damage 1d6} damage of the type chosen for its Draconic Essence (for a total of {@damage 2d6} extra damage)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Large Drake",
+							"entries": [
+								"The drake grows to Large size. When you ride your drake, it is no longer prohibited from using the flying speed of Bond of Fang and Scale."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Reflexive Resistance",
+							"entries": [
+								"When either you or the drake takes damage while you're within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Beast Master",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ranger's Companion|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Primal Companion",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 61,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Beast Master variant feature, which replaces the Ranger's Companion feature}",
+				"You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block\u2014{@creature Beast of the Land|TCE}, {@creature Beast of the Sea|TCE}, or {@creature Beast of the Sky|TCE}\u2014which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.",
+				"In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the {@action Attack} action to command the beast to take the {@action Attack} action. If you are {@condition incapacitated}, the beast can take any action of its choice, not just {@action Dodge}.",
+				"If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.",
+				"When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die."
+			]
+		},
+		{
+			"name": "Ranger Companion Options",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 8,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Beast Master feature (enhances Ranger's Companion)}",
+				"While wandering the wilds, a ranger encounters many sorts of animals, some of which the ranger might befriend. This friendship can arise from successful use of the {@skill Animal Handling} skill or the {@spell animal friendship} spell. If the resulting bond is strong enough, the animal might join the ranger on adventures.",
+				"A ranger who has the Beast Master archetype can form an even stronger bond, feeling almost like a sibling to an animal. A special type of beast awaits a Beast Master in the wilds, a creature whose lineage stretches back to the beginnings of the world: a primal beast known as a {@creature Beast of the Air|UAClassFeatureVariants} or a {@creature Beast of the Earth|UAClassFeatureVariants}. Such a creature seeks out the type of companionship that a Beast Master offers, ready for the two of them to battle the imbalances in the natural world.",
+				"The primal beast is a special creature that a Beast Master can choose for the Ranger's Companion feature. When choosing such a creature, you decide whether it is a Beast of the Air or the Earth, and you determine its appearance. Stories describe primal beasts that mystically change form to align with the spirit of their companion.",
+				"When a primal beast is met apart from a Beast Master, the creature takes the form a regular beast of challenge rating 1/4 or lower, as determined by the DM."
+			]
+		},
+		{
+			"name": "Ranger's Companion",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a {@filter beast that is no larger than Medium and that has a challenge rating of 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|type=beast|size=f;d;t;s;m|miscellaneous=!swarm}. Add your proficiency bonus to the beast's AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher. Like any creature, the beast can spend Hit Dice during a short rest.",
+				"The beast obeys your commands as best as it can. It takes its turn on your initiative. On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the {@action Attack}, {@action Dash}, {@action Disengage}, or {@action Help} action. If you don't issue a command, the beast takes the {@action Dodge} action. Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the {@action Attack} action.",
+				"If you are {@condition incapacitated} or absent, your beast companion acts on its own, focusing on protecting you and itself. It never requires your command to use its reaction, such as when making an opportunity attack.",
+				"While traveling through your favored terrain with only the beast, you can move stealthily at a normal pace.",
+				"If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn't hostile to you, either the same type of beast as before or a different one."
+			]
+		},
+		{
+			"name": "Exceptional Training",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, on any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the {@action Dash}, {@action Disengage}, or {@action Help} action on its turn. In addition, the beast's attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Bestial Fury",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, when you command your beast companion to take the {@action Attack} action, the beast can make two attacks, or it can take the Multiattack action if it has that action."
+			]
+		},
+		{
+			"name": "Share Spells",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you."
+			]
+		},
+		{
+			"name": "Hunter",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter's Prey|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Horde Breaker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+			]
+		},
+		{
+			"name": "Hunter's Prey",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain one of the following features of your choice.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Colossus Slayer|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Giant Killer|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Horde Breaker|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Colossus Slayer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra {@damage 1d8} damage if it's below its hit point maximum. You can deal this extra damage only once per turn."
+			]
+		},
+		{
+			"name": "Giant Killer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature."
+			]
+		},
+		{
+			"name": "Defensive Tactics",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you gain one of the following features of your choice.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Escape the Horde|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|7"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Multiattack Defense|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|7"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Steel Will|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Escape the Horde",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Opportunity attacks against you are made with disadvantage."
+			]
+		},
+		{
+			"name": "Multiattack Defense",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+			]
+		},
+		{
+			"name": "Steel Will",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You have advantage on saving throws against being {@condition frightened}."
+			]
+		},
+		{
+			"name": "Multiattack",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain one of the following features of your choice.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Volley|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|11"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Whirlwind Attack|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|11"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Volley",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+			]
+		},
+		{
+			"name": "Whirlwind Attack",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a {@spell lightning bolt} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Stand Against the Tide",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice."
+			]
+		},
+		{
+			"name": "Superior Hunter's Defense",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you gain one of the following features of your choice.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Evasion|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|15"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Stand Against the Tide|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|15"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Uncanny Dodge|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|15"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Uncanny Dodge",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Hunter",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+			]
+		},
+		{
+			"name": "Fey Wanderer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 58,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms. As you wander the multiverse, your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadful Strikes|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fey Wanderer Magic|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Otherworldly Glamour|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Dreadful Strikes",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 58,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fey Wanderer feature}",
+				"You can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra {@damage 1d4} psychic damage to the target, which can take this extra damage only once per turn.",
+				"The extra damage increases to {@dice 1d6} when you reach 11th level in this class."
+			]
+		},
+		{
+			"name": "Fey Wanderer Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 58,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fey Wanderer feature}",
+				"You learn an additional spell when you reach certain levels in this class, as shown in the Fey Wanderer Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Fey Wanderer Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell charm person}"
+						],
+						[
+							"5th",
+							"{@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell dispel magic}"
+						],
+						[
+							"13th",
+							"{@spell dimension door}"
+						],
+						[
+							"17th",
+							"{@spell mislead}"
+						]
+					]
+				},
+				"You also possess a preternatural blessing from a fey ally or a place of fey power. Choose your blessing from the Feywild Gifts table or determine it randomly.",
+				{
+					"type": "table",
+					"caption": "Feywild Gifts",
+					"colLabels": [
+						"d6",
+						"Gift"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Illusory butterflies flutter around you while you take a short or long rest."
+						],
+						[
+							"2",
+							"Fresh, seasonal flowers sprout from your hair each dawn."
+						],
+						[
+							"3",
+							"You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice."
+						],
+						[
+							"4",
+							"Your shadow dances while no one is looking directly at it."
+						],
+						[
+							"5",
+							"Horns or antlers sprout from your head."
+						],
+						[
+							"6",
+							"Your skin and hair change color to match the season at each dawn."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Otherworldly Glamour",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 58,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fey Wanderer feature}",
+				"Your fey qualities give you a supernatural charm. As a result, whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).",
+				"In addition, you gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Performance}, or {@skill Persuasion}."
+			]
+		},
+		{
+			"name": "Beguiling Twist",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 58,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Fey Wanderer feature}",
+				"The magic of the Feywild guards your mind. You have advantage on saving throws against being {@condition charmed} or {@condition frightened}.",
+				"In addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw against being {@condition charmed} or {@condition frightened}, you can use your reaction to force a different creature you can see within 120 feet of you to make a Wisdom saving throw against your spell save DC. If the save fails, the target is {@condition charmed} or {@condition frightened} by you (your choice) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save."
+			]
+		},
+		{
+			"name": "Fey Reinforcements",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 58,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Fey Wanderer feature}",
+				"The royal courts of the Feywild have blessed you with the assistance of fey beings: you know {@spell summon fey|tce}. It doesn't count against the number of ranger spells you know, and you can cast it without a material component. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest.",
+				"Whenever you start casting the spell, you can modify it so that it doesn't require concentration. If you do so, the spell's duration becomes 1 minute for that casting."
+			]
+		},
+		{
+			"name": "Misty Wanderer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 58,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Fey Wanderer feature}",
+				"You can slip in and out of the Feywild to move in a blink of an eye: you can cast {@spell misty step} without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+				"In addition, whenever you cast {@i misty step}, you can bring along one willing creature you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space."
+			]
+		},
+		{
+			"name": "Swarmkeeper",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 59,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gathered Swarm|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Swarmkeeper Magic|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Gathered Swarm",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 59,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Swarmkeeper feature}",
+				"A swarm of intangible nature spirits has bonded itself to you and can assist you in battle. While you're alive, the swarm remains in your space, crawling on you or flying and skittering around you within your space. You determine its appearance, or you generate its appearance by rolling on the Swarm Appearance table.",
+				{
+					"type": "table",
+					"caption": "Swarm Appearance",
+					"colLabels": [
+						"d4",
+						"Appearance"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Swarming insects"
+						],
+						[
+							"2",
+							"Miniature twig blights"
+						],
+						[
+							"3",
+							"Fluttering birds"
+						],
+						[
+							"4",
+							"Playful pixies"
+						]
+					]
+				},
+				"Once on each of your turns, you can cause the swarm to assist you in one of the following ways, immediately after you hit a creature with an attack:",
+				{
+					"type": "list",
+					"items": [
+						"The attack's target takes {@damage 1d6} piercing damage from the swarm.",
+						"The attack's target must succeed on a Strength saving throw against your spell save DC or be moved by the swarm up to 15 feet horizontally in a direction of your choice.",
+						"You are moved by the swarm 5 feet horizontally in a direction of your choice."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "It's Your Swarm",
+					"entries": [
+						"A Swarmkeeper's swarm and spells are reflections of the character's bond with nature spirits. Take the opportunity to describe the swarm and the ranger's magic in play. For example, when your ranger casts gaseous form, they might appear to melt into the swarm, instead of a cloud of mist, or the {@spell arcane eye} spell could create an extension of your swarm that spies for you. Such descriptions don't change the effects of spells, but they are an exciting opportunity to explore your character's narrative through their class abilities. For more guidance on customizing spells, see the \"Personalizing Spells\" section in chapter 3.",
+						"Also, remember that the swarm's appearance is yours to customize, and don't feel confined to a single appearance. Perhaps the spirits' look changes with the ranger's mood or with the seasons. You decide!"
+					]
+				}
+			]
+		},
+		{
+			"name": "Swarmkeeper Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 59,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Swarmkeeper feature}",
+				"You learn the {@spell mage hand} cantrip if you don't already know it. When you cast it, the hand takes the form of your swarming nature spirits.",
+				"You also learn an additional spell of 1st level or higher when you reach certain levels in this class, as shown in the Swarmkeeper Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Swarmkeeper Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell faerie fire}"
+						],
+						[
+							"5th",
+							"{@spell web}"
+						],
+						[
+							"9th",
+							"{@spell gaseous form}"
+						],
+						[
+							"13th",
+							"{@spell arcane eye}"
+						],
+						[
+							"17th",
+							"{@spell insect plague}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Writhing Tide",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 59,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Swarmkeeper feature}",
+				"You can condense part of your swarm into a focused mass that lifts you up. As a bonus action, you gain a flying speed of 10 feet and can hover. This effect lasts for 1 minute or until you are {@condition incapacitated}.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Mighty Swarm",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 59,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Swarmkeeper feature}",
+				"Your Gathered Swarm grows mightier in the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"The damage of Gathered Swarm increases to {@dice 1d8}.",
+						"If a creature fails its saving throw against being moved by Gathered Swarm, you can also cause the swarm to knock the creature {@condition prone}.",
+						"When you are moved by Gathered Swarm, it gives you half cover until the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Swarming Dispersal",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 59,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Swarmkeeper feature}",
+				"You can discorporate into your swarm, avoiding danger. When you take damage, you can use your reaction to give yourself resistance to that damage. You vanish into your swarm and then teleport to an unoccupied space that you can see within 30 feet of you, where you reappear with the swarm.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Fey Wanderer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"As a Fey Wanderer, you guard the border between the Feywild and the Material Plane, guiding the lost out of the Feywild and preventing dangerous fey from damaging the Material Plane. Your experience with both domains makes you an exceptional negotiator between inhabitants of these worlds, as you understand both humanoid mindsets and the wiles of the fey courts.",
+				"Fey Wanderers possess a preternatural blessing from a fey ally or a place of fey power. Choose your blessing from the Feywild Gifts table or determine it randomly.",
+				{
+					"type": "table",
+					"caption": "Feywild Gifts",
+					"colLabels": [
+						"d6",
+						"Gift"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Illusory butterflies flutter around you while you take a short or long rest."
+						],
+						[
+							"2",
+							"Fresh, seasonal flowers sprout from your hair each dawn."
+						],
+						[
+							"3",
+							"You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice."
+						],
+						[
+							"4",
+							"Your shadow dances while no one is looking directly at it."
+						],
+						[
+							"5",
+							"Delicate horns or antlers sprout from your head."
+						],
+						[
+							"6",
+							"Your skin and hair change color to match the season at each dawn."
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fey Wanderer Magic|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cunning Will|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadful Strikes|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Cunning Will",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fey Wanderer feature}",
+				"Your experience with the fey has guarded your mind and sharpened your tongue. You have advantage on saving throws against being {@condition charmed} or {@condition frightened}.",
+				"In addition, you gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Performance}, or {@skill Persuasion}."
+			]
+		},
+		{
+			"name": "Dreadful Strikes",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fey Wanderer feature}",
+				"You augment your attacks with mind-scarring magic, drawn from the gloomy hollows of the unseelie fey. You gain a bonus action that you can use to imbue the weapon, or weapons, you're currently holding with magic. Until the end of the turn, the weapons are magical, and they deal an extra {@damage 1d6} psychic damage on a hit. A creature can take this extra damage only once per turn.",
+				"When you engage in two-weapon fighting, you can imbue your weapons as part of the same bonus action you use to make the attack."
+			]
+		},
+		{
+			"name": "Fey Wanderer Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fey Wanderer feature}",
+				"You learn an additional spell when you reach certain levels in this class, as shown in the Fey Wanderer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Fey Wanderer Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell charm person}"
+						],
+						[
+							"5th",
+							"{@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell dispel magic}"
+						],
+						[
+							"13th",
+							"{@spell banishment}"
+						],
+						[
+							"17th",
+							"{@spell mislead}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessings of the Courts",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Fey Wanderer feature}",
+				"You have learned eerie techniques from both the Gloaming Court and the Summer Court of the Feywild. Once during each of your turns, when you hit a creature with a weapon attack, you can expend a spell slot to deal extra psychic damage. The extra damage is {@damage 3d6} psychic damage and the creature must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of you until the end of your next turn.",
+				"In addition, whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Beguiling Twist",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Fey Wanderer feature}",
+				"You learn how to manipulate mind-altering magic, channeling it from your allies toward others. Whenever a creature you can see within 120 feet of you succeeds on a saving throw against being {@condition charmed} or {@condition frightened}, you can use your reaction to force a different creature you can see within 120 feet of you to succeed on a Wisdom saving throw against your spell save DC or suffer your choice of one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The creature is {@condition charmed} or {@condition frightened} by you (your choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.",
+						"The creature takes {@damage 3d10} psychic damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Misty Presence",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Fey Wanderer feature}",
+				"You can magically remove yourself from one creature's perception: you gain a bonus action that you can use to force a creature you can see within 30 feet of you to make a Wisdom saving throw against your spell save DC. On a failed save, the target can't see or hear you for 24 hours. The target can repeat the saving throw at the end of any turn during which you hit it with an attack roll, forced it to make a saving throw, or dealt damage to it. The effect ends early if you use this bonus action again. On a successful save, the target is immune to this feature for 7 days.",
+				"Once you've used this bonus action, you can't use it again until you finish a long rest or until you expend a spell slot of 4th level or higher to use it again."
+			]
+		},
+		{
+			"name": "Drakewarden",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Drakewardens are rangers who use their magical connection with nature to form an enduring bond with a minor dragon, a drake. This bond allows the ranger to summon the drake to their side and to share in the awe-inspiring power wielded by dragons. Consider how your ranger gained their bond with the drake. The Drakewarden Origin table offers some examples.",
+				{
+					"type": "table",
+					"caption": "Drakewarden Origin",
+					"colLabels": [
+						"d6",
+						"Origin"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"You studied a dragon's scale or claw, or a trinket from its hoard, and created your bond through the token's lingering draconic magic."
+						],
+						[
+							"2",
+							"A secret order of rangers who collect and guard draconic lore taught you their ways."
+						],
+						[
+							"3",
+							"A true dragon gave you a drake egg to care for. When it hatched, the drake bonded to you."
+						],
+						[
+							"4",
+							"You drank a few drops of dragon blood, forever infusing your nature magic with draconic power."
+						],
+						[
+							"5",
+							"An ancient {@language Draconic} inscription on a standing stone empowered you when you read it aloud."
+						],
+						[
+							"6",
+							"You had a vivid dream of a mysterious man, accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you."
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Gift|Ranger|LevelUpAdventurersGuideA5E|Drakewarden (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drake Companion|Ranger|LevelUpAdventurersGuideA5E|Drakewarden (UA)|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Draconic Gift",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Drakewarden feature}",
+				"The bond you share with your drake creates a deeper connection to dragon kind, granting you understanding and empowering your presence. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"If you can't already, you learn to speak, read, and write {@language Draconic}.",
+						"You learn the {@spell thaumaturgy} cantrip, which is a ranger spell for you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Drake Companion",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Drakewarden feature}",
+				"You can magically summon the drake bound to you. As an action, you can summon the drake, which appears in an unoccupied space of your choice that you can see within 30 feet of you.",
+				"The drake is friendly to you and your companions and obeys your commands. See its game statistics in the {@creature Drake Companion|UA2020SubclassesPt5} stat block, which uses your proficiency bonus (PB) in several places. When you summon the drake, choose a damage type listed in its Draconic Essence trait. You can determine the cosmetic characteristics of the drake such as its color, scale texture, or any visible effect of its Draconic Essence; your choice has no effect on its game statistics.",
+				"In combat, the drake shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the drake can take any action of its choice, not just {@action Dodge}.",
+				"Once you summon the drake, you can't do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher to summon it.",
+				"The drake remains for a number of hours equal to your proficiency bonus, until it is reduced to 0 hit points, until you use this feature to summon the drake again, or until you die. Anything the drake was wearing or carrying is left behind when the drake vanishes."
+			]
+		},
+		{
+			"name": "Bond of Fang and Scale",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 4,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Drakewarden feature}",
+				"The bond you share with your drake intensifies, protecting you and stoking the drake's fury. While your drake is summoned, you and the drake gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain resistance to the damage type chosen for the drake's Draconic Essence.",
+						"Choose one of the following: the drake gains a swimming speed of 40 feet and can breathe both air and water, or the drake grows wings and gains a flying speed of 40 feet.",
+						"The drake's bite attack deals an extra {@damage 1d6} damage of the type chosen for its Draconic Essence."
+					]
+				}
+			]
+		},
+		{
+			"name": "Drake's Breath",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 4,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Drakewarden feature}",
+				"As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage. Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking {@damage 6d6} damage on a failed save, or half as much damage on a successful one.",
+				"This damage increases to {@dice 8d6} when you reach 15th level in this class.",
+				"Once you use this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again."
+			]
+		},
+		{
+			"name": "Perfected Bond",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 4,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Drakewarden feature}",
+				"Your bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"The drake grows to Large size.",
+						"The drake's bite attack deals an extra {@damage 1d6} damage of the type chosen for its Draconic Essence (for a total of {@damage 2d6} extra damage).",
+						"When either you or the drake takes damage while you're within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Monster Slayer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Rangers of the Slayer Conclave seek out vampires, dragons, evil fey, fiends, and other powerful magical threats. Trained in a variety of arcane and divine techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty foes.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Slayer's Mysticism|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Slayer's Eye|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Slayer's Eye",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you gain the ability to study and unravel a creature's defenses. As a bonus action, choose one creature you can see within 120 feet of you. You immediately learn the target's vulnerabilities, immunities, and resistances. You also learn any special effects triggered when the target takes damage, such as fire damage halting its regeneration.",
+				"In addition, the first time each turn you hit the target with a weapon attack, the target takes an extra {@damage 1d6} damage from the weapon.",
+				"This benefit lasts until you target a different creature with this feature or until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Slayer's Mysticism",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You learn an additional spell when you reach certain levels in this class, as shown in the Slayer Spells table. The spell counts as a ranger spell for you but doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Monster Slayer Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell protection from evil and good}"
+						],
+						[
+							"5th",
+							"{@spell zone of truth}"
+						],
+						[
+							"9th",
+							"{@spell magic circle}"
+						],
+						[
+							"13th",
+							"{@spell banishment}"
+						],
+						[
+							"17th",
+							"{@spell planar binding}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Supernatural Defense",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Slayer's Eye forces you to make a saving throw, add {@dice 1d6} to your roll."
+			]
+		},
+		{
+			"name": "Relentless Slayer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the ability to foil your foe's ability to escape. Your study of folklore and arcane knowledge gives you a key insight to keep your prey cornered. If the target of your Slayer's Eye attempts to teleport, change its shape, travel to another plane of existence, or turn gaseous, you can use your reaction to make a Wisdom check contested by a Wisdom check made by the target. To use this ability, you must be able to see the target and need to be within 30 feet of it. If you succeed, you foil its attempt, causing it to waste the action, bonus action, or reaction it used."
+			]
+		},
+		{
+			"name": "Slayer's Counter",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer's Eye forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw. If the attack hits, your save automatically succeeds, in addition to the attack's normal effects."
+			]
+		},
+		{
+			"name": "Swarmkeeper",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beasts\u2014be they buzzing insects, fluttering birds, slippery squids, or otherwise. The swarm becomes a potent force in battle, as well as helpful\u2014if potentially disturbing\u2014company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Swarmkeeper Magic|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gathered Swarm|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Gathered Swarm",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Swarmkeeper feature}",
+				"You magically attract a swarm of fey spirits that look like Tiny beasts of your choice. The swarm remains in your space, crawling on you or through your clothing, or flying and skittering immediately around you within your space.",
+				"As a bonus action, you can agitate the swarm for 1 minute. For the duration, some of the swarm clings to your weapons or follows your strikes when you attack: once during each of your turns when you hit a creature with a weapon attack, you can deal an extra {@damage 1d6} force damage to that creature, and the swarm moves the creature up to 5 feet toward you or away from you (your choice). At 11th level, the extra damage increases to {@dice 2d6}.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Swarmkeeper Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Swarmkeeper feature}",
+				"You learn the {@spell mage hand} cantrip if you don't already know it. When you cast it, the hand takes the form of swarming nature spirits. You also learn an additional spell when you reach certain levels in this class, as shown in the Swarmkeeper Spells table. These spells count as ranger spells for you, but don't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Swarmkeeper Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell faerie fire}"
+						],
+						[
+							"5th",
+							"{@spell web}"
+						],
+						[
+							"9th",
+							"{@spell gaseous form}"
+						],
+						[
+							"13th",
+							"{@spell giant insect}"
+						],
+						[
+							"17th",
+							"{@spell insect plague}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Writhing Tide",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Swarmkeeper feature}",
+				"You can condense part of your swarm into a focused mass that lifts or sweeps you along. Whenever you activate your Gathered Swarm feature, choose one of the following additional benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your walking speed increases by 10 feet, and you can take the {@action Disengage} action as a bonus action.",
+						"You gain a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down on ceilings, without making an ability check.",
+						"You gain a flying speed of 10 feet and can hover."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gathered Swarm Improvement",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Swarmkeeper feature}",
+				"The extra damage from your swarm increases to {@dice 2d6}."
+			]
+		},
+		{
+			"name": "Scuttling Eyes",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Swarmkeeper feature}",
+				"As an action, you can magically form one of the spirits of your swarm into the shape of a Tiny beast of your choice. The transformation lasts for 1 hour, at which point the spirit disappears. For the duration, the spirit has a speed of 40 feet, which it can use to walk, climb, fly, or swim. The spirit has your senses and telepathically relays what it sees and hears to you. During your turn, you can speak through the spirit, telepathically command it to move, and it can {@action Hide} using your bonus to Dexterity ({@skill Stealth}) checks. The spirit has AC 18. If it takes damage, you must succeed on a Wisdom saving throw (DC equal to 10, or half the damage dealt, whichever is higher) or the spirit disappears.",
+				"As an action, you can dismiss the spirit early. If you do, you can magically teleport to an unoccupied space within 5 feet of where the spirit disappeared.",
+				"Once you use this feature, you can't do so again until you finish a long rest. You can also use it again by expending a spell slot of 3rd level or higher."
+			]
+		},
+		{
+			"name": "Storm of Minions",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Swarmkeeper feature}",
+				"Your swarm can expel a seething storm of spirits that drains life from others. As an action, you create a magical sphere filled with an enraged swarm centered on a point you can see within 120 feet of you. The sphere has a 10-foot-radius and lasts for 1 minute. The sphere is {@quickref difficult terrain||3} for creatures other than you. A creature other than you that starts its turn in the sphere's area must make a Constitution saving throw against your spell save DC. On a failed save, the creature takes {@damage 2d8} necrotic damage and is {@condition blinded} until the start of its next turn. On a successful save, it takes half as much damage and isn't {@condition blinded}. At the start of your turn, if any number of Small or larger creatures took necrotic damage from the swarm, you regain {@dice 1d8} hit points. On subsequent turns, you can use a bonus action to move the sphere up to 30 feet.",
+				"When you activate this feature, you can choose any number of creatures you can see to be unaffected by it.",
+				"Once you use this feature, you can't do so again until you finish a long rest. You can also use it again by expending a spell slot of 4th level or higher."
+			]
+		},
+		{
+			"name": "Deep Stalker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Deep Stalker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Many Deep Stalkers are elves, as those folk know all too well the threat posed by the drow. Deep Stalkers scout for new passages into the Underdark, carefully mapping them and working to ensure they remain watched at all times. They venture into the depths on long, dangerous patrols, disappearing for months at a time. Many of them never return. Deep Stalkers master spells useful in navigating the Underdark, and their combat tactics focus on ambush, surprise, and stealth. They fight alone or in small groups in hostile territory, relying on clever tactics to carry the day.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Deep Stalker Magic|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Underdark Scout|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Deep Stalker Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Deep Stalker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"From 3rd level, you have {@sense darkvision} with a range of 90 feet. You also gain access to additional spells at 3rd, 5th, 9th, 13th, and 15th level. You are always able to cast these spells, and they do not count against your number of ranger spells known.",
+				{
+					"type": "table",
+					"caption": "Deep Stalker Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell disguise self}"
+						],
+						[
+							"5th",
+							"{@spell rope trick}"
+						],
+						[
+							"9th",
+							"{@spell glyph of warding}"
+						],
+						[
+							"13th",
+							"{@spell greater invisibility}"
+						],
+						[
+							"17th",
+							"{@spell seeming}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Underdark Scout",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Deep Stalker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you master the art of the ambush. On your first turn during combat, you gain a +10 bonus to your speed. If you use the attack action on that turn, you can make one additional attack. You gain an additional benefit on all turns after your first turn. At the end of each such turn, you can attempt to hide as a bonus action if you meet the normal requirements for hiding."
+			]
+		},
+		{
+			"name": "Iron Mind",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Deep Stalker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you gain proficiency in Wisdom saving throws."
+			]
+		},
+		{
+			"name": "Stalker's Flurry",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Deep Stalker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, you have the ability to ensure that your attacks count. If you miss with an attack during your turn, you can immediately make an additional attack. You can gain one additional attack during your turn with this ability."
+			]
+		},
+		{
+			"name": "Stalker's Dodge",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Deep Stalker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you master the ability to disrupt an opponent's attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack."
+			]
+		},
+		{
+			"name": "Horizon Walker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Rangers of the Horizon Conclave guard the world against threats that originate from other planes. They seek out planar portals and keep watch over them, venturing to the outer and inner planes as needed to defeat threats.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Planar Magic|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Planar Warrior|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Portal Lore|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Planar Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Horizon Walker Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell protection from evil and good}"
+						],
+						[
+							"5th",
+							"{@spell alter self}"
+						],
+						[
+							"9th",
+							"{@spell protection from energy}"
+						],
+						[
+							"13th",
+							"{@spell banishment}"
+						],
+						[
+							"17th",
+							"{@spell teleportation circle}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Planar Warrior",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you learn to draw on the energy of the planes to augment your attacks.",
+				"As a bonus action, choose one creature you can see within 30 feet of you. Until the end of this turn, your attacks against that creature ignore its damage resistances, and the next time you hit it on this turn, it takes an additional {@damage 1d6} force damage."
+			]
+		},
+		{
+			"name": "Portal Lore",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain the ability to detect the presence of planar portals. As an action, you detect the distance and direction to any planar portals within 1,000 feet of you. You also sense which plane of existence each portal leads to. However, if magic obscures any details of a portal, this feature doesn't reveal them.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest. Alternatively, you can use the feature again if you expend a spell slot of 2nd level or higher.",
+				"See the \"Planar Travel\" section in chapter 2 of the Dungeon Master's Guide for examples of planar portals."
+			]
+		},
+		{
+			"name": "Ethereal Step",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you learn to step through the Ethereal Plane. As a bonus action on your turn, you can cast the {@spell etherealness} spell with this feature, but the spell ends at the end of the current turn. Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Distant Strike",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the ability to step between the planes in a blink of an eye. When you use the {@action Attack} action, you can teleport up to 10 feet before each attack. You must be able to see the destination of the teleportation.",
+				"If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+			]
+		},
+		{
+			"name": "Spectral Defense",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, your ability to move between planes becomes even more finely tuned. As a reaction when you take damage, you can halve that damage against you. For a moment, you slip into the planar boundary to lessen the harm."
+			]
+		},
+		{
+			"name": "Primeval Guardian",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Rangers of the Primeval Guardian Conclave follow an ancient tradition rooted in powerful druidic magic. These rangers learn to become one with nature, allowing them to channel the aspects of various beasts and plants in order to overcome their foes.",
+				"These rangers dwell in the elder forests of the world. They venture out only rarely, as they consider it their sacred duty to protect the druidic groves and ancient trees that saw the earliest days of the world.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Guardian Magic|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Guardian Soul|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Piercing Thorns|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Guardian Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Primeval Guardian Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell entangle}"
+						],
+						[
+							"5th",
+							"{@spell enhance ability}"
+						],
+						[
+							"9th",
+							"{@spell conjure animals}"
+						],
+						[
+							"13th",
+							"{@spell giant insect}"
+						],
+						[
+							"17th",
+							"{@spell insect plague}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Guardian Soul",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you gain the ability to temporarily grow and take on the appearance of a treelike person, covered with leaves and bark. As a bonus action, you assume this guardian form, which lasts until you end it as a bonus action or until you are {@condition incapacitated}.",
+				"You undergo the following changes while in your guardian form:",
+				{
+					"type": "list",
+					"items": [
+						"Your size becomes Large, unless you were larger.",
+						"Any speed you have becomes 5 feet, unless the speed was lower.",
+						"Your reach increases by 5 feet.",
+						"You gain a number of temporary hit points at the start of each of your turns. The number equals half your ranger level. When the form ends, you lose any temporary hit points you have from it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Piercing Thorns",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, your command of primal magic allows you to enhance your attacks with thorns. Once during each of your turns, you can deal an additional {@damage 1d6} piercing damage to one creature you hit with a weapon attack."
+			]
+		},
+		{
+			"name": "Ancient Fortitude",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you gain the endurance of the ancient forests. Your hit point maximum and current hit points increase by 2 per ranger level when you assume your guardian form. This increase lasts until you leave the form; your hit point maximum then returns to normal, but your current hit points remain the same, unless they must decrease to abide by your hit point maximum."
+			]
+		},
+		{
+			"name": "Rooted Defense",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the ability to twist and turn the ground beneath you. While you are in your guardian form, the ground within 30 feet of you is {@quickref difficult terrain||3} for your enemies."
+			]
+		},
+		{
+			"name": "Guardian Aura",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. This aura has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs."
+			]
+		},
+		{
+			"name": "Gloom Stalker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 41,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gloom Stalker Magic|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dread Ambusher|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Umbral Sight|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Dread Ambusher",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 41,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you master the art of the ambush. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.",
+				"At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the {@action Attack} action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra {@damage 1d8} damage of the weapon's damage type."
+			]
+		},
+		{
+			"name": "Gloom Stalker Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 41,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Gloom Stalker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Gloom Stalker Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell disguise self}"
+						],
+						[
+							"5th",
+							"{@spell rope trick}"
+						],
+						[
+							"9th",
+							"{@spell fear}"
+						],
+						[
+							"13th",
+							"{@spell greater invisibility}"
+						],
+						[
+							"17th",
+							"{@spell seeming}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Umbral Sight",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 41,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision} from your race, its range increases by 30 feet.",
+				"You are also adept at evading creatures that rely on {@sense darkvision}. While in darkness, you are {@condition invisible} to any creature that relies on {@sense darkvision} to see you in that darkness."
+			]
+		},
+		{
+			"name": "Iron Mind",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 41,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"By 7th level, you have honed your ability to resist the mind-altering powers of your prey. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+			]
+		},
+		{
+			"name": "Stalker's Flurry",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 41,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you learn to attack with such unexpected speed that you can turn a miss into another strike. Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action."
+			]
+		},
+		{
+			"name": "Shadowy Dodge",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 41,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn't have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll."
+			]
+		},
+		{
+			"name": "Horizon Walker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 42,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse\u2014especially benevolent dragons, fey, and elementals\u2014that work to preserve life and the order of the planes.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Horizon Walker Magic|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Detect Portal|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Planar Warrior|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Detect Portal",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 42,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain the ability to magically sense the presence of a planar portal. As an action, you detect the distance and direction to the closest planar portal within 1 mile of you.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest.",
+				"See the \"Planar Travel\" section in chapter 2 of the Dungeon Master's Guide for examples of planar portals."
+			]
+		},
+		{
+			"name": "Horizon Walker Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 42,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Horizon Walker Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell protection from evil and good}"
+						],
+						[
+							"5th",
+							"{@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell haste}"
+						],
+						[
+							"13th",
+							"{@spell banishment}"
+						],
+						[
+							"17th",
+							"{@spell teleportation circle}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Planar Warrior",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 42,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you learn to draw on the energy of the multiverse to augment your attacks.",
+				"As a bonus action, choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra {@damage 1d8} force damage from the attack. When you reach 11th level in this class, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Ethereal Step",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 42,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you learn to step through the Ethereal Plane. As a bonus action, you can cast the {@spell etherealness} spell with this feature, without expending a spell slot, but the spell ends at the end of the current turn.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Distant Strike",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 42,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the ability to pass between the planes in the blink of an eye. When you take the {@action Attack} action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.",
+				"If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+			]
+		},
+		{
+			"name": "Spectral Defense",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 42,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your reaction to give yourself resistance to all of that attack's damage on this turn."
+			]
+		},
+		{
+			"name": "Monster Slayer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 43,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Monster Slayer Magic|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter's Sense|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Slayer's Prey|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|3"
+				}
+			]
+		},
+		{
+			"name": "Hunter's Sense",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 43,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain the ability to peer at a creature and magically discern how best to hurt it. As an action, choose one creature you can see within 60 feet of you. You immediately learn whether the creature has any damage immunities, resistances, or vulnerabilities and what they are. If the creature is hidden from divination magic, you sense that it has no damage immunities, resistances, or vulnerabilities.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses of it when you finish a long rest."
+			]
+		},
+		{
+			"name": "Monster Slayer Magic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 43,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Monster Slayer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Monster Slayer Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell protection from evil and good}"
+						],
+						[
+							"5th",
+							"{@spell zone of truth}"
+						],
+						[
+							"9th",
+							"{@spell magic circle}"
+						],
+						[
+							"13th",
+							"{@spell banishment}"
+						],
+						[
+							"17th",
+							"{@spell hold monster}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Slayer's Prey",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 43,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra {@damage 1d6} damage from the weapon.",
+				"This benefit lasts until you finish a short or long rest. It ends early if you designate a different creature."
+			]
+		},
+		{
+			"name": "Supernatural Defense",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 43,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Slayer's Prey forces you to make a saving throw and whenever you make an ability check to escape that target's grapple, add {@dice 1d6} to your roll."
+			]
+		},
+		{
+			"name": "Magic-User's Nemesis",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 43,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the ability to thwart someone else's magic. When you see a creature casting a spell or teleporting within 60 feet of you, you can use your reaction to try to magically foil it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Slayer's Counter",
+			"source": "LevelUpAdventurersGuideA5E",
+			"page": 43,
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer's Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack's normal effects."
+			]
+		},
+		{
+			"name": "Beast Whisperer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beastmaster",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"At 3rd level when you choose this archetype, you gain the {@optfeature Beast Friend|LevelUpAdventurersGuideA5E} knack if you do not already know it, and the beast can be of CR 1/4 or less. In addition, whenever the beast rolls initiative, it gains a number of temporary hit points equal to your level multiplied by your proficiency bonus, and its Armour Class increases by an amount equal to your proficiency bonus.",
+				"As a bonus action on your turn, you can order the beast to take an action on its turn. If you order the beast to attack, it adds your proficiency bonus to attack and damage rolls."
+			]
+		},
+		{
+			"name": "Hunter's Pet",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beastmaster",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"entries": [
+				"At 7th level, any beast you are the guardian ranger of treats its natural weapons as magical, and gains one of the following features:",
+				{
+					"type": "list",
+					"items": [
+						"Camouflage: The beast can take the Hide action as a bonus action.",
+						"Celerity: The beast can take the Dash action as a bonus action.",
+						"Evasion: The beast can take the Dodge action as a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Friend of a Friend",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beastmaster",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"entries": [
+				"At 11th level you can use your {@optfeature Beast Friend|LevelUpAdventurersGuideA5E} knack to acquire a beast of CR 1/2 or less, and it can be Large."
+			]
+		},
+		{
+			"name": "Loyalty's Reward",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Beastmaster",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"entries": [
+				"At 15th level, if damage reduces a beast you are the guardian ranger of to 0 hit points, it makes a Constitution saving throw against a DC equal to 10 + the attack bonus of the damaging attack. On a success, the beast drops to 1 hit point instead.",
+				"A beast can use this feature once between long rests."
+			]
+		},
+		{
+			"name": "Organised Training",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Warden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"At 3rd level you gain experience and training relevant to your role as an outrider. Choose two of the following to become proficient with: heavy armour, Animal Handling, History, or vehicle (land)."
+			]
+		},
+		{
+			"name": "Saddled Up",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Warden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level you choose an animal to serve as your mount such as a {@creature draft horse}, a {@creature pony}, a {@creature camel}, an {@creature elk}, or a {@creature mastiff} (the DM might allow other animals as your mount). Your mount must be at least one size larger than you. Additionally, if your mount has an Intelligence of 5 or less, its Intelligence becomes 6, and it has the ability to understand one language of your choice that you speak."
+			]
+		},
+		{
+			"name": "Skillful Execution",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Warden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain one of the following features.",
+				{
+					"type": "entries",
+					"name": "A Royal Audience",
+					"entries": [
+						"You have direct access to higher echelons of your organisation. You gain an expertise die on Persuasion checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Contingency Planning",
+					"entries": [
+						"Your experience with politics and intrigue has been quite rigorous. You gain resistance to poison damage and can add your Wisdom modifier to saving throws you make to resist being poisoned."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "False Pretense",
+					"entries": [
+						"You gain an expertise die on Deception checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Decisive Mind",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Warden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"entries": [
+				"At 11th level you gain proficiency in Wisdom saving throws."
+			]
+		},
+		{
+			"name": "Riding Out",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Warden",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"entries": [
+				"At 15th level when you use any combat maneuver that requires you to be mounted you only expend half the exertion (rounded up).",
+				"In addition, you gain the {@spell Ride Enemy|LevelUpAdventurersGuideA5E} combat maneuver. It does not count against your number of maneuvers known, and you do not have to expend exertion points to activate it."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Wildborn",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"When you reach 3rd level, your deep connection to nature grants you the ability to cast spells.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"At 3rd level, you know two cantrips of your choice from the {@filter druid spell list|spells|class=druid}. These spells count as ranger spells for you. You learn an additional cantrip at 10th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Wildborn Spellcasting table shows how many spell slots you have to cast your {@filter spells|spells|class=druid} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"For example, if you know the 1st-level spell {@spell animal friendship} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell animal friendship} using either slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st Level and Higher",
+					"entries": [
+						"You know three 1st-level spells of your choice from the {@filter druid spell list|spells|class=druid}.",
+						"The Spells Known column of the Wildborn Spellcasting table shows when you learn more spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+						"Additionally, when you gain a level in this class, you can choose one of the spells you know and replace it with another spell from the druid spell list, which also must be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Wisdom is your spellcasting ability for your spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Nature's Wellspring",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Wildborn",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain one of the following features.",
+				{
+					"type": "entries",
+					"name": "Magical Intuition",
+					"entries": [
+						"You can cast {@spell detect magic|LevelUpAdventurersGuideA5E} at will, without expending a spell slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magical Weapons",
+					"entries": [
+						"Your weapon attacks are magical."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Overcome Magic",
+					"entries": [
+						"You gain an expertise die on saving throws made against spells and other magical effects."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hardy Resilience",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Wildborn",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain proficiency in Constitution saving throws."
+			]
+		},
+		{
+			"name": "Naturally Attuned",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Wildborn",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain one of the following features.",
+				{
+					"type": "entries",
+					"name": "Magical Abundance",
+					"entries": [
+						"You can attune to 1 additional magic item at once."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magic Resistance",
+					"entries": [
+						"You gain advantage on saving throws made against spells and other magical effects."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pierce the Dark",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Tenebrous Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your senses sharpen to allow you to perceive your lightless environment. If you have the ability to see, you gain darkvision to a range of 120 feet and the ability to see through magical darkness. If you have blindsight, the range of your blindsight increases by 30 feet."
+			]
+		},
+		{
+			"name": "Embrace the Dark",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Tenebrous Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, you can enshroud yourself in darkness. As an action, you can activate your shroud of darkness. Your shroud remains active for 1 hour, until you fall {@condition unconscious}, or until you use a bonus action to deactivate it. While your shroud is active, light within 30 feet decreases from bright light to dim light, from dim light to darkness, or from darkness to magical darkness. You can use this feature a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Wield the Dark",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Tenebrous Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, when you start your turn in an area of darkness or magical darkness, you gain a Darkness die, a {@dice d6}. You can have only one Darkness die at a time. At any time, you can roll your Darkness die and apply the result to one of the following: your AC against one attack made by a creature you can see, an attack or damage roll you make with a weapon, or a Stealth skill check. You can apply your Darkness die even after making an attack roll or after the result of a creature's attack roll is declared.",
+				"At 15th level, your Darkness die increases to a {@dice d8}."
+			]
+		},
+		{
+			"name": "Dark Resolve",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Tenebrous Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain proficiency in Wisdom saving throws."
+			]
+		},
+		{
+			"name": "Call the Dark",
+			"source": "LevelUpAdventurersGuideA5E",
+			"className": "Ranger",
+			"classSource": "LevelUpAdventurersGuideA5E",
+			"subclassShortName": "Tenebrous Stalker",
+			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"level": 15,
+			"entries": [
+				"At 15th level, you can summon darkness at will. You can use a bonus action to cast the {@spell darkness|LevelUpAdventurersGuideA5E} spell without components. You can use this feature a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Beast Friend",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"After a Befriend Creature journey activity, you can befriend and feed a {@filter Medium or smaller beast of CR 1/8 or less|bestiary|challenge rating=[&0;&1/8]|type=beast|size=t;s;m}, becoming its guardian ranger. It follows you and is loyal to you, but it acts independently. In combat, it rolls its own initiative and acts on its own turn. The beast won't attack except as a response to being attacked, but it can take other actions as normal and makes death saving throws. You can only be a guardian ranger to one beast at a time."
+			]
+		},
+		{
+			"name": "Build Shelter",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"You can change a failure or worse on a Seek Shelter journey activity check into a success.",
+				"Once you have used this feature, you cannot do so again for a week."
+			]
+		},
+		{
+			"name": "Calls of the Wild",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"Using verbal and nonverbal cues to communicate with beasts, you can gain basic information from them or make a simple request (like delivering a shrot message or small object)."
+			]
+		},
+		{
+			"name": "Ear to the Ground",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"By expending 1 minute remaining stationary, using sound a vibrations alone, until you move or take an action you are able to deduce information for up to 30' in every direction, as if using blindsight or tremorsense."
+			]
+		},
+		{
+			"name": "Expert Foraging",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"After a Harvest journey activity, you can collect a number of edible, non-poisonous plants and grubs equal to your proficiency bonus. A creature can use its action to eat up to 5 plants or grubs, each of which restores 1 hit point. A creature who eats at least 1 also recovers 1 level of fatigue, but can only benefit from this once per long rest. The plants and grubs die and spoil 1 hour after being collected."
+			]
+		},
+		{
+			"name": "Forced Marcher",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"The journeys your party undertake are reduced in length by 1 day, to a minimum of 1 day."
+			]
+		},
+		{
+			"name": "Guide",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"While traveling, when you would have a failure or worse for a Scout journey activity, you succeed instead, and you can Scout in addition to engaging in any other journey activity."
+			]
+		},
+		{
+			"name": "Healing Salves",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"On a success or higher on a Harvest journey activity, you can collect natural ingredients and concoct an ointment that speeds healing. This salve is potent for 24 hours and has a number of uses equal to 1 + your Wisdom modifier. As an action, you can use the salve to restore 1d4 hit points to a creature within reach."
+			]
+		},
+		{
+			"name": "Herbal Bitters",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"On a success or higher on a Harvest journey activity, you can collect ingredients and brew two servings of a bitter drink that is potent for 24 hours. Imbibing a serving takes an action and reduces fatigue by one level for 4 hours."
+			]
+		},
+		{
+			"name": "Huntsman",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"You gain advantage on Gather Component journey activity checks."
+			]
+		},
+		{
+			"name": "Longwalker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"When you would gain a level of fatigue during a journey, you do not gain that level of fatigue. Alternatively, you can choose to accept the level of fatigue, allowing up to two traveling companions to forgo gaining a level of fatigue instead. Once you have used this feature, you cannot do so again for a week."
+			]
+		},
+		{
+			"name": "Master Tracker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Ranger",
+							"source": "LevelUpAdventurersGuideA5E"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 5 minutes looking at a 30' diameter outdoor area to study the ground and other clues. You learn all events which transpired in that area in the last 24 hours as though you had witnessed them yourself, although you do not learn secret information not obvious to an observer. The information you gain is only that which would be learned by sight; you do not gain sound-based information or learn what creatures in the area said to each other.",
+				"Once you have used this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Monster Mimic",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"By imitating how a beast or studied adversary sounds, looks, and moves, you gain advantage on Deception and Intimidation checks made to convince a creature that it is seeing or hearing that beast or studied adversary."
+			]
+		},
+		{
+			"name": "Poisons and Antidotes",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"After a Gather Components journey activity, you can extract 3 doses of liquid poison (when ingested, a creature makes a DC 10 Constitution saving throw or is poisoned for 1 hour) from poisonous plants you've foraged. Alternatively, using the same plants you can spend an hour making a dose of antitoxin."
+			]
+		},
+		{
+			"name": "Read the Room",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"By spending 10 minutes observing facial expressions, body language, and vocal intonation, you can detect minute details which give you insight into the creatures within 30' of you. For the next minute, you can direct your focus on any one creature that you can see within 30'. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.",
+				"You learn the surface thoughts of the creature - what is most on its mind in that moment. As an action, you can shift your attention to another creature's thoughts."
+			]
+		},
+		{
+			"name": "Relentless Pursuit",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"Once you have successfully picked up the tracks of a creature, you are able to follow those tracks without any need for further checks for a period of up to 7 days."
+			]
+		},
+		{
+			"name": "See the Unseen",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Ranger",
+							"source": "LevelUpAdventurersGuideA5E"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Once between long rests you can focus your attention on peripheral sights, sounds, and other signs of unseen passage. For the next hour, you can detect invisible creatures and objects, their location, movement, and actions, and even sense creatures and objects in the Ethereal Plane."
+			]
+		},
+		{
+			"name": "Survivalist",
+			"source": "LevelUpAdventurersGuideA5E",
+			"featureType": [
+				"EK"
+			],
+			"entries": [
+				"When traveling you may undertake two journey activities per day instead of one. Both activities must be from the following list: Befriend Creature, Gather Components, Harvest, Scout."
+			]
+		}
+	]
+}
