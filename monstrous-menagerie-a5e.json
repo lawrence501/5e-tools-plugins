@@ -71,7 +71,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -553,7 +553,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -669,7 +669,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -796,7 +796,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -939,7 +939,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -1093,7 +1093,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -1282,7 +1282,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -1481,7 +1481,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -2656,7 +2656,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -3489,7 +3489,7 @@
 				"poison",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -5474,7 +5474,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -5962,7 +5962,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6105,7 +6105,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6265,7 +6265,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6407,7 +6407,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6647,7 +6647,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6777,7 +6777,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -6896,7 +6896,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7041,7 +7041,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7151,7 +7151,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7273,7 +7273,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7392,7 +7392,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7499,7 +7499,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7620,7 +7620,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7749,7 +7749,7 @@
 				"lightning",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -7871,7 +7871,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -7991,7 +7991,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8108,7 +8108,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8220,7 +8220,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8353,7 +8353,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8502,7 +8502,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8624,7 +8624,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8752,7 +8752,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -8892,7 +8892,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -9009,7 +9009,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -9318,7 +9318,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -9473,7 +9473,7 @@
 				"cold",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical, non-silvered weapons",
 					"cond": "true"
@@ -14949,7 +14949,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15112,7 +15112,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15271,7 +15271,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15389,7 +15389,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15488,7 +15488,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15675,7 +15675,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15858,7 +15858,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -15984,7 +15984,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -16087,7 +16087,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -16279,7 +16279,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -16458,7 +16458,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -16591,7 +16591,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22478,7 +22478,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22569,7 +22569,7 @@
 				"thunder",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22664,7 +22664,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22767,7 +22767,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22863,7 +22863,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -22963,7 +22963,7 @@
 			"resist": [
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -23068,7 +23068,7 @@
 				"acid",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -23172,7 +23172,7 @@
 				"acid",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -24546,7 +24546,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -24690,7 +24690,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -24834,7 +24834,7 @@
 				"radiant",
 				{
 					"resist": [
-						"all damage"
+						"damage"
 					],
 					"note": "from nonmagical weapons",
 					"cond": "true"
@@ -25484,6 +25484,2521 @@
 					"name": "Stone Wall (1/Day)",
 					"entries": [
 						"A permanent stone wall magically rises from an earth or stone surface within 60 feet. The wall is 6 inches thick and can be up to 20 feet high and 30 feet long. If it appears in a creature's space, the creature can choose which side of the wall to move to. Each 10-foot-by-10-foot section of the wall is an object with AC 18 and 30 hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Divi Noble",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 345,
+				"formula": "30d10 + 180"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 30,
+				"fly": 30
+			},
+			"str": 22,
+			"dex": 12,
+			"con": 22,
+			"int": 12,
+			"wis": 14,
+			"cha": 14,
+			"save": {
+				"str": "+10",
+				"con": "+10",
+				"int": "+5",
+				"wis": "+6",
+				"cha": "+6"
+			},
+			"skill": {
+				"athletics": "+10",
+				"perception": "+6"
+			},
+			"resist": [
+				"acid"
+			],
+			"conditionImmune": [
+				"petrified"
+			],
+			"senses": [
+				"darkvision 120 ft.",
+				"tremorsense 30 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"terran"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The divi's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self|LevelUpAdventurersGuideA5E} (can assume Medium or Large form)",
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell stone shape|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell creation|LevelUpAdventurersGuideA5E}",
+							"{@spell move earth|LevelUpAdventurersGuideA5E}",
+							"{@spell passwall|LevelUpAdventurersGuideA5E}",
+							"{@spell tongues|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell conjure elemental|LevelUpAdventurersGuideA5E} (earth elemental only)",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (to Elemental Plane of Earth only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The divi deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"At the end of each of its turns, the divi noble ends one negative effect currently affecting it. It can do so as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Magic Resistance (While Bloodied)",
+					"entries": [
+						"The divi noble has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Wish (3/Year)",
+					"entries": [
+						"The divi noble can cast {@spell wish|LevelUpAdventurersGuideA5E} for a mortal, using no material components."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The divi makes two melee attacks."
+					]
+				},
+				{
+					"name": "Crushing Hand",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the divi can't use Crushing Hand on another target and has advantage on Crushing Hand attacks against this target, and the target can't breathe."
+					]
+				},
+				{
+					"name": "Stone Club",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}24 ({@damage 4d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Quake (Recharge 5-6)",
+					"entries": [
+						"Amid deafening rumbling, the ground shakes in a 10-foot radius around a point on an earth or stone surface within 90 feet. The area becomes difficult terrain. Each non-elemental creature in the area makes a {@dc 18} Constitution saving throw, taking 24 ({@damage 7d6}) thunder damage and falling {@condition prone} on a failure or taking half damage on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Stone Wall (1/Day)",
+					"entries": [
+						"A permanent stone wall magically rises from an earth or stone surface within 60 feet. The wall is 6 inches thick and can be up to 20 feet high and 30 feet long. If it appears in a creature's space, the creature can choose which side of the wall to move to. Each 10-foot-by-10-foot section of the wall is an object with AC 18 and 30 hit points."
+					]
+				},
+				{
+					"name": "Quake (While Bloodied)",
+					"entries": [
+						"The divi uses Quake."
+					]
+				},
+				{
+					"name": "Meteor Fall (While Bloodied, 1/Day)",
+					"entries": [
+						"Dozens of rocks fall from the sky or ceiling. Each creature of the divi's choice within 120 feet makes a {@dc 18} Constitution saving throw, taking 49 ({@damage 14d6}) bludgeoning damage on a failure or half damage on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Djinni",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16
+				}
+			],
+			"hp": {
+				"average": 172,
+				"formula": "15d10 + 90"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 90,
+					"condition": "(hover)"
+				}
+			},
+			"str": 18,
+			"dex": 22,
+			"con": 22,
+			"int": 14,
+			"wis": 16,
+			"cha": 20,
+			"save": {
+				"dex": "+10",
+				"int": "+6",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"acrobatics": "+10",
+				"insight": "+7",
+				"perception": "+7"
+			},
+			"resist": [
+				"lightning",
+				"thunder"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"auran"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The djinni's spellcasting ability is Charisma (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self|LevelUpAdventurersGuideA5E} (can assume Medium or Large form)",
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell wind wall|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell creation|LevelUpAdventurersGuideA5E}",
+							"{@spell major image|LevelUpAdventurersGuideA5E}",
+							"{@spell tongues|LevelUpAdventurersGuideA5E}",
+							"{@spell wind walk|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell conjure elemental|LevelUpAdventurersGuideA5E} (air elemental only)",
+							"{@spell control weather|LevelUpAdventurersGuideA5E}",
+							"{@spell create food and water|LevelUpAdventurersGuideA5E} (10 supply)",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (to Elemental Plane of Air only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The djinni makes three scimitar attacks."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage plus 5 ({@damage 1d10}) lightning damage."
+					]
+				},
+				{
+					"name": "Lightning Blast",
+					"entries": [
+						"{@atk rs} {@hit 9} to hit, range 90 ft., one target. {@h}35 ({@damage 10d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Scimitar Sweep (1/Day, Giant Form Only)",
+					"entries": [
+						"The djinni makes a scimitar attack against each creature of its choice within its reach."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Giant Form (1/Day, While Not Bloodied)",
+					"entries": [
+						"The djinni magically becomes a Huge, semi-substantial creature of billowing cloud. In this form, it gains resistance to nonmagical damage, and its scimitar attacks gain a reach of 10 feet. The effect ends after 1 minute, when the djinni is {@condition incapacitated}, or if the djinni becomes bloodied."
+					]
+				},
+				{
+					"name": "Whirlwind (1/Day)",
+					"entries": [
+						"A magical, 5-foot-wide, 30-foot-tall whirlwind appears in a space the djinni can see within 60 feet. The whirlwind may appear in another creature's space. If the whirlwind appears in another creature's space, or when it enters a creature's space for the first time on a turn, the creature makes a {@dc 18} Strength check, becoming {@condition restrained} by the whirlwind on a failure. The whirlwind may restrain one creature at a time. A creature within 5 feet of the whirlwind (including the {@condition restrained} creature) can use an action to make a {@dc 18} Strength check, freeing the {@condition restrained} creature on a success. A freed creature can move to an unoccupied space within 5 feet of the whirlwind.",
+						"As a bonus action, the djinni can move the whirlwind up to 30 feet, moving a {@condition restrained} creature with it. The whirlwind disappears if the djinni loses sight of it, if the djinni dies or is {@condition incapacitated}, or if the djinni dismisses it as an action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Djinni Noble",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16
+				}
+			],
+			"hp": {
+				"average": 344,
+				"formula": "30d10 + 180"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 90,
+					"condition": "(hover)"
+				}
+			},
+			"str": 18,
+			"dex": 22,
+			"con": 22,
+			"int": 14,
+			"wis": 16,
+			"cha": 20,
+			"save": {
+				"dex": "+10",
+				"int": "+6",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"acrobatics": "+10",
+				"insight": "+7",
+				"perception": "+7"
+			},
+			"resist": [
+				"lightning",
+				"thunder"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"auran"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The djinni's spellcasting ability is Charisma (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self|LevelUpAdventurersGuideA5E} (can assume Medium or Large form)",
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell wind wall|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell creation|LevelUpAdventurersGuideA5E}",
+							"{@spell major image|LevelUpAdventurersGuideA5E}",
+							"{@spell tongues|LevelUpAdventurersGuideA5E}",
+							"{@spell wind walk|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell conjure elemental|LevelUpAdventurersGuideA5E} (air elemental only)",
+							"{@spell control weather|LevelUpAdventurersGuideA5E}",
+							"{@spell create food and water|LevelUpAdventurersGuideA5E} (10 supply)",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (to Elemental Plane of Air only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"At the end of each of its turns, the djinni noble ends one negative effect currently affecting it. It can do so as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Magic Resistance (While Bloodied)",
+					"entries": [
+						"The djinni noble has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Wish (3/Year)",
+					"entries": [
+						"The djinni noble can cast {@spell wish|LevelUpAdventurersGuideA5E} for a mortal, using no material components."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The djinni makes three scimitar attacks."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage plus 5 ({@damage 1d10}) lightning damage."
+					]
+				},
+				{
+					"name": "Lightning Blast",
+					"entries": [
+						"{@atk rs} {@hit 9} to hit, range 90 ft., one target. {@h}35 ({@damage 10d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Scimitar Sweep (1/Day, Giant Form Only)",
+					"entries": [
+						"The djinni makes a scimitar attack against each creature of its choice within its reach."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Giant Form (1/Day, While Not Bloodied)",
+					"entries": [
+						"The djinni magically becomes a Huge, semi-substantial creature of billowing cloud. In this form, it gains resistance to nonmagical damage, and its scimitar attacks gain a reach of 10 feet. The effect ends after 1 minute, when the djinni is {@condition incapacitated}, or if the djinni becomes bloodied."
+					]
+				},
+				{
+					"name": "Whirlwind (1/Day)",
+					"entries": [
+						"A magical, 5-foot-wide, 30-foot-tall whirlwind appears in a space the djinni can see within 60 feet. The whirlwind may appear in another creature's space. If the whirlwind appears in another creature's space, or when it enters a creature's space for the first time on a turn, the creature makes a {@dc 18} Strength check, becoming {@condition restrained} by the whirlwind on a failure. The whirlwind may restrain one creature at a time. A creature within 5 feet of the whirlwind (including the {@condition restrained} creature) can use an action to make a {@dc 18} Strength check, freeing the {@condition restrained} creature on a success. A freed creature can move to an unoccupied space within 5 feet of the whirlwind.",
+						"As a bonus action, the djinni can move the whirlwind up to 30 feet, moving a {@condition restrained} creature with it. The whirlwind disappears if the djinni loses sight of it, if the djinni dies or is {@condition incapacitated}, or if the djinni dismisses it as an action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Answering Scimitar (While Bloodied)",
+					"entries": [
+						"When a creature within 5 feet that the djinni can see misses the djinni noble with a melee attack, the djinni may make a scimitar attack against its attacker. The djinni then flies up to its Speed without provoking opportunity attacks. At the end of this movement, the djinni can make a second scimitar attack."
+					]
+				},
+				{
+					"name": "Lightning Blast (While Bloodied)",
+					"entries": [
+						"When the djinni noble takes damage, it uses Lightning Blast."
+					]
+				}
+			]
+		},
+		{
+			"name": "Efreeti",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": "natural armor"
+				}
+			],
+			"hp": {
+				"average": 172,
+				"formula": "15d10 + 90"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60
+			},
+			"str": 22,
+			"dex": 18,
+			"con": 22,
+			"int": 14,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"dex": "+8",
+				"int": "+6",
+				"wis": "+7",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+10",
+				"intimidation": "+7",
+				"perception": "+7"
+			},
+			"immune": [
+				"fire"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"ignan"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The efreeti's spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self|LevelUpAdventurersGuideA5E} (can assume Medium or Large form)",
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell creation|LevelUpAdventurersGuideA5E}",
+							"{@spell gaseous form|LevelUpAdventurersGuideA5E}",
+							"{@spell major image|LevelUpAdventurersGuideA5E}",
+							"{@spell tongues|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell conjure elemental|LevelUpAdventurersGuideA5E} (fire elemental only)",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (to Elemental Plane of Fire only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The efreeti makes two brass sword attacks or hurls flame twice. The efreeti can replace one attack with a kick."
+					]
+				},
+				{
+					"name": "Brass Sword",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Kick",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d4 + 6}) bludgeoning damage, and the efreeti pushes the target 10 feet away."
+					]
+				},
+				{
+					"name": "Hurl Flame",
+					"entries": [
+						"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}21 ({@damage 6d6}) fire damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fiery Wall (1/Day)",
+					"entries": [
+						"An opaque wall of magical flame rises from the ground within 60 feet. The wall is 6 inches thick and can be up to 20 feet high and 30 feet long. Each creature within the wall when it appears makes a {@dc 15} Dexterity saving throw, taking 18 ({@damage 4d8}) fire damage on a failed save or half damage on a success. A creature also takes 18 ({@damage 4d8}) fire damage when it enters the wall for the first time on a turn or ends its turn there. The wall disappears when the efreeti is killed or {@condition incapacitated}, or when it uses an action to dismiss it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Efreeti Noble",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": "natural armor"
+				}
+			],
+			"hp": {
+				"average": 344,
+				"formula": "30d10 + 180"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60
+			},
+			"str": 22,
+			"dex": 18,
+			"con": 22,
+			"int": 14,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"dex": "+8",
+				"int": "+6",
+				"wis": "+7",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+10",
+				"intimidation": "+7",
+				"perception": "+7"
+			},
+			"immune": [
+				"fire"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"ignan"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The efreeti's spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self|LevelUpAdventurersGuideA5E} (can assume Medium or Large form)",
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell creation|LevelUpAdventurersGuideA5E}",
+							"{@spell gaseous form|LevelUpAdventurersGuideA5E}",
+							"{@spell major image|LevelUpAdventurersGuideA5E}",
+							"{@spell tongues|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell conjure elemental|LevelUpAdventurersGuideA5E} (fire elemental only)",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (to Elemental Plane of Fire only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"At the end of each of its turns, the efreeti noble ends one negative effect currently affecting it. It can do so as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Magic Resistance (While Bloodied)",
+					"entries": [
+						"The efreeti noble has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Wish (3/Year)",
+					"entries": [
+						"The efreeti noble can cast {@spell wish|LevelUpAdventurersGuideA5E} for a mortal, using no material components."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The efreeti makes two brass sword attacks or hurls flame twice. The efreeti can replace one attack with a kick."
+					]
+				},
+				{
+					"name": "Brass Sword",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Kick",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d4 + 6}) bludgeoning damage, and the efreeti pushes the target 10 feet away."
+					]
+				},
+				{
+					"name": "Hurl Flame",
+					"entries": [
+						"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}21 ({@damage 6d6}) fire damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fiery Wall (1/Day)",
+					"entries": [
+						"An opaque wall of magical flame rises from the ground within 60 feet. The wall is 6 inches thick and can be up to 20 feet high and 30 feet long. Each creature within the wall when it appears makes a {@dc 15} Dexterity saving throw, taking 18 ({@damage 4d8}) fire damage on a failed save or half damage on a success. A creature also takes 18 ({@damage 4d8}) fire damage when it enters the wall for the first time on a turn or ends its turn there. The wall disappears when the efreeti is killed or {@condition incapacitated}, or when it uses an action to dismiss it."
+					]
+				},
+				{
+					"name": "Ball of Fire (While Bloodied)",
+					"entries": [
+						"Fire streaks from the efreeti to a point within 120 feet and explodes in a 20-foot-radius sphere, spreading around corners. Each creature in the area makes a {@dc 15} Dexterity saving throw, taking 35 ({@damage 10d6}) fire damage on a failed save or half damage on a success. Unattended flammable objects in the area catch on fire."
+					]
+				},
+				{
+					"name": "Flame's Curse (While Bloodied, 1/Day)",
+					"entries": [
+						"The efreeti targets a creature within 60 feet that can hear the efreeti. The target magically gains a flickering aura of flame. If the target does not have immunity or resistance to fire, it gains vulnerability to fire. If the target is immune or resistant to fire, the efreeti's fire damage ignores that immunity or resistance. This effect lasts for 1 minute or until the target is reduced to 0 hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Marid",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": "natural armor"
+				}
+			],
+			"hp": {
+				"average": 172,
+				"formula": "15d10 + 90"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"swim": 90
+			},
+			"str": 22,
+			"dex": 16,
+			"con": 22,
+			"int": 16,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"con": "+10",
+				"int": "+7",
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"perception": "+6",
+				"persuasion": "+7"
+			},
+			"resist": [
+				"acid",
+				"cold",
+				"lightning"
+			],
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"aquan"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The marid's spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self|LevelUpAdventurersGuideA5E} (can assume Medium or Large form)",
+						"{@spell create or destroy water|LevelUpAdventurersGuideA5E}",
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell purify food and drink|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell conrol water|LevelUpAdventurersGuideA5E}",
+							"{@spell creation|LevelUpAdventurersGuideA5E}",
+							"{@spell tongues|LevelUpAdventurersGuideA5E}",
+							"{@spell water breathing|LevelUpAdventurersGuideA5E}",
+							"{@spell water walk|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell conjure elemental|LevelUpAdventurersGuideA5E} (water elemental only)",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (to Elemental Plane of Water only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The marid can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The marid makes two trident attacks. One of these can be replaced with a net attack."
+					]
+				},
+				{
+					"name": "Trident",
+					"entries": [
+						"{@atk mw,rw} {@hit 10} to hit, reach 10 ft. or range 20/60 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage plus 5 ({@damage 1d10}) lightning damage. If thrown, the trident returns to the marid's hand."
+					]
+				},
+				{
+					"name": "Net",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 5/15 ft., one target. {@h}A Large, Medium, or Small target is {@condition restrained} until it is freed. A creature can use its action to make a {@dc 18} Strength check, freeing itself or another creature within its reach on a success. The net is an object with AC 10, 20 hit points, vulnerability to slashing damage, and immunity to bludgeoning, poison, and psychic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fog Cloud (1/Day)",
+					"entries": [
+						"The marid magically creates a heavily obscured area of fog (or, if underwater, inky water) in a 30-foot radius around a point it can see within 60 feet. The fog spreads around corners and can be dispersed by a moderate wind or current (at least 10 miles per hour). Otherwise, it disperses after 10 minutes. The marid can see through this fog."
+					]
+				},
+				{
+					"name": "Water Jet (While Bloodied)",
+					"entries": [
+						"The marid shoots water in a 5-foot-wide, 60-foot-long jet. Each creature in the area makes a {@dc 18} Dexterity saving throw. On a failure, a target takes 21 ({@damage 6d6}) bludgeoning damage and is pushed 20 feet away from the marid, to a maximum of 60 feet away, and knocked {@condition prone}. On a success, a target takes half damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Marid Noble",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": "natural armor"
+				}
+			],
+			"hp": {
+				"average": 344,
+				"formula": "30d10 + 180"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"swim": 90
+			},
+			"str": 22,
+			"dex": 16,
+			"con": 22,
+			"int": 16,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"con": "+10",
+				"int": "+7",
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"perception": "+6",
+				"persuasion": "+7"
+			},
+			"resist": [
+				"acid",
+				"cold",
+				"lightning"
+			],
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"aquan"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The marid's spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self|LevelUpAdventurersGuideA5E} (can assume Medium or Large form)",
+						"{@spell create or destroy water|LevelUpAdventurersGuideA5E}",
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell purify food and drink|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell conrol water|LevelUpAdventurersGuideA5E}",
+							"{@spell creation|LevelUpAdventurersGuideA5E}",
+							"{@spell tongues|LevelUpAdventurersGuideA5E}",
+							"{@spell water breathing|LevelUpAdventurersGuideA5E}",
+							"{@spell water walk|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell conjure elemental|LevelUpAdventurersGuideA5E} (water elemental only)",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (to Elemental Plane of Water only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The marid can breathe air and water."
+					]
+				},
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"At the end of each of its turns, the marid noble ends one negative effect currently affecting it. It can do so as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Magic Resistance (While Bloodied)",
+					"entries": [
+						"The marid noble has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Reactive",
+					"entries": [
+						"The marid may take a reaction on each creature's turn."
+					]
+				},
+				{
+					"name": "Wish (3/Year)",
+					"entries": [
+						"The marid noble can cast {@spell wish|LevelUpAdventurersGuideA5E} for a mortal, using no material components."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The marid makes two trident attacks. One of these can be replaced with a net attack."
+					]
+				},
+				{
+					"name": "Trident",
+					"entries": [
+						"{@atk mw,rw} {@hit 10} to hit, reach 10 ft. or range 20/60 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage plus 5 ({@damage 1d10}) lightning damage. If thrown, the trident returns to the marid's hand."
+					]
+				},
+				{
+					"name": "Net",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 5/15 ft., one target. {@h}A Large, Medium, or Small target is {@condition restrained} until it is freed. A creature can use its action to make a {@dc 18} Strength check, freeing itself or another creature within its reach on a success. The net is an object with AC 10, 20 hit points, vulnerability to slashing damage, and immunity to bludgeoning, poison, and psychic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fog Cloud (1/Day)",
+					"entries": [
+						"The marid magically creates a heavily obscured area of fog (or, if underwater, inky water) in a 30-foot radius around a point it can see within 60 feet. The fog spreads around corners and can be dispersed by a moderate wind or current (at least 10 miles per hour). Otherwise, it disperses after 10 minutes. The marid can see through this fog."
+					]
+				},
+				{
+					"name": "Water Jet (While Bloodied)",
+					"entries": [
+						"The marid shoots water in a 5-foot-wide, 60-foot-long jet. Each creature in the area makes a {@dc 18} Dexterity saving throw. On a failure, a target takes 21 ({@damage 6d6}) bludgeoning damage and is pushed 20 feet away from the marid, to a maximum of 60 feet away, and knocked {@condition prone}. On a success, a target takes half damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Water Jet (While Bloodied)",
+					"entries": [
+						"When the marid takes damage, it uses Water Jet if it can include the attacker in the area."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ghost",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11
+				}
+			],
+			"hp": {
+				"average": 58,
+				"formula": "13d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 40
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 16,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"frightened",
+				"grappled",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"the languages it spoke in life"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The ghost can see into both the Material and Ethereal Plane."
+					]
+				},
+				{
+					"name": "Incorporeal",
+					"entries": [
+						"The ghost can move through creatures and objects. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"A ghost doesn't require air, sustenance, or sleep."
+					]
+				},
+				{
+					"name": "Unquiet Spirit",
+					"entries": [
+						"If defeated in combat, the ghost returns in 24 hours. It can be put to rest permanently only by finding and casting {@spell remove curse|LevelUpAdventurersGuideA5E} on its remains or by resolving the unfinished business that keeps it from journeying to the afterlife."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) necrotic damage. If the target is {@condition frightened}, it is magically aged {@dice 1d4} x 10 years. The aging effect can be reversed with a {@spell greater restoration|LevelUpAdventurersGuideA5E} spell."
+					]
+				},
+				{
+					"name": "Ethereal Jaunt",
+					"entries": [
+						"The ghost magically shifts from the Material Plane to the Ethereal Plane or vice versa. If it wishes, it can be visible to creatures on one plane while on the other."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet and on the same plane of existence that can see the ghost makes a {@dc 13} Wisdom saving throw. On a failure, a creature is {@condition frightened} for 1 minute. A {@condition frightened} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, it is immune to the ghost's Horrifying Visage for 24 hours."
+					]
+				},
+				{
+					"name": "Possession (Recharge 6)",
+					"entries": [
+						"One humanoid within 5 feet makes a {@dc 13} Charisma saving throw. On a failure, it is possessed by the ghost. The possessed creature is {@condition unconscious}. The ghost enters the creature's body and takes control of it. The ghost can be targeted only by effects that turn undead, and it retains its Intelligence, Wisdom, and Charisma. It grants its host body immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed creature's statistics and actions instead of its own. It doesn't gain access to the creature's memories but does gain access to proficiencies, nonmagical class features and traits, and nonmagical actions. It can't use limited-use abilities or class traits that require spending a resource. The possession ends after 24 hours, when the body drops to 0 hit points, when the ghost ends it as a bonus action, or when the ghost is turned or affected by {@spell dispel evil and good|LevelUpAdventurersGuideA5E} or a similar effect. Additionally, the possessed creature repeats its saving throw whenever it takes damage. When the possession ends, the ghost reappears in a space within 5 feet of the body. A creature is immune to this ghost's Possession for 24 hours after succeeding on its saving throw or after the possession ends."
+					]
+				},
+				{
+					"name": "Drain Heat",
+					"entries": [
+						"The ghost magically drains the heat from a 15-foot-radius area around it. Each creature in the area makes a {@dc 13} Constitution saving throw, taking 17 ({@damage 5d6}) cold damage on a failure or half damage on a success. A creature reduced to 0 hit points by this damage can't regain hit points until the start of the ghost's next turn."
+					]
+				},
+				{
+					"name": "Pyrokinesis",
+					"entries": [
+						"The ghost magically ignites up to three flammable, unattended, nonmagical objects it can see within 30 feet. Each creature within 5 feet of an object when it ignites makes a {@dc 13} Dexterity saving throw, taking 7 ({@damage 2d6}) fire damage on a failure or half damage on a success."
+					]
+				},
+				{
+					"name": "Spew Ectoplasm",
+					"entries": [
+						"The ghost vomits a spray of ectoplasm in a 15-foot cone. Each creature in the area makes a {@dc 13} Constitution saving throw. On a success, the creature is {@condition rattled|LevelUpAdventurersGuideA5E} until the end of its next turn. On a failure, the creature is {@condition poisoned} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Telekinetic Shove",
+					"entries": [
+						"The ghost targets one Large or smaller creature within 60 feet. THe target makes a {@dc 13} Strength saving throw. On a failure, the ghost magically moves the target up to 30 feet in any direction, including upward. If the target strikes and object, such as a wall, it takes 10 ({@damage 3d6}) bludgeoning damage and falls {@condition prone}. If the target would strike another creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"If the ghost takes damage from an attack or spell, it uses Horrifying Visage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vengeful Ghost",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11
+				}
+			],
+			"hp": {
+				"average": 58,
+				"formula": "13d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 40
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 16,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"frightened",
+				"grappled",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"the languages it spoke in life"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The ghost can see into both the Material and Ethereal Plane."
+					]
+				},
+				{
+					"name": "Incorporeal",
+					"entries": [
+						"The ghost can move through creatures and objects. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"A ghost doesn't require air, sustenance, or sleep."
+					]
+				},
+				{
+					"name": "Unquiet Spirit",
+					"entries": [
+						"If defeated in combat, the ghost returns in 24 hours. It can be put to rest permanently only by finding and casting {@spell remove curse|LevelUpAdventurersGuideA5E} on its remains or by resolving the unfinished business that keeps it from journeying to the afterlife."
+					]
+				},
+				{
+					"name": "Graveborn Strength",
+					"entries": [
+						"When not in sunlight, creatures make their saving throws against the ghost's Horrifying Visage and Possession abilities with disadvantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) necrotic damage. If the target is {@condition frightened}, it is magically aged {@dice 1d4} x 10 years. The aging effect can be reversed with a {@spell greater restoration|LevelUpAdventurersGuideA5E} spell."
+					]
+				},
+				{
+					"name": "Ethereal Jaunt",
+					"entries": [
+						"The ghost magically shifts from the Material Plane to the Ethereal Plane or vice versa. If it wishes, it can be visible to creatures on one plane while on the other."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet and on the same plane of existence that can see the ghost makes a {@dc 13} Wisdom saving throw. On a failure, a creature is {@condition frightened} for 1 minute. A {@condition frightened} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, it is immune to the ghost's Horrifying Visage for 24 hours."
+					]
+				},
+				{
+					"name": "Possession (Recharge 6)",
+					"entries": [
+						"One humanoid within 5 feet makes a {@dc 13} Charisma saving throw. On a failure, it is possessed by the ghost. The possessed creature is {@condition unconscious}. The ghost enters the creature's body and takes control of it. The ghost can be targeted only by effects that turn undead, and it retains its Intelligence, Wisdom, and Charisma. It grants its host body immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed creature's statistics and actions instead of its own. It doesn't gain access to the creature's memories but does gain access to proficiencies, nonmagical class features and traits, and nonmagical actions. It can't use limited-use abilities or class traits that require spending a resource. The possession ends after 24 hours, when the body drops to 0 hit points, when the ghost ends it as a bonus action, or when the ghost is turned or affected by {@spell dispel evil and good|LevelUpAdventurersGuideA5E} or a similar effect. Additionally, the possessed creature repeats its saving throw whenever it takes damage. When the possession ends, the ghost reappears in a space within 5 feet of the body. A creature is immune to this ghost's Possession for 24 hours after succeeding on its saving throw or after the possession ends."
+					]
+				},
+				{
+					"name": "Drain Heat",
+					"entries": [
+						"The ghost magically drains the heat from a 15-foot-radius area around it. Each creature in the area makes a {@dc 13} Constitution saving throw, taking 17 ({@damage 5d6}) cold damage on a failure or half damage on a success. A creature reduced to 0 hit points by this damage can't regain hit points until the start of the ghost's next turn."
+					]
+				},
+				{
+					"name": "Pyrokinesis",
+					"entries": [
+						"The ghost magically ignites up to three flammable, unattended, nonmagical objects it can see within 30 feet. Each creature within 5 feet of an object when it ignites makes a {@dc 13} Dexterity saving throw, taking 7 ({@damage 2d6}) fire damage on a failure or half damage on a success."
+					]
+				},
+				{
+					"name": "Spew Ectoplasm",
+					"entries": [
+						"The ghost vomits a spray of ectoplasm in a 15-foot cone. Each creature in the area makes a {@dc 13} Constitution saving throw. On a success, the creature is {@condition rattled|LevelUpAdventurersGuideA5E} until the end of its next turn. On a failure, the creature is {@condition poisoned} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Telekinetic Shove",
+					"entries": [
+						"The ghost targets one Large or smaller creature within 60 feet. THe target makes a {@dc 13} Strength saving throw. On a failure, the ghost magically moves the target up to 30 feet in any direction, including upward. If the target strikes and object, such as a wall, it takes 10 ({@damage 3d6}) bludgeoning damage and falls {@condition prone}. If the target would strike another creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"If the ghost takes damage from an attack or spell, it uses Horrifying Visage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ghoul",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 10,
+			"int": 6,
+			"wis": 10,
+			"cha": 6,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Radiant Sensitivity",
+					"entries": [
+						"When the ghoul takes radiant damage, it has disadvantage on attack rolls and on Perception checks that rely on sight until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staggering Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. If the target is a living creature other than an elf, it makes a {@dc 10} Constitution saving throw. On a failure, the target is {@condition staggered|LevelUpAdventurersGuideA5E} for 1 minute. The target repeats the saving throw at the end of its turns, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, it is immune to any Staggering Claw for 24 hours."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one {@condition staggered|LevelUpAdventurersGuideA5E} creature. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lacedon Ghoul",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 10,
+			"int": 6,
+			"wis": 10,
+			"cha": 6,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Radiant Sensitivity",
+					"entries": [
+						"When the ghoul takes radiant damage, it has disadvantage on attack rolls and on Perception checks that rely on sight until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staggering Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. If the target is a living creature other than an elf, it makes a {@dc 10} Constitution saving throw. On a failure, the target is {@condition staggered|LevelUpAdventurersGuideA5E} for 1 minute. The target repeats the saving throw at the end of its turns, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, it is immune to any Staggering Claw for 24 hours."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one {@condition staggered|LevelUpAdventurersGuideA5E} creature. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ghast",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 36,
+				"formula": "8d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 8,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Stench",
+					"entries": [
+						"A creature that starts its turn within 5 feet of the ghast makes a {@dc 10} Constitution saving throw. On a failure, it is {@condition poisoned} until the start of its next turn. On a success, it is immune to any ghast's Stench for 24 hours."
+					]
+				},
+				{
+					"name": "Turning Defiance",
+					"entries": [
+						"The ghast and any ghouls within 30 feet make saving throws against being turned with advantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staggering Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage. If the target is a living creature other than an elf, it makes a {@dc 10} Constitution saving throw. On a failure, the target is {@condition staggered|LevelUpAdventurersGuideA5E} for 1 minute. The target repeats the saving throw at the end of its turns, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, it is immune to any Staggering Claw for 24 hours."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one {@condition staggered|LevelUpAdventurersGuideA5E} creature. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lacedon Ghast",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 36,
+				"formula": "8d8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 8,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Stench",
+					"entries": [
+						"A creature that starts its turn within 5 feet of the ghast makes a {@dc 10} Constitution saving throw. On a failure, it is {@condition poisoned} until the start of its next turn. On a success, it is immune to any ghast's Stench for 24 hours."
+					]
+				},
+				{
+					"name": "Turning Defiance",
+					"entries": [
+						"The ghast and any ghouls within 30 feet make saving throws against being turned with advantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staggering Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage. If the target is a living creature other than an elf, it makes a {@dc 10} Constitution saving throw. On a failure, the target is {@condition staggered|LevelUpAdventurersGuideA5E} for 1 minute. The target repeats the saving throw at the end of its turns, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, it is immune to any Staggering Claw for 24 hours."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one {@condition staggered|LevelUpAdventurersGuideA5E} creature. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cloud Giant",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 187,
+				"formula": "15d12 + 90"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 22,
+			"int": 12,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"str": "+12",
+				"con": "+10",
+				"wis": "+7",
+				"cha": "+7"
+			},
+			"skill": {
+				"insight": "+7",
+				"perception": "+7",
+				"persuasion": "+7"
+			},
+			"resist": [
+				"lightning",
+				"thunder"
+			],
+			"passive": 17,
+			"languages": [
+				"common",
+				"giant"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The giant's spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell fog cloud|LevelUpAdventurersGuideA5E}",
+						"{@spell light|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell feather fall|LevelUpAdventurersGuideA5E}",
+							"{@spell fly|LevelUpAdventurersGuideA5E}",
+							"{@spell misty step|LevelUpAdventurersGuideA5E}",
+							"{@spell telekinesis|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell control weather|LevelUpAdventurersGuideA5E}",
+							"{@spell gaseous form|LevelUpAdventurersGuideA5E}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Cloud Sight",
+					"entries": [
+						"Clouds and fog do not impair the giant's vision."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The giant has advantage on Perception checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant attacks twice with its glaive."
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}24 ({@damage 3d10 + 8}) slashing damage. If the target is a Large or smaller creature, it makes a {@dc 20} Strength saving throw. On a failure, it is pushed up to 10 feet away from the giant and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 60/240 ft., one target. {@h}39 ({@damage 9d6 + 8}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 20} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Gust",
+					"entries": [
+						"One creature within 10 feet makes a {@dc 15} Strength saving throw. On a failure, it is pushed up to 30 feet away from the giant."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cloud Giant Noble",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 187,
+				"formula": "15d12 + 90"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 22,
+			"int": 12,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"str": "+12",
+				"con": "+10",
+				"wis": "+7",
+				"cha": "+7"
+			},
+			"skill": {
+				"insight": "+7",
+				"perception": "+7",
+				"persuasion": "+7"
+			},
+			"resist": [
+				"lightning",
+				"thunder"
+			],
+			"passive": 17,
+			"languages": [
+				"common",
+				"giant"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The giant's spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell fog cloud|LevelUpAdventurersGuideA5E}",
+						"{@spell light|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell feather fall|LevelUpAdventurersGuideA5E}",
+							"{@spell fly|LevelUpAdventurersGuideA5E}",
+							"{@spell misty step|LevelUpAdventurersGuideA5E}",
+							"{@spell telekinesis|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell control weather|LevelUpAdventurersGuideA5E}",
+							"{@spell gaseous form|LevelUpAdventurersGuideA5E}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Cloud Sight",
+					"entries": [
+						"Clouds and fog do not impair the giant's vision."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The giant has advantage on Perception checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant attacks twice with its glaive."
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}24 ({@damage 3d10 + 8}) slashing damage. If the target is a Large or smaller creature, it makes a {@dc 20} Strength saving throw. On a failure, it is pushed up to 10 feet away from the giant and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 60/240 ft., one target. {@h}39 ({@damage 9d6 + 8}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 20} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Arc Lightning (1/Day)",
+					"entries": [
+						"Up to three creatures within 60 feet that the giant can see make {@dc 15} Dexterity saving throws, taking 42 ({@damage 12d6}) lightning damage on a failure or half damage on a success."
+					]
+				},
+				{
+					"name": "Blinking Blades (1/Day)",
+					"entries": [
+						"The giant magically teleports multiple times within a few seconds. The giant may make one glaive attack against each creature of its choice within 30 feet, up to a maximum of 6 attacks."
+					]
+				},
+				{
+					"name": "Reverse Gravity (1/Day)",
+					"entries": [
+						"Each creature of the giant's choice within 30 feet is magically hurled 60 feet in the air. If a creature hits an obstacle, it takes 21 ({@damage 6d6}) bludgeoning damage. The creatures then fall, taking falling damage as normal."
+					]
+				},
+				{
+					"name": "Silver Tongue (1/Day)",
+					"entries": [
+						"One creature that can hear the giant within 30 feet makes a {@dc 15} Wisdom saving throw. On a failure, it is magically {@condition charmed} by the giant for 1 hour. This effect ends if the giant or its allies harm the creature."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Gust",
+					"entries": [
+						"One creature within 10 feet makes a {@dc 15} Strength saving throw. On a failure, it is pushed up to 30 feet away from the giant."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fire Giant",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"plate"
+					]
+				}
+			],
+			"hp": {
+				"average": 162,
+				"formula": "13d12 + 78"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 25,
+			"dex": 10,
+			"con": 22,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+11",
+				"dex": "+4",
+				"con": "+10",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+11",
+				"perception": "+6",
+				"intimidation": "+5"
+			},
+			"immune": [
+				"fire"
+			],
+			"passive": 16,
+			"languages": [
+				"giant"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Cold Weakness",
+					"entries": [
+						"When the fire giant takes cold damage, its speed is reduced by 10 feet until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two greatsword attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}28 ({@damage 6d6 + 7}) slashing damage. If the target is a Large or smaller creature, it makes a {@dc 19} Strength saving throw. On a failure, it is pushed up to 10 feet away from the giant and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 60/240 ft., one target. {@h}42 ({@damage 10d6 + 7}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 19} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Sword Sweep (1/Day, While Bloodied)",
+					"entries": [
+						"The giant makes a greatsword attack against each creature within 10 feet."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Kick",
+					"entries": [
+						"When hit by a melee attack by a Medium or smaller creature the giant can see within 10 feet, the giant kicks its attacker. The attacker makes a {@dc 19} Dexterity saving throw. On a failure, it takes 14 ({@damage 3d4 + 7}) bludgeoning damage, is pushed up to 20 feet from the giant, and falls {@condition prone}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fire Giant War Priest",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"plate"
+					]
+				}
+			],
+			"hp": {
+				"average": 162,
+				"formula": "13d12 + 78"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 25,
+			"dex": 10,
+			"con": 22,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+11",
+				"dex": "+4",
+				"con": "+10",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+11",
+				"perception": "+6",
+				"intimidation": "+5"
+			},
+			"immune": [
+				"fire"
+			],
+			"passive": 16,
+			"languages": [
+				"giant"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Cold Weakness",
+					"entries": [
+						"When the fire giant takes cold damage, its speed is reduced by 10 feet until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two greatsword attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}28 ({@damage 6d6 + 7}) slashing damage. If the target is a Large or smaller creature, it makes a {@dc 19} Strength saving throw. On a failure, it is pushed up to 10 feet away from the giant and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 60/240 ft., one target. {@h}42 ({@damage 10d6 + 7}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 19} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Sword Sweep (1/Day, While Bloodied)",
+					"entries": [
+						"The giant makes a greatsword attack against each creature within 10 feet."
+					]
+				},
+				{
+					"name": "Ignite Blades (1/Day)",
+					"entries": [
+						"The greatswords of each fire giant of the giant's choice within 30 feet magically kindle into flame. For the next minute, each of their greatsword attacks deal an extra 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Pillar of Flame (1/Day)",
+					"entries": [
+						"Each creature within a 10-foot-radius, 40-foor-high cylinder centred on a point within 60 feet that the fire giant can see makes a {@dc 18} Dexterity saving throw, taking 56 ({@damage 16d6}) fire damage on a failed save or half damage on a success. Unattended flammable objects are ignited."
+					]
+				}
+			]
+		},
+		{
+			"name": "Frost Giant",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"patchwork armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 138,
+				"formula": "12d12 + 60"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 22,
+			"dex": 8,
+			"con": 20,
+			"int": 10,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"str": "+10",
+				"con": "+9",
+				"wis": "+4",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+10",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"immune": [
+				"cold"
+			],
+			"passive": 14,
+			"languages": [
+				"common",
+				"giant"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Fire Fear",
+					"entries": [
+						"When the giant takes fire damage, it is {@condition rattled|LevelUpAdventurersGuideA5E} until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two melee weapon attacks."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) slashing damage. If the target is a Large or smaller creature, it makes a {@dc 18} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 60/240 ft., one target. {@h}37 ({@damage 9d6 + 6}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 18} Strength saving throw, falling {@condition prone} on a failure. In lieu of a rock, the giant can throw a {@condition grappled} Medium or smaller creature up to 40 feet. On a hit, the target and the thrown creature both take 19 ({@damage 4d6 + 5}) bludgeoning damage. On a miss, only the thrown creature takes the damage. The thrown creature falls {@condition prone} in an unoccupied space 5 feet from the target."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Grab",
+					"entries": [
+						"One creature within 5 feet makes a {@dc 11} Dexterity saving throw. On a failure, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the giant can't grab another target, and it makes battleaxe attacks with advantage against the {@condition grappled} target."
+					]
+				},
+				{
+					"name": "Stomp (1/Day)",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one {@condition prone} target. {@h}13 ({@damage 3d4 + 6}) bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Frost Giant Jarl",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"patchwork armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 184,
+				"formula": "16d12 + 80"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 22,
+			"dex": 8,
+			"con": 20,
+			"int": 10,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"str": "+10",
+				"con": "+9",
+				"wis": "+4",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+10",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"immune": [
+				"cold"
+			],
+			"passive": 14,
+			"languages": [
+				"common",
+				"giant"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Fire Fear",
+					"entries": [
+						"When the giant takes fire damage, it is {@condition rattled|LevelUpAdventurersGuideA5E} until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two melee weapon attacks."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) slashing damage. If the target is a Large or smaller creature, it makes a {@dc 18} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 60/240 ft., one target. {@h}37 ({@damage 9d6 + 6}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 18} Strength saving throw, falling {@condition prone} on a failure. In lieu of a rock, the giant can throw a {@condition grappled} Medium or smaller creature up to 40 feet. On a hit, the target and the thrown creature both take 19 ({@damage 4d6 + 5}) bludgeoning damage. On a miss, only the thrown creature takes the damage. The thrown creature falls {@condition prone} in an unoccupied space 5 feet from the target."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Grab",
+					"entries": [
+						"One creature within 5 feet makes a {@dc 11} Dexterity saving throw. On a failure, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the giant can't grab another target, and it makes battleaxe attacks with advantage against the {@condition grappled} target."
+					]
+				},
+				{
+					"name": "Stomp (1/Day)",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one {@condition prone} target. {@h}13 ({@damage 3d4 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Icy Gaze",
+					"entries": [
+						"One creature the giant can see within 60 feet makes a {@dc 17} Constitution saving throw. On a failure, it takes 21 ({@damage 6d6}) cold damage, and its Speed is halved until the end of its next turn. On a success, it takes half as much damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hill Giant",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "10d12 + 40"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 8,
+			"con": 18,
+			"int": 6,
+			"wis": 10,
+			"cha": 6,
+			"save": {
+				"str": "+8",
+				"con": "+7"
+			},
+			"passive": 10,
+			"languages": [
+				"giant"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Gullible",
+					"entries": [
+						"The giant makes Insight checks with disadvantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant attacks twice with its greatclub."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it makes a {@dc 16} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 60/240 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it makes a {@dc 16} Strength saving throw, falling {@condition prone} on a failure. In lieu of a rock, the giant can throw a {@condition grappled} Medium or smaller creature up to 30 feet. On a hit, the target and the thrown creature both take 15 ({@damage 3d6 + 5}) bludgeoning damage. On a miss, only the thrown creature takes the damage. The thrown creature falls {@condition prone} in an unoccupied space 5 feet from the target."
+					]
+				},
+				{
+					"name": "Greatclub Sweep (1/Day, While Bloodied)",
+					"entries": [
+						"Each creature within 10 feet makes a {@dc 16} Dexterity saving throw. On a failure, a creature takes 18 ({@damage 3d8 + 5}) bludgeoning damage, is pushed 10 feet away from the giant, and falls {@condition prone}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Grab",
+					"entries": [
+						"One creature within 5 feet makes a {@dc 10} Dexterity saving throw. On a failure, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the giant can't grab another target, and it makes greatclub attacks with advantage against the {@condition grappled} target."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hill Giant Chief",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "12d12 + 48"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 8,
+			"con": 18,
+			"int": 6,
+			"wis": 10,
+			"cha": 6,
+			"save": {
+				"str": "+8",
+				"con": "+7"
+			},
+			"passive": 10,
+			"languages": [
+				"giant"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Gullible",
+					"entries": [
+						"The giant makes Insight checks with disadvantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant attacks twice with its greatclub."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it makes a {@dc 16} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 60/240 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it makes a {@dc 16} Strength saving throw, falling {@condition prone} on a failure. In lieu of a rock, the giant can throw a {@condition grappled} Medium or smaller creature up to 30 feet. On a hit, the target and the thrown creature both take 15 ({@damage 3d6 + 5}) bludgeoning damage. On a miss, only the thrown creature takes the damage. The thrown creature falls {@condition prone} in an unoccupied space 5 feet from the target."
+					]
+				},
+				{
+					"name": "Greatclub Sweep (1/Day, While Bloodied)",
+					"entries": [
+						"Each creature within 10 feet makes a {@dc 16} Dexterity saving throw. On a failure, a creature takes 18 ({@damage 3d8 + 5}) bludgeoning damage, is pushed 10 feet away from the giant, and falls {@condition prone}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Grab",
+					"entries": [
+						"One creature within 5 feet makes a {@dc 10} Dexterity saving throw. On a failure, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the giant can't grab another target, and it makes greatclub attacks with advantage against the {@condition grappled} target."
+					]
+				},
+				{
+					"name": "Body Slam (1/Day)",
+					"entries": [
+						"The giant jumps up to 15 feet horizontally without provoking opportunity attacks and falls {@condition prone} in a space containing one or more creatures. Each creature in its space when it lands makes a {@dc 15} Dexterity saving throw, taking 19 ({@damage 3d8 + 6}) bludgeoning damage and falling {@condition prone} on a failure. On a success, the creature takes half damage and is pushed 5 feet to an unoccupied space of its choice. If that space is occupied, the creature falls {@condition prone}."
+					]
+				},
+				{
+					"name": "Muddy Ground (1/Day)",
+					"entries": [
+						"Areas of unworked earth within 60 feet magically become swampy mud for 1 minute or until the giant dies. These areas become difficult terrain. {@condition Prone} creatures in the area when the mud appears or that fall {@condition prone} in the area make a {@dc 15} Strength saving throw. On a failure, the creature's Speed drops to 0 as it becomes stuck in the mud. A creature can use its action to make a {@dc 15} Strength check, freeing itself on a success."
+					]
+				},
+				{
+					"name": "Stomp (1/Day)",
+					"entries": [
+						"The giant stamps its foot, causing the ground to tremble. Each creature within 60 feet makes a {@dc 15} Dexterity saving throw. On a failure, it falls {@condition prone}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stone Giant",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "11d12 + 55"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 14,
+			"con": 20,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"str": "+9",
+				"dex": "+5",
+				"con": "+8",
+				"wis": "+4"
+			},
+			"resist": [
+				"acid"
+			],
+			"conditionImmune": [
+				"petrified"
+			],
+			"passive": 14,
+			"languages": [
+				"giant"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Camouflage",
+					"entries": [
+						"The giant has advantage on Stealth checks made to hide in rocky terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant attacks twice with its greatclub or twice with rocks."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 19} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 19} Strength saving throw. On a failure, it is pushed 10 feet away from the giant and knocked {@condition prone}. In lieu of a rock, the giant can throw a {@condition grappled} Medium or smaller creature up to 30 feet. On a hit, the target and the thrown creature both take 15 ({@damage 3d6 + 5}) bludgeoning damage. On a miss, only the thrown creature takes the damage. The thrown creature falls {@condition prone} in an unoccupied space 5 feet from the target."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Grab",
+					"entries": [
+						"One creature within 5 feet makes a {@dc 13} Dexterity saving throw. On a failure, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the giant can't grab another target, and it makes greatclub attacks with advantage against the {@condition grappled} target."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Rock Catching",
+					"entries": [
+						"If a rock or other Small or larger projectile is hurled or fired at the giant, the giant makes a {@dc 10} Dexterity saving throw. On a success, the giant catches the projectile, takes no bludgeoning or piercing damage from it, and is not pushed or knocked {@condition prone} by it."
 					]
 				}
 			]
