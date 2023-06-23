@@ -38,9 +38,9 @@
 				],
 				"weapons": [
 					"simple",
-					"{@item hand crossbow|phb|hand crossbows}",
-					"{@item rapier|phb|rapiers}",
-					"{@item shortsword|phb|shortswords}"
+					"knife weapons",
+					"finesse sword weapons",
+					"non-heavy bow weapons"
 				],
 				"tools": [
                     "{@item disguise kit|PHB}",
