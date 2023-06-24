@@ -25943,7 +25943,9 @@
 			"ac": [
 				{
 					"ac": 17,
-					"from": "natural armor"
+					"from": [
+						"natural armor"
+					]
 				}
 			],
 			"hp": {
@@ -26055,7 +26057,9 @@
 			"ac": [
 				{
 					"ac": 17,
-					"from": "natural armor"
+					"from": [
+						"natural armor"
+					]
 				}
 			],
 			"hp": {
@@ -26199,7 +26203,9 @@
 			"ac": [
 				{
 					"ac": 17,
-					"from": "natural armor"
+					"from": [
+						"natural armor"
+					]
 				}
 			],
 			"hp": {
@@ -26325,7 +26331,9 @@
 			"ac": [
 				{
 					"ac": 17,
-					"from": "natural armor"
+					"from": [
+						"natural armor"
+					]
 				}
 			],
 			"hp": {
@@ -27999,6 +28007,1453 @@
 					"name": "Rock Catching",
 					"entries": [
 						"If a rock or other Small or larger projectile is hurled or fired at the giant, the giant makes a {@dc 10} Dexterity saving throw. On a success, the giant catches the projectile, takes no bludgeoning or piercing damage from it, and is not pushed or knocked {@condition prone} by it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stone Giant Stonetalker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "11d12 + 55"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 14,
+			"con": 20,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"str": "+9",
+				"dex": "+5",
+				"con": "+8",
+				"wis": "+4"
+			},
+			"resist": [
+				"acid"
+			],
+			"conditionImmune": [
+				"petrified"
+			],
+			"passive": 14,
+			"languages": [
+				"giant"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The giant's spellcasting ability is Constitution (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell stone shape|LevelUpAdventurersGuideA5E}",
+						"{@spell telekinesis|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell meld into stone|LevelUpAdventurersGuideA5E}",
+							"{@spell move earth|LevelUpAdventurersGuideA5E}",
+							"{@spell passwall|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell augury|LevelUpAdventurersGuideA5E}",
+							"{@spell scrying|LevelUpAdventurersGuideA5E} (underground only)"
+						]
+					},
+					"ability": "con"
+				}
+			],
+			"trait": [
+				{
+					"name": "Camouflage",
+					"entries": [
+						"The giant has advantage on Stealth checks made to hide in rocky terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant attacks twice with its greatclub or twice with rocks."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 19} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 19} Strength saving throw. On a failure, it is pushed 10 feet away from the giant and knocked {@condition prone}. In lieu of a rock, the giant can throw a {@condition grappled} Medium or smaller creature up to 30 feet. On a hit, the target and the thrown creature both take 15 ({@damage 3d6 + 5}) bludgeoning damage. On a miss, only the thrown creature takes the damage. The thrown creature falls {@condition prone} in an unoccupied space 5 feet from the target."
+					]
+				},
+				{
+					"name": "Stone Spikes",
+					"entries": [
+						"Magical spikes of stone explode from a point on a flat surface of unworked stone within 60 feet. Each creature within 10 feet of this point makes a Dexterity saving throw, taking 28 ({@damage 8d6}) piercing damage on a failed save or half the damage on a success."
+					]
+				},
+				{
+					"name": "Avalanche (1/Day)",
+					"entries": [
+						"The stone giant magically creates an avalanche on a hill or mountainside centered on a point within 120 feet. Stones cascade down sloped or sheer stone surfaces within 60 feet of that point. Each non-stone giant creature within the affected area makes a Strength saving throw. On a failure, a creature takes 17 ({@damage 5d6}) bludgeoning damage, is knocked {@condition prone}, and moves with the avalanche until they reach a flat surface or the edge of the area. On a success, the creature takes half damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Grab",
+					"entries": [
+						"One creature within 5 feet makes a {@dc 13} Dexterity saving throw. On a failure, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the giant can't grab another target, and it makes greatclub attacks with advantage against the {@condition grappled} target."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Rock Catching",
+					"entries": [
+						"If a rock or other Small or larger projectile is hurled or fired at the giant, the giant makes a {@dc 10} Dexterity saving throw. On a success, the giant catches the projectile, takes no bludgeoning or piercing damage from it, and is not pushed or knocked {@condition prone} by it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Storm Giant",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"scale"
+					]
+				}
+			],
+			"hp": {
+				"average": 230,
+				"formula": "20d12 + 100"
+			},
+			"speed": {
+				"walk": 50,
+				"swim": 50
+			},
+			"str": 29,
+			"dex": 14,
+			"con": 20,
+			"int": 16,
+			"wis": 18,
+			"cha": 18,
+			"save": {
+				"str": "+14",
+				"con": "+10",
+				"wis": "+9",
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+8",
+				"athletics": "+14",
+				"history": "+8",
+				"insight": "+9",
+				"perception": "+9"
+			},
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"lightning",
+				"thunder"
+			],
+			"passive": 19,
+			"languages": [
+				"common",
+				"giant"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The giant's spellcasting ability is Charisma (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell feather fall|LevelUpAdventurersGuideA5E}",
+						"{@spell levitate|LevelUpAdventurersGuideA5E}",
+						"{@spell light|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell control water|LevelUpAdventurersGuideA5E}",
+							"{@spell control weather|LevelUpAdventurersGuideA5E}",
+							"{@spell water breathing|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell commune|LevelUpAdventurersGuideA5E}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The giant can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The giant has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant attacks twice with its greatsword."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}30 ({@damage 6d6 + 9}) slashing damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 14} to hit, range 60/240 ft., one target. {@h}44 ({@damage 10d6 + 9}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 22} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Lightning Strike (Recharge 5-6)",
+					"entries": [
+						"The giant throws a lightning bolt at a point it can see within 500 feet. Each creature within 10 feet of that point makes a {@dc 18} Dexterity saving throw, taking 56 ({@damage 16d6}) lightning damage on a success or half the damage on a failure."
+					]
+				},
+				{
+					"name": "Sword Sweep (While Bloodied)",
+					"entries": [
+						"The giant makes a greatsword attack against each creature within 10 feet. Each creature hit with this attack makes a {@dc 22} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Stomp",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one Medium or smaller {@condition prone} target. {@h}19 ({@damage 3d6 + 9}) bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Storm Giant Monarch",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"scale"
+					]
+				}
+			],
+			"hp": {
+				"average": 460,
+				"formula": "40d12 + 200"
+			},
+			"speed": {
+				"walk": 50,
+				"swim": 50
+			},
+			"str": 29,
+			"dex": 14,
+			"con": 20,
+			"int": 16,
+			"wis": 18,
+			"cha": 18,
+			"save": {
+				"str": "+14",
+				"con": "+10",
+				"wis": "+9",
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+8",
+				"athletics": "+14",
+				"history": "+8",
+				"insight": "+9",
+				"perception": "+9"
+			},
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"lightning",
+				"thunder"
+			],
+			"passive": 19,
+			"languages": [
+				"common",
+				"giant"
+			],
+			"cr": "28",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The giant's spellcasting ability is Charisma (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell feather fall|LevelUpAdventurersGuideA5E}",
+						"{@spell levitate|LevelUpAdventurersGuideA5E}",
+						"{@spell light|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell control water|LevelUpAdventurersGuideA5E}",
+							"{@spell control weather|LevelUpAdventurersGuideA5E}",
+							"{@spell water breathing|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell commune|LevelUpAdventurersGuideA5E}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The giant can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The giant has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant attacks twice with its greatsword."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}30 ({@damage 6d6 + 9}) slashing damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 14} to hit, range 60/240 ft., one target. {@h}44 ({@damage 10d6 + 9}) bludgeoning damage. If the target is a Large or smaller creature, it makes a {@dc 22} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Lightning Strike (Recharge 5-6)",
+					"entries": [
+						"The giant throws a lightning bolt at a point it can see within 500 feet. Each creature within 10 feet of that point makes a {@dc 18} Dexterity saving throw, taking 56 ({@damage 16d6}) lightning damage on a success or half the damage on a failure."
+					]
+				},
+				{
+					"name": "Sword Sweep (While Bloodied)",
+					"entries": [
+						"The giant makes a greatsword attack against each creature within 10 feet. Each creature hit with this attack makes a {@dc 22} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Stomp",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one Medium or smaller {@condition prone} target. {@h}19 ({@damage 3d6 + 9}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"The giant ends one negative effect currently affecting it. It can do so as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Lightning Sword (While Bloodied)",
+					"entries": [
+						"The giant moves or swims up to its Speed without provoking opportunity attacks and makes a greatsword attack. On a hit, the target takes 28 ({@damage 8d6}) extra lightning damage."
+					]
+				},
+				{
+					"name": "Lightning Strikes (1/Day, While Bloodied)",
+					"entries": [
+						"The giant recharges and uses Lightning Strike."
+					]
+				},
+				{
+					"name": "Twister (1/Day, While Bloodied)",
+					"entries": [
+						"A Large or smaller creature the giant can see within 120 feet makes a {@dc 18} Strength saving throw. On a failure, it takes 42 ({@damage 12d6}) bludgeoning damage and is caught within a whirlwind or water funnel and {@condition restrained} for 1 minute. On a success, it takes half damage. A creature can use an action to make a {@dc 18} Strength saving throw, freeing itself or a creature within its reach from the twister on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gibbering Mouther",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 9
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 20
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 16,
+			"int": 2,
+			"wis": 10,
+			"cha": 6,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"prone"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The mouther can breathe air and water."
+					]
+				},
+				{
+					"name": "Gibbering Mouths",
+					"entries": [
+						"A living non-aberration creature that starts its turn within 30 feet and can hear its gibbering makes a {@dc 10} Intelligence saving throw. On a failure, the creature is {@condition confused|LevelUpAdventurersGuideA5E} until the start of its next turn."
+					]
+				},
+				{
+					"name": "Reality Eater",
+					"entries": [
+						"The ground within 15 feet of the mouther is the consistency of sucking mud and is difficult terrain to all creatures except the mouther. Each non-aberrant creature that starts its turn in the area or enters it for the first time on its turn makes a {@dc 10} Strength saving throw. On a failure, its Speed is reduced to 0 until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mouther makes two bite attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) piercing damage, and the target makes a {@dc 10} Strength saving throw, falling {@condition prone} on a failure. If the target is killed by this attack, it is absorbed into the mouther."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Blinding Bile (Recharge 5-6)",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 20/60 ft., one target. {@h}3 ({@damage 1d6}) acid damage, and the target is {@condition blinded} until the end of the mouther's next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Murmuring Worm",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "17d12 + 85"
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 20,
+				"climb": 40,
+				"swim": 40
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 20,
+			"int": 8,
+			"wis": 14,
+			"cha": 18,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"prone"
+			],
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 12,
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The worm can breathe air and water."
+					]
+				},
+				{
+					"name": "Locate Mind",
+					"entries": [
+						"The worm is aware of the location and relative intelligence of all creatures with Intelligence scores greater than 3 within 500 feet. For example, it knows whether a creature is smarter than, as smart as, or less smart than itself."
+					]
+				},
+				{
+					"name": "Maddening Murmurs",
+					"entries": [
+						"A non-aberrant creature that starts its turn within 30 feet and can hear its murmurs makes a {@dc 14} Intelligence saving throw. On a failure, the creature takes 10 ({@damage 3d6}) psychic damage and is {@condition confused|LevelUpAdventurersGuideA5E} until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The worm constricts once and attacks once with its bite."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d10 + 5}) bludgeoning damage. The target is {@condition grappled} (escape {@dc 17}) and {@condition restrained} while {@condition grappled}."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage. If the target is killed by this attack, the worm eats its head."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Mental Summons",
+					"entries": [
+						"One creature with an Intelligence score greater than 3 within 120 feet makes a {@dc 16} Wisdom saving throw. On a failure, it uses its reaction to move up to its Speed towards the worm by the shortest route possible, avoiding hazards but not opportunity attacks. This is a magical {@condition charmed||charm} effect."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gnoll",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"fiend",
+					"gnoll"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"hide armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"gnoll"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The gnoll has advantage on attack rolls against a creature if at least one of the gnoll's allies is within 5 feet of the creature and not {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Rampaging Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one bloodied creature. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gnoll Pack Leader",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"fiend",
+					"gnoll"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"hide armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "10d8"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"gnoll"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The gnoll has advantage on attack rolls against a creature if at least one of the gnoll's allies is within 5 feet of the creature and not {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gnoll attacks twice with its spear."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Rampaging Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one bloodied creature. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cannibal Reaver",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"fiend",
+					"any"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"hide armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"gnoll"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The gnoll has advantage on attack rolls against a creature if at least one of the gnoll's allies is within 5 feet of the creature and not {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Rampaging Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one bloodied creature. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gnoll Demonfang",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"fiend",
+					"gnoll"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"hide armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"con": "+4",
+				"wis": "+2",
+				"cha": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"abyssal",
+				"gnoll"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Aligned",
+					"entries": [
+						"The gnoll radiates a Chaotic and Evil aura."
+					]
+				},
+				{
+					"name": "Possessed",
+					"entries": [
+						"If the gnoll demonfang is turned or affected by {@condition dispel evil and good|LevelUpAdventurersGuideA5E} or a similar effect, it transforms into an ordinary gnoll. Any damage it has taken carries over to its new form. If this damage exceeds its macimum hit points, it dies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gnoll attacks three times with its Charging Claw."
+					]
+				},
+				{
+					"name": "Charging Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage, or 10 ({@damage 2d6 + 3}) slashing damage if this is the gnoll's first attack on this target this turn. The gnoll may then move up to 10 feet without provoking opportunity attacks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Goblin",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"leather armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 10,
+				"formula": "3d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"stealth": "+3 (+1d4)"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common",
+				"goblin"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin takes the Disengage or Hide action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Goblin Alchemist",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"leather armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 10,
+				"formula": "3d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"stealth": "+3 (+1d4)"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common",
+				"goblin"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Throw Vial (2/Day)",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 20/40 ft., one target. {@h}3 ({@damage 1d6}) ongoing fire or acid damage (either acid or alchemist's fire). A creature can use an action to end the ongoing damage on a target."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin takes the Disengage or Hide action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Goblin Dreadnought",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"scale mail",
+						"buckler shield"
+					]
+				}
+			],
+			"hp": {
+				"average": 10,
+				"formula": "3d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"stealth": "+3 (+1d4)"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common",
+				"goblin"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Sabre",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin takes the Disengage or Hide action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Goblin Musketeer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"leather armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 10,
+				"formula": "3d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"stealth": "+3 (+1d4)"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common",
+				"goblin"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Prepare Musket",
+					"entries": [
+						"This action can be taken by either the goblin or another goblin within 5 feet of it. This goblin is able to make Musket attacks during its next turn."
+					]
+				},
+				{
+					"name": "Musket",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 60/180 ft., one target while the musket is prepared. {@h}10 ({@damage 2d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin takes the Disengage or Hide action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Goblin Shieldbearer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"leather armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 10,
+				"formula": "3d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"stealth": "+3 (+1d4)"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common",
+				"goblin"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Shield Wall",
+					"entries": [
+						"The goblin and a goblin within 5 feet of it gain three-quarters cover."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin takes the Disengage or Hide action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Goblin Skulker",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"leather armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 10,
+				"formula": "3d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"stealth": "+3 (+1d4)"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"common",
+				"goblin"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"The goblin deals an extra 3 ({@damage 1d6}) damage when it attacks with advantage or when one of its allies is within 5 feet of its target and isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin takes the Disengage or Hide action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Goblin Boss",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"chain shirt",
+						"buckler shield"
+					]
+				}
+			],
+			"hp": {
+				"average": 24,
+				"formula": "7d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 10,
+			"int": 12,
+			"wis": 12,
+			"cha": 12,
+			"skill": {
+				"stealth": "+4 (+1d4)",
+				"intimidation": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"common",
+				"goblin"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The goblin attacks twice with its scimitar."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Command Minions",
+					"entries": [
+						"Up to 3 goblins within 30 feet that can hear or see it use their reactions to make a single melee attack each."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin takes the Disengage or Hide action."
 					]
 				}
 			]
