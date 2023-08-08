@@ -240,5 +240,42 @@
             ],
             "hasFluffImages": false
         }
+    ],
+    "disease": [
+        {
+			"name": "Brain Larvae",
+			"source": "LevelUpAdventurersGuideA5E",
+			"entries": [
+				"A {@creature khalkos|LevelUpAdventurersGuideA5E} can infect an intelligent creature with a horrifying disease, injecting {@creature khalkos|LevelUpAdventurersGuideA5E} larvae directly into the creature's skull. While infected with this disease, the host undergoes the following changes:",
+				{
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Telepathy",
+                            "entries": [
+                                "The host gains telepathy out to a radius of 120 feet. Additionally, the host can telepathically communicate with the {@creature khalkos|LevelUpAdventurersGuideA5E} that infected it over any distance, as long as they are on the same plane."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Trust",
+                            "entries": [
+                                "Whenever a {@creature khalkos|LevelUpAdventurersGuideA5E} makes a Charisma check to convince the host of its good intentions, it does so with advantage. If it succeeds, the host becomes friendly to it no matter its previous attitude."
+                            ]
+                        }
+                    ]
+                },
+                "After 10 ({@dice 3d6}) days, the host develops a splitting headache and is {@condition incapacitated} for 24 hours. At the end of this time, the host dies, and 2 or 3 {@creature khalkos spawn|LevelUpAdventurersGuideA5E} burst out of the host's skull after 1 round.",
+                "This disease can only be detected or cured by a spell cast with a 5th-level or higher spell slot. It can't be cured by effects that don't require a spell slot. Creatures without a head are immune to this disease."
+			]
+		},
+        {
+			"name": "Mummy Rot",
+			"source": "LevelUpAdventurersGuideA5E",
+			"entries": [
+				"A {@creature mummy|LevelUpAdventurersGuideA5E|mummy's} touch inflicts a dreadful curse called mummy rot. A cursed creature can't regain hit points, and its hit point maximum decreases by an amount equal to the creature's total number of Hit Dice for every 24 hours that elapse. If this curse reduces the target's hit point maximum to 0, the target dies and crumbles to dust."
+			]
+		}
     ]
 }
