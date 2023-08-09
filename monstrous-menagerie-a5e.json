@@ -40836,6 +40836,690 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Purple Worm",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"G"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 247,
+				"formula": "15d20 + 90"
+			},
+			"speed": {
+				"walk": 50,
+				"burrow": 20
+			},
+			"str": 28,
+			"dex": 8,
+			"con": 22,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"save": {
+				"str": "+14",
+				"con": "+11",
+				"int": "+1",
+				"wis": "+5",
+				"cha": "+2"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 15,
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Tunneler",
+					"entries": [
+						"The worm can tunnel through earth and solid rock, leaving behind a 10-foot-diameter tunnel."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The worm attacks two different targets with its bite and its tail stinger."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 9}) piercing damage. If the target is a Large or smaller creature, it makes a {@dc 19} Dexterity saving throw. On a failure, the target is swallowed. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover from attacks from outside the worm, and it takes 24 ({@damage 7d6}) acid damage at the start of each of the worm's turns.",
+						"If a swallowed creature deals 35 or more damage to the worm in a single turn, or if the worm dies, the worm vomits up all swallowed creatures."
+					]
+				},
+				{
+					"name": "Tail Stinger",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d6 + 9}) piercing damage, and the target makes a {@dc 19} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save or half damage on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Fighting Retreat",
+					"entries": [
+						"When a creature makes an opportunity attack on the worm, the worm attacks with either its bite or its tail stinger."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ice Worm",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"G"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 247,
+				"formula": "15d20 + 90"
+			},
+			"speed": {
+				"walk": 50,
+				"burrow": 20
+			},
+			"str": 28,
+			"dex": 8,
+			"con": 22,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"save": {
+				"str": "+14",
+				"con": "+11",
+				"int": "+1",
+				"wis": "+5",
+				"cha": "+2"
+			},
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"fire"
+			],
+			"senses": [
+				"blindsight 30 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 15,
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Tunneler",
+					"entries": [
+						"The worm can tunnel through earth and solid rock, leaving behind a 10-foot-diameter tunnel."
+					]
+				},
+				{
+					"name": "Sense Heat",
+					"entries": [
+						"The worm senses warm-blooded creatures and warm objects within 60 feet."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The worm attacks two different targets with its bite and its tail stinger."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 9}) piercing damage. If the target is a Large or smaller creature, it makes a {@dc 19} Dexterity saving throw. On a failure, the target is swallowed. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover from attacks from outside the worm, and it takes 24 ({@damage 7d6}) acid damage at the start of each of the worm's turns.",
+						"If a swallowed creature deals 35 or more damage to the worm in a single turn, or if the worm dies, the worm vomits up all swallowed creatures."
+					]
+				},
+				{
+					"name": "Tail Stinger",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d6 + 9}) piercing damage, and the target makes a {@dc 19} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save or half damage on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Fighting Retreat",
+					"entries": [
+						"When a creature makes an opportunity attack on the worm, the worm attacks with either its bite or its tail stinger."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sand Worm",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"G"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 247,
+				"formula": "15d20 + 90"
+			},
+			"speed": {
+				"walk": 50,
+				"burrow": 20
+			},
+			"str": 28,
+			"dex": 8,
+			"con": 22,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"save": {
+				"str": "+14",
+				"con": "+11",
+				"int": "+1",
+				"wis": "+5",
+				"cha": "+2"
+			},
+			"skill": {
+				"stealth": "+4 (+1d6)"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 15,
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Tunneler",
+					"entries": [
+						"The worm can tunnel through earth and solid rock, leaving behind a 10-foot-diameter tunnel."
+					]
+				},
+				{
+					"name": "Sand Cascade",
+					"entries": [
+						"When the worm emerges from under sand, each creature within 30 feet makes a {@dc 24} Constitution saving throw, falling {@condition prone} on a failure."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The worm attacks two different targets with its bite and its tail stinger."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 9}) piercing damage. If the target is a Large or smaller creature, it makes a {@dc 19} Dexterity saving throw. On a failure, the target is swallowed. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover from attacks from outside the worm, and it takes 24 ({@damage 7d6}) acid damage at the start of each of the worm's turns.",
+						"If a swallowed creature deals 35 or more damage to the worm in a single turn, or if the worm dies, the worm vomits up all swallowed creatures."
+					]
+				},
+				{
+					"name": "Tail Stinger",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d6 + 9}) piercing damage, and the target makes a {@dc 19} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save or half damage on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Fighting Retreat",
+					"entries": [
+						"When a creature makes an opportunity attack on the worm, the worm attacks with either its bite or its tail stinger."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rakshasa",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 161,
+				"formula": "19d8 + 76"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 18,
+			"int": 16,
+			"wis": 16,
+			"cha": 20,
+			"skill": {
+				"deception": "+10",
+				"insight": "+8"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"common",
+				"infernal",
+				"one other"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The rakshasa's spellcasting ability is Charisma (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell mage hand|LevelUpAdventurersGuideA5E}",
+						"{@spell major image|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm person|LevelUpAdventurersGuideA5E}",
+							"{@spell dominate person|LevelUpAdventurersGuideA5E}",
+							"{@spell fly|LevelUpAdventurersGuideA5E} (self only)",
+							"{@spell invisibility|LevelUpAdventurersGuideA5E} (self only)",
+							"{@spell modify memory|LevelUpAdventurersGuideA5E}",
+							"{@spell true seeing|LevelUpAdventurersGuideA5E}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The rakshasa has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Lawful Evil",
+					"entries": [
+						"The rakshasa radiates a Lawful and Evil aura."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Any spell that would target or detect the rakshasa, or cause the rakshasa to make a saving throw, fails unless the spell is 5th-level or higher, or the rakshasa voluntarily allows it to be cast."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The rakshasa makes two attacks."
+					]
+				},
+				{
+					"name": "Claw (True Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage. If the target is a creature, it is cursed. Whenever a cursed creature takes a long rest, it is troubled by terrible visions and dreams and gains no benefit from the rest."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Sweet Promises",
+					"entries": [
+						"The rakshasa targets a creature that can hear it within 60 feet, offering something the target covets. The target makes a {@dc 18} Wisdom saving throw. On a failure, the target is {@condition charmed} until the end of its next turn, and {@condition debilitated|LevelUpAdventurersGuideA5E} while {@condition charmed} in this way."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Quickened Spell",
+					"entries": [
+						"The rakshasa casts {@spell invisibility|LevelUpAdventurersGuideA5E} or {@spell fly|LevelUpAdventurersGuideA5E}."
+					]
+				},
+				{
+					"name": "Read Thoughts",
+					"entries": [
+						"The rakshasa magically reads the surface thoughts of one creature within 60 feet that it can see. Until the end of the rakshasa's turn, it has advantage on attack rolls and on Deception, Insight, Intimidation, and Persuasion checks against the creature."
+					]
+				},
+				{
+					"name": "Shapeshift",
+					"entries": [
+						"The rakshasa magically changes its form to that of any Medium or Small humanoid or to its true form. While shapeshifted, its statistics are unchanged."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Counterproposal",
+					"entries": [
+						"The rakshasa uses Sweet Promises on a creature that attacked it or targeted it with a spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Remorhaz",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "17d12 + 85"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 20
+			},
+			"str": 22,
+			"dex": 12,
+			"con": 20,
+			"int": 4,
+			"wis": 12,
+			"cha": 5,
+			"save": {
+				"int": "+1",
+				"wis": "+5"
+			},
+			"immune": [
+				"cold",
+				"fire"
+			],
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 11,
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that starts its turn {@condition grappled} by the remorhaz, touches it, or hits it with a melee attack while within 5 feet takes 10 ({@damage 3d6}) fire damage, or 21 ({@damge 6d6}) fire damage if the remorhaz is bloodied. A creature can take this damage only once on a turn. If the remorhaz has been subjected to cold damage since the end of its last turn, this trait doesn't function."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The remorhaz makes a bite attack and then a constrict attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) piercing damage plus 10 ({@damage 3d6}) fire damage. If the target is a Medium or smaller creature {@condition grappled} by the remorhaz, the target is swallowed. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover from attacks from outside the remorhaz, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the remorhaz's turns.",
+						"If a swallowed creature deals 30 or more damage to the remorhaz in a single turn, or if the remorhaz dies, the remorhaz vomits up all swallowed creatures."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage, and the target is subjected to the remorhaz's Heated Body trait. The target is {@condition grappled} (escape {@dc 18}) and {@condition restrained} while {@condition grapled}. The remorhaz can grapple three creatures at once."
+					]
+				}
+			]
+		},
+		{
+			"name": "Remorhaz Spawn",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d10 + 40"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 20
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 18,
+			"int": 4,
+			"wis": 12,
+			"cha": 5,
+			"save": {
+				"int": "+0",
+				"wis": "+4"
+			},
+			"immune": [
+				"cold",
+				"fire"
+			],
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 11,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that starts its turn {@condition grappled} by the remorhaz, touches it, or hits it with a melee attack while within 5 feet takes 3 ({@damage 1d6}) fire damage. A creature can take this damage only once on a turn. If the remorhaz has been subjected to cold damage since the end of its last turn, this trait doesn't function."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The remorhaz makes a bite attack and then a constrict attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 3 ({@damage 1d6}) fire damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, and the target is subjected to the remorhaz's Heated Body trait. The target is {@condition grappled} (escape {@dc 15}) and {@condition restrained} while {@condition grapled}. Until this grapple ends, the remorhaz can't grapple another creature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Revenant",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "13d8 + 52"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 18,
+			"int": 10,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"str": "+7",
+				"con": "+7",
+				"wis": "+4",
+				"cha": "+7"
+			},
+			"resist": [
+				"necrotic",
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"frightened",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"poisoned",
+				"debilitated|LevelUpAdventurersGuideA5E"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The revenant has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Fearsome Pursuit",
+					"entries": [
+						"The revenant can spend 1 minute focusing on a creature against which it has sworn vengeance. If the creature is dead or on another plane of existence, it learns that. Otherwise, after focusing, it knows the distance and direction to that creature, and so long as it's moving in pursuit of that creature, it ignores difficult terrain. This effect ends if the revenant takes damage or ends its turn without moving for any reason."
+					]
+				},
+				{
+					"name": "Rapid Recovery",
+					"entries": [
+						"If the revenant goes 1 minute without taking damage, it regains all its missing hit points."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"When the revenant is reduced to 0 hit points, its body turns to dust. One minute later, its spirit inhabits a recently-dead humanoid corpse of its choice on the same plane of existence, regaining all its hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The revenant uses Burning Hatred, if available, and then makes two strangle attacks."
+					]
+				},
+				{
+					"name": "Strangle",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 15}) if it's a Large or smaller creature. Until this grapple ends, the creature can't breathe, and the revenant can't strangle any other creature."
+					]
+				},
+				{
+					"name": "Burning Hatred (Recharge 4-6)",
+					"entries": [
+						"The revenant targets the focus of its Fearsome Pursuit, assuming the creature is within 30 feet. THe target makes a {@dc 15} Wisdom saving throw. On a failure, it takes 14 ({@damage 4d6}) psychic damage and is {@condition staggered|LevelUpAdventurersGuideA5E} until the end of its next turn. On a success, it takes half damage and is {@condition frightened} until the end of its next turn."
+					]
+				}
+			]
 		}
 	]
 }
