@@ -41520,6 +41520,739 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Piercer",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"S"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d6 + 2"
+			},
+			"speed": {
+				"walk": 0
+			},
+			"str": 0,
+			"dex": 10,
+			"con": 12,
+			"int": 1,
+			"wis": 6,
+			"cha": 2,
+			"senses": [
+				"blindsight 30 ft. (blind beyond that radius)"
+			],
+			"passive": 8,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While motionless, the piercer is indistinguishable from a normal stalactite."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pierce",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, one target directly underneath the piercer. {@h}10 ({@damage 3d6}) piercing damage. This attack has disadvantage against a creature that is protecting its head with a shield or similar object. If the attack misses, the piercer dies."
+					]
+				}
+			]
+		},
+		{
+			"name": "Roper",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 93,
+				"formula": "11d10 + 33"
+			},
+			"speed": {
+				"walk": 10,
+				"climb": 10
+			},
+			"str": 18,
+			"dex": 8,
+			"con": 16,
+			"int": 6,
+			"wis": 14,
+			"cha": 4,
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While motionless, the roper is indistinguishable from a normal stalactite or stalagmite."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The roper can climb even on difficult surfaces and upside down on ceilings."
+					]
+				},
+				{
+					"name": "Tendrils",
+					"entries": [
+						"The roper has eight tendrils. Each tendril has AC 20, 15 hit points, vulnerability to slashing damage, and immunity to psychic damage. A creature can also break a tendril by taking an action to make a {@dc 15} Strength check. A tendril takes no damage from sources other than attacks. The roper grows back any destroyed tendrils after a long rest."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The roper makes up to four tendril attacks, then uses Reel, then attacks with its bite."
+					]
+				},
+				{
+					"name": "Tendril",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 50 ft., one target. {@h}The target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained} and the roper can't use this tendril on another target."
+					]
+				},
+				{
+					"name": "Reel",
+					"entries": [
+						"The roper pulls each creature it is grappling up to 25 feet straight towards it."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 9 ({@damage 2d8}) acid damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tentacle Tree",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 93,
+				"formula": "11d10 + 33"
+			},
+			"speed": {
+				"walk": 0
+			},
+			"str": 18,
+			"dex": 8,
+			"con": 16,
+			"int": 6,
+			"wis": 14,
+			"cha": 4,
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While motionless, the tree is indistinguishable from a normal stalactite or stalagmite."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The tree can climb even on difficult surfaces and upside down on ceilings."
+					]
+				},
+				{
+					"name": "Tendrils",
+					"entries": [
+						"The tree has eight tendrils. Each tendril has AC 20, 15 hit points, vulnerability to slashing damage, and immunity to psychic damage. A creature can also break a tendril by taking an action to make a {@dc 15} Strength check. A tendril takes no damage from sources other than attacks. The tree grows back any destroyed tendrils after a long rest."
+					]
+				},
+				{
+					"name": "Flammable",
+					"entries": [
+						"The tree's tendrils are vulnerable to fire damage. After taking fire damage, the tree catches fire and takes 5 ({@damage 1d10}) ongoing fire damage if it isn't already suffering ongoing fire damage. At the end of each of its turns, it makes a {@dc 15} Constitution saving throw, ending the ongoing damage on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The roper makes up to four tendril attacks, then uses Reel, then attacks with its bite."
+					]
+				},
+				{
+					"name": "Tendril",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 50 ft., one target. {@h}The target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained} and the roper can't use this tendril on another target."
+					]
+				},
+				{
+					"name": "Reel",
+					"entries": [
+						"The roper pulls each creature it is grappling up to 25 feet straight towards it."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 9 ({@damage 2d8}) acid damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rust Monster",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 12,
+			"int": 2,
+			"wis": 12,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Metal Detection",
+					"entries": [
+						"The rust monster can smell metal within 30 feet."
+					]
+				},
+				{
+					"name": "Rust Metal",
+					"entries": [
+						"A nonmagical weapon made of metal that hits the rust monster corrodes after dealing damage, taking a permanent -1 penalty to damage rolls per hit. If this penalty reaches -5, the weapon is destroyed. Metal nonmagical ammunition is destroyed after dealing damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Antennae",
+					"entries": [
+						"The rust monster corrodes a nonmagic metal object within 5 feet. It can destroy up to a 1-foot-square portion of an unattended object. If the object is worn or carried, the object's owner makes a {@dc 11} Dexterity saving throw, avoiding the rust monster's antennae on a success.",
+						"Metal shields or armour the rust monster touches with its antannae corrode, taking a permanently -1 penalty to its AC protection per hit. If the penalty reduces the armour's AC protection to 10 or the shield's to 0, the armour or shield is destroyed. If a metal weapon is touched, it is subjected to the Rust Metal trait."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defensive Bite",
+					"entries": [
+						"When the rust monster is hit by a melee attack made by a creature it can see within 5 feet, it bites the attacker."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sahuagin",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"sahuagin"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"sharkskin leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d8 + 4"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 40
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 12,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"sahuagin"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The sahuagin has advantage on melee attack rolls against creature that don't have all their hit points."
+					]
+				},
+				{
+					"name": "Limited Amphibiousness",
+					"entries": [
+						"The sahuagin can breathe air and water. When breathing air, it must immerse itself in water once every 4 hours or begin to suffocate."
+					]
+				},
+				{
+					"name": "Shark Telepathy",
+					"entries": [
+						"The sahuagin can command any shark within 120 feet of it using magical telepathy."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) slashing damage."
+					]
+				},
+				{
+					"name": "Trident",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) if wielded in two hands in melee."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sahuagin Champion",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"sahuagin"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"sharkskin leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d8 + 36"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 40
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"str": "+7",
+				"dex": "+7",
+				"con": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"athletics": "+7",
+				"intimidation": "+5",
+				"perception": "+4",
+				"stealth": "+7",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"sahuagin"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The sahuagin has advantage on melee attack rolls against creature that don't have all their hit points."
+					]
+				},
+				{
+					"name": "Limited Amphibiousness",
+					"entries": [
+						"The sahuagin can breathe air and water. When breathing air, it must immerse itself in water once every 4 hours or begin to suffocate."
+					]
+				},
+				{
+					"name": "Shark Telepathy",
+					"entries": [
+						"The sahuagin can command any shark within 120 feet of it using magical telepathy."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sahuagin attacks twice."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Trident",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, or 8 ({@damage 1d8 + 4}) if wielded in two hands in melee."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Salamander",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d10 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"con": "+5",
+				"wis": "+3"
+			},
+			"resist": [
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"fire"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"ignan"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that starts its turn {@condition grappled} by the salamander, touches it, or hits it with a melee attack while within 5 feet takes 7 ({@damage 2d6}) fire damage. A creature can take this damage only once per turn. If the salamander has taken cold damage since the end of its last turn, this trait doesn't function."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The salamander makes a tail attack and a pike attack."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage, the target is subjected to the salamander's Heated Body trait, and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, the salamander automatically hits the target with its tail attack, and the salamander can't attack a different target with its tail."
+					]
+				},
+				{
+					"name": "Pike",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage plus 3 ({@damage 1d6}) fire damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Salamander Noble",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d12 + 32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"con": "+5",
+				"wis": "+3"
+			},
+			"resist": [
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"fire"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"ignan"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that starts its turn {@condition grappled} by the salamander, touches it, or hits it with a melee attack while within 5 feet takes 7 ({@damage 2d6}) fire damage. A creature can take this damage only once per turn. If the salamander has taken cold damage since the end of its last turn, this trait doesn't function."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The salamander makes a tail attack and a pike attack."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage, the target is subjected to the salamander's Heated Body trait, and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, the salamander automatically hits the target with its tail attack, and the salamander can't attack a different target with its tail."
+					]
+				},
+				{
+					"name": "Pike",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage plus 3 ({@damage 1d6}) fire damage."
+					]
+				},
+				{
+					"name": "Fire Breath",
+					"entries": [
+						"The salamander exhales fire in a 30-foot cone. Each creature in the area makes a {@dc 13} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save or half damage on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Salamander Nymph",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 12,
+			"int": 8,
+			"wis": 10,
+			"cha": 8,
+			"immune": [
+				"fire"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands ignan but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that starts its turn {@condition grappled} by the salamander, touches it, or hits it with a melee attack while within 5 feet takes 3 ({@damage 1d6}) fire damage. A creature can take this damage only once per turn. If the salamander has taken cold damage since the end of its last turn, this trait doesn't function."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage, the target is subjected to the salamander's Heated Body trait."
+					]
+				}
+			]
 		}
 	]
 }
