@@ -42253,6 +42253,814 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Satyr",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 16,
+			"skill": {
+				"perception": "+2",
+				"performance": "+5",
+				"stealth": "+4"
+			},
+			"passive": 12,
+			"languages": [
+				"common",
+				"elvish",
+				"sylvan"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The satyr has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ram",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, or 8 ({@damage 2d6 + 1}) bludgeoning damage if the satyr moves at least 20 feet straight towards the target before the attack."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Dance Tune",
+					"entries": [
+						"Each humanoid, fey, or giant within 30 feet that can hear the satyr makes a {@dc 13} Wisdom saving throw. On a failure, it is magically {@condition charmed} and must dance until the beginning of the satyr's next turn. While dancing, its movement speed is halved, and it has disadvantage on attack rolls. Satyrs don't suffer the negative consequences of dancing."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scarecrow",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 31,
+				"formula": "7d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 10,
+			"int": 6,
+			"wis": 10,
+			"cha": 14,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"frightened",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While motionless, the scarecrow is indistinguishable from an ordinary scarecrow."
+					]
+				},
+				{
+					"name": "Flammable",
+					"entries": [
+						"After taking fire damage, the scarecrow catches fire and takes 5 ({@damage 1d10}) ongoing fire damage if it isn't already suffering ongoing fire damage. A creature can spend an action to extinguish this fire."
+					]
+				},
+				{
+					"name": "Local Spirit",
+					"entries": [
+						"The scarecrow is destroyed if it travels more than a mile from the place it was created."
+					]
+				},
+				{
+					"name": "Spell-created",
+					"entries": [
+						"The DC for {@spell dispel magic|LevelUpAdventurersGuideA5E} to destroy this creature is 19."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The scarecrow uses Scare and makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Scare",
+					"entries": [
+						"Each creature of the scarecrow's choice within 30 feet that can see the scarecrow makes a {@dc 12} Wisdom saving throw. On a failure, it is magically {@condition frightened} for 1 minute. It repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, it is immune to Scare for 24 hours."
+					]
+				},
+				{
+					"name": "Hat of Illusion",
+					"entries": [
+						"While wearing a hat or other head covering, the scarecrow takes on the illusory appearance of the last living humanoid to wear that hat. It requires a {@dc 12} Insight or Perception check to recognise the illusion. The illusion ends when the scarecrow is touched, takes damage, attacks, or uses Scare, or when the scarecrow chooses to end it as a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sandling",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 31,
+				"formula": "7d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 10,
+			"int": 6,
+			"wis": 10,
+			"cha": 14,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"frightened",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While motionless, the sandling is indistinguishable from an ordinary sandling."
+					]
+				},
+				{
+					"name": "Water Soluble",
+					"entries": [
+						"If soaked with water, the sandling takes 5 ({@damage 1d10}) ongoing acid damage if it isn't already suffering ongoing acid damage. The sandling can spend an action to end this damage if it has access to dry sand to repair itself."
+					]
+				},
+				{
+					"name": "Local Spirit",
+					"entries": [
+						"The sandling is destroyed if it travels more than a mile from the place it was created."
+					]
+				},
+				{
+					"name": "Spell-created",
+					"entries": [
+						"The DC for {@spell dispel magic|LevelUpAdventurersGuideA5E} to destroy this creature is 19."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sandling uses Sandstorm and makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Sandstorm",
+					"entries": [
+						"Each creature within 30 feet makes a {@dc 12} Constitution saving throw. On a failure, it is {@condition blinded} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Hat of Illusion",
+					"entries": [
+						"While wearing a hat or other head covering, the sandling takes on the illusory appearance of the last living humanoid to wear that hat. It requires a {@dc 12} Insight or Perception check to recognise the illusion. The illusion ends when the sandling is touched, takes damage, attacks, or uses Scare, or when the sandling chooses to end it as a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Snowman",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 31,
+				"formula": "7d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 10,
+			"int": 6,
+			"wis": 10,
+			"cha": 14,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"frightened",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While motionless, the snowman is indistinguishable from an ordinary snowman."
+					]
+				},
+				{
+					"name": "Meltable",
+					"entries": [
+						"If it takes fire damage, or is exposed to warm temperatures for an hour or more, the snowman's size is reduced to Small. If it is exposed to fire or warm temperatures while Small, it is destroyed. While Small, the snowman can spend an action to restore itself to Medium size if it has access to snow."
+					]
+				},
+				{
+					"name": "Local Spirit",
+					"entries": [
+						"The snowman is destroyed if it travels more than a mile from the place it was created."
+					]
+				},
+				{
+					"name": "Spell-created",
+					"entries": [
+						"The DC for {@spell dispel magic|LevelUpAdventurersGuideA5E} to destroy this creature is 19."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The snowman uses Snowball and makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Snowball",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}9 ({@damage 2d6 + 2}) cold damage."
+					]
+				},
+				{
+					"name": "Hat of Illusion",
+					"entries": [
+						"While wearing a hat or other head covering, the snowman takes on the illusory appearance of the last living humanoid to wear that hat. It requires a {@dc 12} Insight or Perception check to recognise the illusion. The illusion ends when the snowman is touched, takes damage, attacks, or uses Scare, or when the snowman chooses to end it as a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scarecrow Harvester",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 18,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"frightened",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Flammable",
+					"entries": [
+						"After taking fire damage, the scarecrow catches fire and takes 5 ({@damage 1d10}) ongoing fire damage if it isn't already suffering ongoing fire damage. A creature can spend an action to extinguish this fire."
+					]
+				},
+				{
+					"name": "Spell-created",
+					"entries": [
+						"The DC for {@spell dispel magic|LevelUpAdventurersGuideA5E} to disable this creature is 19. A disabled scarecrow is inanimate. After 1 hour, it animates again unless its body is destroyed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The scarecrow uses Scare and makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 3 ({@damage 1d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Scare",
+					"entries": [
+						"Each creature of the scarecrow's choice within 30 feet that can see the scarecrow makes a {@dc 13} Wisdom saving throw. On a failure, it is magically {@condition frightened} for 1 minute. It repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, it is immune to Scare for 24 hours."
+					]
+				},
+				{
+					"name": "Fire Breath (Recharge 4-6)",
+					"entries": [
+						"The scarecrow exhales fire in a 30-foot cone. Each creature in the area makes a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage on a failed save or half damage on a success."
+					]
+				},
+				{
+					"name": "Pumpkin Head (1/Day)",
+					"entries": [
+						"The scarecrow throws its head up to 60 feet. Each creature within 20 feet of the head makes a {@dc 13} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save or half damage on a success. After using this action, the scarecrow no longer has a head. It can still use its senses but can no longer use Fire Breath. It can create a new head when it finishes a long rest."
+					]
+				},
+				{
+					"name": "Invisibility (1/Day)",
+					"entries": [
+						"The scarecrow, along with any mount it is riding, is {@condition invisible} for 1 hour or until it attacks or uses Scare, Fire Breath, or Pumpkin Head."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scorpionfolk",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "7d10 + 14"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+3",
+				"survival": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"common",
+				"scorpionfolk"
+			],
+			"cr": "3",
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the scorpionfolk can't attack a different target with its claw."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, and the target makes a {@dc 12} Constitution saving throw, taking 16 ({@damage 3d10}) poison damage on a failure or half damage on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scorpionfolk Imperator",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "7d10 + 14"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 14,
+			"int": 18,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"arcana": "+6",
+				"history": "+6",
+				"perception": "+2",
+				"religion": "+6",
+				"stealth": "+3",
+				"survival": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"common",
+				"scorpionfolk"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The imperator is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}). It can cast the following spells, requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light|LevelUpAdventurersGuideA5E}",
+								"{@spell sacred flame|LevelUpAdventurersGuideA5E} (2d8 damage)"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell create or destroy water|LevelUpAdventurersGuideA5E}",
+								"{@spell healing word|LevelUpAdventurersGuideA5E}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"burning {@spell gust of wind|LevelUpAdventurersGuideA5E} (see below)",
+								"{@spell lesser restoration|LevelUpAdventurersGuideA5E}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell major image|LevelUpAdventurersGuideA5E}",
+								"venomous {@spell fireball|LevelUpAdventurersGuideA5E} (see below)"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the scorpionfolk can't attack a different target with its claw."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Burning Gust of Wind (2nd-Level; V, S, M)",
+					"entries": [
+						"A hot blast of wind erupts from the imperator's claw in a line 10 feet wide and 60 feet long. It extinguishes small fires and disperses vapours. For 1 minute or until the imperator's concentration is broken, each creature that starts its turn in the area or moves into the area must succeed on a {@dc 14} Strength saving throw or be pushed 15 feet directly away and take 7 ({@damage 2d6}) fire damage. A creature in the area must spend 2 feet of movement for every foot moved towards the imperator. The imperator can change the direction of the gust with a bonus action."
+					]
+				},
+				{
+					"name": "Venomous Fireball (3rd-Level; V, S, M)",
+					"entries": [
+						"Green fire streaks from the imperator to a point within 120 feet and explodes in a 20-foot radius, spreading around corners. Each creature in the area makes a {@dc 14} Dexterity saving throw, taking 21 ({@damage 6d6}) poison damage on a failed save or half damage on a success. A creature that fails the save is also {@condition poisoned} until the end of its next turn."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, and the target makes a {@dc 12} Constitution saving throw, taking 16 ({@damage 3d10}) poison damage on a failure or half damage on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sea Serpent",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"G"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 247,
+				"formula": "15d20 + 90"
+			},
+			"speed": {
+				"walk": 10,
+				"swim": 50
+			},
+			"str": 28,
+			"dex": 10,
+			"con": 22,
+			"int": 4,
+			"wis": 14,
+			"cha": 8,
+			"save": {
+				"con": "+11",
+				"dex": "+5",
+				"int": "+2",
+				"wis": "+7",
+				"cha": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The serpent can breathe air and water."
+					]
+				},
+				{
+					"name": "Reactive",
+					"entries": [
+						"The serpent can take two reactions per round, one with its tail and one with its bite. It can't take two reactions on the same turn."
+					]
+				},
+				{
+					"name": "Sinuous",
+					"entries": [
+						"The serpent can share the space of other creatures and objects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Coils",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one Large or larger target in its space. {@h}51 ({@damage 4d20 + 9}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 22}). If the target is an object, it is held. Until the grapple or hold ends, the target's speed is reduced to 0, and the sea serpent's coils attack automatically hits the target. If an attacker subjects the serpent to a critical hit, this grapple or hold ends."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}27 ({@damage 4d8 + 9}) bludgeoning damage. If the target is a creature, it makes a {@dc 22} Strength saving throw. On a failure, it is pushed up to 15 feet away from the serpent and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}31 ({@damage 4d10 + 9}) piercing damage."
+					]
+				},
+				{
+					"name": "Thrash (While Bloodied)",
+					"entries": [
+						"The serpent moves up to its speed and then attacks with its tail and its bite."
+					]
+				},
+				{
+					"name": "Recover (1/Day, While Bloodied)",
+					"entries": [
+						"The serpent ends one condition or effect on itself."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Reactive Bite",
+					"entries": [
+						"If the serpent takes 15 damage or more from a melee attack made by a creature it can see, it bites the attacker."
+					]
+				},
+				{
+					"name": "Reactive Tail",
+					"entries": [
+						"If the serpent takes 15 damage or more from an attack made by a creature or object it can see, it makes a tail attack against the attacker."
+					]
+				}
+			]
 		}
 	]
 }
