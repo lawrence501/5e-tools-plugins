@@ -43061,6 +43061,657 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Shadow",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 10,
+			"int": 8,
+			"wis": 10,
+			"cha": 14,
+			"skill": {
+				"stealth": "+4"
+			},
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"frightened",
+				"grappled",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The shadow can pass through an opening as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Sunlight Weakness",
+					"entries": [
+						"While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"A shadow doesn't require air, sustenance, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) necrotic damage, and the target makes a {@dc 12} Constitution saving throw. On a failure, the target is cursed until it finishes a short or long rest or is the subject of {@spell remove curse|LevelUpAdventurersGuideA5E} or a similar spell. While cursed, the target makes attack rolls, Strength checks, and Strength saving throws with disadvantage. If the target dies while cursed, a new undead shadow rises from the corpse in {@dice 1d4} hours, the corpse no longer casts a natural shadow, and the target can't be raised from the dead until the new shadow is destroyed."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Sneak",
+					"entries": [
+						"The shadow takes the Hide action even if obscured only by dim light or darkness."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shambling Mound",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 123,
+				"formula": "13d10 + 52"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 20
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 18,
+			"int": 6,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"stealth": "+3"
+			},
+			"resist": [
+				"cold",
+				"fire",
+				"piercing"
+			],
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"fatigue|LevelUpAdventurersGuideA5E"
+			],
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 11,
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Lightning Absorption",
+					"entries": [
+						"When the shambling mound is subjected to lightning damage, it instead regains hit points equal to the lightning damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The shambling mound makes two slam attacks. If both attacks hit one Medium or smaller creature, the target is {@condition grappled} (escape {@dc 15}), and the shambling mound uses Engulf against it."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"The shambling mound absorbs a Medium or smaller {@condition grappled} creature into its body. The engulfed creature is {@condition blinded}, {@condition restrained}, can't breathe, and moves with the shambling mound. At the start of each of the shambling mound's turns, the target takes 11 ({@damage 2d6 + 4}) bludgeoning damage. When the grapple ends, the creature is no longer engulfed. The shambling mound can have only one creature engulfed at a time."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeleton",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armor scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d8 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shorbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeletal Champion",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"armor scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 14,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"save": {
+				"str": "+5",
+				"dex": "+5",
+				"con": "+4"
+			},
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "3",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The skeleton makes two melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shielding Riposte",
+					"entries": [
+						"When a creature within the skeleton's reach misses with a melee attack against the skeleton or a creature within 5 feet, the skeleton makes a longsword attack against the attacker. The skeleton must be wielding a longsword to use this reaction."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeleton Horde",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "undead",
+				"swarmSize": "M"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armor scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Area Vulnerability",
+					"entries": [
+						"The horde takes double damage from any effect that targets an area."
+					]
+				},
+				{
+					"name": "Horde",
+					"entries": [
+						"The horde is composed of 5 or more skeletons. If it is subjected to a spell, attack, or other effect that affects only one target, it takes any damage but ignores other effects. It can share its space with Medium or smaller creatures or objects. The horde can move through any opening large enough for one Medium creature without squeezing."
+					]
+				},
+				{
+					"name": "Horde Dispersal",
+					"entries": [
+						"When the horde is reduced to 0 hit points, it turns into 2 ({@dice 1d4}) {{@creature skeleton|LevelUpAdventurersGuideA5E|skeletons} with 6 hit points each."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}27 ({@damage 5d6 + 10}) piercing damage, or half damage if the horde is bloodied."
+					]
+				},
+				{
+					"name": "Shorbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}27 ({@damage 5d6 + 10}) piercing damage, or half damage if the horde is bloodied."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeletal Tyrannosaurus Rex",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "11d12 + 55"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 22,
+			"dex": 10,
+			"con": 20,
+			"int": 2,
+			"wis": 8,
+			"cha": 5,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The skeleton makes a bite attack and a tail attack against two different targets."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d12 + 6}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the skeleton can't bite a different creature and it has advantage on bite attacks against the {@condition grappled} creature."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeletal Warhorse",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d10 + 8"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 14,
+			"int": 3,
+			"wis": 8,
+			"cha": 5,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage. If the skeleton moves at least 20 feet straight towards the target before the attack, the target makes a {@dc 14} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				}
+			]
+		},
+		{
+			"name": "Specter",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				}
+			},
+			"str": 2,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 14,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"frightened",
+				"grappled",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Incorporeal",
+					"entries": [
+						"The specter can move through creatures and objects. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object. If it takes radiant damage or is exposed to sunlight, it loses this trait until the end of its next turn."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the specter has disadvantage on attack rolls, as well as on Perception checks that rely on sight."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"A specter doesn't require air, sustenance, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 3d6}) necrotic damage, and the target must succeed on a {@dc 10} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+					]
+				},
+				{
+					"name": "Hurl",
+					"entries": [
+						"The specter targets a Medium or smaller creature or an object weighing no more than 150 pounds, within 30 feet of it. A creature makes a {@dc 12} Strength saving throw. On a failure, it is hurled up to 30 feet in any direction (including upwards), taking 3 ({@damage 1d6}) damage for every 10 feet it is hurled. An object is launched up to 30 feet in a straight line, and a creature in its path makes a {@dc 12} Dexterity saving throw, taking 7 ({@damage 2d6}) bludgeoning damage on a failure. On a success, the creature takes no damage, and the object keeps flying past it."
+					]
+				},
+				{
+					"name": "Fade",
+					"entries": [
+						"While not in sunlight, the specter turns {@condition invisible} and takes the Hide action. It remains {@condition invisible} for 1 minute or until it uses Life Drain or takes damage. If the specter takes radiant damage or is exposed to sunlight, it can't use this action until the end of its next turn."
+					]
+				}
+			]
 		}
 	]
 }
