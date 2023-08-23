@@ -43712,6 +43712,420 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Sphinx",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d10 + 60"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60
+			},
+			"str": 22,
+			"dex": 14,
+			"con": 18,
+			"int": 18,
+			"wis": 22,
+			"cha": 20,
+			"save": {
+				"dex": "+6",
+				"con": "+8",
+				"int": "+8",
+				"wis": "+10"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8 (+1d6)",
+				"perception": "+10",
+				"religion": "+8"
+			},
+			"immune": [
+				"psychic",
+				{
+					"immune": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"debilitated|LevelUpAdventurersGuideA5E"
+			],
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"celestial",
+				"common",
+				"telepathy 120 ft."
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The sphinx's spellcasting ability is Wisdom (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect evil and good|LevelUpAdventurersGuideA5E}",
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell minor illusion|LevelUpAdventurersGuideA5E}",
+						"{@spell spare the dying|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dispel magic|LevelUpAdventurersGuideA5E}",
+							"{@spell identify|LevelUpAdventurersGuideA5E}",
+							"{@spell lesser restoration|LevelUpAdventurersGuideA5E}",
+							"{@spell remove curse|LevelUpAdventurersGuideA5E}",
+							"{@spell scrying|LevelUpAdventurersGuideA5E}",
+							"{@spell tongues|LevelUpAdventurersGuideA5E}",
+							"{@spell zone of truth|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell contact other plane|LevelUpAdventurersGuideA5E}",
+							"{@spell flame strike|LevelUpAdventurersGuideA5E}",
+							"{@spell freedom of movement|LevelUpAdventurersGuideA5E}",
+							"{@spell greater restoration|LevelUpAdventurersGuideA5E}",
+							"{@spell legend lore|LevelUpAdventurersGuideA5E}",
+							"{@spell heroes’ feast|LevelUpAdventurersGuideA5E}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Inscrutable",
+					"entries": [
+						"The sphinx is immune to divination and to any effect that would sense its emotions or read its thoughts. Insight checks made to determine the sphinx's intentions are made with disadvantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sphinx attacks twice with its claw."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) slashing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Speed Time (1/Day, While Bloodied)",
+					"entries": [
+						"For 1 minute, the sphinx's Speed and flying speed are doubled, opportunity attacks against it are made with disadvantage, and it can attack three times with its claw (instead of twice) when it uses Multiattack."
+					]
+				},
+				{
+					"name": "Planar Jaunt (1/Day)",
+					"entries": [
+						"The sphinx targets up to eight creatures it can see within 300 feet. The targets are magically transported to a different place, plane of existence, demiplane, or time. This effect ends after one hour or when the sphinx takes a bonus action to end it. When the effect ends, the creatures reappear in their original locations, along with any items they acquired on their jaunt. While the effect lasts, the sphinx can communicate telepathically with the targets. The sphinx chooses one of the following destinations:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Different Location or Plane of Existence",
+									"entries": [
+										"The creatures appear in empty spaces of the sphinx's choice anywhere on the Material Plane or on a different plane altogether."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Demiplane",
+									"entries": [
+										"The creatures appear in empty spaces of the sphinx's choice on a demiplane. The demiplane can be up to one square mile in size. The demiplane can appear to be inside, outside, or underground, and can contain terrain, nonmagical objects, and magical effects of the sphinx's choosing. The sphinx may populate it with creatures and hazards with a total Challenge Rating equal to or less than the sphinx's Challenge Rating."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Time",
+									"entries": [
+										"The creatures appear in empty spaces of the sphinx's choosing anywhere on the Material Plane, at any time from 1,000 years in the past to 1,000 years in the future. At the DM's discretion, changes made in the past may alter the present."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Slow Time",
+					"entries": [
+						"The sphinx targets a creature within 60 feet, forcing it to make a {@dc 17} Constitution saving throw. On a failure, it is {@condition slowed|LevelUpAdventurersGuideA5E} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Claw (Costs 2 Actions)",
+					"entries": [
+						"The sphinx attacks with its claw."
+					]
+				},
+				{
+					"name": "Teleport (Costs 2 Actions)",
+					"entries": [
+						"The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"legendaryActions": 2
+		},
+		{
+			"name": "Greater Sphinx",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 220,
+				"formula": "21d12 + 84"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60
+			},
+			"str": 22,
+			"dex": 14,
+			"con": 18,
+			"int": 18,
+			"wis": 22,
+			"cha": 20,
+			"save": {
+				"dex": "+6",
+				"con": "+8",
+				"int": "+8",
+				"wis": "+10"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8 (+1d6)",
+				"perception": "+10",
+				"religion": "+8"
+			},
+			"immune": [
+				"psychic",
+				{
+					"immune": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"debilitated|LevelUpAdventurersGuideA5E"
+			],
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"celestial",
+				"common",
+				"telepathy 120 ft."
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The sphinx's spellcasting ability is Wisdom (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect evil and good|LevelUpAdventurersGuideA5E}",
+						"{@spell detect magic|LevelUpAdventurersGuideA5E}",
+						"{@spell minor illusion|LevelUpAdventurersGuideA5E}",
+						"{@spell spare the dying|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dispel magic|LevelUpAdventurersGuideA5E}",
+							"{@spell identify|LevelUpAdventurersGuideA5E}",
+							"{@spell lesser restoration|LevelUpAdventurersGuideA5E}",
+							"{@spell remove curse|LevelUpAdventurersGuideA5E}",
+							"{@spell scrying|LevelUpAdventurersGuideA5E}",
+							"{@spell tongues|LevelUpAdventurersGuideA5E}",
+							"{@spell zone of truth|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell contact other plane|LevelUpAdventurersGuideA5E}",
+							"{@spell flame strike|LevelUpAdventurersGuideA5E}",
+							"{@spell freedom of movement|LevelUpAdventurersGuideA5E}",
+							"{@spell greater restoration|LevelUpAdventurersGuideA5E}",
+							"{@spell legend lore|LevelUpAdventurersGuideA5E}",
+							"{@spell heroes’ feast|LevelUpAdventurersGuideA5E}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Inscrutable",
+					"entries": [
+						"The sphinx is immune to divination and to any effect that would sense its emotions or read its thoughts. Insight checks made to determine the sphinx's intentions are made with disadvantage."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"Each greater sphinx wears a piece of jewelry, such as a crown, headdress, or armlet. When the greater sphinx fails a saving throw, it can choose to succeed instead. When it does so, its jewelry shatters. The sphinx can create a new piece of jewelry when it finishes a long rest."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sphinx attacks twice with its claw."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Roar (3/Day)",
+					"entries": [
+						"The sphinx unleashes a magical roar. Each time it roars before taking a long rest, its roar becomes more powerful. Each creature within 300 feet of the sphinx that can hear it makes a {@dc 18} Constitution saving throw with the following consequences:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "First Roar",
+									"entries": [
+										"A creature that fails the saving throw is {@condition frightened} for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Second Roar",
+									"entries": [
+										"A creature that fails the saving throw takes 22 ({@damage 4d10}) thunder damage and is {@condition frightened} for 1 minute. On a success, the creature takes half damage. While {@condition frightened} by this roar, the creature is {@condition staggered|LevelUpAdventurersGuideA5E}. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Third Roar",
+									"entries": [
+										"A creature that fails the saving throw takes 44 ({@damage 8d10}) thunder damage and is knocked {@condition prone}. On a success, the creature takes half damage."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Speed Time (1/Day, While Bloodied)",
+					"entries": [
+						"For 1 minute, the sphinx's Speed and flying speed are doubled, opportunity attacks against it are made with disadvantage, and it can attack three times with its claw (instead of twice) when it uses Multiattack."
+					]
+				},
+				{
+					"name": "Planar Jaunt (1/Day)",
+					"entries": [
+						"The sphinx targets up to eight creatures it can see within 300 feet. The targets are magically transported to a different place, plane of existence, demiplane, or time. This effect ends after one hour or when the sphinx takes a bonus action to end it. When the effect ends, the creatures reappear in their original locations, along with any items they acquired on their jaunt. While the effect lasts, the sphinx can communicate telepathically with the targets. The sphinx chooses one of the following destinations:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Different Location or Plane of Existence",
+									"entries": [
+										"The creatures appear in empty spaces of the sphinx's choice anywhere on the Material Plane or on a different plane altogether."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Demiplane",
+									"entries": [
+										"The creatures appear in empty spaces of the sphinx's choice on a demiplane. The demiplane can be up to one square mile in size. The demiplane can appear to be inside, outside, or underground, and can contain terrain, nonmagical objects, and magical effects of the sphinx's choosing. The sphinx may populate it with creatures and hazards with a total Challenge Rating equal to or less than the sphinx's Challenge Rating."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Time",
+									"entries": [
+										"The creatures appear in empty spaces of the sphinx's choosing anywhere on the Material Plane, at any time from 1,000 years in the past to 1,000 years in the future. At the DM's discretion, changes made in the past may alter the present."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Slow Time",
+					"entries": [
+						"The sphinx targets a creature within 60 feet, forcing it to make a {@dc 17} Constitution saving throw. On a failure, it is {@condition slowed|LevelUpAdventurersGuideA5E} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Claw (Costs 2 Actions)",
+					"entries": [
+						"The sphinx attacks with its claw."
+					]
+				},
+				{
+					"name": "Teleport (Costs 2 Actions)",
+					"entries": [
+						"The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"legendaryActions": 2
 		}
 	]
 }
