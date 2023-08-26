@@ -44126,6 +44126,1069 @@
 				}
 			],
 			"legendaryActions": 2
+		},
+		{
+			"name": "Stirge",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				},
+				{
+					"ac": 10,
+					"from": [
+						"while attached"
+					]
+				}
+			],
+			"hp": {
+				"average": 2,
+				"formula": "1d4"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 40
+			},
+			"str": 4,
+			"dex": 16,
+			"con": 10,
+			"int": 2,
+			"wis": 8,
+			"cha": 4,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Proboscis",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 piercing damage, and the stirge attaches to the target. A creature can use an action to detach it, and it can detach itself as a bonus action."
+					]
+				},
+				{
+					"name": "Blood Drain",
+					"entries": [
+						"The stirge drains blood from the creature it is attached to. The creature loses 4 ({@damage 1d8}) hit points. After the stirge has drained 8 hit points, it detaches itself and can't use Blood Drain again until it finishes a rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tarrasque",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 1230,
+				"formula": "60d20 + 600"
+			},
+			"speed": {
+				"walk": 60,
+				"burrow": 30
+			},
+			"str": 30,
+			"dex": 12,
+			"con": 30,
+			"int": 4,
+			"wis": 14,
+			"cha": 14,
+			"save": {
+				"str": "+19",
+				"dex": "+10",
+				"con": "+19",
+				"int": "+6",
+				"wis": "+11",
+				"cha": "+11"
+			},
+			"immune": [
+				"fire",
+				"poison",
+				{
+					"immune": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"blindsight 120 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 12,
+			"cr": "30",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The tarrasque has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Astounding Leap",
+					"entries": [
+						"The tarrasque's high jump distance is equal to its Speed."
+					]
+				},
+				{
+					"name": "Bloodied Regeneration",
+					"entries": [
+						"While the tarrasque is bloodied, it regains 50 hit points at the start of each of its turns. A {@spell wish|LevelUpAdventurersGuideA5E} spell can suppress this trait for 24 hours. The tarrasque dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Immortal Nature",
+					"entries": [
+						"The tarrasque doesn't require air, sustenance, or sleep."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the tarrasque fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Reflective Carapace",
+					"entries": [
+						"When the tarrasque is targeted by a {@spell magic missile|LevelUpAdventurersGuideA5E} spell, a line spell, or a spell that requires a ranged attack roll, roll a {@dice d6}. On a 1 to 3, the tarrasque is unaffected. On a 4 to 6, the tarrasque is unaffected, and the spell is reflected back, targeting the caster as if it originated from the tarrasque."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The tarrasque deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The tarrasque attacks with its bite, claw, horns, and tail. It can use Swallow instead of its bite. If it's bloodied, it also recharges and then uses Radiant Breath."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}42 ({@damage 5d12 + 10}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 27}). Until this grapple ends, the target is {@condition restrained} and the tarrasque can't bite a different creature."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. {@h}32 ({@damage 5d8 + 10}) slashing damage."
+					]
+				},
+				{
+					"name": "Horns",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}37 ({@damage 5d10 + 10}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}27 ({@damage 5d6 + 10}) bludgeoning damage. If the target is a Huge or smaller creature, it falls {@condition prone}."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The tarrasque makes a bite attack against a Large or smaller creature it is grappling. If the attack hits, the target is swallowed and the grapple ends. A swallowed creature has total cover from attacks from outside the tarrasque, it is {@condition blinded} and {@condition restrained}, and it takes 35 ({@damage 10d6}) acid damage and 35 ({@damage 10d6}) bludgeoning damage at the start of each of the tarrasque's turns.",
+						"If a swallowed creature deals 70 or more damage to the tarrasque in a single turn, or if the tarrasque dies, the tarrasque vomits up all swallowed creatures."
+					]
+				},
+				{
+					"name": "Radiant Breath (Recharge 5-6)",
+					"entries": [
+						"The tarrasque exhales radiant energy in a 90-foot cone. Each creature in the area makes a {@dc 27} Constitution saving throw, taking 105 ({@damage 30d6}) radiant damage on a failed save or half damage on a success."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The tarrasque attacks with its claw or tail."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The tarrasque moves up to half its Speed."
+					]
+				},
+				{
+					"name": "Roar",
+					"entries": [
+						"Each creature of the tarrasque's choice within 120 feet makes a {@dc 19} Charisma saving throw. On a failure, it is {@condition frightened} for 1 minute. A creature repeats the saving throw at the end of its turns, with disadvantage if the tarrasque is in line of sight, ending the effect on itself on a success. If it succeeds on a saving throw or the effect ends on it, it is immune to the tarrasque's roar for 24 hours."
+					]
+				},
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"The tarrasque ends one negative effect currently affecting it. It can use this action as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Chomp (Costs 2 Actions)",
+					"entries": [
+						"The tarrasque makes a bite attack or uses Swallow."
+					]
+				},
+				{
+					"name": "Inescapable Earth (Costs 3 Actions)",
+					"entries": [
+						"Each flying creature or object within 300 feet falls and its flying speed is reduced to 0 until the start of the tarrasque's next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Empyrean",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"breastplate"
+					]
+				}
+			],
+			"hp": {
+				"average": 328,
+				"formula": "16d20 + 160"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 60
+			},
+			"str": 30,
+			"dex": 24,
+			"con": 30,
+			"int": 22,
+			"wis": 24,
+			"cha": 26,
+			"save": {
+				"str": "+17",
+				"con": "+17",
+				"int": "+13",
+				"wis": "+14",
+				"cha": "+15"
+			},
+			"immune": [
+				"radiant",
+				{
+					"immune": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"celestial",
+				"common",
+				"six more"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The empyrean's spellcasting ability is Charisma (spell save {@dc 23}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell charm person|LevelUpAdventurersGuideA5E}",
+						"{@spell command|LevelUpAdventurersGuideA5E}",
+						"{@spell telekinesis|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell flame strike|LevelUpAdventurersGuideA5E}",
+							"{@spell hold monster|LevelUpAdventurersGuideA5E}",
+							"{@spell lightning bolt|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell commune|LevelUpAdventurersGuideA5E}",
+							"{@spell greater restoration|LevelUpAdventurersGuideA5E}",
+							"{@spell heroes’ feast|LevelUpAdventurersGuideA5E}",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (self only, can't travel to or from the Material Plane)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The empyrean has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Divine Grace",
+					"entries": [
+						"If the empyrean makes a saving throw against an effect that deals half damage on a success, it takes no damage on a success and half damage on a failure. Furthermore, while wearing medium armour, the empyrean adds its full Dexterity bonus to its Armour Class (already included)."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The empyrean regains 10 hit points at the beginning of its turn as long as it has at least 1 hit point."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}38 ({@damage 8d6 + 10}) bludgeoning damage plus 14 ({@damage 4d6}) radiant damage, and the target makes a {@dc 25} Strength saving throw. On a failure, the target is pushed up to 30 feet away and knocked {@condition prone}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Immortal Form",
+					"entries": [
+						"The empyrean magically changes its size between Gargantuan and Medium. While Medium, the empyrean has disadvantage on Strength checks. Its statistics are otherwise unchanged."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The empyrean makes a weapon attack."
+					]
+				},
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"The empyrean casts a spell. The empyrean can't use this option if it has cast a spell since the start of its last turn."
+					]
+				},
+				{
+					"name": "Fly",
+					"entries": [
+						"The empyrean flies up to half it fly speed."
+					]
+				},
+				{
+					"name": "Shout (Recharge 5-6)",
+					"entries": [
+						"Each creature within 120 feet that can hear the empyrean makes a {@dc 25} Constitution saving throw. On a failure, a creature takes 24 ({@damage 7d6}) thunder damage and is {@condition debilitated|LevelUpAdventurersGuideA5E} until the end of the empyrean's next turn. On a success, a creature takes half damage."
+					]
+				}
+			],
+			"legendaryActions": 1
+		},
+		{
+			"name": "Aklea",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"breastplate"
+					]
+				}
+			],
+			"hp": {
+				"average": 656,
+				"formula": "32d20 + 320"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 60
+			},
+			"str": 30,
+			"dex": 24,
+			"con": 30,
+			"int": 22,
+			"wis": 24,
+			"cha": 26,
+			"save": {
+				"str": "+17",
+				"con": "+17",
+				"int": "+13",
+				"wis": "+14",
+				"cha": "+15"
+			},
+			"immune": [
+				"radiant",
+				{
+					"immune": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"celestial",
+				"common",
+				"six more"
+			],
+			"cr": "44",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The empyrean's spellcasting ability is Charisma (spell save {@dc 23}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell charm person|LevelUpAdventurersGuideA5E}",
+						"{@spell command|LevelUpAdventurersGuideA5E}",
+						"{@spell telekinesis|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell flame strike|LevelUpAdventurersGuideA5E}",
+							"{@spell hold monster|LevelUpAdventurersGuideA5E}",
+							"{@spell lightning bolt|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell commune|LevelUpAdventurersGuideA5E}",
+							"{@spell greater restoration|LevelUpAdventurersGuideA5E}",
+							"{@spell heroes’ feast|LevelUpAdventurersGuideA5E}",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (self only, can't travel to or from the Material Plane)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The empyrean has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Divine Grace",
+					"entries": [
+						"If the empyrean makes a saving throw against an effect that deals half damage on a success, it takes no damage on a success and half damage on a failure. Furthermore, while wearing medium armour, the empyrean adds its full Dexterity bonus to its Armour Class (already included)."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The empyrean regains 10 hit points at the beginning of its turn as long as it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Blind Rage",
+					"entries": [
+						"While bloodied, Aklea can take 3 legendary actions instead of 1. While bloodied and in line of sight of other creatures, she must use each of her actions and legendary actions to either make a weapon attack against a creature she can see within range or fly towards the closest creature she can see."
+					]
+				},
+				{
+					"name": "Elite Recovery",
+					"entries": [
+						"At the end of her turn, Aklea ends one negative effect currently affecting her. She can do so as long as she has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}38 ({@damage 8d6 + 10}) bludgeoning damage plus 14 ({@damage 4d6}) radiant damage, and the target makes a {@dc 25} Strength saving throw. On a failure, the target is pushed up to 30 feet away and knocked {@condition prone}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Immortal Form",
+					"entries": [
+						"The empyrean magically changes its size between Gargantuan and Medium. While Medium, the empyrean has disadvantage on Strength checks. Its statistics are otherwise unchanged."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The empyrean makes a weapon attack."
+					]
+				},
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"The empyrean casts a spell. The empyrean can't use this option if it has cast a spell since the start of its last turn."
+					]
+				},
+				{
+					"name": "Fly",
+					"entries": [
+						"The empyrean flies up to half it fly speed."
+					]
+				},
+				{
+					"name": "Shout (Recharge 5-6)",
+					"entries": [
+						"Each creature within 120 feet that can hear the empyrean makes a {@dc 25} Constitution saving throw. On a failure, a creature takes 24 ({@damage 7d6}) thunder damage and is {@condition debilitated|LevelUpAdventurersGuideA5E} until the end of the empyrean's next turn. On a success, a creature takes half damage."
+					]
+				}
+			],
+			"legendaryActions": 1
+		},
+		{
+			"name": "King Fomor",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"breastplate"
+					]
+				}
+			],
+			"hp": {
+				"average": 656,
+				"formula": "32d20 + 320"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 60
+			},
+			"str": 30,
+			"dex": 24,
+			"con": 30,
+			"int": 22,
+			"wis": 24,
+			"cha": 26,
+			"save": {
+				"str": "+17",
+				"con": "+17",
+				"int": "+13",
+				"wis": "+14",
+				"cha": "+15"
+			},
+			"immune": [
+				"radiant",
+				{
+					"immune": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"celestial",
+				"common",
+				"six more"
+			],
+			"cr": "44",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The empyrean's spellcasting ability is Charisma (spell save {@dc 23}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell charm person|LevelUpAdventurersGuideA5E}",
+						"{@spell command|LevelUpAdventurersGuideA5E}",
+						"{@spell telekinesis|LevelUpAdventurersGuideA5E}",
+						"{@spell arcane eye|LevelUpAdventurersGuideA5E}",
+						"{@spell scrying|LevelUpAdventurersGuideA5E}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell flame strike|LevelUpAdventurersGuideA5E}",
+							"{@spell hold monster|LevelUpAdventurersGuideA5E}",
+							"{@spell lightning bolt|LevelUpAdventurersGuideA5E}"
+						],
+						"1e": [
+							"{@spell commune|LevelUpAdventurersGuideA5E}",
+							"{@spell greater restoration|LevelUpAdventurersGuideA5E}",
+							"{@spell heroes’ feast|LevelUpAdventurersGuideA5E}",
+							"{@spell plane shift|LevelUpAdventurersGuideA5E} (self only, can't travel to or from the Material Plane)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The empyrean has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Divine Grace",
+					"entries": [
+						"If the empyrean makes a saving throw against an effect that deals half damage on a success, it takes no damage on a success and half damage on a failure. Furthermore, while wearing medium armour, the empyrean adds its full Dexterity bonus to its Armour Class (already included)."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The empyrean regains 10 hit points at the beginning of its turn as long as it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Eye Vulnerability",
+					"entries": [
+						"A creature can target King Fomor's eye with an attack. This attack is made with disadvantage. If the attack hits and deals at least 20 damage to King Fomor, the fire in King Fomor's eye is extinguished until the end of his next turn. While the fire is extinguished, King Fomor can't use his Burning Gaze attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}38 ({@damage 8d6 + 10}) bludgeoning damage plus 14 ({@damage 4d6}) radiant damage, and the target makes a {@dc 25} Strength saving throw. On a failure, the target is pushed up to 30 feet away and knocked {@condition prone}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Immortal Form",
+					"entries": [
+						"The empyrean magically changes its size between Gargantuan and Medium. While Medium, the empyrean has disadvantage on Strength checks. Its statistics are otherwise unchanged."
+					]
+				},
+				{
+					"name": "Burning Gaze",
+					"entries": [
+						"A line of fire 5 feet wide and 60 feet long blasts from King Fomor's eye. Each creature in the area makes a {@dc 23} Constitution saving throw, taking 35 ({@damage 10d6}) fire damage and 35 ({@damage 10d6}) radiant damage on a failure or half damage on a success. When King Fomor is bloodied, his Burning Gaze's shape is a 60-foot cone instead of a line."
+					]
+				},
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"King Fomor ends one negative effect currently affecting him. He can do so as long as he has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The empyrean makes a weapon attack."
+					]
+				},
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"The empyrean casts a spell. The empyrean can't use this option if it has cast a spell since the start of its last turn."
+					]
+				},
+				{
+					"name": "Fly",
+					"entries": [
+						"The empyrean flies up to half it fly speed."
+					]
+				},
+				{
+					"name": "Shout (Recharge 5-6)",
+					"entries": [
+						"Each creature within 120 feet that can hear the empyrean makes a {@dc 25} Constitution saving throw. On a failure, a creature takes 24 ({@damage 7d6}) thunder damage and is {@condition debilitated|LevelUpAdventurersGuideA5E} until the end of the empyrean's next turn. On a success, a creature takes half damage."
+					]
+				}
+			],
+			"legendaryActions": 1
+		},
+		{
+			"name": "Fomorian",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "fey",
+				"tags": [
+					"shapechanger",
+					"titan"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 138,
+				"formula": "12d12 + 60"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 20,
+			"int": 10,
+			"wis": 14,
+			"cha": 18,
+			"skill": {
+				"persuasion": "+7"
+			},
+			"immune": [
+				"psychic",
+				{
+					"immune": [
+						"damage"
+					],
+					"note": "from nonmagical, non-silvered weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"celestial",
+				"common",
+				"giant",
+				"sylvan"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Eye Vulnerability",
+					"entries": [
+						"A creature can target the fomorian's eye with an attack. This attack is made with disadvantage. If the attack hits and deals at least 10 damage to the formorian, creatures affected by the formorian's Charming and Mesmerising Gaze are freed from those effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The formorian attacks twice with its warhammer."
+					]
+				},
+				{
+					"name": "Warhammer",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Charming Gaze (Gaze)",
+					"entries": [
+						"A creature within 60 feet makes a {@dc 15} Wisdom saving throw. On a failure, the creature is magically {@condition charmed} by the fomorian. The creature repeats the saving throw every 24 hours and whenever it takes damage. On a successful saving throw or if the effect ends for it, the creature is immune to the formorian's Charming Gaze for the next 24 hours."
+					]
+				},
+				{
+					"name": "Mesmerising Gaze (Gaze, True Form Only)",
+					"entries": [
+						"A creature within 60 feet makes a {@dc 15} Wisdom saving throw. On a failure, the creature is magically {@condition restrained}. The creature repeats the saving throw at the end of its next turn, ending the effect on itself on a success and becoming {@condition staggered|LevelUpAdventurersGuideA5E} on a failure. While the formorian is not in line of sight, a {@condition staggered|LevelUpAdventurersGuideA5E} creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. On a successful saving throw or if the effect ends for it, the creature is immune to the formorian's Mesmerising Gaze for 24 hours."
+					]
+				},
+				{
+					"name": "Immortal Form",
+					"entries": [
+						"While in its lair, the formorian magically changes into a specific Medium humanoid resembling a human or back to its true form. Apart from its size, its statistics are unchanged. The formorian reverts to its true form when it dies, is {@condition incapacitated}, or leaves its lair."
+					]
+				}
+			]
+		},
+		{
+			"name": "Treant",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"H"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 138,
+				"formula": "12d12 + 60"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 22,
+			"dex": 8,
+			"con": 20,
+			"int": 12,
+			"wis": 20,
+			"cha": 12,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"common",
+				"druidic",
+				"elvish",
+				"sylvan"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While motionless, the treant is indistinguishable from a tree."
+					]
+				},
+				{
+					"name": "Flammable",
+					"entries": [
+						"If the treant takes fire damage, it catches fire, taking 10 ({@damage 3d6}) ongoing fire damage, unless it is already on fire. It can use an action to extinguish itself, ending the ongoing damage."
+					]
+				},
+				{
+					"name": "Forest Speaker",
+					"entries": [
+						"The treant can communicate with beasts and plants."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The treant deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The treant makes two attacks, or makes one attack and uses Animate Plant."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 60/180 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Animate Plant",
+					"entries": [
+						"The treant magically animates a Large or larger plant within 60 feet. The plant is immobile, but it acts on the treant's initiative and can make a slam attack or a rock attack if there are rocks to throw within 10 feet of it. Non-plant creatures treat the ground within 15 feet of the plant as difficult terrain, as surrounding roots conspire to trip and grasp moving creatures. The plant remains animated for 1 hour. If the treant uses this action while it has three plants animated in this way, the plant that has been animated the longest returns to normal."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bonus",
+					"entries": [
+						"Entries"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Self-Sacrifice",
+					"entries": [
+						"When a creature within 5 feet of the thrall that the thrall can see hits an aboleth with an attack, the thrall can make itself the target of the attack instead."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Legendary action",
+					"entries": [
+						"Entries for legendary action"
+					]
+				}
+			],
+			"legendaryActions": 2
+		},
+		{
+			"name": "Troglodyte",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"troglodyte"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11
+				}
+			],
+			"hp": {
+				"average": 19,
+				"formula": "3d8 + 6"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"stealth": "+3 (+1d6)"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"troglodyte"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Stench",
+					"entries": [
+						"A non-troglodyte that starts its turn within 5 feet of the troglodyte makes a {@dc 12} Constitution saving throw. On a failure, the creature is {@condition poisoned} until the start of its next turn. On a successful save, the creature is immune to troglodyte Stench for 24 hours."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the troglodyte has disadvantage on attack rolls, as well as on Perception checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The troglodyte attacks with its bite and its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target makes a {@dc 12} Constitution saving throw. On a failure, it is infected with {@disease Troglodyte Stench|LevelUpAdventurersGuideA5E}."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Dart",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+					]
+				}
+			]
 		}
 	]
 }

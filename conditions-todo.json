@@ -276,6 +276,21 @@
 			"entries": [
 				"A {@creature mummy|LevelUpAdventurersGuideA5E|mummy's} touch inflicts a dreadful curse called mummy rot. A cursed creature can't regain hit points, and its hit point maximum decreases by an amount equal to the creature's total number of Hit Dice for every 24 hours that elapse. If this curse reduces the target's hit point maximum to 0, the target dies and crumbles to dust."
 			]
+		},
+        {
+			"name": "Troglodyte Stench",
+			"source": "LevelUpAdventurersGuideA5E",
+			"entries": [
+				"A {@creature troglodyte|LevelUpAdventurersGuideA5E|troglodyte's} bite can infect a living creature with troglodyte stench. An infected creature is {@condition poisoned} and gains the following trait:",
+                {
+                    "type": "entries",
+                    "name": "Stench",
+                    "entries": [
+                        "A non-troglodyte other than the creature that starts its turn within 5 feet of the creature makes a {@dc 12} Constitution saving throw. On a failure, the creature is {@condition poisoned} until the start of its next turn. On a successful save, the creature is immune to troglodyte Stench for 24 hours.",
+                        "The subject makes a {@dc 12} Constitution saving throw every 24 hours after being infected, becoming cured on a success. The disease can also be cured with {@spell lesser restoration|LevelUpAdventurersGuideA5E} and similar magic."
+                    ]
+                }
+			]
 		}
     ]
 }
