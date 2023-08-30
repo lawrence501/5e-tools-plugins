@@ -45189,6 +45189,2053 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Troll",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 20,
+			"int": 8,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"giant"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The troll has advantage on Perception checks that rely on smell."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function on its next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Severed Limbs",
+					"entries": [
+						"If the troll is dealt a critical hit with a slashing weapon, one of its extremities is severed. The extremity has AC 15, 10 hit points, a Speed of 10, and the troll's Regeneration trait. The troll controls the severed extremity and perceives through it with the appropriate senses (for instance, it sees through the eyes of a severed head). As a bonus action, the troll can reattach the extremity. While the troll is missing the extremity, its maximum hit points are reduced by 10. Roll {@dice d6} to determine the severed extremiy:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "1-4: Arm",
+									"entries": [
+										"If the troll has an arm, it loses an arm. It loses one of its claw attacks, and the severed arm can make a claw attack."
+									]
+								},
+								{
+									"type": "item",
+									"name": "5-6: Head",
+									"entries": [
+										"If the troll has a head, it loses its head. It loses its bite attack, and the severed head can make a bite attack."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The troll attacks with its bite and twice with its claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cave Troll",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 20,
+			"int": 8,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"blindsight 120 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"giant"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The troll has advantage on Perception checks that rely on smell."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The troll regains 10 hit points at the start of its turn. If the troll takes radiant damage or is exposed to sunlight, this trait doesn't function on its next turn. The troll is {@condition petrified} if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Severed Limbs",
+					"entries": [
+						"If the troll is dealt a critical hit with a slashing weapon, one of its extremities is severed. The extremity has AC 15, 10 hit points, a Speed of 10, and the troll's Regeneration trait. The troll controls the severed extremity and perceives through it with the appropriate senses (for instance, it sees through the eyes of a severed head). As a bonus action, the troll can reattach the extremity. While the troll is missing the extremity, its maximum hit points are reduced by 10. Roll {@dice d6} to determine the severed extremiy:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "1-4: Arm",
+									"entries": [
+										"If the troll has an arm, it loses an arm. It loses one of its claw attacks, and the severed arm can make a claw attack."
+									]
+								},
+								{
+									"type": "item",
+									"name": "5-6: Head",
+									"entries": [
+										"If the troll has a head, it loses its head. It loses its bite attack, and the severed head can make a bite attack."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The troll attacks with its bite and twice with its claw. It can make a rock attack in place of one claw attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 20/60 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dread Troll",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "10d10 + 50"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 20,
+			"int": 8,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"giant"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The troll has advantage on Perception checks that rely on smell."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function on its next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Severed Limbs",
+					"entries": [
+						"If the troll is dealt a critical hit with a slashing weapon, one of its extremities is severed. The extremity has AC 15, 10 hit points, a Speed of 10, and the troll's Regeneration trait. The troll controls the severed extremity and perceives through it with the appropriate senses (for instance, it sees through the eyes of a severed head). As a bonus action, the troll can reattach the extremity. While the troll is missing the extremity, its maximum hit points are reduced by 10. Roll {@dice d6} to determine the severed extremiy:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "1-4: Arm",
+									"entries": [
+										"If the troll has an arm, it loses an arm. It loses one of its claw attacks, and the severed arm can make a claw attack."
+									]
+								},
+								{
+									"type": "item",
+									"name": "5-6: Head",
+									"entries": [
+										"If the troll has a head, it loses its head. It loses its bite attack, and the severed head can make a bite attack."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The troll makes two bite attacks and three claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Faerie Eater Troll",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 20,
+			"int": 8,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"giant"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The troll has advantage on Perception checks that rely on smell."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function on its next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Severed Limbs",
+					"entries": [
+						"If the troll is dealt a critical hit with a slashing weapon, one of its extremities is severed. The extremity has AC 15, 10 hit points, a Speed of 10, and the troll's Regeneration trait. The troll controls the severed extremity and perceives through it with the appropriate senses (for instance, it sees through the eyes of a severed head). As a bonus action, the troll can reattach the extremity. While the troll is missing the extremity, its maximum hit points are reduced by 10. Roll {@dice d6} to determine the severed extremiy:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "1-4: Arm",
+									"entries": [
+										"If the troll has an arm, it loses an arm. It loses one of its claw attacks, and the severed arm can make a claw attack."
+									]
+								},
+								{
+									"type": "item",
+									"name": "5-6: Head",
+									"entries": [
+										"If the troll has a head, it loses its head. It loses its bite attack, and the severed head can make a bite attack."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The troll has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The troll attacks with its bite and twice with its claw. It can use Charming Murmur in place of its bite."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Charming Murmur",
+					"entries": [
+						"One creature within 60 feet that can hear the troll makes a {@dc 12} Charisma saving throw. On a failure, it is {@condition charmed} for 1 minute. While {@condition charmed}, its Speed is 0. The creature repeats the saving throw whenever it takes damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scrag",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": "giant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 20,
+			"int": 8,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"giant"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The scrag has advantage on Perception checks that rely on smell."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The scrag regains 10 hit points at the start of its turn. If the scrag takes acid or fire damage, this trait doesn't function on its next turn. This trait also doesn't function if the scrag hasn't bee immersed in water since the start of its last turn. The scrag dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Severed Limbs",
+					"entries": [
+						"If the scrag is dealt a critical hit with a slashing weapon, one of its extremities is severed. The extremity has AC 15, 10 hit points, a Speed of 10, and the scrag's Regeneration trait. The scrag controls the severed extremity and perceives through it with the appropriate senses (for instance, it sees through the eyes of a severed head). As a bonus action, the scrag can reattach the extremity. While the scrag is missing the extremity, its maximum hit points are reduced by 10. Roll {@dice d6} to determine the severed extremiy:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "1-4: Arm",
+									"entries": [
+										"If the scrag has an arm, it loses an arm. It loses one of its claw attacks, and the severed arm can make a claw attack."
+									]
+								},
+								{
+									"type": "item",
+									"name": "5-6: Head",
+									"entries": [
+										"If the scrag has a head, it loses its head. It loses its bite attack, and the severed head can make a bite attack."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The scrag can breathe air and water.scrag"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The scrag attacks with its bite and twice with its claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unicorn",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"fey"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14
+				}
+			],
+			"hp": {
+				"average": 85,
+				"formula": "9d10 + 36"
+			},
+			"speed": {
+				"walk": 80
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 18,
+			"int": 16,
+			"wis": 20,
+			"cha": 20,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"celestial",
+				"elvish",
+				"sylvan",
+				"telepathy 60 ft."
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The unicorn's spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell animal messenger|LevelUpAdventurersGuideA5E}",
+						"{@spell detect evil and good|LevelUpAdventurersGuideA5E}",
+						"{@spell druidcraft|LevelUpAdventurersGuideA5E}",
+						"{@spell pass without trace|LevelUpAdventurersGuideA5E}",
+						"{@spell scrying|LevelUpAdventurersGuideA5E} (locations within its domain only)"
+					],
+					"daily": {
+						"1e": [
+							"{@spell calm emotions|LevelUpAdventurersGuideA5E}",
+							"{@spell dispel evil and good|LevelUpAdventurersGuideA5E}",
+							"{@spell teleport|LevelUpAdventurersGuideA5E} (between locations within its domain only)"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The unicorn has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Good",
+					"entries": [
+						"The unicorn radiates a Good aura."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The unicorn attacks once with its hooves and once with its horn."
+					]
+				},
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Horn",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage plus 10 ({@damage 3d6}) radiant damage. If the target is a creature and the unicorn moves at least 20 feet straight towards the target before the attack, the target takes an extra 9 ({@damage 2d8}) bludgeoning damage and makes a {@dc 16} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Grant Boon (3/Day)",
+					"entries": [
+						"The unicorn touches a willing creature, including itself, with its horn and grants one of the following boons:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Healing",
+									"entries": [
+										"The creature magically regain 21 ({@dice 6d6}) hit points. It is cured of all diseases, and poisons affecting it are neutralised."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Luck",
+									"entries": [
+										"During the next 24 hours, the creature can roll a {@dice d12} and add the result to one ability check, attack roll, or saving throw after seeing the result."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Protection",
+									"entries": [
+										"A glowing mote of light orbits the creature's head. The mote lasts 24 hours. When the creature fails a saving throw, it can use its reaction to expend the mote and succeed on the saving throw."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Resolution",
+									"entries": [
+										"The creature is immune to being {@condition charmed} or {@condition frightened} for 24 hours."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Corrupted Unicorn",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"fey"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14
+				}
+			],
+			"hp": {
+				"average": 85,
+				"formula": "9d10 + 36"
+			},
+			"speed": {
+				"walk": 80
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 18,
+			"int": 16,
+			"wis": 20,
+			"cha": 20,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"celestial",
+				"elvish",
+				"sylvan",
+				"telepathy 60 ft."
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The unicorn has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The unicorn attacks once with its hooves and once with its horn."
+					]
+				},
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Horn",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage plus 10 ({@damage 3d6}) radiant damage. If the target is a creature and the unicorn moves at least 20 feet straight towards the target before the attack, the target takes an extra 9 ({@damage 2d8}) bludgeoning damage and makes a {@dc 16} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Grant Boon (3/Day)",
+					"entries": [
+						"The unicorn touches a willing creature, including itself, with its horn and grants one of the following boons:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Healing",
+									"entries": [
+										"The creature magically regain 21 ({@dice 6d6}) hit points. It is cured of all diseases, and poisons affecting it are neutralised."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Luck",
+									"entries": [
+										"During the next 24 hours, the creature can roll a {@dice d12} and add the result to one ability check, attack roll, or saving throw after seeing the result."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Protection",
+									"entries": [
+										"A glowing mote of light orbits the creature's head. The mote lasts 24 hours. When the creature fails a saving throw, it can use its reaction to expend the mote and succeed on the saving throw."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Resolution",
+									"entries": [
+										"The creature is immune to being {@condition charmed} or {@condition frightened} for 24 hours."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Trample",
+					"entries": [
+						"The unicorn attacks a {@condition prone} creature with its hooves."
+					]
+				},
+				{
+					"name": "Darkness Aura (1/Day)",
+					"entries": [
+						"A 15-foot radius area of magical darkness emanates from the unicorn, spreading around corners and moving with it. Darkvision and natural light can't penetrate it. If the darkness overlaps with an area of light created by a 2nd-level spell or lower, the spell creating the light is dispelled. The darkness aura lasts for 10 minutes or until the unicorn takes damage. The aura doesn't hinder the unicorn's sight."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vampire",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d8 + 75"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"dex": "+8",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+7",
+				"persuasion": "+8",
+				"stealth": "+8 (+1d4)"
+			},
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical, non-silvered weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"When the vampire fails a saving throw, it can choose to succeed instead. When it does so, it visibly grows older. Its original appearance is restored when it finishes a long rest."
+					]
+				},
+				{
+					"name": "Misty Recovery",
+					"entries": [
+						"When the vampire drops to 0 hit points, instead of falling {@condition unconscious}, it turns into mist as if it had used the Mist Form legendary action. It can't revert to its vampire form, and it must rech its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to vampire form and is {@condition staggered|LevelUpAdventurersGuideA5E} for 1 hour, at which time it regains 1 hit point. While {@staggered|LevelUpAdventurersGuideA5E} in this way, it can be destroyed by fire damage, radiant damage, damage from a magical weapon, or a wooden stake driven through the heart, but it is otherwise immune to damage."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and hasn't taken radiant damage since its last turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The vampire can climb even on difficult surfaces and upside down on ceilings."
+					]
+				},
+				{
+					"name": "Vampire Weaknesses",
+					"entries": [
+						"Vampires' most common weaknesses are sunlight and running water. When the vampire ends its turn in contact with one of its weaknesses (such as being bathed in sunlight or running water), it takes 20 radiant damage. While in contact with its weakness, it can't use its Regeneration trait or its Mist Form or Shapechange actions."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grab (Vampire Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) necrotic damage. The target is {@condition grappled} (escape {@dc 17}) and {@condition restrained} while {@condition grappled} in this way."
+					]
+				},
+				{
+					"name": "Charm (Gaze)",
+					"entries": [
+						"The vampire magically targets a creature within 30 feet, forcing it to make a {@dc 16} Wisdom saving throw. If the target has at least one level of {@condition strife|LevelUpAdventurersGuideA5E}, it makes this saving throw with disadvantage. On a failure, the target is {@condition charmed} by the vampire for 24 hours. While {@condition charmed} it regards the vampire as a trusted friend and is a willing target for the vampire's bite. The target repeats the saving throw each time it takes damage, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, it is immune to this vampire's Charm for 24 hours."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target that is {@condition grappled}, {@condition incapacitated}, {@condition restrained}, willing, or unaware of the vampire's presence. {@h}10 ({@damage 1d10 + 5}) piercing damage plus 21 ({@damage 6d6}) necrotic damage, and the target takes 1 level of {@condition strife|LevelUpAdventurersGuideA5E}. The target's hit point maximum is reduced by an amount equal to the necrotic damage dealt, and the vampire regains this number of hit points. The reduction lasts until the target finishes a long rest. If the target is reduced to 0 hit points by this attack, it dies and rises the following night as a {@creature vampire spawn|LevelUpAdventurersGuideA5E} in the vampire's thrall. Before the target first rises as a vampire spawn, a {@spell bless|LevelUpAdventurersGuideA5E}, {@spell gentle repose|LevelUpAdventurersGuideA5E}, or similar spell cast on the body prevents this transformation."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hissing Scuttle (1/Day)",
+					"entries": [
+						"When the vampire takes radiant damage, it moves up to its Speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Warding Charm (1/Day)",
+					"entries": [
+						"When a creature the vampire can see targets it with a melee attack but before the attack is made, the vampire uses Charm on that creature."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Blood Charm",
+					"entries": [
+						"The vampire uses Charm."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"The vampire makes a grab attack."
+					]
+				},
+				{
+					"name": "Mist Form",
+					"entries": [
+						"The vampire transforms into a mist or back into its true form. As mist, the vampire has a flying speed of 30, can't speak, can't take actions or manipulate objects, is immune to nonmagical damage from weapons, and has advantage on saving throws and Stealth checks. It can pass through a space as narrow as 1 inch without squeezing but can't pass through water. Anything it's carrying transforms with it."
+					]
+				},
+				{
+					"name": "Shapechange",
+					"entries": [
+						"The vampire transforms into the shape of a Medium or smaller beast or back into its true form. While transformed, it has the beast's size and movement modes. It can't use reactions or legendary actions, and can't speak. Otherwise, it uses the vampire's statistics. Anything it's carrying transforms with it."
+					]
+				}
+			],
+			"legendaryActions": 1
+		},
+		{
+			"name": "Elder Vampire",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 285,
+				"formula": "30d8 + 150"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"dex": "+8",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+7",
+				"persuasion": "+8",
+				"stealth": "+8 (+1d4)"
+			},
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical, non-silvered weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "22",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"When the vampire fails a saving throw, it can choose to succeed instead. When it does so, it visibly grows older. Its original appearance is restored when it finishes a long rest."
+					]
+				},
+				{
+					"name": "Misty Recovery",
+					"entries": [
+						"When the vampire drops to 0 hit points, instead of falling {@condition unconscious}, it turns into mist as if it had used the Mist Form legendary action. It can't revert to its vampire form, and it must rech its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to vampire form and is {@condition staggered|LevelUpAdventurersGuideA5E} for 1 hour, at which time it regains 1 hit point. While {@staggered|LevelUpAdventurersGuideA5E} in this way, it can be destroyed by fire damage, radiant damage, damage from a magical weapon, or a wooden stake driven through the heart, but it is otherwise immune to damage."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and hasn't taken radiant damage since its last turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The vampire can climb even on difficult surfaces and upside down on ceilings."
+					]
+				},
+				{
+					"name": "Vampire Weaknesses",
+					"entries": [
+						"Vampires' most common weaknesses are sunlight and running water. When the vampire ends its turn in contact with one of its weaknesses (such as being bathed in sunlight or running water), it takes 20 radiant damage. While in contact with its weakness, it can't use its Regeneration trait or its Mist Form or Shapechange actions."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"While bloodied, the vampire can take 3 legendary actions instead of 1."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grab (Vampire Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) necrotic damage. The target is {@condition grappled} (escape {@dc 17}) and {@condition restrained} while {@condition grappled} in this way."
+					]
+				},
+				{
+					"name": "Charm (Gaze)",
+					"entries": [
+						"The vampire magically targets a creature within 30 feet, forcing it to make a {@dc 16} Wisdom saving throw. If the target has at least one level of {@condition strife|LevelUpAdventurersGuideA5E}, it makes this saving throw with disadvantage. On a failure, the target is {@condition charmed} by the vampire for 24 hours. While {@condition charmed} it regards the vampire as a trusted friend and is a willing target for the vampire's bite. The target repeats the saving throw each time it takes damage, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, it is immune to this vampire's Charm for 24 hours."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target that is {@condition grappled}, {@condition incapacitated}, {@condition restrained}, willing, or unaware of the vampire's presence. {@h}10 ({@damage 1d10 + 5}) piercing damage plus 21 ({@damage 6d6}) necrotic damage, and the target takes 1 level of {@condition strife|LevelUpAdventurersGuideA5E}. The target's hit point maximum is reduced by an amount equal to the necrotic damage dealt, and the vampire regains this number of hit points. The reduction lasts until the target finishes a long rest. If the target is reduced to 0 hit points by this attack, it dies and rises the following night as a {@creature vampire spawn|LevelUpAdventurersGuideA5E} in the vampire's thrall. Before the target first rises as a vampire spawn, a {@spell bless|LevelUpAdventurersGuideA5E}, {@spell gentle repose|LevelUpAdventurersGuideA5E}, or similar spell cast on the body prevents this transformation."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hissing Scuttle (1/Day)",
+					"entries": [
+						"When the vampire takes radiant damage, it moves up to its Speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Warding Charm (1/Day)",
+					"entries": [
+						"When a creature the vampire can see targets it with a melee attack but before the attack is made, the vampire uses Charm on that creature."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Blood Charm",
+					"entries": [
+						"The vampire uses Charm."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"The vampire makes a grab attack."
+					]
+				},
+				{
+					"name": "Mist Form",
+					"entries": [
+						"The vampire transforms into a mist or back into its true form. As mist, the vampire has a flying speed of 30, can't speak, can't take actions or manipulate objects, is immune to nonmagical damage from weapons, and has advantage on saving throws and Stealth checks. It can pass through a space as narrow as 1 inch without squeezing but can't pass through water. Anything it's carrying transforms with it."
+					]
+				},
+				{
+					"name": "Shapechange",
+					"entries": [
+						"The vampire transforms into the shape of a Medium or smaller beast or back into its true form. While transformed, it has the beast's size and movement modes. It can't use reactions or legendary actions, and can't speak. Otherwise, it uses the vampire's statistics. Anything it's carrying transforms with it."
+					]
+				},
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"The giant ends one negative effect currently affecting it. It can use this action as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Momentary Transformation (While Bloodied, Vampire Form Only)",
+					"entries": [
+						"The vampire uses Shapechange or Mist Form, moves up to its Speed without provoking opportunity attacks, and then returns to its true form."
+					]
+				},
+				{
+					"name": "Create Spawn (While Bloodied, 1/Day)",
+					"entries": [
+						"The vampire magically raises a dead humanoid as a {@creature vampire spawn|LevelUpAdventurersGuideA5E} under the vampire's control."
+					]
+				},
+				{
+					"name": "Bite (While Bloodied, Costs 2 Actions)",
+					"entries": [
+						"The vampire makes a bite attack. On a hit, the target makes a {@dc 17} Constitution saving throw, falling asleep for 1 minute on a failure. The target wakes up if it takes damage or a creature uses an action to shake it awake."
+					]
+				},
+				{
+					"name": "Burning Blood (While Bloodied, Costs 2 Actions)",
+					"entries": [
+						"The vampire targets a creature within 60 feet, magically causing its blood to boil in its veins. The target makes a {@dc 16} Constitution saving throw, taking 31 ({@damage 9d6}) fire damage on a failed save or half damage on a success."
+					]
+				}
+			],
+			"legendaryActions": 1
+		},
+		{
+			"name": "Vampire Assassin",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d8 + 75"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"dex": "+8",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+7",
+				"persuasion": "+8",
+				"stealth": "+8 (+1d4)"
+			},
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical, non-silvered weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"When the vampire fails a saving throw, it can choose to succeed instead. When it does so, it visibly grows older. Its original appearance is restored when it finishes a long rest."
+					]
+				},
+				{
+					"name": "Misty Recovery",
+					"entries": [
+						"When the vampire drops to 0 hit points, instead of falling {@condition unconscious}, it turns into mist as if it had used the Mist Form legendary action. It can't revert to its vampire form, and it must rech its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to vampire form and is {@condition staggered|LevelUpAdventurersGuideA5E} for 1 hour, at which time it regains 1 hit point. While {@staggered|LevelUpAdventurersGuideA5E} in this way, it can be destroyed by fire damage, radiant damage, damage from a magical weapon, or a wooden stake driven through the heart, but it is otherwise immune to damage."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and hasn't taken radiant damage since its last turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The vampire can climb even on difficult surfaces and upside down on ceilings."
+					]
+				},
+				{
+					"name": "Vampire Weaknesses",
+					"entries": [
+						"Vampires' most common weaknesses are sunlight and running water. When the vampire ends its turn in contact with one of its weaknesses (such as being bathed in sunlight or running water), it takes 20 radiant damage. While in contact with its weakness, it can't use its Regeneration trait or its Mist Form or Shapechange actions."
+					]
+				},
+				{
+					"name": "Misty Stealth",
+					"entries": [
+						"While in Mist Form in dim light or darkness, the vampire is {@condition invisible}."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The vampire deals an extra 10 ({@damage 3d6}) damage when it hits with a weapon attack while it has advantage on the attack, or when its target is within 5 feet of an ally of the vampire while the vampire doesn't have disadvantage on the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grab (Vampire Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) necrotic damage. The target is {@condition grappled} (escape {@dc 17}) and {@condition restrained} while {@condition grappled} in this way."
+					]
+				},
+				{
+					"name": "Charm (Gaze)",
+					"entries": [
+						"The vampire magically targets a creature within 30 feet, forcing it to make a {@dc 16} Wisdom saving throw. If the target has at least one level of {@condition strife|LevelUpAdventurersGuideA5E}, it makes this saving throw with disadvantage. On a failure, the target is {@condition charmed} by the vampire for 24 hours. While {@condition charmed} it regards the vampire as a trusted friend and is a willing target for the vampire's bite. The target repeats the saving throw each time it takes damage, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, it is immune to this vampire's Charm for 24 hours."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target that is {@condition grappled}, {@condition incapacitated}, {@condition restrained}, willing, or unaware of the vampire's presence. {@h}10 ({@damage 1d10 + 5}) piercing damage plus 21 ({@damage 6d6}) necrotic damage, and the target takes 1 level of {@condition strife|LevelUpAdventurersGuideA5E}. The target's hit point maximum is reduced by an amount equal to the necrotic damage dealt, and the vampire regains this number of hit points. The reduction lasts until the target finishes a long rest. If the target is reduced to 0 hit points by this attack, it dies and rises the following night as a {@creature vampire spawn|LevelUpAdventurersGuideA5E} in the vampire's thrall. Before the target first rises as a vampire spawn, a {@spell bless|LevelUpAdventurersGuideA5E}, {@spell gentle repose|LevelUpAdventurersGuideA5E}, or similar spell cast on the body prevents this transformation."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hissing Scuttle (1/Day)",
+					"entries": [
+						"When the vampire takes radiant damage, it moves up to its Speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Warding Charm (1/Day)",
+					"entries": [
+						"When a creature the vampire can see targets it with a melee attack but before the attack is made, the vampire uses Charm on that creature."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Blood Charm",
+					"entries": [
+						"The vampire uses Charm."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"The vampire makes a grab attack."
+					]
+				},
+				{
+					"name": "Mist Form",
+					"entries": [
+						"The vampire transforms into a mist or back into its true form. As mist, the vampire has a flying speed of 30, can't speak, can't take actions or manipulate objects, is immune to nonmagical damage from weapons, and has advantage on saving throws and Stealth checks. It can pass through a space as narrow as 1 inch without squeezing but can't pass through water. Anything it's carrying transforms with it."
+					]
+				},
+				{
+					"name": "Shapechange",
+					"entries": [
+						"The vampire transforms into the shape of a Medium or smaller beast or back into its true form. While transformed, it has the beast's size and movement modes. It can't use reactions or legendary actions, and can't speak. Otherwise, it uses the vampire's statistics. Anything it's carrying transforms with it."
+					]
+				}
+			],
+			"legendaryActions": 1
+		},
+		{
+			"name": "Vampire Mage",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d8 + 75"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"dex": "+8",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+7",
+				"persuasion": "+8",
+				"stealth": "+8 (+1d4)"
+			},
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical, non-silvered weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The vampire is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}). It can cast the following spells, requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand|LevelUpAdventurersGuideA5E}",
+								"{@spell minor illusion|LevelUpAdventurersGuideA5E}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell disguise self|LevelUpAdventurersGuideA5E}",
+								"{@spell shield|LevelUpAdventurersGuideA5E}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell darkness|LevelUpAdventurersGuideA5E}",
+								"{@spell misty step|LevelUpAdventurersGuideA5E}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell animate dead|LevelUpAdventurersGuideA5E}",
+								"{@spell fireball|LevelUpAdventurersGuideA5E}"
+							]
+						},
+						"4": {
+							"slots": 1,
+							"spells": [
+								"{@spell blight|LevelUpAdventurersGuideA5E}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"When the vampire fails a saving throw, it can choose to succeed instead. When it does so, it visibly grows older. Its original appearance is restored when it finishes a long rest."
+					]
+				},
+				{
+					"name": "Misty Recovery",
+					"entries": [
+						"When the vampire drops to 0 hit points, instead of falling {@condition unconscious}, it turns into mist as if it had used the Mist Form legendary action. It can't revert to its vampire form, and it must rech its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to vampire form and is {@condition staggered|LevelUpAdventurersGuideA5E} for 1 hour, at which time it regains 1 hit point. While {@staggered|LevelUpAdventurersGuideA5E} in this way, it can be destroyed by fire damage, radiant damage, damage from a magical weapon, or a wooden stake driven through the heart, but it is otherwise immune to damage."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and hasn't taken radiant damage since its last turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The vampire can climb even on difficult surfaces and upside down on ceilings."
+					]
+				},
+				{
+					"name": "Vampire Weaknesses",
+					"entries": [
+						"Vampires' most common weaknesses are sunlight and running water. When the vampire ends its turn in contact with one of its weaknesses (such as being bathed in sunlight or running water), it takes 20 radiant damage. While in contact with its weakness, it can't use its Regeneration trait or its Mist Form or Shapechange actions."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grab (Vampire Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) necrotic damage. The target is {@condition grappled} (escape {@dc 17}) and {@condition restrained} while {@condition grappled} in this way."
+					]
+				},
+				{
+					"name": "Charm (Gaze)",
+					"entries": [
+						"The vampire magically targets a creature within 30 feet, forcing it to make a {@dc 16} Wisdom saving throw. If the target has at least one level of {@condition strife|LevelUpAdventurersGuideA5E}, it makes this saving throw with disadvantage. On a failure, the target is {@condition charmed} by the vampire for 24 hours. While {@condition charmed} it regards the vampire as a trusted friend and is a willing target for the vampire's bite. The target repeats the saving throw each time it takes damage, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, it is immune to this vampire's Charm for 24 hours."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target that is {@condition grappled}, {@condition incapacitated}, {@condition restrained}, willing, or unaware of the vampire's presence. {@h}10 ({@damage 1d10 + 5}) piercing damage plus 21 ({@damage 6d6}) necrotic damage, and the target takes 1 level of {@condition strife|LevelUpAdventurersGuideA5E}. The target's hit point maximum is reduced by an amount equal to the necrotic damage dealt, and the vampire regains this number of hit points. The reduction lasts until the target finishes a long rest. If the target is reduced to 0 hit points by this attack, it dies and rises the following night as a {@creature vampire spawn|LevelUpAdventurersGuideA5E} in the vampire's thrall. Before the target first rises as a vampire spawn, a {@spell bless|LevelUpAdventurersGuideA5E}, {@spell gentle repose|LevelUpAdventurersGuideA5E}, or similar spell cast on the body prevents this transformation."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hissing Scuttle (1/Day)",
+					"entries": [
+						"When the vampire takes radiant damage, it moves up to its Speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Warding Charm (1/Day)",
+					"entries": [
+						"When a creature the vampire can see targets it with a melee attack but before the attack is made, the vampire uses Charm on that creature."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Blood Charm",
+					"entries": [
+						"The vampire uses Charm."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"The vampire makes a grab attack."
+					]
+				},
+				{
+					"name": "Mist Form",
+					"entries": [
+						"The vampire transforms into a mist or back into its true form. As mist, the vampire has a flying speed of 30, can't speak, can't take actions or manipulate objects, is immune to nonmagical damage from weapons, and has advantage on saving throws and Stealth checks. It can pass through a space as narrow as 1 inch without squeezing but can't pass through water. Anything it's carrying transforms with it."
+					]
+				},
+				{
+					"name": "Shapechange",
+					"entries": [
+						"The vampire transforms into the shape of a Medium or smaller beast or back into its true form. While transformed, it has the beast's size and movement modes. It can't use reactions or legendary actions, and can't speak. Otherwise, it uses the vampire's statistics. Anything it's carrying transforms with it."
+					]
+				}
+			],
+			"legendaryActions": 1
+		},
+		{
+			"name": "Vampire Warrior",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"plate mail"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d8 + 75"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"dex": "+8",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+7",
+				"persuasion": "+8",
+				"stealth": "+8 (+1d4)"
+			},
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical, non-silvered weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"When the vampire fails a saving throw, it can choose to succeed instead. When it does so, it visibly grows older. Its original appearance is restored when it finishes a long rest."
+					]
+				},
+				{
+					"name": "Misty Recovery",
+					"entries": [
+						"When the vampire drops to 0 hit points, instead of falling {@condition unconscious}, it turns into mist as if it had used the Mist Form legendary action. It can't revert to its vampire form, and it must rech its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to vampire form and is {@condition staggered|LevelUpAdventurersGuideA5E} for 1 hour, at which time it regains 1 hit point. While {@staggered|LevelUpAdventurersGuideA5E} in this way, it can be destroyed by fire damage, radiant damage, damage from a magical weapon, or a wooden stake driven through the heart, but it is otherwise immune to damage."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and hasn't taken radiant damage since its last turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The vampire can climb even on difficult surfaces and upside down on ceilings."
+					]
+				},
+				{
+					"name": "Vampire Weaknesses",
+					"entries": [
+						"Vampires' most common weaknesses are sunlight and running water. When the vampire ends its turn in contact with one of its weaknesses (such as being bathed in sunlight or running water), it takes 20 radiant damage. While in contact with its weakness, it can't use its Regeneration trait or its Mist Form or Shapechange actions."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grab (Vampire Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) necrotic damage. The target is {@condition grappled} (escape {@dc 17}) and {@condition restrained} while {@condition grappled} in this way."
+					]
+				},
+				{
+					"name": "Charm (Gaze)",
+					"entries": [
+						"The vampire magically targets a creature within 30 feet, forcing it to make a {@dc 16} Wisdom saving throw. If the target has at least one level of {@condition strife|LevelUpAdventurersGuideA5E}, it makes this saving throw with disadvantage. On a failure, the target is {@condition charmed} by the vampire for 24 hours. While {@condition charmed} it regards the vampire as a trusted friend and is a willing target for the vampire's bite. The target repeats the saving throw each time it takes damage, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, it is immune to this vampire's Charm for 24 hours."
+					]
+				},
+				{
+					"name": "Reaping Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., up to 3 targets. {@h}12 ({@damage 2d6 + 5}) slashing damage plus 4 ({@damage 1d8}) necrotic damage. If the target is a creature, it makes a {@dc 17} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target that is {@condition grappled}, {@condition incapacitated}, {@condition restrained}, willing, or unaware of the vampire's presence. {@h}10 ({@damage 1d10 + 5}) piercing damage plus 21 ({@damage 6d6}) necrotic damage, and the target takes 1 level of {@condition strife|LevelUpAdventurersGuideA5E}. The target's hit point maximum is reduced by an amount equal to the necrotic damage dealt, and the vampire regains this number of hit points. The reduction lasts until the target finishes a long rest. If the target is reduced to 0 hit points by this attack, it dies and rises the following night as a {@creature vampire spawn|LevelUpAdventurersGuideA5E} in the vampire's thrall. Before the target first rises as a vampire spawn, a {@spell bless|LevelUpAdventurersGuideA5E}, {@spell gentle repose|LevelUpAdventurersGuideA5E}, or similar spell cast on the body prevents this transformation."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hissing Scuttle (1/Day)",
+					"entries": [
+						"When the vampire takes radiant damage, it moves up to its Speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Warding Charm (1/Day)",
+					"entries": [
+						"When a creature the vampire can see targets it with a melee attack but before the attack is made, the vampire uses Charm on that creature."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Blood Charm",
+					"entries": [
+						"The vampire uses Charm."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"The vampire makes a grab attack."
+					]
+				},
+				{
+					"name": "Mist Form",
+					"entries": [
+						"The vampire transforms into a mist or back into its true form. As mist, the vampire has a flying speed of 30, can't speak, can't take actions or manipulate objects, is immune to nonmagical damage from weapons, and has advantage on saving throws and Stealth checks. It can pass through a space as narrow as 1 inch without squeezing but can't pass through water. Anything it's carrying transforms with it."
+					]
+				},
+				{
+					"name": "Shapechange",
+					"entries": [
+						"The vampire transforms into the shape of a Medium or smaller beast or back into its true form. While transformed, it has the beast's size and movement modes. It can't use reactions or legendary actions, and can't speak. Otherwise, it uses the vampire's statistics. Anything it's carrying transforms with it."
+					]
+				}
+			],
+			"legendaryActions": 1
+		},
+		{
+			"name": "Vampire Spawn",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 76,
+				"formula": "9d8 + 36"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 18,
+			"int": 10,
+			"wis": 14,
+			"cha": 14,
+			"save": {
+				"dex": "+5",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical, non-silvered weapons",
+					"cond": "true"
+				}
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and hasn't taken radiant damage since its last turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The vampire can climb even on difficult surfaces and upside down on ceilings."
+					]
+				},
+				{
+					"name": "Vampire Weaknesses",
+					"entries": [
+						"Vampires' most common weaknesses are sunlight and running water. When the vampire ends its turn in contact with one of its weaknesses (such as being bathed in sunlight or running water), it takes 20 radiant damage. While in contact with its weakness, it can't use its Regeneration trait."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The vampire makes two attacks, only one of which can be a bite attack."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. The target is {@condition grappled} (escape {@dc 14})."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target that is {@condition grappled}, {@condition incapacitated}, {@condition restrained}, or willing. {@h}9 ({@damage 1d10 + 4}) piercing damage plus 14 ({@damage 4d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage dealt, and the vampire regains this number of hit points. The reduction lasts until the target finishes a long rest. If te target is reduced to 0 hit points by this attack, it dies."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hissing Scuttle (1/Day)",
+					"entries": [
+						"When the vampire takes radiant damage, it moves up to its Speed without provoking opportunity attacks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wight",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"brigandine leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"resist": [
+				"cold",
+				"necrotic",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical, non-silvered weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Cold Aura",
+					"entries": [
+						"A creature that starts its turn {@condition grappled} by the wight, touches it, or hit it with a melee attack while within 5 feet takes 3 ({@damage 1d6}) cold damage. A creature can take this damage only once per turn. If the wight has been subjected to fire damage since its last turn, this trait doesn't function."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the wight has disadvantage on attack rolls, as well as on Perception checks that rely on sight."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"A wight doesn't require air, sustenance, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage plus 3 ({@damage 1d6}) cold damage."
+					]
+				},
+				{
+					"name": "Seize",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) cold damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained} and the only attack the wight can make it Life Drain against the {@condition grappled} target."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 3 ({@damage 1d6}) cold damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) necrotic damage, and the target makes a {@dc 13} Constitution saving throw. On a failure, the target takes a level of {@condition strife|LevelUpAdventurersGuideA5E} and its hit points maximum is reduced by an amount equal to the necrotic damage dealt. The reduction lasts until the target finishes a long rest. A humanoid or beast reduced to 0 hit points by this attack dies. Its corpse rises 24 hours later as a {@creature zombie|LevelUpAdventurersGuideA5E} under the wight's control."
+					]
+				}
+			]
+		},
+		{
+			"name": "Will-o'-Wisp",
+			"source": "LevelUpAdventurersGuideA5E",
+			"size": [
+				"S"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17
+				}
+			],
+			"hp": {
+				"average": 28,
+				"formula": "8d6"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				}
+			},
+			"str": 2,
+			"dex": 24,
+			"con": 10,
+			"int": 12,
+			"wis": 14,
+			"cha": 12,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"necrotic",
+				"thunder",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"lightning",
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUpAdventurersGuideA5E",
+				"grappled",
+				"staggered|LevelUpAdventurersGuideA5E",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Conductive",
+					"entries": [
+						"Each time a creature touches the will-o'-wisp or hits it with a metal melee weapon for the first time on a turn, the creature takes 7 ({@damage 2d6}) lightning damage. This trait doesn't function while the will-o'-wisp's glow is extinguished."
+					]
+				},
+				{
+					"name": "Insubstantial",
+					"entries": [
+						"The will-o'-wisp can't pick up or move objects or creatures. It can move through creatures and objects. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Treasure Sense",
+					"entries": [
+						"The will-o'-wisp knows the location of coins, gems, and other nonmagical wealth within 500 feet."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"A will-o'-wisp doesn't require air, sustenance, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shock",
+					"entries": [
+						"{@atk ms} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 3d6}) lightning damage. The will-o'-wisp can't make this attack while its glow is extinguished."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Illumination",
+					"entries": [
+						"The will-o'-wisp alters the radius of its glow (shedding bright light in a 5- to 20-foot radius and dim light for the same number of feet beyond that radius), changes the color of its glow, or extinguishes its glow (making it {@condition invisible})."
+					]
+				}
+			]
 		}
 	]
 }
