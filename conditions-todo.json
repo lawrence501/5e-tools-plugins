@@ -2,7 +2,7 @@
     "_meta": {
 		"sources": [
 			{
-				"json": "LevelUpAdventurersGuideA5E",
+				"json": "LevelUpA5E",
 				"abbreviation": "A5E",
 				"full": "Level Up: Adventurers Guide (A5E)",
 				"authors": [
@@ -18,7 +18,7 @@
     "condition": [
         {
             "name": "Confused",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "A confused creature cannot take reactions.",
                 "On its turn, a confused creature rolls a {@dice d8} to determine what it does.",
@@ -35,7 +35,7 @@
         },
         {
             "name": "Dazed",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition incapacitated}.",
                 "A dazed creature has disadvantage with Offence and Defence."
@@ -44,7 +44,7 @@
         },
 		{
             "name": "Debilitated",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition stunned}.",
                 "A debilitated creature suffers the following effects:",
@@ -62,7 +62,7 @@
         },
 		{
             "name": "Dominated",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition charmed}.",
                 "A dominated creature is {@condition charmed}. Additionally, dominated creature gains a free action at the start of each of its turns that can be taken to both move up to its speed and make either a single weapon attack or cast a cantrip. This free action is completely controlled by the creature that dominated the victim."
@@ -71,16 +71,16 @@
         },
         {
             "name": "Doomed",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "A doomed creature dies at a time determined by the DM, or within 13 ({@dice 2d12}) hours.",
-                "A doomed creature continues to be doomed even after it dies. Magic equivalent to a 7th-level or higher spell can remove the doomed condition (such as {@spell regenerate|LevelUpAdventurersGuideA5E} cast on a living creature, {@spell resurrection|LevelUpAdventurersGuideA5E}, {@spell true resurrection|LevelUpAdventurersGuideA5E}, or {@spell wish|LevelUpAdventurersGuideA5E}. A doomed creature cannot otherwise be returned to life."
+                "A doomed creature continues to be doomed even after it dies. Magic equivalent to a 7th-level or higher spell can remove the doomed condition (such as {@spell regenerate|LevelUpA5E} cast on a living creature, {@spell resurrection|LevelUpA5E}, {@spell true resurrection|LevelUpA5E}, or {@spell wish|LevelUpA5E}. A doomed creature cannot otherwise be returned to life."
             ],
             "hasFluffImages": false
         },
         {
             "name": "Fatigue",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition exhaustion}.",
                 {
@@ -129,7 +129,7 @@
         },
 		{
             "name": "Rattled",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition frightened}.",
                 "A rattled creature cannot benefit from expertise dice and cannot take reactions."
@@ -138,7 +138,7 @@
         },
 		{
             "name": "Slowed",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "A slowed creature's speed is halved.",
                 "A slowed creature takes a -2 penalty to AC and Dexterity saving throws.",
@@ -149,7 +149,7 @@
         },
 		{
             "name": "Sluggish",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition exhaustion}.",
                 "A sluggish creature reduces the number of attacks it can make with its Attack action by 1 (or Multiattack, where relevant)."
@@ -158,7 +158,7 @@
         },
 		{
             "name": "Staggered",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition paralyzed}.",
                 "A staggered creature suffers the following effects:",
@@ -175,7 +175,7 @@
         },
         {
             "name": "Strife",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition exhaustion}.",
                 {
@@ -224,7 +224,7 @@
         },
 		{
             "name": "Taunted",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition charmed}.",
                 "A taunted creature must target at least their taunter with all offensive actions."
@@ -233,7 +233,7 @@
         },
 		{
             "name": "Weakened",
-            "source": "LevelUpAdventurersGuideA5E",
+            "source": "LevelUpA5E",
             "entries": [
                 "Shares condition immunity with {@condition stunned}.",
                 "A weakened creature deals half damage."
@@ -244,9 +244,9 @@
     "disease": [
         {
 			"name": "Brain Larvae",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"entries": [
-				"A {@creature khalkos|LevelUpAdventurersGuideA5E} can infect an intelligent creature with a horrifying disease, injecting {@creature khalkos|LevelUpAdventurersGuideA5E} larvae directly into the creature's skull. While infected with this disease, the host undergoes the following changes:",
+				"A {@creature khalkos|LevelUpA5E} can infect an intelligent creature with a horrifying disease, injecting {@creature khalkos|LevelUpA5E} larvae directly into the creature's skull. While infected with this disease, the host undergoes the following changes:",
 				{
                     "type": "list",
                     "items": [
@@ -254,40 +254,40 @@
                             "type": "item",
                             "name": "Telepathy",
                             "entries": [
-                                "The host gains telepathy out to a radius of 120 feet. Additionally, the host can telepathically communicate with the {@creature khalkos|LevelUpAdventurersGuideA5E} that infected it over any distance, as long as they are on the same plane."
+                                "The host gains telepathy out to a radius of 120 feet. Additionally, the host can telepathically communicate with the {@creature khalkos|LevelUpA5E} that infected it over any distance, as long as they are on the same plane."
                             ]
                         },
                         {
                             "type": "item",
                             "name": "Trust",
                             "entries": [
-                                "Whenever a {@creature khalkos|LevelUpAdventurersGuideA5E} makes a Charisma check to convince the host of its good intentions, it does so with advantage. If it succeeds, the host becomes friendly to it no matter its previous attitude."
+                                "Whenever a {@creature khalkos|LevelUpA5E} makes a Charisma check to convince the host of its good intentions, it does so with advantage. If it succeeds, the host becomes friendly to it no matter its previous attitude."
                             ]
                         }
                     ]
                 },
-                "After 10 ({@dice 3d6}) days, the host develops a splitting headache and is {@condition incapacitated} for 24 hours. At the end of this time, the host dies, and 2 or 3 {@creature khalkos spawn|LevelUpAdventurersGuideA5E} burst out of the host's skull after 1 round.",
+                "After 10 ({@dice 3d6}) days, the host develops a splitting headache and is {@condition incapacitated} for 24 hours. At the end of this time, the host dies, and 2 or 3 {@creature khalkos spawn|LevelUpA5E} burst out of the host's skull after 1 round.",
                 "This disease can only be detected or cured by a spell cast with a 5th-level or higher spell slot. It can't be cured by effects that don't require a spell slot. Creatures without a head are immune to this disease."
 			]
 		},
         {
 			"name": "Mummy Rot",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"entries": [
-				"A {@creature mummy|LevelUpAdventurersGuideA5E|mummy's} touch inflicts a dreadful curse called mummy rot. A cursed creature can't regain hit points, and its hit point maximum decreases by an amount equal to the creature's total number of Hit Dice for every 24 hours that elapse. If this curse reduces the target's hit point maximum to 0, the target dies and crumbles to dust."
+				"A {@creature mummy|LevelUpA5E|mummy's} touch inflicts a dreadful curse called mummy rot. A cursed creature can't regain hit points, and its hit point maximum decreases by an amount equal to the creature's total number of Hit Dice for every 24 hours that elapse. If this curse reduces the target's hit point maximum to 0, the target dies and crumbles to dust."
 			]
 		},
         {
 			"name": "Troglodyte Stench",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"entries": [
-				"A {@creature troglodyte|LevelUpAdventurersGuideA5E|troglodyte's} bite can infect a living creature with troglodyte stench. An infected creature is {@condition poisoned} and gains the following trait:",
+				"A {@creature troglodyte|LevelUpA5E|troglodyte's} bite can infect a living creature with troglodyte stench. An infected creature is {@condition poisoned} and gains the following trait:",
                 {
                     "type": "entries",
                     "name": "Stench",
                     "entries": [
                         "A non-troglodyte other than the creature that starts its turn within 5 feet of the creature makes a {@dc 12} Constitution saving throw. On a failure, the creature is {@condition poisoned} until the start of its next turn. On a successful save, the creature is immune to troglodyte Stench for 24 hours.",
-                        "The subject makes a {@dc 12} Constitution saving throw every 24 hours after being infected, becoming cured on a success. The disease can also be cured with {@spell lesser restoration|LevelUpAdventurersGuideA5E} and similar magic."
+                        "The subject makes a {@dc 12} Constitution saving throw every 24 hours after being infected, becoming cured on a success. The disease can also be cured with {@spell lesser restoration|LevelUpA5E} and similar magic."
                     ]
                 }
 			]

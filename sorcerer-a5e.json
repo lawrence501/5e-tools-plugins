@@ -7,7 +7,7 @@
 		},
 		"sources": [
 			{
-				"json": "LevelUpAdventurersGuideA5E",
+				"json": "LevelUpA5E",
 				"abbreviation": "A5E",
 				"full": "Level Up: Adventurers Guide (A5E)",
 				"authors": [
@@ -23,7 +23,7 @@
 	"class": [
 		{
 			"name": "Sorcerer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"hd": {
 				"number": 1,
 				"faces": 6
@@ -571,42 +571,42 @@
 			],
 			"classFeatures": [
                 {
-					"classFeature": "Sorcerer Archetype|Sorcerer|LevelUpAdventurersGuideA5E|1",
+					"classFeature": "Sorcerer Archetype|Sorcerer|LevelUpA5E|1",
 					"gainSubclassFeature": true
 				},
-				"Spellcasting|Sorcerer|LevelUpAdventurersGuideA5E|1",
-				"Font of Magic|Sorcerer|LevelUpAdventurersGuideA5E|2",
-				"Manifestation|Sorcerer|LevelUpAdventurersGuideA5E|2",
-				"Latent Power|Sorcerer|LevelUpAdventurersGuideA5E|3",
-				"Metamagic|Sorcerer|LevelUpAdventurersGuideA5E|3",
-				"Ability Score Improvement|Sorcerer|LevelUpAdventurersGuideA5E|4",
-				"Arcane Innovations|Sorcerer|LevelUpAdventurersGuideA5E|4",
-				"Additional Metamagics (+1 minor)|Sorcerer|LevelUpAdventurersGuideA5E|5",
-				"Arcane Refinement|Sorcerer|LevelUpAdventurersGuideA5E|6",
+				"Spellcasting|Sorcerer|LevelUpA5E|1",
+				"Font of Magic|Sorcerer|LevelUpA5E|2",
+				"Manifestation|Sorcerer|LevelUpA5E|2",
+				"Latent Power|Sorcerer|LevelUpA5E|3",
+				"Metamagic|Sorcerer|LevelUpA5E|3",
+				"Ability Score Improvement|Sorcerer|LevelUpA5E|4",
+				"Arcane Innovations|Sorcerer|LevelUpA5E|4",
+				"Additional Metamagics (+1 minor)|Sorcerer|LevelUpA5E|5",
+				"Arcane Refinement|Sorcerer|LevelUpA5E|6",
 				{
-					"classFeature": "Sorcerer Archetype Feature|Sorcerer|LevelUpAdventurersGuideA5E|6",
+					"classFeature": "Sorcerer Archetype Feature|Sorcerer|LevelUpA5E|6",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Sorcerer|LevelUpAdventurersGuideA5E|8",
-				"Rapturous Presence|Sorcerer|LevelUpAdventurersGuideA5E|9",
-				"Additional Metamagics (+1 minor/major)|Sorcerer|LevelUpAdventurersGuideA5E|10",
-				"Ability Score Improvement|Sorcerer|LevelUpAdventurersGuideA5E|12",
-				"Evolving Manifestation|Sorcerer|LevelUpAdventurersGuideA5E|12",
+				"Ability Score Improvement|Sorcerer|LevelUpA5E|8",
+				"Rapturous Presence|Sorcerer|LevelUpA5E|9",
+				"Additional Metamagics (+1 minor/major)|Sorcerer|LevelUpA5E|10",
+				"Ability Score Improvement|Sorcerer|LevelUpA5E|12",
+				"Evolving Manifestation|Sorcerer|LevelUpA5E|12",
 				{
-					"classFeature": "Sorcerer Archetype Feature|Sorcerer|LevelUpAdventurersGuideA5E|14",
+					"classFeature": "Sorcerer Archetype Feature|Sorcerer|LevelUpA5E|14",
 					"gainSubclassFeature": true
 				},
-				"Additional Metamagics (+1 minor)|Sorcerer|LevelUpAdventurersGuideA5E|15",
-				"Major Metamagic|Sorcerer|LevelUpAdventurersGuideA5E|15",
-				"Ability Score Improvement|Sorcerer|LevelUpAdventurersGuideA5E|16",
+				"Additional Metamagics (+1 minor)|Sorcerer|LevelUpA5E|15",
+				"Major Metamagic|Sorcerer|LevelUpA5E|15",
+				"Ability Score Improvement|Sorcerer|LevelUpA5E|16",
 				{
-					"classFeature": "Sorcerer Archetype Feature|Sorcerer|LevelUpAdventurersGuideA5E|18",
+					"classFeature": "Sorcerer Archetype Feature|Sorcerer|LevelUpA5E|18",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Sorcerer|LevelUpAdventurersGuideA5E|19",
-				"Additional Metamagics (+1 minor/major)|Sorcerer|LevelUpAdventurersGuideA5E|19",
-				"Arcane Clutch|Sorcerer|LevelUpAdventurersGuideA5E|20",
-                "Explosive Magics|Sorcerer|LevelUpAdventurersGuideA5E|20"
+				"Ability Score Improvement|Sorcerer|LevelUpA5E|19",
+				"Additional Metamagics (+1 minor/major)|Sorcerer|LevelUpA5E|19",
+				"Arcane Clutch|Sorcerer|LevelUpA5E|20",
+                "Explosive Magics|Sorcerer|LevelUpA5E|20"
 			],
 			"subclassTitle": "Sorcerer Archetype"
 		}
@@ -615,53 +615,53 @@
 		{
 			"name": "Draconic Bloodline",
 			"shortName": "Draconic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 102,
 			"srd": true,
 			"subclassFeatures": [
-				"Draconic Bloodline|Sorcerer|LevelUpAdventurersGuideA5E|Draconic|LevelUpAdventurersGuideA5E|1",
-				"Elemental Affinity|Sorcerer|LevelUpAdventurersGuideA5E|Draconic|LevelUpAdventurersGuideA5E|6",
-				"Dragon Wings|Sorcerer|LevelUpAdventurersGuideA5E|Draconic|LevelUpAdventurersGuideA5E|14",
-				"Draconic Presence|Sorcerer|LevelUpAdventurersGuideA5E|Draconic|LevelUpAdventurersGuideA5E|18"
+				"Draconic Bloodline|Sorcerer|LevelUpA5E|Draconic|LevelUpA5E|1",
+				"Elemental Affinity|Sorcerer|LevelUpA5E|Draconic|LevelUpA5E|6",
+				"Dragon Wings|Sorcerer|LevelUpA5E|Draconic|LevelUpA5E|14",
+				"Draconic Presence|Sorcerer|LevelUpA5E|Draconic|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Wild Magic",
 			"shortName": "Wild",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 103,
 			"subclassFeatures": [
-				"Wild Magic|Sorcerer|LevelUpAdventurersGuideA5E|Wild|LevelUpAdventurersGuideA5E|1",
-				"Bend Luck|Sorcerer|LevelUpAdventurersGuideA5E|Wild|LevelUpAdventurersGuideA5E|6",
-				"Controlled Chaos|Sorcerer|LevelUpAdventurersGuideA5E|Wild|LevelUpAdventurersGuideA5E|14",
-				"Spell Bombardment|Sorcerer|LevelUpAdventurersGuideA5E|Wild|LevelUpAdventurersGuideA5E|18"
+				"Wild Magic|Sorcerer|LevelUpA5E|Wild|LevelUpA5E|1",
+				"Bend Luck|Sorcerer|LevelUpA5E|Wild|LevelUpA5E|6",
+				"Controlled Chaos|Sorcerer|LevelUpA5E|Wild|LevelUpA5E|14",
+				"Spell Bombardment|Sorcerer|LevelUpA5E|Wild|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Favored Soul (UA)",
 			"shortName": "Favored Soul (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 8,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Favored Soul|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul (UA)|LevelUpAdventurersGuideA5E|1",
-				"Extra Attack|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul (UA)|LevelUpAdventurersGuideA5E|6",
-				"Divine Wings|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul (UA)|LevelUpAdventurersGuideA5E|14",
-				"Power of the Chosen|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul (UA)|LevelUpAdventurersGuideA5E|18"
+				"Favored Soul|Sorcerer|LevelUpA5E|Favored Soul (UA)|LevelUpA5E|1",
+				"Extra Attack|Sorcerer|LevelUpA5E|Favored Soul (UA)|LevelUpA5E|6",
+				"Divine Wings|Sorcerer|LevelUpA5E|Favored Soul (UA)|LevelUpA5E|14",
+				"Power of the Chosen|Sorcerer|LevelUpA5E|Favored Soul (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Storm Sorcery (UA)",
 			"shortName": "Storm (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 4,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -690,34 +690,34 @@
 				}
 			],
 			"subclassFeatures": [
-				"Storm Sorcery|Sorcerer|LevelUpAdventurersGuideA5E|Storm (UA)|LevelUpAdventurersGuideA5E|1",
-				"Heart of the Storm|Sorcerer|LevelUpAdventurersGuideA5E|Storm (UA)|LevelUpAdventurersGuideA5E|6",
-				"Storm Guide|Sorcerer|LevelUpAdventurersGuideA5E|Storm (UA)|LevelUpAdventurersGuideA5E|6",
-				"Storm's Fury|Sorcerer|LevelUpAdventurersGuideA5E|Storm (UA)|LevelUpAdventurersGuideA5E|14",
-				"Wind Soul|Sorcerer|LevelUpAdventurersGuideA5E|Storm (UA)|LevelUpAdventurersGuideA5E|18"
+				"Storm Sorcery|Sorcerer|LevelUpA5E|Storm (UA)|LevelUpA5E|1",
+				"Heart of the Storm|Sorcerer|LevelUpA5E|Storm (UA)|LevelUpA5E|6",
+				"Storm Guide|Sorcerer|LevelUpA5E|Storm (UA)|LevelUpA5E|6",
+				"Storm's Fury|Sorcerer|LevelUpA5E|Storm (UA)|LevelUpA5E|14",
+				"Wind Soul|Sorcerer|LevelUpA5E|Storm (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Shadow (UA)",
 			"shortName": "Shadow (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Shadow|Sorcerer|LevelUpAdventurersGuideA5E|Shadow (UA)|LevelUpAdventurersGuideA5E|1",
-				"Hound of Ill Omen|Sorcerer|LevelUpAdventurersGuideA5E|Shadow (UA)|LevelUpAdventurersGuideA5E|6",
-				"Shadow Walk|Sorcerer|LevelUpAdventurersGuideA5E|Shadow (UA)|LevelUpAdventurersGuideA5E|14",
-				"Shadow Form|Sorcerer|LevelUpAdventurersGuideA5E|Shadow (UA)|LevelUpAdventurersGuideA5E|18"
+				"Shadow|Sorcerer|LevelUpA5E|Shadow (UA)|LevelUpA5E|1",
+				"Hound of Ill Omen|Sorcerer|LevelUpA5E|Shadow (UA)|LevelUpA5E|6",
+				"Shadow Walk|Sorcerer|LevelUpA5E|Shadow (UA)|LevelUpA5E|14",
+				"Shadow Form|Sorcerer|LevelUpA5E|Shadow (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Favored Soul v2 (UA)",
 			"shortName": "Favored Soul v2 (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -775,46 +775,46 @@
 				}
 			],
 			"subclassFeatures": [
-				"Favored Soul v2|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v2 (UA)|LevelUpAdventurersGuideA5E|1",
-				"Blessed Countenance|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v2 (UA)|LevelUpAdventurersGuideA5E|6",
-				"Divine Purity|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v2 (UA)|LevelUpAdventurersGuideA5E|14",
-				"Unearthly Recovery|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v2 (UA)|LevelUpAdventurersGuideA5E|18"
+				"Favored Soul v2|Sorcerer|LevelUpA5E|Favored Soul v2 (UA)|LevelUpA5E|1",
+				"Blessed Countenance|Sorcerer|LevelUpA5E|Favored Soul v2 (UA)|LevelUpA5E|6",
+				"Divine Purity|Sorcerer|LevelUpA5E|Favored Soul v2 (UA)|LevelUpA5E|14",
+				"Unearthly Recovery|Sorcerer|LevelUpA5E|Favored Soul v2 (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Phoenix Sorcery (UA)",
 			"shortName": "Phoenix (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 1,
 			"subclassFeatures": [
-				"Phoenix Sorcery (UA)|Sorcerer|LevelUpAdventurersGuideA5E|Phoenix (UA)|LevelUpAdventurersGuideA5E|1",
-				"Phoenix Spark|Sorcerer|LevelUpAdventurersGuideA5E|Phoenix (UA)|LevelUpAdventurersGuideA5E|6",
-				"Nourishing Fire|Sorcerer|LevelUpAdventurersGuideA5E|Phoenix (UA)|LevelUpAdventurersGuideA5E|14",
-				"Form of the Phoenix|Sorcerer|LevelUpAdventurersGuideA5E|Phoenix (UA)|LevelUpAdventurersGuideA5E|18"
+				"Phoenix Sorcery (UA)|Sorcerer|LevelUpA5E|Phoenix (UA)|LevelUpA5E|1",
+				"Phoenix Spark|Sorcerer|LevelUpA5E|Phoenix (UA)|LevelUpA5E|6",
+				"Nourishing Fire|Sorcerer|LevelUpA5E|Phoenix (UA)|LevelUpA5E|14",
+				"Form of the Phoenix|Sorcerer|LevelUpA5E|Phoenix (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Sea Sorcery (UA)",
 			"shortName": "Sea (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 2,
 			"subclassFeatures": [
-				"Sea Sorcery (UA)|Sorcerer|LevelUpAdventurersGuideA5E|Sea (UA)|LevelUpAdventurersGuideA5E|1",
-				"Watery Defense|Sorcerer|LevelUpAdventurersGuideA5E|Sea (UA)|LevelUpAdventurersGuideA5E|6",
-				"Shifting Form|Sorcerer|LevelUpAdventurersGuideA5E|Sea (UA)|LevelUpAdventurersGuideA5E|14",
-				"Water Soul|Sorcerer|LevelUpAdventurersGuideA5E|Sea (UA)|LevelUpAdventurersGuideA5E|18"
+				"Sea Sorcery (UA)|Sorcerer|LevelUpA5E|Sea (UA)|LevelUpA5E|1",
+				"Watery Defense|Sorcerer|LevelUpA5E|Sea (UA)|LevelUpA5E|6",
+				"Shifting Form|Sorcerer|LevelUpA5E|Sea (UA)|LevelUpA5E|14",
+				"Water Soul|Sorcerer|LevelUpA5E|Sea (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Stone Sorcery (UA)",
 			"shortName": "Stone (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 3,
 			"additionalSpells": [
 				{
@@ -840,32 +840,32 @@
 				}
 			],
 			"subclassFeatures": [
-				"Stone Sorcery (UA)|Sorcerer|LevelUpAdventurersGuideA5E|Stone (UA)|LevelUpAdventurersGuideA5E|1",
-				"Stone Aegis|Sorcerer|LevelUpAdventurersGuideA5E|Stone (UA)|LevelUpAdventurersGuideA5E|6",
-				"Stone's Edge|Sorcerer|LevelUpAdventurersGuideA5E|Stone (UA)|LevelUpAdventurersGuideA5E|14",
-				"Earth Master's Aegis|Sorcerer|LevelUpAdventurersGuideA5E|Stone (UA)|LevelUpAdventurersGuideA5E|18"
+				"Stone Sorcery (UA)|Sorcerer|LevelUpA5E|Stone (UA)|LevelUpA5E|1",
+				"Stone Aegis|Sorcerer|LevelUpA5E|Stone (UA)|LevelUpA5E|6",
+				"Stone's Edge|Sorcerer|LevelUpA5E|Stone (UA)|LevelUpA5E|14",
+				"Earth Master's Aegis|Sorcerer|LevelUpA5E|Stone (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Pyromancer (PSK)",
 			"shortName": "Pyromancer (PSK)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 9,
 			"subclassFeatures": [
-				"Pyromancer (PSK)|Sorcerer|LevelUpAdventurersGuideA5E|Pyromancer (PSK)|LevelUpAdventurersGuideA5E|1",
-				"Fire in the Veins|Sorcerer|LevelUpAdventurersGuideA5E|Pyromancer (PSK)|LevelUpAdventurersGuideA5E|6",
-				"Pyromancer's Fury|Sorcerer|LevelUpAdventurersGuideA5E|Pyromancer (PSK)|LevelUpAdventurersGuideA5E|14",
-				"Fiery Soul|Sorcerer|LevelUpAdventurersGuideA5E|Pyromancer (PSK)|LevelUpAdventurersGuideA5E|18"
+				"Pyromancer (PSK)|Sorcerer|LevelUpA5E|Pyromancer (PSK)|LevelUpA5E|1",
+				"Fire in the Veins|Sorcerer|LevelUpA5E|Pyromancer (PSK)|LevelUpA5E|6",
+				"Pyromancer's Fury|Sorcerer|LevelUpA5E|Pyromancer (PSK)|LevelUpA5E|14",
+				"Fiery Soul|Sorcerer|LevelUpA5E|Pyromancer (PSK)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Favored Soul v3 (UA)",
 			"shortName": "Favored Soul v3 (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 5,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -923,18 +923,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Favored Soul v3|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v3 (UA)|LevelUpAdventurersGuideA5E|1",
-				"Empowered Healing|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v3 (UA)|LevelUpAdventurersGuideA5E|6",
-				"Angelic Form|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v3 (UA)|LevelUpAdventurersGuideA5E|14",
-				"Unearthly Recovery|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v3 (UA)|LevelUpAdventurersGuideA5E|18"
+				"Favored Soul v3|Sorcerer|LevelUpA5E|Favored Soul v3 (UA)|LevelUpA5E|1",
+				"Empowered Healing|Sorcerer|LevelUpA5E|Favored Soul v3 (UA)|LevelUpA5E|6",
+				"Angelic Form|Sorcerer|LevelUpA5E|Favored Soul v3 (UA)|LevelUpA5E|14",
+				"Unearthly Recovery|Sorcerer|LevelUpA5E|Favored Soul v3 (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Divine Soul",
 			"shortName": "Divine Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 50,
 			"additionalSpells": [
 				{
@@ -1229,18 +1229,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Divine Soul|Sorcerer|LevelUpAdventurersGuideA5E|Divine Soul|LevelUpAdventurersGuideA5E|1",
-				"Empowered Healing|Sorcerer|LevelUpAdventurersGuideA5E|Divine Soul|LevelUpAdventurersGuideA5E|6",
-				"Otherworldly Wings|Sorcerer|LevelUpAdventurersGuideA5E|Divine Soul|LevelUpAdventurersGuideA5E|14",
-				"Unearthly Recovery|Sorcerer|LevelUpAdventurersGuideA5E|Divine Soul|LevelUpAdventurersGuideA5E|18"
+				"Divine Soul|Sorcerer|LevelUpA5E|Divine Soul|LevelUpA5E|1",
+				"Empowered Healing|Sorcerer|LevelUpA5E|Divine Soul|LevelUpA5E|6",
+				"Otherworldly Wings|Sorcerer|LevelUpA5E|Divine Soul|LevelUpA5E|14",
+				"Unearthly Recovery|Sorcerer|LevelUpA5E|Divine Soul|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Shadow Magic",
 			"shortName": "Shadow",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 50,
 			"additionalSpells": [
 				{
@@ -1252,39 +1252,39 @@
 				}
 			],
 			"subclassFeatures": [
-				"Shadow Magic|Sorcerer|LevelUpAdventurersGuideA5E|Shadow|LevelUpAdventurersGuideA5E|1",
-				"Hound of Ill Omen|Sorcerer|LevelUpAdventurersGuideA5E|Shadow|LevelUpAdventurersGuideA5E|6",
-				"Shadow Walk|Sorcerer|LevelUpAdventurersGuideA5E|Shadow|LevelUpAdventurersGuideA5E|14",
-				"Umbral Form|Sorcerer|LevelUpAdventurersGuideA5E|Shadow|LevelUpAdventurersGuideA5E|18"
+				"Shadow Magic|Sorcerer|LevelUpA5E|Shadow|LevelUpA5E|1",
+				"Hound of Ill Omen|Sorcerer|LevelUpA5E|Shadow|LevelUpA5E|6",
+				"Shadow Walk|Sorcerer|LevelUpA5E|Shadow|LevelUpA5E|14",
+				"Umbral Form|Sorcerer|LevelUpA5E|Shadow|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Storm Sorcery",
 			"shortName": "Storm",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 51,
 			"otherSources": [
 				{
-					"source": "LevelUpAdventurersGuideA5E",
+					"source": "LevelUpA5E",
 					"page": 137
 				}
 			],
 			"subclassFeatures": [
-				"Storm Sorcery|Sorcerer|LevelUpAdventurersGuideA5E|Storm|LevelUpAdventurersGuideA5E|1",
-				"Heart of the Storm|Sorcerer|LevelUpAdventurersGuideA5E|Storm|LevelUpAdventurersGuideA5E|6",
-				"Storm Guide|Sorcerer|LevelUpAdventurersGuideA5E|Storm|LevelUpAdventurersGuideA5E|6",
-				"Storm's Fury|Sorcerer|LevelUpAdventurersGuideA5E|Storm|LevelUpAdventurersGuideA5E|14",
-				"Wind Soul|Sorcerer|LevelUpAdventurersGuideA5E|Storm|LevelUpAdventurersGuideA5E|18"
+				"Storm Sorcery|Sorcerer|LevelUpA5E|Storm|LevelUpA5E|1",
+				"Heart of the Storm|Sorcerer|LevelUpA5E|Storm|LevelUpA5E|6",
+				"Storm Guide|Sorcerer|LevelUpA5E|Storm|LevelUpA5E|6",
+				"Storm's Fury|Sorcerer|LevelUpA5E|Storm|LevelUpA5E|14",
+				"Wind Soul|Sorcerer|LevelUpA5E|Storm|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Giant Soul (UA)",
 			"shortName": "Giant Soul (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 1,
 			"additionalSpells": [
 				{
@@ -1361,18 +1361,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Giant Soul (UA)|Sorcerer|LevelUpAdventurersGuideA5E|Giant Soul (UA)|LevelUpAdventurersGuideA5E|1",
-				"Soul of Lost Ostoria|Sorcerer|LevelUpAdventurersGuideA5E|Giant Soul (UA)|LevelUpAdventurersGuideA5E|6",
-				"Rage of Fallen Ostoria|Sorcerer|LevelUpAdventurersGuideA5E|Giant Soul (UA)|LevelUpAdventurersGuideA5E|14",
-				"Blessing of the All Father|Sorcerer|LevelUpAdventurersGuideA5E|Giant Soul (UA)|LevelUpAdventurersGuideA5E|18"
+				"Giant Soul (UA)|Sorcerer|LevelUpA5E|Giant Soul (UA)|LevelUpA5E|1",
+				"Soul of Lost Ostoria|Sorcerer|LevelUpA5E|Giant Soul (UA)|LevelUpA5E|6",
+				"Rage of Fallen Ostoria|Sorcerer|LevelUpA5E|Giant Soul (UA)|LevelUpA5E|14",
+				"Blessing of the All Father|Sorcerer|LevelUpA5E|Giant Soul (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Aberrant Mind (UA)",
 			"shortName": "Aberrant Mind (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1402,19 +1402,19 @@
 				}
 			],
 			"subclassFeatures": [
-				"Aberrant Mind|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind (UA)|LevelUpAdventurersGuideA5E|1",
-				"Psionic Sorcery|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind (UA)|LevelUpAdventurersGuideA5E|6",
-				"Psychic Defenses|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind (UA)|LevelUpAdventurersGuideA5E|6",
-				"Revelation in Flesh|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind (UA)|LevelUpAdventurersGuideA5E|14",
-				"Warp Reality|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind (UA)|LevelUpAdventurersGuideA5E|18"
+				"Aberrant Mind|Sorcerer|LevelUpA5E|Aberrant Mind (UA)|LevelUpA5E|1",
+				"Psionic Sorcery|Sorcerer|LevelUpA5E|Aberrant Mind (UA)|LevelUpA5E|6",
+				"Psychic Defenses|Sorcerer|LevelUpA5E|Aberrant Mind (UA)|LevelUpA5E|6",
+				"Revelation in Flesh|Sorcerer|LevelUpA5E|Aberrant Mind (UA)|LevelUpA5E|14",
+				"Warp Reality|Sorcerer|LevelUpA5E|Aberrant Mind (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Clockwork Soul (UA)",
 			"shortName": "Clockwork Soul (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 4,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1444,33 +1444,33 @@
 				}
 			],
 			"subclassFeatures": [
-				"Clockwork Soul|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul (UA)|LevelUpAdventurersGuideA5E|1",
-				"Bulwark of Law|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul (UA)|LevelUpAdventurersGuideA5E|6",
-				"Trance of Order|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul (UA)|LevelUpAdventurersGuideA5E|14",
-				"Clockwork Cavalcade|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul (UA)|LevelUpAdventurersGuideA5E|18"
+				"Clockwork Soul|Sorcerer|LevelUpA5E|Clockwork Soul (UA)|LevelUpA5E|1",
+				"Bulwark of Law|Sorcerer|LevelUpA5E|Clockwork Soul (UA)|LevelUpA5E|6",
+				"Trance of Order|Sorcerer|LevelUpA5E|Clockwork Soul (UA)|LevelUpA5E|14",
+				"Clockwork Cavalcade|Sorcerer|LevelUpA5E|Clockwork Soul (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Psionic Soul (UA)",
 			"shortName": "Psionic Soul (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 5,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Psionic Soul|Sorcerer|LevelUpAdventurersGuideA5E|Psionic Soul (UA)|LevelUpAdventurersGuideA5E|1",
-				"Psychic Strike|Sorcerer|LevelUpAdventurersGuideA5E|Psionic Soul (UA)|LevelUpAdventurersGuideA5E|6",
-				"Mind Over Body|Sorcerer|LevelUpAdventurersGuideA5E|Psionic Soul (UA)|LevelUpAdventurersGuideA5E|14",
-				"Psychic Aura|Sorcerer|LevelUpAdventurersGuideA5E|Psionic Soul (UA)|LevelUpAdventurersGuideA5E|18"
+				"Psionic Soul|Sorcerer|LevelUpA5E|Psionic Soul (UA)|LevelUpA5E|1",
+				"Psychic Strike|Sorcerer|LevelUpA5E|Psionic Soul (UA)|LevelUpA5E|6",
+				"Mind Over Body|Sorcerer|LevelUpA5E|Psionic Soul (UA)|LevelUpA5E|14",
+				"Psychic Aura|Sorcerer|LevelUpA5E|Psionic Soul (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Aberrant Mind",
 			"shortName": "Aberrant Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 66,
 			"additionalSpells": [
 				{
@@ -1500,19 +1500,19 @@
 				}
 			],
 			"subclassFeatures": [
-				"Aberrant Mind|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind|LevelUpAdventurersGuideA5E|1",
-				"Psionic Sorcery|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind|LevelUpAdventurersGuideA5E|6",
-				"Psychic Defenses|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind|LevelUpAdventurersGuideA5E|6",
-				"Revelation in Flesh|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind|LevelUpAdventurersGuideA5E|14",
-				"Warping Implosion|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind|LevelUpAdventurersGuideA5E|18"
+				"Aberrant Mind|Sorcerer|LevelUpA5E|Aberrant Mind|LevelUpA5E|1",
+				"Psionic Sorcery|Sorcerer|LevelUpA5E|Aberrant Mind|LevelUpA5E|6",
+				"Psychic Defenses|Sorcerer|LevelUpA5E|Aberrant Mind|LevelUpA5E|6",
+				"Revelation in Flesh|Sorcerer|LevelUpA5E|Aberrant Mind|LevelUpA5E|14",
+				"Warping Implosion|Sorcerer|LevelUpA5E|Aberrant Mind|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Clockwork Soul",
 			"shortName": "Clockwork Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 68,
 			"additionalSpells": [
 				{
@@ -1541,18 +1541,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Clockwork Soul|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul|LevelUpAdventurersGuideA5E|1",
-				"Bastion of Law|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul|LevelUpAdventurersGuideA5E|6",
-				"Trance of Order|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul|LevelUpAdventurersGuideA5E|14",
-				"Clockwork Cavalcade|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul|LevelUpAdventurersGuideA5E|18"
+				"Clockwork Soul|Sorcerer|LevelUpA5E|Clockwork Soul|LevelUpA5E|1",
+				"Bastion of Law|Sorcerer|LevelUpA5E|Clockwork Soul|LevelUpA5E|6",
+				"Trance of Order|Sorcerer|LevelUpA5E|Clockwork Soul|LevelUpA5E|14",
+				"Clockwork Cavalcade|Sorcerer|LevelUpA5E|Clockwork Soul|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Lunar Magic (UA)",
 			"shortName": "Lunar Magic (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 2,
 			"additionalSpells": [
 				{
@@ -1617,19 +1617,19 @@
 				}
 			],
 			"subclassFeatures": [
-				"Lunar Magic|Sorcerer|LevelUpAdventurersGuideA5E|Lunar Magic (UA)|LevelUpAdventurersGuideA5E|1",
-				"Lunar Boons|Sorcerer|LevelUpAdventurersGuideA5E|Lunar Magic (UA)|LevelUpAdventurersGuideA5E|6",
-				"Waxing and Waning|Sorcerer|LevelUpAdventurersGuideA5E|Lunar Magic (UA)|LevelUpAdventurersGuideA5E|6",
-				"Lunar Empowerment|Sorcerer|LevelUpAdventurersGuideA5E|Lunar Magic (UA)|LevelUpAdventurersGuideA5E|14",
-				"Lunar Phenomenon|Sorcerer|LevelUpAdventurersGuideA5E|Lunar Magic (UA)|LevelUpAdventurersGuideA5E|18"
+				"Lunar Magic|Sorcerer|LevelUpA5E|Lunar Magic (UA)|LevelUpA5E|1",
+				"Lunar Boons|Sorcerer|LevelUpA5E|Lunar Magic (UA)|LevelUpA5E|6",
+				"Waxing and Waning|Sorcerer|LevelUpA5E|Lunar Magic (UA)|LevelUpA5E|6",
+				"Lunar Empowerment|Sorcerer|LevelUpA5E|Lunar Magic (UA)|LevelUpA5E|14",
+				"Lunar Phenomenon|Sorcerer|LevelUpA5E|Lunar Magic (UA)|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Lunar Sorcery",
 			"shortName": "Lunar",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 34,
 			"additionalSpells": [
 				{
@@ -1694,19 +1694,19 @@
 				}
 			],
 			"subclassFeatures": [
-				"Lunar Sorcery|Sorcerer|LevelUpAdventurersGuideA5E|Lunar|LevelUpAdventurersGuideA5E|1",
-				"Lunar Boons|Sorcerer|LevelUpAdventurersGuideA5E|Lunar|LevelUpAdventurersGuideA5E|6",
-				"Waxing and Waning|Sorcerer|LevelUpAdventurersGuideA5E|Lunar|LevelUpAdventurersGuideA5E|6",
-				"Lunar Empowerment|Sorcerer|LevelUpAdventurersGuideA5E|Lunar|LevelUpAdventurersGuideA5E|14",
-				"Lunar Phenomenon|Sorcerer|LevelUpAdventurersGuideA5E|Lunar|LevelUpAdventurersGuideA5E|18"
+				"Lunar Sorcery|Sorcerer|LevelUpA5E|Lunar|LevelUpA5E|1",
+				"Lunar Boons|Sorcerer|LevelUpA5E|Lunar|LevelUpA5E|6",
+				"Waxing and Waning|Sorcerer|LevelUpA5E|Lunar|LevelUpA5E|6",
+				"Lunar Empowerment|Sorcerer|LevelUpA5E|Lunar|LevelUpA5E|14",
+				"Lunar Phenomenon|Sorcerer|LevelUpA5E|Lunar|LevelUpA5E|18"
 			]
 		},
         {
 			"name": "Draconist",
 			"shortName": "Draconist",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"additionalSpells": [
 				{
 					"known": {
@@ -1744,20 +1744,20 @@
 				}
 			],
 			"subclassFeatures": [
-				"Draconist Spells|Sorcerer|LevelUpAdventurersGuideA5E|Draconist|LevelUpAdventurersGuideA5E|1",
-				"Draconic Resilience|Sorcerer|LevelUpAdventurersGuideA5E|Draconist|LevelUpAdventurersGuideA5E|1",
-				"Voice of the Dragon|Sorcerer|LevelUpAdventurersGuideA5E|Draconist|LevelUpAdventurersGuideA5E|1",
-				"Lord Among Beasts and Mortals|Sorcerer|LevelUpAdventurersGuideA5E|Draconist|LevelUpAdventurersGuideA5E|6",
-				"Soaring Wings|Sorcerer|LevelUpAdventurersGuideA5E|Draconist|LevelUpAdventurersGuideA5E|14",
-				"Draconic Presence|Sorcerer|LevelUpAdventurersGuideA5E|Draconist|LevelUpAdventurersGuideA5E|18"
+				"Draconist Spells|Sorcerer|LevelUpA5E|Draconist|LevelUpA5E|1",
+				"Draconic Resilience|Sorcerer|LevelUpA5E|Draconist|LevelUpA5E|1",
+				"Voice of the Dragon|Sorcerer|LevelUpA5E|Draconist|LevelUpA5E|1",
+				"Lord Among Beasts and Mortals|Sorcerer|LevelUpA5E|Draconist|LevelUpA5E|6",
+				"Soaring Wings|Sorcerer|LevelUpA5E|Draconist|LevelUpA5E|14",
+				"Draconic Presence|Sorcerer|LevelUpA5E|Draconist|LevelUpA5E|18"
 			]
 		},
         {
 			"name": "Enigma",
 			"shortName": "Enigma",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"additionalSpells": [
 				{
 					"known": {
@@ -1795,20 +1795,20 @@
 				}
 			],
 			"subclassFeatures": [
-				"Enigma Spells|Sorcerer|LevelUpAdventurersGuideA5E|Enigma|LevelUpAdventurersGuideA5E|1",
-				"Deeper Understanding|Sorcerer|LevelUpAdventurersGuideA5E|Enigma|LevelUpAdventurersGuideA5E|1",
-				"Reach Beyond|Sorcerer|LevelUpAdventurersGuideA5E|Enigma|LevelUpAdventurersGuideA5E|1",
-				"Retributive Surge|Sorcerer|LevelUpAdventurersGuideA5E|Enigma|LevelUpAdventurersGuideA5E|6",
-				"Tenuous Serenity|Sorcerer|LevelUpAdventurersGuideA5E|Enigma|LevelUpAdventurersGuideA5E|14",
-				"Erupting Nova|Sorcerer|LevelUpAdventurersGuideA5E|Enigma|LevelUpAdventurersGuideA5E|18"
+				"Enigma Spells|Sorcerer|LevelUpA5E|Enigma|LevelUpA5E|1",
+				"Deeper Understanding|Sorcerer|LevelUpA5E|Enigma|LevelUpA5E|1",
+				"Reach Beyond|Sorcerer|LevelUpA5E|Enigma|LevelUpA5E|1",
+				"Retributive Surge|Sorcerer|LevelUpA5E|Enigma|LevelUpA5E|6",
+				"Tenuous Serenity|Sorcerer|LevelUpA5E|Enigma|LevelUpA5E|14",
+				"Erupting Nova|Sorcerer|LevelUpA5E|Enigma|LevelUpA5E|18"
 			]
 		},
         {
 			"name": "Traveler",
 			"shortName": "Traveler",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"additionalSpells": [
 				{
 					"known": {
@@ -1846,36 +1846,36 @@
 				}
 			],
 			"subclassFeatures": [
-				"Traveler Spells|Sorcerer|LevelUpAdventurersGuideA5E|Traveler|LevelUpAdventurersGuideA5E|1",
-				"Beyond the Boundary|Sorcerer|LevelUpAdventurersGuideA5E|Traveler|LevelUpAdventurersGuideA5E|1",
-				"Flutter|Sorcerer|LevelUpAdventurersGuideA5E|Traveler|LevelUpAdventurersGuideA5E|1",
-				"Gift of Impermanence|Sorcerer|LevelUpAdventurersGuideA5E|Traveler|LevelUpAdventurersGuideA5E|6",
-				"All Terrains|Sorcerer|LevelUpAdventurersGuideA5E|Traveler|LevelUpAdventurersGuideA5E|14",
-				"Touch the Void|Sorcerer|LevelUpAdventurersGuideA5E|Traveler|LevelUpAdventurersGuideA5E|18"
+				"Traveler Spells|Sorcerer|LevelUpA5E|Traveler|LevelUpA5E|1",
+				"Beyond the Boundary|Sorcerer|LevelUpA5E|Traveler|LevelUpA5E|1",
+				"Flutter|Sorcerer|LevelUpA5E|Traveler|LevelUpA5E|1",
+				"Gift of Impermanence|Sorcerer|LevelUpA5E|Traveler|LevelUpA5E|6",
+				"All Terrains|Sorcerer|LevelUpA5E|Traveler|LevelUpA5E|14",
+				"Touch the Void|Sorcerer|LevelUpA5E|Traveler|LevelUpA5E|18"
 			]
 		},
 		{
 			"name": "Black Powder Sorcery",
 			"shortName": "Black Powder",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Gun Mage|Sorcerer|LevelUpAdventurersGuideA5E|Black Powder|LevelUpAdventurersGuideA5E|1",
-				"Gun Hand|Sorcerer|LevelUpAdventurersGuideA5E|Black Powder|LevelUpAdventurersGuideA5E|1",
-				"Fusillade|Sorcerer|LevelUpAdventurersGuideA5E|Black Powder|LevelUpAdventurersGuideA5E|1",
-				"Magic Bullets|Sorcerer|LevelUpAdventurersGuideA5E|Black Powder|LevelUpAdventurersGuideA5E|6",
-				"Absorb Power|Sorcerer|LevelUpAdventurersGuideA5E|Black Powder|LevelUpAdventurersGuideA5E|14",
-				"Ensuing Shot|Sorcerer|LevelUpAdventurersGuideA5E|Black Powder|LevelUpAdventurersGuideA5E|18"
+				"Gun Mage|Sorcerer|LevelUpA5E|Black Powder|LevelUpA5E|1",
+				"Gun Hand|Sorcerer|LevelUpA5E|Black Powder|LevelUpA5E|1",
+				"Fusillade|Sorcerer|LevelUpA5E|Black Powder|LevelUpA5E|1",
+				"Magic Bullets|Sorcerer|LevelUpA5E|Black Powder|LevelUpA5E|6",
+				"Absorb Power|Sorcerer|LevelUpA5E|Black Powder|LevelUpA5E|14",
+				"Ensuing Shot|Sorcerer|LevelUpA5E|Black Powder|LevelUpA5E|18"
 			]
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Sorcerer Archetype",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Something in your past, or in the life of an ancestor, created the magic within you. Choose a sorcerer archetpe, which describes what this source was. Your choice grants you features when you choose it, and again at 6th, 14th, and 18th level.",
@@ -1890,9 +1890,9 @@
 		},
 		{
 			"name": "Sorcerer Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"At 6th level you gain the next feature from your sorcerer archetype."
@@ -1900,9 +1900,9 @@
 		},
 		{
 			"name": "Sorcerer Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 14,
 			"entries": [
 				"At 14th level you gain the next feature from your sorcerer archetype."
@@ -1910,9 +1910,9 @@
 		},
 		{
 			"name": "Sorcerer Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 18,
 			"entries": [
 				"At 18th level you gain the next feature from your sorcerer archetype."
@@ -1920,9 +1920,9 @@
 		},
 		{
 			"name": "Spellcasting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter sorcerer spell list|spells|class=sorcerer}.",
@@ -1982,9 +1982,9 @@
 		},
 		{
 			"name": "Font of Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you've begun to understand the well of power within you that you draw from to cast your magics. Up until now, it's just been something abstract, maybe hardly understood, but now you can use it in a precise manner to fuel your magics. It grants you a new resource in the form of sorcery points, as well as a way to use them.",
@@ -2047,9 +2047,9 @@
 		},
 		{
 			"name": "Manifestation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you also choose one of the following manifestations, which represents a kind of energy you are especially effective at producing. When you cast a spell that deals acid, cold, fire, lightning, poison, or thunder damage, you can change the damage type to your manifestation's damage type.",
@@ -2092,9 +2092,9 @@
 		},
 		{
 			"name": "Latent Power",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"By 3rd level, your sorcerer archetype starts to manifest as something people can subconsciously sense, even if they know nothing beyond the mundane, and it affects how they see you. Choose one of the following.",
@@ -2123,9 +2123,9 @@
 		},
 		{
 			"name": "Metamagic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two minor Metamagic options, and one moderate Metamagic option. You gain another minor Metamagic option at 5th level, 10th level, 15th level, and 19th level. You gain an additional moderate Metamagic option at 10th and 19th level. At the end of a long rest, you can replace one Metamagic option with another.",
@@ -2180,7 +2180,7 @@
                             "type": "item",
                             "name": "Treacherous Spell",
                             "entries": [
-                                "When you cast a spell, you can spend 1 sorcery point to alter its components in subtle ways. A creature attempting to identify the spell based on its components perceives it as a different spell of your choice, of the same or lower level. Attempts to {@spell counterspell|LevelUpAdventurersGuideA5E} this spell are made at disadvantage."
+                                "When you cast a spell, you can spend 1 sorcery point to alter its components in subtle ways. A creature attempting to identify the spell based on its components perceives it as a different spell of your choice, of the same or lower level. Attempts to {@spell counterspell|LevelUpA5E} this spell are made at disadvantage."
                             ]
                         }
                     ]
@@ -2236,7 +2236,7 @@
                             "name": "Twinned Spell",
                             "entries": [
                                 "When you cast a spell that targets only one creature and doesn't have a range of Self, you can spend a number of sorcery points equal to the spell's level (or 1 for a cantrip) to target a second creature in range with the same spell.",
-                                "To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For exampl,e {@spell magic missile|LevelUpAdventurersGuideA5E} and {@spell scorching ray|LevelUpAdventurersGuideA5E} are ineligible, but {@spell ray of frost|LevelUpAdventurersGuideA5E} can be modified by Twinned Spell."
+                                "To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For exampl,e {@spell magic missile|LevelUpA5E} and {@spell scorching ray|LevelUpA5E} are ineligible, but {@spell ray of frost|LevelUpA5E} can be modified by Twinned Spell."
                             ]
                         }
                     ]
@@ -2245,9 +2245,9 @@
 		},
 		{
 			"name": "Additional Metamagics (+1 minor)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 5,
 			"entries": [
 				"At 5th level, you gain an additional minor metamagic option."
@@ -2255,9 +2255,9 @@
 		},
 		{
 			"name": "Additional Metamagics (+1 minor/major)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain an additional minor and major metamagic option."
@@ -2265,9 +2265,9 @@
 		},
 		{
 			"name": "Additional Metamagics (+1 minor)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 15,
 			"entries": [
 				"At 15th level, you gain an additional minor metamagic option."
@@ -2275,9 +2275,9 @@
 		},
 		{
 			"name": "Additional Metamagics (+1 minor/major)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 19,
 			"entries": [
 				"At 19th level, you gain an additional minor and major metamagic option."
@@ -2285,9 +2285,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2295,9 +2295,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2305,9 +2305,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2315,9 +2315,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2325,9 +2325,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2335,9 +2335,9 @@
 		},
 		{
 			"name": "Arcane Innovations",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 4,
 			"entries": [
 				"At 4th level, you acquire insights in arcana that others would never realise. You gain an {@filter arcane innovation|optionalfeatures|feature type=arci} of your choice. The Innovations Known column of the sorcerer table shows when you gain additional innovations."
@@ -2345,9 +2345,9 @@
 		},
 		{
 			"name": "Arcane Refinement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"At 6th level, your command over your magic becomes more precise, and you are able to assert more control over it. Choose one of the following.",
@@ -2376,9 +2376,9 @@
 		},
 		{
 			"name": "Rapturous Presence",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"Beginning at 9th level, your magic becomes a presence that noticeably bears down on creatures. Choose one of the following.",
@@ -2407,9 +2407,9 @@
 		},
 		{
 			"name": "Evolving Manifestation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 12,
 			"entries": [
 				"At 12th level, you gain a deeper understanding of your magics. You may either take the improved from of the manifestation you selected at 2nd level, or you may choose an additional feature from the Manifestation list.",
@@ -2452,9 +2452,9 @@
 		},
 		{
 			"name": "Major Metamagic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 15,
 			"entries": [
 				"At 15th level, in addition to a minor metamagic option, you gain one major metamagic option. These are more powerful expressions of your magics, though they come at significantly higher costs. You gain an additional major metamagic option at 20th level.",
@@ -2496,9 +2496,9 @@
 		},
 		{
 			"name": "Arcane Clutch",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 20,
 			"entries": [
 				"Starting at 20th level, you can reclaim some fraction of the energies you expend as you cast. Whenever you cast a spell of 3rd-level or higher, you regain sorcery points equal to a third of the expended spell slot's level."
@@ -2506,24 +2506,24 @@
 		},
 		{
 			"name": "Explosive Magics",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 20,
 			"entries": [
-				"Also at 20th level, the magic you bring to bear can be made to build upon itself. When you cast a spell of 4th-level or lower that deals damage, you can spend a number of sorcery points equal to half the spell's level (minimum 1) to reroll any dice that have the maximum result and add them to the total. For example, if you cast an exploding {@spell fireball|LevelUpAdventurersGuideA5E} and roll three 6s among your damage dice, you roll an additional {@dice 3d6}, and continue to reroll any 6s adding them to the total damage dealt."
+				"Also at 20th level, the magic you bring to bear can be made to build upon itself. When you cast a spell of 4th-level or lower that deals damage, you can spend a number of sorcery points equal to half the spell's level (minimum 1) to reroll any dice that have the maximum result and add them to the total. For example, if you cast an exploding {@spell fireball|LevelUpA5E} and roll three 6s among your damage dice, you roll an additional {@dice 3d6}, and continue to reroll any 6s adding them to the total damage dealt."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
 			"name": "Lunar Sorcery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 34,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"On many worlds, the moon is a revered celestial body with magical properties. On Krynn, the gods of magic are associated with the world's three moons. On the world of Toril, the god Selûne uses the light of the moon to battle darkness. On Eberron, scholars of the Draconic Prophecy decipher ancient secrets from the waxing and waning of that world's twelve moons.",
@@ -2597,12 +2597,12 @@
 		},
 		{
 			"name": "Lunar Boons",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 34,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2640,12 +2640,12 @@
 		},
 		{
 			"name": "Waxing and Waning",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 35,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -2659,12 +2659,12 @@
 		},
 		{
 			"name": "Lunar Empowerment",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 35,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2701,12 +2701,12 @@
 		},
 		{
 			"name": "Lunar Phenomenon",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 35,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -2744,35 +2744,35 @@
 		},
 		{
 			"name": "Draconic Bloodline",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 102,
 			"srd": true,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconic",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dragon Ancestor|Sorcerer|LevelUpAdventurersGuideA5E|Draconic|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Dragon Ancestor|Sorcerer|LevelUpA5E|Draconic|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Resilience|Sorcerer|LevelUpAdventurersGuideA5E|Draconic|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Draconic Resilience|Sorcerer|LevelUpA5E|Draconic|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Draconic Resilience",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 102,
 			"srd": true,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconic",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -2782,13 +2782,13 @@
 		},
 		{
 			"name": "Dragon Ancestor",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 102,
 			"srd": true,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconic",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -2852,13 +2852,13 @@
 		},
 		{
 			"name": "Elemental Affinity",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 102,
 			"srd": true,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconic",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -2870,13 +2870,13 @@
 		},
 		{
 			"name": "Dragon Wings",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 102,
 			"srd": true,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconic",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2886,13 +2886,13 @@
 		},
 		{
 			"name": "Draconic Presence",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 102,
 			"srd": true,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconic",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"consumes": {
@@ -2905,33 +2905,33 @@
 		},
 		{
 			"name": "Wild Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 103,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wild",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Magic Surge|Sorcerer|LevelUpAdventurersGuideA5E|Wild|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Wild Magic Surge|Sorcerer|LevelUpA5E|Wild|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tides of Chaos|Sorcerer|LevelUpAdventurersGuideA5E|Wild|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Tides of Chaos|Sorcerer|LevelUpA5E|Wild|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Tides of Chaos",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 103,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wild",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -2941,12 +2941,12 @@
 		},
 		{
 			"name": "Wild Magic Surge",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 103,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wild",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3173,12 +3173,12 @@
 		},
 		{
 			"name": "Bend Luck",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 103,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wild",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -3191,12 +3191,12 @@
 		},
 		{
 			"name": "Controlled Chaos",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 103,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wild",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -3205,12 +3205,12 @@
 		},
 		{
 			"name": "Spell Bombardment",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 103,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wild",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -3219,29 +3219,29 @@
 		},
 		{
 			"name": "Pyromancer (PSK)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 9,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Your innate magic manifests in fire. You are your fire, and your fire is you.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Heart of Fire|Sorcerer|LevelUpAdventurersGuideA5E|Pyromancer (PSK)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Heart of Fire|Sorcerer|LevelUpA5E|Pyromancer (PSK)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Heart of Fire",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 9,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3250,12 +3250,12 @@
 		},
 		{
 			"name": "Fire in the Veins",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 9,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3264,12 +3264,12 @@
 		},
 		{
 			"name": "Pyromancer's Fury",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 9,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -3278,12 +3278,12 @@
 		},
 		{
 			"name": "Fiery Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 9,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -3292,12 +3292,12 @@
 		},
 		{
 			"name": "Aberrant Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 66,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?",
@@ -3342,22 +3342,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Spells|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Psionic Spells|Sorcerer|LevelUpA5E|Aberrant Mind|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Telepathic Speech|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Telepathic Speech|Sorcerer|LevelUpA5E|Aberrant Mind|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Psionic Spells",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 66,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3402,12 +3402,12 @@
 		},
 		{
 			"name": "Telepathic Speech",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 66,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3418,12 +3418,12 @@
 		},
 		{
 			"name": "Psionic Sorcery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 66,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3434,12 +3434,12 @@
 		},
 		{
 			"name": "Psychic Defenses",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 66,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3449,12 +3449,12 @@
 		},
 		{
 			"name": "Revelation in Flesh",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 66,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -3473,12 +3473,12 @@
 		},
 		{
 			"name": "Warping Implosion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 66,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -3489,33 +3489,33 @@
 		},
 		{
 			"name": "Clockwork Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 68,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it-a plane of existence shaped entirely by clockwork efficiency. You, or someone from your lineage, might have become entangled in the machinations of the modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it is part of a vast and glorious system.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Clockwork Magic|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Clockwork Magic|Sorcerer|LevelUpA5E|Clockwork Soul|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restore Balance|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Restore Balance|Sorcerer|LevelUpA5E|Clockwork Soul|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Clockwork Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 68,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3599,12 +3599,12 @@
 		},
 		{
 			"name": "Restore Balance",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 68,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3615,12 +3615,12 @@
 		},
 		{
 			"name": "Bastion of Law",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 68,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -3634,12 +3634,12 @@
 		},
 		{
 			"name": "Trance of Order",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 68,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -3650,12 +3650,12 @@
 		},
 		{
 			"name": "Clockwork Cavalcade",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 68,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -3674,12 +3674,12 @@
 		},
 		{
 			"name": "Psionic Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionic Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"One day a light blazed forth within you\u2014the illumination of psionic power. Your mind now simmers with this power, the full extent of which you won't fully grasp for years to come. You can touch other minds with it and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?",
@@ -3741,18 +3741,18 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Talent|Sorcerer|LevelUpAdventurersGuideA5E|Psionic Soul (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Psionic Talent|Sorcerer|LevelUpA5E|Psionic Soul (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Psionic Talent",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionic Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3806,12 +3806,12 @@
 		},
 		{
 			"name": "Psychic Strike",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionic Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3821,12 +3821,12 @@
 		},
 		{
 			"name": "Mind Over Body",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionic Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -3845,12 +3845,12 @@
 		},
 		{
 			"name": "Psychic Aura",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionic Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -3861,12 +3861,12 @@
 		},
 		{
 			"name": "Clockwork Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"A plane of utmost order, Mechanus is a realm overseen by a godlike entity called Primus, whose actions are inscrutable and calculations, vast. You, or someone from your lineage, might have become entangled in one of the machinations of the leader of the modrons. Perhaps you were exposed to an artifact created by Primus, or your ancestor took part in the Great Modron March in some way.",
@@ -3911,22 +3911,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Clockwork Magic|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Clockwork Magic|Sorcerer|LevelUpA5E|Clockwork Soul (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restore Balance|Sorcerer|LevelUpAdventurersGuideA5E|Clockwork Soul (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Restore Balance|Sorcerer|LevelUpA5E|Clockwork Soul (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Clockwork Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3970,12 +3970,12 @@
 		},
 		{
 			"name": "Restore Balance",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3986,12 +3986,12 @@
 		},
 		{
 			"name": "Bulwark of Law",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -4005,12 +4005,12 @@
 		},
 		{
 			"name": "Trance of Order",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4021,12 +4021,12 @@
 		},
 		{
 			"name": "Clockwork Cavalcade",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Clockwork Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -4045,12 +4045,12 @@
 		},
 		{
 			"name": "Lunar Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar Magic (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"On many worlds, the moon is a revered celestial body with magical properties. On Krynn, the gods of magic are associated with the world's three moons. On the world of Toril, the god Selûne uses the light of the moon to battle darkness. On Eberron, scholars of the Draconic Prophecy decipher ancient secrets from the waxing and waning of that world's twelve moons.",
@@ -4154,12 +4154,12 @@
 		},
 		{
 			"name": "Lunar Boons",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar Magic (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4197,12 +4197,12 @@
 		},
 		{
 			"name": "Waxing and Waning",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar Magic (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -4215,12 +4215,12 @@
 		},
 		{
 			"name": "Lunar Empowerment",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar Magic (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4251,12 +4251,12 @@
 		},
 		{
 			"name": "Lunar Phenomenon",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lunar Magic (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -4294,33 +4294,33 @@
 		},
 		{
 			"name": "Giant Soul (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Giant Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"The giants once dwelled in a fabled realm known as Ostoria, a paradise for their folk that reflected their mastery of the mortal realm. In time, Ostoria fell, and the giants were scattered and broken. During that mythic era, the giants granted a few chosen individuals among the small folk a shard of their great power. These favored people were caught in the same tragedy that sundered Ostoria. Since that time, they have spread across the many worlds of the multiverse. Now and again, one of their descendants manifests the gifts imparted by the giants, granting them sorcerous magic that allows them to command the elements and gain the might of a giant.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Jotun Resilience|Sorcerer|LevelUpAdventurersGuideA5E|Giant Soul (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Jotun Resilience|Sorcerer|LevelUpA5E|Giant Soul (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mark of the Ordning|Sorcerer|LevelUpAdventurersGuideA5E|Giant Soul (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Mark of the Ordning|Sorcerer|LevelUpA5E|Giant Soul (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Jotun Resilience",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Giant Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4329,12 +4329,12 @@
 		},
 		{
 			"name": "Mark of the Ordning",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Giant Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4388,12 +4388,12 @@
 		},
 		{
 			"name": "Soul of Lost Ostoria",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Giant Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4444,12 +4444,12 @@
 		},
 		{
 			"name": "Rage of Fallen Ostoria",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Giant Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4470,12 +4470,12 @@
 		},
 		{
 			"name": "Blessing of the All Father",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Giant Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -4485,12 +4485,12 @@
 		},
 		{
 			"name": "Shadow",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Your innate magic comes from the Shadowfell. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed in some fundamental manner.",
@@ -4535,22 +4535,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eyes of the Dark|Sorcerer|LevelUpAdventurersGuideA5E|Shadow (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Eyes of the Dark|Sorcerer|LevelUpA5E|Shadow (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Strength of the Grave|Sorcerer|LevelUpAdventurersGuideA5E|Shadow (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Strength of the Grave|Sorcerer|LevelUpA5E|Shadow (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Eyes of the Dark",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4559,12 +4559,12 @@
 		},
 		{
 			"name": "Strength of the Grave",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4573,12 +4573,12 @@
 		},
 		{
 			"name": "Hound of Ill Omen",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -4600,12 +4600,12 @@
 		},
 		{
 			"name": "Shadow Walk",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4614,12 +4614,12 @@
 		},
 		{
 			"name": "Shadow Form",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"consumes": {
@@ -4632,33 +4632,33 @@
 		},
 		{
 			"name": "Favored Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 8,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"You have been chosen by a deity, and bestowed with a fragment of their divine power. You have been fundamentally changed by the touch of this deity, which awakens powerful magical abilities inside you.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Bonus Proficiency|Sorcerer|LevelUpA5E|Favored Soul (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Chosen of the Gods|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Chosen of the Gods|Sorcerer|LevelUpA5E|Favored Soul (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 8,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4667,12 +4667,12 @@
 		},
 		{
 			"name": "Chosen of the Gods",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 8,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4681,12 +4681,12 @@
 		},
 		{
 			"name": "Extra Attack",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 8,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4695,12 +4695,12 @@
 		},
 		{
 			"name": "Divine Wings",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 8,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4710,12 +4710,12 @@
 		},
 		{
 			"name": "Power of the Chosen",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 8,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -4724,12 +4724,12 @@
 		},
 		{
 			"name": "Favored Soul v3",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v3 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a favored soul, your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god's name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.",
@@ -4737,22 +4737,22 @@
 				"In some cultures, only those who can claim the power of a favored soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Magic|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v3 (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Divine Magic|Sorcerer|LevelUpA5E|Favored Soul v3 (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Favored by the Gods|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v3 (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Favored by the Gods|Sorcerer|LevelUpA5E|Favored Soul v3 (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Divine Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v3 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4762,12 +4762,12 @@
 		},
 		{
 			"name": "Favored by the Gods",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v3 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4777,12 +4777,12 @@
 		},
 		{
 			"name": "Empowered Healing",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v3 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -4794,12 +4794,12 @@
 		},
 		{
 			"name": "Angelic Form",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v3 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4809,12 +4809,12 @@
 		},
 		{
 			"name": "Unearthly Recovery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v3 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -4824,12 +4824,12 @@
 		},
 		{
 			"name": "Favored Soul v2",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v2 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a favored soul, your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god's name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.",
@@ -4837,26 +4837,26 @@
 				"In some cultures, only those who can claim the power of a favored soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Magic|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v2 (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Divine Magic|Sorcerer|LevelUpA5E|Favored Soul v2 (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Supernatural Resilience|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v2 (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Supernatural Resilience|Sorcerer|LevelUpA5E|Favored Soul v2 (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Favored by the Gods|Sorcerer|LevelUpAdventurersGuideA5E|Favored Soul v2 (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Favored by the Gods|Sorcerer|LevelUpA5E|Favored Soul v2 (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Divine Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v2 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4865,12 +4865,12 @@
 		},
 		{
 			"name": "Favored by the Gods",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v2 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4880,12 +4880,12 @@
 		},
 		{
 			"name": "Supernatural Resilience",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v2 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4894,12 +4894,12 @@
 		},
 		{
 			"name": "Blessed Countenance",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v2 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4909,12 +4909,12 @@
 		},
 		{
 			"name": "Divine Purity",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v2 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4923,12 +4923,12 @@
 		},
 		{
 			"name": "Unearthly Recovery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Favored Soul v2 (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -4938,12 +4938,12 @@
 		},
 		{
 			"name": "Phoenix Sorcery (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phoenix (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Your power draws from the immortal flame that fuels the legendary phoenix. You or your ancestors perhaps rendered a phoenix a great service, or you were born in its presence. Whatever the cause, a shard of the phoenix's power dwells within you.",
@@ -4990,22 +4990,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ignite|Sorcerer|LevelUpAdventurersGuideA5E|Phoenix (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Ignite|Sorcerer|LevelUpA5E|Phoenix (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mantle of Flame|Sorcerer|LevelUpAdventurersGuideA5E|Phoenix (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Mantle of Flame|Sorcerer|LevelUpA5E|Phoenix (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Ignite",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phoenix (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5014,12 +5014,12 @@
 		},
 		{
 			"name": "Mantle of Flame",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phoenix (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5038,12 +5038,12 @@
 		},
 		{
 			"name": "Phoenix Spark",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phoenix (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5055,12 +5055,12 @@
 		},
 		{
 			"name": "Nourishing Fire",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phoenix (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -5069,12 +5069,12 @@
 		},
 		{
 			"name": "Form of the Phoenix",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phoenix (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -5091,34 +5091,34 @@
 		},
 		{
 			"name": "Sea Sorcery (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Sea (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"The power of water is the strength of flexibility, resilience, and a relentless nature. Water parts to allow a ship to sail over it or a diver to plunge into it, but their passing leaves no mark. Water flowing down a mountain reaches the sea. It might bend and turn across valleys and down hillsides, but it slowly and steadily returns to the waves. Those whose souls are touched by the power of elemental water command a similar power.",
 				"Your heritage ties to powerful creatures of the sea, such as nereids, the lords of the merfolk, and elemental powers. Like a river, you feel the call of the ocean. The call is ever present in your heart, and you are never completely at peace until you are near the sea.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Soul of the Sea|Sorcerer|LevelUpAdventurersGuideA5E|Sea (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Soul of the Sea|Sorcerer|LevelUpA5E|Sea (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Curse of the Sea|Sorcerer|LevelUpAdventurersGuideA5E|Sea (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Curse of the Sea|Sorcerer|LevelUpA5E|Sea (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Curse of the Sea",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Sea (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5155,12 +5155,12 @@
 		},
 		{
 			"name": "Soul of the Sea",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Sea (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5169,12 +5169,12 @@
 		},
 		{
 			"name": "Watery Defense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Sea (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5184,12 +5184,12 @@
 		},
 		{
 			"name": "Shifting Form",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Sea (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -5200,12 +5200,12 @@
 		},
 		{
 			"name": "Water Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Sea (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -5222,38 +5222,38 @@
 		},
 		{
 			"name": "Stone Sorcery (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Stone (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Your magic springs from a mystical link between your soul and the magic of elemental earth. You might trace a distant ancestor to the Plane of Earth, or your family might have earned a mighty boon in return for a service to the dao lords. Whatever your past, the magic of elemental earth is yours to command.",
 				"Your link to earth magic grants you extraordinary resilience, and stone sorcerers have a natural affinity for combat. A steel blade feels like a natural extension of your body, and sorcerers with this origin have a knack for wielding both shields and weapons. In combat your place is amid the fray. You rely on your elemental nature to shield you from harm and your magic and metal weapons to overwhelm your foes.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Sorcerer|LevelUpAdventurersGuideA5E|Stone (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Bonus Proficiencies|Sorcerer|LevelUpA5E|Stone (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Stone: Metal Magic|Sorcerer|LevelUpAdventurersGuideA5E|Stone (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Stone: Metal Magic|Sorcerer|LevelUpA5E|Stone (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Stone's Durability|Sorcerer|LevelUpAdventurersGuideA5E|Stone (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Stone's Durability|Sorcerer|LevelUpA5E|Stone (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Stone (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5262,12 +5262,12 @@
 		},
 		{
 			"name": "Stone's Durability",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Stone (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5277,12 +5277,12 @@
 		},
 		{
 			"name": "Stone: Metal Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Stone (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5321,12 +5321,12 @@
 		},
 		{
 			"name": "Stone Aegis",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Stone (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5337,12 +5337,12 @@
 		},
 		{
 			"name": "Stone's Edge",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Stone (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -5351,12 +5351,12 @@
 		},
 		{
 			"name": "Earth Master's Aegis",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Stone (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -5365,41 +5365,41 @@
 		},
 		{
 			"name": "Aberrant Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"An alien influence has wrapped its tendrils around you, warping you in both body and mind. Perhaps a psychic splinter lodged in your psyche after you suffered domination by an aboleth. Maybe you were born somewhere tainted by the Far Realm, a planar blot that changed you forever. Or perhaps mind flayers kidnapped you, subjecting you to the nightmarish process of ceremorphosis\u2014but the transformation failed and left you altered.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unique Disturbance|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Unique Disturbance|Sorcerer|LevelUpA5E|Aberrant Mind (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Invasive Thoughts|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Invasive Thoughts|Sorcerer|LevelUpA5E|Aberrant Mind (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Spells|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Psionic Spells|Sorcerer|LevelUpA5E|Aberrant Mind (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warped Being|Sorcerer|LevelUpAdventurersGuideA5E|Aberrant Mind (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Warped Being|Sorcerer|LevelUpA5E|Aberrant Mind (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Invasive Thoughts",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5409,12 +5409,12 @@
 		},
 		{
 			"name": "Psionic Spells",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5458,12 +5458,12 @@
 		},
 		{
 			"name": "Unique Disturbance",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"type": "inset",
@@ -5473,12 +5473,12 @@
 		},
 		{
 			"name": "Warped Being",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5488,12 +5488,12 @@
 		},
 		{
 			"name": "Psionic Sorcery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5503,12 +5503,12 @@
 		},
 		{
 			"name": "Psychic Defenses",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5518,12 +5518,12 @@
 		},
 		{
 			"name": "Revelation in Flesh",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -5542,12 +5542,12 @@
 		},
 		{
 			"name": "Warp Reality",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Aberrant Mind (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -5558,34 +5558,34 @@
 		},
 		{
 			"name": "Storm Sorcery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Your innate magic comes from the power of elemental air. Perhaps you were born during a howling gale so powerful that folk still tell stories of it. Your lineage might include the influence of potent air creatures such as vaati or djinni. Whatever the case, the magic of the storm permeates your soul.",
 				"Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Stormborn|Sorcerer|LevelUpAdventurersGuideA5E|Storm (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Stormborn|Sorcerer|LevelUpA5E|Storm (UA)|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tempestuous Magic|Sorcerer|LevelUpAdventurersGuideA5E|Storm (UA)|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Tempestuous Magic|Sorcerer|LevelUpA5E|Storm (UA)|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Stormborn",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5632,12 +5632,12 @@
 		},
 		{
 			"name": "Tempestuous Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5646,12 +5646,12 @@
 		},
 		{
 			"name": "Heart of the Storm",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5660,12 +5660,12 @@
 		},
 		{
 			"name": "Storm Guide",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5676,12 +5676,12 @@
 		},
 		{
 			"name": "Storm's Fury",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -5690,12 +5690,12 @@
 		},
 		{
 			"name": "Wind Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -5704,12 +5704,12 @@
 		},
 		{
 			"name": "Divine Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divine Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god's name.",
@@ -5718,22 +5718,22 @@
 				"In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Magic|Sorcerer|LevelUpAdventurersGuideA5E|Divine Soul|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Divine Magic|Sorcerer|LevelUpA5E|Divine Soul|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Favored by the Gods|Sorcerer|LevelUpAdventurersGuideA5E|Divine Soul|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Favored by the Gods|Sorcerer|LevelUpA5E|Divine Soul|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Divine Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divine Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5776,12 +5776,12 @@
 		},
 		{
 			"name": "Favored by the Gods",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divine Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5790,12 +5790,12 @@
 		},
 		{
 			"name": "Empowered Healing",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divine Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -5807,12 +5807,12 @@
 		},
 		{
 			"name": "Otherworldly Wings",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divine Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -5822,12 +5822,12 @@
 		},
 		{
 			"name": "Unearthly Recovery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divine Soul",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -5837,12 +5837,12 @@
 		},
 		{
 			"name": "Shadow Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed by it.",
@@ -5887,22 +5887,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eyes of the Dark|Sorcerer|LevelUpAdventurersGuideA5E|Shadow|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Eyes of the Dark|Sorcerer|LevelUpA5E|Shadow|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Strength of the Grave|Sorcerer|LevelUpAdventurersGuideA5E|Shadow|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Strength of the Grave|Sorcerer|LevelUpA5E|Shadow|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Eyes of the Dark",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5912,12 +5912,12 @@
 		},
 		{
 			"name": "Strength of the Grave",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5927,12 +5927,12 @@
 		},
 		{
 			"name": "Hound of Ill Omen",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -5955,12 +5955,12 @@
 		},
 		{
 			"name": "Shadow Walk",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -5969,12 +5969,12 @@
 		},
 		{
 			"name": "Umbral Form",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 50,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Shadow",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"consumes": {
@@ -5988,34 +5988,34 @@
 		},
 		{
 			"name": "Storm Sorcery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 51,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as djinn. Whatever the case, the magic of the storm permeates your being.",
 				"Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wind Speaker|Sorcerer|LevelUpAdventurersGuideA5E|Storm|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Wind Speaker|Sorcerer|LevelUpA5E|Storm|LevelUpA5E|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tempestuous Magic|Sorcerer|LevelUpAdventurersGuideA5E|Storm|LevelUpAdventurersGuideA5E|1"
+					"subclassFeature": "Tempestuous Magic|Sorcerer|LevelUpA5E|Storm|LevelUpA5E|1"
 				}
 			]
 		},
 		{
 			"name": "Tempestuous Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 51,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6024,12 +6024,12 @@
 		},
 		{
 			"name": "Wind Speaker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 51,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6038,12 +6038,12 @@
 		},
 		{
 			"name": "Heart of the Storm",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 51,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -6052,12 +6052,12 @@
 		},
 		{
 			"name": "Storm Guide",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 51,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -6068,12 +6068,12 @@
 		},
 		{
 			"name": "Storm's Fury",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 51,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -6082,12 +6082,12 @@
 		},
 		{
 			"name": "Wind Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 51,
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Storm",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -6097,11 +6097,11 @@
 		},
 		{
 			"name": "Draconist Spells",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconist",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				{
@@ -6118,23 +6118,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell animal friendship|LevelUpAdventurersGuideA5E}, {@spell burning hands|LevelUpAdventurersGuideA5E}, {@spell charm person|LevelUpAdventurersGuideA5E}, {@spell thunderwave|LevelUpAdventurersGuideA5E}"
+							"{@spell animal friendship|LevelUpA5E}, {@spell burning hands|LevelUpA5E}, {@spell charm person|LevelUpA5E}, {@spell thunderwave|LevelUpA5E}"
 						],
 						[
 							"3rd",
-							"{@spell alter self|LevelUpAdventurersGuideA5E}, {@spell gust of wind|LevelUpAdventurersGuideA5E}, {@spell scorching ray|LevelUpAdventurersGuideA5E}, {@spell shatter|LevelUpAdventurersGuideA5E}"
+							"{@spell alter self|LevelUpA5E}, {@spell gust of wind|LevelUpA5E}, {@spell scorching ray|LevelUpA5E}, {@spell shatter|LevelUpA5E}"
 						],
 						[
 							"5th",
-							"{@spell fear|LevelUpAdventurersGuideA5E}, {@spell fireball|LevelUpAdventurersGuideA5E}, {@spell fly|LevelUpAdventurersGuideA5E}, {@spell lightning bolt|LevelUpAdventurersGuideA5E}"
+							"{@spell fear|LevelUpA5E}, {@spell fireball|LevelUpA5E}, {@spell fly|LevelUpA5E}, {@spell lightning bolt|LevelUpA5E}"
 						],
 						[
 							"7th",
-							"{@spell dominate beast|LevelUpAdventurersGuideA5E}, {@spell ice storm|LevelUpAdventurersGuideA5E}, {@spell private sanctum|LevelUpAdventurersGuideA5E}, {@spell wall of fire|LevelUpAdventurersGuideA5E}"
+							"{@spell dominate beast|LevelUpA5E}, {@spell ice storm|LevelUpA5E}, {@spell private sanctum|LevelUpA5E}, {@spell wall of fire|LevelUpA5E}"
 						],
 						[
 							"9th",
-							"{@spell cone of cold|LevelUpAdventurersGuideA5E}, {@spell dominate person|LevelUpAdventurersGuideA5E}, {@spell insect plague|LevelUpAdventurersGuideA5E}, {@spell legend lore|LevelUpAdventurersGuideA5E}"
+							"{@spell cone of cold|LevelUpA5E}, {@spell dominate person|LevelUpA5E}, {@spell insect plague|LevelUpA5E}, {@spell legend lore|LevelUpA5E}"
 						]
 					]
 				}
@@ -6142,11 +6142,11 @@
 		},
 		{
 			"name": "Draconic Resilience",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconist",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"The draconic magic that nestles within you has adapted your body to the harsh trials that lie between you and your destiny. Beginning at 1st level when you choose this archetype, your hit point maximum increases by 1, and increases by 1 again whenever you gain a level in this class.",
@@ -6155,11 +6155,11 @@
 		},
 		{
 			"name": "Voice of the Dragon",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconist",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Also at 1st level, you understand the language of dragons. You can speak, sign, read, and write Draconic. You have advantage on Charisma checks to communicate with dragons, so long as you converse with them in their native tongue."
@@ -6167,11 +6167,11 @@
 		},
 		{
 			"name": "Lord Among Beasts and Mortals",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconist",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"As the mighty dragon guards its lair, so too do you establish your home wherever you roam. Starting at 6th level, when you start a short or long rest in an area that is not within 1 mile of an established settlement, you can spend 10 minutes in communion with the land to protect your camp until you finish your rest. Beasts who approach within 100' of your camp become docile and placid, refusing to attack you or your companions. Additionally, friendly creatures in your camp gain advantage on Perception checks to spot danger, and on Intimidation checks against intruders.",
@@ -6180,11 +6180,11 @@
 		},
 		{
 			"name": "Soaring Wings",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconist",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your speed. You can create or dismiss these wings as a bonus action. You can't manifest these wings while wearing armour unless the armour is made to accommodate them (increasing the armour's cost by 50%), and clothing not made to accommodate your wings may be destroyed when you manifest them."
@@ -6192,11 +6192,11 @@
 		},
 		{
 			"name": "Draconic Presence",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Draconist",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"entries": [
 				"Starting at 18th level, you can draw upon your draconic nature to inspire awe and terror in those who see you. You can use an action and spend 5 sorcery points to exude an aura of awe or fear (your choice) to a distance of 60'. For 1 minute, when a hostile creature starts its turn in this aura it makes a Wisdom saving throw or becomes {@condition charmed} (if you chose awe) or {@condition frightened} (if you chose fear) until the aura ends. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. A creature that succeeds on the saving throw is immune to your Draconic Presence for 24 hours."
@@ -6204,11 +6204,11 @@
 		},
 		{
 			"name": "Enigma Spells",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enigma",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				{
@@ -6225,23 +6225,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell color spray|LevelUpAdventurersGuideA5E}, {@spell faerie fire|LevelUpAdventurersGuideA5E}, {@spell grease|LevelUpAdventurersGuideA5E}, {@spell hideous laughter|LevelUpAdventurersGuideA5E}"
+							"{@spell color spray|LevelUpA5E}, {@spell faerie fire|LevelUpA5E}, {@spell grease|LevelUpA5E}, {@spell hideous laughter|LevelUpA5E}"
 						],
 						[
 							"3rd",
-							"{@spell blindness/deafness|LevelUpAdventurersGuideA5E}, {@spell enlarge/reduce|LevelUpAdventurersGuideA5E}, {@spell levitate|LevelUpAdventurersGuideA5E}, {@spell shatter|LevelUpAdventurersGuideA5E}"
+							"{@spell blindness/deafness|LevelUpA5E}, {@spell enlarge/reduce|LevelUpA5E}, {@spell levitate|LevelUpA5E}, {@spell shatter|LevelUpA5E}"
 						],
 						[
 							"5th",
-							"{@spell darklight|LevelUpAdventurersGuideA5E}, {@spell fear|LevelUpAdventurersGuideA5E}, {@spell hypnotic pattern|LevelUpAdventurersGuideA5E}, {@spell stinking cloud|LevelUpAdventurersGuideA5E}"
+							"{@spell darklight|LevelUpA5E}, {@spell fear|LevelUpA5E}, {@spell hypnotic pattern|LevelUpA5E}, {@spell stinking cloud|LevelUpA5E}"
 						],
 						[
 							"7th",
-							"{@spell black tentacles|LevelUpAdventurersGuideA5E}, {@spell confusion|LevelUpAdventurersGuideA5E}, {@spell hallucinatory terrain|LevelUpAdventurersGuideA5E}, {@spell phantasmal killer|LevelUpAdventurersGuideA5E}"
+							"{@spell black tentacles|LevelUpA5E}, {@spell confusion|LevelUpA5E}, {@spell hallucinatory terrain|LevelUpA5E}, {@spell phantasmal killer|LevelUpA5E}"
 						],
 						[
 							"9th",
-							"{@spell cloudkill|LevelUpAdventurersGuideA5E}, {@spell flame strike|LevelUpAdventurersGuideA5E}, {@spell wall of force|LevelUpAdventurersGuideA5E}, {@spell wall of stone|LevelUpAdventurersGuideA5E}"
+							"{@spell cloudkill|LevelUpA5E}, {@spell flame strike|LevelUpA5E}, {@spell wall of force|LevelUpA5E}, {@spell wall of stone|LevelUpA5E}"
 						]
 					]
 				}
@@ -6249,11 +6249,11 @@
 		},
 		{
 			"name": "Deeper Understanding",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enigma",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Beginning at 1st level when you choose this archetype, your ancient perspective of magic grants you a deep insight into its mechanisms, whether conscious or not. You gain an expertise die on ability checks made to identify spells being cast or sense the presence of lingering magic in any form."
@@ -6261,11 +6261,11 @@
 		},
 		{
 			"name": "Reach Beyond",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enigma",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Also at 1st level, your mind opens to a broader spectrum of magic than most. You can use a bonus action to attempt to replace one of your archetype spells. Declare which spell you're trying to replace and make a Charisma saving throw (DC 10 + the spell's level). On a success, you replace the spell with another archetype spell of the same or lower level until you finish a long rest, at which point the original spell returns. This newly-gained spell can't be replaced again.",
@@ -6274,11 +6274,11 @@
 		},
 		{
 			"name": "Retributive Surge",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enigma",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"At 6th level, your body becomes infused with chaotic magic that makes harming you a dangerous proposition. When a creature you can see damages you, you can use your reaction to cast a spell of 1st- or 2nd-level. The spell must either target the creature that damaged you or be centred on a space it occupies, it must have a casting time of 1 action or 1 bonus action, and you must spend sorcery points equal to the level of the spell in addition to the spell slot used.",
@@ -6287,11 +6287,11 @@
 		},
 		{
 			"name": "Tenuous Serenity",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enigma",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"entries": [
 				"At 14th level, you can exert some control over your magics to empower yourself. When you make a Charisma saving throw, you can spend 1 sorcery point to add an expertise die to the roll, or reroll an expertise die used in the roll. You may do this after seeing the result.",
@@ -6300,11 +6300,11 @@
 		},
 		{
 			"name": "Erupting Nova",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enigma",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"entries": [
 				"At 18th level, your ability to pour forth energy increases substantially. You can cast two spells simultaneously, spending spell slots for each, so long as both spells have a casting time of 1 action, the sum of their levels is less than 6th-level, and neither spell requires concentration. When you do so, make a Charisma saving throw (DC 12 + the sum of the spells' levels). On a failure, you waste your action (but not any spell slots) and both spells are removed from your spell list until you finish a long rest."
@@ -6312,11 +6312,11 @@
 		},
 		{
 			"name": "Traveler Spells",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Traveler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				{
@@ -6333,23 +6333,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell comprehend languages|LevelUpAdventurersGuideA5E}, {@spell faerie fire|LevelUpAdventurersGuideA5E}, {@spell feather fall|LevelUpAdventurersGuideA5E}, {@spell longstrider|LevelUpAdventurersGuideA5E}"
+							"{@spell comprehend languages|LevelUpA5E}, {@spell faerie fire|LevelUpA5E}, {@spell feather fall|LevelUpA5E}, {@spell longstrider|LevelUpA5E}"
 						],
 						[
 							"3rd",
-							"{@spell darkvision|LevelUpAdventurersGuideA5E}, {@spell levitate|LevelUpAdventurersGuideA5E}, {@spell misty step|LevelUpAdventurersGuideA5E}, {@spell pass without trace|LevelUpAdventurersGuideA5E}"
+							"{@spell darkvision|LevelUpA5E}, {@spell levitate|LevelUpA5E}, {@spell misty step|LevelUpA5E}, {@spell pass without trace|LevelUpA5E}"
 						],
 						[
 							"5th",
-							"{@spell blink|LevelUpAdventurersGuideA5E}, {@spell fly|LevelUpAdventurersGuideA5E}, {@spell protection from energy|LevelUpAdventurersGuideA5E}, {@spell water walk|LevelUpAdventurersGuideA5E}"
+							"{@spell blink|LevelUpA5E}, {@spell fly|LevelUpA5E}, {@spell protection from energy|LevelUpA5E}, {@spell water walk|LevelUpA5E}"
 						],
 						[
 							"7th",
-							"{@spell banishment|LevelUpAdventurersGuideA5E}, {@spell dimension door|LevelUpAdventurersGuideA5E}, {@spell freedom of movement|LevelUpAdventurersGuideA5E}, {@spell greater invisibility|LevelUpAdventurersGuideA5E}"
+							"{@spell banishment|LevelUpA5E}, {@spell dimension door|LevelUpA5E}, {@spell freedom of movement|LevelUpA5E}, {@spell greater invisibility|LevelUpA5E}"
 						],
 						[
 							"9th",
-							"{@spell conjure elemental|LevelUpAdventurersGuideA5E}, {@spell mislead|LevelUpAdventurersGuideA5E}, {@spell teleportation circle|LevelUpAdventurersGuideA5E}, {@spell tree stride|LevelUpAdventurersGuideA5E}"
+							"{@spell conjure elemental|LevelUpA5E}, {@spell mislead|LevelUpA5E}, {@spell teleportation circle|LevelUpA5E}, {@spell tree stride|LevelUpA5E}"
 						]
 					]
 				}
@@ -6357,11 +6357,11 @@
 		},
 		{
 			"name": "Beyond the Boundary",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Traveler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"At 1st level when you choose this archetype, you learn the language of elementals. You can speak, sign, read, and write Primordial.",
@@ -6370,11 +6370,11 @@
 		},
 		{
 			"name": "Flutter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Traveler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Also at 1st level, after casting a spell of 1st-level or higher, you can teleport a short distance to an unoccupied space you can see. The maximum range of this teleportation is equal to 5' plus 5' per level of the spell."
@@ -6382,23 +6382,23 @@
 		},
 		{
 			"name": "Gift of Impermanence",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Traveler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
-				"Starting at 6th level, once per round when you fail a saving throw against an effect that would cause you to become {@condition grappled}, {@condition incapacitated}, {@condition dazed|LevelUpAdventurersGuideA5E}, {@condition staggered|LevelUpAdventurersGuideA5E}, {@condition petrified}, {@condition restrained}, or {@condition debilitated|LevelUpAdventurersGuideA5E}, you can spend 1 sorcery point, and reroll one d20 used in the saving throw."
+				"Starting at 6th level, once per round when you fail a saving throw against an effect that would cause you to become {@condition grappled}, {@condition incapacitated}, {@condition dazed|LevelUpA5E}, {@condition staggered|LevelUpA5E}, {@condition petrified}, {@condition restrained}, or {@condition debilitated|LevelUpA5E}, you can spend 1 sorcery point, and reroll one d20 used in the saving throw."
 			]
 		},
 		{
 			"name": "All Terrains",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Traveler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"entries": [
 				"At 14th level, choose one of the following boons:",
@@ -6417,14 +6417,14 @@
 		},
 		{
 			"name": "Touch the Void",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Traveler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"entries": [
-				"At 18th level, you can spend 1 hour in meditation to cast {@spell astral projection|LevelUpAdventurersGuideA5E}, {@spell dream|LevelUpAdventurersGuideA5E}, or {@spell etherealness|LevelUpAdventurersGuideA5E}. Each of these spells is slightly difference when cast using this feature, as described below:",
+				"At 18th level, you can spend 1 hour in meditation to cast {@spell astral projection|LevelUpA5E}, {@spell dream|LevelUpA5E}, or {@spell etherealness|LevelUpA5E}. Each of these spells is slightly difference when cast using this feature, as described below:",
 				{
 					"type": "item",
 					"name": "Astral Projection",
@@ -6451,26 +6451,26 @@
 		},
 		{
 			"name": "Gun Mage",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Black Powder",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with simple firearms and with the musket, and you gain proficiency with alchemist's supplies or gunsmith's tools (your choice). In addition, you learn the {@spell mage hand|LevelUpAdventurersGuideA5E} cantrip if you don't already know it."
+				"At 1st level, you gain proficiency with simple firearms and with the musket, and you gain proficiency with alchemist's supplies or gunsmith's tools (your choice). In addition, you learn the {@spell mage hand|LevelUpA5E} cantrip if you don't already know it."
 			]
 		},
 		{
 			"name": "Gun Hand",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Black Powder",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
-				"Starting at 1st level, when you cast {@spell mage hand|LevelUpAdventurersGuideA5E}, you can perform the following additional tasks with it:",
+				"Starting at 1st level, when you cast {@spell mage hand|LevelUpA5E}, you can perform the following additional tasks with it:",
 				{
 					"type": "list",
 					"items": [
@@ -6484,11 +6484,11 @@
 		},
 		{
 			"name": "Fusillade",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Black Powder",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Also at 1st level, when you use the Attack action, you can make the attack with a weapon you are wielding or with a pistol held in one of your mage hands. When you attack with a pistol held in one of your mage hands, you can use your Charisma modifier, instead of Dexterity, for the attack and damage rolls.",
@@ -6497,11 +6497,11 @@
 		},
 		{
 			"name": "Magic Bullets",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Black Powder",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"Beginning at 6th level, your attacks with firearms count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage. In addition, when you make an attack with a firearm, you can spend 1 sorcery point to imbue the attack with elemental energy. Choose one of the following: acid, cold, fire, lightning, or thunder. On a hit, an imbued attack deals an extra {@dice 2d6} damage of the chosen type. At 14th level, you can spend 2 sorcery points instead, increases the damage to {@dice 4d6}."
@@ -6509,11 +6509,11 @@
 		},
 		{
 			"name": "Absorb Power",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Black Powder",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"entries": [
 				"At 14th level, you can replenish your sorcerous power by absorbing the latent energy of black powder. In a ritual that takes 1 minute, you can regain 1 expended sorcery point. Once you use this feature, you can't use it again until you finish a long rest."
@@ -6521,11 +6521,11 @@
 		},
 		{
 			"name": "Ensuing Shot",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Sorcerer",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Black Powder",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 18,
 			"entries": [
 				"At 18th level, when you use your action to cast a spell using a spell slot of 4th level or lower, you can make one attack with a pistol as a bonus action. This pistol can be held by you or by one of your mage hands. If you spend 6 sorcery points, you can make one attack with each pistol held by you and your mage hands instead."
@@ -6535,7 +6535,7 @@
 	"optionalfeature": [
 		{
 			"name": "Draw Nourishment",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ArcI"
 			],
@@ -6545,7 +6545,7 @@
 		},
 		{
 			"name": "Hot Air",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ArcI"
 			],
@@ -6555,7 +6555,7 @@
 		},
 		{
 			"name": "Lingering Touch",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ArcI"
 			],
@@ -6565,7 +6565,7 @@
 		},
 		{
 			"name": "Retrace",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ArcI"
 			],
@@ -6575,7 +6575,7 @@
 		},
 		{
 			"name": "Mage Hunter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ArcI"
 			],
@@ -6585,7 +6585,7 @@
 		},
 		{
 			"name": "Magnetic Step",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ArcI"
 			],
@@ -6595,7 +6595,7 @@
 		},
 		{
 			"name": "Strange Traces",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ArcI"
 			],
@@ -6605,7 +6605,7 @@
 		},
 		{
 			"name": "Ominous Insight",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ArcI"
 			],
@@ -6615,7 +6615,7 @@
 		},
 		{
 			"name": "Wode Sense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ArcI"
 			],

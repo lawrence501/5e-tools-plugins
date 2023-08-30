@@ -7,7 +7,7 @@
 		},
 		"sources": [
 			{
-				"json": "LevelUpAdventurersGuideA5E",
+				"json": "LevelUpA5E",
 				"abbreviation": "A5E",
 				"full": "Level Up: Adventurers Guide (A5E)",
 				"authors": [
@@ -23,7 +23,7 @@
     "class": [
 		{
 			"name": "Ranger",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"hd": {
 				"number": 1,
 				"faces": 10
@@ -254,50 +254,50 @@
 				}
 			],
 			"classFeatures": [
-				"Exploration Knacks|Ranger|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
-				"Familiar Terrain|Ranger|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
-				"Studied Adversary|Ranger|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
-				"Combat Maneuvers|Ranger|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
-				"Stride and Seek|Ranger|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
-				"Trained Accuracy|Ranger|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
+				"Exploration Knacks|Ranger|LevelUpA5E|1|LevelUpA5E",
+				"Familiar Terrain|Ranger|LevelUpA5E|1|LevelUpA5E",
+				"Studied Adversary|Ranger|LevelUpA5E|1|LevelUpA5E",
+				"Combat Maneuvers|Ranger|LevelUpA5E|2|LevelUpA5E",
+				"Stride and Seek|Ranger|LevelUpA5E|2|LevelUpA5E",
+				"Trained Accuracy|Ranger|LevelUpA5E|2|LevelUpA5E",
 				{
-					"classFeature": "Ranger Archetype|Ranger|LevelUpAdventurersGuideA5E|3|LevelUpAdventurersGuideA5E",
+					"classFeature": "Ranger Archetype|Ranger|LevelUpA5E|3|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|4|LevelUpAdventurersGuideA5E",
-				"Wilderness Mystique|Ranger|LevelUpAdventurersGuideA5E|4|LevelUpAdventurersGuideA5E",
-				"Extra Attack|Ranger|LevelUpAdventurersGuideA5E|5|LevelUpAdventurersGuideA5E",
-				"Stride and Seek (2)|Ranger|LevelUpAdventurersGuideA5E|5|LevelUpAdventurersGuideA5E",
-				"Adversarial Focus|Ranger|LevelUpAdventurersGuideA5E|6|LevelUpAdventurersGuideA5E",
-				"Game Hunting|Ranger|LevelUpAdventurersGuideA5E|6|LevelUpAdventurersGuideA5E",
+				"Ability Score Improvement|Ranger|LevelUpA5E|4|LevelUpA5E",
+				"Wilderness Mystique|Ranger|LevelUpA5E|4|LevelUpA5E",
+				"Extra Attack|Ranger|LevelUpA5E|5|LevelUpA5E",
+				"Stride and Seek (2)|Ranger|LevelUpA5E|5|LevelUpA5E",
+				"Adversarial Focus|Ranger|LevelUpA5E|6|LevelUpA5E",
+				"Game Hunting|Ranger|LevelUpA5E|6|LevelUpA5E",
 				{
-					"classFeature": "Ranger Archetype Feature|Ranger|LevelUpAdventurersGuideA5E|7|LevelUpAdventurersGuideA5E",
+					"classFeature": "Ranger Archetype Feature|Ranger|LevelUpA5E|7|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|8|LevelUpAdventurersGuideA5E",
-				"Explorer's Instinct|Ranger|LevelUpAdventurersGuideA5E|8|LevelUpAdventurersGuideA5E",
-				"Flash of Steel|Ranger|LevelUpAdventurersGuideA5E|9|LevelUpAdventurersGuideA5E",
-				"Hunter's Focus|Ranger|LevelUpAdventurersGuideA5E|9|LevelUpAdventurersGuideA5E",
-				"Trackless Hunting|Ranger|LevelUpAdventurersGuideA5E|10|LevelUpAdventurersGuideA5E",
+				"Ability Score Improvement|Ranger|LevelUpA5E|8|LevelUpA5E",
+				"Explorer's Instinct|Ranger|LevelUpA5E|8|LevelUpA5E",
+				"Flash of Steel|Ranger|LevelUpA5E|9|LevelUpA5E",
+				"Hunter's Focus|Ranger|LevelUpA5E|9|LevelUpA5E",
+				"Trackless Hunting|Ranger|LevelUpA5E|10|LevelUpA5E",
 				{
-					"classFeature": "Ranger Archetype Feature|Ranger|LevelUpAdventurersGuideA5E|11|LevelUpAdventurersGuideA5E",
+					"classFeature": "Ranger Archetype Feature|Ranger|LevelUpA5E|11|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|12|LevelUpAdventurersGuideA5E",
-				"Wilderness Lore|Ranger|LevelUpAdventurersGuideA5E|12|LevelUpAdventurersGuideA5E",
-				"Guarded Post|Ranger|LevelUpAdventurersGuideA5E|13|LevelUpAdventurersGuideA5E",
-				"Tactical Advantage|Ranger|LevelUpAdventurersGuideA5E|14|LevelUpAdventurersGuideA5E",
+				"Ability Score Improvement|Ranger|LevelUpA5E|12|LevelUpA5E",
+				"Wilderness Lore|Ranger|LevelUpA5E|12|LevelUpA5E",
+				"Guarded Post|Ranger|LevelUpA5E|13|LevelUpA5E",
+				"Tactical Advantage|Ranger|LevelUpA5E|14|LevelUpA5E",
 				{
-					"classFeature": "Ranger Archetype Feature|Ranger|LevelUpAdventurersGuideA5E|15|LevelUpAdventurersGuideA5E",
+					"classFeature": "Ranger Archetype Feature|Ranger|LevelUpA5E|15|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|16|LevelUpAdventurersGuideA5E",
-				"Survivalcraft|Ranger|LevelUpAdventurersGuideA5E|16|LevelUpAdventurersGuideA5E",
-				"Hunter's Intent|Ranger|LevelUpAdventurersGuideA5E|17|LevelUpAdventurersGuideA5E",
-				"Flora and Fauna|Ranger|LevelUpAdventurersGuideA5E|18|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Ranger|LevelUpAdventurersGuideA5E|19|LevelUpAdventurersGuideA5E",
-				"Extreme Exploration|Ranger|LevelUpAdventurersGuideA5E|19|LevelUpAdventurersGuideA5E",
-                "Nature's Scion|Ranger|LevelUpAdventurersGuideA5E|20|LevelUpAdventurersGuideA5E"
+				"Ability Score Improvement|Ranger|LevelUpA5E|16|LevelUpA5E",
+				"Survivalcraft|Ranger|LevelUpA5E|16|LevelUpA5E",
+				"Hunter's Intent|Ranger|LevelUpA5E|17|LevelUpA5E",
+				"Flora and Fauna|Ranger|LevelUpA5E|18|LevelUpA5E",
+				"Ability Score Improvement|Ranger|LevelUpA5E|19|LevelUpA5E",
+				"Extreme Exploration|Ranger|LevelUpA5E|19|LevelUpA5E",
+                "Nature's Scion|Ranger|LevelUpA5E|20|LevelUpA5E"
 			],
 			"subclassTitle": "Ranger Archetype"
 		}
@@ -306,38 +306,38 @@
 		{
 			"name": "Beast Master",
 			"shortName": "Beast Master",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 93,
 			"subclassFeatures": [
-				"Beast Master|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|3",
-				"Exceptional Training|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|7",
-				"Bestial Fury|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|11",
-				"Share Spells|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|15"
+				"Beast Master|Ranger|LevelUpA5E|Beast Master|LevelUpA5E|3",
+				"Exceptional Training|Ranger|LevelUpA5E|Beast Master|LevelUpA5E|7",
+				"Bestial Fury|Ranger|LevelUpA5E|Beast Master|LevelUpA5E|11",
+				"Share Spells|Ranger|LevelUpA5E|Beast Master|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Hunter",
 			"shortName": "Hunter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"subclassFeatures": [
-				"Hunter|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3",
-				"Defensive Tactics|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|7",
-				"Multiattack|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|11",
-				"Superior Hunter's Defense|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|15"
+				"Hunter|Ranger|LevelUpA5E|Hunter|LevelUpA5E|3",
+				"Defensive Tactics|Ranger|LevelUpA5E|Hunter|LevelUpA5E|7",
+				"Multiattack|Ranger|LevelUpA5E|Hunter|LevelUpA5E|11",
+				"Superior Hunter's Defense|Ranger|LevelUpA5E|Hunter|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Deep Stalker (UA)",
 			"shortName": "Deep Stalker (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -362,18 +362,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Deep Stalker|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|3",
-				"Iron Mind|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|7",
-				"Stalker's Flurry|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|11",
-				"Stalker's Dodge|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|15"
+				"Deep Stalker|Ranger|LevelUpA5E|Deep Stalker (UA)|LevelUpA5E|3",
+				"Iron Mind|Ranger|LevelUpA5E|Deep Stalker (UA)|LevelUpA5E|7",
+				"Stalker's Flurry|Ranger|LevelUpA5E|Deep Stalker (UA)|LevelUpA5E|11",
+				"Stalker's Dodge|Ranger|LevelUpA5E|Deep Stalker (UA)|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Horizon Walker (UA)",
 			"shortName": "Horizon Walker (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -398,18 +398,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Horizon Walker|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|3",
-				"Ethereal Step|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|7",
-				"Distant Strike|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|11",
-				"Spectral Defense|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|15"
+				"Horizon Walker|Ranger|LevelUpA5E|Horizon Walker (UA)|LevelUpA5E|3",
+				"Ethereal Step|Ranger|LevelUpA5E|Horizon Walker (UA)|LevelUpA5E|7",
+				"Distant Strike|Ranger|LevelUpA5E|Horizon Walker (UA)|LevelUpA5E|11",
+				"Spectral Defense|Ranger|LevelUpA5E|Horizon Walker (UA)|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Primeval Guardian (UA)",
 			"shortName": "Primeval Guardian (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 2,
 			"additionalSpells": [
 				{
@@ -433,18 +433,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Primeval Guardian|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|3",
-				"Ancient Fortitude|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|7",
-				"Rooted Defense|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|11",
-				"Guardian Aura|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|15"
+				"Primeval Guardian|Ranger|LevelUpA5E|Primeval Guardian (UA)|LevelUpA5E|3",
+				"Ancient Fortitude|Ranger|LevelUpA5E|Primeval Guardian (UA)|LevelUpA5E|7",
+				"Rooted Defense|Ranger|LevelUpA5E|Primeval Guardian (UA)|LevelUpA5E|11",
+				"Guardian Aura|Ranger|LevelUpA5E|Primeval Guardian (UA)|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Monster Slayer (UA)",
 			"shortName": "Monster Slayer (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 3,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -469,18 +469,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Monster Slayer|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|3",
-				"Supernatural Defense|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|7",
-				"Relentless Slayer|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|11",
-				"Slayer's Counter|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|15"
+				"Monster Slayer|Ranger|LevelUpA5E|Monster Slayer (UA)|LevelUpA5E|3",
+				"Supernatural Defense|Ranger|LevelUpA5E|Monster Slayer (UA)|LevelUpA5E|7",
+				"Relentless Slayer|Ranger|LevelUpA5E|Monster Slayer (UA)|LevelUpA5E|11",
+				"Slayer's Counter|Ranger|LevelUpA5E|Monster Slayer (UA)|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Gloom Stalker",
 			"shortName": "Gloom Stalker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 41,
 			"additionalSpells": [
 				{
@@ -504,18 +504,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Gloom Stalker|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|3",
-				"Iron Mind|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|7",
-				"Stalker's Flurry|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|11",
-				"Shadowy Dodge|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|15"
+				"Gloom Stalker|Ranger|LevelUpA5E|Gloom Stalker|LevelUpA5E|3",
+				"Iron Mind|Ranger|LevelUpA5E|Gloom Stalker|LevelUpA5E|7",
+				"Stalker's Flurry|Ranger|LevelUpA5E|Gloom Stalker|LevelUpA5E|11",
+				"Shadowy Dodge|Ranger|LevelUpA5E|Gloom Stalker|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Horizon Walker",
 			"shortName": "Horizon Walker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 42,
 			"additionalSpells": [
 				{
@@ -539,18 +539,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Horizon Walker|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|3",
-				"Ethereal Step|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|7",
-				"Distant Strike|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|11",
-				"Spectral Defense|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|15"
+				"Horizon Walker|Ranger|LevelUpA5E|Horizon Walker|LevelUpA5E|3",
+				"Ethereal Step|Ranger|LevelUpA5E|Horizon Walker|LevelUpA5E|7",
+				"Distant Strike|Ranger|LevelUpA5E|Horizon Walker|LevelUpA5E|11",
+				"Spectral Defense|Ranger|LevelUpA5E|Horizon Walker|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Monster Slayer",
 			"shortName": "Monster Slayer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 43,
 			"additionalSpells": [
 				{
@@ -574,18 +574,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Monster Slayer|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|3",
-				"Supernatural Defense|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|7",
-				"Magic-User's Nemesis|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|11",
-				"Slayer's Counter|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|15"
+				"Monster Slayer|Ranger|LevelUpA5E|Monster Slayer|LevelUpA5E|3",
+				"Supernatural Defense|Ranger|LevelUpA5E|Monster Slayer|LevelUpA5E|7",
+				"Magic-User's Nemesis|Ranger|LevelUpA5E|Monster Slayer|LevelUpA5E|11",
+				"Slayer's Counter|Ranger|LevelUpA5E|Monster Slayer|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Swarmkeeper (UA)",
 			"shortName": "Swarmkeeper (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 3,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -610,19 +610,19 @@
 				}
 			],
 			"subclassFeatures": [
-				"Swarmkeeper|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|3",
-				"Writhing Tide|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|7",
-				"Scuttling Eyes|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|11",
-				"Gathered Swarm Improvement|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|11",
-				"Storm of Minions|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|15"
+				"Swarmkeeper|Ranger|LevelUpA5E|Swarmkeeper (UA)|LevelUpA5E|3",
+				"Writhing Tide|Ranger|LevelUpA5E|Swarmkeeper (UA)|LevelUpA5E|7",
+				"Scuttling Eyes|Ranger|LevelUpA5E|Swarmkeeper (UA)|LevelUpA5E|11",
+				"Gathered Swarm Improvement|Ranger|LevelUpA5E|Swarmkeeper (UA)|LevelUpA5E|11",
+				"Storm of Minions|Ranger|LevelUpA5E|Swarmkeeper (UA)|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Fey Wanderer (UA)",
 			"shortName": "Fey Wanderer (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 5,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -647,18 +647,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Fey Wanderer|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|3",
-				"Blessings of the Courts|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|7",
-				"Beguiling Twist|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|11",
-				"Misty Presence|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|15"
+				"Fey Wanderer|Ranger|LevelUpA5E|Fey Wanderer (UA)|LevelUpA5E|3",
+				"Blessings of the Courts|Ranger|LevelUpA5E|Fey Wanderer (UA)|LevelUpA5E|7",
+				"Beguiling Twist|Ranger|LevelUpA5E|Fey Wanderer (UA)|LevelUpA5E|11",
+				"Misty Presence|Ranger|LevelUpA5E|Fey Wanderer (UA)|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Fey Wanderer",
 			"shortName": "Fey Wanderer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 58,
 			"additionalSpells": [
 				{
@@ -682,18 +682,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Fey Wanderer|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|3",
-				"Beguiling Twist|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|7",
-				"Fey Reinforcements|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|11",
-				"Misty Wanderer|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|15"
+				"Fey Wanderer|Ranger|LevelUpA5E|Fey Wanderer|LevelUpA5E|3",
+				"Beguiling Twist|Ranger|LevelUpA5E|Fey Wanderer|LevelUpA5E|7",
+				"Fey Reinforcements|Ranger|LevelUpA5E|Fey Wanderer|LevelUpA5E|11",
+				"Misty Wanderer|Ranger|LevelUpA5E|Fey Wanderer|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Swarmkeeper",
 			"shortName": "Swarmkeeper",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 59,
 			"additionalSpells": [
 				{
@@ -718,18 +718,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Swarmkeeper|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|3",
-				"Writhing Tide|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|7",
-				"Mighty Swarm|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|11",
-				"Swarming Dispersal|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|15"
+				"Swarmkeeper|Ranger|LevelUpA5E|Swarmkeeper|LevelUpA5E|3",
+				"Writhing Tide|Ranger|LevelUpA5E|Swarmkeeper|LevelUpA5E|7",
+				"Mighty Swarm|Ranger|LevelUpA5E|Swarmkeeper|LevelUpA5E|11",
+				"Swarming Dispersal|Ranger|LevelUpA5E|Swarmkeeper|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Drakewarden",
 			"shortName": "Drakewarden",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 15,
 			"additionalSpells": [
 				{
@@ -741,45 +741,45 @@
 				}
 			],
 			"subclassFeatures": [
-				"Drakewarden|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|3",
-				"Bond of Fang and Scale|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|7",
-				"Drake's Breath|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|11",
-				"Perfected Bond|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|15"
+				"Drakewarden|Ranger|LevelUpA5E|Drakewarden|LevelUpA5E|3",
+				"Bond of Fang and Scale|Ranger|LevelUpA5E|Drakewarden|LevelUpA5E|7",
+				"Drake's Breath|Ranger|LevelUpA5E|Drakewarden|LevelUpA5E|11",
+				"Perfected Bond|Ranger|LevelUpA5E|Drakewarden|LevelUpA5E|15"
 			]
 		},
         {
 			"name": "Beastmaster",
 			"shortName": "Beastmaster",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Beast Whisperer|Ranger|LevelUpAdventurersGuideA5E|Beastmaster|LevelUpAdventurersGuideA5E|3",
-				"Hunter's Pet|Ranger|LevelUpAdventurersGuideA5E|Beastmaster|LevelUpAdventurersGuideA5E|7",
-				"Friend of a Friend|Ranger|LevelUpAdventurersGuideA5E|Beastmaster|LevelUpAdventurersGuideA5E|11",
-				"Loyalty's Reward|Ranger|LevelUpAdventurersGuideA5E|Beastmaster|LevelUpAdventurersGuideA5E|15"
+				"Beast Whisperer|Ranger|LevelUpA5E|Beastmaster|LevelUpA5E|3",
+				"Hunter's Pet|Ranger|LevelUpA5E|Beastmaster|LevelUpA5E|7",
+				"Friend of a Friend|Ranger|LevelUpA5E|Beastmaster|LevelUpA5E|11",
+				"Loyalty's Reward|Ranger|LevelUpA5E|Beastmaster|LevelUpA5E|15"
 			]
 		},
         {
 			"name": "Warden",
 			"shortName": "Warden",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Organised Training|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|3",
-                "Saddled Up|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|3",
-				"Skillful Execution|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|7",
-				"Decisive Mind|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|11",
-				"Riding Out|Ranger|LevelUpAdventurersGuideA5E|Warden|LevelUpAdventurersGuideA5E|15"
+				"Organised Training|Ranger|LevelUpA5E|Warden|LevelUpA5E|3",
+                "Saddled Up|Ranger|LevelUpA5E|Warden|LevelUpA5E|3",
+				"Skillful Execution|Ranger|LevelUpA5E|Warden|LevelUpA5E|7",
+				"Decisive Mind|Ranger|LevelUpA5E|Warden|LevelUpA5E|11",
+				"Riding Out|Ranger|LevelUpA5E|Warden|LevelUpA5E|15"
 			]
 		},
         {
 			"name": "Wildborn",
 			"shortName": "Wildborn",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
             "spellcastingAbility": "wis",
 			"casterProgression": "1/3",
 			"cantripProgression": [
@@ -831,7 +831,7 @@
 					"subclasses": [
 						{
 							"name": "Wildborn",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					],
 					"colLabels": [
@@ -926,7 +926,7 @@
 					"subclasses": [
 						{
 							"name": "Wildborn",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					],
 					"colLabels": [
@@ -1060,33 +1060,33 @@
 				}
 			],
 			"subclassFeatures": [
-				"Spellcasting|Ranger|LevelUpAdventurersGuideA5E|Wildborn|LevelUpAdventurersGuideA5E|3",
-				"Nature's Wellspring|Ranger|LevelUpAdventurersGuideA5E|Wildborn|LevelUpAdventurersGuideA5E|7",
-				"Hardy Resilience|Ranger|LevelUpAdventurersGuideA5E|Wildborn|LevelUpAdventurersGuideA5E|11",
-				"Naturally Attuned|Ranger|LevelUpAdventurersGuideA5E|Wildborn|LevelUpAdventurersGuideA5E|15"
+				"Spellcasting|Ranger|LevelUpA5E|Wildborn|LevelUpA5E|3",
+				"Nature's Wellspring|Ranger|LevelUpA5E|Wildborn|LevelUpA5E|7",
+				"Hardy Resilience|Ranger|LevelUpA5E|Wildborn|LevelUpA5E|11",
+				"Naturally Attuned|Ranger|LevelUpA5E|Wildborn|LevelUpA5E|15"
 			]
 		},
 		{
 			"name": "Tenebrous Stalker",
 			"shortName": "Tenebrous Stalker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Pierce the Dark|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|3",
-                "Embrace the Dark|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|7",
-				"Wield the Dark|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|7",
-				"Dark Resolve|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|11",
-				"Call the Dark|Ranger|LevelUpAdventurersGuideA5E|Tenebrous Stalker|LevelUpAdventurersGuideA5E|15"
+				"Pierce the Dark|Ranger|LevelUpA5E|Tenebrous Stalker|LevelUpA5E|3",
+                "Embrace the Dark|Ranger|LevelUpA5E|Tenebrous Stalker|LevelUpA5E|7",
+				"Wield the Dark|Ranger|LevelUpA5E|Tenebrous Stalker|LevelUpA5E|7",
+				"Dark Resolve|Ranger|LevelUpA5E|Tenebrous Stalker|LevelUpA5E|11",
+				"Call the Dark|Ranger|LevelUpA5E|Tenebrous Stalker|LevelUpA5E|15"
 			]
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Exploration Knacks",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"For a ranger exploration isn't just something that happens between destinations - it's a way of life. You start with two ranger {@filter exploration knacks|optionalfeatures|feature type=ek} of your choice. The Knacks Known column of the Ranger table shows when you learn more exploration knacks."
@@ -1094,9 +1094,9 @@
 		},
 		{
 			"name": "Familiar Terrain",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"When making an Intelligence or Wisdom check related to a natural terrain, you gain an expertise die if using a skill you're proficient in. While traveling in a natural terrain, you gain the following benefits:",
@@ -1115,9 +1115,9 @@
 		},
 		{
 			"name": "Studied Adversary",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"You have significant experience studying, tracking, hunting, and even communicating with your enemies. Choose a type of adversary: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two humanoid races as studied adversaries.",
@@ -1127,9 +1127,9 @@
 		},
 		{
 			"name": "Combat Maneuvers",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you gain the ability to use combat maneuvers. You gain proficiency in two combat traditions from the following list: {@filter Biting Zephyr|spells|Subschool=biting zephyr|}, {@filter Mirror’s Glint|spells|Subschool=mirror’s glint|}, {@filter Rapid Current|spells|Subschool=rapid current|}, {@filter Razor’s Edge|spells|Subschool=razor’s edge|}, {@filter Spirited Steed|spells|Subschool=spirited steed|}, and {@filter Unending Wheel|spells|Subschool=unending wheel|}. You can learn two maneuvers of your choice from traditions you are proficient with.",
@@ -1139,9 +1139,9 @@
 		},
 		{
 			"name": "Stride and Seek",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Your wilderness survival instincts guide your physical and mental training. You gain one of the following features at 2nd level. You gain the other feature when you reach 5th level in this class.",
@@ -1165,9 +1165,9 @@
 		},
 		{
 			"name": "Stride and Seek (2)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 5,
 			"entries": [
 				"You gain the other feature from your Stride and Seek feature."
@@ -1175,9 +1175,9 @@
 		},
 		{
 			"name": "Trained Accuracy",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you learn to maintain a level of discipline that spills over into everything you do. This perpetual state of focus allows you to perform incredible feats. You gain both of the following features.",
@@ -1225,9 +1225,9 @@
 		},
 		{
 			"name": "Ranger Archetype",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you choose an archetype that embodied your purpose as a ranger. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
@@ -1235,9 +1235,9 @@
 		},
 		{
 			"name": "Ranger Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 7,
 			"entries": [
 				"At 7th level, you gain the next feature from your ranger archetype."
@@ -1245,9 +1245,9 @@
 		},
 		{
 			"name": "Ranger Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 11,
 			"entries": [
 				"At 11th level, you gain the next feature from your ranger archetype."
@@ -1255,9 +1255,9 @@
 		},
 		{
 			"name": "Ranger Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 15,
 			"entries": [
 				"At 15th level, you gain the next feature from your ranger archetype."
@@ -1265,9 +1265,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1275,9 +1275,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1285,27 +1285,27 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
 			]
 		},{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
 			]
 		},{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increases two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1313,9 +1313,9 @@
 		},
 		{
 			"name": "Wilderness Mystique",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 4,
 			"entries": [
 				"At 4th level your experience as an expert survivalist manifests at the subconscious level. Choose one of the following options:",
@@ -1344,9 +1344,9 @@
 		},
 		{
 			"name": "Extra Attack",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 5,
 			"entries": [
 				"At 5th level you can attack twice, instead of once, whenever you take the Attack action on your turn."
@@ -1354,9 +1354,9 @@
 		},
 		{
 			"name": "Adversarial Focus",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"At 6th level you gain an additional studied adversary, and you gain a +1 bonus to weapon attack rolls made against your studied adversaries."
@@ -1364,9 +1364,9 @@
 		},
 		{
 			"name": "Game Hunting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"At 6th level, you have advantage on Gather Component journey activity checks.",
@@ -1375,9 +1375,9 @@
 		},
 		{
 			"name": "Explorer's Instinct",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 8,
 			"entries": [
 				"At 8th level, once between long rests, you can take two reactions in a round instead of one.",
@@ -1386,19 +1386,19 @@
 		},
 		{
 			"name": "Flash of Steel",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
-				"At 9th level you gain the {@spell Missile Volley|LevelUpAdventurersGuideA5E} or {@spell Whirlind Strike|LevelUpAdventurersGuideA5E} combat maneuver. It does not count against your number of maneuvers known and you do not have to spend exertion points to activate it."
+				"At 9th level you gain the {@spell Missile Volley|LevelUpA5E} or {@spell Whirlind Strike|LevelUpA5E} combat maneuver. It does not count against your number of maneuvers known and you do not have to spend exertion points to activate it."
 			]
 		},
 		{
 			"name": "Hunter's Focus",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"At 9th level, you can remain focused on your Hunter's Target for up to 8 hours."
@@ -1406,9 +1406,9 @@
 		},
 		{
 			"name": "Trackless Hunting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 10,
 			"entries": [
 				"At 10th level, you can't be tracked except by magical means, unless you choose to leave a trail.",
@@ -1417,9 +1417,9 @@
 		},
 		{
 			"name": "Wilderness Lore",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 12,
 			"entries": [
 				"At 12th level, your knowledge of wilderness lore deepens. Choose one of the following options:",
@@ -1452,9 +1452,9 @@
 		},
 		{
 			"name": "Guarded Post",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 13,
 			"entries": [
 				"Experience has taught you that defending others is often the key to survival. At 13th level choose one of the following options:",
@@ -1477,9 +1477,9 @@
 		},
 		{
 			"name": "Tactical Advantage",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 14,
 			"entries": [
 				"At 14th level you gain a third studied adversary. In addition, you can choose one of the following ranger tactics:",
@@ -1501,9 +1501,9 @@
 		},
 		{
 			"name": "Survivalcraft",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 16,
 			"entries": [
 				"At 16th level, basic survival skills have become second nature to you. Choose one of the following options:",
@@ -1525,9 +1525,9 @@
 		},
 		{
 			"name": "Hunter's Intent",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 17,
 			"entries": [
 				"At 17th level, you add your Wisdom modifier to the damage you inflict with a weapon attack."
@@ -1535,9 +1535,9 @@
 		},
 		{
 			"name": "Flora and Fauna",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 18,
 			"entries": [
 				"At 18th level choose one of the following benefits:",
@@ -1568,9 +1568,9 @@
 		},
 		{
 			"name": "Extreme Exploration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 19,
 			"entries": [
 				"Your travels and training have taken you to new heights and amazing depths. At 19th level, you gain two of the following benefits:",
@@ -1586,12 +1586,12 @@
 		},
 		{
 			"name": "Nature's Scion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 20,
 			"entries": [
-				"At 20th level, you are a master of yourself and your natural surroundings. You become extremely familiar with all types of terrain and can use the {@optfeature Master Tracker|LevelUpAdventurersGuideA5E} exploration knack at will.",
+				"At 20th level, you are a master of yourself and your natural surroundings. You become extremely familiar with all types of terrain and can use the {@optfeature Master Tracker|LevelUpA5E} exploration knack at will.",
 				"In addition, you learn Primordial if you don't already know it and gain one of the following:",
 				{
 					"type": "entries",
@@ -1656,8 +1656,8 @@
 							"type": "list",
 							"items": [
 								"Enraged Fauna: Up to 3 Huge native creatures of up to CR 8 charge forward, bowling into your enemies. Choose any number of creatures you can see within 100 feet. Each creature makes a Strength saving throw against your maneuver DC or takes 6d8 bludgeoning damage, or half damage on a success. In addition, you can choose one of the Huge creatures to stay and fight. You can have only one such creature assist in this way at a time, and it retreats when bloodied or when you command it to leave.",
-								"Rushing Stamped: A Huge-sized horde of Small, Medium, and Large native creatures hurry through the area, traveling in a 30'-wide line from a direction you choose. Until the start of your next turn, the area is difficult terrain. In addition, each creature of your choice in the area makes a Dexterity saving throw against your maneuver DC. On a failure, a creature takes 6d6 bludgeoning damage, is knocked prone, and {@condition debilitated|LevelUpAdventurersGuideA5E} until the start of your next turn. On a success, a creature instead takes half damage and is {@condition rattled|LevelUpAdventurersGuideA5E} until the start of your next turn.",
-								"Swarming Pests: Several Medium-sized swarms of Tiny native creatures enter the spaces of up to 5 Small, Medium, or Large creatures you choose, or the space of a Huge or Gargantuan creature. Each enemy creature in the swarm's area must make a Constitution saving throw against your maneuver DC or become {@condition blinded} and {@condition slowed|LevelUpAdventurersGuideA5E} until the start of your next turn, and loses concentration on any spell or effect it is concentrating on. On a successful save, an enemy creature is instead {@condition slowed|LevelUpAdventurersGuideA5E}."
+								"Rushing Stamped: A Huge-sized horde of Small, Medium, and Large native creatures hurry through the area, traveling in a 30'-wide line from a direction you choose. Until the start of your next turn, the area is difficult terrain. In addition, each creature of your choice in the area makes a Dexterity saving throw against your maneuver DC. On a failure, a creature takes 6d6 bludgeoning damage, is knocked prone, and {@condition debilitated|LevelUpA5E} until the start of your next turn. On a success, a creature instead takes half damage and is {@condition rattled|LevelUpA5E} until the start of your next turn.",
+								"Swarming Pests: Several Medium-sized swarms of Tiny native creatures enter the spaces of up to 5 Small, Medium, or Large creatures you choose, or the space of a Huge or Gargantuan creature. Each enemy creature in the swarm's area must make a Constitution saving throw against your maneuver DC or become {@condition blinded} and {@condition slowed|LevelUpA5E} until the start of your next turn, and loses concentration on any spell or effect it is concentrating on. On a successful save, an enemy creature is instead {@condition slowed|LevelUpA5E}."
 							]
 						}
 					]
@@ -1668,12 +1668,12 @@
 	"subclassFeature": [
 		{
 			"name": "Drakewarden",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 15,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Your connection to the natural world takes the form of a draconic spirit, which can manifest in physical form as a drake. As your powers grow, your drake grows as well, blossoming from a small four-legged companion to a majestic winged creature large and strong enough for you to ride. Along the way, you gain an increasing share of the awe-inspiring power of dragons.",
@@ -1718,22 +1718,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Gift|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Draconic Gift|Ranger|LevelUpA5E|Drakewarden|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Drake Companion|Ranger|LevelUpAdventurersGuideA5E|Drakewarden|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Drake Companion|Ranger|LevelUpA5E|Drakewarden|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Draconic Gift",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 15,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1759,12 +1759,12 @@
 		},
 		{
 			"name": "Drake Companion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 15,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1778,12 +1778,12 @@
 		},
 		{
 			"name": "Bond of Fang and Scale",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 15,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -1821,12 +1821,12 @@
 		},
 		{
 			"name": "Drake's Breath",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 15,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -1838,12 +1838,12 @@
 		},
 		{
 			"name": "Perfected Bond",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 15,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1880,29 +1880,29 @@
 		},
 		{
 			"name": "Beast Master",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beast Master",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ranger's Companion|Ranger|LevelUpAdventurersGuideA5E|Beast Master|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Ranger's Companion|Ranger|LevelUpA5E|Beast Master|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Primal Companion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 61,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beast Master",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"header": 1,
@@ -1916,12 +1916,12 @@
 		},
 		{
 			"name": "Ranger Companion Options",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 8,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beast Master",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"header": 1,
@@ -1935,12 +1935,12 @@
 		},
 		{
 			"name": "Ranger's Companion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beast Master",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1953,12 +1953,12 @@
 		},
 		{
 			"name": "Exceptional Training",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beast Master",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -1967,12 +1967,12 @@
 		},
 		{
 			"name": "Bestial Fury",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beast Master",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -1981,12 +1981,12 @@
 		},
 		{
 			"name": "Share Spells",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beast Master",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1995,31 +1995,31 @@
 		},
 		{
 			"name": "Hunter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Prey|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Hunter's Prey|Ranger|LevelUpA5E|Hunter|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Horde Breaker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2028,13 +2028,13 @@
 		},
 		{
 			"name": "Hunter's Prey",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2045,15 +2045,15 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Colossus Slayer|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3"
+							"subclassFeature": "Colossus Slayer|Ranger|LevelUpA5E|Hunter|LevelUpA5E|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Giant Killer|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3"
+							"subclassFeature": "Giant Killer|Ranger|LevelUpA5E|Hunter|LevelUpA5E|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Horde Breaker|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|3"
+							"subclassFeature": "Horde Breaker|Ranger|LevelUpA5E|Hunter|LevelUpA5E|3"
 						}
 					]
 				}
@@ -2061,13 +2061,13 @@
 		},
 		{
 			"name": "Colossus Slayer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2076,13 +2076,13 @@
 		},
 		{
 			"name": "Giant Killer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2091,13 +2091,13 @@
 		},
 		{
 			"name": "Defensive Tactics",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2108,15 +2108,15 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Escape the Horde|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|7"
+							"subclassFeature": "Escape the Horde|Ranger|LevelUpA5E|Hunter|LevelUpA5E|7"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Multiattack Defense|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|7"
+							"subclassFeature": "Multiattack Defense|Ranger|LevelUpA5E|Hunter|LevelUpA5E|7"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Steel Will|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|7"
+							"subclassFeature": "Steel Will|Ranger|LevelUpA5E|Hunter|LevelUpA5E|7"
 						}
 					]
 				}
@@ -2124,13 +2124,13 @@
 		},
 		{
 			"name": "Escape the Horde",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2139,13 +2139,13 @@
 		},
 		{
 			"name": "Multiattack Defense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2154,13 +2154,13 @@
 		},
 		{
 			"name": "Steel Will",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2169,13 +2169,13 @@
 		},
 		{
 			"name": "Multiattack",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -2186,11 +2186,11 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Volley|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|11"
+							"subclassFeature": "Volley|Ranger|LevelUpA5E|Hunter|LevelUpA5E|11"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Whirlwind Attack|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|11"
+							"subclassFeature": "Whirlwind Attack|Ranger|LevelUpA5E|Hunter|LevelUpA5E|11"
 						}
 					]
 				}
@@ -2198,13 +2198,13 @@
 		},
 		{
 			"name": "Volley",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -2213,13 +2213,13 @@
 		},
 		{
 			"name": "Whirlwind Attack",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -2228,13 +2228,13 @@
 		},
 		{
 			"name": "Evasion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2243,13 +2243,13 @@
 		},
 		{
 			"name": "Stand Against the Tide",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2258,13 +2258,13 @@
 		},
 		{
 			"name": "Superior Hunter's Defense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2275,15 +2275,15 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Evasion|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|15"
+							"subclassFeature": "Evasion|Ranger|LevelUpA5E|Hunter|LevelUpA5E|15"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Stand Against the Tide|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|15"
+							"subclassFeature": "Stand Against the Tide|Ranger|LevelUpA5E|Hunter|LevelUpA5E|15"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Uncanny Dodge|Ranger|LevelUpAdventurersGuideA5E|Hunter|LevelUpAdventurersGuideA5E|15"
+							"subclassFeature": "Uncanny Dodge|Ranger|LevelUpA5E|Hunter|LevelUpA5E|15"
 						}
 					]
 				}
@@ -2291,13 +2291,13 @@
 		},
 		{
 			"name": "Uncanny Dodge",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 93,
 			"srd": true,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Hunter",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2306,37 +2306,37 @@
 		},
 		{
 			"name": "Fey Wanderer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 58,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms. As you wander the multiverse, your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dreadful Strikes|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Dreadful Strikes|Ranger|LevelUpA5E|Fey Wanderer|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fey Wanderer Magic|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Fey Wanderer Magic|Ranger|LevelUpA5E|Fey Wanderer|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Otherworldly Glamour|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Otherworldly Glamour|Ranger|LevelUpA5E|Fey Wanderer|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Dreadful Strikes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 58,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2347,12 +2347,12 @@
 		},
 		{
 			"name": "Fey Wanderer Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 58,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2435,12 +2435,12 @@
 		},
 		{
 			"name": "Otherworldly Glamour",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 58,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2451,12 +2451,12 @@
 		},
 		{
 			"name": "Beguiling Twist",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 58,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2467,12 +2467,12 @@
 		},
 		{
 			"name": "Fey Reinforcements",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 58,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -2483,12 +2483,12 @@
 		},
 		{
 			"name": "Misty Wanderer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 58,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2499,33 +2499,33 @@
 		},
 		{
 			"name": "Swarmkeeper",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gathered Swarm|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Gathered Swarm|Ranger|LevelUpA5E|Swarmkeeper|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Swarmkeeper Magic|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Swarmkeeper Magic|Ranger|LevelUpA5E|Swarmkeeper|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Gathered Swarm",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2582,12 +2582,12 @@
 		},
 		{
 			"name": "Swarmkeeper Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2632,12 +2632,12 @@
 		},
 		{
 			"name": "Writhing Tide",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2648,12 +2648,12 @@
 		},
 		{
 			"name": "Mighty Swarm",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -2671,12 +2671,12 @@
 		},
 		{
 			"name": "Swarming Dispersal",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2687,12 +2687,12 @@
 		},
 		{
 			"name": "Fey Wanderer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"As a Fey Wanderer, you guard the border between the Feywild and the Material Plane, guiding the lost out of the Feywild and preventing dangerous fey from damaging the Material Plane. Your experience with both domains makes you an exceptional negotiator between inhabitants of these worlds, as you understand both humanoid mindsets and the wiles of the fey courts.",
@@ -2737,26 +2737,26 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fey Wanderer Magic|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Fey Wanderer Magic|Ranger|LevelUpA5E|Fey Wanderer (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cunning Will|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Cunning Will|Ranger|LevelUpA5E|Fey Wanderer (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dreadful Strikes|Ranger|LevelUpAdventurersGuideA5E|Fey Wanderer (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Dreadful Strikes|Ranger|LevelUpA5E|Fey Wanderer (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Cunning Will",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2767,12 +2767,12 @@
 		},
 		{
 			"name": "Dreadful Strikes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2783,12 +2783,12 @@
 		},
 		{
 			"name": "Fey Wanderer Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2832,12 +2832,12 @@
 		},
 		{
 			"name": "Blessings of the Courts",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2848,12 +2848,12 @@
 		},
 		{
 			"name": "Beguiling Twist",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -2870,12 +2870,12 @@
 		},
 		{
 			"name": "Misty Presence",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fey Wanderer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2886,12 +2886,12 @@
 		},
 		{
 			"name": "Drakewarden",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Drakewardens are rangers who use their magical connection with nature to form an enduring bond with a minor dragon, a drake. This bond allows the ranger to summon the drake to their side and to share in the awe-inspiring power wielded by dragons. Consider how your ranger gained their bond with the drake. The Drakewarden Origin table offers some examples.",
@@ -2935,22 +2935,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Gift|Ranger|LevelUpAdventurersGuideA5E|Drakewarden (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Draconic Gift|Ranger|LevelUpA5E|Drakewarden (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Drake Companion|Ranger|LevelUpAdventurersGuideA5E|Drakewarden (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Drake Companion|Ranger|LevelUpA5E|Drakewarden (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Draconic Gift",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2967,12 +2967,12 @@
 		},
 		{
 			"name": "Drake Companion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2986,12 +2986,12 @@
 		},
 		{
 			"name": "Bond of Fang and Scale",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3009,12 +3009,12 @@
 		},
 		{
 			"name": "Drake's Breath",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -3026,12 +3026,12 @@
 		},
 		{
 			"name": "Perfected Bond",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Drakewarden (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3049,33 +3049,33 @@
 		},
 		{
 			"name": "Monster Slayer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Rangers of the Slayer Conclave seek out vampires, dragons, evil fey, fiends, and other powerful magical threats. Trained in a variety of arcane and divine techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty foes.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Slayer's Mysticism|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Slayer's Mysticism|Ranger|LevelUpA5E|Monster Slayer (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Slayer's Eye|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Slayer's Eye|Ranger|LevelUpA5E|Monster Slayer (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Slayer's Eye",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3086,12 +3086,12 @@
 		},
 		{
 			"name": "Slayer's Mysticism",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3134,12 +3134,12 @@
 		},
 		{
 			"name": "Supernatural Defense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3148,12 +3148,12 @@
 		},
 		{
 			"name": "Relentless Slayer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -3162,12 +3162,12 @@
 		},
 		{
 			"name": "Slayer's Counter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3176,33 +3176,33 @@
 		},
 		{
 			"name": "Swarmkeeper",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beasts\u2014be they buzzing insects, fluttering birds, slippery squids, or otherwise. The swarm becomes a potent force in battle, as well as helpful\u2014if potentially disturbing\u2014company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Swarmkeeper Magic|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Swarmkeeper Magic|Ranger|LevelUpA5E|Swarmkeeper (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gathered Swarm|Ranger|LevelUpAdventurersGuideA5E|Swarmkeeper (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Gathered Swarm|Ranger|LevelUpA5E|Swarmkeeper (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Gathered Swarm",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3214,12 +3214,12 @@
 		},
 		{
 			"name": "Swarmkeeper Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3263,12 +3263,12 @@
 		},
 		{
 			"name": "Writhing Tide",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3286,12 +3286,12 @@
 		},
 		{
 			"name": "Gathered Swarm Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -3301,12 +3301,12 @@
 		},
 		{
 			"name": "Scuttling Eyes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -3318,12 +3318,12 @@
 		},
 		{
 			"name": "Storm of Minions",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swarmkeeper (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3335,33 +3335,33 @@
 		},
 		{
 			"name": "Deep Stalker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Deep Stalker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Many Deep Stalkers are elves, as those folk know all too well the threat posed by the drow. Deep Stalkers scout for new passages into the Underdark, carefully mapping them and working to ensure they remain watched at all times. They venture into the depths on long, dangerous patrols, disappearing for months at a time. Many of them never return. Deep Stalkers master spells useful in navigating the Underdark, and their combat tactics focus on ambush, surprise, and stealth. They fight alone or in small groups in hostile territory, relying on clever tactics to carry the day.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Deep Stalker Magic|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Deep Stalker Magic|Ranger|LevelUpA5E|Deep Stalker (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Underdark Scout|Ranger|LevelUpAdventurersGuideA5E|Deep Stalker (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Underdark Scout|Ranger|LevelUpA5E|Deep Stalker (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Deep Stalker Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Deep Stalker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3404,12 +3404,12 @@
 		},
 		{
 			"name": "Underdark Scout",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Deep Stalker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3418,12 +3418,12 @@
 		},
 		{
 			"name": "Iron Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Deep Stalker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3432,12 +3432,12 @@
 		},
 		{
 			"name": "Stalker's Flurry",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Deep Stalker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -3446,12 +3446,12 @@
 		},
 		{
 			"name": "Stalker's Dodge",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Deep Stalker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3460,37 +3460,37 @@
 		},
 		{
 			"name": "Horizon Walker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Rangers of the Horizon Conclave guard the world against threats that originate from other planes. They seek out planar portals and keep watch over them, venturing to the outer and inner planes as needed to defeat threats.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Planar Magic|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Planar Magic|Ranger|LevelUpA5E|Horizon Walker (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Planar Warrior|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Planar Warrior|Ranger|LevelUpA5E|Horizon Walker (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Portal Lore|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Portal Lore|Ranger|LevelUpA5E|Horizon Walker (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Planar Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3533,12 +3533,12 @@
 		},
 		{
 			"name": "Planar Warrior",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3548,12 +3548,12 @@
 		},
 		{
 			"name": "Portal Lore",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3564,12 +3564,12 @@
 		},
 		{
 			"name": "Ethereal Step",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3578,12 +3578,12 @@
 		},
 		{
 			"name": "Distant Strike",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -3593,12 +3593,12 @@
 		},
 		{
 			"name": "Spectral Defense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3607,38 +3607,38 @@
 		},
 		{
 			"name": "Primeval Guardian",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Primeval Guardian (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Rangers of the Primeval Guardian Conclave follow an ancient tradition rooted in powerful druidic magic. These rangers learn to become one with nature, allowing them to channel the aspects of various beasts and plants in order to overcome their foes.",
 				"These rangers dwell in the elder forests of the world. They venture out only rarely, as they consider it their sacred duty to protect the druidic groves and ancient trees that saw the earliest days of the world.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Guardian Magic|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Guardian Magic|Ranger|LevelUpA5E|Primeval Guardian (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Guardian Soul|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Guardian Soul|Ranger|LevelUpA5E|Primeval Guardian (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Piercing Thorns|Ranger|LevelUpAdventurersGuideA5E|Primeval Guardian (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Piercing Thorns|Ranger|LevelUpA5E|Primeval Guardian (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Guardian Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Primeval Guardian (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3681,12 +3681,12 @@
 		},
 		{
 			"name": "Guardian Soul",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Primeval Guardian (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3705,12 +3705,12 @@
 		},
 		{
 			"name": "Piercing Thorns",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Primeval Guardian (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3719,12 +3719,12 @@
 		},
 		{
 			"name": "Ancient Fortitude",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Primeval Guardian (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3733,12 +3733,12 @@
 		},
 		{
 			"name": "Rooted Defense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Primeval Guardian (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -3747,12 +3747,12 @@
 		},
 		{
 			"name": "Guardian Aura",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Primeval Guardian (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3761,37 +3761,37 @@
 		},
 		{
 			"name": "Gloom Stalker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 41,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Gloom Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gloom Stalker Magic|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Gloom Stalker Magic|Ranger|LevelUpA5E|Gloom Stalker|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dread Ambusher|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Dread Ambusher|Ranger|LevelUpA5E|Gloom Stalker|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Umbral Sight|Ranger|LevelUpAdventurersGuideA5E|Gloom Stalker|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Umbral Sight|Ranger|LevelUpA5E|Gloom Stalker|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Dread Ambusher",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 41,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Gloom Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3801,12 +3801,12 @@
 		},
 		{
 			"name": "Gloom Stalker Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 41,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Gloom Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3849,12 +3849,12 @@
 		},
 		{
 			"name": "Umbral Sight",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 41,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Gloom Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3864,12 +3864,12 @@
 		},
 		{
 			"name": "Iron Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 41,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Gloom Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3878,12 +3878,12 @@
 		},
 		{
 			"name": "Stalker's Flurry",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 41,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Gloom Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -3892,12 +3892,12 @@
 		},
 		{
 			"name": "Shadowy Dodge",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 41,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Gloom Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3906,37 +3906,37 @@
 		},
 		{
 			"name": "Horizon Walker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 42,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse\u2014especially benevolent dragons, fey, and elementals\u2014that work to preserve life and the order of the planes.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Horizon Walker Magic|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Horizon Walker Magic|Ranger|LevelUpA5E|Horizon Walker|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Detect Portal|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Detect Portal|Ranger|LevelUpA5E|Horizon Walker|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Planar Warrior|Ranger|LevelUpAdventurersGuideA5E|Horizon Walker|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Planar Warrior|Ranger|LevelUpA5E|Horizon Walker|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Detect Portal",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 42,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3947,12 +3947,12 @@
 		},
 		{
 			"name": "Horizon Walker Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 42,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3995,12 +3995,12 @@
 		},
 		{
 			"name": "Planar Warrior",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 42,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4010,12 +4010,12 @@
 		},
 		{
 			"name": "Ethereal Step",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 42,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -4025,12 +4025,12 @@
 		},
 		{
 			"name": "Distant Strike",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 42,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -4040,12 +4040,12 @@
 		},
 		{
 			"name": "Spectral Defense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 42,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Horizon Walker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -4054,37 +4054,37 @@
 		},
 		{
 			"name": "Monster Slayer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 43,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Monster Slayer Magic|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Monster Slayer Magic|Ranger|LevelUpA5E|Monster Slayer|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Sense|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Hunter's Sense|Ranger|LevelUpA5E|Monster Slayer|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Slayer's Prey|Ranger|LevelUpAdventurersGuideA5E|Monster Slayer|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Slayer's Prey|Ranger|LevelUpA5E|Monster Slayer|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Hunter's Sense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 43,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4094,12 +4094,12 @@
 		},
 		{
 			"name": "Monster Slayer Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 43,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4142,12 +4142,12 @@
 		},
 		{
 			"name": "Slayer's Prey",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 43,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4157,12 +4157,12 @@
 		},
 		{
 			"name": "Supernatural Defense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 43,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -4171,12 +4171,12 @@
 		},
 		{
 			"name": "Magic-User's Nemesis",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 43,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -4186,12 +4186,12 @@
 		},
 		{
 			"name": "Slayer's Counter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 43,
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Monster Slayer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -4200,24 +4200,24 @@
 		},
 		{
 			"name": "Beast Whisperer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beastmaster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
-				"At 3rd level when you choose this archetype, you gain the {@optfeature Beast Friend|LevelUpAdventurersGuideA5E} knack if you do not already know it, and the beast can be of CR 1/4 or less. In addition, whenever the beast rolls initiative, it gains a number of temporary hit points equal to your level multiplied by your proficiency bonus, and its Armour Class increases by an amount equal to your proficiency bonus.",
+				"At 3rd level when you choose this archetype, you gain the {@optfeature Beast Friend|LevelUpA5E} knack if you do not already know it, and the beast can be of CR 1/4 or less. In addition, whenever the beast rolls initiative, it gains a number of temporary hit points equal to your level multiplied by your proficiency bonus, and its Armour Class increases by an amount equal to your proficiency bonus.",
 				"As a bonus action on your turn, you can order the beast to take an action on its turn. If you order the beast to attack, it adds your proficiency bonus to attack and damage rolls."
 			]
 		},
 		{
 			"name": "Hunter's Pet",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beastmaster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"entries": [
 				"At 7th level, any beast you are the guardian ranger of treats its natural weapons as magical, and gains one of the following features:",
@@ -4233,23 +4233,23 @@
 		},
 		{
 			"name": "Friend of a Friend",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beastmaster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"entries": [
-				"At 11th level you can use your {@optfeature Beast Friend|LevelUpAdventurersGuideA5E} knack to acquire a beast of CR 1/2 or less, and it can be Large."
+				"At 11th level you can use your {@optfeature Beast Friend|LevelUpA5E} knack to acquire a beast of CR 1/2 or less, and it can be Large."
 			]
 		},
 		{
 			"name": "Loyalty's Reward",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Beastmaster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"entries": [
 				"At 15th level, if damage reduces a beast you are the guardian ranger of to 0 hit points, it makes a Constitution saving throw against a DC equal to 10 + the attack bonus of the damaging attack. On a success, the beast drops to 1 hit point instead.",
@@ -4258,11 +4258,11 @@
 		},
 		{
 			"name": "Organised Training",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Warden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"At 3rd level you gain experience and training relevant to your role as an outrider. Choose two of the following to become proficient with: heavy armour, Animal Handling, History, or vehicle (land)."
@@ -4270,11 +4270,11 @@
 		},
 		{
 			"name": "Saddled Up",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Warden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level you choose an animal to serve as your mount such as a {@creature draft horse}, a {@creature pony}, a {@creature camel}, an {@creature elk}, or a {@creature mastiff} (the DM might allow other animals as your mount). Your mount must be at least one size larger than you. Additionally, if your mount has an Intelligence of 5 or less, its Intelligence becomes 6, and it has the ability to understand one language of your choice that you speak."
@@ -4282,11 +4282,11 @@
 		},
 		{
 			"name": "Skillful Execution",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Warden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"entries": [
 				"At 7th level, you gain one of the following features.",
@@ -4315,11 +4315,11 @@
 		},
 		{
 			"name": "Decisive Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Warden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"entries": [
 				"At 11th level you gain proficiency in Wisdom saving throws."
@@ -4327,24 +4327,24 @@
 		},
 		{
 			"name": "Riding Out",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Warden",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"entries": [
 				"At 15th level when you use any combat maneuver that requires you to be mounted you only expend half the exertion (rounded up).",
-				"In addition, you gain the {@spell Ride Enemy|LevelUpAdventurersGuideA5E} combat maneuver. It does not count against your number of maneuvers known, and you do not have to expend exertion points to activate it."
+				"In addition, you gain the {@spell Ride Enemy|LevelUpA5E} combat maneuver. It does not count against your number of maneuvers known, and you do not have to expend exertion points to activate it."
 			]
 		},
 		{
 			"name": "Spellcasting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wildborn",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"When you reach 3rd level, your deep connection to nature grants you the ability to cast spells.",
@@ -4397,11 +4397,11 @@
 		},
 		{
 			"name": "Nature's Wellspring",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wildborn",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"entries": [
 				"At 7th level, you gain one of the following features.",
@@ -4409,7 +4409,7 @@
 					"type": "entries",
 					"name": "Magical Intuition",
 					"entries": [
-						"You can cast {@spell detect magic|LevelUpAdventurersGuideA5E} at will, without expending a spell slot."
+						"You can cast {@spell detect magic|LevelUpA5E} at will, without expending a spell slot."
 					]
 				},
 				{
@@ -4430,11 +4430,11 @@
 		},
 		{
 			"name": "Hardy Resilience",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wildborn",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"entries": [
 				"At 11th level, you gain proficiency in Constitution saving throws."
@@ -4442,11 +4442,11 @@
 		},
 		{
 			"name": "Naturally Attuned",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Wildborn",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"entries": [
 				"At 15th level, you gain one of the following features.",
@@ -4468,11 +4468,11 @@
 		},
 		{
 			"name": "Pierce the Dark",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Tenebrous Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"At 3rd level, your senses sharpen to allow you to perceive your lightless environment. If you have the ability to see, you gain darkvision to a range of 120 feet and the ability to see through magical darkness. If you have blindsight, the range of your blindsight increases by 30 feet."
@@ -4480,11 +4480,11 @@
 		},
 		{
 			"name": "Embrace the Dark",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Tenebrous Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"entries": [
 				"Beginning at 7th level, you can enshroud yourself in darkness. As an action, you can activate your shroud of darkness. Your shroud remains active for 1 hour, until you fall {@condition unconscious}, or until you use a bonus action to deactivate it. While your shroud is active, light within 30 feet decreases from bright light to dim light, from dim light to darkness, or from darkness to magical darkness. You can use this feature a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest."
@@ -4492,11 +4492,11 @@
 		},
 		{
 			"name": "Wield the Dark",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Tenebrous Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 7,
 			"entries": [
 				"Starting at 7th level, when you start your turn in an area of darkness or magical darkness, you gain a Darkness die, a {@dice d6}. You can have only one Darkness die at a time. At any time, you can roll your Darkness die and apply the result to one of the following: your AC against one attack made by a creature you can see, an attack or damage roll you make with a weapon, or a Stealth skill check. You can apply your Darkness die even after making an attack roll or after the result of a creature's attack roll is declared.",
@@ -4505,11 +4505,11 @@
 		},
 		{
 			"name": "Dark Resolve",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Tenebrous Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 11,
 			"entries": [
 				"At 11th level, you gain proficiency in Wisdom saving throws."
@@ -4517,21 +4517,21 @@
 		},
 		{
 			"name": "Call the Dark",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Ranger",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Tenebrous Stalker",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 15,
 			"entries": [
-				"At 15th level, you can summon darkness at will. You can use a bonus action to cast the {@spell darkness|LevelUpAdventurersGuideA5E} spell without components. You can use this feature a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest."
+				"At 15th level, you can summon darkness at will. You can use a bonus action to cast the {@spell darkness|LevelUpA5E} spell without components. You can use this feature a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest."
 			]
 		}
 	],
 	"optionalfeature": [
 		{
 			"name": "Beast Friend",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4541,7 +4541,7 @@
 		},
 		{
 			"name": "Build Shelter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4552,7 +4552,7 @@
 		},
 		{
 			"name": "Calls of the Wild",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4562,7 +4562,7 @@
 		},
 		{
 			"name": "Ear to the Ground",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4572,7 +4572,7 @@
 		},
 		{
 			"name": "Expert Foraging",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4582,7 +4582,7 @@
 		},
 		{
 			"name": "Forced Marcher",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4592,7 +4592,7 @@
 		},
 		{
 			"name": "Guide",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4602,7 +4602,7 @@
 		},
 		{
 			"name": "Healing Salves",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4612,7 +4612,7 @@
 		},
 		{
 			"name": "Herbal Bitters",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4622,7 +4622,7 @@
 		},
 		{
 			"name": "Huntsman",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4632,7 +4632,7 @@
 		},
 		{
 			"name": "Longwalker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4642,7 +4642,7 @@
 		},
 		{
 			"name": "Master Tracker",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4652,7 +4652,7 @@
 						"level": 9,
 						"class": {
 							"name": "Ranger",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					}
 				}
@@ -4664,7 +4664,7 @@
 		},
 		{
 			"name": "Monster Mimic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4674,7 +4674,7 @@
 		},
 		{
 			"name": "Poisons and Antidotes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4684,7 +4684,7 @@
 		},
 		{
 			"name": "Read the Room",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4695,7 +4695,7 @@
 		},
 		{
 			"name": "Relentless Pursuit",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4705,7 +4705,7 @@
 		},
 		{
 			"name": "See the Unseen",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],
@@ -4715,7 +4715,7 @@
 						"level": 5,
 						"class": {
 							"name": "Ranger",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					}
 				}
@@ -4726,7 +4726,7 @@
 		},
 		{
 			"name": "Survivalist",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"EK"
 			],

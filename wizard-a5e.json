@@ -7,7 +7,7 @@
 		},
 		"sources": [
 			{
-				"json": "LevelUpAdventurersGuideA5E",
+				"json": "LevelUpA5E",
 				"abbreviation": "A5E",
 				"full": "Level Up: Adventurers Guide (A5E)",
 				"authors": [
@@ -23,7 +23,7 @@
 	"class": [
 		{
 			"name": "Wizard",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"hd": {
 				"number": 1,
 				"faces": 6
@@ -452,40 +452,40 @@
 				}
 			],
 			"classFeatures": [
-				"Spellcasting|Wizard|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
-				"Arcane Recovery|Wizard|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
+				"Spellcasting|Wizard|LevelUpA5E|1|LevelUpA5E",
+				"Arcane Recovery|Wizard|LevelUpA5E|1|LevelUpA5E",
 				{
-					"classFeature": "Wizard Archetype|Wizard|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
+					"classFeature": "Wizard Archetype|Wizard|LevelUpA5E|2|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Scholarly Excellence|Wizard|LevelUpAdventurersGuideA5E|3|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Wizard|LevelUpAdventurersGuideA5E|4|LevelUpAdventurersGuideA5E",
-				"Elective Studies|Wizard|LevelUpAdventurersGuideA5E|4|LevelUpAdventurersGuideA5E",
-                "Signature Spell (1st-level)|Wizard|LevelUpAdventurersGuideA5E|5|LevelUpAdventurersGuideA5E",
+				"Scholarly Excellence|Wizard|LevelUpA5E|3|LevelUpA5E",
+				"Ability Score Improvement|Wizard|LevelUpA5E|4|LevelUpA5E",
+				"Elective Studies|Wizard|LevelUpA5E|4|LevelUpA5E",
+                "Signature Spell (1st-level)|Wizard|LevelUpA5E|5|LevelUpA5E",
 				{
-					"classFeature": "Wizard Archetype Feature|Wizard|LevelUpAdventurersGuideA5E|6|LevelUpAdventurersGuideA5E",
+					"classFeature": "Wizard Archetype Feature|Wizard|LevelUpA5E|6|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Spell Study|Wizard|LevelUpAdventurersGuideA5E|7|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Wizard|LevelUpAdventurersGuideA5E|8|LevelUpAdventurersGuideA5E",
-                "Wizard's Flair|Wizard|LevelUpAdventurersGuideA5E|9|LevelUpAdventurersGuideA5E",
+				"Spell Study|Wizard|LevelUpA5E|7|LevelUpA5E",
+				"Ability Score Improvement|Wizard|LevelUpA5E|8|LevelUpA5E",
+                "Wizard's Flair|Wizard|LevelUpA5E|9|LevelUpA5E",
 				{
-					"classFeature": "Wizard Archetype Feature|Wizard|LevelUpAdventurersGuideA5E|10|LevelUpAdventurersGuideA5E",
+					"classFeature": "Wizard Archetype Feature|Wizard|LevelUpA5E|10|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Signature Spell (2nd-level)|Wizard|LevelUpAdventurersGuideA5E|11|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Wizard|LevelUpAdventurersGuideA5E|12|LevelUpAdventurersGuideA5E",
-                "Bestow Magics|Wizard|LevelUpAdventurersGuideA5E|13|LevelUpAdventurersGuideA5E",
+				"Signature Spell (2nd-level)|Wizard|LevelUpA5E|11|LevelUpA5E",
+				"Ability Score Improvement|Wizard|LevelUpA5E|12|LevelUpA5E",
+                "Bestow Magics|Wizard|LevelUpA5E|13|LevelUpA5E",
 				{
-					"classFeature": "Wizard Archetype Feature|Wizard|LevelUpAdventurersGuideA5E|14|LevelUpAdventurersGuideA5E",
+					"classFeature": "Wizard Archetype Feature|Wizard|LevelUpA5E|14|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Arcane Defences|Wizard|LevelUpAdventurersGuideA5E|15|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Wizard|LevelUpAdventurersGuideA5E|16|LevelUpAdventurersGuideA5E",
-				"Signature Spell (3rd-level)|Wizard|LevelUpAdventurersGuideA5E|17|LevelUpAdventurersGuideA5E",
-				"Spell Intensity|Wizard|LevelUpAdventurersGuideA5E|18|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Wizard|LevelUpAdventurersGuideA5E|19|LevelUpAdventurersGuideA5E",
-				"Archmage|Wizard|LevelUpAdventurersGuideA5E|20|LevelUpAdventurersGuideA5E"
+				"Arcane Defences|Wizard|LevelUpA5E|15|LevelUpA5E",
+				"Ability Score Improvement|Wizard|LevelUpA5E|16|LevelUpA5E",
+				"Signature Spell (3rd-level)|Wizard|LevelUpA5E|17|LevelUpA5E",
+				"Spell Intensity|Wizard|LevelUpA5E|18|LevelUpA5E",
+				"Ability Score Improvement|Wizard|LevelUpA5E|19|LevelUpA5E",
+				"Archmage|Wizard|LevelUpA5E|20|LevelUpA5E"
 			],
 			"subclassTitle": "Wizard Archetype"
 		}
@@ -494,81 +494,81 @@
 		{
 			"name": "School of Abjuration",
 			"shortName": "Abjuration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 115,
 			"subclassFeatures": [
-				"School of Abjuration|Wizard|LevelUpAdventurersGuideA5E|Abjuration|LevelUpAdventurersGuideA5E|2",
-				"Projected Ward|Wizard|LevelUpAdventurersGuideA5E|Abjuration|LevelUpAdventurersGuideA5E|6",
-				"Improved Abjuration|Wizard|LevelUpAdventurersGuideA5E|Abjuration|LevelUpAdventurersGuideA5E|10",
-				"Spell Resistance|Wizard|LevelUpAdventurersGuideA5E|Abjuration|LevelUpAdventurersGuideA5E|14"
+				"School of Abjuration|Wizard|LevelUpA5E|Abjuration|LevelUpA5E|2",
+				"Projected Ward|Wizard|LevelUpA5E|Abjuration|LevelUpA5E|6",
+				"Improved Abjuration|Wizard|LevelUpA5E|Abjuration|LevelUpA5E|10",
+				"Spell Resistance|Wizard|LevelUpA5E|Abjuration|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "School of Conjuration",
 			"shortName": "Conjuration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 116,
 			"subclassFeatures": [
-				"School of Conjuration|Wizard|LevelUpAdventurersGuideA5E|Conjuration|LevelUpAdventurersGuideA5E|2",
-				"Benign Transposition|Wizard|LevelUpAdventurersGuideA5E|Conjuration|LevelUpAdventurersGuideA5E|6",
-				"Focused Conjuration|Wizard|LevelUpAdventurersGuideA5E|Conjuration|LevelUpAdventurersGuideA5E|10",
-				"Durable Summons|Wizard|LevelUpAdventurersGuideA5E|Conjuration|LevelUpAdventurersGuideA5E|14"
+				"School of Conjuration|Wizard|LevelUpA5E|Conjuration|LevelUpA5E|2",
+				"Benign Transposition|Wizard|LevelUpA5E|Conjuration|LevelUpA5E|6",
+				"Focused Conjuration|Wizard|LevelUpA5E|Conjuration|LevelUpA5E|10",
+				"Durable Summons|Wizard|LevelUpA5E|Conjuration|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "School of Divination",
 			"shortName": "Divination",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 116,
 			"subclassFeatures": [
-				"School of Divination|Wizard|LevelUpAdventurersGuideA5E|Divination|LevelUpAdventurersGuideA5E|2",
-				"Expert Divination|Wizard|LevelUpAdventurersGuideA5E|Divination|LevelUpAdventurersGuideA5E|6",
-				"The Third Eye|Wizard|LevelUpAdventurersGuideA5E|Divination|LevelUpAdventurersGuideA5E|10",
-				"Greater Portent|Wizard|LevelUpAdventurersGuideA5E|Divination|LevelUpAdventurersGuideA5E|14"
+				"School of Divination|Wizard|LevelUpA5E|Divination|LevelUpA5E|2",
+				"Expert Divination|Wizard|LevelUpA5E|Divination|LevelUpA5E|6",
+				"The Third Eye|Wizard|LevelUpA5E|Divination|LevelUpA5E|10",
+				"Greater Portent|Wizard|LevelUpA5E|Divination|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "School of Enchantment",
 			"shortName": "Enchantment",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 117,
 			"subclassFeatures": [
-				"School of Enchantment|Wizard|LevelUpAdventurersGuideA5E|Enchantment|LevelUpAdventurersGuideA5E|2",
-				"Instinctive Charm|Wizard|LevelUpAdventurersGuideA5E|Enchantment|LevelUpAdventurersGuideA5E|6",
-				"Split Enchantment|Wizard|LevelUpAdventurersGuideA5E|Enchantment|LevelUpAdventurersGuideA5E|10",
-				"Alter Memories|Wizard|LevelUpAdventurersGuideA5E|Enchantment|LevelUpAdventurersGuideA5E|14"
+				"School of Enchantment|Wizard|LevelUpA5E|Enchantment|LevelUpA5E|2",
+				"Instinctive Charm|Wizard|LevelUpA5E|Enchantment|LevelUpA5E|6",
+				"Split Enchantment|Wizard|LevelUpA5E|Enchantment|LevelUpA5E|10",
+				"Alter Memories|Wizard|LevelUpA5E|Enchantment|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "School of Evocation",
 			"shortName": "Evocation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 117,
 			"srd": true,
 			"basicRules": true,
 			"subclassFeatures": [
-				"School of Evocation|Wizard|LevelUpAdventurersGuideA5E|Evocation|LevelUpAdventurersGuideA5E|2",
-				"Potent Cantrip|Wizard|LevelUpAdventurersGuideA5E|Evocation|LevelUpAdventurersGuideA5E|6",
-				"Empowered Evocation|Wizard|LevelUpAdventurersGuideA5E|Evocation|LevelUpAdventurersGuideA5E|10",
-				"Overchannel|Wizard|LevelUpAdventurersGuideA5E|Evocation|LevelUpAdventurersGuideA5E|14"
+				"School of Evocation|Wizard|LevelUpA5E|Evocation|LevelUpA5E|2",
+				"Potent Cantrip|Wizard|LevelUpA5E|Evocation|LevelUpA5E|6",
+				"Empowered Evocation|Wizard|LevelUpA5E|Evocation|LevelUpA5E|10",
+				"Overchannel|Wizard|LevelUpA5E|Evocation|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "School of Illusion",
 			"shortName": "Illusion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 118,
 			"additionalSpells": [
 				{
@@ -580,274 +580,274 @@
 				}
 			],
 			"subclassFeatures": [
-				"School of Illusion|Wizard|LevelUpAdventurersGuideA5E|Illusion|LevelUpAdventurersGuideA5E|2",
-				"Malleable Illusions|Wizard|LevelUpAdventurersGuideA5E|Illusion|LevelUpAdventurersGuideA5E|6",
-				"Illusory Self|Wizard|LevelUpAdventurersGuideA5E|Illusion|LevelUpAdventurersGuideA5E|10",
-				"Illusory Reality|Wizard|LevelUpAdventurersGuideA5E|Illusion|LevelUpAdventurersGuideA5E|14"
+				"School of Illusion|Wizard|LevelUpA5E|Illusion|LevelUpA5E|2",
+				"Malleable Illusions|Wizard|LevelUpA5E|Illusion|LevelUpA5E|6",
+				"Illusory Self|Wizard|LevelUpA5E|Illusion|LevelUpA5E|10",
+				"Illusory Reality|Wizard|LevelUpA5E|Illusion|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "School of Necromancy",
 			"shortName": "Necromancy",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 118,
 			"subclassFeatures": [
-				"School of Necromancy|Wizard|LevelUpAdventurersGuideA5E|Necromancy|LevelUpAdventurersGuideA5E|2",
-				"Undead Thralls|Wizard|LevelUpAdventurersGuideA5E|Necromancy|LevelUpAdventurersGuideA5E|6",
-				"Inured to Undeath|Wizard|LevelUpAdventurersGuideA5E|Necromancy|LevelUpAdventurersGuideA5E|10",
-				"Command Undead|Wizard|LevelUpAdventurersGuideA5E|Necromancy|LevelUpAdventurersGuideA5E|14"
+				"School of Necromancy|Wizard|LevelUpA5E|Necromancy|LevelUpA5E|2",
+				"Undead Thralls|Wizard|LevelUpA5E|Necromancy|LevelUpA5E|6",
+				"Inured to Undeath|Wizard|LevelUpA5E|Necromancy|LevelUpA5E|10",
+				"Command Undead|Wizard|LevelUpA5E|Necromancy|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "School of Transmutation",
 			"shortName": "Transmutation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 119,
 			"subclassFeatures": [
-				"School of Transmutation|Wizard|LevelUpAdventurersGuideA5E|Transmutation|LevelUpAdventurersGuideA5E|2",
-				"Transmuter's Stone|Wizard|LevelUpAdventurersGuideA5E|Transmutation|LevelUpAdventurersGuideA5E|6",
-				"Shapechanger|Wizard|LevelUpAdventurersGuideA5E|Transmutation|LevelUpAdventurersGuideA5E|10",
-				"Master Transmuter|Wizard|LevelUpAdventurersGuideA5E|Transmutation|LevelUpAdventurersGuideA5E|14"
+				"School of Transmutation|Wizard|LevelUpA5E|Transmutation|LevelUpA5E|2",
+				"Transmuter's Stone|Wizard|LevelUpA5E|Transmutation|LevelUpA5E|6",
+				"Shapechanger|Wizard|LevelUpA5E|Transmutation|LevelUpA5E|10",
+				"Master Transmuter|Wizard|LevelUpA5E|Transmutation|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Artificer (UA)",
 			"shortName": "Artificer (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 3,
 			"subclassFeatures": [
-				"Artificer|Wizard|LevelUpAdventurersGuideA5E|Artificer (UA)|LevelUpAdventurersGuideA5E|2",
-				"Infuse Weapons and Armor|Wizard|LevelUpAdventurersGuideA5E|Artificer (UA)|LevelUpAdventurersGuideA5E|6",
-				"Superior Artificer|Wizard|LevelUpAdventurersGuideA5E|Artificer (UA)|LevelUpAdventurersGuideA5E|10",
-				"Master Artificer|Wizard|LevelUpAdventurersGuideA5E|Artificer (UA)|LevelUpAdventurersGuideA5E|14"
+				"Artificer|Wizard|LevelUpA5E|Artificer (UA)|LevelUpA5E|2",
+				"Infuse Weapons and Armor|Wizard|LevelUpA5E|Artificer (UA)|LevelUpA5E|6",
+				"Superior Artificer|Wizard|LevelUpA5E|Artificer (UA)|LevelUpA5E|10",
+				"Master Artificer|Wizard|LevelUpA5E|Artificer (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Technomancy (UA)",
 			"shortName": "Technomancy (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 3,
 			"subclassFeatures": [
-				"Technomancy|Wizard|LevelUpAdventurersGuideA5E|Technomancy (UA)|LevelUpAdventurersGuideA5E|2",
-				"Program Spell|Wizard|LevelUpAdventurersGuideA5E|Technomancy (UA)|LevelUpAdventurersGuideA5E|6",
-				"Online Casting|Wizard|LevelUpAdventurersGuideA5E|Technomancy (UA)|LevelUpAdventurersGuideA5E|10",
-				"Chained Device|Wizard|LevelUpAdventurersGuideA5E|Technomancy (UA)|LevelUpAdventurersGuideA5E|14"
+				"Technomancy|Wizard|LevelUpA5E|Technomancy (UA)|LevelUpA5E|2",
+				"Program Spell|Wizard|LevelUpA5E|Technomancy (UA)|LevelUpA5E|6",
+				"Online Casting|Wizard|LevelUpA5E|Technomancy (UA)|LevelUpA5E|10",
+				"Chained Device|Wizard|LevelUpA5E|Technomancy (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Lore Mastery (UA)",
 			"shortName": "Lore Mastery (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 5,
 			"subclassFeatures": [
-				"Lore Mastery|Wizard|LevelUpAdventurersGuideA5E|Lore Mastery (UA)|LevelUpAdventurersGuideA5E|2",
-				"Alchemical Casting|Wizard|LevelUpAdventurersGuideA5E|Lore Mastery (UA)|LevelUpAdventurersGuideA5E|6",
-				"Prodigious Memory|Wizard|LevelUpAdventurersGuideA5E|Lore Mastery (UA)|LevelUpAdventurersGuideA5E|10",
-				"Master of Magic|Wizard|LevelUpAdventurersGuideA5E|Lore Mastery (UA)|LevelUpAdventurersGuideA5E|14"
+				"Lore Mastery|Wizard|LevelUpA5E|Lore Mastery (UA)|LevelUpA5E|2",
+				"Alchemical Casting|Wizard|LevelUpA5E|Lore Mastery (UA)|LevelUpA5E|6",
+				"Prodigious Memory|Wizard|LevelUpA5E|Lore Mastery (UA)|LevelUpA5E|10",
+				"Master of Magic|Wizard|LevelUpA5E|Lore Mastery (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Theurgy (UA)",
 			"shortName": "Theurgy (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 1,
 			"subclassFeatures": [
-				"Theurgy|Wizard|LevelUpAdventurersGuideA5E|Theurgy (UA)|LevelUpAdventurersGuideA5E|2",
-				"Arcane Acolyte|Wizard|LevelUpAdventurersGuideA5E|Theurgy (UA)|LevelUpAdventurersGuideA5E|6",
-				"Arcane Priest|Wizard|LevelUpAdventurersGuideA5E|Theurgy (UA)|LevelUpAdventurersGuideA5E|10",
-				"Arcane High Priest|Wizard|LevelUpAdventurersGuideA5E|Theurgy (UA)|LevelUpAdventurersGuideA5E|14"
+				"Theurgy|Wizard|LevelUpA5E|Theurgy (UA)|LevelUpA5E|2",
+				"Arcane Acolyte|Wizard|LevelUpA5E|Theurgy (UA)|LevelUpA5E|6",
+				"Arcane Priest|Wizard|LevelUpA5E|Theurgy (UA)|LevelUpA5E|10",
+				"Arcane High Priest|Wizard|LevelUpA5E|Theurgy (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "War Magic (UA)",
 			"shortName": "War (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"War Magic|Wizard|LevelUpAdventurersGuideA5E|War (UA)|LevelUpAdventurersGuideA5E|2",
-				"Power Surge|Wizard|LevelUpAdventurersGuideA5E|War (UA)|LevelUpAdventurersGuideA5E|6",
-				"Durable Magic|Wizard|LevelUpAdventurersGuideA5E|War (UA)|LevelUpAdventurersGuideA5E|10",
-				"Durable Magic|Wizard|LevelUpAdventurersGuideA5E|War (UA)|LevelUpAdventurersGuideA5E|14"
+				"War Magic|Wizard|LevelUpA5E|War (UA)|LevelUpA5E|2",
+				"Power Surge|Wizard|LevelUpA5E|War (UA)|LevelUpA5E|6",
+				"Durable Magic|Wizard|LevelUpA5E|War (UA)|LevelUpA5E|10",
+				"Durable Magic|Wizard|LevelUpA5E|War (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "War Magic",
 			"shortName": "War",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 59,
 			"subclassFeatures": [
-				"War Magic|Wizard|LevelUpAdventurersGuideA5E|War|LevelUpAdventurersGuideA5E|2",
-				"Power Surge|Wizard|LevelUpAdventurersGuideA5E|War|LevelUpAdventurersGuideA5E|6",
-				"Durable Magic|Wizard|LevelUpAdventurersGuideA5E|War|LevelUpAdventurersGuideA5E|10",
-				"Deflecting Shroud|Wizard|LevelUpAdventurersGuideA5E|War|LevelUpAdventurersGuideA5E|14"
+				"War Magic|Wizard|LevelUpA5E|War|LevelUpA5E|2",
+				"Power Surge|Wizard|LevelUpA5E|War|LevelUpA5E|6",
+				"Durable Magic|Wizard|LevelUpA5E|War|LevelUpA5E|10",
+				"Deflecting Shroud|Wizard|LevelUpA5E|War|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "School of Invention (UA)",
 			"shortName": "Invention (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 2,
 			"subclassFeatures": [
-				"School of Invention|Wizard|LevelUpAdventurersGuideA5E|Invention (UA)|LevelUpAdventurersGuideA5E|2",
-				"Alchemical Casting|Wizard|LevelUpAdventurersGuideA5E|Invention (UA)|LevelUpAdventurersGuideA5E|6",
-				"Prodigious Inspiration|Wizard|LevelUpAdventurersGuideA5E|Invention (UA)|LevelUpAdventurersGuideA5E|10",
-				"Controlled Chaos|Wizard|LevelUpAdventurersGuideA5E|Invention (UA)|LevelUpAdventurersGuideA5E|14"
+				"School of Invention|Wizard|LevelUpA5E|Invention (UA)|LevelUpA5E|2",
+				"Alchemical Casting|Wizard|LevelUpA5E|Invention (UA)|LevelUpA5E|6",
+				"Prodigious Inspiration|Wizard|LevelUpA5E|Invention (UA)|LevelUpA5E|10",
+				"Controlled Chaos|Wizard|LevelUpA5E|Invention (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Onomancy (UA)",
 			"shortName": "Onomancy (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 4,
 			"subclassFeatures": [
-				"Onomancy|Wizard|LevelUpAdventurersGuideA5E|Onomancy (UA)|LevelUpAdventurersGuideA5E|2",
-				"Resonant Utterance|Wizard|LevelUpAdventurersGuideA5E|Onomancy (UA)|LevelUpAdventurersGuideA5E|6",
-				"Inexorable Pronouncement|Wizard|LevelUpAdventurersGuideA5E|Onomancy (UA)|LevelUpAdventurersGuideA5E|10",
-				"Relentless Naming|Wizard|LevelUpAdventurersGuideA5E|Onomancy (UA)|LevelUpAdventurersGuideA5E|14"
+				"Onomancy|Wizard|LevelUpA5E|Onomancy (UA)|LevelUpA5E|2",
+				"Resonant Utterance|Wizard|LevelUpA5E|Onomancy (UA)|LevelUpA5E|6",
+				"Inexorable Pronouncement|Wizard|LevelUpA5E|Onomancy (UA)|LevelUpA5E|10",
+				"Relentless Naming|Wizard|LevelUpA5E|Onomancy (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Psionics (UA)",
 			"shortName": "Psionics (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 3,
 			"subclassFeatures": [
-				"Psionics|Wizard|LevelUpAdventurersGuideA5E|Psionics (UA)|LevelUpAdventurersGuideA5E|2",
-				"Thought Form|Wizard|LevelUpAdventurersGuideA5E|Psionics (UA)|LevelUpAdventurersGuideA5E|6",
-				"Mental Discipline|Wizard|LevelUpAdventurersGuideA5E|Psionics (UA)|LevelUpAdventurersGuideA5E|10",
-				"Empowered Psionics|Wizard|LevelUpAdventurersGuideA5E|Psionics (UA)|LevelUpAdventurersGuideA5E|10",
-				"Thought Travel|Wizard|LevelUpAdventurersGuideA5E|Psionics (UA)|LevelUpAdventurersGuideA5E|14"
+				"Psionics|Wizard|LevelUpA5E|Psionics (UA)|LevelUpA5E|2",
+				"Thought Form|Wizard|LevelUpA5E|Psionics (UA)|LevelUpA5E|6",
+				"Mental Discipline|Wizard|LevelUpA5E|Psionics (UA)|LevelUpA5E|10",
+				"Empowered Psionics|Wizard|LevelUpA5E|Psionics (UA)|LevelUpA5E|10",
+				"Thought Travel|Wizard|LevelUpA5E|Psionics (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Chronurgy Magic",
 			"shortName": "Chronurgy",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 184,
 			"subclassFeatures": [
-				"Chronurgy Magic|Wizard|LevelUpAdventurersGuideA5E|Chronurgy|LevelUpAdventurersGuideA5E|2",
-				"Momentary Stasis|Wizard|LevelUpAdventurersGuideA5E|Chronurgy|LevelUpAdventurersGuideA5E|6",
-				"Arcane Abeyance|Wizard|LevelUpAdventurersGuideA5E|Chronurgy|LevelUpAdventurersGuideA5E|10",
-				"Convergent Future|Wizard|LevelUpAdventurersGuideA5E|Chronurgy|LevelUpAdventurersGuideA5E|14"
+				"Chronurgy Magic|Wizard|LevelUpA5E|Chronurgy|LevelUpA5E|2",
+				"Momentary Stasis|Wizard|LevelUpA5E|Chronurgy|LevelUpA5E|6",
+				"Arcane Abeyance|Wizard|LevelUpA5E|Chronurgy|LevelUpA5E|10",
+				"Convergent Future|Wizard|LevelUpA5E|Chronurgy|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Graviturgy Magic",
 			"shortName": "Graviturgy",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 185,
 			"subclassFeatures": [
-				"Graviturgy Magic|Wizard|LevelUpAdventurersGuideA5E|Graviturgy|LevelUpAdventurersGuideA5E|2",
-				"Gravity Well|Wizard|LevelUpAdventurersGuideA5E|Graviturgy|LevelUpAdventurersGuideA5E|6",
-				"Violent Attraction|Wizard|LevelUpAdventurersGuideA5E|Graviturgy|LevelUpAdventurersGuideA5E|10",
-				"Event Horizon|Wizard|LevelUpAdventurersGuideA5E|Graviturgy|LevelUpAdventurersGuideA5E|14"
+				"Graviturgy Magic|Wizard|LevelUpA5E|Graviturgy|LevelUpA5E|2",
+				"Gravity Well|Wizard|LevelUpA5E|Graviturgy|LevelUpA5E|6",
+				"Violent Attraction|Wizard|LevelUpA5E|Graviturgy|LevelUpA5E|10",
+				"Event Horizon|Wizard|LevelUpA5E|Graviturgy|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Order of Scribes (UA)",
 			"shortName": "Scribes (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 4,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Order of Scribes|Wizard|LevelUpAdventurersGuideA5E|Scribes (UA)|LevelUpAdventurersGuideA5E|2",
-				"Master Scrivener|Wizard|LevelUpAdventurersGuideA5E|Scribes (UA)|LevelUpAdventurersGuideA5E|6",
-				"Manifest Mind|Wizard|LevelUpAdventurersGuideA5E|Scribes (UA)|LevelUpAdventurersGuideA5E|10",
-				"One with the Word|Wizard|LevelUpAdventurersGuideA5E|Scribes (UA)|LevelUpAdventurersGuideA5E|14"
+				"Order of Scribes|Wizard|LevelUpA5E|Scribes (UA)|LevelUpA5E|2",
+				"Master Scrivener|Wizard|LevelUpA5E|Scribes (UA)|LevelUpA5E|6",
+				"Manifest Mind|Wizard|LevelUpA5E|Scribes (UA)|LevelUpA5E|10",
+				"One with the Word|Wizard|LevelUpA5E|Scribes (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Bladesinging",
 			"shortName": "Bladesinging",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 76,
 			"subclassFeatures": [
-				"Bladesinging|Wizard|LevelUpAdventurersGuideA5E|Bladesinging|LevelUpAdventurersGuideA5E|2",
-				"Extra Attack|Wizard|LevelUpAdventurersGuideA5E|Bladesinging|LevelUpAdventurersGuideA5E|6",
-				"Song of Defense|Wizard|LevelUpAdventurersGuideA5E|Bladesinging|LevelUpAdventurersGuideA5E|10",
-				"Song of Victory|Wizard|LevelUpAdventurersGuideA5E|Bladesinging|LevelUpAdventurersGuideA5E|14"
+				"Bladesinging|Wizard|LevelUpA5E|Bladesinging|LevelUpA5E|2",
+				"Extra Attack|Wizard|LevelUpA5E|Bladesinging|LevelUpA5E|6",
+				"Song of Defense|Wizard|LevelUpA5E|Bladesinging|LevelUpA5E|10",
+				"Song of Victory|Wizard|LevelUpA5E|Bladesinging|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Order of Scribes",
 			"shortName": "Scribes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 77,
 			"subclassFeatures": [
-				"Order of Scribes|Wizard|LevelUpAdventurersGuideA5E|Scribes|LevelUpAdventurersGuideA5E|2",
-				"Manifest Mind|Wizard|LevelUpAdventurersGuideA5E|Scribes|LevelUpAdventurersGuideA5E|6",
-				"Master Scrivener|Wizard|LevelUpAdventurersGuideA5E|Scribes|LevelUpAdventurersGuideA5E|10",
-				"One with the Word|Wizard|LevelUpAdventurersGuideA5E|Scribes|LevelUpAdventurersGuideA5E|14"
+				"Order of Scribes|Wizard|LevelUpA5E|Scribes|LevelUpA5E|2",
+				"Manifest Mind|Wizard|LevelUpA5E|Scribes|LevelUpA5E|6",
+				"Master Scrivener|Wizard|LevelUpA5E|Scribes|LevelUpA5E|10",
+				"One with the Word|Wizard|LevelUpA5E|Scribes|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Runecrafter (UA)",
 			"shortName": "Runecrafter (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 3,
 			"subclassFeatures": [
-				"Runecrafter|Wizard|LevelUpAdventurersGuideA5E|Runecrafter (UA)|LevelUpAdventurersGuideA5E|2",
-				"Sigils of Warding|Wizard|LevelUpAdventurersGuideA5E|Runecrafter (UA)|LevelUpAdventurersGuideA5E|6",
-				"Rune Maven|Wizard|LevelUpAdventurersGuideA5E|Runecrafter (UA)|LevelUpAdventurersGuideA5E|10",
-				"Engraved Enmity|Wizard|LevelUpAdventurersGuideA5E|Runecrafter (UA)|LevelUpAdventurersGuideA5E|14"
+				"Runecrafter|Wizard|LevelUpA5E|Runecrafter (UA)|LevelUpA5E|2",
+				"Sigils of Warding|Wizard|LevelUpA5E|Runecrafter (UA)|LevelUpA5E|6",
+				"Rune Maven|Wizard|LevelUpA5E|Runecrafter (UA)|LevelUpA5E|10",
+				"Engraved Enmity|Wizard|LevelUpA5E|Runecrafter (UA)|LevelUpA5E|14"
 			]
 		},
 		{
 			"name": "Eldritch Archer",
 			"shortName": "Eldritch Archer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Restricted|Wizard|LevelUpAdventurersGuideA5E|Eldritch Archer|LevelUpAdventurersGuideA5E|2",
-				"Eldritch Foundations|Wizard|LevelUpAdventurersGuideA5E|Eldritch Archer|LevelUpAdventurersGuideA5E|2",
-				"Arrow Enchanter|Wizard|LevelUpAdventurersGuideA5E|Eldritch Archer|LevelUpAdventurersGuideA5E|6",
-				"Volley Master|Wizard|LevelUpAdventurersGuideA5E|Eldritch Archer|LevelUpAdventurersGuideA5E|10",
-				"14th Level Feature|Wizard|LevelUpAdventurersGuideA5E|Eldritch Archer|LevelUpAdventurersGuideA5E|14"
+				"Restricted|Wizard|LevelUpA5E|Eldritch Archer|LevelUpA5E|2",
+				"Eldritch Foundations|Wizard|LevelUpA5E|Eldritch Archer|LevelUpA5E|2",
+				"Arrow Enchanter|Wizard|LevelUpA5E|Eldritch Archer|LevelUpA5E|6",
+				"Volley Master|Wizard|LevelUpA5E|Eldritch Archer|LevelUpA5E|10",
+				"14th Level Feature|Wizard|LevelUpA5E|Eldritch Archer|LevelUpA5E|14"
 			]
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Spellcasting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter wizard spell list|spells|class=wizard}.",
@@ -936,7 +936,7 @@
 										{
 											"type": "entries",
 											"name": "Copying from a Spell Scroll",
-											"source": "LevelUpAdventurersGuideA5E",
+											"source": "LevelUpA5E",
 											"page": 139,
 											"entries": [
 												"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When you copy a spell from a spell scroll, you must succeed on an Intelligence ({@skill Arcana}) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
@@ -977,9 +977,9 @@
 		},
 		{
 			"name": "Arcane Recovery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"From 1st level, once per day when you finish a short rest, you can chosoe expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th-level or higher."
@@ -987,9 +987,9 @@
 		},
 		{
 			"name": "Wizard Archetype",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you choose a tradition of magic that you have dedicated your studies to. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
@@ -997,9 +997,9 @@
 		},
 		{
 			"name": "Wizard Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain a feature from your chosen wizard archetype."
@@ -1007,9 +1007,9 @@
 		},
 		{
 			"name": "Wizard Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain a feature from your chosen wizard archetype."
@@ -1017,9 +1017,9 @@
 		},
 		{
 			"name": "Wizard Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain a feature from your chosen wizard archetype."
@@ -1027,9 +1027,9 @@
 		},
 		{
 			"name": "Scholarly Excellence",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you have a particular set of skills that sets you a cut above a novice mage. Choose one of the following:",
@@ -1059,9 +1059,9 @@
 		},
 		{
 			"name": "Elective Studies",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 4,
 			"entries": [
 				"Your study of magic has uncovered unique ways to explore the world. At 4th level you gain one {@filter elective study|optionalfeatures|feature type=es} of your choice. The Studies Known column of the Wizard table shows when you learn more elective studies. Unless otherwise noted, you can gain each study only once."
@@ -1069,9 +1069,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increases one ability score of your choice by 2, or your can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1079,9 +1079,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increases one ability score of your choice by 2, or your can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1089,9 +1089,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increases one ability score of your choice by 2, or your can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1099,9 +1099,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increases one ability score of your choice by 2, or your can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1109,9 +1109,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increases one ability score of your choice by 2, or your can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1119,9 +1119,9 @@
 		},
 		{
 			"name": "Signature Spell (1st-level)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 5,
 			"entries": [
 				"At 5th level, you have developed your spellcasting skill and honed it into spells that you consider to be your Signature Spells.",
@@ -1131,9 +1131,9 @@
 		},
 		{
 			"name": "Signature Spell (2nd-level)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 11,
 			"entries": [
 				"At 11th level, you learn another Signature Spell, which must be a {@filter 2nd-level wizard spell|spells|level=2|class=Wizard} that is in your spellbook."
@@ -1141,9 +1141,9 @@
 		},
 		{
 			"name": "Signature Spell (3rd-level)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 17,
 			"entries": [
 				"At 17th level, you learn another Signature Spell, which must be a {@filter 3rd-level wizard spell|spells|level=3|class=Wizard} that is in your spellbook."
@@ -1151,9 +1151,9 @@
 		},
 		{
 			"name": "Spell Study",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 7,
 			"entries": [
 				"At 7th level, you learn to hone your magic and spells to new power levels thanks to your dedicated studies. Choose one Spell Study that reflects what you have dedicated your arcane studies to.",
@@ -1161,8 +1161,8 @@
 					"type": "entries",
 					"name": "Arcane Objects",
 					"entries": [
-						"When you touch a magic item, either willingly or when hit by it, you are immediately aware that it is magical. If you hold such an item in your hand, you can cast {@spell identify|LevelUpAdventurersGuideA5E} on it as an action without spending a spell slot, even if you don't have the spell prepared.",
-						"In addition, when you cast {@spell identify|LevelUpAdventurersGuideA5E} using a spell slot or as a ritual, you also learn if the item is cursed, and the DM will give you a hint as to the curse's effects (which may be cryptic and vague, but must not be a lie)."
+						"When you touch a magic item, either willingly or when hit by it, you are immediately aware that it is magical. If you hold such an item in your hand, you can cast {@spell identify|LevelUpA5E} on it as an action without spending a spell slot, even if you don't have the spell prepared.",
+						"In addition, when you cast {@spell identify|LevelUpA5E} using a spell slot or as a ritual, you also learn if the item is cursed, and the DM will give you a hint as to the curse's effects (which may be cryptic and vague, but must not be a lie)."
 					]
 				},
 				{
@@ -1170,7 +1170,7 @@
 					"name": "Detective Spell Study",
 					"entries": [
 						"You are adept at sensing magic and its effects. If there are active magical effects near you, such as a spell effect on an object or a spell effect in an area, you automatically sense its presence. You don't know what spell effects there are or where they are, but you can automatically sense the effect of magic in a 20-foot radius around you.",
-						"In addition, you have honed your detection spells. Add {@spell detect magic|LevelUpAdventurersGuideA5E} and {@spell detect thoughts|LevelUpAdventurersGuideA5E} to your spellbook if they weren't already there. Whenever you cast {@spell detect magic|LevelUpAdventurersGuideA5E}, the range that you can sense magic is increased to 60 feet. Whenever you cast {@spell detect thoughts|LevelUpAdventurersGuideA5E}, the range of creatures that you can read thoughts from is increased to 60 feet."
+						"In addition, you have honed your detection spells. Add {@spell detect magic|LevelUpA5E} and {@spell detect thoughts|LevelUpA5E} to your spellbook if they weren't already there. Whenever you cast {@spell detect magic|LevelUpA5E}, the range that you can sense magic is increased to 60 feet. Whenever you cast {@spell detect thoughts|LevelUpA5E}, the range of creatures that you can read thoughts from is increased to 60 feet."
 					]
 				},
 				{
@@ -1184,9 +1184,9 @@
 		},
 		{
 			"name": "Wizard's Flair",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"At 9th level, you have created a flair that you use when casting spells. Choose a flair from the options below. When you finish a long rest, you may replace your flair with another.",
@@ -1223,9 +1223,9 @@
 		},
 		{
 			"name": "Bestow Magics",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 13,
 			"entries": [
 				"At 13th level, your understanding of magic is so thorough that you can even grant it to others. You can spend 1 minute touching a willing creature and concentrating, spending a spell slot of 3rd-level or lower. When you do, choose a spell you have prepared of that level or lower. The creature can cast the spell using the slot you expended, following its normal rules for casting time, spell components, range, and concentration, but using your spellcasting ability modifier, spell attack modifier, adn spell save DC. You can only have one spell imbued at a time, and if you bestow a spell upon a different creature the previous spell dissipates, its magic unspent and the spell slot used to imbue it expended."
@@ -1233,9 +1233,9 @@
 		},
 		{
 			"name": "Arcane Defences",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 15,
 			"entries": [
 				"At 15th level, your training has granted you certain protections against magic. Choose one of the following:",
@@ -1257,7 +1257,7 @@
 					"type": "entries",
 					"name": "Superior Countermagic",
 					"entries": [
-						"When you make an ability check as part of casting {@spell counterspell|LevelUpAdventurersGuideA5E} or {@spell dispel magic|LevelUpAdventurersGuideA5E}, you add your proficiency bonus to the roll.",
+						"When you make an ability check as part of casting {@spell counterspell|LevelUpA5E} or {@spell dispel magic|LevelUpA5E}, you add your proficiency bonus to the roll.",
 						"In addition, when you cast one of these spells, treat the spell slot level of the spell as one level higher than the actual slot you spent. The slot you use to cast the spell must still be at least 3rd-level."
 					]
 				}
@@ -1265,9 +1265,9 @@
 		},
 		{
 			"name": "Spell Intensity",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain new ways to intensify the power of your spells, sometimes at cost to yourself. Choose one of the following features, which can be used to augment your wizard spells of 5th-level or lower. You must choose whether or not to augment the spell when you declare you're casting it, before any rolls are made.",
@@ -1283,7 +1283,7 @@
 					"type": "entries",
 					"name": "Burn",
 					"entries": [
-						"Any creature that takes damage from the spell takes that damage again at the start of your next turn, unless a {@spell dispel magic|LevelUpAdventurersGuideA5E} spell of any level is cast on it before then or it's in an {@spell antimagic field|LevelUpAdventurersGuideA5E} at the time."
+						"Any creature that takes damage from the spell takes that damage again at the start of your next turn, unless a {@spell dispel magic|LevelUpA5E} spell of any level is cast on it before then or it's in an {@spell antimagic field|LevelUpA5E} at the time."
 					]
 				},
 				{
@@ -1311,9 +1311,9 @@
 		},
 		{
 			"name": "Swift Signature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 19,
 			"entries": [
 				"At 19th level, you're especially efficient with your Signature Spells. When you cast a spell that has a casting time of 1 action using your Signature Spell feature, you can cast it as a bonus action instead."
@@ -1321,9 +1321,9 @@
 		},
 		{
 			"name": "Archmage",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 20,
 			"entries": [
 				"At 20th level, you have achieved a rare level of achievement and prestige, gaining the following features.",
@@ -1348,33 +1348,33 @@
 	"subclassFeature": [
 		{
 			"name": "Chronurgy Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 184,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Chronurgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory dunamis energy, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Chronal Shift|Wizard|LevelUpAdventurersGuideA5E|Chronurgy|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Chronal Shift|Wizard|LevelUpA5E|Chronurgy|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Temporal Awareness|Wizard|LevelUpAdventurersGuideA5E|Chronurgy|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Temporal Awareness|Wizard|LevelUpA5E|Chronurgy|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Chronal Shift",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 184,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Chronurgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1385,12 +1385,12 @@
 		},
 		{
 			"name": "Temporal Awareness",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 184,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Chronurgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1400,12 +1400,12 @@
 		},
 		{
 			"name": "Momentary Stasis",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 184,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Chronurgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1416,12 +1416,12 @@
 		},
 		{
 			"name": "Arcane Abeyance",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 184,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Chronurgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1433,12 +1433,12 @@
 		},
 		{
 			"name": "Convergent Future",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 184,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Chronurgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1449,29 +1449,29 @@
 		},
 		{
 			"name": "Graviturgy Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 185,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Graviturgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Understanding and mastering the forces that draw bodies of matter together or drive them apart, the students of the Graviturgy arcane tradition learn to further bend and manipulate the violent energy of gravity to their benefit, and the terrible detriment of their enemies.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Adjust Density|Wizard|LevelUpAdventurersGuideA5E|Graviturgy|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Adjust Density|Wizard|LevelUpA5E|Graviturgy|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Adjust Density",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 185,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Graviturgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1483,12 +1483,12 @@
 		},
 		{
 			"name": "Gravity Well",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 185,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Graviturgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1498,12 +1498,12 @@
 		},
 		{
 			"name": "Violent Attraction",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 185,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Graviturgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1515,12 +1515,12 @@
 		},
 		{
 			"name": "Event Horizon",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 185,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Graviturgy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1531,34 +1531,34 @@
 		},
 		{
 			"name": "School of Abjuration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 115,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"The School of Abjuration emphasizes magic that blocks, banishes, or protects. Detractors of this school say that its tradition is about denial, negation rather than positive assertion. You understand, however, that ending harmful effects, protecting the weak, and banishing evil influences is anything but a philosophical void. It is a proud and respected vocation.",
 				"Called abjurers, members of this school are sought when baleful spirits require exorcism, when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Abjuration Savant|Wizard|LevelUpAdventurersGuideA5E|Abjuration|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Abjuration Savant|Wizard|LevelUpA5E|Abjuration|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Ward|Wizard|LevelUpAdventurersGuideA5E|Abjuration|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Arcane Ward|Wizard|LevelUpA5E|Abjuration|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Abjuration Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 115,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1567,12 +1567,12 @@
 		},
 		{
 			"name": "Arcane Ward",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 115,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1583,12 +1583,12 @@
 		},
 		{
 			"name": "Projected Ward",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 115,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1597,12 +1597,12 @@
 		},
 		{
 			"name": "Improved Abjuration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 115,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1611,12 +1611,12 @@
 		},
 		{
 			"name": "Spell Resistance",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 115,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1626,33 +1626,33 @@
 		},
 		{
 			"name": "School of Conjuration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Conjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Conjuration Savant|Wizard|LevelUpAdventurersGuideA5E|Conjuration|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Conjuration Savant|Wizard|LevelUpA5E|Conjuration|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Minor Conjuration|Wizard|LevelUpAdventurersGuideA5E|Conjuration|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Minor Conjuration|Wizard|LevelUpA5E|Conjuration|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Conjuration Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Conjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1661,12 +1661,12 @@
 		},
 		{
 			"name": "Minor Conjuration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Conjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1676,12 +1676,12 @@
 		},
 		{
 			"name": "Benign Transposition",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Conjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1691,12 +1691,12 @@
 		},
 		{
 			"name": "Focused Conjuration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Conjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1705,12 +1705,12 @@
 		},
 		{
 			"name": "Durable Summons",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Conjuration",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1719,33 +1719,33 @@
 		},
 		{
 			"name": "School of Divination",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divination",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divination Savant|Wizard|LevelUpAdventurersGuideA5E|Divination|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Divination Savant|Wizard|LevelUpA5E|Divination|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Portent|Wizard|LevelUpAdventurersGuideA5E|Divination|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Portent|Wizard|LevelUpA5E|Divination|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Divination Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divination",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1754,12 +1754,12 @@
 		},
 		{
 			"name": "Portent",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divination",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1769,12 +1769,12 @@
 		},
 		{
 			"name": "Expert Divination",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divination",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1783,12 +1783,12 @@
 		},
 		{
 			"name": "The Third Eye",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divination",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1830,12 +1830,12 @@
 		},
 		{
 			"name": "Greater Portent",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 116,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Divination",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1844,33 +1844,33 @@
 		},
 		{
 			"name": "School of Enchantment",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enchantment",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enchantment Savant|Wizard|LevelUpAdventurersGuideA5E|Enchantment|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Enchantment Savant|Wizard|LevelUpA5E|Enchantment|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hypnotic Gaze|Wizard|LevelUpAdventurersGuideA5E|Enchantment|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Hypnotic Gaze|Wizard|LevelUpA5E|Enchantment|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Enchantment Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enchantment",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1879,12 +1879,12 @@
 		},
 		{
 			"name": "Hypnotic Gaze",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enchantment",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1895,12 +1895,12 @@
 		},
 		{
 			"name": "Instinctive Charm",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enchantment",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1910,12 +1910,12 @@
 		},
 		{
 			"name": "Split Enchantment",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enchantment",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1924,12 +1924,12 @@
 		},
 		{
 			"name": "Alter Memories",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Enchantment",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1939,37 +1939,37 @@
 		},
 		{
 			"name": "School of Evocation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"srd": true,
 			"basicRules": true,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Evocation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Evocation Savant|Wizard|LevelUpAdventurersGuideA5E|Evocation|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Evocation Savant|Wizard|LevelUpA5E|Evocation|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sculpt Spells|Wizard|LevelUpAdventurersGuideA5E|Evocation|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Sculpt Spells|Wizard|LevelUpA5E|Evocation|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Evocation Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"srd": true,
 			"basicRules": true,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Evocation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1978,14 +1978,14 @@
 		},
 		{
 			"name": "Sculpt Spells",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"srd": true,
 			"basicRules": true,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Evocation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -1994,14 +1994,14 @@
 		},
 		{
 			"name": "Potent Cantrip",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"srd": true,
 			"basicRules": true,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Evocation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2010,14 +2010,14 @@
 		},
 		{
 			"name": "Empowered Evocation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"srd": true,
 			"basicRules": true,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Evocation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2026,14 +2026,14 @@
 		},
 		{
 			"name": "Overchannel",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 117,
 			"srd": true,
 			"basicRules": true,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Evocation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2043,33 +2043,33 @@
 		},
 		{
 			"name": "School of Illusion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Illusion",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. Some illusionists\u2014including many gnome wizards\u2014are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Illusion Savant|Wizard|LevelUpAdventurersGuideA5E|Illusion|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Illusion Savant|Wizard|LevelUpA5E|Illusion|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Improved Minor Illusion|Wizard|LevelUpAdventurersGuideA5E|Illusion|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Improved Minor Illusion|Wizard|LevelUpA5E|Illusion|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Illusion Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Illusion",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2078,12 +2078,12 @@
 		},
 		{
 			"name": "Improved Minor Illusion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Illusion",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2093,12 +2093,12 @@
 		},
 		{
 			"name": "Malleable Illusions",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Illusion",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2107,12 +2107,12 @@
 		},
 		{
 			"name": "Illusory Self",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Illusion",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2122,12 +2122,12 @@
 		},
 		{
 			"name": "Illusory Reality",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Illusion",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2137,34 +2137,34 @@
 		},
 		{
 			"name": "School of Necromancy",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Necromancy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. As you progress, you learn to sap the life force from a creature as your magic destroys its body, transforming that vital energy into magical power you can manipulate.",
 				"Most people see necromancers as menacing, or even villainous, due to the close association with death. Not all necromancers are evil, but the forces they manipulate are considered taboo by many societies.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Necromancy Savant|Wizard|LevelUpAdventurersGuideA5E|Necromancy|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Necromancy Savant|Wizard|LevelUpA5E|Necromancy|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Grim Harvest|Wizard|LevelUpAdventurersGuideA5E|Necromancy|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Grim Harvest|Wizard|LevelUpA5E|Necromancy|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Grim Harvest",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Necromancy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2173,12 +2173,12 @@
 		},
 		{
 			"name": "Necromancy Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Necromancy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2187,12 +2187,12 @@
 		},
 		{
 			"name": "Undead Thralls",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Necromancy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2209,12 +2209,12 @@
 		},
 		{
 			"name": "Inured to Undeath",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Necromancy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2223,12 +2223,12 @@
 		},
 		{
 			"name": "Command Undead",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 118,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Necromancy",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2238,34 +2238,34 @@
 		},
 		{
 			"name": "School of Transmutation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 119,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Transmutation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality's forge.",
 				"Some transmuters are tinkerers and pranksters, turning people into toads and transforming copper into silver for fun and occasional profit. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Transmutation Savant|Wizard|LevelUpAdventurersGuideA5E|Transmutation|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Transmutation Savant|Wizard|LevelUpA5E|Transmutation|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Minor Alchemy|Wizard|LevelUpAdventurersGuideA5E|Transmutation|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Minor Alchemy|Wizard|LevelUpA5E|Transmutation|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Minor Alchemy",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 119,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Transmutation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2274,12 +2274,12 @@
 		},
 		{
 			"name": "Transmutation Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 119,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Transmutation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2288,12 +2288,12 @@
 		},
 		{
 			"name": "Transmuter's Stone",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 119,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Transmutation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2313,12 +2313,12 @@
 		},
 		{
 			"name": "Shapechanger",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 119,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Transmutation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2328,12 +2328,12 @@
 		},
 		{
 			"name": "Master Transmuter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 119,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Transmutation",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2375,38 +2375,38 @@
 		},
 		{
 			"name": "Bladesinging",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 76,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Bladesinging",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Bladesingers master a tradition of wizardry that incorporates swordplay and dance. Originally created by elves, this tradition has been adopted by non-elf practitioners, who honor and expand on the elven ways.",
 				"In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a bladesinger at work remember the display as one of the more beautiful experiences in their life, a glorious dance accompanied by a singing blade.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Training in War and Song (Bladesinging)|Wizard|LevelUpAdventurersGuideA5E|Bladesinging|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Training in War and Song (Bladesinging)|Wizard|LevelUpA5E|Bladesinging|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bladesong|Wizard|LevelUpAdventurersGuideA5E|Bladesinging|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Bladesong|Wizard|LevelUpA5E|Bladesinging|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bladesinger Styles|Wizard|LevelUpAdventurersGuideA5E|Bladesinging|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Bladesinger Styles|Wizard|LevelUpA5E|Bladesinging|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Bladesinger Styles",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 76,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Bladesinging",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"type": "inset",
@@ -2438,12 +2438,12 @@
 		},
 		{
 			"name": "Bladesong",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 76,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Bladesinging",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2464,12 +2464,12 @@
 		},
 		{
 			"name": "Training in War and Song (Bladesinging)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 76,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Bladesinging",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2479,12 +2479,12 @@
 		},
 		{
 			"name": "Extra Attack",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 76,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Bladesinging",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2493,12 +2493,12 @@
 		},
 		{
 			"name": "Song of Defense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 76,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Bladesinging",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2507,12 +2507,12 @@
 		},
 		{
 			"name": "Song of Victory",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 76,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Bladesinging",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2521,34 +2521,34 @@
 		},
 		{
 			"name": "Order of Scribes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 77,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Magic of the book-that's what many folk call wizardry. The name is apt, given how much time wizards spend poring over tomes and penning theories about the nature of magic. It's rare to see wizards traveling without books and scrolls sprouting from their bags, and a wizard would go to great lengths to plumb an archive of ancient knowledge.",
 				"Among wizards, the Order of Scribes is the most bookish. It takes many forms in different worlds, but its primary mission is the same everywhere: recording magical discoveries so that wizardry can flourish. And while all wizards value spellbooks, a wizard in the Order of Scribes magically awakens their book, turning it into a trusted companion. All wizards study books, but a wizardly scribe talks to theirs!",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wizardly Quill|Wizard|LevelUpAdventurersGuideA5E|Scribes|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Wizardly Quill|Wizard|LevelUpA5E|Scribes|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Awakened Spellbook|Wizard|LevelUpAdventurersGuideA5E|Scribes|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Awakened Spellbook|Wizard|LevelUpA5E|Scribes|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Awakened Spellbook",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 77,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2568,12 +2568,12 @@
 		},
 		{
 			"name": "Wizardly Quill",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 77,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2592,12 +2592,12 @@
 		},
 		{
 			"name": "Manifest Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 78,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2612,12 +2612,12 @@
 		},
 		{
 			"name": "Master Scrivener",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 78,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2629,12 +2629,12 @@
 		},
 		{
 			"name": "One with the Word",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 78,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2647,34 +2647,34 @@
 		},
 		{
 			"name": "Order of Scribes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Magic of the book\u2014that's what many spellcasters call wizardry. The name is apt, given how much time wizards spend poring over their spellbooks, penning theories about the nature of magic, and exploring the farthest recesses of libraries. It's rare to see a wizard traveling without books and scrolls sprouting from their bags, and a wizard would go to great lengths to plumb an archive of ancient knowledge.",
 				"Among wizards, the Order of Scribes is the most bookish. It takes many forms in different worlds, but its primary mission is the same everywhere: recording magical discoveries in tomes and scrolls so that wizardry can flourish. And while every wizard values their spellbook, a scribe in the Order of Scribes dedicates themself to magically awakening their book, turning it into a trusted companion. All wizards study their spellbooks, but a wizardly scribe talks to theirs!",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wizardly Quill|Wizard|LevelUpAdventurersGuideA5E|Scribes (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Wizardly Quill|Wizard|LevelUpA5E|Scribes (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Awakened Spellbook|Wizard|LevelUpAdventurersGuideA5E|Scribes (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Awakened Spellbook|Wizard|LevelUpA5E|Scribes (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Awakened Spellbook",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2694,12 +2694,12 @@
 		},
 		{
 			"name": "Wizardly Quill",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2718,12 +2718,12 @@
 		},
 		{
 			"name": "Master Scrivener",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2735,12 +2735,12 @@
 		},
 		{
 			"name": "Manifest Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2753,12 +2753,12 @@
 		},
 		{
 			"name": "One with the Word",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scribes (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2770,34 +2770,34 @@
 		},
 		{
 			"name": "Runecrafter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Runecrafter (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Runecrafter wizards enhance their spellcasting through the ancient power of runes. Though the tradition originated with the giant rune casters of old, runecraft magic has expanded to encompass countless languages and practitioners across different worlds.",
 				"For many runecrafters, the runes they wield are as every bit unique and personal as their spellbook. Some strive to honor the practice's origins among the giants, engraving their runes on decorative stones that adorn their spellcasting implements, while others messily scribble their runes on scraps of paper.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Runes of Understanding|Wizard|LevelUpAdventurersGuideA5E|Runecrafter (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Runes of Understanding|Wizard|LevelUpA5E|Runecrafter (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Runic Empowerment|Wizard|LevelUpAdventurersGuideA5E|Runecrafter (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Runic Empowerment|Wizard|LevelUpA5E|Runecrafter (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Runes of Understanding",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Runecrafter (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2807,12 +2807,12 @@
 		},
 		{
 			"name": "Runic Empowerment",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Runecrafter (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2850,12 +2850,12 @@
 		},
 		{
 			"name": "Sigils of Warding",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Runecrafter (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2865,12 +2865,12 @@
 		},
 		{
 			"name": "Rune Maven",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Runecrafter (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2880,12 +2880,12 @@
 		},
 		{
 			"name": "Engraved Enmity",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Runecrafter (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2924,42 +2924,42 @@
 		},
 		{
 			"name": "Onomancy",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Onomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Practitioners of magic well know the power of names, but wizards who follow the tradition of Onomancy use their magic to manipulate the words that encompass existence. Onomancers expand their study into language itself, searching for threads of magical significance that weave through names. Something that is named stands out in the multiverse, distinct from the tapestry of creation all around it.",
 				"That distinction creates power that onomancers seek to tap. By speaking a target's true name, the wizard's spells slip between the cracks of the target's defenses, conforming to its essential nature through the power of its name. To protect themselves, wizards who follow this tradition often hide their true names, typically by adopting monikers and pseudonyms.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "True Names|Wizard|LevelUpAdventurersGuideA5E|Onomancy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "True Names|Wizard|LevelUpA5E|Onomancy (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Wizard|LevelUpAdventurersGuideA5E|Onomancy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Bonus Proficiencies|Wizard|LevelUpA5E|Onomancy (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extract Name|Wizard|LevelUpAdventurersGuideA5E|Onomancy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Extract Name|Wizard|LevelUpA5E|Onomancy (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fateful Naming|Wizard|LevelUpAdventurersGuideA5E|Onomancy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Fateful Naming|Wizard|LevelUpA5E|Onomancy (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Onomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2969,12 +2969,12 @@
 		},
 		{
 			"name": "Extract Name",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Onomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -2985,12 +2985,12 @@
 		},
 		{
 			"name": "Fateful Naming",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Onomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -3001,12 +3001,12 @@
 		},
 		{
 			"name": "True Names",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Onomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"type": "inset",
@@ -3018,12 +3018,12 @@
 		},
 		{
 			"name": "Resonant Utterance",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Onomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3085,12 +3085,12 @@
 		},
 		{
 			"name": "Inexorable Pronouncement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Onomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -3100,12 +3100,12 @@
 		},
 		{
 			"name": "Relentless Naming",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Onomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -3115,34 +3115,34 @@
 		},
 		{
 			"name": "Artificer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Artificer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Artificers are a key part of the world of Eberron. They illustrate the evolution of magic from a wild, unpredictable force to one that is becoming available to the masses. Magic items are part of everyday life in the Five Nations of Khorvaire; with an artificer in your party, they become part of every adventuring expedition.",
 				"The artificer was a separate class in prior editions of the Eberron setting, a melee combatant who specialized in mystically enhanced arms and armor. The fifth edition rules treat the artificer as a new wizard tradition that focuses on mystical invention, which you can choose starting at 2nd level.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Infuse Potions|Wizard|LevelUpAdventurersGuideA5E|Artificer (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Infuse Potions|Wizard|LevelUpA5E|Artificer (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Infuse Scrolls|Wizard|LevelUpAdventurersGuideA5E|Artificer (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Infuse Scrolls|Wizard|LevelUpA5E|Artificer (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Infuse Potions",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Artificer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -3182,12 +3182,12 @@
 		},
 		{
 			"name": "Infuse Scrolls",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Artificer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -3197,12 +3197,12 @@
 		},
 		{
 			"name": "Infuse Weapons and Armor",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Artificer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3246,12 +3246,12 @@
 		},
 		{
 			"name": "Superior Artificer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Artificer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -3261,12 +3261,12 @@
 		},
 		{
 			"name": "Master Artificer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Artificer (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -3475,12 +3475,12 @@
 		},
 		{
 			"name": "Psionics",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionics (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Wizards study magical power in all its forms, including the magic of psionics. Those wizards who follow the tradition of Psionics hone the magical potential of their own minds. Sometimes called psionicists or mentalists, these wizards interact with the multiverse through the lens of their psionic aptitude and awareness.",
@@ -3488,30 +3488,30 @@
 				"As a member of the Psionics tradition, you might have awoken your psionic potential through the strain of your esoteric studies, or perhaps you joined a scholarly order dedicated to unlocking the magic of the mind.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Focus|Wizard|LevelUpAdventurersGuideA5E|Psionics (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Psionic Focus|Wizard|LevelUpA5E|Psionics (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Devotion|Wizard|LevelUpAdventurersGuideA5E|Psionics (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Psionic Devotion|Wizard|LevelUpA5E|Psionics (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Your Psionic Focus|Wizard|LevelUpAdventurersGuideA5E|Psionics (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Your Psionic Focus|Wizard|LevelUpA5E|Psionics (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Spells|Wizard|LevelUpAdventurersGuideA5E|Psionics (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Psionic Spells|Wizard|LevelUpA5E|Psionics (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Psionic Devotion",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionics (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -3542,12 +3542,12 @@
 		},
 		{
 			"name": "Psionic Focus",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionics (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -3566,12 +3566,12 @@
 		},
 		{
 			"name": "Psionic Spells",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionics (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"type": "inset",
@@ -3592,12 +3592,12 @@
 		},
 		{
 			"name": "Your Psionic Focus",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionics (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"type": "inset",
@@ -3610,12 +3610,12 @@
 		},
 		{
 			"name": "Thought Form",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionics (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3643,12 +3643,12 @@
 		},
 		{
 			"name": "Empowered Psionics",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionics (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -3658,12 +3658,12 @@
 		},
 		{
 			"name": "Mental Discipline",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionics (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -3674,12 +3674,12 @@
 		},
 		{
 			"name": "Thought Travel",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Psionics (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -3690,34 +3690,34 @@
 		},
 		{
 			"name": "Technomancy",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Technomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Unlike the more common arcane traditions based around the schools of magic, the tradition of Technomancy does not focus on a singular type of spellcraft or magical energy. Rather, students of Technomancy concern themselves with how their spells interact with modern technology.",
 				"Technomancers can make use of technology as both a conduit and a storage space for magic. In a campaign using the optional rules for magic item creation (see the Dungeon Master's Guide), a technomancer might craft disposable electronic devices and smartphone apps in lieu of potions and scrolls.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Wizard|LevelUpAdventurersGuideA5E|Technomancy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Bonus Proficiencies|Wizard|LevelUpA5E|Technomancy (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Technological Savant|Wizard|LevelUpAdventurersGuideA5E|Technomancy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Technological Savant|Wizard|LevelUpA5E|Technomancy (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Technomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -3726,12 +3726,12 @@
 		},
 		{
 			"name": "Technological Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Technomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -3740,12 +3740,12 @@
 		},
 		{
 			"name": "Program Spell",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Technomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3756,12 +3756,12 @@
 		},
 		{
 			"name": "Online Casting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Technomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -3772,12 +3772,12 @@
 		},
 		{
 			"name": "Chained Device",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Technomancy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -3786,12 +3786,12 @@
 		},
 		{
 			"name": "School of Invention",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Invention (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"The School of Invention claims credit for inventing the other schools of magic\u2014a claim other wizards find absurd. Wizards of this school push magic to its limits. They stretch the known laws of arcane power and strive to reveal important truths about the nature of the multiverse.",
@@ -3800,26 +3800,26 @@
 				"Wizards of this tradition are regarded as savants to their faces, but wizards of other traditions often think of them as lunatics.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Inventor|Wizard|LevelUpAdventurersGuideA5E|Invention (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Tools of the Inventor|Wizard|LevelUpA5E|Invention (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcanomechanical Armor|Wizard|LevelUpAdventurersGuideA5E|Invention (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Arcanomechanical Armor|Wizard|LevelUpA5E|Invention (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Reckless Casting|Wizard|LevelUpAdventurersGuideA5E|Invention (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Reckless Casting|Wizard|LevelUpA5E|Invention (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Arcanomechanical Armor",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Invention (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -3831,12 +3831,12 @@
 		},
 		{
 			"name": "Reckless Casting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Invention (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4172,12 +4172,12 @@
 		},
 		{
 			"name": "Tools of the Inventor",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Invention (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4186,12 +4186,12 @@
 		},
 		{
 			"name": "Alchemical Casting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Invention (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4202,12 +4202,12 @@
 		},
 		{
 			"name": "Prodigious Inspiration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Invention (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -4216,12 +4216,12 @@
 		},
 		{
 			"name": "Controlled Chaos",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Invention (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4230,38 +4230,38 @@
 		},
 		{
 			"name": "Lore Mastery",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lore Mastery (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Lore Mastery is an arcane tradition fixated on understanding the underlying mechanics of magic. It is the most academic of all arcane traditions. The promise of uncovering new knowledge or proving (or discrediting) a theory of magic is usually required to rouse its practitioners from their laboratories, academies, and archives to pursue a life of adventure.",
 				"Known as savants, followers of this tradition are a bookish lot who see beauty and mystery in the application of magic. The results of a spell are less interesting to them than the process that creates it. Some savants take a haughty attitude toward those who follow a tradition focused on a single school of magic, seeing them as provincial and lacking the sophistication needed to master true magic. Other savants are generous teachers, countering ignorance and deception with deep knowledge and good humor.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lore Master|Wizard|LevelUpAdventurersGuideA5E|Lore Mastery (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Lore Master|Wizard|LevelUpA5E|Lore Mastery (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spell Secrets|Wizard|LevelUpAdventurersGuideA5E|Lore Mastery (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Spell Secrets|Wizard|LevelUpA5E|Lore Mastery (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Altering Spells|Wizard|LevelUpAdventurersGuideA5E|Lore Mastery (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Altering Spells|Wizard|LevelUpA5E|Lore Mastery (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Altering Spells",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lore Mastery (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4270,12 +4270,12 @@
 		},
 		{
 			"name": "Lore Master",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lore Mastery (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4285,12 +4285,12 @@
 		},
 		{
 			"name": "Spell Secrets",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lore Mastery (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4301,12 +4301,12 @@
 		},
 		{
 			"name": "Alchemical Casting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lore Mastery (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4318,12 +4318,12 @@
 		},
 		{
 			"name": "Prodigious Memory",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lore Mastery (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -4332,12 +4332,12 @@
 		},
 		{
 			"name": "Master of Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 5,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Lore Mastery (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4347,42 +4347,42 @@
 		},
 		{
 			"name": "Theurgy",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Theurgy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"A number of deities claim arcane magic as their domain, for magic is as much a part of the fabric of the cosmos as wind, fire, lightning, and all other primal forces. Just as there are deities of the sea and gods of warfare, the arcane arts feature their own divine patrons.",
 				"Such deities often have clerics, but many gods of magic bid their followers to take up the study of wizardry. These religious magic-users follow the arcane tradition of Theurgy, and are commonly known as theurgists. Such spellcasters are as dedicated and scholarly as any other wizard, but they blend their arcane study with religious devotion.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Inspiration|Wizard|LevelUpAdventurersGuideA5E|Theurgy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Divine Inspiration|Wizard|LevelUpA5E|Theurgy (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Initiate|Wizard|LevelUpAdventurersGuideA5E|Theurgy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Arcane Initiate|Wizard|LevelUpA5E|Theurgy (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Arcana|Wizard|LevelUpAdventurersGuideA5E|Theurgy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Channel Arcana|Wizard|LevelUpA5E|Theurgy (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Arcana: Divine Arcana|Wizard|LevelUpAdventurersGuideA5E|Theurgy (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Channel Arcana: Divine Arcana|Wizard|LevelUpA5E|Theurgy (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Arcane Initiate",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Theurgy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4393,12 +4393,12 @@
 		},
 		{
 			"name": "Channel Arcana",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Theurgy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4411,12 +4411,12 @@
 		},
 		{
 			"name": "Channel Arcana: Divine Arcana",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Theurgy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4425,12 +4425,12 @@
 		},
 		{
 			"name": "Divine Inspiration",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Theurgy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4439,12 +4439,12 @@
 		},
 		{
 			"name": "Arcane Acolyte",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Theurgy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4453,12 +4453,12 @@
 		},
 		{
 			"name": "Arcane Priest",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Theurgy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -4467,12 +4467,12 @@
 		},
 		{
 			"name": "Arcane High Priest",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Theurgy (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4481,34 +4481,34 @@
 		},
 		{
 			"name": "War Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration. It teaches techniques that empower a caster's spells, while also providing methods for a wizard to bolster their own defenses.",
 				"Followers of this tradition are known as war mages. They see their magic as both a weapon and armor, a resource superior to any flimsy piece of steel. War mages strike fast in battle, using their spells to seize tactical control of a situation. Their spells strike hard, while their defensive skills foil their opponents' attempts to counterattack.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Deflection|Wizard|LevelUpAdventurersGuideA5E|War (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Arcane Deflection|Wizard|LevelUpA5E|War (UA)|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tactical Wit|Wizard|LevelUpAdventurersGuideA5E|War (UA)|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Tactical Wit|Wizard|LevelUpA5E|War (UA)|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Arcane Deflection",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4518,12 +4518,12 @@
 		},
 		{
 			"name": "Tactical Wit",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4532,12 +4532,12 @@
 		},
 		{
 			"name": "Power Surge",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4547,12 +4547,12 @@
 		},
 		{
 			"name": "Durable Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -4561,12 +4561,12 @@
 		},
 		{
 			"name": "Durable Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4575,12 +4575,12 @@
 		},
 		{
 			"name": "War Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration, rather than specializing in either of those schools. It teaches techniques that empower a caster's spells, while also providing methods for wizards to bolster their own defenses.",
@@ -4588,22 +4588,22 @@
 				"In great battles, a war mage often works with evokers, abjurers, and other types of wizards. Evokers, in particular, sometimes tease war mages for splitting their attention between offense and defense. A war mage's typical response: \"What good is being able to throw a mighty {@spell fireball} if I die before I can cast it?\"",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Deflection|Wizard|LevelUpAdventurersGuideA5E|War|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Arcane Deflection|Wizard|LevelUpA5E|War|LevelUpA5E|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tactical Wit|Wizard|LevelUpAdventurersGuideA5E|War|LevelUpAdventurersGuideA5E|2"
+					"subclassFeature": "Tactical Wit|Wizard|LevelUpA5E|War|LevelUpA5E|2"
 				}
 			]
 		},
 		{
 			"name": "Arcane Deflection",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4613,12 +4613,12 @@
 		},
 		{
 			"name": "Tactical Wit",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -4627,12 +4627,12 @@
 		},
 		{
 			"name": "Power Surge",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4643,12 +4643,12 @@
 		},
 		{
 			"name": "Durable Magic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -4657,12 +4657,12 @@
 		},
 		{
 			"name": "Deflecting Shroud",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 59,
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -4671,11 +4671,11 @@
 		},
 		{
 			"name": "Restricted",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Eldritch Archer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"You cannot multiclass while you have this subclass."
@@ -4683,11 +4683,11 @@
 		},
 		{
 			"name": "Eldritch Foundations",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Eldritch Archer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"At 2nd level when you first take this subclass, you gain the following features:",
@@ -4709,11 +4709,11 @@
 		},
 		{
 			"name": "Arrow Enchanter",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Eldritch Archer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"From 6th level, you can subvert your arcane power to enchant your magical projectiles with rings of eldritch symbols and energy that form around your weapons as you fire. Once on each turn, when you make a ranged weapon attack with a non-Mental ranged weapon, you may expend a spell slot to enhance the attack to be either Empowered or Unerring. You must choose to do this before you roll the attack die.",
@@ -4736,11 +4736,11 @@
 		},
 		{
 			"name": "Volley Master",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Eldritch Archer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 10,
 			"entries": [
 				"From 10th level, your rings of eldritch symbols form projectiles of pure magic able to assail a whole platoon at once. Whenever you cast a spell with a Cone area, you may additionally make ranged weapon attacks with a non-Mental ranged weapon you are wielding against targets within that conical area, ignoring up to three-quarters cover. You may make up to a number of attacks equal to the level of the spell cast, each against a different target. Ranged attacks made in this way ignore the Loading trait of weapons."
@@ -4748,11 +4748,11 @@
 		},
 		{
 			"name": "14th Level Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Wizard",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Eldritch Archer",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 14,
 			"entries": [
 				"From 14th level, who knows. I'm hoping we don't get here and I don't have to come up with anything."
@@ -4762,7 +4762,7 @@
 	"optionalfeature": [
 		{
 			"name": "Air Lift",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ES"
 			],
@@ -4772,24 +4772,24 @@
 		},
 		{
 			"name": "Detect Magic Savant",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ES"
 			],
 			"prerequisite": [
 				{
 					"spell": [
-						"detect magic|LevelUpAdventurersGuideA5E"
+						"detect magic|LevelUpA5E"
 					]
 				}
 			],
 			"entries": [
-				"Whenever you cast {@spell detect magic|LevelUpAdventurersGuideA5E}, you can choose one of the following benefits to amplify the spell.",
+				"Whenever you cast {@spell detect magic|LevelUpA5E}, you can choose one of the following benefits to amplify the spell.",
 				{
 					"type": "list",
 					"items": [
-						"Lengthened Detect Magic: The duration of {@spell detect magic|LevelUpAdventurersGuideA5E} is increased by 10 minutes.",
-						"Extended Detect Magic: The detection radius of {@spell detect magic|LevelUpAdventurersGuideA5E} is increased by 30 feet.",
+						"Lengthened Detect Magic: The duration of {@spell detect magic|LevelUpA5E} is increased by 10 minutes.",
+						"Extended Detect Magic: The detection radius of {@spell detect magic|LevelUpA5E} is increased by 30 feet.",
 						"Penetrating Detect Magic: The spell can penetrate most barriers, and it is only blocked by 2 feet of stone, 2 inches of common metal, a 1-inch sheet of lead, or 6 feet of wood or dirt."
 					]
 				}
@@ -4797,7 +4797,7 @@
 		},
 		{
 			"name": "Eidetic Memory",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ES"
 			],
@@ -4807,7 +4807,7 @@
 		},
 		{
 			"name": "Illusion Detective",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ES"
 			],
@@ -4822,7 +4822,7 @@
 		},
 		{
 			"name": "Loremaster of Creatures",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ES"
 			],
@@ -4832,7 +4832,7 @@
 		},
 		{
 			"name": "Loremaster of Travel",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ES"
 			],
@@ -4842,14 +4842,14 @@
 		},
 		{
 			"name": "Persistent Mending",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ES"
 			],
 			"prerequisite": [
 				{
 					"spell": [
-						"mending|LevelUpAdventurersGuideA5E"
+						"mending|LevelUpA5E"
 					]
 				}
 			],
@@ -4867,20 +4867,20 @@
 		},
 		{
 			"name": "Presto, Prestidigitation!",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ES"
 			],
 			"prerequisite": [
 				{
 					"spell": [
-						"prestidigitation|LevelUpAdventurersGuideA5E"
+						"prestidigitation|LevelUpA5E"
 					]
 				}
 			],
 			"entries": [
-				"If you are not actively casting {@spell prestidigitation|LevelUpAdventurersGuideA5E} or concentrating on a spell, the magic of {@spell prestidigitation|LevelUpAdventurersGuideA5E} is always keeping you, your clothes, and your gear sparkling clean.",
-				"The following effects are added to the list of options you can choose from when you cast {@spell prestidigitation|LevelUpAdventurersGuideA5E}.",
+				"If you are not actively casting {@spell prestidigitation|LevelUpA5E} or concentrating on a spell, the magic of {@spell prestidigitation|LevelUpA5E} is always keeping you, your clothes, and your gear sparkling clean.",
+				"The following effects are added to the list of options you can choose from when you cast {@spell prestidigitation|LevelUpA5E}.",
 				{
 					"type": "list",
 					"items": [

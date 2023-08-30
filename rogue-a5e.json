@@ -7,7 +7,7 @@
 		},
 		"sources": [
 			{
-				"json": "LevelUpAdventurersGuideA5E",
+				"json": "LevelUpA5E",
 				"abbreviation": "A5E",
 				"full": "Level Up: Adventurers Guide (A5E)",
 				"authors": [
@@ -23,7 +23,7 @@
 	"class": [
 		{
 			"name": "Rogue",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -362,46 +362,46 @@
 				}
 			],
 			"classFeatures": [
-				"Skill Tricks|Rogue|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
-				"Sneak Attack|Rogue|LevelUpAdventurersGuideA5E|1|LevelUpAdventurersGuideA5E",
-				"Combat Maneuvers|Rogue|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
-				"Combat Tactic|Rogue|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
-				"Cunning Action|Rogue|LevelUpAdventurersGuideA5E|2|LevelUpAdventurersGuideA5E",
+				"Skill Tricks|Rogue|LevelUpA5E|1|LevelUpA5E",
+				"Sneak Attack|Rogue|LevelUpA5E|1|LevelUpA5E",
+				"Combat Maneuvers|Rogue|LevelUpA5E|2|LevelUpA5E",
+				"Combat Tactic|Rogue|LevelUpA5E|2|LevelUpA5E",
+				"Cunning Action|Rogue|LevelUpA5E|2|LevelUpA5E",
 				{
-					"classFeature": "Rogue Archetype|Rogue|LevelUpAdventurersGuideA5E|3|LevelUpAdventurersGuideA5E",
+					"classFeature": "Rogue Archetype|Rogue|LevelUpA5E|3|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Rogue|LevelUpAdventurersGuideA5E|4|LevelUpAdventurersGuideA5E",
-				"Innocent Facade|Rogue|LevelUpAdventurersGuideA5E|4|LevelUpAdventurersGuideA5E",
-				"Aim|Rogue|LevelUpAdventurersGuideA5E|5|LevelUpAdventurersGuideA5E",
-				"Self-Preservation|Rogue|LevelUpAdventurersGuideA5E|6|LevelUpAdventurersGuideA5E",
-				"Improved Critical|Rogue|LevelUpAdventurersGuideA5E|7|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Rogue|LevelUpAdventurersGuideA5E|8|LevelUpAdventurersGuideA5E",
-				"Shrewd Judgment|Rogue|LevelUpAdventurersGuideA5E|8|LevelUpAdventurersGuideA5E",
+				"Ability Score Improvement|Rogue|LevelUpA5E|4|LevelUpA5E",
+				"Innocent Facade|Rogue|LevelUpA5E|4|LevelUpA5E",
+				"Aim|Rogue|LevelUpA5E|5|LevelUpA5E",
+				"Self-Preservation|Rogue|LevelUpA5E|6|LevelUpA5E",
+				"Improved Critical|Rogue|LevelUpA5E|7|LevelUpA5E",
+				"Ability Score Improvement|Rogue|LevelUpA5E|8|LevelUpA5E",
+				"Shrewd Judgment|Rogue|LevelUpA5E|8|LevelUpA5E",
 				{
-					"classFeature": "Archetype Feature|Rogue|LevelUpAdventurersGuideA5E|9|LevelUpAdventurersGuideA5E",
+					"classFeature": "Archetype Feature|Rogue|LevelUpA5E|9|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Low Profile|Rogue|LevelUpAdventurersGuideA5E|10|LevelUpAdventurersGuideA5E",
-				"Cunning Celerity|Rogue|LevelUpAdventurersGuideA5E|11|LevelUpAdventurersGuideA5E",
-				"Expert Talent|Rogue|LevelUpAdventurersGuideA5E|11|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Rogue|LevelUpAdventurersGuideA5E|12|LevelUpAdventurersGuideA5E",
-				"Self-Preservation|Rogue|LevelUpAdventurersGuideA5E|12|LevelUpAdventurersGuideA5E",
+				"Low Profile|Rogue|LevelUpA5E|10|LevelUpA5E",
+				"Cunning Celerity|Rogue|LevelUpA5E|11|LevelUpA5E",
+				"Expert Talent|Rogue|LevelUpA5E|11|LevelUpA5E",
+				"Ability Score Improvement|Rogue|LevelUpA5E|12|LevelUpA5E",
+				"Self-Preservation|Rogue|LevelUpA5E|12|LevelUpA5E",
 				{
-					"classFeature": "Archetype Feature|Rogue|LevelUpAdventurersGuideA5E|13|LevelUpAdventurersGuideA5E",
+					"classFeature": "Archetype Feature|Rogue|LevelUpA5E|13|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Guarded Aspect|Rogue|LevelUpAdventurersGuideA5E|14|LevelUpAdventurersGuideA5E",
-				"Elusive|Rogue|LevelUpAdventurersGuideA5E|15|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Rogue|LevelUpAdventurersGuideA5E|16|LevelUpAdventurersGuideA5E",
+				"Guarded Aspect|Rogue|LevelUpA5E|14|LevelUpA5E",
+				"Elusive|Rogue|LevelUpA5E|15|LevelUpA5E",
+				"Ability Score Improvement|Rogue|LevelUpA5E|16|LevelUpA5E",
 				{
-					"classFeature": "Archetype Feature|Rogue|LevelUpAdventurersGuideA5E|17|LevelUpAdventurersGuideA5E",
+					"classFeature": "Archetype Feature|Rogue|LevelUpA5E|17|LevelUpA5E",
 					"gainSubclassFeature": true
 				},
-				"Overpowering Personality|Rogue|LevelUpAdventurersGuideA5E|18|LevelUpAdventurersGuideA5E",
-				"Self-Preservation|Rogue|LevelUpAdventurersGuideA5E|18|LevelUpAdventurersGuideA5E",
-				"Ability Score Improvement|Rogue|LevelUpAdventurersGuideA5E|19|LevelUpAdventurersGuideA5E",
-				"Grand Larcenist|Rogue|LevelUpAdventurersGuideA5E|20|LevelUpAdventurersGuideA5E"
+				"Overpowering Personality|Rogue|LevelUpA5E|18|LevelUpA5E",
+				"Self-Preservation|Rogue|LevelUpA5E|18|LevelUpA5E",
+				"Ability Score Improvement|Rogue|LevelUpA5E|19|LevelUpA5E",
+				"Grand Larcenist|Rogue|LevelUpA5E|20|LevelUpA5E"
 			],
 			"subclassTitle": "Rogue Archetype"
 		}
@@ -410,9 +410,9 @@
 		{
 			"name": "Arcane Trickster",
 			"shortName": "Arcane Trickster",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 97,
 			"spellcastingAbility": "int",
 			"casterProgression": "1/3",
@@ -474,7 +474,7 @@
 					"subclasses": [
 						{
 							"name": "Arcane Trickster",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					],
 					"colLabels": [
@@ -569,7 +569,7 @@
 					"subclasses": [
 						{
 							"name": "Arcane Trickster",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					],
 					"colLabels": [
@@ -703,323 +703,323 @@
 				}
 			],
 			"subclassFeatures": [
-				"Arcane Trickster|Rogue|LevelUpAdventurersGuideA5E|Arcane Trickster|LevelUpAdventurersGuideA5E|3",
-				"Magical Ambush|Rogue|LevelUpAdventurersGuideA5E|Arcane Trickster|LevelUpAdventurersGuideA5E|9",
-				"Versatile Trickster|Rogue|LevelUpAdventurersGuideA5E|Arcane Trickster|LevelUpAdventurersGuideA5E|13",
-				"Spell Thief|Rogue|LevelUpAdventurersGuideA5E|Arcane Trickster|LevelUpAdventurersGuideA5E|17"
+				"Arcane Trickster|Rogue|LevelUpA5E|Arcane Trickster|LevelUpA5E|3",
+				"Magical Ambush|Rogue|LevelUpA5E|Arcane Trickster|LevelUpA5E|9",
+				"Versatile Trickster|Rogue|LevelUpA5E|Arcane Trickster|LevelUpA5E|13",
+				"Spell Thief|Rogue|LevelUpA5E|Arcane Trickster|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Assassin",
 			"shortName": "Assassin",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 97,
 			"subclassFeatures": [
-				"Assassin|Rogue|LevelUpAdventurersGuideA5E|Assassin|LevelUpAdventurersGuideA5E|3",
-				"Infiltration Expertise|Rogue|LevelUpAdventurersGuideA5E|Assassin|LevelUpAdventurersGuideA5E|9",
-				"Impostor|Rogue|LevelUpAdventurersGuideA5E|Assassin|LevelUpAdventurersGuideA5E|13",
-				"Death Strike|Rogue|LevelUpAdventurersGuideA5E|Assassin|LevelUpAdventurersGuideA5E|17"
+				"Assassin|Rogue|LevelUpA5E|Assassin|LevelUpA5E|3",
+				"Infiltration Expertise|Rogue|LevelUpA5E|Assassin|LevelUpA5E|9",
+				"Impostor|Rogue|LevelUpA5E|Assassin|LevelUpA5E|13",
+				"Death Strike|Rogue|LevelUpA5E|Assassin|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Thief",
 			"shortName": "Thief",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 97,
 			"srd": true,
 			"subclassFeatures": [
-				"Thief|Rogue|LevelUpAdventurersGuideA5E|Thief|LevelUpAdventurersGuideA5E|3",
-				"Supreme Sneak|Rogue|LevelUpAdventurersGuideA5E|Thief|LevelUpAdventurersGuideA5E|9",
-				"Use Magic Device|Rogue|LevelUpAdventurersGuideA5E|Thief|LevelUpAdventurersGuideA5E|13",
-				"Thief's Reflexes|Rogue|LevelUpAdventurersGuideA5E|Thief|LevelUpAdventurersGuideA5E|17"
+				"Thief|Rogue|LevelUpA5E|Thief|LevelUpA5E|3",
+				"Supreme Sneak|Rogue|LevelUpA5E|Thief|LevelUpA5E|9",
+				"Use Magic Device|Rogue|LevelUpA5E|Thief|LevelUpA5E|13",
+				"Thief's Reflexes|Rogue|LevelUpA5E|Thief|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Inquisitive (UA)",
 			"shortName": "Inquisitive (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Inquisitive|Rogue|LevelUpAdventurersGuideA5E|Inquisitive (UA)|LevelUpAdventurersGuideA5E|3",
-				"Steady Eye|Rogue|LevelUpAdventurersGuideA5E|Inquisitive (UA)|LevelUpAdventurersGuideA5E|9",
-				"Unerring Eye|Rogue|LevelUpAdventurersGuideA5E|Inquisitive (UA)|LevelUpAdventurersGuideA5E|13",
-				"Eye for Weakness|Rogue|LevelUpAdventurersGuideA5E|Inquisitive (UA)|LevelUpAdventurersGuideA5E|17"
+				"Inquisitive|Rogue|LevelUpA5E|Inquisitive (UA)|LevelUpA5E|3",
+				"Steady Eye|Rogue|LevelUpA5E|Inquisitive (UA)|LevelUpA5E|9",
+				"Unerring Eye|Rogue|LevelUpA5E|Inquisitive (UA)|LevelUpA5E|13",
+				"Eye for Weakness|Rogue|LevelUpA5E|Inquisitive (UA)|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Scout (UA)",
 			"shortName": "Scout (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Scout|Rogue|LevelUpAdventurersGuideA5E|Scout (UA)|LevelUpAdventurersGuideA5E|3",
-				"Superior Mobility|Rogue|LevelUpAdventurersGuideA5E|Scout (UA)|LevelUpAdventurersGuideA5E|9",
-				"Ambush Master|Rogue|LevelUpAdventurersGuideA5E|Scout (UA)|LevelUpAdventurersGuideA5E|13",
-				"Sudden Strike|Rogue|LevelUpAdventurersGuideA5E|Scout (UA)|LevelUpAdventurersGuideA5E|17"
+				"Scout|Rogue|LevelUpA5E|Scout (UA)|LevelUpA5E|3",
+				"Superior Mobility|Rogue|LevelUpA5E|Scout (UA)|LevelUpA5E|9",
+				"Ambush Master|Rogue|LevelUpA5E|Scout (UA)|LevelUpA5E|13",
+				"Sudden Strike|Rogue|LevelUpA5E|Scout (UA)|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Inquisitive",
 			"shortName": "Inquisitive",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 45,
 			"subclassFeatures": [
-				"Inquisitive|Rogue|LevelUpAdventurersGuideA5E|Inquisitive|LevelUpAdventurersGuideA5E|3",
-				"Steady Eye|Rogue|LevelUpAdventurersGuideA5E|Inquisitive|LevelUpAdventurersGuideA5E|9",
-				"Unerring Eye|Rogue|LevelUpAdventurersGuideA5E|Inquisitive|LevelUpAdventurersGuideA5E|13",
-				"Eye for Weakness|Rogue|LevelUpAdventurersGuideA5E|Inquisitive|LevelUpAdventurersGuideA5E|17"
+				"Inquisitive|Rogue|LevelUpA5E|Inquisitive|LevelUpA5E|3",
+				"Steady Eye|Rogue|LevelUpA5E|Inquisitive|LevelUpA5E|9",
+				"Unerring Eye|Rogue|LevelUpA5E|Inquisitive|LevelUpA5E|13",
+				"Eye for Weakness|Rogue|LevelUpA5E|Inquisitive|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Mastermind",
 			"shortName": "Mastermind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 46,
 			"otherSources": [
 				{
-					"source": "LevelUpAdventurersGuideA5E",
+					"source": "LevelUpA5E",
 					"page": 135
 				}
 			],
 			"subclassFeatures": [
-				"Mastermind|Rogue|LevelUpAdventurersGuideA5E|Mastermind|LevelUpAdventurersGuideA5E|3",
-				"Insightful Manipulator|Rogue|LevelUpAdventurersGuideA5E|Mastermind|LevelUpAdventurersGuideA5E|9",
-				"Misdirection|Rogue|LevelUpAdventurersGuideA5E|Mastermind|LevelUpAdventurersGuideA5E|13",
-				"Soul of Deceit|Rogue|LevelUpAdventurersGuideA5E|Mastermind|LevelUpAdventurersGuideA5E|17"
+				"Mastermind|Rogue|LevelUpA5E|Mastermind|LevelUpA5E|3",
+				"Insightful Manipulator|Rogue|LevelUpA5E|Mastermind|LevelUpA5E|9",
+				"Misdirection|Rogue|LevelUpA5E|Mastermind|LevelUpA5E|13",
+				"Soul of Deceit|Rogue|LevelUpA5E|Mastermind|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Scout",
 			"shortName": "Scout",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 47,
 			"subclassFeatures": [
-				"Scout|Rogue|LevelUpAdventurersGuideA5E|Scout|LevelUpAdventurersGuideA5E|3",
-				"Superior Mobility|Rogue|LevelUpAdventurersGuideA5E|Scout|LevelUpAdventurersGuideA5E|9",
-				"Ambush Master|Rogue|LevelUpAdventurersGuideA5E|Scout|LevelUpAdventurersGuideA5E|13",
-				"Sudden Strike|Rogue|LevelUpAdventurersGuideA5E|Scout|LevelUpAdventurersGuideA5E|17"
+				"Scout|Rogue|LevelUpA5E|Scout|LevelUpA5E|3",
+				"Superior Mobility|Rogue|LevelUpA5E|Scout|LevelUpA5E|9",
+				"Ambush Master|Rogue|LevelUpA5E|Scout|LevelUpA5E|13",
+				"Sudden Strike|Rogue|LevelUpA5E|Scout|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Swashbuckler",
 			"shortName": "Swashbuckler",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 48,
 			"otherSources": [
 				{
-					"source": "LevelUpAdventurersGuideA5E",
+					"source": "LevelUpA5E",
 					"page": 135
 				}
 			],
 			"subclassFeatures": [
-				"Swashbuckler|Rogue|LevelUpAdventurersGuideA5E|Swashbuckler|LevelUpAdventurersGuideA5E|3",
-				"Panache|Rogue|LevelUpAdventurersGuideA5E|Swashbuckler|LevelUpAdventurersGuideA5E|9",
-				"Elegant Maneuver|Rogue|LevelUpAdventurersGuideA5E|Swashbuckler|LevelUpAdventurersGuideA5E|13",
-				"Master Duelist|Rogue|LevelUpAdventurersGuideA5E|Swashbuckler|LevelUpAdventurersGuideA5E|17"
+				"Swashbuckler|Rogue|LevelUpA5E|Swashbuckler|LevelUpA5E|3",
+				"Panache|Rogue|LevelUpA5E|Swashbuckler|LevelUpA5E|9",
+				"Elegant Maneuver|Rogue|LevelUpA5E|Swashbuckler|LevelUpA5E|13",
+				"Master Duelist|Rogue|LevelUpA5E|Swashbuckler|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "The Revived (UA)",
 			"shortName": "Revived (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 4,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"The Revived|Rogue|LevelUpAdventurersGuideA5E|Revived (UA)|LevelUpAdventurersGuideA5E|3",
-				"Connect with the Dead|Rogue|LevelUpAdventurersGuideA5E|Revived (UA)|LevelUpAdventurersGuideA5E|9",
-				"Audience with Death|Rogue|LevelUpAdventurersGuideA5E|Revived (UA)|LevelUpAdventurersGuideA5E|13",
-				"Ethereal Jaunt|Rogue|LevelUpAdventurersGuideA5E|Revived (UA)|LevelUpAdventurersGuideA5E|17"
+				"The Revived|Rogue|LevelUpA5E|Revived (UA)|LevelUpA5E|3",
+				"Connect with the Dead|Rogue|LevelUpA5E|Revived (UA)|LevelUpA5E|9",
+				"Audience with Death|Rogue|LevelUpA5E|Revived (UA)|LevelUpA5E|13",
+				"Ethereal Jaunt|Rogue|LevelUpA5E|Revived (UA)|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Soulknife (UA)",
 			"shortName": "Soulknife (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Soulknife|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|3",
-				"Terrifying Blade|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|9",
-				"Psychic Veil|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|13",
-				"Rend Mind|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|17"
+				"Soulknife|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|3",
+				"Terrifying Blade|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|9",
+				"Psychic Veil|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|13",
+				"Rend Mind|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Soulknife (UA)",
 			"shortName": "Soulknife (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 3,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Soulknife|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|3",
-				"Soul Blades|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|9",
-				"Psionic Veil|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|13",
-				"Rend Mind|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|17"
+				"Soulknife|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|3",
+				"Soul Blades|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|9",
+				"Psionic Veil|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|13",
+				"Rend Mind|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Phantom (UA)",
 			"shortName": "Phantom (UA)",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Phantom|Rogue|LevelUpAdventurersGuideA5E|Phantom (UA)|LevelUpAdventurersGuideA5E|3",
-				"Tokens of the Departed|Rogue|LevelUpAdventurersGuideA5E|Phantom (UA)|LevelUpAdventurersGuideA5E|9",
-				"Ghost Walk|Rogue|LevelUpAdventurersGuideA5E|Phantom (UA)|LevelUpAdventurersGuideA5E|13",
-				"Death Knell|Rogue|LevelUpAdventurersGuideA5E|Phantom (UA)|LevelUpAdventurersGuideA5E|17"
+				"Phantom|Rogue|LevelUpA5E|Phantom (UA)|LevelUpA5E|3",
+				"Tokens of the Departed|Rogue|LevelUpA5E|Phantom (UA)|LevelUpA5E|9",
+				"Ghost Walk|Rogue|LevelUpA5E|Phantom (UA)|LevelUpA5E|13",
+				"Death Knell|Rogue|LevelUpA5E|Phantom (UA)|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Phantom",
 			"shortName": "Phantom",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 62,
 			"subclassFeatures": [
-				"Phantom|Rogue|LevelUpAdventurersGuideA5E|Phantom|LevelUpAdventurersGuideA5E|3",
-				"Tokens of the Departed|Rogue|LevelUpAdventurersGuideA5E|Phantom|LevelUpAdventurersGuideA5E|9",
-				"Ghost Walk|Rogue|LevelUpAdventurersGuideA5E|Phantom|LevelUpAdventurersGuideA5E|13",
-				"Death's Friend|Rogue|LevelUpAdventurersGuideA5E|Phantom|LevelUpAdventurersGuideA5E|17"
+				"Phantom|Rogue|LevelUpA5E|Phantom|LevelUpA5E|3",
+				"Tokens of the Departed|Rogue|LevelUpA5E|Phantom|LevelUpA5E|9",
+				"Ghost Walk|Rogue|LevelUpA5E|Phantom|LevelUpA5E|13",
+				"Death's Friend|Rogue|LevelUpA5E|Phantom|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Soulknife",
 			"shortName": "Soulknife",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"page": 63,
 			"subclassFeatures": [
-				"Soulknife|Rogue|LevelUpAdventurersGuideA5E|Soulknife|LevelUpAdventurersGuideA5E|3",
-				"Soul Blades|Rogue|LevelUpAdventurersGuideA5E|Soulknife|LevelUpAdventurersGuideA5E|9",
-				"Psychic Veil|Rogue|LevelUpAdventurersGuideA5E|Soulknife|LevelUpAdventurersGuideA5E|13",
-				"Rend Mind|Rogue|LevelUpAdventurersGuideA5E|Soulknife|LevelUpAdventurersGuideA5E|17"
+				"Soulknife|Rogue|LevelUpA5E|Soulknife|LevelUpA5E|3",
+				"Soul Blades|Rogue|LevelUpA5E|Soulknife|LevelUpA5E|9",
+				"Psychic Veil|Rogue|LevelUpA5E|Soulknife|LevelUpA5E|13",
+				"Rend Mind|Rogue|LevelUpA5E|Soulknife|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Burglar",
 			"shortName": "Burglar",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Unfair Advantage|Rogue|LevelUpAdventurersGuideA5E|Burglar|LevelUpAdventurersGuideA5E|3",
-				"Bonus Expertise|Rogue|LevelUpAdventurersGuideA5E|Burglar|LevelUpAdventurersGuideA5E|3",
-				"Ambidextrous|Rogue|LevelUpAdventurersGuideA5E|Burglar|LevelUpAdventurersGuideA5E|9",
-				"Legitimate Business|Rogue|LevelUpAdventurersGuideA5E|Burglar|LevelUpAdventurersGuideA5E|9",
-				"Pointed Wit|Rogue|LevelUpAdventurersGuideA5E|Burglar|LevelUpAdventurersGuideA5E|13",
-				"Improved Backstab|Rogue|LevelUpAdventurersGuideA5E|Burglar|LevelUpAdventurersGuideA5E|17"
+				"Unfair Advantage|Rogue|LevelUpA5E|Burglar|LevelUpA5E|3",
+				"Bonus Expertise|Rogue|LevelUpA5E|Burglar|LevelUpA5E|3",
+				"Ambidextrous|Rogue|LevelUpA5E|Burglar|LevelUpA5E|9",
+				"Legitimate Business|Rogue|LevelUpA5E|Burglar|LevelUpA5E|9",
+				"Pointed Wit|Rogue|LevelUpA5E|Burglar|LevelUpA5E|13",
+				"Improved Backstab|Rogue|LevelUpA5E|Burglar|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Cutthroat",
 			"shortName": "Cutthroat",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Bonus Expertise|Rogue|LevelUpAdventurersGuideA5E|Cutthroat|LevelUpAdventurersGuideA5E|3",
-				"Master of Poisons|Rogue|LevelUpAdventurersGuideA5E|Cutthroat|LevelUpAdventurersGuideA5E|3",
-				"Quick Strike|Rogue|LevelUpAdventurersGuideA5E|Cutthroat|LevelUpAdventurersGuideA5E|9",
-				"Hidden Resources|Rogue|LevelUpAdventurersGuideA5E|Cutthroat|LevelUpAdventurersGuideA5E|9",
-				"Deceptive Mind|Rogue|LevelUpAdventurersGuideA5E|Cutthroat|LevelUpAdventurersGuideA5E|13",
-				"First Blood|Rogue|LevelUpAdventurersGuideA5E|Cutthroat|LevelUpAdventurersGuideA5E|17"
+				"Bonus Expertise|Rogue|LevelUpA5E|Cutthroat|LevelUpA5E|3",
+				"Master of Poisons|Rogue|LevelUpA5E|Cutthroat|LevelUpA5E|3",
+				"Quick Strike|Rogue|LevelUpA5E|Cutthroat|LevelUpA5E|9",
+				"Hidden Resources|Rogue|LevelUpA5E|Cutthroat|LevelUpA5E|9",
+				"Deceptive Mind|Rogue|LevelUpA5E|Cutthroat|LevelUpA5E|13",
+				"First Blood|Rogue|LevelUpA5E|Cutthroat|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Investigator",
 			"shortName": "Investigator",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Bonus Expertise|Rogue|LevelUpAdventurersGuideA5E|Investigator|LevelUpAdventurersGuideA5E|3",
-				"Adept Researcher|Rogue|LevelUpAdventurersGuideA5E|Investigator|LevelUpAdventurersGuideA5E|3",
-				"Teamwork|Rogue|LevelUpAdventurersGuideA5E|Investigator|LevelUpAdventurersGuideA5E|3",
-				"Track Recognition|Rogue|LevelUpAdventurersGuideA5E|Investigator|LevelUpAdventurersGuideA5E|9",
-				"Defiant Mind|Rogue|LevelUpAdventurersGuideA5E|Investigator|LevelUpAdventurersGuideA5E|9",
-				"Gather Lore|Rogue|LevelUpAdventurersGuideA5E|Investigator|LevelUpAdventurersGuideA5E|13",
-				"Study Weakness|Rogue|LevelUpAdventurersGuideA5E|Investigator|LevelUpAdventurersGuideA5E|17"
+				"Bonus Expertise|Rogue|LevelUpA5E|Investigator|LevelUpA5E|3",
+				"Adept Researcher|Rogue|LevelUpA5E|Investigator|LevelUpA5E|3",
+				"Teamwork|Rogue|LevelUpA5E|Investigator|LevelUpA5E|3",
+				"Track Recognition|Rogue|LevelUpA5E|Investigator|LevelUpA5E|9",
+				"Defiant Mind|Rogue|LevelUpA5E|Investigator|LevelUpA5E|9",
+				"Gather Lore|Rogue|LevelUpA5E|Investigator|LevelUpA5E|13",
+				"Study Weakness|Rogue|LevelUpA5E|Investigator|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Trapsmith",
 			"shortName": "Trapsmith",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Bonus Expertise|Rogue|LevelUpAdventurersGuideA5E|Trapsmith|LevelUpAdventurersGuideA5E|3",
-				"Cunning Trap|Rogue|LevelUpAdventurersGuideA5E|Trapsmith|LevelUpAdventurersGuideA5E|3",
-				"Trapmaking|Rogue|LevelUpAdventurersGuideA5E|Trapsmith|LevelUpAdventurersGuideA5E|3",
-				"Trap Sense|Rogue|LevelUpAdventurersGuideA5E|Trapsmith|LevelUpAdventurersGuideA5E|3",
-				"Augmented Trapmaking|Rogue|LevelUpAdventurersGuideA5E|Trapsmith|LevelUpAdventurersGuideA5E|9",
-				"Improvised Crafting|Rogue|LevelUpAdventurersGuideA5E|Trapsmith|LevelUpAdventurersGuideA5E|13",
-				"Deadly Trapmaking|Rogue|LevelUpAdventurersGuideA5E|Trapsmith|LevelUpAdventurersGuideA5E|17"
+				"Bonus Expertise|Rogue|LevelUpA5E|Trapsmith|LevelUpA5E|3",
+				"Cunning Trap|Rogue|LevelUpA5E|Trapsmith|LevelUpA5E|3",
+				"Trapmaking|Rogue|LevelUpA5E|Trapsmith|LevelUpA5E|3",
+				"Trap Sense|Rogue|LevelUpA5E|Trapsmith|LevelUpA5E|3",
+				"Augmented Trapmaking|Rogue|LevelUpA5E|Trapsmith|LevelUpA5E|9",
+				"Improvised Crafting|Rogue|LevelUpA5E|Trapsmith|LevelUpA5E|13",
+				"Deadly Trapmaking|Rogue|LevelUpA5E|Trapsmith|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Occult Blade",
 			"shortName": "Occult Blade",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Sleight of Mind|Rogue|LevelUpAdventurersGuideA5E|Occult Blade|LevelUpAdventurersGuideA5E|3",
-				"Absent Recall|Rogue|LevelUpAdventurersGuideA5E|Occult Blade|LevelUpAdventurersGuideA5E|3",
-				"Steal Your Shadow|Rogue|LevelUpAdventurersGuideA5E|Occult Blade|LevelUpAdventurersGuideA5E|9",
-				"Plant Memories|Rogue|LevelUpAdventurersGuideA5E|Occult Blade|LevelUpAdventurersGuideA5E|13",
-				"Steal Loyalty|Rogue|LevelUpAdventurersGuideA5E|Occult Blade|LevelUpAdventurersGuideA5E|17"
+				"Sleight of Mind|Rogue|LevelUpA5E|Occult Blade|LevelUpA5E|3",
+				"Absent Recall|Rogue|LevelUpA5E|Occult Blade|LevelUpA5E|3",
+				"Steal Your Shadow|Rogue|LevelUpA5E|Occult Blade|LevelUpA5E|9",
+				"Plant Memories|Rogue|LevelUpA5E|Occult Blade|LevelUpA5E|13",
+				"Steal Loyalty|Rogue|LevelUpA5E|Occult Blade|LevelUpA5E|17"
 			]
 		},
 		{
 			"name": "Fatebound",
 			"shortName": "Fatebound",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassFeatures": [
-				"Fateweaver|Rogue|LevelUpAdventurersGuideA5E|Fatebound|LevelUpAdventurersGuideA5E|3",
-				"Protected by Fate|Rogue|LevelUpAdventurersGuideA5E|Fatebound|LevelUpAdventurersGuideA5E|9",
-				"13th Level Feature|Rogue|LevelUpAdventurersGuideA5E|Fatebound|LevelUpAdventurersGuideA5E|13",
-				"17th Level Feature|Rogue|LevelUpAdventurersGuideA5E|Fatebound|LevelUpAdventurersGuideA5E|17"
+				"Fateweaver|Rogue|LevelUpA5E|Fatebound|LevelUpA5E|3",
+				"Protected by Fate|Rogue|LevelUpA5E|Fatebound|LevelUpA5E|9",
+				"13th Level Feature|Rogue|LevelUpA5E|Fatebound|LevelUpA5E|13",
+				"17th Level Feature|Rogue|LevelUpA5E|Fatebound|LevelUpA5E|17"
 			]
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Skill Tricks",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Your focused training allows you to use your skills in ways that others can’t. At 1st level you gain a skill trick of your choice. Your tricks are detailed in the {@filter Optional Features|optionalfeatures|Feature Type=ST} page. The Tricks Known column of the Rogue table shows when you learn more skill tricks. Unless otherwise noted, you can gain each trick only once."
@@ -1027,9 +1027,9 @@
 		},
 		{
 			"name": "Sneak Attack",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 1,
 			"entries": [
 				"Beginning at 1st level, you fight with precision, taking advantage of momentary lapses in an opponent’s concentration. Once per turn, you can deal extra weapon damage when you hit a creature with a finesse weapon or ranged weapon attack. The amount of extra damage is shown in the Sneak Attack column of the Rogue table.",
@@ -1038,9 +1038,9 @@
 		},
 		{
 			"name": "Combat Maneuvers",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you gain the ability to use combat maneuvers. You gain proficiency in two combat traditions from the following list: {@filter Biting Zephyr, Mist and Shade, or Rapid Current|spells|Subschool=biting zephyr;mist and shade;rapid current}. You learn two maneuvers of your choice from traditions you are proficient with.",
@@ -1050,9 +1050,9 @@
 		},
 		{
 			"name": "Combat Tactic",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you adopt a set of moves and tactics which complement your preferred combat strategies. Choose one of the following options. Each time you gain a level, you may change this choice.",
@@ -1081,9 +1081,9 @@
 		},
 		{
 			"name": "Cunning Action",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 2,
 			"entries": [
 				"Also at 2nd level, you use your mobility to weave through the battlefield. Each turn in combat, you can use a bonus action to take the Dash, Disengage, Hide, or Use an Object action."
@@ -1091,9 +1091,9 @@
 		},
 		{
 			"name": "Rogue Archetype",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you choose an archetype: a specialization that defines how you approach the challenges of your profession. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
@@ -1101,9 +1101,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1112,9 +1112,9 @@
 		},
 		{
 			"name": "Innocent Facade",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 4,
 			"entries": [
 				"Beginning at 4th level, you are skilled at hiding your motives. Choose one of the following options. You must be proficient in a skill or tool to gain an expertise die from Innocent Facade.",
@@ -1151,9 +1151,9 @@
 		},
 		{
 			"name": "Aim",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 5,
 			"entries": [
 				"Beginning at 5th level, you learn to briefly focus and make the most out of your next strike. If you haven’t yet moved on your turn, you can use your Cunning Action to Aim, gaining advantage on the next attack roll you make before the start of your next turn. If you do so, your Speed is reduced to 0 until the end of your turn."
@@ -1161,9 +1161,9 @@
 		},
 		{
 			"name": "Self-Preservation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 6,
 			"entries": [
 				"At 6th level, your honed reflexes and mental toughness allow you to avoid danger. Choose two of the following options. You may choose an additional option at 12th level and two more at 18th level.",
@@ -1213,9 +1213,9 @@
 		},
 		{
 			"name": "Improved Critical",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 7,
 			"entries": [
 				"At 7th level, your weapon attacks score a critical hit on a roll of 19 or 20. If you already have a feature that increases the range of your critical hits, your critical hit range increases by 1 (maximum 17–20)."
@@ -1223,9 +1223,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 8,
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1234,9 +1234,9 @@
 		},
 		{
 			"name": "Shrewd Judgment",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 8,
 			"entries": [
 				"Beginning at 8th level, your ability to read others makes you as dangerous in conversation as you are in a dark alley. Choose one of the following options. You must be proficient in a skill or tool in order to gain an expertise die from Shrewd Judgment.",
@@ -1272,9 +1272,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"At 9th level, you gain another feature from your Rogue Archetype."
@@ -1282,9 +1282,9 @@
 		},
 		{
 			"name": "Low Profile",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 10,
 			"entries": [
 				"Beginning at 10th level, you can avoid notice when you wish. Choose one of the following options. You must be proficient in a skill or tool in order to gain an expertise die from Low Profile.",
@@ -1320,9 +1320,9 @@
 		},
 		{
 			"name": "Cunning Celerity",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 11,
 			"entries": [
 				"Beginning at 11th level, you can take two different bonus actions on your turn. You can use this feature a number of times equal to your proficiency bonus. You regain all uses of this feature when you complete a short or long rest."
@@ -1330,9 +1330,9 @@
 		},
 		{
 			"name": "Expert Talent",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 11,
 			"entries": [
 				"Beginning at 11th level, you almost never make mistakes when performing routine tasks. Whenever you make an ability check on which you roll expertise dice, you treat a {@dice d20} roll of 9 or lower as a 10."
@@ -1340,9 +1340,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1351,9 +1351,9 @@
 		},
 		{
 			"name": "Self-Preservation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 12,
 			"entries": [
 				"Also at 12th level, you can choose another option from your Self-Preservation feature."
@@ -1361,9 +1361,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 13,
 			"entries": [
 				"At 13th level, you gain another feature from your Rogue Archetype."
@@ -1371,9 +1371,9 @@
 		},
 		{
 			"name": "Guarded Aspect",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 14,
 			"entries": [
 				"Beginning at 14th level, you are adept at uncovering and preserving secrets. Choose one of the following options. You must be proficient in a skill or tool in order to gain an expertise die from Guarded Aspect.",
@@ -1409,9 +1409,9 @@
 		},
 		{
 			"name": "Elusive",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 15,
 			"entries": [
 				"At 15th level, you know how to avoid vulnerable positions. As long as you are not {@condition unconscious}, no attack roll has advantage against you."
@@ -1419,9 +1419,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1430,9 +1430,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 17,
 			"entries": [
 				"At 17th level, you gain a feature granted by your Rogue Archetype."
@@ -1440,9 +1440,9 @@
 		},
 		{
 			"name": "Overpowering Personality",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 18,
 			"entries": [
 				"Beginning at 18th level, your poise and charm allow you to impose your vision on the world. Choose one of the following options. You must be proficient in a skill in order to gain an expertise die from Overpowering Personality.",
@@ -1478,9 +1478,9 @@
 		},
 		{
 			"name": "Self-Preservation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 18,
 			"entries": [
 				"Also at 18th level, you gain another option from your Self-Preservation feature."
@@ -1488,9 +1488,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1499,9 +1499,9 @@
 		},
 		{
 			"name": "Grand Larcenist",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"level": 20,
 			"entries": [
 				"At 20th level, you reach the epitome of roguish talent and expertise. You gain the following abilities.",
@@ -1532,33 +1532,33 @@
 	"subclassFeature": [
 		{
 			"name": "Arcane Trickster",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Arcane Trickster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Rogue|LevelUpAdventurersGuideA5E|Arcane Trickster|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Spellcasting|Rogue|LevelUpA5E|Arcane Trickster|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mage Hand Legerdemain|Rogue|LevelUpAdventurersGuideA5E|Arcane Trickster|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Mage Hand Legerdemain|Rogue|LevelUpA5E|Arcane Trickster|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Mage Hand Legerdemain",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Arcane Trickster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1577,12 +1577,12 @@
 		},
 		{
 			"name": "Spellcasting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Arcane Trickster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1657,12 +1657,12 @@
 		},
 		{
 			"name": "Magical Ambush",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Arcane Trickster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -1671,12 +1671,12 @@
 		},
 		{
 			"name": "Versatile Trickster",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Arcane Trickster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -1685,12 +1685,12 @@
 		},
 		{
 			"name": "Spell Thief",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Arcane Trickster",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -1701,34 +1701,34 @@
 		},
 		{
 			"name": "Assassin",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Assassin",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"You focus your training on the grim art of death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.",
 				"Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Assassinate|Rogue|LevelUpAdventurersGuideA5E|Assassin|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Assassinate|Rogue|LevelUpA5E|Assassin|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Rogue|LevelUpAdventurersGuideA5E|Assassin|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Bonus Proficiencies|Rogue|LevelUpA5E|Assassin|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Assassinate",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Assassin",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1737,12 +1737,12 @@
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Assassin",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1751,12 +1751,12 @@
 		},
 		{
 			"name": "Infiltration Expertise",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Assassin",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -1766,12 +1766,12 @@
 		},
 		{
 			"name": "Impostor",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Assassin",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -1781,12 +1781,12 @@
 		},
 		{
 			"name": "Death Strike",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Assassin",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -1795,35 +1795,35 @@
 		},
 		{
 			"name": "Thief",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"srd": true,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Thief",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fast Hands|Rogue|LevelUpAdventurersGuideA5E|Thief|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Fast Hands|Rogue|LevelUpA5E|Thief|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Second-Story Work|Rogue|LevelUpAdventurersGuideA5E|Thief|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Second-Story Work|Rogue|LevelUpA5E|Thief|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Fast Hands",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"srd": true,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Thief",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1832,13 +1832,13 @@
 		},
 		{
 			"name": "Second-Story Work",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"srd": true,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Thief",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1848,13 +1848,13 @@
 		},
 		{
 			"name": "Supreme Sneak",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"srd": true,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Thief",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -1863,13 +1863,13 @@
 		},
 		{
 			"name": "Use Magic Device",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"srd": true,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Thief",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -1878,13 +1878,13 @@
 		},
 		{
 			"name": "Thief's Reflexes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 97,
 			"srd": true,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Thief",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -1893,12 +1893,12 @@
 		},
 		{
 			"name": "Phantom",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 62,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Many rogues walk a fine line between life and death, risking their own lives and taking the lives of others. While adventuring on that line, some rogues discover a mystical connection to death itself. These rogues take knowledge from the dead and become immersed in negative energy, eventually becoming like ghosts. Thieves' guilds value them as highly effective information gatherers and spies.",
@@ -1906,22 +1906,22 @@
 				"How did you discover this grim power? Did you sleep in a graveyard and awaken to your new abilities? Or did you cultivate them in a temple or thieves' guild dedicated to a deity of death?",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Whispers of the Dead|Rogue|LevelUpAdventurersGuideA5E|Phantom|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Whispers of the Dead|Rogue|LevelUpA5E|Phantom|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wails from the Grave|Rogue|LevelUpAdventurersGuideA5E|Phantom|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Wails from the Grave|Rogue|LevelUpA5E|Phantom|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Wails from the Grave",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 62,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1932,12 +1932,12 @@
 		},
 		{
 			"name": "Whispers of the Dead",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 62,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1947,12 +1947,12 @@
 		},
 		{
 			"name": "Tokens of the Departed",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 62,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -1971,12 +1971,12 @@
 		},
 		{
 			"name": "Ghost Walk",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 62,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -1987,12 +1987,12 @@
 		},
 		{
 			"name": "Death's Friend",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 62,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2009,12 +2009,12 @@
 		},
 		{
 			"name": "Soulknife",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Most assassins strike with physical weapons, and many burglars and spies use {@item thieves' tools|PHB} to infiltrate secure locations. In contrast, a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thieves' guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business. Most governments would also be happy to employ a Soulknife as a spy.",
@@ -2022,22 +2022,22 @@
 				"As a Soulknife, your psionic abilities might have haunted you since you were a child, only revealing their full potential as you experienced the stress of adventure. Or you might have sought out a reclusive order of psychic adepts and spent years learning how to manifest your power.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Power|Rogue|LevelUpAdventurersGuideA5E|Soulknife|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Psionic Power|Rogue|LevelUpA5E|Soulknife|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Blades|Rogue|LevelUpAdventurersGuideA5E|Soulknife|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Psychic Blades|Rogue|LevelUpA5E|Soulknife|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Psionic Power",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2063,12 +2063,12 @@
 		},
 		{
 			"name": "Psychic Blades",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2079,12 +2079,12 @@
 		},
 		{
 			"name": "Soul Blades",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -2107,12 +2107,12 @@
 		},
 		{
 			"name": "Psychic Veil",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -2123,12 +2123,12 @@
 		},
 		{
 			"name": "Rend Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2139,12 +2139,12 @@
 		},
 		{
 			"name": "Soulknife",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Most assassins strike with physical weapons, and many burglars and spies use {@item thieves' tools|PHB} to infiltrate secure locations, whereas a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thieves' guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business, and most governments would be happy to employ a Soulknife as a spy.",
@@ -2152,22 +2152,22 @@
 				"As a Soulknife, your psionic abilities might have haunted you since you were a child, only revealing their potential as you experienced the stress of adventure. Or you might have sought out a reclusive order of psionic adepts and spent years learning how to manifest your power.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Talent|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Psionic Talent|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Blades|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Psychic Blades|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Psionic Talent",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2216,12 +2216,12 @@
 		},
 		{
 			"name": "Psychic Blades",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2232,12 +2232,12 @@
 		},
 		{
 			"name": "Soul Blades",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -2263,12 +2263,12 @@
 		},
 		{
 			"name": "Psionic Veil",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -2279,12 +2279,12 @@
 		},
 		{
 			"name": "Rend Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 3,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2295,12 +2295,12 @@
 		},
 		{
 			"name": "Phantom",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Many rogues walk a fine line between life and death, risking their own lives and taking the lives of others. While adventuring on that line, some rogues discover a mystical connection to death itself. These rogues take knowledge from the dead and become immersed in negative energy, eventually becoming like ghosts. Thieves' guilds value them as highly effective information gatherers and spies.",
@@ -2308,22 +2308,22 @@
 				"How did you discover this grim power? Did you sleep in a graveyard and awaken to your new abilities? Or did you cultivate them in a temple or thieves' guild dedicated to a god of death?",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Whispers of the Dead|Rogue|LevelUpAdventurersGuideA5E|Phantom (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Whispers of the Dead|Rogue|LevelUpA5E|Phantom (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wails from the Grave|Rogue|LevelUpAdventurersGuideA5E|Phantom (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Wails from the Grave|Rogue|LevelUpA5E|Phantom (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Wails from the Grave",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2334,12 +2334,12 @@
 		},
 		{
 			"name": "Whispers of the Dead",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2349,12 +2349,12 @@
 		},
 		{
 			"name": "Tokens of the Departed",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -2366,12 +2366,12 @@
 		},
 		{
 			"name": "Ghost Walk",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -2382,12 +2382,12 @@
 		},
 		{
 			"name": "Death Knell",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 1,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Phantom (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2397,37 +2397,37 @@
 		},
 		{
 			"name": "The Revived",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Revived (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"You've had a soul-shaking realization: you've been dead before, yet somehow you are alive again. This life isn't your first; it might not even be your second. Your past life, or lives, are unclear to you, but you know that you passed through the gates of death. And the powers of death, or some other influence, wasn't done with you. You might have convinced a deity to let you return to the Material Plane, perhaps you signed a deal with a fiend, or maybe you used an artifact that revived you. Whatever force brought you back, you now know the truth about yourself: that you are one of death's representatives among the living.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tokens of Past Lives|Rogue|LevelUpAdventurersGuideA5E|Revived (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Tokens of Past Lives|Rogue|LevelUpA5E|Revived (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Revived Nature|Rogue|LevelUpAdventurersGuideA5E|Revived (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Revived Nature|Rogue|LevelUpA5E|Revived (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bolts from the Grave|Rogue|LevelUpAdventurersGuideA5E|Revived (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Bolts from the Grave|Rogue|LevelUpA5E|Revived (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Bolts from the Grave",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Revived (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2437,12 +2437,12 @@
 		},
 		{
 			"name": "Revived Nature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Revived (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2460,12 +2460,12 @@
 		},
 		{
 			"name": "Tokens of Past Lives",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Revived (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2475,12 +2475,12 @@
 		},
 		{
 			"name": "Connect with the Dead",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Revived (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -2518,12 +2518,12 @@
 		},
 		{
 			"name": "Audience with Death",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Revived (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -2534,12 +2534,12 @@
 		},
 		{
 			"name": "Ethereal Jaunt",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 4,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Revived (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2549,34 +2549,34 @@
 		},
 		{
 			"name": "Soulknife",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"A Soulknife possesses powerful psionic potential. They channel this reservoir of inner magic into tangible blades of psychic energy, striking at their victims' minds. They find easy employment as members of thieves' guilds, being particularly sought after as assassins, since their signature psychic blades leave behind no visible wounds.",
 				"As a Soulknife, your psionic abilities might have haunted you since you were a child, only revealing their potential when your psychic knives first appeared. Or you might have sought out a reclusive order of psionic assassins and spent years learning how to manifest your deadly blades.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Blade|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Psychic Blade|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Enhancement|Rogue|LevelUpAdventurersGuideA5E|Soulknife (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Psionic Enhancement|Rogue|LevelUpA5E|Soulknife (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Psionic Enhancement",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2594,12 +2594,12 @@
 		},
 		{
 			"name": "Psychic Blade",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2610,12 +2610,12 @@
 		},
 		{
 			"name": "Terrifying Blade",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -2625,12 +2625,12 @@
 		},
 		{
 			"name": "Psychic Veil",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -2641,12 +2641,12 @@
 		},
 		{
 			"name": "Rend Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2657,37 +2657,37 @@
 		},
 		{
 			"name": "Inquisitive",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for details, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your sharp eye make you well equipped to expose and end hidden evils.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ear for Deceit|Rogue|LevelUpAdventurersGuideA5E|Inquisitive (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Ear for Deceit|Rogue|LevelUpA5E|Inquisitive (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eye for Detail|Rogue|LevelUpAdventurersGuideA5E|Inquisitive (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Eye for Detail|Rogue|LevelUpA5E|Inquisitive (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Insightful Fighting|Rogue|LevelUpAdventurersGuideA5E|Inquisitive (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Insightful Fighting|Rogue|LevelUpA5E|Inquisitive (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Ear for Deceit",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2696,12 +2696,12 @@
 		},
 		{
 			"name": "Eye for Detail",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2710,12 +2710,12 @@
 		},
 		{
 			"name": "Insightful Fighting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2725,12 +2725,12 @@
 		},
 		{
 			"name": "Steady Eye",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -2739,12 +2739,12 @@
 		},
 		{
 			"name": "Unerring Eye",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -2753,12 +2753,12 @@
 		},
 		{
 			"name": "Eye for Weakness",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2767,33 +2767,33 @@
 		},
 		{
 			"name": "Scout",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"You are skilled in woodcraft and stealth, allowing you to range ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and fighters, as they serve as the eyes and ears of war bands across the world. Compared to other rogues, you are skilled at surviving in the wilds.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Survivalist|Rogue|LevelUpAdventurersGuideA5E|Scout (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Survivalist|Rogue|LevelUpA5E|Scout (UA)|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skirmisher|Rogue|LevelUpAdventurersGuideA5E|Scout (UA)|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Skirmisher|Rogue|LevelUpA5E|Scout (UA)|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Skirmisher",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2802,12 +2802,12 @@
 		},
 		{
 			"name": "Survivalist",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2816,12 +2816,12 @@
 		},
 		{
 			"name": "Superior Mobility",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -2830,12 +2830,12 @@
 		},
 		{
 			"name": "Ambush Master",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -2845,12 +2845,12 @@
 		},
 		{
 			"name": "Sudden Strike",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 2,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout (UA)",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2859,37 +2859,37 @@
 		},
 		{
 			"name": "Inquisitive",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 45,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your keen deductions make you well equipped to expose and end hidden evils.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ear for Deceit|Rogue|LevelUpAdventurersGuideA5E|Inquisitive|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Ear for Deceit|Rogue|LevelUpA5E|Inquisitive|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eye for Detail|Rogue|LevelUpAdventurersGuideA5E|Inquisitive|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Eye for Detail|Rogue|LevelUpA5E|Inquisitive|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Insightful Fighting|Rogue|LevelUpAdventurersGuideA5E|Inquisitive|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Insightful Fighting|Rogue|LevelUpA5E|Inquisitive|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Ear for Deceit",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 45,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2898,12 +2898,12 @@
 		},
 		{
 			"name": "Eye for Detail",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 45,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2912,12 +2912,12 @@
 		},
 		{
 			"name": "Insightful Fighting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 45,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2927,12 +2927,12 @@
 		},
 		{
 			"name": "Steady Eye",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 45,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -2941,12 +2941,12 @@
 		},
 		{
 			"name": "Unerring Eye",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 45,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -2956,12 +2956,12 @@
 		},
 		{
 			"name": "Eye for Weakness",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 45,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Inquisitive",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2970,33 +2970,33 @@
 		},
 		{
 			"name": "Mastermind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 46,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Mastermind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Master of Intrigue|Rogue|LevelUpAdventurersGuideA5E|Mastermind|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Master of Intrigue|Rogue|LevelUpA5E|Mastermind|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Master of Tactics|Rogue|LevelUpAdventurersGuideA5E|Mastermind|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Master of Tactics|Rogue|LevelUpA5E|Mastermind|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Master of Intrigue",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 46,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Mastermind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3006,12 +3006,12 @@
 		},
 		{
 			"name": "Master of Tactics",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 46,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Mastermind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3020,12 +3020,12 @@
 		},
 		{
 			"name": "Insightful Manipulator",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 46,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Mastermind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -3044,12 +3044,12 @@
 		},
 		{
 			"name": "Misdirection",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 46,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Mastermind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -3058,12 +3058,12 @@
 		},
 		{
 			"name": "Soul of Deceit",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 46,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Mastermind",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -3073,33 +3073,33 @@
 		},
 		{
 			"name": "Scout",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 47,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Scouts serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter\u2014these are just a few of the roles that Scouts assume as they range the world.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skirmisher|Rogue|LevelUpAdventurersGuideA5E|Scout|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Skirmisher|Rogue|LevelUpA5E|Scout|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Survivalist|Rogue|LevelUpAdventurersGuideA5E|Scout|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Survivalist|Rogue|LevelUpA5E|Scout|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Skirmisher",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 47,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3108,12 +3108,12 @@
 		},
 		{
 			"name": "Survivalist",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 47,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3122,12 +3122,12 @@
 		},
 		{
 			"name": "Superior Mobility",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 47,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -3136,12 +3136,12 @@
 		},
 		{
 			"name": "Ambush Master",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 47,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -3151,12 +3151,12 @@
 		},
 		{
 			"name": "Sudden Strike",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 47,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Scout",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -3165,34 +3165,34 @@
 		},
 		{
 			"name": "Swashbuckler",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 48,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swashbuckler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype.",
 				"A Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fancy Footwork|Rogue|LevelUpAdventurersGuideA5E|Swashbuckler|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Fancy Footwork|Rogue|LevelUpA5E|Swashbuckler|LevelUpA5E|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rakish Audacity|Rogue|LevelUpAdventurersGuideA5E|Swashbuckler|LevelUpAdventurersGuideA5E|3"
+					"subclassFeature": "Rakish Audacity|Rogue|LevelUpA5E|Swashbuckler|LevelUpA5E|3"
 				}
 			]
 		},
 		{
 			"name": "Fancy Footwork",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 48,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swashbuckler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3201,12 +3201,12 @@
 		},
 		{
 			"name": "Rakish Audacity",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 48,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swashbuckler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3216,12 +3216,12 @@
 		},
 		{
 			"name": "Panache",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 48,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swashbuckler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -3232,12 +3232,12 @@
 		},
 		{
 			"name": "Elegant Maneuver",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 48,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swashbuckler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -3246,12 +3246,12 @@
 		},
 		{
 			"name": "Master Duelist",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 48,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Swashbuckler",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -3260,12 +3260,12 @@
 		},
 		{
 			"name": "Psi-Bolstered Knack",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"When your nonpsionic training fails you, your psionic power can help: if you fail an ability check using a skill or tool with which you have proficiency, you can roll one Psionic Energy die and add the number rolled to the check, potentially turning failure into success. You expend the die only if the roll succeeds."
@@ -3273,12 +3273,12 @@
 		},
 		{
 			"name": "Psychic Whispers",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"You can establish telepathic communication between yourself and others-perfect for quiet infiltration. As an action, choose one or more creatures you can see, up to a number of creatures equal to your proficiency bonus, and then roll one Psionic Energy die. For a number of hours equal to the number rolled, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can't use this telepathy if it can't speak any languages, and a creature can end the telepathic connection at any time (no action required). You and the creature don't need to speak a common language to understand each other.",
@@ -3287,12 +3287,12 @@
 		},
 		{
 			"name": "Homing Strikes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"If you make an attack roll with your Psychic Blades and miss the target, you can roll one Psionic Energy die and add the number rolled to the attack roll. If this causes the attack to hit, you expend the Psionic Energy die."
@@ -3300,12 +3300,12 @@
 		},
 		{
 			"name": "Psychic Teleportation",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"page": 63,
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Soulknife",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"As a bonus action, you manifest one of your Psychic Blades, expend one Psionic Energy die and roll it, and throw the blade at an unoccupied space you can see, up to a number of feet away equal to 10 times the number rolled. You then teleport to that space, and the blade vanishes."
@@ -3313,11 +3313,11 @@
 		},
 		{
 			"name": "Unfair Advantage",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Burglar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"When you choose this archetype at 3rd level, you can create new ways to get the drop on your opponent. Choose one of the following options.",
@@ -3339,11 +3339,11 @@
 		},
 		{
 			"name": "Bonus Expertise",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Burglar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, you gain proficiency with Sleight of Hand, and you gain an expertise die on checks using it and when using thieves’ tools. You can use your Cunning Action to make a Sleight of Hand check or to use thieves’ tools."
@@ -3351,11 +3351,11 @@
 		},
 		{
 			"name": "Ambidextrous",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Burglar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"Starting at 9th level, you add your Dexterity modifier (minimum 1) to damage when making an attack using two weapon fighting. Additionally, you can use your Cunning Action to draw and throw, or pick up and throw, a weapon or improvised weapon."
@@ -3363,11 +3363,11 @@
 		},
 		{
 			"name": "Legitimate Business",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Burglar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"Also at 9th level, you have advantage on any ability check made to find a buyer or seller of an item."
@@ -3375,11 +3375,11 @@
 		},
 		{
 			"name": "Pointed Wit",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Burglar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"entries": [
 				"At 13th level, your words are as cutting as your blade. Choose one of the following options.",
@@ -3408,11 +3408,11 @@
 		},
 		{
 			"name": "Improved Backstab",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Burglar",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"entries": [
 				"Starting at 17th level, you gain the Backstab feature. If you already have Backstab, whenever you deal sneak attack damage with a melee weapon, you roll {@dice d10}s instead of {@dice d8}s for your sneak attack damage."
@@ -3420,11 +3420,11 @@
 		},
 		{
 			"name": "Bonus Expertise",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Cutthroat",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"When you choose this archetype at 3rd level, you gain proficiency with Deception, and you gain an expertise die on Deception checks and checks made using a poisoner’s kit."
@@ -3432,11 +3432,11 @@
 		},
 		{
 			"name": "Master of Poisons",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Cutthroat",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you learn the recipe for a special injury poison called Blackblade. During a short or long rest, you can use your poisoner’s kit to brew a number of doses of this poison equal to your proficiency bonus without spending money or resources doing so. These poisons lose their effectiveness at the start of your next short or long rest.",
@@ -3445,11 +3445,11 @@
 		},
 		{
 			"name": "Quick Strike",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Cutthroat",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"Starting at 9th level, your quick reflexes allow you to get the drop on opponents. You gain advantage on initiative rolls."
@@ -3457,11 +3457,11 @@
 		},
 		{
 			"name": "Hidden Resources",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Cutthroat",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"Starting at 9th level, when you hide a weapon or small object on your person, you make a Sleight of Hand check with advantage to set the DC for finding it."
@@ -3469,11 +3469,11 @@
 		},
 		{
 			"name": "Deceptive Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Cutthroat",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"entries": [
 				"Starting at 13th level, when you succeed on a saving throw against an effect that would read your mind, detect whether you are lying, or force you to tell the truth, you are aware of the magical intrusion and can present false thoughts or make a lie appear to be true."
@@ -3481,11 +3481,11 @@
 		},
 		{
 			"name": "First Blood",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Cutthroat",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"entries": [
 				"You are exceptionally deadly against unprepared opponents. Starting at 17th level, you have advantage on your first attack in combat if it’s against a creature who hasn’t taken a turn yet. If this attack hits, it is a critical hit. "
@@ -3493,11 +3493,11 @@
 		},
 		{
 			"name": "Bonus Expertise",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Investigator",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"When you choose this archetype at 3rd level, you gain proficiency with Investigation, Insight, and Perception, and you gain an expertise die on checks made using any of these skills. You can use all three of these skills with your Cunning Action when they’d normally take an action."
@@ -3505,11 +3505,11 @@
 		},
 		{
 			"name": "Adept Researcher",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Investigator",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you have advantage on rolls made to perform the Research downtime activity."
@@ -3517,11 +3517,11 @@
 		},
 		{
 			"name": "Teamwork",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Investigator",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you and your allies can work together in combat beyond what each of you can individually achieve. You add the {@filter Sanguine Knot|spells|Subschool=sanguine knot} tradition to the list of martial traditions you can choose combat maneuvers from. In addition, choose one of the following options.",
@@ -3543,11 +3543,11 @@
 		},
 		{
 			"name": "Track Recognition",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Investigator",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"Starting at 9th level, when you examine a creature’s trail (footprints or similar signs), you can recall the circumstances under which you examined this individual creature’s trail before."
@@ -3555,11 +3555,11 @@
 		},
 		{
 			"name": "Defiant Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Investigator",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"Starting at 9th level, you have proficiency with Wisdom saving throws. When a creature targets you with a spell or attack that forces you to make a Wisdom or Intelligence saving throw, and you succeed, you can use your reaction to make a melee or ranged attack against that creature."
@@ -3567,11 +3567,11 @@
 		},
 		{
 			"name": "Gather Lore",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Investigator",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"entries": [
 				"Starting at 13th level, you can try to secretly gather information about a person or object. You can only do so in a settlement in which you have spent at least a week. You must spend a day and 100 gold or more in order to make this attempt. You may only make one such attempt per person or object.",
@@ -3581,11 +3581,11 @@
 		},
 		{
 			"name": "Study Weakness",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Investigator",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"entries": [
 				"Starting at 17th level, you can recognize a flaw in a creature’s defenses. As your Cunning Action, you can study a creature. You gain advantage on all attacks and contested ability checks against that creature. This benefit lasts for 24 hours or until you study a different creature."
@@ -3593,11 +3593,11 @@
 		},
 		{
 			"name": "Bonus Expertise",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Trapsmith",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"When you choose this archetype at 3rd level, you gain proficiency with History and tinkerer’s tools, and you gain an expertise die on checks made with either, and when using thieves’ tools."
@@ -3605,11 +3605,11 @@
 		},
 		{
 			"name": "Cunning Trap",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Trapsmith",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you can use your Cunning Action to spread caltrops or ball bearings, or to throw a vial containing holy water, acid, or the like. Vials are simple weapons for you and have the thrown property (20/40 feet)."
@@ -3617,11 +3617,11 @@
 		},
 		{
 			"name": "Trapmaking",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Trapsmith",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Beginning at 3rd level, with 10 minutes of work you can use your thieves’ tools to boobytrap a 5-footsquare area or a Large or smaller object. Your trap can be anything from a needle in a lock to a rockfall in a passageway. Describe the mechanics of your trap to the Narrator. Logic determines which traps can be built where; for instance, a swinging axe can’t be hidden in a jewelry box.",
@@ -3631,11 +3631,11 @@
 		},
 		{
 			"name": "Trap Sense",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Trapsmith",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, you have advantage on saving throws made against traps. Ability checks made to detect and disarm traps are made with advantage and can be made using your Cunning Action."
@@ -3643,11 +3643,11 @@
 		},
 		{
 			"name": "Augmented Trapmaking",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Trapsmith",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"At 9th level, you invent a new way to increase the danger posed by your traps. You learn one of the following trap capabilities. When using Trapmaking to create a trap, you can choose to augment it with the new capability, which is triggered when your trap damages a creature.",
@@ -3676,11 +3676,11 @@
 		},
 		{
 			"name": "Improvised Crafting",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Trapsmith",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"entries": [
 				"Starting at 13th level, you can use your tinker’s tools to create a mundane item during a short or long rest. You can create one of the following items, which lasts until the beginning of the next long or short rest.",
@@ -3695,11 +3695,11 @@
 		},
 		{
 			"name": "Deadly Trapmaking",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Trapsmith",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"entries": [
 				"Starting at 17th level, the traps you create with your Trapmaking feature deal an amount of damage equal to {@dice 1d6} damage times your rogue level."
@@ -3707,26 +3707,26 @@
 		},
 		{
 			"name": "Sleight of Mind",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Occult Blade",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"When you choose this archetype at 3rd level, you learn to stealthily project your consciousness into the mind of another creature, allowing you to see their thoughts. Every mind is different, though, and to actually understand what you’re seeing takes some finesse, as you pull out a thought and hold it in your mind for a moment.",
-				"You can spend an action to cast {@spell detect thoughts|LevelUpAdventurersGuideA5E}, which does not require any verbal, somatic, or material components, but has a distance of only 5 feet. You can prevent a creature from knowing that you’re probing its mind by succeeding an Intelligence or Charisma (Sleight of Hand) check opposed to that creature’s Wisdom (Insight) check. If you succeed, the creature does not realize its mind was being probed.",
+				"You can spend an action to cast {@spell detect thoughts|LevelUpA5E}, which does not require any verbal, somatic, or material components, but has a distance of only 5 feet. You can prevent a creature from knowing that you’re probing its mind by succeeding an Intelligence or Charisma (Sleight of Hand) check opposed to that creature’s Wisdom (Insight) check. If you succeed, the creature does not realize its mind was being probed.",
 				"Your spellcasting ability modifier for this spell is Intelligence or Charisma, and if a creature does become aware you’re probing its mind and uses an action to try to end the spell, you can use Charisma in place of Intelligence to oppose its Intelligence check.",
 				"After you use this ability, you cannot use it again until you complete a short or long rest."
 			]
 		},
 		{
 			"name": "Absent Recall",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Occult Blade",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, whenever an attack you make deals sneak attack damage, you can choose to have those dice be psychic damage instead of being dealt by the weapon.",
@@ -3736,11 +3736,11 @@
 		},
 		{
 			"name": "Steal Your Shadow",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Occult Blade",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"At 9th level, your Sleight of Mind ability improves. When you dig deeper into a creature’s memories and it fails its saving throw to resist, you gather a temporary imprint of its personality, which you store in your mind until you complete a long rest.",
@@ -3749,37 +3749,37 @@
 		},
 		{
 			"name": "Plant Memories",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Occult Blade",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"entries": [
-				"At 13th level, you can slip into a creature’s mind and begin altering and adding memories. Spend an action to cast {@spell modify memory|LevelUpAdventurersGuideA5E}, which requires no verbal or somatic components, but has a range of only 5 feet. Your spellcasting ability modifier is Intelligence or Charisma. You can communicate the new memories telepathically.",
+				"At 13th level, you can slip into a creature’s mind and begin altering and adding memories. Spend an action to cast {@spell modify memory|LevelUpA5E}, which requires no verbal or somatic components, but has a range of only 5 feet. Your spellcasting ability modifier is Intelligence or Charisma. You can communicate the new memories telepathically.",
 				"After you use this ability, you cannot use it again until you complete a long rest."
 			]
 		},
 		{
 			"name": "Steal Loyalty",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Occult Blade",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"entries": [
-				"At 17th level, you’re able to deftly rewrite a foe’s mind in the middle of battle. When you would deal sneak attack damage to a creature, you may instead cast {@spell dominate monster|LevelUpAdventurersGuideA5E} on it, which requires no verbal or somatic components. Your spellcasting ability modifier is Intelligence or Charisma. If the creature succeeds its saving throw, or whenever the spell ends, that creature takes psychic damage equal to your sneak attack dice.",
+				"At 17th level, you’re able to deftly rewrite a foe’s mind in the middle of battle. When you would deal sneak attack damage to a creature, you may instead cast {@spell dominate monster|LevelUpA5E} on it, which requires no verbal or somatic components. Your spellcasting ability modifier is Intelligence or Charisma. If the creature succeeds its saving throw, or whenever the spell ends, that creature takes psychic damage equal to your sneak attack dice.",
 				"After you use this ability, you cannot use it again until you complete a short or long rest."
 			]
 		},
 		{
 			"name": "Fateweaver",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fatebound",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 3,
 			"entries": [
 				"When you choose this archetype at 3rd level, you learn to trust your destiny. Whenever you roll a {@dice d20} for an attack roll, ability check, initiative roll, or saving throw where you don't have advantage or disadvantage, or you have both, you may choose to roll with Emphasis. When you roll with Emphasis, you roll {@dice 2d20} and choose the result furthest away from 10. If both rolls are the same distance from 10, you may choose which roll to use.",
@@ -3788,11 +3788,11 @@
 		},
 		{
 			"name": "Protected by Fate",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fatebound",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 9,
 			"entries": [
 				"From 9th level, when you make an attack roll, ability check, initiative roll, or saving throw, and the final roll was below a 10, you may roll another {@dice d20} and choose either of the rolls. You cannot do this for rolls made with disadvantage.",
@@ -3801,11 +3801,11 @@
 		},
 		{
 			"name": "13th Level Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fatebound",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 13,
 			"entries": [
 				""
@@ -3813,11 +3813,11 @@
 		},
 		{
 			"name": "17th Level Feature",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"className": "Rogue",
-			"classSource": "LevelUpAdventurersGuideA5E",
+			"classSource": "LevelUpA5E",
 			"subclassShortName": "Fatebound",
-			"subclassSource": "LevelUpAdventurersGuideA5E",
+			"subclassSource": "LevelUpA5E",
 			"level": 17,
 			"entries": [
 				""
@@ -3827,7 +3827,7 @@
 	"optionalfeature": [
 		{
 			"name": "Agile Athlete",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3837,7 +3837,7 @@
 		},
 		{
 			"name": "Analysis",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3847,7 +3847,7 @@
 		},
 		{
 			"name": "Boobytrapper",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3857,7 +3857,7 @@
 		},
 		{
 			"name": "Cat's Eyes",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3867,7 +3867,7 @@
 		},
 		{
 			"name": "Delay Trap",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3877,7 +3877,7 @@
 		},
 		{
 			"name": "Expertise Training",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3887,7 +3887,7 @@
 		},
 		{
 			"name": "Extra Skill Training",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3897,7 +3897,7 @@
 		},
 		{
 			"name": "Graceful Leap",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3907,7 +3907,7 @@
 						"level": 13,
 						"class": {
 							"name": "Rogue",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					},
 					"other": "{@dice d8} expertise die on Acrobatics checks"
@@ -3919,7 +3919,7 @@
 		},
 		{
 			"name": "Hide in the Shadows",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3929,7 +3929,7 @@
 		},
 		{
 			"name": "Keen Eye",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3939,7 +3939,7 @@
 						"level": 13,
 						"class": {
 							"name": "Rogue",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					},
 					"other": "{@dice d8} expertise die on Perception checks"
@@ -3951,7 +3951,7 @@
 		},
 		{
 			"name": "Kip Up",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3961,7 +3961,7 @@
 		},
 		{
 			"name": "Locksmith",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3972,7 +3972,7 @@
 		},
 		{
 			"name": "Loot Runner",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3982,7 +3982,7 @@
 		},
 		{
 			"name": "Observer",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -3992,7 +3992,7 @@
 		},
 		{
 			"name": "Poison Expert",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -4002,7 +4002,7 @@
 						"level": 13,
 						"class": {
 							"name": "Rogue",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					},
 					"other": "{@dice d8} expertise die with poisoner's kit"
@@ -4014,7 +4014,7 @@
 		},
 		{
 			"name": "Practiced Dash",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -4024,7 +4024,7 @@
 						"level": 13,
 						"class": {
 							"name": "Rogue",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					},
 					"other": "{@dice d8} expertise die on Athletics checks"
@@ -4036,7 +4036,7 @@
 		},
 		{
 			"name": "Quick Scan",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -4046,7 +4046,7 @@
 		},
 		{
 			"name": "Scout Leader",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -4056,7 +4056,7 @@
 		},
 		{
 			"name": "Sense Aura",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -4066,7 +4066,7 @@
 						"level": 13,
 						"class": {
 							"name": "Rogue",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					},
 					"other": "{@dice d8} expertise die on Investigation checks"
@@ -4078,7 +4078,7 @@
 		},
 		{
 			"name": "Sense for Secrets",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -4088,7 +4088,7 @@
 		},
 		{
 			"name": "Shadow Skulk",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -4098,7 +4098,7 @@
 						"level": 13,
 						"class": {
 							"name": "Rogue",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					},
 					"other": "{@dice d8} expertise die on Stealth checks"
@@ -4110,7 +4110,7 @@
 		},
 		{
 			"name": "Skeleton Key",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -4120,7 +4120,7 @@
 						"level": 13,
 						"class": {
 							"name": "Rogue",
-							"source": "LevelUpAdventurersGuideA5E"
+							"source": "LevelUpA5E"
 						}
 					},
 					"other": "{@dice d8} expertise die with thieves' tools"
@@ -4132,7 +4132,7 @@
 		},
 		{
 			"name": "Tuck and Roll",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
@@ -4142,7 +4142,7 @@
 		},
 		{
 			"name": "Unstable Poison",
-			"source": "LevelUpAdventurersGuideA5E",
+			"source": "LevelUpA5E",
 			"featureType": [
 				"ST"
 			],
