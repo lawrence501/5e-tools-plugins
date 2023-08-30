@@ -7,9 +7,9 @@
 		},
 		"sources": [
 			{
-				"json": "LevelUpA5E",
+				"json": "LevelUp",
 				"abbreviation": "A5E",
-				"full": "Level Up: Adventurers Guide (A5E)",
+				"full": "Level Up (A5E)",
 				"authors": [
 					"Level Up"
 				],
@@ -23,7 +23,7 @@
 	"class": [
 		{
 			"name": "Herald",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"hd": {
 				"number": 1,
 				"faces": 10
@@ -440,46 +440,46 @@
 				}
 			],
 			"classFeatures": [
-				"Divine Sense|Herald|LevelUpA5E|1|LevelUpA5E",
-				"Lay on Hands|Herald|LevelUpA5E|1|LevelUpA5E",
-				"Spellcasting|Herald|LevelUpA5E|1|LevelUpA5E",
-				"Combat Maneuvers|Herald|LevelUpA5E|2|LevelUpA5E",
-				"Divine Smite|Herald|LevelUpA5E|2|LevelUpA5E",
-				"Divine Lessons|Herald|LevelUpA5E|3|LevelUpA5E",
+				"Divine Sense|Herald|LevelUp|1|LevelUp",
+				"Lay on Hands|Herald|LevelUp|1|LevelUp",
+				"Spellcasting|Herald|LevelUp|1|LevelUp",
+				"Combat Maneuvers|Herald|LevelUp|2|LevelUp",
+				"Divine Smite|Herald|LevelUp|2|LevelUp",
+				"Divine Lessons|Herald|LevelUp|3|LevelUp",
 				{
-					"classFeature": "Herald Archetype|Herald|LevelUpA5E|3|LevelUpA5E",
+					"classFeature": "Herald Archetype|Herald|LevelUp|3|LevelUp",
 					"gainSubclassFeature": true,
 					"gainSubclassFeatureHasContent": true
 				},
-				"Ability Score Improvement|Herald|LevelUpA5E|4|LevelUpA5E",
-				"Empowered Smite|Herald|LevelUpA5E|4|LevelUpA5E",
-				"Extra Attack|Herald|LevelUpA5E|5|LevelUpA5E",
-				"Heraldic Sermon|Herald|LevelUpA5E|5|LevelUpA5E",
-				"Sacred Aura|Herald|LevelUpA5E|6|LevelUpA5E",
+				"Ability Score Improvement|Herald|LevelUp|4|LevelUp",
+				"Empowered Smite|Herald|LevelUp|4|LevelUp",
+				"Extra Attack|Herald|LevelUp|5|LevelUp",
+				"Heraldic Sermon|Herald|LevelUp|5|LevelUp",
+				"Sacred Aura|Herald|LevelUp|6|LevelUp",
 				{
-					"classFeature": "Archetype Feature|Herald|LevelUpA5E|7|LevelUpA5E",
+					"classFeature": "Archetype Feature|Herald|LevelUp|7|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Herald|LevelUpA5E|8|LevelUpA5E",
-				"Greater Empowered Smite|Herald|LevelUpA5E|8|LevelUpA5E",
-				"Inspiring Devotion|Herald|LevelUpA5E|9|LevelUpA5E",
-				"Improved Sacred Aura|Herald|LevelUpA5E|10|LevelUpA5E",
-				"Divine Warrior|Herald|LevelUpA5E|11|LevelUpA5E",
-				"Ability Score Improvement|Herald|LevelUpA5E|12|LevelUpA5E",
-				"Divine Recovery|Herald|LevelUpA5E|12|LevelUpA5E",
-                "Infectious Resolve|Herald|LevelUpA5E|14|LevelUpA5E",
+				"Ability Score Improvement|Herald|LevelUp|8|LevelUp",
+				"Greater Empowered Smite|Herald|LevelUp|8|LevelUp",
+				"Inspiring Devotion|Herald|LevelUp|9|LevelUp",
+				"Improved Sacred Aura|Herald|LevelUp|10|LevelUp",
+				"Divine Warrior|Herald|LevelUp|11|LevelUp",
+				"Ability Score Improvement|Herald|LevelUp|12|LevelUp",
+				"Divine Recovery|Herald|LevelUp|12|LevelUp",
+                "Infectious Resolve|Herald|LevelUp|14|LevelUp",
 				{
-					"classFeature": "Archetype Feature|Herald|LevelUpA5E|15|LevelUpA5E",
+					"classFeature": "Archetype Feature|Herald|LevelUp|15|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Herald|LevelUpA5E|16|LevelUpA5E",
-				"Aura Improvements|Herald|LevelUpA5E|18|LevelUpA5E",
-				"Ability Score Improvement|Herald|LevelUpA5E|19|LevelUpA5E",
+				"Ability Score Improvement|Herald|LevelUp|16|LevelUp",
+				"Aura Improvements|Herald|LevelUp|18|LevelUp",
+				"Ability Score Improvement|Herald|LevelUp|19|LevelUp",
 				{
-					"classFeature": "Archetype Feature|Herald|LevelUpA5E|20|LevelUpA5E",
+					"classFeature": "Archetype Feature|Herald|LevelUp|20|LevelUp",
 					"gainSubclassFeature": true
 				},
-                "Holy Exemplar|Herald|LevelUpA5E|20|LevelUpA5E"
+                "Holy Exemplar|Herald|LevelUp|20|LevelUp"
 			],
 			"subclassTitle": "Herald Archetype"
 		}
@@ -488,9 +488,9 @@
 		{
 			"name": "Oath of Devotion",
 			"shortName": "Devotion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 85,
 			"srd": true,
 			"additionalSpells": [
@@ -520,18 +520,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Devotion|Herald|LevelUpA5E|Devotion|LevelUpA5E|3",
-				"Aura of Devotion|Herald|LevelUpA5E|Devotion|LevelUpA5E|7",
-				"Purity of Spirit|Herald|LevelUpA5E|Devotion|LevelUpA5E|15",
-				"Holy Nimbus|Herald|LevelUpA5E|Devotion|LevelUpA5E|20"
+				"Oath of Devotion|Herald|LevelUp|Devotion|LevelUp|3",
+				"Aura of Devotion|Herald|LevelUp|Devotion|LevelUp|7",
+				"Purity of Spirit|Herald|LevelUp|Devotion|LevelUp|15",
+				"Holy Nimbus|Herald|LevelUp|Devotion|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of the Ancients",
 			"shortName": "Ancients",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 86,
 			"additionalSpells": [
 				{
@@ -560,18 +560,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of the Ancients|Herald|LevelUpA5E|Ancients|LevelUpA5E|3",
-				"Aura of Warding|Herald|LevelUpA5E|Ancients|LevelUpA5E|7",
-				"Undying Sentinel|Herald|LevelUpA5E|Ancients|LevelUpA5E|15",
-				"Elder Champion|Herald|LevelUpA5E|Ancients|LevelUpA5E|20"
+				"Oath of the Ancients|Herald|LevelUp|Ancients|LevelUp|3",
+				"Aura of Warding|Herald|LevelUp|Ancients|LevelUp|7",
+				"Undying Sentinel|Herald|LevelUp|Ancients|LevelUp|15",
+				"Elder Champion|Herald|LevelUp|Ancients|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of Vengeance",
 			"shortName": "Vengeance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 87,
 			"additionalSpells": [
 				{
@@ -600,18 +600,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Vengeance|Herald|LevelUpA5E|Vengeance|LevelUpA5E|3",
-				"Relentless Avenger|Herald|LevelUpA5E|Vengeance|LevelUpA5E|7",
-				"Soul of Vengeance|Herald|LevelUpA5E|Vengeance|LevelUpA5E|15",
-				"Avenging Angel|Herald|LevelUpA5E|Vengeance|LevelUpA5E|20"
+				"Oath of Vengeance|Herald|LevelUp|Vengeance|LevelUp|3",
+				"Relentless Avenger|Herald|LevelUp|Vengeance|LevelUp|7",
+				"Soul of Vengeance|Herald|LevelUp|Vengeance|LevelUp|15",
+				"Avenging Angel|Herald|LevelUp|Vengeance|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oathbreaker",
 			"shortName": "Oathbreaker",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 97,
 			"additionalSpells": [
 				{
@@ -640,18 +640,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oathbreaker|Herald|LevelUpA5E|Oathbreaker|LevelUpA5E|3",
-				"Aura of Hate|Herald|LevelUpA5E|Oathbreaker|LevelUpA5E|7",
-				"Supernatural Resistance|Herald|LevelUpA5E|Oathbreaker|LevelUpA5E|15",
-				"Dread Lord|Herald|LevelUpA5E|Oathbreaker|LevelUpA5E|20"
+				"Oathbreaker|Herald|LevelUp|Oathbreaker|LevelUp|3",
+				"Aura of Hate|Herald|LevelUp|Oathbreaker|LevelUp|7",
+				"Supernatural Resistance|Herald|LevelUp|Oathbreaker|LevelUp|15",
+				"Dread Lord|Herald|LevelUp|Oathbreaker|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of the Crown",
 			"shortName": "Crown",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 132,
 			"additionalSpells": [
 				{
@@ -680,18 +680,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of the Crown|Herald|LevelUpA5E|Crown|LevelUpA5E|3",
-				"Divine Allegiance|Herald|LevelUpA5E|Crown|LevelUpA5E|7",
-				"Unyielding Spirit|Herald|LevelUpA5E|Crown|LevelUpA5E|15",
-				"Exalted Champion|Herald|LevelUpA5E|Crown|LevelUpA5E|20"
+				"Oath of the Crown|Herald|LevelUp|Crown|LevelUp|3",
+				"Divine Allegiance|Herald|LevelUp|Crown|LevelUp|7",
+				"Unyielding Spirit|Herald|LevelUp|Crown|LevelUp|15",
+				"Exalted Champion|Herald|LevelUp|Crown|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of Conquest (UA)",
 			"shortName": "Conquest (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -721,18 +721,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Conquest|Herald|LevelUpA5E|Conquest (UA)|LevelUpA5E|3",
-				"Aura of Conquest|Herald|LevelUpA5E|Conquest (UA)|LevelUpA5E|7",
-				"Implacable Spirit|Herald|LevelUpA5E|Conquest (UA)|LevelUpA5E|15",
-				"Invincible Conqueror|Herald|LevelUpA5E|Conquest (UA)|LevelUpA5E|20"
+				"Oath of Conquest|Herald|LevelUp|Conquest (UA)|LevelUp|3",
+				"Aura of Conquest|Herald|LevelUp|Conquest (UA)|LevelUp|7",
+				"Implacable Spirit|Herald|LevelUp|Conquest (UA)|LevelUp|15",
+				"Invincible Conqueror|Herald|LevelUp|Conquest (UA)|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of Treachery (UA)",
 			"shortName": "Treachery (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"additionalSpells": [
 				{
@@ -761,18 +761,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Treachery|Herald|LevelUpA5E|Treachery (UA)|LevelUpA5E|3",
-				"Aura of Treachery|Herald|LevelUpA5E|Treachery (UA)|LevelUpA5E|7",
-				"Blackguard's Escape|Herald|LevelUpA5E|Treachery (UA)|LevelUpA5E|15",
-				"Icon of Deceit|Herald|LevelUpA5E|Treachery (UA)|LevelUpA5E|20"
+				"Oath of Treachery|Herald|LevelUp|Treachery (UA)|LevelUp|3",
+				"Aura of Treachery|Herald|LevelUp|Treachery (UA)|LevelUp|7",
+				"Blackguard's Escape|Herald|LevelUp|Treachery (UA)|LevelUp|15",
+				"Icon of Deceit|Herald|LevelUp|Treachery (UA)|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of Redemption (UA)",
 			"shortName": "Redemption (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -802,18 +802,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Redemption|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|3",
-				"Aura of the Guardian|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|7",
-				"Protective Spirit|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|15",
-				"Emissary of Redemption|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|20"
+				"Oath of Redemption|Herald|LevelUp|Redemption (UA)|LevelUp|3",
+				"Aura of the Guardian|Herald|LevelUp|Redemption (UA)|LevelUp|7",
+				"Protective Spirit|Herald|LevelUp|Redemption (UA)|LevelUp|15",
+				"Emissary of Redemption|Herald|LevelUp|Redemption (UA)|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of Conquest v2 (UA)",
 			"shortName": "Conquest v2 (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 3,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -843,18 +843,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Conquest v2|Herald|LevelUpA5E|Conquest v2 (UA)|LevelUpA5E|3",
-				"Aura of Conquest|Herald|LevelUpA5E|Conquest v2 (UA)|LevelUpA5E|7",
-				"Scornful Rebuke|Herald|LevelUpA5E|Conquest v2 (UA)|LevelUpA5E|15",
-				"Invincible Conqueror|Herald|LevelUpA5E|Conquest v2 (UA)|LevelUpA5E|20"
+				"Oath of Conquest v2|Herald|LevelUp|Conquest v2 (UA)|LevelUp|3",
+				"Aura of Conquest|Herald|LevelUp|Conquest v2 (UA)|LevelUp|7",
+				"Scornful Rebuke|Herald|LevelUp|Conquest v2 (UA)|LevelUp|15",
+				"Invincible Conqueror|Herald|LevelUp|Conquest v2 (UA)|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of Conquest",
 			"shortName": "Conquest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 37,
 			"additionalSpells": [
 				{
@@ -883,18 +883,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Conquest|Herald|LevelUpA5E|Conquest|LevelUpA5E|3",
-				"Aura of Conquest|Herald|LevelUpA5E|Conquest|LevelUpA5E|7",
-				"Scornful Rebuke|Herald|LevelUpA5E|Conquest|LevelUpA5E|15",
-				"Invincible Conqueror|Herald|LevelUpA5E|Conquest|LevelUpA5E|20"
+				"Oath of Conquest|Herald|LevelUp|Conquest|LevelUp|3",
+				"Aura of Conquest|Herald|LevelUp|Conquest|LevelUp|7",
+				"Scornful Rebuke|Herald|LevelUp|Conquest|LevelUp|15",
+				"Invincible Conqueror|Herald|LevelUp|Conquest|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of Redemption",
 			"shortName": "Redemption",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 38,
 			"additionalSpells": [
 				{
@@ -923,18 +923,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Redemption|Herald|LevelUpA5E|Redemption|LevelUpA5E|3",
-				"Aura of the Guardian|Herald|LevelUpA5E|Redemption|LevelUpA5E|7",
-				"Protective Spirit|Herald|LevelUpA5E|Redemption|LevelUpA5E|15",
-				"Emissary of Redemption|Herald|LevelUpA5E|Redemption|LevelUpA5E|20"
+				"Oath of Redemption|Herald|LevelUp|Redemption|LevelUp|3",
+				"Aura of the Guardian|Herald|LevelUp|Redemption|LevelUp|7",
+				"Protective Spirit|Herald|LevelUp|Redemption|LevelUp|15",
+				"Emissary of Redemption|Herald|LevelUp|Redemption|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of Heroism (UA)",
 			"shortName": "Heroism (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -964,18 +964,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Heroism|Herald|LevelUpA5E|Heroism (UA)|LevelUpA5E|3",
-				"Mighty Deed|Herald|LevelUpA5E|Heroism (UA)|LevelUpA5E|7",
-				"Glorious Defense|Herald|LevelUpA5E|Heroism (UA)|LevelUpA5E|15",
-				"Living Myth|Herald|LevelUpA5E|Heroism (UA)|LevelUpA5E|20"
+				"Oath of Heroism|Herald|LevelUp|Heroism (UA)|LevelUp|3",
+				"Mighty Deed|Herald|LevelUp|Heroism (UA)|LevelUp|7",
+				"Glorious Defense|Herald|LevelUp|Heroism (UA)|LevelUp|15",
+				"Living Myth|Herald|LevelUp|Heroism (UA)|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of the Watchers (UA)",
 			"shortName": "Watchers (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 3,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1005,22 +1005,22 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of the Watchers|Herald|LevelUpA5E|Watchers (UA)|LevelUpA5E|3",
-				"Aura of the Sentinel|Herald|LevelUpA5E|Watchers (UA)|LevelUpA5E|7",
-				"Vigilant Rebuke|Herald|LevelUpA5E|Watchers (UA)|LevelUpA5E|15",
-				"Mortal Bulwark|Herald|LevelUpA5E|Watchers (UA)|LevelUpA5E|20"
+				"Oath of the Watchers|Herald|LevelUp|Watchers (UA)|LevelUp|3",
+				"Aura of the Sentinel|Herald|LevelUp|Watchers (UA)|LevelUp|7",
+				"Vigilant Rebuke|Herald|LevelUp|Watchers (UA)|LevelUp|15",
+				"Mortal Bulwark|Herald|LevelUp|Watchers (UA)|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of Glory",
 			"shortName": "Glory",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
@@ -1051,18 +1051,18 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of Glory|Herald|LevelUpA5E|Glory|LevelUpA5E|3",
-				"Aura of Alacrity|Herald|LevelUpA5E|Glory|LevelUpA5E|7",
-				"Glorious Defense|Herald|LevelUpA5E|Glory|LevelUpA5E|15",
-				"Living Legend|Herald|LevelUpA5E|Glory|LevelUpA5E|20"
+				"Oath of Glory|Herald|LevelUp|Glory|LevelUp|3",
+				"Aura of Alacrity|Herald|LevelUp|Glory|LevelUp|7",
+				"Glorious Defense|Herald|LevelUp|Glory|LevelUp|15",
+				"Living Legend|Herald|LevelUp|Glory|LevelUp|20"
 			]
 		},
 		{
 			"name": "Oath of the Watchers",
 			"shortName": "Watchers",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 54,
 			"additionalSpells": [
 				{
@@ -1091,30 +1091,30 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of the Watchers|Herald|LevelUpA5E|Watchers|LevelUpA5E|3",
-				"Aura of the Sentinel|Herald|LevelUpA5E|Watchers|LevelUpA5E|7",
-				"Vigilant Rebuke|Herald|LevelUpA5E|Watchers|LevelUpA5E|15",
-				"Mortal Bulwark|Herald|LevelUpA5E|Watchers|LevelUpA5E|20"
+				"Oath of the Watchers|Herald|LevelUp|Watchers|LevelUp|3",
+				"Aura of the Sentinel|Herald|LevelUp|Watchers|LevelUp|7",
+				"Vigilant Rebuke|Herald|LevelUp|Watchers|LevelUp|15",
+				"Mortal Bulwark|Herald|LevelUp|Watchers|LevelUp|20"
 			]
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Divine Sense",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
-				"Choose one of the following sets of enemies: 'celestials and fiends', 'fey and elementals', or 'aberrations and undead'. You can always sense when a creature of your chosen types is within 30 feet of you, but cannot determine their number, type, or location. As a bonus action, you can briefly enhance your senses to learn the location, number, and type of any creatures of your chosen types within 30 feet of you. When you do so, creatures of those types that are within range make a Wisdom saving throw against your spell save DC, with advantage if the creature's CR is higher than your herald level. On a failed save, you also learn the creature's identity. Within the same radius, you also detect any locations that have been consecrated or desecrated, as with the {@spell hallow|LevelUpA5E} spell.",
+				"Choose one of the following sets of enemies: 'celestials and fiends', 'fey and elementals', or 'aberrations and undead'. You can always sense when a creature of your chosen types is within 30 feet of you, but cannot determine their number, type, or location. As a bonus action, you can briefly enhance your senses to learn the location, number, and type of any creatures of your chosen types within 30 feet of you. When you do so, creatures of those types that are within range make a Wisdom saving throw against your spell save DC, with advantage if the creature's CR is higher than your herald level. On a failed save, you also learn the creature's identity. Within the same radius, you also detect any locations that have been consecrated or desecrated, as with the {@spell hallow|LevelUp} spell.",
 				"You can active this feature a number of times equal to your Charisma modifier, and regain spent uses upon finishing a long rest. Upon finishing a long rest, you may also swap your chosen set of creature types for another."
 			]
 		},
 		{
 			"name": "Lay on Hands",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your herald level x 5.",
@@ -1125,9 +1125,9 @@
 		},
 		{
 			"name": "Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"You have learned to draw on divine magic through meditation and devotion to your oath. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter herald spell list|spells|class=paladin;herald}.",
@@ -1173,9 +1173,9 @@
 		},
 		{
 			"name": "Combat Maneuvers",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you gain the ability to use combat maneuvers. You gain proficiency in two combat traditions from the following list: {@filter Sanguine Knot|spells|Subschool=sanguine knot|}, {@filter Spirited Steed|spells|Subschool=spirited steed|}, or {@filter Tempered Iron|spells|Subschool=tempered iron|}. You learn two maneuvers of your choice from traditions you are proficient with.",
@@ -1186,9 +1186,9 @@
 		},
 		{
 			"name": "Divine Smite",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"Starting at 2nd level, whenever you hit a creature wtih a weapon attack you can choose to deliver a divine smite that deals an additional {@dice 1d8} radiant damage. The amount of extra damage increases as you gain levels in this class, as shown in the Smite Damage column of the Herald Table.",
@@ -1197,9 +1197,9 @@
 		},
 		{
 			"name": "Divine Lessons",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"In preparing to take your oath, you have learned a number of skills and tricks that can help you during your adventures. At 3rd level, you gain a {@filter divine lesson|optionalfeatures|feature type=dl} of your choice. The Lessons Known column of the Herald table shows when you learn more divine lessons."
@@ -1207,9 +1207,9 @@
 		},
 		{
 			"name": "Herald Archetype",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, you choose the oath and tenets that you as a herald will swear to uphold. Until now you have merely been preparing, committed to the path but not sworn to it. Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level.",
@@ -1232,9 +1232,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 7,
 			"entries": [
 				"At 7th level, you gain a new feature from your Herald Archetype."
@@ -1242,9 +1242,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 15,
 			"entries": [
 				"At 15th level, you gain a new feature from your Herald Archetype."
@@ -1252,9 +1252,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 20,
 			"entries": [
 				"At 20th level, you gain a new feature from your Herald Archetype."
@@ -1262,9 +1262,9 @@
 		},
 		{
 			"name": "Empowered Smite",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"At 4th level, you are able to manipulate magic to add extra power to your smites. Whenever you would use your Divine Smite feature, you can choose one of the following effects. Once you have used this feature you cannot do so again until you finish a long rest. Alternatively, you can empower a smite by expending a spell slot of 1st-level or higher.",
@@ -1294,9 +1294,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1304,9 +1304,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 8,
 			"entries": [
 				"At 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1314,9 +1314,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 12,
 			"entries": [
 				"At 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1324,9 +1324,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 16,
 			"entries": [
 				"At 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1334,9 +1334,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 19,
 			"entries": [
 				"At 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -1344,9 +1344,9 @@
 		},
 		{
 			"name": "Extra Attack",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 5,
 			"entries": [
 				"At 5th level, you can attack twice instead of once whenever you take the attack action on your turn."
@@ -1354,9 +1354,9 @@
 		},
 		{
 			"name": "Heraldic Sermon",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 5,
 			"entries": [
 				"Also at 5th level, your oath has so inspired you that your words seem to be imbued with magic when you talk about it. Choose one of the following features.",
@@ -1385,9 +1385,9 @@
 		},
 		{
 			"name": "Sacred Aura",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you are able to manifest an aura that aids you and your allies. Each aura has a radius of 15 feet, is centred on you, and you must be conscious for your and your allies to benefit from it. You can have only one of the following auras active at a time, and can change which aura is active whenever you finish a long rest. At 18th level, the range of all auras increases to 30 feet.",
@@ -1416,9 +1416,9 @@
 		},
 		{
 			"name": "Aura Improvements",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 18,
 			"entries": [
 				"At 18th level, the range of all your Sacred Auras and Improved Sacred Auras increases to 30 feet."
@@ -1426,9 +1426,9 @@
 		},
 		{
 			"name": "Greater Empowered Smite",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 8,
 			"entries": [
 				"At 8th level you learn the following new empowerments for your smites, and can use this feature twice at no cost in between long rests. Alternatively, you can use an empowered smite by expending a spell slot of 1st-level or higher.",
@@ -1457,9 +1457,9 @@
 		},
 		{
 			"name": "Inspiring Devotion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 9,
 			"entries": [
 				"At 9th level, you can draw upon your oath for extra assistance in social situations. Choose one of the following features.",
@@ -1488,9 +1488,9 @@
 		},
 		{
 			"name": "Improved Sacred Aura",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain a more powerful aura that is active alongside your Sacred Aura. The range of this aura is the same, and you can only have one Improved Sacred Aura active at a time. You can swap your active improved aura upon finishing a long rest.",
@@ -1519,9 +1519,9 @@
 		},
 		{
 			"name": "Divine Warrior",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 11,
 			"entries": [
 				"Beginning at 11th level, each of your strikes is infused with divine might. Whenever you hit a creature with a melee weapon attack, you deal an extra {@dice 1d8} radiant damage."
@@ -1529,9 +1529,9 @@
 		},
 		{
 			"name": "Divine Recovery",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 12,
 			"entries": [
 				"At 12th level, you can transform divine energy into more easily manipulated magics. You can use a bonus action to recite a short prayer or mantra and expend a use of Channel Divinity to regain a spell slot of 3rd-level or less.",
@@ -1540,9 +1540,9 @@
 		},
 		{
 			"name": "Infectious Resolve",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"Starting at 14th level, you can use your action to touch one willing creature (or yourself) and choose one of the following effects.",
@@ -1559,9 +1559,9 @@
 		},
 		{
 			"name": "Holy Exemplar",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 20,
 			"entries": [
 				"At 20th level, your deity constantly watches over you. Even death cannot touch you as you recover from mortal wounds in a flash of holy light, a sudden swelling of unnatural darkness, or another expression of potent divine power. When you die after being reduced to 0 hit points by an attack or spell, after 1d4 rounds you return to life with 100 hit points. Once you have used this feature, you cannot do so again until you finish a long rest."
@@ -1571,38 +1571,38 @@
 	"subclassFeature": [
 		{
 			"name": "Oathbreaker",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 97,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Oathbreaker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.",
 				"A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oathbreaker Spells|Herald|LevelUpA5E|Oathbreaker|LevelUpA5E|3"
+					"subclassFeature": "Oathbreaker Spells|Herald|LevelUp|Oathbreaker|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oathbreaker Channel Divinity: Control Undead|Herald|LevelUpA5E|Oathbreaker|LevelUpA5E|3"
+					"subclassFeature": "Oathbreaker Channel Divinity: Control Undead|Herald|LevelUp|Oathbreaker|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oathbreaker Channel Divinity: Dreadful Aspect|Herald|LevelUpA5E|Oathbreaker|LevelUpA5E|3"
+					"subclassFeature": "Oathbreaker Channel Divinity: Dreadful Aspect|Herald|LevelUp|Oathbreaker|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Oathbreaker Channel Divinity: Control Undead",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 97,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Oathbreaker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1611,12 +1611,12 @@
 		},
 		{
 			"name": "Oathbreaker Channel Divinity: Dreadful Aspect",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 97,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Oathbreaker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1625,12 +1625,12 @@
 		},
 		{
 			"name": "Oathbreaker Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 97,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Oathbreaker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1673,12 +1673,12 @@
 		},
 		{
 			"name": "Aura of Hate",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 97,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Oathbreaker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -1688,12 +1688,12 @@
 		},
 		{
 			"name": "Supernatural Resistance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 97,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Oathbreaker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1702,12 +1702,12 @@
 		},
 		{
 			"name": "Dread Lord",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 97,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Oathbreaker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -1718,41 +1718,41 @@
 		},
 		{
 			"name": "Oath of the Ancients",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 86,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancients",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things\u2014leaves, antlers, or flowers\u2014to reflect their commitment to preserving life and light in the world.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Ancients|Herald|LevelUpA5E|Ancients|LevelUpA5E|3"
+					"subclassFeature": "Tenets of the Ancients|Herald|LevelUp|Ancients|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Ancients|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Ancients|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Nature's Wrath|Herald|LevelUpA5E|Ancients|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Nature's Wrath|Herald|LevelUp|Ancients|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Turn the Faithless|Herald|LevelUpA5E|Ancients|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Turn the Faithless|Herald|LevelUp|Ancients|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Nature's Wrath",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 86,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancients",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -1764,12 +1764,12 @@
 		},
 		{
 			"name": "Channel Divinity: Turn the Faithless",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 86,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancients",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -1783,12 +1783,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 86,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancients",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1831,12 +1831,12 @@
 		},
 		{
 			"name": "Tenets of the Ancients",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 86,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancients",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1893,12 +1893,12 @@
 		},
 		{
 			"name": "Aura of Warding",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 86,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancients",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -1908,12 +1908,12 @@
 		},
 		{
 			"name": "Undying Sentinel",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 86,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancients",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1923,12 +1923,12 @@
 		},
 		{
 			"name": "Elder Champion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 86,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancients",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -1947,43 +1947,43 @@
 		},
 		{
 			"name": "Oath of Devotion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 85,
 			"srd": true,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Devotion",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels\u2014the perfect servants of good\u2014as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Devotion|Herald|LevelUpA5E|Devotion|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Devotion|Herald|LevelUp|Devotion|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Devotion|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Devotion|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Sacred Weapon|Herald|LevelUpA5E|Devotion|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Sacred Weapon|Herald|LevelUp|Devotion|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Turn the Unholy|Herald|LevelUpA5E|Devotion|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Turn the Unholy|Herald|LevelUp|Devotion|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Sacred Weapon",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 85,
 			"srd": true,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Devotion",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -1996,13 +1996,13 @@
 		},
 		{
 			"name": "Channel Divinity: Turn the Unholy",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 85,
 			"srd": true,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Devotion",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -2015,13 +2015,13 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 85,
 			"srd": true,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Devotion",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2064,13 +2064,13 @@
 		},
 		{
 			"name": "Tenets of Devotion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 85,
 			"srd": true,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Devotion",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2139,13 +2139,13 @@
 		},
 		{
 			"name": "Aura of Devotion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 85,
 			"srd": true,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Devotion",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2155,13 +2155,13 @@
 		},
 		{
 			"name": "Purity of Spirit",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 85,
 			"srd": true,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Devotion",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2170,13 +2170,13 @@
 		},
 		{
 			"name": "Holy Nimbus",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 85,
 			"srd": true,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Devotion",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -2188,41 +2188,41 @@
 		},
 		{
 			"name": "Oath of Vengeance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 87,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vengeance",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside\u2014at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins\u2014sometimes called avengers or dark knights\u2014their own purity is not as important as delivering justice.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Vengeance|Herald|LevelUpA5E|Vengeance|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Vengeance|Herald|LevelUp|Vengeance|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Vengeance|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Vengeance|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Abjure Enemy|Herald|LevelUpA5E|Vengeance|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Abjure Enemy|Herald|LevelUp|Vengeance|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Vow of Enmity|Herald|LevelUpA5E|Vengeance|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Vow of Enmity|Herald|LevelUp|Vengeance|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Abjure Enemy",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 87,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vengeance",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -2236,12 +2236,12 @@
 		},
 		{
 			"name": "Channel Divinity: Vow of Enmity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 87,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vengeance",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -2253,12 +2253,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 87,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vengeance",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2301,12 +2301,12 @@
 		},
 		{
 			"name": "Tenets of Vengeance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 87,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vengeance",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2363,12 +2363,12 @@
 		},
 		{
 			"name": "Relentless Avenger",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 87,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vengeance",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2377,12 +2377,12 @@
 		},
 		{
 			"name": "Soul of Vengeance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 87,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vengeance",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2391,12 +2391,12 @@
 		},
 		{
 			"name": "Avenging Angel",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 87,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vengeance",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -2413,41 +2413,41 @@
 		},
 		{
 			"name": "Oath of the Crown",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 132,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Crown",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Crown|Herald|LevelUpA5E|Crown|LevelUpA5E|3"
+					"subclassFeature": "Tenets of the Crown|Herald|LevelUp|Crown|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Crown|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Crown|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Champion Challenge|Herald|LevelUpA5E|Crown|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Champion Challenge|Herald|LevelUp|Crown|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Turn the Tide|Herald|LevelUpA5E|Crown|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Turn the Tide|Herald|LevelUp|Crown|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Champion Challenge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 132,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Crown",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -2459,12 +2459,12 @@
 		},
 		{
 			"name": "Channel Divinity: Turn the Tide",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 132,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Crown",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -2476,12 +2476,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 132,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Crown",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2524,12 +2524,12 @@
 		},
 		{
 			"name": "Tenets of the Crown",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 132,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Crown",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2586,12 +2586,12 @@
 		},
 		{
 			"name": "Divine Allegiance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 132,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Crown",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2600,12 +2600,12 @@
 		},
 		{
 			"name": "Unyielding Spirit",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 132,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Crown",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2614,12 +2614,12 @@
 		},
 		{
 			"name": "Exalted Champion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 132,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Crown",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -2637,49 +2637,49 @@
 		},
 		{
 			"name": "Oath of Glory",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glory",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions so they're all ready when destiny calls.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Glory|Herald|LevelUpA5E|Glory|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Glory|Herald|LevelUp|Glory|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Glory|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Glory|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Herald|LevelUpA5E|Glory|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity|Herald|LevelUp|Glory|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glory",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -2690,28 +2690,28 @@
 				"You gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Peerless Athlete|Herald|LevelUpA5E|Glory|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Peerless Athlete|Herald|LevelUp|Glory|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Inspiring Smite|Herald|LevelUpA5E|Glory|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Inspiring Smite|Herald|LevelUp|Glory|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glory",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2755,18 +2755,18 @@
 		},
 		{
 			"name": "Tenets of Glory",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glory",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2803,18 +2803,18 @@
 		},
 		{
 			"name": "Channel Divinity: Inspiring Smite",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glory",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2823,18 +2823,18 @@
 		},
 		{
 			"name": "Channel Divinity: Peerless Athlete",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glory",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2843,18 +2843,18 @@
 		},
 		{
 			"name": "Aura of Alacrity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glory",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2865,18 +2865,18 @@
 		},
 		{
 			"name": "Glorious Defense",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glory",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2887,18 +2887,18 @@
 		},
 		{
 			"name": "Living Legend",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 53,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 29
 				}
 			],
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glory",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -2917,12 +2917,12 @@
 		},
 		{
 			"name": "Oath of the Watchers",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 54,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"consumes": {
 				"name": "Channel Divinity"
@@ -2932,26 +2932,26 @@
 				"Paladins who follow the Watchers' oath are ever vigilant in spotting the influence of extraplanar forces, often establishing a network of spies and informants to gather information on suspected cults. To a Watcher, keeping a healthy suspicion and awareness about one's surroundings is as natural as wearing armor in battle.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Watchers|Herald|LevelUpA5E|Watchers|LevelUpA5E|3"
+					"subclassFeature": "Tenets of the Watchers|Herald|LevelUp|Watchers|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Watchers|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Watchers|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Herald|LevelUpA5E|Watchers|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity|Herald|LevelUp|Watchers|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 54,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -2979,12 +2979,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 54,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3028,12 +3028,12 @@
 		},
 		{
 			"name": "Tenets of the Watchers",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 54,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3063,12 +3063,12 @@
 		},
 		{
 			"name": "Aura of the Sentinel",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 54,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3079,12 +3079,12 @@
 		},
 		{
 			"name": "Vigilant Rebuke",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 54,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3094,12 +3094,12 @@
 		},
 		{
 			"name": "Mortal Bulwark",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 54,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -3118,12 +3118,12 @@
 		},
 		{
 			"name": "Oath of the Watchers",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"consumes": {
 				"name": "Channel Divinity"
@@ -3133,26 +3133,26 @@
 				"Paladins who follow the Watchers' oath are ever vigilant in spotting the influence of extraplanar forces, often establishing a network of spies and informants to gather information on suspected cults. To a Watcher, keeping a healthy suspicion and awareness about one's surroundings is as natural as wearing armor in battle.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Watchers|Herald|LevelUpA5E|Watchers (UA)|LevelUpA5E|3"
+					"subclassFeature": "Tenets of the Watchers|Herald|LevelUp|Watchers (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Watchers (UA)|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Watchers (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Herald|LevelUpA5E|Watchers (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity|Herald|LevelUp|Watchers (UA)|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -3180,12 +3180,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3229,12 +3229,12 @@
 		},
 		{
 			"name": "Tenets of the Watchers",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3264,12 +3264,12 @@
 		},
 		{
 			"name": "Aura of the Sentinel",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3279,12 +3279,12 @@
 		},
 		{
 			"name": "Vigilant Rebuke",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3294,12 +3294,12 @@
 		},
 		{
 			"name": "Mortal Bulwark",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -3318,12 +3318,12 @@
 		},
 		{
 			"name": "Oath of Redemption",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"consumes": {
 				"name": "Channel Divinity"
@@ -3333,38 +3333,38 @@
 				"While redeemers are idealists, they are no fools. Redeemers know that undead, demons, devils, and other supernatural threats can be inherently evil. Against such foes, the paladins bring the full wrath of their weapons and spells to bear. Yet the redeemers still pray that, one day, even creatures of wickedness will invite their own redemption.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Redemption|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Redemption|Herald|LevelUp|Redemption (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Redemption (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armor of Peace|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|3"
+					"subclassFeature": "Armor of Peace|Herald|LevelUp|Redemption (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warrior of Reconciliation|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|3"
+					"subclassFeature": "Warrior of Reconciliation|Herald|LevelUp|Redemption (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Emissary of Peace|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Emissary of Peace|Herald|LevelUp|Redemption (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Rebuke the Violent|Herald|LevelUpA5E|Redemption (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Rebuke the Violent|Herald|LevelUp|Redemption (UA)|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Armor of Peace",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3373,12 +3373,12 @@
 		},
 		{
 			"name": "Channel Divinity: Emissary of Peace",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -3390,12 +3390,12 @@
 		},
 		{
 			"name": "Channel Divinity: Rebuke the Violent",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -3407,12 +3407,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3455,12 +3455,12 @@
 		},
 		{
 			"name": "Tenets of Redemption",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3517,12 +3517,12 @@
 		},
 		{
 			"name": "Warrior of Reconciliation",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3531,12 +3531,12 @@
 		},
 		{
 			"name": "Aura of the Guardian",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3545,12 +3545,12 @@
 		},
 		{
 			"name": "Protective Spirit",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3559,12 +3559,12 @@
 		},
 		{
 			"name": "Emissary of Redemption",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -3581,37 +3581,37 @@
 		},
 		{
 			"name": "Oath of Heroism",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of Heroism is an affirmation of a destined path, one laid out for you by divine hands. For whatever reason, a god or a group of gods has included you in their machinations. You are not a reluctant hero, but one who fully embraces the idea that great deeds are yours to achieve. You train diligently, sculpting your body and refining your skills so you're ready when destiny calls.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Heroism|Herald|LevelUpA5E|Heroism (UA)|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Heroism|Herald|LevelUp|Heroism (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Heroism (UA)|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Heroism (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Herald|LevelUpA5E|Heroism (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity|Herald|LevelUp|Heroism (UA)|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -3638,12 +3638,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3687,12 +3687,12 @@
 		},
 		{
 			"name": "Tenets of Heroism",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3729,12 +3729,12 @@
 		},
 		{
 			"name": "Mighty Deed",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3752,12 +3752,12 @@
 		},
 		{
 			"name": "Glorious Defense",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3767,12 +3767,12 @@
 		},
 		{
 			"name": "Living Myth",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -3791,41 +3791,41 @@
 		},
 		{
 			"name": "Oath of Conquest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of Conquest calls to paladins who seek glory in battle and the subjugation of their enemies. It isn't enough for these paladins to establish order. They must crush the forces of chaos. Sometimes called knight tyrants or iron mongers, those who swear this oath gather into grim orders that serve gods or philosophies of war and well-ordered might. Some of these paladins go so far as to consort with the powers of the Nine Hells. The archdevil Bel, warlord of Avernus, counts many of these paladins called hell knights as his most ardent supporters. Hell knights cover their armor with trophies taken from fallen enemies, a grim warning to any who dare oppose them and the decrees of their lords.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Conquest|Herald|LevelUpA5E|Conquest (UA)|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Conquest|Herald|LevelUp|Conquest (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Conquest (UA)|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Conquest (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Conquering Strike|Herald|LevelUpA5E|Conquest (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Conquering Strike|Herald|LevelUp|Conquest (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Guided Strike|Herald|LevelUpA5E|Conquest (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Guided Strike|Herald|LevelUp|Conquest (UA)|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Conquering Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -3837,12 +3837,12 @@
 		},
 		{
 			"name": "Channel Divinity: Guided Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -3854,12 +3854,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3902,12 +3902,12 @@
 		},
 		{
 			"name": "Tenets of Conquest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3952,12 +3952,12 @@
 		},
 		{
 			"name": "Aura of Conquest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3967,12 +3967,12 @@
 		},
 		{
 			"name": "Implacable Spirit",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3981,12 +3981,12 @@
 		},
 		{
 			"name": "Invincible Conqueror",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -4004,41 +4004,41 @@
 		},
 		{
 			"name": "Oath of Treachery",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of Treachery is the path followed by paladins who have forsworn other oaths or who care only for their own power and survival. Commonly known as blackguards, these profane warriors are faithful only to themselves. Anyone desperate enough to follow one of these paladins does so because, while deceitful, these paladins command great power. Those who follow them without falling prey to their treachery hope to indulge in wanton violence and accumulate great treasure. Many of these paladins pay homage to demon lords, especially Grazz't and Orcus. Even the Lords of Hell are loath to ally with these champions of chaos, but sometimes Baalzebul and Glasya find a kindred spirit in a blackguard's penchant for double dealing and treachery.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Treachery|Herald|LevelUpA5E|Treachery (UA)|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Treachery|Herald|LevelUp|Treachery (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Treachery (UA)|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Treachery (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Conjure Duplicate|Herald|LevelUpA5E|Treachery (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Conjure Duplicate|Herald|LevelUp|Treachery (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Poison Strike|Herald|LevelUpA5E|Treachery (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Poison Strike|Herald|LevelUp|Treachery (UA)|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Conjure Duplicate",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -4051,12 +4051,12 @@
 		},
 		{
 			"name": "Channel Divinity: Poison Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -4068,12 +4068,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4116,12 +4116,12 @@
 		},
 		{
 			"name": "Tenets of Treachery",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4130,12 +4130,12 @@
 		},
 		{
 			"name": "Aura of Treachery",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -4169,12 +4169,12 @@
 		},
 		{
 			"name": "Blackguard's Escape",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -4183,12 +4183,12 @@
 		},
 		{
 			"name": "Icon of Deceit",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -4206,42 +4206,42 @@
 		},
 		{
 			"name": "Oath of Conquest v2",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of Conquest calls to paladins who seek glory in battle and the subjugation of their enemies. It isn't enough for these paladins to establish order. They must crush the forces of chaos. Sometimes called knight tyrants or iron mongers, those who swear this oath gather into grim orders that serve gods or philosophies of war and well-ordered might.",
 				"Some of these paladins go so far as to consort with the powers of the Nine Hells, valuing the rule of law over the balm of mercy. The archdevil Bel, warlord of Avernus, counts many of these paladins\u2014called hell knights\u2014as his most ardent supporters. Hell knights cover their armor with trophies taken from fallen enemies, a grim warning to any who dare oppose them and the decrees of their lords. These knights are often most fiercely resisted by other paladins of this oath, who believe that the hell knights have wandered too far into darkness.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Conquest|Herald|LevelUpA5E|Conquest v2 (UA)|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Conquest|Herald|LevelUp|Conquest v2 (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Conquest v2 (UA)|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Conquest v2 (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Conquering Presence|Herald|LevelUpA5E|Conquest v2 (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Conquering Presence|Herald|LevelUp|Conquest v2 (UA)|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Guided Strike|Herald|LevelUpA5E|Conquest v2 (UA)|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Guided Strike|Herald|LevelUp|Conquest v2 (UA)|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Conquering Presence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -4253,12 +4253,12 @@
 		},
 		{
 			"name": "Channel Divinity: Guided Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -4270,12 +4270,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4318,12 +4318,12 @@
 		},
 		{
 			"name": "Tenets of Conquest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4368,12 +4368,12 @@
 		},
 		{
 			"name": "Aura of Conquest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -4383,12 +4383,12 @@
 		},
 		{
 			"name": "Scornful Rebuke",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -4397,12 +4397,12 @@
 		},
 		{
 			"name": "Invincible Conqueror",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -4420,42 +4420,42 @@
 		},
 		{
 			"name": "Oath of Conquest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 37,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of Conquest calls to paladins who seek glory in battle and the subjugation of their enemies. It isn't enough for these paladins to establish order. They must crush the forces of chaos. Sometimes called knight tyrants or iron mongers, those who swear this oath gather into grim orders that serve gods or philosophies of war and well-ordered might.",
 				"Some of these paladins go so far as to consort with the powers of the Nine Hells, valuing the rule of law over the balm of mercy. The archdevil Bel, warlord of Avernus, counts many of these paladins\u2014called hell knights\u2014as his most ardent supporters. Hell knights cover their armor with trophies taken from fallen enemies, a grim warning to any who dare oppose them and the decrees of their lords. These knights are often most fiercely resisted by other paladins of this oath, who believe that the hell knights have wandered too far into darkness.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Conquest|Herald|LevelUpA5E|Conquest|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Conquest|Herald|LevelUp|Conquest|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Conquest|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Conquest|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Conquering Presence|Herald|LevelUpA5E|Conquest|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Conquering Presence|Herald|LevelUp|Conquest|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Guided Strike|Herald|LevelUpA5E|Conquest|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Guided Strike|Herald|LevelUp|Conquest|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Conquering Presence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 37,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -4467,12 +4467,12 @@
 		},
 		{
 			"name": "Channel Divinity: Guided Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 37,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -4484,12 +4484,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 37,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4532,12 +4532,12 @@
 		},
 		{
 			"name": "Tenets of Conquest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 37,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4572,12 +4572,12 @@
 		},
 		{
 			"name": "Aura of Conquest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 37,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -4588,12 +4588,12 @@
 		},
 		{
 			"name": "Scornful Rebuke",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 37,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -4602,12 +4602,12 @@
 		},
 		{
 			"name": "Invincible Conqueror",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 37,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Conquest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -4625,42 +4625,42 @@
 		},
 		{
 			"name": "Oath of Redemption",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 38,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Oath of Redemption sets a paladin on a difficult path, one that requires a holy warrior to use violence only as a last resort. Paladins who dedicate themselves to this oath believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk. These paladins face evil creatures in the hope of turning their foes to the light, and they slay their enemies only when such a deed will clearly save other lives. Paladins who follow this path are known as redeemers.",
 				"While redeemers are idealists, they are no fools. Redeemers know that undead, demons, devils, and other supernatural threats can be inherently evil. Against such foes, paladins who swear this oath bring the full wrath of their weapons and spells to bear. Yet the redeemers still pray that, one day, even creatures of wickedness will invite their own redemption.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Redemption|Herald|LevelUpA5E|Redemption|LevelUpA5E|3"
+					"subclassFeature": "Tenets of Redemption|Herald|LevelUp|Redemption|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Herald|LevelUpA5E|Redemption|LevelUpA5E|3"
+					"subclassFeature": "Oath Spells|Herald|LevelUp|Redemption|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Emissary of Peace|Herald|LevelUpA5E|Redemption|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Emissary of Peace|Herald|LevelUp|Redemption|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Rebuke the Violent|Herald|LevelUpA5E|Redemption|LevelUpA5E|3"
+					"subclassFeature": "Channel Divinity: Rebuke the Violent|Herald|LevelUp|Redemption|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Emissary of Peace",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 38,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -4672,12 +4672,12 @@
 		},
 		{
 			"name": "Channel Divinity: Rebuke the Violent",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 38,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"consumes": {
@@ -4689,12 +4689,12 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 38,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4737,12 +4737,12 @@
 		},
 		{
 			"name": "Tenets of Redemption",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 38,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4799,12 +4799,12 @@
 		},
 		{
 			"name": "Aura of the Guardian",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 38,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -4814,12 +4814,12 @@
 		},
 		{
 			"name": "Protective Spirit",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 38,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -4828,12 +4828,12 @@
 		},
 		{
 			"name": "Emissary of Redemption",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 38,
 			"className": "Herald",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Redemption",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -4852,7 +4852,7 @@
 	"optionalfeature": [
 		{
 			"name": "Bestowed Understanding",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4862,7 +4862,7 @@
 		},
 		{
 			"name": "Divine Health",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4872,17 +4872,17 @@
 		},
 		{
 			"name": "Divine Vision",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
 			"entries": [
-				"You gain 60 feet of darkvision. In addition, you always have the {@spell See Invisibility|LevelUpA5E} spell prepared and can use this feature once per long rest to cast it withuot expending a spell slot."
+				"You gain 60 feet of darkvision. In addition, you always have the {@spell See Invisibility|LevelUp} spell prepared and can use this feature once per long rest to cast it withuot expending a spell slot."
 			]
 		},
 		{
 			"name": "Do Without",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4892,7 +4892,7 @@
 		},
 		{
 			"name": "Exemplary",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4902,7 +4902,7 @@
 		},
 		{
 			"name": "Glorious Purpose",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4912,7 +4912,7 @@
 		},
 		{
 			"name": "Heraldic Order",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4922,7 +4922,7 @@
 		},
 		{
 			"name": "Miraculous Discovery",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4932,7 +4932,7 @@
 		},
 		{
 			"name": "Naturalist",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4942,7 +4942,7 @@
 		},
 		{
 			"name": "Prophetic Protection",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4952,7 +4952,7 @@
 		},
 		{
 			"name": "Seek Truths",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4962,7 +4962,7 @@
 		},
 		{
 			"name": "Sense Import",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4972,7 +4972,7 @@
 		},
 		{
 			"name": "Silvered Tongue",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],
@@ -4982,7 +4982,7 @@
 		},
 		{
 			"name": "Undaunted",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DL"
 			],

@@ -7,9 +7,9 @@
 		},
 		"sources": [
 			{
-				"json": "LevelUpA5E",
+				"json": "LevelUp",
 				"abbreviation": "A5E",
-				"full": "Level Up: Adventurers Guide (A5E)",
+				"full": "Level Up (A5E)",
 				"authors": [
 					"Level Up"
 				],
@@ -23,7 +23,7 @@
 	"class": [
 		{
 			"name": "Cleric",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -473,47 +473,47 @@
 			],
 			"classFeatures": [
                 {
-					"classFeature": "Cleric Archetype|Cleric|LevelUpA5E|1",
+					"classFeature": "Cleric Archetype|Cleric|LevelUp|1",
 					"gainSubclassFeature": true
 				},
-				"Defensive Blessing|Cleric|LevelUpA5E|1",
-				"Sacred Call|Cleric|LevelUpA5E|1",
-                "Spellcasting|Cleric|LevelUpA5E|1",
+				"Defensive Blessing|Cleric|LevelUp|1",
+				"Sacred Call|Cleric|LevelUp|1",
+                "Spellcasting|Cleric|LevelUp|1",
 				{
-					"classFeature": "Archetype Feature|Cleric|LevelUpA5E|2",
+					"classFeature": "Archetype Feature|Cleric|LevelUp|2",
 					"gainSubclassFeature": true
 				},
-				"Channel Divinity (1/rest)|Cleric|LevelUpA5E|2",
-				"Principles of Devotion|Cleric|LevelUpA5E|2",
-				"Signs of Faith|Cleric|LevelUpA5E|3",
-				"Ability Score Improvement|Cleric|LevelUpA5E|4",
-                "Sacred Office|Cleric|LevelUpA5E|4",
-                "Empowered Turning (1)|Cleric|LevelUpA5E|5",
+				"Channel Divinity (1/rest)|Cleric|LevelUp|2",
+				"Principles of Devotion|Cleric|LevelUp|2",
+				"Signs of Faith|Cleric|LevelUp|3",
+				"Ability Score Improvement|Cleric|LevelUp|4",
+                "Sacred Office|Cleric|LevelUp|4",
+                "Empowered Turning (1)|Cleric|LevelUp|5",
 				{
-					"classFeature": "Archetype Feature|Cleric|LevelUpA5E|6",
+					"classFeature": "Archetype Feature|Cleric|LevelUp|6",
 					"gainSubclassFeature": true
 				},
-				"Channel Divinity (2/rest)|Cleric|LevelUpA5E|6",
-				"Ability Score Improvement|Cleric|LevelUpA5E|8",
+				"Channel Divinity (2/rest)|Cleric|LevelUp|6",
+				"Ability Score Improvement|Cleric|LevelUp|8",
 				{
-					"classFeature": "Archetype Feature|Cleric|LevelUpA5E|8",
+					"classFeature": "Archetype Feature|Cleric|LevelUp|8",
 					"gainSubclassFeature": true
 				},
-				"Empowered Turning (2)|Cleric|LevelUpA5E|8",
-				"Sacred Presence|Cleric|LevelUpA5E|9",
-				"Providence|Cleric|LevelUpA5E|10",
-				"Empowered Turning (3)|Cleric|LevelUpA5E|11",
-				"Ability Score Improvement|Cleric|LevelUpA5E|12",
-				"Empowered Turning (4)|Cleric|LevelUpA5E|14",
-				"Ability Score Improvement|Cleric|LevelUpA5E|16",
+				"Empowered Turning (2)|Cleric|LevelUp|8",
+				"Sacred Presence|Cleric|LevelUp|9",
+				"Providence|Cleric|LevelUp|10",
+				"Empowered Turning (3)|Cleric|LevelUp|11",
+				"Ability Score Improvement|Cleric|LevelUp|12",
+				"Empowered Turning (4)|Cleric|LevelUp|14",
+				"Ability Score Improvement|Cleric|LevelUp|16",
 				{
-					"classFeature": "Archetype Feature|Cleric|LevelUpA5E|17",
+					"classFeature": "Archetype Feature|Cleric|LevelUp|17",
 					"gainSubclassFeature": true
 				},
-				"Empowered Turning (5)|Cleric|LevelUpA5E|17",
-				"Channel Divinity (3/rest)|Cleric|LevelUpA5E|18",
-				"Ability Score Improvement|Cleric|LevelUpA5E|19",
-                "Avatar of Faith|Cleric|LevelUpA5E|20"
+				"Empowered Turning (5)|Cleric|LevelUp|17",
+				"Channel Divinity (3/rest)|Cleric|LevelUp|18",
+				"Ability Score Improvement|Cleric|LevelUp|19",
+                "Avatar of Faith|Cleric|LevelUp|20"
 			],
 			"subclassTitle": "Cleric Archetype"
 		}
@@ -522,9 +522,9 @@
 		{
 			"name": "Knowledge Domain",
 			"shortName": "Knowledge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 59,
 			"additionalSpells": [
 				{
@@ -553,21 +553,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Knowledge Domain|Cleric|LevelUpA5E|Knowledge|LevelUpA5E|1",
-				"Channel Divinity: Knowledge of the Ages|Cleric|LevelUpA5E|Knowledge|LevelUpA5E|2",
-				"Channel Divinity: Read Thoughts|Cleric|LevelUpA5E|Knowledge|LevelUpA5E|6",
-				"Potent Spellcasting|Cleric|LevelUpA5E|Knowledge|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Knowledge||LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Knowledge||LevelUpA5E|TCE",
-				"Visions of the Past|Cleric|LevelUpA5E|Knowledge|LevelUpA5E|17"
+				"Knowledge Domain|Cleric|LevelUp|Knowledge|LevelUp|1",
+				"Channel Divinity: Knowledge of the Ages|Cleric|LevelUp|Knowledge|LevelUp|2",
+				"Channel Divinity: Read Thoughts|Cleric|LevelUp|Knowledge|LevelUp|6",
+				"Potent Spellcasting|Cleric|LevelUp|Knowledge|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Knowledge||LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Knowledge||LevelUp|TCE",
+				"Visions of the Past|Cleric|LevelUp|Knowledge|LevelUp|17"
 			]
 		},
 		{
 			"name": "Life Domain",
 			"shortName": "Life",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 60,
 			"srd": true,
 			"basicRules": true,
@@ -598,21 +598,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Life Domain|Cleric|LevelUpA5E|Life|LevelUpA5E|1",
-				"Channel Divinity: Preserve Life|Cleric|LevelUpA5E|Life|LevelUpA5E|2",
-				"Blessed Healer|Cleric|LevelUpA5E|Life|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Life|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Life||LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Life||LevelUpA5E|TCE",
-				"Supreme Healing|Cleric|LevelUpA5E|Life|LevelUpA5E|17"
+				"Life Domain|Cleric|LevelUp|Life|LevelUp|1",
+				"Channel Divinity: Preserve Life|Cleric|LevelUp|Life|LevelUp|2",
+				"Blessed Healer|Cleric|LevelUp|Life|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Life|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Life||LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Life||LevelUp|TCE",
+				"Supreme Healing|Cleric|LevelUp|Life|LevelUp|17"
 			]
 		},
 		{
 			"name": "Light Domain",
 			"shortName": "Light",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 60,
 			"additionalSpells": [
 				{
@@ -646,21 +646,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Light Domain|Cleric|LevelUpA5E|Light|LevelUpA5E|1",
-				"Channel Divinity: Radiance of the Dawn|Cleric|LevelUpA5E|Light|LevelUpA5E|2",
-				"Improved Flare|Cleric|LevelUpA5E|Light|LevelUpA5E|6",
-				"Potent Spellcasting|Cleric|LevelUpA5E|Light|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Light||LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Light||LevelUpA5E|TCE",
-				"Corona of Light|Cleric|LevelUpA5E|Light|LevelUpA5E|17"
+				"Light Domain|Cleric|LevelUp|Light|LevelUp|1",
+				"Channel Divinity: Radiance of the Dawn|Cleric|LevelUp|Light|LevelUp|2",
+				"Improved Flare|Cleric|LevelUp|Light|LevelUp|6",
+				"Potent Spellcasting|Cleric|LevelUp|Light|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Light||LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Light||LevelUp|TCE",
+				"Corona of Light|Cleric|LevelUp|Light|LevelUp|17"
 			]
 		},
 		{
 			"name": "Nature Domain",
 			"shortName": "Nature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 61,
 			"additionalSpells": [
 				{
@@ -698,21 +698,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Nature Domain|Cleric|LevelUpA5E|Nature|LevelUpA5E|1",
-				"Channel Divinity: Charm Animals and Plants|Cleric|LevelUpA5E|Nature|LevelUpA5E|2",
-				"Dampen Elements|Cleric|LevelUpA5E|Nature|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Nature|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Nature||LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Nature||LevelUpA5E|TCE",
-				"Master of Nature|Cleric|LevelUpA5E|Nature|LevelUpA5E|17"
+				"Nature Domain|Cleric|LevelUp|Nature|LevelUp|1",
+				"Channel Divinity: Charm Animals and Plants|Cleric|LevelUp|Nature|LevelUp|2",
+				"Dampen Elements|Cleric|LevelUp|Nature|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Nature|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Nature||LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Nature||LevelUp|TCE",
+				"Master of Nature|Cleric|LevelUp|Nature|LevelUp|17"
 			]
 		},
 		{
 			"name": "Tempest Domain",
 			"shortName": "Tempest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 62,
 			"additionalSpells": [
 				{
@@ -741,21 +741,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Tempest Domain|Cleric|LevelUpA5E|Tempest|LevelUpA5E|1",
-				"Channel Divinity: Destructive Wrath|Cleric|LevelUpA5E|Tempest|LevelUpA5E|2",
-				"Thunderbolt Strike|Cleric|LevelUpA5E|Tempest|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Tempest|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Tempest||LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Tempest||LevelUpA5E|TCE",
-				"Stormborn|Cleric|LevelUpA5E|Tempest|LevelUpA5E|17"
+				"Tempest Domain|Cleric|LevelUp|Tempest|LevelUp|1",
+				"Channel Divinity: Destructive Wrath|Cleric|LevelUp|Tempest|LevelUp|2",
+				"Thunderbolt Strike|Cleric|LevelUp|Tempest|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Tempest|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Tempest||LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Tempest||LevelUp|TCE",
+				"Stormborn|Cleric|LevelUp|Tempest|LevelUp|17"
 			]
 		},
 		{
 			"name": "Trickery Domain",
 			"shortName": "Trickery",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 62,
 			"additionalSpells": [
 				{
@@ -784,21 +784,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Trickery Domain|Cleric|LevelUpA5E|Trickery|LevelUpA5E|1",
-				"Channel Divinity: Invoke Duplicity|Cleric|LevelUpA5E|Trickery|LevelUpA5E|2",
-				"Channel Divinity: Cloak of Shadows|Cleric|LevelUpA5E|Trickery|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Trickery|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Trickery||LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Trickery||LevelUpA5E|TCE",
-				"Improved Duplicity|Cleric|LevelUpA5E|Trickery|LevelUpA5E|17"
+				"Trickery Domain|Cleric|LevelUp|Trickery|LevelUp|1",
+				"Channel Divinity: Invoke Duplicity|Cleric|LevelUp|Trickery|LevelUp|2",
+				"Channel Divinity: Cloak of Shadows|Cleric|LevelUp|Trickery|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Trickery|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Trickery||LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Trickery||LevelUp|TCE",
+				"Improved Duplicity|Cleric|LevelUp|Trickery|LevelUp|17"
 			]
 		},
 		{
 			"name": "War Domain",
 			"shortName": "War",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 63,
 			"additionalSpells": [
 				{
@@ -827,21 +827,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"War Domain|Cleric|LevelUpA5E|War|LevelUpA5E|1",
-				"Channel Divinity: Guided Strike|Cleric|LevelUpA5E|War|LevelUpA5E|2",
-				"Channel Divinity: War God's Blessing|Cleric|LevelUpA5E|War|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|War|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|War||LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|War||LevelUpA5E|TCE",
-				"Avatar of Battle|Cleric|LevelUpA5E|War|LevelUpA5E|17"
+				"War Domain|Cleric|LevelUp|War|LevelUp|1",
+				"Channel Divinity: Guided Strike|Cleric|LevelUp|War|LevelUp|2",
+				"Channel Divinity: War God's Blessing|Cleric|LevelUp|War|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|War|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|War||LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|War||LevelUp|TCE",
+				"Avatar of Battle|Cleric|LevelUp|War|LevelUp|17"
 			]
 		},
 		{
 			"name": "Death Domain",
 			"shortName": "Death",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 96,
 			"additionalSpells": [
 				{
@@ -880,21 +880,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Death Domain|Cleric|LevelUpA5E|Death|LevelUpA5E|1",
-				"Channel Divinity: Touch of Death|Cleric|LevelUpA5E|Death|LevelUpA5E|2",
-				"Inescapable Destruction|Cleric|LevelUpA5E|Death|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Death|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Death|DMG|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Death|DMG|LevelUpA5E|TCE",
-				"Improved Reaper|Cleric|LevelUpA5E|Death|LevelUpA5E|17"
+				"Death Domain|Cleric|LevelUp|Death|LevelUp|1",
+				"Channel Divinity: Touch of Death|Cleric|LevelUp|Death|LevelUp|2",
+				"Inescapable Destruction|Cleric|LevelUp|Death|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Death|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Death|DMG|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Death|DMG|LevelUp|TCE",
+				"Improved Reaper|Cleric|LevelUp|Death|LevelUp|17"
 			]
 		},
 		{
 			"name": "City Domain (UA)",
 			"shortName": "City (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"additionalSpells": [
 				{
@@ -923,21 +923,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"City Domain (UA)|Cleric|LevelUpA5E|City (UA)|LevelUpA5E|1",
-				"Channel Divinity: Spirits of the City|Cleric|LevelUpA5E|City (UA)|LevelUpA5E|2",
-				"Block Watch|Cleric|LevelUpA5E|City (UA)|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|City (UA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|City (UA)|UAModernMagic|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|City (UA)|UAModernMagic|LevelUpA5E|TCE",
-				"Express Transit|Cleric|LevelUpA5E|City (UA)|LevelUpA5E|17"
+				"City Domain (UA)|Cleric|LevelUp|City (UA)|LevelUp|1",
+				"Channel Divinity: Spirits of the City|Cleric|LevelUp|City (UA)|LevelUp|2",
+				"Block Watch|Cleric|LevelUp|City (UA)|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|City (UA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|City (UA)|UAModernMagic|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|City (UA)|UAModernMagic|LevelUp|TCE",
+				"Express Transit|Cleric|LevelUp|City (UA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Arcana Domain",
 			"shortName": "Arcana",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 125,
 			"additionalSpells": [
 				{
@@ -990,21 +990,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Arcana Domain|Cleric|LevelUpA5E|Arcana|LevelUpA5E|1",
-				"Channel Divinity: Arcane Abjuration|Cleric|LevelUpA5E|Arcana|LevelUpA5E|2",
-				"Spell Breaker|Cleric|LevelUpA5E|Arcana|LevelUpA5E|6",
-				"Potent Spellcasting|Cleric|LevelUpA5E|Arcana|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Arcana|SCAG|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Arcana|SCAG|LevelUpA5E|TCE",
-				"Arcane Mastery|Cleric|LevelUpA5E|Arcana|LevelUpA5E|17"
+				"Arcana Domain|Cleric|LevelUp|Arcana|LevelUp|1",
+				"Channel Divinity: Arcane Abjuration|Cleric|LevelUp|Arcana|LevelUp|2",
+				"Spell Breaker|Cleric|LevelUp|Arcana|LevelUp|6",
+				"Potent Spellcasting|Cleric|LevelUp|Arcana|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Arcana|SCAG|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Arcana|SCAG|LevelUp|TCE",
+				"Arcane Mastery|Cleric|LevelUp|Arcana|LevelUp|17"
 			]
 		},
 		{
 			"name": "Forge Domain (UA)",
 			"shortName": "Forge (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1034,21 +1034,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Forge Domain (UA)|Cleric|LevelUpA5E|Forge (UA)|LevelUpA5E|1",
-				"Channel Divinity: Artisan's Blessing|Cleric|LevelUpA5E|Forge (UA)|LevelUpA5E|2",
-				"Soul of the Forge|Cleric|LevelUpA5E|Forge (UA)|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Forge (UA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Forge (UA)|UAClericDivineDomains|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Forge (UA)|UAClericDivineDomains|LevelUpA5E|TCE",
-				"Saint of Forge and Fire|Cleric|LevelUpA5E|Forge (UA)|LevelUpA5E|17"
+				"Forge Domain (UA)|Cleric|LevelUp|Forge (UA)|LevelUp|1",
+				"Channel Divinity: Artisan's Blessing|Cleric|LevelUp|Forge (UA)|LevelUp|2",
+				"Soul of the Forge|Cleric|LevelUp|Forge (UA)|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Forge (UA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Forge (UA)|UAClericDivineDomains|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Forge (UA)|UAClericDivineDomains|LevelUp|TCE",
+				"Saint of Forge and Fire|Cleric|LevelUp|Forge (UA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Grave Domain (UA)",
 			"shortName": "Grave (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1078,21 +1078,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Grave Domain (UA)|Cleric|LevelUpA5E|Grave (UA)|LevelUpA5E|1",
-				"Channel Divinity: Path to the Grave|Cleric|LevelUpA5E|Grave (UA)|LevelUpA5E|2",
-				"Sentinel at Death's Door|Cleric|LevelUpA5E|Grave (UA)|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Grave (UA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Grave (UA)|UAClericDivineDomains|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Grave (UA)|UAClericDivineDomains|LevelUpA5E|TCE",
-				"Keeper of Souls|Cleric|LevelUpA5E|Grave (UA)|LevelUpA5E|17"
+				"Grave Domain (UA)|Cleric|LevelUp|Grave (UA)|LevelUp|1",
+				"Channel Divinity: Path to the Grave|Cleric|LevelUp|Grave (UA)|LevelUp|2",
+				"Sentinel at Death's Door|Cleric|LevelUp|Grave (UA)|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Grave (UA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Grave (UA)|UAClericDivineDomains|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Grave (UA)|UAClericDivineDomains|LevelUp|TCE",
+				"Keeper of Souls|Cleric|LevelUp|Grave (UA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Protection Domain (UA)",
 			"shortName": "Protection (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 3,
 			"additionalSpells": [
 				{
@@ -1121,21 +1121,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Protection Domain (UA)|Cleric|LevelUpA5E|Protection (UA)|LevelUpA5E|1",
-				"Channel Divinity: Radiant Defense|Cleric|LevelUpA5E|Protection (UA)|LevelUpA5E|2",
-				"Blessed Healer|Cleric|LevelUpA5E|Protection (UA)|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Protection (UA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Protection (UA)|UAClericDivineDomains|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Protection (UA)|UAClericDivineDomains|LevelUpA5E|TCE",
-				"Indomitable Defense|Cleric|LevelUpA5E|Protection (UA)|LevelUpA5E|17"
+				"Protection Domain (UA)|Cleric|LevelUp|Protection (UA)|LevelUp|1",
+				"Channel Divinity: Radiant Defense|Cleric|LevelUp|Protection (UA)|LevelUp|2",
+				"Blessed Healer|Cleric|LevelUp|Protection (UA)|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Protection (UA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Protection (UA)|UAClericDivineDomains|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Protection (UA)|UAClericDivineDomains|LevelUp|TCE",
+				"Indomitable Defense|Cleric|LevelUp|Protection (UA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Ambition Domain (PSA)",
 			"shortName": "Ambition (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 27,
 			"additionalSpells": [
 				{
@@ -1164,21 +1164,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Ambition Domain (PSA)|Cleric|LevelUpA5E|Ambition (PSA)|LevelUpA5E|1",
-				"Channel Divinity: Invoke Duplicity|Cleric|LevelUpA5E|Ambition (PSA)|LevelUpA5E|2",
-				"Channel Divinity: Cloak of Shadows|Cleric|LevelUpA5E|Ambition (PSA)|LevelUpA5E|6",
-				"Potent Spellcasting|Cleric|LevelUpA5E|Ambition (PSA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Ambition (PSA)|PSA|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Ambition (PSA)|PSA|LevelUpA5E|TCE",
-				"Improved Duplicity|Cleric|LevelUpA5E|Ambition (PSA)|LevelUpA5E|17"
+				"Ambition Domain (PSA)|Cleric|LevelUp|Ambition (PSA)|LevelUp|1",
+				"Channel Divinity: Invoke Duplicity|Cleric|LevelUp|Ambition (PSA)|LevelUp|2",
+				"Channel Divinity: Cloak of Shadows|Cleric|LevelUp|Ambition (PSA)|LevelUp|6",
+				"Potent Spellcasting|Cleric|LevelUp|Ambition (PSA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Ambition (PSA)|PSA|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Ambition (PSA)|PSA|LevelUp|TCE",
+				"Improved Duplicity|Cleric|LevelUp|Ambition (PSA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Knowledge Domain (PSA)",
 			"shortName": "Knowledge (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 25,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1208,19 +1208,19 @@
 				}
 			],
 			"subclassFeatures": [
-				"Knowledge Domain (PSA)|Cleric|LevelUpA5E|Knowledge (PSA)|LevelUpA5E|1",
-				"Subclass Feature|Cleric|LevelUpA5E|Knowledge (PSA)|LevelUpA5E|2",
-				"Subclass Feature|Cleric|LevelUpA5E|Knowledge (PSA)|LevelUpA5E|6",
-				"Subclass Feature|Cleric|LevelUpA5E|Knowledge (PSA)|LevelUpA5E|8",
-				"Subclass Feature|Cleric|LevelUpA5E|Knowledge (PSA)|LevelUpA5E|17"
+				"Knowledge Domain (PSA)|Cleric|LevelUp|Knowledge (PSA)|LevelUp|1",
+				"Subclass Feature|Cleric|LevelUp|Knowledge (PSA)|LevelUp|2",
+				"Subclass Feature|Cleric|LevelUp|Knowledge (PSA)|LevelUp|6",
+				"Subclass Feature|Cleric|LevelUp|Knowledge (PSA)|LevelUp|8",
+				"Subclass Feature|Cleric|LevelUp|Knowledge (PSA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Solidarity Domain (PSA)",
 			"shortName": "Solidarity (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 24,
 			"additionalSpells": [
 				{
@@ -1249,21 +1249,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Solidarity Domain (PSA)|Cleric|LevelUpA5E|Solidarity (PSA)|LevelUpA5E|1",
-				"Channel Divinity: Preserve Life|Cleric|LevelUpA5E|Solidarity (PSA)|LevelUpA5E|2",
-				"Oketra's Blessing|Cleric|LevelUpA5E|Solidarity (PSA)|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Solidarity (PSA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Solidarity (PSA)|PSA|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Solidarity (PSA)|PSA|LevelUpA5E|TCE",
-				"Supreme Healing|Cleric|LevelUpA5E|Solidarity (PSA)|LevelUpA5E|17"
+				"Solidarity Domain (PSA)|Cleric|LevelUp|Solidarity (PSA)|LevelUp|1",
+				"Channel Divinity: Preserve Life|Cleric|LevelUp|Solidarity (PSA)|LevelUp|2",
+				"Oketra's Blessing|Cleric|LevelUp|Solidarity (PSA)|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Solidarity (PSA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Solidarity (PSA)|PSA|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Solidarity (PSA)|PSA|LevelUp|TCE",
+				"Supreme Healing|Cleric|LevelUp|Solidarity (PSA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Strength Domain (PSA)",
 			"shortName": "Strength (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 26,
 			"additionalSpells": [
 				{
@@ -1301,21 +1301,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Strength Domain (PSA)|Cleric|LevelUpA5E|Strength (PSA)|LevelUpA5E|1",
-				"Channel Divinity: Feat of Strength|Cleric|LevelUpA5E|Strength (PSA)|LevelUpA5E|2",
-				"Rhonas's Blessing|Cleric|LevelUpA5E|Strength (PSA)|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Strength (PSA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Strength (PSA)|PSA|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Strength (PSA)|PSA|LevelUpA5E|TCE",
-				"Avatar of Battle|Cleric|LevelUpA5E|Strength (PSA)|LevelUpA5E|17"
+				"Strength Domain (PSA)|Cleric|LevelUp|Strength (PSA)|LevelUp|1",
+				"Channel Divinity: Feat of Strength|Cleric|LevelUp|Strength (PSA)|LevelUp|2",
+				"Rhonas's Blessing|Cleric|LevelUp|Strength (PSA)|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Strength (PSA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Strength (PSA)|PSA|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Strength (PSA)|PSA|LevelUp|TCE",
+				"Avatar of Battle|Cleric|LevelUp|Strength (PSA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Zeal Domain (PSA)",
 			"shortName": "Zeal (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 28,
 			"additionalSpells": [
 				{
@@ -1344,21 +1344,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Zeal Domain (PSA)|Cleric|LevelUpA5E|Zeal (PSA)|LevelUpA5E|1",
-				"Channel Divinity: Consuming Fervor|Cleric|LevelUpA5E|Zeal (PSA)|LevelUpA5E|2",
-				"Resounding Strike|Cleric|LevelUpA5E|Zeal (PSA)|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Zeal (PSA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Zeal (PSA)|PSA|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Zeal (PSA)|PSA|LevelUpA5E|TCE",
-				"Blaze of Glory|Cleric|LevelUpA5E|Zeal (PSA)|LevelUpA5E|17"
+				"Zeal Domain (PSA)|Cleric|LevelUp|Zeal (PSA)|LevelUp|1",
+				"Channel Divinity: Consuming Fervor|Cleric|LevelUp|Zeal (PSA)|LevelUp|2",
+				"Resounding Strike|Cleric|LevelUp|Zeal (PSA)|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Zeal (PSA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Zeal (PSA)|PSA|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Zeal (PSA)|PSA|LevelUp|TCE",
+				"Blaze of Glory|Cleric|LevelUp|Zeal (PSA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Forge Domain",
 			"shortName": "Forge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 18,
 			"additionalSpells": [
 				{
@@ -1387,21 +1387,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Forge Domain|Cleric|LevelUpA5E|Forge|LevelUpA5E|1",
-				"Channel Divinity: Artisan's Blessing|Cleric|LevelUpA5E|Forge|LevelUpA5E|2",
-				"Soul of the Forge|Cleric|LevelUpA5E|Forge|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Forge|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Forge|XGE|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Forge|XGE|LevelUpA5E|TCE",
-				"Saint of Forge and Fire|Cleric|LevelUpA5E|Forge|LevelUpA5E|17"
+				"Forge Domain|Cleric|LevelUp|Forge|LevelUp|1",
+				"Channel Divinity: Artisan's Blessing|Cleric|LevelUp|Forge|LevelUp|2",
+				"Soul of the Forge|Cleric|LevelUp|Forge|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Forge|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Forge|XGE|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Forge|XGE|LevelUp|TCE",
+				"Saint of Forge and Fire|Cleric|LevelUp|Forge|LevelUp|17"
 			]
 		},
 		{
 			"name": "Grave Domain",
 			"shortName": "Grave",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 19,
 			"additionalSpells": [
 				{
@@ -1435,21 +1435,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Grave Domain|Cleric|LevelUpA5E|Grave|LevelUpA5E|1",
-				"Channel Divinity: Path to the Grave|Cleric|LevelUpA5E|Grave|LevelUpA5E|2",
-				"Sentinel at Death's Door|Cleric|LevelUpA5E|Grave|LevelUpA5E|6",
-				"Potent Spellcasting|Cleric|LevelUpA5E|Grave|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Grave|XGE|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Grave|XGE|LevelUpA5E|TCE",
-				"Keeper of Souls|Cleric|LevelUpA5E|Grave|LevelUpA5E|17"
+				"Grave Domain|Cleric|LevelUp|Grave|LevelUp|1",
+				"Channel Divinity: Path to the Grave|Cleric|LevelUp|Grave|LevelUp|2",
+				"Sentinel at Death's Door|Cleric|LevelUp|Grave|LevelUp|6",
+				"Potent Spellcasting|Cleric|LevelUp|Grave|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Grave|XGE|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Grave|XGE|LevelUp|TCE",
+				"Keeper of Souls|Cleric|LevelUp|Grave|LevelUp|17"
 			]
 		},
 		{
 			"name": "Order Domain (UA)",
 			"shortName": "Order (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1479,21 +1479,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Order Domain (UA)|Cleric|LevelUpA5E|Order (UA)|LevelUpA5E|1",
-				"Channel Divinity: Order's Demand|Cleric|LevelUpA5E|Order (UA)|LevelUpA5E|2",
-				"Order's Dominion|Cleric|LevelUpA5E|Order (UA)|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Order (UA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Order (UA)|UAOrderDomain|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Order (UA)|UAOrderDomain|LevelUpA5E|TCE",
-				"Order's Wrath|Cleric|LevelUpA5E|Order (UA)|LevelUpA5E|17"
+				"Order Domain (UA)|Cleric|LevelUp|Order (UA)|LevelUp|1",
+				"Channel Divinity: Order's Demand|Cleric|LevelUp|Order (UA)|LevelUp|2",
+				"Order's Dominion|Cleric|LevelUp|Order (UA)|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Order (UA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Order (UA)|UAOrderDomain|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Order (UA)|UAOrderDomain|LevelUp|TCE",
+				"Order's Wrath|Cleric|LevelUp|Order (UA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Twilight Domain (UA)",
 			"shortName": "Twilight (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1523,21 +1523,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Twilight Domain (UA)|Cleric|LevelUpA5E|Twilight (UA)|LevelUpA5E|1",
-				"Channel Divinity: Twilight Sanctuary|Cleric|LevelUpA5E|Twilight (UA)|LevelUpA5E|2",
-				"Steps of the Brave|Cleric|LevelUpA5E|Twilight (UA)|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Twilight (UA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Twilight (UA)|UAClericDruidWizard|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Twilight (UA)|UAClericDruidWizard|LevelUpA5E|TCE",
-				"Midnight Shroud|Cleric|LevelUpA5E|Twilight (UA)|LevelUpA5E|17"
+				"Twilight Domain (UA)|Cleric|LevelUp|Twilight (UA)|LevelUp|1",
+				"Channel Divinity: Twilight Sanctuary|Cleric|LevelUp|Twilight (UA)|LevelUp|2",
+				"Steps of the Brave|Cleric|LevelUp|Twilight (UA)|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Twilight (UA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Twilight (UA)|UAClericDruidWizard|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Twilight (UA)|UAClericDruidWizard|LevelUp|TCE",
+				"Midnight Shroud|Cleric|LevelUp|Twilight (UA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Love Domain (UA)",
 			"shortName": "Love (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1567,21 +1567,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Love Domain (UA)|Cleric|LevelUpA5E|Love (UA)|LevelUpA5E|1",
-				"Channel Divinity: Impulsive Infatuation|Cleric|LevelUpA5E|Love (UA)|LevelUpA5E|2",
-				"Protective Bond|Cleric|LevelUpA5E|Love (UA)|LevelUpA5E|6",
-				"Potent Spellcasting|Cleric|LevelUpA5E|Love (UA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Love (UA)|UA2020SubclassesPt2|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Love (UA)|UA2020SubclassesPt2|LevelUpA5E|TCE",
-				"Enduring Unity|Cleric|LevelUpA5E|Love (UA)|LevelUpA5E|17"
+				"Love Domain (UA)|Cleric|LevelUp|Love (UA)|LevelUp|1",
+				"Channel Divinity: Impulsive Infatuation|Cleric|LevelUp|Love (UA)|LevelUp|2",
+				"Protective Bond|Cleric|LevelUp|Love (UA)|LevelUp|6",
+				"Potent Spellcasting|Cleric|LevelUp|Love (UA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Love (UA)|UA2020SubclassesPt2|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Love (UA)|UA2020SubclassesPt2|LevelUp|TCE",
+				"Enduring Unity|Cleric|LevelUp|Love (UA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Unity Domain (UA)",
 			"shortName": "Unity (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1611,25 +1611,25 @@
 				}
 			],
 			"subclassFeatures": [
-				"Unity Domain (UA)|Cleric|LevelUpA5E|Unity (UA)|LevelUpA5E|1",
-				"Channel Divinity: Shared Burden|Cleric|LevelUpA5E|Unity (UA)|LevelUpA5E|2",
-				"Protective Bond|Cleric|LevelUpA5E|Unity (UA)|LevelUpA5E|6",
-				"Potent Spellcasting|Cleric|LevelUpA5E|Unity (UA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Unity (UA)|UA2020SubclassesPt2|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Unity (UA)|UA2020SubclassesPt2|LevelUpA5E|TCE",
-				"Enduring Unity|Cleric|LevelUpA5E|Unity (UA)|LevelUpA5E|17"
+				"Unity Domain (UA)|Cleric|LevelUp|Unity (UA)|LevelUp|1",
+				"Channel Divinity: Shared Burden|Cleric|LevelUp|Unity (UA)|LevelUp|2",
+				"Protective Bond|Cleric|LevelUp|Unity (UA)|LevelUp|6",
+				"Potent Spellcasting|Cleric|LevelUp|Unity (UA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Unity (UA)|UA2020SubclassesPt2|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Unity (UA)|UA2020SubclassesPt2|LevelUp|TCE",
+				"Enduring Unity|Cleric|LevelUp|Unity (UA)|LevelUp|17"
 			]
 		},
 		{
 			"name": "Order Domain",
 			"shortName": "Order",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 31,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 25
 				}
 			],
@@ -1660,21 +1660,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Order Domain|Cleric|LevelUpA5E|Order|LevelUpA5E|1",
-				"Channel Divinity: Order's Demand|Cleric|LevelUpA5E|Order|LevelUpA5E|2",
-				"Embodiment of the Law|Cleric|LevelUpA5E|Order|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Order|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Order|TCE|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Order|TCE|LevelUpA5E|TCE",
-				"Order's Wrath|Cleric|LevelUpA5E|Order|LevelUpA5E|17"
+				"Order Domain|Cleric|LevelUp|Order|LevelUp|1",
+				"Channel Divinity: Order's Demand|Cleric|LevelUp|Order|LevelUp|2",
+				"Embodiment of the Law|Cleric|LevelUp|Order|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Order|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Order|TCE|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Order|TCE|LevelUp|TCE",
+				"Order's Wrath|Cleric|LevelUp|Order|LevelUp|17"
 			]
 		},
 		{
 			"name": "Peace Domain",
 			"shortName": "Peace",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 32,
 			"additionalSpells": [
 				{
@@ -1703,20 +1703,20 @@
 				}
 			],
 			"subclassFeatures": [
-				"Peace Domain|Cleric|LevelUpA5E|Peace|LevelUpA5E|1",
-				"Channel Divinity: Balm of Peace|Cleric|LevelUpA5E|Peace|LevelUpA5E|2",
-				"Protective Bond|Cleric|LevelUpA5E|Peace|LevelUpA5E|6",
-				"Potent Spellcasting|Cleric|LevelUpA5E|Peace|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Peace|TCE|LevelUpA5E|TCE",
-				"Expansive Bond|Cleric|LevelUpA5E|Peace|LevelUpA5E|17"
+				"Peace Domain|Cleric|LevelUp|Peace|LevelUp|1",
+				"Channel Divinity: Balm of Peace|Cleric|LevelUp|Peace|LevelUp|2",
+				"Protective Bond|Cleric|LevelUp|Peace|LevelUp|6",
+				"Potent Spellcasting|Cleric|LevelUp|Peace|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Peace|TCE|LevelUp|TCE",
+				"Expansive Bond|Cleric|LevelUp|Peace|LevelUp|17"
 			]
 		},
 		{
 			"name": "Twilight Domain",
 			"shortName": "Twilight",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 34,
 			"additionalSpells": [
 				{
@@ -1745,20 +1745,20 @@
 				}
 			],
 			"subclassFeatures": [
-				"Twilight Domain|Cleric|LevelUpA5E|Twilight|LevelUpA5E|1",
-				"Channel Divinity: Twilight Sanctuary|Cleric|LevelUpA5E|Twilight|LevelUpA5E|2",
-				"Steps of Night|Cleric|LevelUpA5E|Twilight|LevelUpA5E|6",
-				"Divine Strike|Cleric|LevelUpA5E|Twilight|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Twilight|TCE|LevelUpA5E|TCE",
-				"Twilight Shroud|Cleric|LevelUpA5E|Twilight|LevelUpA5E|17"
+				"Twilight Domain|Cleric|LevelUp|Twilight|LevelUp|1",
+				"Channel Divinity: Twilight Sanctuary|Cleric|LevelUp|Twilight|LevelUp|2",
+				"Steps of Night|Cleric|LevelUp|Twilight|LevelUp|6",
+				"Divine Strike|Cleric|LevelUp|Twilight|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Twilight|TCE|LevelUp|TCE",
+				"Twilight Shroud|Cleric|LevelUp|Twilight|LevelUp|17"
 			]
 		},
 		{
 			"name": "Fate Domain (UA)",
 			"shortName": "Fate (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"additionalSpells": [
 				{
@@ -1787,22 +1787,22 @@
 				}
 			],
 			"subclassFeatures": [
-				"Fate Domain (UA)|Cleric|LevelUpA5E|Fate (UA)|LevelUpA5E|1",
-				"Channel Divinity: Strands of Fate|Cleric|LevelUpA5E|Fate (UA)|LevelUpA5E|2",
-				"Insightful Striking|Cleric|LevelUpA5E|Fate (UA)|LevelUpA5E|6",
-				"Potent Spellcasting|Cleric|LevelUpA5E|Fate (UA)|LevelUpA5E|8",
-				"Blessed Strikes|Cleric|LevelUpA5E|Fate (UA)|UA2022WondersOfTheMultiverse|LevelUpA5E|UAClassFeatureVariants",
-				"Blessed Strikes|Cleric|LevelUpA5E|Fate (UA)|UA2022WondersOfTheMultiverse|LevelUpA5E|TCE",
-				"Visions of the Future|Cleric|LevelUpA5E|Fate (UA)|LevelUpA5E|17"
+				"Fate Domain (UA)|Cleric|LevelUp|Fate (UA)|LevelUp|1",
+				"Channel Divinity: Strands of Fate|Cleric|LevelUp|Fate (UA)|LevelUp|2",
+				"Insightful Striking|Cleric|LevelUp|Fate (UA)|LevelUp|6",
+				"Potent Spellcasting|Cleric|LevelUp|Fate (UA)|LevelUp|8",
+				"Blessed Strikes|Cleric|LevelUp|Fate (UA)|UA2022WondersOfTheMultiverse|LevelUp|UAClassFeatureVariants",
+				"Blessed Strikes|Cleric|LevelUp|Fate (UA)|UA2022WondersOfTheMultiverse|LevelUp|TCE",
+				"Visions of the Future|Cleric|LevelUp|Fate (UA)|LevelUp|17"
 			]
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Cleric Archetype",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Your holy vocation comes to the fore through your choice of a Cleric Archetype. This choice represents how you wish to communicate your values and ideals to the world at large. Although some archetypes lend themselves to a given religion or ideology, each archetype is suitable for most any belief system - even if such a presentation is provocative. Your choice of archetype will likely help inform your character's goals, desires, and even personality.",
@@ -1819,9 +1819,9 @@
 		},
 		{
 			"name": "Defensive Blessing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Starting at 1st level, the high powers which guide you bestow a modicum of protection for your journey. Choose one of the following options.",
@@ -1830,7 +1830,7 @@
 					"name": "Armour of Conviction",
 					"entries": [
 						"While you are not wearing any armour or wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.",
-						"Also, in addition to the spells you normally prepare, you always have {@spell shield of faith|LevelUpA5E} prepared."
+						"Also, in addition to the spells you normally prepare, you always have {@spell shield of faith|LevelUp} prepared."
 					]
 				},
 				{
@@ -1851,9 +1851,9 @@
 		},
 		{
 			"name": "Sacred Call",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Also at 1st level, your clerical vocation anoints you with certain graces for spreading your message to the people. Choose one of the following.",
@@ -1883,9 +1883,9 @@
 		},
 		{
 			"name": "Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"As a conduit for divine power, you can cast cleric spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for a selection of {@filter cleric spells|spells|class=cleric}.",
@@ -1945,9 +1945,9 @@
 		},
 		{
 			"name": "Channel Divinity (1/rest)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you are able to channel the energy of your greater entity directly, and use it for a variety of magical effects. You start with two of these effects: Turn Undead and an additional effect dependent on your chosen Cleric Archetype. Some archetypes provide additional uses of Channel Divinity as your cleric level increases, detailed under the heading of your chosen archetypes.",
@@ -1966,9 +1966,9 @@
 		},
 		{
 			"name": "Channel Divinity (2/rest)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"From 6th level, you can use your Channel Divinity twice between rests."
@@ -1976,9 +1976,9 @@
 		},
 		{
 			"name": "Channel Divinity (3/rest)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 18,
 			"entries": [
 				"From 18th level, you can use your Channel Divinity thrice between rests."
@@ -1986,9 +1986,9 @@
 		},
 		{
 			"name": "Principles of Devotion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"At 2nd level, after much contemplation and communication with your greater entity, you pledge to uphold certain standards of behaviour beyond what is necessary for adventure. In return, your greater entity grants you one of the following related boons. When you fail to uphold this pledge, you lose any benefits from it until 24 hours after you finish a long rest and rededicate yourself.",
@@ -2010,7 +2010,7 @@
 					"type": "entries",
 					"name": "Devotional Integrity",
 					"entries": [
-						"You adhere to a strict code of morality and ethics. When an action you take is honest and non-violent, until the end of your turn you are immune to the {@condition rattled|LevelUpA5E} condition and you do not suffer disadvantage or penalties on Intelligence, Wisdom, or Charisma checks made as part of that action."
+						"You adhere to a strict code of morality and ethics. When an action you take is honest and non-violent, until the end of your turn you are immune to the {@condition rattled|LevelUp} condition and you do not suffer disadvantage or penalties on Intelligence, Wisdom, or Charisma checks made as part of that action."
 					]
 				},
 				{
@@ -2059,9 +2059,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"At 2nd level you gain another archetype feature."
@@ -2069,9 +2069,9 @@
 		},
 		{
 			"name": "Signs of Faith",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you gain a {@filter sign of faith|optionalfeatures|feature type=sf} of your choice. The Signs Known column of the Cleric table shows when you gain new signs."
@@ -2079,9 +2079,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2089,9 +2089,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2099,9 +2099,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2109,9 +2109,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2119,9 +2119,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -2129,9 +2129,9 @@
 		},
 		{
 			"name": "Sacred Office",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"Also at 4th level, your mission has taken root and is known through much of the land, conveying rumours both good and ill about your deeds. Choose one of the following.",
@@ -2175,9 +2175,9 @@
 		},
 		{
 			"name": "Empowered Turning (1)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 5,
 			"entries": [
 				"At 5th level your greater entity grants you improved ways to turn undead or other abhorrent beings. You gain this feature again at 8th, 11th, 14th, and 17th level. Each time you gain Empowered Turning, choose one of the following:",
@@ -2213,9 +2213,9 @@
 		},
 		{
 			"name": "Empowered Turning (2)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level":8,
 			"entries": [
 				"At 8th level, you gain another choice from your Empowered Turning options."
@@ -2223,9 +2223,9 @@
 		},
 		{
 			"name": "Empowered Turning (3)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level":11,
 			"entries": [
 				"At 11th level, you gain another choice from your Empowered Turning options."
@@ -2233,9 +2233,9 @@
 		},
 		{
 			"name": "Empowered Turning (4)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level":14,
 			"entries": [
 				"At 14th level, you gain another choice from your Empowered Turning options."
@@ -2243,9 +2243,9 @@
 		},
 		{
 			"name": "Empowered Turning (5)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level":17,
 			"entries": [
 				"At 17th level, you gain another choice from your Empowered Turning options."
@@ -2253,9 +2253,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level you gain another archetype feature."
@@ -2263,9 +2263,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 8,
 			"entries": [
 				"At 8th level you gain another archetype feature."
@@ -2273,9 +2273,9 @@
 		},
 		{
 			"name": "Sacred Presence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 9,
 			"entries": [
 				"At 9th level, you bring the true presence of your ideals wherever you go. Choose one of the following.",
@@ -2305,9 +2305,9 @@
 		},
 		{
 			"name": "Providence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, the potency of your faith increases. Choose one of the following.",
@@ -2345,9 +2345,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 17,
 			"entries": [
 				"At 17th level you gain another archetype feature."
@@ -2355,9 +2355,9 @@
 		},
 		{
 			"name": "Avatar of Faith",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 20,
 			"entries": [
 				"At 20th level, your secret inner divinity is finally revealed. You can use your Channel Divinity to become a conduit of the divine, flooding the world around you with the unfettered power of the Moral Planes. Once you have used either of these options, you cannot use that option again until you finish a long rest.",
@@ -2366,7 +2366,7 @@
 					"name": "Channel Negative Energy",
 					"entries": [
 						"You can use an action to evoke baleful energy from the Lower Planes to harm creatures you are able to see. You choose the creatures. Each creature makes a Charisma saving throw or takes {@dice 5d10} force damage and {@dice 5d10} necrotic damage, or half damage on a success.",
-						"When you use this feature, you also choose one of the following conditions: {@condition blinded}, {@condition confused|LevelUpA5E}, {@condition deafened}, {@condition frightened}, {@condition poisoned}, {@condition rattled|LevelUpA5E}, or {@condition slowed|LevelUpA5E}. A creature that failed its saving throw also gains the chosen condition. At the end of each of its turns, a creature can repeat the saving throw to end the effect on itself.",
+						"When you use this feature, you also choose one of the following conditions: {@condition blinded}, {@condition confused|LevelUp}, {@condition deafened}, {@condition frightened}, {@condition poisoned}, {@condition rattled|LevelUp}, or {@condition slowed|LevelUp}. A creature that failed its saving throw also gains the chosen condition. At the end of each of its turns, a creature can repeat the saving throw to end the effect on itself.",
 						"In addition, you can choose any number of creatures you can see that have the Evil alignment trait. Each regains {@dice 5d10} hit points."
 					]
 				},
@@ -2375,7 +2375,7 @@
 					"name": "Channel Positive Energy",
 					"entries": [
 						"You can use an action to evoke energy from the Upper Planes to heal creatures you are able to see. You choose the creatures and divide 200 hit points of healing among them.",
-						"A creature that regains hit points from this feature is also healed of one level of {@condition fatigue|LevelUpA5E} and one level of {@condition strife|LevelUpA5E}, and if it is {@condition blinded}, {@condition charmed}, {@condition confused|LevelUpA5E}, {@condition deafened}, {@condition doomed|LevelUpA5E}, {@condition frightened}, {@condition staggered|LevelUpA5E}, {@condition petrified}, {@condition poisoned}, {@condition rattled|LevelUpA5E}, {@condition slowed|LevelUpA5E}, or {@condition debilitated} those conditions end of it. This feature cannot be used on undead or constructs."
+						"A creature that regains hit points from this feature is also healed of one level of {@condition fatigue|LevelUp} and one level of {@condition strife|LevelUp}, and if it is {@condition blinded}, {@condition charmed}, {@condition confused|LevelUp}, {@condition deafened}, {@condition doomed|LevelUp}, {@condition frightened}, {@condition staggered|LevelUp}, {@condition petrified}, {@condition poisoned}, {@condition rattled|LevelUp}, {@condition slowed|LevelUp}, or {@condition debilitated} those conditions end of it. This feature cannot be used on undead or constructs."
 					]
 				}
 			]
@@ -2384,12 +2384,12 @@
 	"subclassFeature": [
 		{
 			"name": "Death Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 96,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Death",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as {@deity Chemosh|Dragonlance}, {@deity Myrkul}, and {@deity Wee Jas|Greyhawk} are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder ({@deity Anubis|Egyptian}, {@deity Bhaal}, and Pyremius), pain ({@deity Iuz|Greyhawk} or {@deity Loviatar}), disease or poison ({@deity Incabulos|Greyhawk}, {@deity Talona}, or {@deity Morgion|Dragonlance}), and the underworld ({@deity Hades|Greek} and {@deity Hel|Norse}).",
@@ -2430,22 +2430,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Death|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Death|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Reaper|Cleric|LevelUpA5E|Death|LevelUpA5E|1"
+					"subclassFeature": "Reaper|Cleric|LevelUp|Death|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 96,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Death",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -2454,12 +2454,12 @@
 		},
 		{
 			"name": "Reaper",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 96,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Death",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -2468,12 +2468,12 @@
 		},
 		{
 			"name": "Channel Divinity: Touch of Death",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 96,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Death",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -2486,12 +2486,12 @@
 		},
 		{
 			"name": "Inescapable Destruction",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 96,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Death",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2500,12 +2500,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Death",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -2516,12 +2516,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Death",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -2532,12 +2532,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 96,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Death",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -2546,12 +2546,12 @@
 		},
 		{
 			"name": "Improved Reaper",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 96,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Death",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2560,12 +2560,12 @@
 		},
 		{
 			"name": "Knowledge Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 59,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The gods of knowledge\u2014including {@deity Oghma}, {@deity Boccob|Greyhawk}, {@deity Gilean|Dragonlance}, {@deity Aureon|Eberron}, and {@deity Thoth|Egyptian}\u2014value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like {@deity Gond}, {@deity Reorx|Dragonlance}, {@deity Onatar|Eberron}, {@deity Moradin|Nonhuman}, {@deity Hephaestus|Greek}, and {@deity Goibhniu|Celtic}.",
@@ -2606,18 +2606,18 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blessings of Knowledge|Cleric|LevelUpA5E|Knowledge|LevelUpA5E|1"
+					"subclassFeature": "Blessings of Knowledge|Cleric|LevelUp|Knowledge|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Blessings of Knowledge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 59,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -2627,12 +2627,12 @@
 		},
 		{
 			"name": "Channel Divinity: Knowledge of the Ages",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 59,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -2644,12 +2644,12 @@
 		},
 		{
 			"name": "Channel Divinity: Read Thoughts",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 59,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -2664,12 +2664,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -2680,12 +2680,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -2696,12 +2696,12 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 59,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -2710,12 +2710,12 @@
 		},
 		{
 			"name": "Visions of the Past",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 59,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2749,14 +2749,14 @@
 		},
 		{
 			"name": "Life Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"srd": true,
 			"basicRules": true,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Life",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The Life domain focuses on the vibrant positive energy\u2014one of the fundamental forces of the universe\u2014that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as {@deity Chauntea}, {@deity Arawai|Eberron}, and {@deity Demeter|Greek}), sun gods (such as {@deity Lathander}, {@deity Pelor|Greyhawk}, and {@deity Re-Horakhty|Egyptian}), gods of healing or endurance (such as {@deity Ilmater}, {@deity Mishakal|Dragonlance}, {@deity Apollo|Greek}, and {@deity Diancecht|Celtic}), and gods of home and community (such as {@deity Hestia|Greek}, {@deity Hathor|Egyptian}, and {@deity Boldrei|Eberron}).",
@@ -2797,24 +2797,24 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Life|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Life|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Disciple of Life|Cleric|LevelUpA5E|Life|LevelUpA5E|1"
+					"subclassFeature": "Disciple of Life|Cleric|LevelUp|Life|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"srd": true,
 			"basicRules": true,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Life",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -2823,14 +2823,14 @@
 		},
 		{
 			"name": "Disciple of Life",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"srd": true,
 			"basicRules": true,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Life",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -2839,14 +2839,14 @@
 		},
 		{
 			"name": "Channel Divinity: Preserve Life",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"srd": true,
 			"basicRules": true,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Life",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -2859,14 +2859,14 @@
 		},
 		{
 			"name": "Blessed Healer",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"srd": true,
 			"basicRules": true,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Life",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2875,12 +2875,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Life",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -2891,12 +2891,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Life",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -2907,14 +2907,14 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"srd": true,
 			"basicRules": true,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Life",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -2923,14 +2923,14 @@
 		},
 		{
 			"name": "Supreme Healing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"srd": true,
 			"basicRules": true,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Life",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -2939,12 +2939,12 @@
 		},
 		{
 			"name": "Light Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Light",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Gods of light\u2014including {@deity Helm}, {@deity Lathander}, {@deity Pholtus|Greyhawk}, {@deity Branchala|Dragonlance}, {@deity the Silver Flame|Eberron}, {@deity Belenus|Celtic}, {@deity Apollo|Greek}, and {@deity Re-Horakhty|Egyptian}\u2014promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.",
@@ -2985,22 +2985,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrip|Cleric|LevelUpA5E|Light|LevelUpA5E|1"
+					"subclassFeature": "Bonus Cantrip|Cleric|LevelUp|Light|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warding Flare|Cleric|LevelUpA5E|Light|LevelUpA5E|1"
+					"subclassFeature": "Warding Flare|Cleric|LevelUp|Light|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Cantrip",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Light",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3009,12 +3009,12 @@
 		},
 		{
 			"name": "Warding Flare",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Light",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3024,12 +3024,12 @@
 		},
 		{
 			"name": "Channel Divinity: Radiance of the Dawn",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Light",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -3042,12 +3042,12 @@
 		},
 		{
 			"name": "Improved Flare",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Light",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3056,12 +3056,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Light",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3072,12 +3072,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Light",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3088,12 +3088,12 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Light",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -3102,12 +3102,12 @@
 		},
 		{
 			"name": "Corona of Light",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 60,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Light",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -3116,12 +3116,12 @@
 		},
 		{
 			"name": "Nature Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 61,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Nature",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as {@deity Silvanus}, {@deity Obad-Hai|Greyhawk}, {@deity Chislev|Dragonlance}, {@deity Balinor|Eberron}, and {@deity Pan|Greek}) to friendly deities associated with particular springs and groves (such as {@deity Eldath}). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.",
@@ -3162,22 +3162,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Acolyte of Nature|Cleric|LevelUpA5E|Nature|LevelUpA5E|1"
+					"subclassFeature": "Acolyte of Nature|Cleric|LevelUp|Nature|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Nature|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Nature|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Acolyte of Nature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 61,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Nature",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3186,12 +3186,12 @@
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 61,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Nature",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3200,12 +3200,12 @@
 		},
 		{
 			"name": "Channel Divinity: Charm Animals and Plants",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 61,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Nature",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -3218,12 +3218,12 @@
 		},
 		{
 			"name": "Dampen Elements",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 61,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Nature",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3232,12 +3232,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Nature",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3248,12 +3248,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Nature",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3264,12 +3264,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 61,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Nature",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -3278,12 +3278,12 @@
 		},
 		{
 			"name": "Master of Nature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 61,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Nature",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -3292,12 +3292,12 @@
 		},
 		{
 			"name": "Tempest Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Tempest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Gods whose portfolios include the Tempest domain\u2014including {@deity Talos}, {@deity Umberlee}, {@deity Kord|Greyhawk}, {@deity Zeboim|Dragonlance}, {@deity the Devourer|Eberron}, {@deity Zeus|Greek}, and {@deity Thor|Norse}\u2014govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.",
@@ -3338,22 +3338,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUpA5E|Tempest|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUp|Tempest|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wrath of the Storm|Cleric|LevelUpA5E|Tempest|LevelUpA5E|1"
+					"subclassFeature": "Wrath of the Storm|Cleric|LevelUp|Tempest|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Tempest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3362,12 +3362,12 @@
 		},
 		{
 			"name": "Wrath of the Storm",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Tempest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3377,12 +3377,12 @@
 		},
 		{
 			"name": "Channel Divinity: Destructive Wrath",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Tempest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -3395,12 +3395,12 @@
 		},
 		{
 			"name": "Thunderbolt Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Tempest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -3409,12 +3409,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Tempest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3425,12 +3425,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Tempest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3441,12 +3441,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Tempest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -3455,12 +3455,12 @@
 		},
 		{
 			"name": "Stormborn",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Tempest",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -3469,12 +3469,12 @@
 		},
 		{
 			"name": "Trickery Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Trickery",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Gods of trickery\u2014such as {@deity Tymora}, {@deity Beshaba}, {@deity Olidammara|Greyhawk}, {@deity the Traveler|Eberron}, {@deity Garl Glittergold|Nonhuman}, and {@deity Loki|Norse}\u2014are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.",
@@ -3515,18 +3515,18 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blessing of the Trickster|Cleric|LevelUpA5E|Trickery|LevelUpA5E|1"
+					"subclassFeature": "Blessing of the Trickster|Cleric|LevelUp|Trickery|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Blessing of the Trickster",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Trickery",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3535,12 +3535,12 @@
 		},
 		{
 			"name": "Channel Divinity: Invoke Duplicity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Trickery",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -3554,12 +3554,12 @@
 		},
 		{
 			"name": "Channel Divinity: Cloak of Shadows",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Trickery",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -3572,12 +3572,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Trickery",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3588,12 +3588,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Trickery",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3604,12 +3604,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Trickery",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -3618,12 +3618,12 @@
 		},
 		{
 			"name": "Improved Duplicity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 62,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Trickery",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -3632,12 +3632,12 @@
 		},
 		{
 			"name": "War Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 63,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as {@deity Torm}, {@deity Heironeous|Greyhawk}, and {@deity Kiri-Jolith|Dragonlance}) as well as gods of destruction and pillage (such as {@deity Erythnul|Greyhawk}, {@deity the Fury|Eberron}, {@deity Gruumsh|Nonhuman}, and {@deity Ares|Greek}) and gods of conquest and domination (such as {@deity Bane}, {@deity Hextor|Greyhawk}, and {@deity Maglubiyet|Nonhuman}). Other war gods (such as {@deity Tempus}, {@deity Nike|Greek}, and {@deity Nuada|Celtic}) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.",
@@ -3678,22 +3678,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUpA5E|War|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUp|War|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "War Priest|Cleric|LevelUpA5E|War|LevelUpA5E|1"
+					"subclassFeature": "War Priest|Cleric|LevelUp|War|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 63,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3702,12 +3702,12 @@
 		},
 		{
 			"name": "War Priest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 63,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3716,12 +3716,12 @@
 		},
 		{
 			"name": "Channel Divinity: Guided Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 63,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -3733,12 +3733,12 @@
 		},
 		{
 			"name": "Channel Divinity: War God's Blessing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 63,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -3750,12 +3750,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3766,12 +3766,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3782,12 +3782,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 63,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -3796,12 +3796,12 @@
 		},
 		{
 			"name": "Avatar of Battle",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 63,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "War",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -3810,12 +3810,12 @@
 		},
 		{
 			"name": "Ambition Domain (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 27,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ambition (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"\"The worthy shall strive for greatness\u2014supremacy in life leads to supremacy in the afterlife.\"",
@@ -3857,18 +3857,18 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warding Flare|Cleric|LevelUpA5E|Ambition (PSA)|LevelUpA5E|1"
+					"subclassFeature": "Warding Flare|Cleric|LevelUp|Ambition (PSA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Warding Flare",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 27,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ambition (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -3878,12 +3878,12 @@
 		},
 		{
 			"name": "Channel Divinity: Invoke Duplicity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 27,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ambition (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -3897,12 +3897,12 @@
 		},
 		{
 			"name": "Channel Divinity: Cloak of Shadows",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 27,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ambition (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"consumes": {
@@ -3914,12 +3914,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ambition (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3930,12 +3930,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ambition (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -3946,12 +3946,12 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 27,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ambition (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -3960,12 +3960,12 @@
 		},
 		{
 			"name": "Improved Duplicity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 27,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ambition (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -3974,12 +3974,12 @@
 		},
 		{
 			"name": "Knowledge Domain (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 25,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"\"The worthy shall cultivate a nimble mind that can perceive the wonders beyond imagination that wait in the afterlife.\"",
@@ -3989,12 +3989,12 @@
 		},
 		{
 			"name": "Subclass Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 25,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"entries": [
@@ -4003,12 +4003,12 @@
 		},
 		{
 			"name": "Subclass Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 25,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4017,12 +4017,12 @@
 		},
 		{
 			"name": "Subclass Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 25,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -4031,12 +4031,12 @@
 		},
 		{
 			"name": "Subclass Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 25,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Knowledge (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -4045,12 +4045,12 @@
 		},
 		{
 			"name": "Solidarity Domain (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 24,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Solidarity (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"\"The worthy must know and respect all others whom the God-Pharaoh deems worthy, for in the afterlife, all will be united in purpose and action.\"",
@@ -4092,22 +4092,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Solidarity (PSA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Solidarity (PSA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Solidarity's Action|Cleric|LevelUpA5E|Solidarity (PSA)|LevelUpA5E|1"
+					"subclassFeature": "Solidarity's Action|Cleric|LevelUp|Solidarity (PSA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 24,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Solidarity (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4116,12 +4116,12 @@
 		},
 		{
 			"name": "Solidarity's Action",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 24,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Solidarity (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4130,12 +4130,12 @@
 		},
 		{
 			"name": "Channel Divinity: Preserve Life",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 24,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Solidarity (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -4148,12 +4148,12 @@
 		},
 		{
 			"name": "Oketra's Blessing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 24,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Solidarity (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4162,12 +4162,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Solidarity (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4178,12 +4178,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Solidarity (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4194,12 +4194,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 24,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Solidarity (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -4208,12 +4208,12 @@
 		},
 		{
 			"name": "Supreme Healing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 24,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Solidarity (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -4222,12 +4222,12 @@
 		},
 		{
 			"name": "Strength Domain (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 26,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Strength (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"\"The worthy shall hone a strong body that can withstand the boundless energies of the afterlife.\"",
@@ -4269,22 +4269,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Acolyte of Strength|Cleric|LevelUpA5E|Strength (PSA)|LevelUpA5E|1"
+					"subclassFeature": "Acolyte of Strength|Cleric|LevelUp|Strength (PSA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Strength (PSA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Strength (PSA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Acolyte of Strength",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 26,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Strength (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4293,12 +4293,12 @@
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 26,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Strength (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4307,12 +4307,12 @@
 		},
 		{
 			"name": "Channel Divinity: Feat of Strength",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 26,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Strength (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -4324,12 +4324,12 @@
 		},
 		{
 			"name": "Rhonas's Blessing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 26,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Strength (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4338,12 +4338,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Strength (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4354,12 +4354,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Strength (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4370,12 +4370,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 26,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Strength (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -4384,12 +4384,12 @@
 		},
 		{
 			"name": "Avatar of Battle",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 26,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Strength (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -4398,12 +4398,12 @@
 		},
 		{
 			"name": "Zeal Domain (PSA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 28,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zeal (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"\"The worthy shall rush to the God-Pharaoh's side with relentless zeal, rising to overcome every obstacle in their way.\"",
@@ -4445,22 +4445,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUpA5E|Zeal (PSA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUp|Zeal (PSA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Priest of Zeal|Cleric|LevelUpA5E|Zeal (PSA)|LevelUpA5E|1"
+					"subclassFeature": "Priest of Zeal|Cleric|LevelUp|Zeal (PSA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 28,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zeal (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4469,12 +4469,12 @@
 		},
 		{
 			"name": "Priest of Zeal",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 28,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zeal (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4484,12 +4484,12 @@
 		},
 		{
 			"name": "Channel Divinity: Consuming Fervor",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 28,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zeal (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -4502,12 +4502,12 @@
 		},
 		{
 			"name": "Resounding Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 28,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zeal (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4516,12 +4516,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zeal (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4532,12 +4532,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zeal (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4548,12 +4548,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 28,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zeal (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -4562,12 +4562,12 @@
 		},
 		{
 			"name": "Blaze of Glory",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 28,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zeal (PSA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -4578,12 +4578,12 @@
 		},
 		{
 			"name": "Arcana Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 125,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Arcana",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.",
@@ -4625,18 +4625,18 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Initiate|Cleric|LevelUpA5E|Arcana|LevelUpA5E|1"
+					"subclassFeature": "Arcane Initiate|Cleric|LevelUp|Arcana|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Arcane Initiate",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 125,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Arcana",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4645,12 +4645,12 @@
 		},
 		{
 			"name": "Channel Divinity: Arcane Abjuration",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 125,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Arcana",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -4699,12 +4699,12 @@
 		},
 		{
 			"name": "Spell Breaker",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 125,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Arcana",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4713,12 +4713,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Arcana",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4729,12 +4729,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Arcana",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4745,12 +4745,12 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 125,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Arcana",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -4759,12 +4759,12 @@
 		},
 		{
 			"name": "Arcane Mastery",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 125,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Arcana",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -4773,18 +4773,18 @@
 		},
 		{
 			"name": "Order Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 31,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 25
 				}
 			],
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The Order Domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it. On Ravnica, the domain is favored by clerics of the Azorius Senate, who use it to maintain and enforce the law, and of the Orzhov Syndicate, who exploit law and order for their personal gain. On other worlds, gods who grant access to this domain include {@deity Bane}, {@deity Tyr}, {@deity Majere|Dragonlance}, {@deity Erathis|Dawn War|DMG}, {@deity Pholtus|Greyhawk}, {@deity Wee Jas|Greyhawk}, {@deity Aureon|Eberron}, {@deity Maglubiyet|Nonhuman}, {@deity Nuada|Celtic}, {@deity Athena|Greek}, {@deity Anubis|Egyptian}, {@deity Forseti|Norse}, and {@deity Asmodeus|Dawn War|DMG}.",
@@ -4827,28 +4827,28 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUpA5E|Order|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUp|Order|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Voice of Authority|Cleric|LevelUpA5E|Order|LevelUpA5E|1"
+					"subclassFeature": "Voice of Authority|Cleric|LevelUp|Order|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 31,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 25
 				}
 			],
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4857,18 +4857,18 @@
 		},
 		{
 			"name": "Voice of Authority",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 31,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 25
 				}
 			],
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -4878,18 +4878,18 @@
 		},
 		{
 			"name": "Channel Divinity: Order's Demand",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 31,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 25
 				}
 			],
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -4902,18 +4902,18 @@
 		},
 		{
 			"name": "Embodiment of the Law",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 31,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 25
 				}
 			],
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4924,12 +4924,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 31,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4940,12 +4940,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 31,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -4956,18 +4956,18 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 31,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 25
 				}
 			],
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -4976,18 +4976,18 @@
 		},
 		{
 			"name": "Order's Wrath",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 31,
 			"otherSources": [
 				{
-					"source": "LevelUpA5E",
+					"source": "LevelUp",
 					"page": 25
 				}
 			],
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -4996,12 +4996,12 @@
 		},
 		{
 			"name": "Peace Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 32,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Peace",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The balm of peace thrives at the heart of healthy communities, between friendly nations, and in the souls of the kindhearted. The gods of peace inspire people of all sorts to resolve conflict and to stand up against those forces that try to prevent peace from flourishing. See the Peace Deities table for a list of some of the gods associated with this domain.",
@@ -5096,22 +5096,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Implement of Peace|Cleric|LevelUpA5E|Peace|LevelUpA5E|1"
+					"subclassFeature": "Implement of Peace|Cleric|LevelUp|Peace|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Emboldening Bond|Cleric|LevelUpA5E|Peace|LevelUpA5E|1"
+					"subclassFeature": "Emboldening Bond|Cleric|LevelUp|Peace|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Emboldening Bond",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 32,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Peace",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5122,12 +5122,12 @@
 		},
 		{
 			"name": "Implement of Peace",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 32,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Peace",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5137,12 +5137,12 @@
 		},
 		{
 			"name": "Channel Divinity: Balm of Peace",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 32,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Peace",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -5155,12 +5155,12 @@
 		},
 		{
 			"name": "Protective Bond",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 32,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Peace",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5170,12 +5170,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 32,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Peace",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -5186,12 +5186,12 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 32,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Peace",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -5201,12 +5201,12 @@
 		},
 		{
 			"name": "Expansive Bond",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 32,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Peace",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -5216,12 +5216,12 @@
 		},
 		{
 			"name": "Twilight Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 34,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The twilit transition from light into darkness often brings calm and even joy, as the day's labors end and the hours of rest begin. The darkness can also bring terrors, but the gods of twilight guard against the horrors of the night.",
@@ -5316,26 +5316,26 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUpA5E|Twilight|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUp|Twilight|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eyes of Night|Cleric|LevelUpA5E|Twilight|LevelUpA5E|1"
+					"subclassFeature": "Eyes of Night|Cleric|LevelUp|Twilight|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vigilant Blessing|Cleric|LevelUpA5E|Twilight|LevelUpA5E|1"
+					"subclassFeature": "Vigilant Blessing|Cleric|LevelUp|Twilight|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 34,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5345,12 +5345,12 @@
 		},
 		{
 			"name": "Eyes of Night",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 34,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5361,12 +5361,12 @@
 		},
 		{
 			"name": "Vigilant Blessing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 34,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5376,12 +5376,12 @@
 		},
 		{
 			"name": "Channel Divinity: Twilight Sanctuary",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 34,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -5402,12 +5402,12 @@
 		},
 		{
 			"name": "Steps of Night",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 34,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5417,12 +5417,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 34,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -5433,12 +5433,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 34,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -5448,12 +5448,12 @@
 		},
 		{
 			"name": "Twilight Shroud",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 34,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -5463,12 +5463,12 @@
 		},
 		{
 			"name": "Love Domain (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Love (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"{@note Note: The Love domain was included in a leaked pre-release version of {@i Unearthed Arcana 2020 Subclasses, Part 2}, and superseded by the Unity domain for the final release.}",
@@ -5580,18 +5580,18 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Emboldening Bond|Cleric|LevelUpA5E|Love (UA)|LevelUpA5E|1"
+					"subclassFeature": "Emboldening Bond|Cleric|LevelUp|Love (UA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Emboldening Bond",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Love (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5602,12 +5602,12 @@
 		},
 		{
 			"name": "Channel Divinity: Impulsive Infatuation",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Love (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -5621,12 +5621,12 @@
 		},
 		{
 			"name": "Protective Bond",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Love (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5636,12 +5636,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Love (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -5652,12 +5652,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Love (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -5668,12 +5668,12 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Love (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -5683,12 +5683,12 @@
 		},
 		{
 			"name": "Enduring Unity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Love (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -5707,12 +5707,12 @@
 		},
 		{
 			"name": "Unity Domain (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Unity (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"A sense of oneness shines at the heart of healthy communities, whether bound together by friendship, blood, faith, or some other uniting force. The gods of unity deepen such bonds and delight in their strength.",
@@ -5807,18 +5807,18 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Emboldening Bond|Cleric|LevelUpA5E|Unity (UA)|LevelUpA5E|1"
+					"subclassFeature": "Emboldening Bond|Cleric|LevelUp|Unity (UA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Emboldening Bond",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Unity (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5829,12 +5829,12 @@
 		},
 		{
 			"name": "Channel Divinity: Shared Burden",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Unity (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -5848,12 +5848,12 @@
 		},
 		{
 			"name": "Protective Bond",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Unity (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5863,12 +5863,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Unity (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -5879,12 +5879,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Unity (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -5895,12 +5895,12 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Unity (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -5910,12 +5910,12 @@
 		},
 		{
 			"name": "Enduring Unity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Unity (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -5934,12 +5934,12 @@
 		},
 		{
 			"name": "Fate Domain (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Gods of fate perceive the future and how the choices mortals make drive them toward their destinies. Some deities consider the future preordained, while others understand the multiverse as a place of infinite possibility. Clerics who draw power from the forces of fate sometimes receive visions directly from their deity and receive fleeting omens of the future. They share impossible knowledge with their allies and prophesize their enemies' doom.",
@@ -5975,26 +5975,26 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Domain Spells|Cleric|LevelUpA5E|Fate (UA)|LevelUpA5E|1"
+					"subclassFeature": "Domain Spells|Cleric|LevelUp|Fate (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Omens and Portents|Cleric|LevelUpA5E|Fate (UA)|LevelUpA5E|1"
+					"subclassFeature": "Omens and Portents|Cleric|LevelUp|Fate (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ties That Bind|Cleric|LevelUpA5E|Fate (UA)|LevelUpA5E|1"
+					"subclassFeature": "Ties That Bind|Cleric|LevelUp|Fate (UA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Domain Spells",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6038,12 +6038,12 @@
 		},
 		{
 			"name": "Omens and Portents",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6054,12 +6054,12 @@
 		},
 		{
 			"name": "Ties That Bind",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6071,12 +6071,12 @@
 		},
 		{
 			"name": "Channel Divinity: Strands of Fate",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"entries": [
@@ -6086,12 +6086,12 @@
 		},
 		{
 			"name": "Insightful Striking",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -6109,12 +6109,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6125,12 +6125,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6141,12 +6141,12 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 8,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -6156,12 +6156,12 @@
 		},
 		{
 			"name": "Visions of the Future",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fate (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -6171,12 +6171,12 @@
 		},
 		{
 			"name": "Forge Domain (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamond-tipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can transform from a lump of ore to a beautifully wrought object. Clerics of these deities quest to search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them. Deities of this domain include {@deity Gond}, {@deity Reorx|Dragonlance}, {@deity Onatar|Eberron}, {@deity Moradin|Nonhuman}, {@deity Hephaestus|Greek}, and {@deity Goibhniu|Celtic}.",
@@ -6217,22 +6217,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Forge (UA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Forge (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blessing of the Forge|Cleric|LevelUpA5E|Forge (UA)|LevelUpA5E|1"
+					"subclassFeature": "Blessing of the Forge|Cleric|LevelUp|Forge (UA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Blessing of the Forge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6242,12 +6242,12 @@
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6256,12 +6256,12 @@
 		},
 		{
 			"name": "Channel Divinity: Artisan's Blessing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -6275,12 +6275,12 @@
 		},
 		{
 			"name": "Soul of the Forge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -6297,12 +6297,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6313,12 +6313,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6329,12 +6329,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -6343,12 +6343,12 @@
 		},
 		{
 			"name": "Saint of Forge and Fire",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -6357,12 +6357,12 @@
 		},
 		{
 			"name": "Grave Domain (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse's workings. To resist death, or to desecrate the dead's rest, is an abomination. Deities of the grave include {@deity Kelemvor}, {@deity Wee Jas|Greyhawk}, the ancestral spirits of {@deity the Undying Court|Eberron}, {@deity Hades|Greek}, {@deity Anubis|Egyptian}, and {@deity Osiris|Egyptian}. These deities teach their followers to respect the dead and pay them due homage. Followers of these deities seek to put restless spirits to rest, destroy the undead wherever they find them, and ease the suffering of dying creatures. Their magic also allows them to stave off a creature's death, though they refuse to use such magic to extend a creature's lifespan beyond its mortal limits.",
@@ -6403,26 +6403,26 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Grave (UA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Grave (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle of Mortality|Cleric|LevelUpA5E|Grave (UA)|LevelUpA5E|1"
+					"subclassFeature": "Circle of Mortality|Cleric|LevelUp|Grave (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eyes of the Grave|Cleric|LevelUpA5E|Grave (UA)|LevelUpA5E|1"
+					"subclassFeature": "Eyes of the Grave|Cleric|LevelUp|Grave (UA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6431,12 +6431,12 @@
 		},
 		{
 			"name": "Circle of Mortality",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6445,12 +6445,12 @@
 		},
 		{
 			"name": "Eyes of the Grave",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6460,12 +6460,12 @@
 		},
 		{
 			"name": "Channel Divinity: Path to the Grave",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -6479,12 +6479,12 @@
 		},
 		{
 			"name": "Sentinel at Death's Door",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -6494,12 +6494,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6510,12 +6510,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6526,12 +6526,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -6540,12 +6540,12 @@
 		},
 		{
 			"name": "Keeper of Souls",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 2,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -6554,12 +6554,12 @@
 		},
 		{
 			"name": "Protection Domain (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Protection (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The gods' faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind. Deities who grant this domain include {@deity Helm}, {@deity Ilmater}, {@deity Torm}, {@deity Tyr}, {@deity Heironeous|Greyhawk}, {@deity St. Cuthbert|Greyhawk}, {@deity Paladine|Dragonlance}, {@deity Dol Dorn|Eberron}, {@deity the Silver Flame|Eberron}, {@deity Bahamut|Nonhuman}, {@deity Yondalla|Nonhuman}, {@deity Athena|Greek}, and {@deity Odin|Norse}.",
@@ -6600,22 +6600,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Protection (UA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Protection (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Shield of the Faithful|Cleric|LevelUpA5E|Protection (UA)|LevelUpA5E|1"
+					"subclassFeature": "Shield of the Faithful|Cleric|LevelUp|Protection (UA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Protection (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6624,12 +6624,12 @@
 		},
 		{
 			"name": "Shield of the Faithful",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Protection (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6638,12 +6638,12 @@
 		},
 		{
 			"name": "Channel Divinity: Radiant Defense",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Protection (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -6656,12 +6656,12 @@
 		},
 		{
 			"name": "Blessed Healer",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Protection (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -6670,12 +6670,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Protection (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6686,12 +6686,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Protection (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6702,12 +6702,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Protection (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -6716,12 +6716,12 @@
 		},
 		{
 			"name": "Indomitable Defense",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 3,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Protection (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -6731,12 +6731,12 @@
 		},
 		{
 			"name": "Twilight Domain (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The Twilight Domain governs the transition and blending of light into darkness. It is a time of rest and comfort, but also the threshold between safety and the unknown. Deities of healing or respite (such as {@deity Boldrei|Eberron}, {@deity Hestia|Greek}, {@deity Mishakal|Dragonlance}, or {@deity Pelor|Greyhawk}), bravery or protection (such as {@deity Dol Arrah|Eberron}, Hajama, {@deity Helm}, or {@deity Ilmater}), travel or transition (such as {@deity Fharlanghn|Greyhawk}, {@deity Hermes|Greek}, {@deity the Raven Queen|Exandria|EGW}, or {@deity the Traveler|Eberron}), or the night and dreams (such as {@deity Celestian|Greyhawk}, Morpheus, Nut, or {@deity Selûne}) might grant their clerics the Twilight Domain. Clerics who serve these deities tend to be brave, delving into the dark to hold its dangers at bay and to bring comfort to those lost far from the light.",
@@ -6777,26 +6777,26 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Twilight (UA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Twilight (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eyes of Night|Cleric|LevelUpA5E|Twilight (UA)|LevelUpA5E|1"
+					"subclassFeature": "Eyes of Night|Cleric|LevelUp|Twilight (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vigilant Blessing|Cleric|LevelUpA5E|Twilight (UA)|LevelUpA5E|1"
+					"subclassFeature": "Vigilant Blessing|Cleric|LevelUp|Twilight (UA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6806,12 +6806,12 @@
 		},
 		{
 			"name": "Eyes of Night",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6822,12 +6822,12 @@
 		},
 		{
 			"name": "Vigilant Blessing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -6837,12 +6837,12 @@
 		},
 		{
 			"name": "Channel Divinity: Twilight Sanctuary",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -6863,12 +6863,12 @@
 		},
 		{
 			"name": "Steps of the Brave",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -6885,12 +6885,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6901,12 +6901,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -6917,12 +6917,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -6932,12 +6932,12 @@
 		},
 		{
 			"name": "Midnight Shroud",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Twilight (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -6947,12 +6947,12 @@
 		},
 		{
 			"name": "City Domain (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The City domain is concerned with the citizenry, commerce, traffic, and even architecture of modern civilization. In the eyes of a cleric of the city, the center of modern life is a sense and spirit of community, and the gravest enemies of the city are those who seek to harm the common weal of its citizens.",
@@ -6994,26 +6994,26 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrip|Cleric|LevelUpA5E|City (UA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Cantrip|Cleric|LevelUp|City (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUpA5E|City (UA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiencies|Cleric|LevelUp|City (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Heart of the City|Cleric|LevelUpA5E|City (UA)|LevelUpA5E|1"
+					"subclassFeature": "Heart of the City|Cleric|LevelUp|City (UA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Cantrip",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -7022,12 +7022,12 @@
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -7036,12 +7036,12 @@
 		},
 		{
 			"name": "Heart of the City",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -7050,12 +7050,12 @@
 		},
 		{
 			"name": "Channel Divinity: Spirits of the City",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -7069,12 +7069,12 @@
 		},
 		{
 			"name": "Block Watch",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -7083,12 +7083,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -7099,12 +7099,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -7115,12 +7115,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -7129,12 +7129,12 @@
 		},
 		{
 			"name": "Express Transit",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "City (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -7143,12 +7143,12 @@
 		},
 		{
 			"name": "Order Domain (UA)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the law\u2014civil, religious, or both. Gods on many worlds grant access to this domain, including {@deity Bane}, {@deity Tyr}, {@deity Majere|Dragonlance}, {@deity Erathis|Dawn War|DMG}, {@deity Pholtus|Greyhawk}, {@deity Wee Jas|Greyhawk}, {@deity Aureon|Eberron}, {@deity Maglubiyet|Nonhuman}, {@deity Nuada|Celtic}, {@deity Athena|Greek}, {@deity Anubis|Egyptian}, {@deity Forseti|Norse}, and {@deity Asmodeus|Dawn War|DMG}.",
@@ -7191,22 +7191,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Order (UA)|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Order (UA)|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Voice of Authority|Cleric|LevelUpA5E|Order (UA)|LevelUpA5E|1"
+					"subclassFeature": "Voice of Authority|Cleric|LevelUp|Order (UA)|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -7215,12 +7215,12 @@
 		},
 		{
 			"name": "Voice of Authority",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -7229,12 +7229,12 @@
 		},
 		{
 			"name": "Channel Divinity: Order's Demand",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -7247,12 +7247,12 @@
 		},
 		{
 			"name": "Order's Dominion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -7262,12 +7262,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -7278,12 +7278,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -7294,12 +7294,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -7308,12 +7308,12 @@
 		},
 		{
 			"name": "Order's Wrath",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 1,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Order (UA)",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -7322,12 +7322,12 @@
 		},
 		{
 			"name": "Forge Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 18,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamond-tipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object. Clerics of these deities search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them. Deities of this domain include {@deity Gond}, {@deity Reorx|Dragonlance}, {@deity Onatar|Eberron}, {@deity Moradin|Nonhuman}, {@deity Hephaestus|Greek}, and {@deity Goibhniu|Celtic}.",
@@ -7368,22 +7368,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric|LevelUpA5E|Forge|LevelUpA5E|1"
+					"subclassFeature": "Bonus Proficiency|Cleric|LevelUp|Forge|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blessing of the Forge|Cleric|LevelUpA5E|Forge|LevelUpA5E|1"
+					"subclassFeature": "Blessing of the Forge|Cleric|LevelUp|Forge|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Blessing of the Forge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 18,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -7393,12 +7393,12 @@
 		},
 		{
 			"name": "Bonus Proficiency",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 18,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -7407,12 +7407,12 @@
 		},
 		{
 			"name": "Channel Divinity: Artisan's Blessing",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 18,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -7426,12 +7426,12 @@
 		},
 		{
 			"name": "Soul of the Forge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 18,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -7447,12 +7447,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -7463,12 +7463,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -7479,12 +7479,12 @@
 		},
 		{
 			"name": "Divine Strike",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 18,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -7493,12 +7493,12 @@
 		},
 		{
 			"name": "Saint of Forge and Fire",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 18,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Forge",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -7514,12 +7514,12 @@
 		},
 		{
 			"name": "Grave Domain",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 19,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse. To desecrate the peace of the dead is an abomination. Deities of the grave include {@deity Kelemvor}, {@deity Wee Jas|Greyhawk}, the ancestral spirits of {@deity the Undying Court|Eberron}, {@deity Hades|Greek}, {@deity Anubis|Egyptian}, and {@deity Osiris|Egyptian}. Followers of these deities seek to put wandering spirits to rest, destroy the undead, and ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due.",
@@ -7559,22 +7559,22 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle of Mortality|Cleric|LevelUpA5E|Grave|LevelUpA5E|1"
+					"subclassFeature": "Circle of Mortality|Cleric|LevelUp|Grave|LevelUp|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eyes of the Grave|Cleric|LevelUpA5E|Grave|LevelUpA5E|1"
+					"subclassFeature": "Eyes of the Grave|Cleric|LevelUp|Grave|LevelUp|1"
 				}
 			]
 		},
 		{
 			"name": "Circle of Mortality",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 19,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -7584,12 +7584,12 @@
 		},
 		{
 			"name": "Eyes of the Grave",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 19,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -7599,12 +7599,12 @@
 		},
 		{
 			"name": "Channel Divinity: Path to the Grave",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 19,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 2,
 			"header": 2,
 			"consumes": {
@@ -7617,12 +7617,12 @@
 		},
 		{
 			"name": "Sentinel at Death's Door",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 19,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -7632,12 +7632,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 30,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -7648,12 +7648,12 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 4,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"header": 2,
@@ -7664,12 +7664,12 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 19,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -7678,12 +7678,12 @@
 		},
 		{
 			"name": "Keeper of Souls",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 19,
 			"className": "Cleric",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Grave",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -7694,17 +7694,17 @@
 	"optionalfeature": [
 		{
 			"name": "Ancestral Guidance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
 			"entries": [
-				"In addition to the spells you normally prepare, you always have {@spell speak with dead|LevelUpA5E} prepared, and you can use this feature to cast it once between long rests without spending a spell slot. When you do so, you do not have to target a corpse; you can also target a grave marker, memorial, statue, painting, or other depiction of the deceased creature you wish to talk to. If the chosen creature is not dead, or if such a creature never existed in the first place, the spell fails."
+				"In addition to the spells you normally prepare, you always have {@spell speak with dead|LevelUp} prepared, and you can use this feature to cast it once between long rests without spending a spell slot. When you do so, you do not have to target a corpse; you can also target a grave marker, memorial, statue, painting, or other depiction of the deceased creature you wish to talk to. If the chosen creature is not dead, or if such a creature never existed in the first place, the spell fails."
 			]
 		},
 		{
 			"name": "Compassionate Nurse",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
@@ -7714,7 +7714,7 @@
 		},
 		{
 			"name": "Faithful Historian",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
@@ -7724,7 +7724,7 @@
 		},
 		{
 			"name": "Gentle Healer",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
@@ -7734,27 +7734,27 @@
 		},
 		{
 			"name": "Graceful Fall",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
 			"entries": [
-				"Falling from a height greater than 30 feet causes your greater entity to intervene. You are protected as if by the {@spell feather fall|LevelUpA5E} spell. This sign does not use your reaction."
+				"Falling from a height greater than 30 feet causes your greater entity to intervene. You are protected as if by the {@spell feather fall|LevelUp} spell. This sign does not use your reaction."
 			]
 		},
 		{
 			"name": "Monastic Austerity",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
 			"entries": [
-				"Your greater entity acts as a buffer to shield you from hardship or your religious self-discipline sustains you even during harsh times, preventing the first level of {@condition fatigue|LevelUpA5E} you would take each day."
+				"Your greater entity acts as a buffer to shield you from hardship or your religious self-discipline sustains you even during harsh times, preventing the first level of {@condition fatigue|LevelUp} you would take each day."
 			]
 		},
 		{
 			"name": "Numinous Awareness",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
@@ -7764,7 +7764,7 @@
 		},
 		{
 			"name": "Premonition",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
@@ -7782,7 +7782,7 @@
 		},
 		{
 			"name": "Preservation",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
@@ -7792,7 +7792,7 @@
 		},
 		{
 			"name": "Righteous Path",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
@@ -7802,27 +7802,27 @@
 		},
 		{
 			"name": "Soothing Words",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
 			"entries": [
-				"Your divinely-inspired counsel and wise advice can calm troubled minds. You may reduce one ally's {@condition strife|LevelUpA5E} by one level. Once you use this feature, you cannot do so again until you finish a long rest."
+				"Your divinely-inspired counsel and wise advice can calm troubled minds. You may reduce one ally's {@condition strife|LevelUp} by one level. Once you use this feature, you cannot do so again until you finish a long rest."
 			]
 		},
 		{
 			"name": "Supernal Intuition",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
 			"entries": [
-				"Choose a creature type from fiend, fey, celestial, elemental, or undead. You know when a creature of this type is within 60 feet of you, although you do not know its location. {@spell Nondetection|LevelUpA5E} protects against this feature. You may select this sign multiple times, choosing a different creature type each time."
+				"Choose a creature type from fiend, fey, celestial, elemental, or undead. You know when a creature of this type is within 60 feet of you, although you do not know its location. {@spell Nondetection|LevelUp} protects against this feature. You may select this sign multiple times, choosing a different creature type each time."
 			]
 		},
 		{
 			"name": "Theologian",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],
@@ -7832,7 +7832,7 @@
 		},
 		{
 			"name": "Voice of Doom",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SF"
 			],

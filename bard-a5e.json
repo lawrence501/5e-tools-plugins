@@ -7,9 +7,9 @@
 		},
 		"sources": [
 			{
-				"json": "LevelUpA5E",
+				"json": "LevelUp",
 				"abbreviation": "A5E",
-				"full": "Level Up: Adventurers Guide (A5E)",
+				"full": "Level Up (A5E)",
 				"authors": [
 					"Level Up"
 				],
@@ -23,7 +23,7 @@
 	"class": [
 		{
 			"name": "Bard",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -467,53 +467,53 @@
 				}
 			],
 			"classFeatures": [
-                "Art Speciality|Bard|LevelUpA5E|1|LevelUpA5E",
-				"Bardic Inspiration|Bard|LevelUpA5E|1|LevelUpA5E",
-				"Battle Hymn|Bard|LevelUpA5E|1|LevelUpA5E",
-				"Spellcasting|Bard|LevelUpA5E|1|LevelUpA5E",
-				"Adventuring Tricks|Bard|LevelUpA5E|2|LevelUpA5E",
-				"Jack-of-All-Trades|Bard|LevelUpA5E|2|LevelUpA5E",
-				"Varied Expertise|Bard|LevelUpA5E|2|LevelUpA5E",
+                "Art Speciality|Bard|LevelUp|1|LevelUp",
+				"Bardic Inspiration|Bard|LevelUp|1|LevelUp",
+				"Battle Hymn|Bard|LevelUp|1|LevelUp",
+				"Spellcasting|Bard|LevelUp|1|LevelUp",
+				"Adventuring Tricks|Bard|LevelUp|2|LevelUp",
+				"Jack-of-All-Trades|Bard|LevelUp|2|LevelUp",
+				"Varied Expertise|Bard|LevelUp|2|LevelUp",
 				{
-					"classFeature": "Bard Archetype|Bard|LevelUpA5E|3|LevelUpA5E",
+					"classFeature": "Bard Archetype|Bard|LevelUp|3|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Bard|LevelUpA5E|4|LevelUpA5E",
-				"Bardic Legend (1st)|Bard|LevelUpA5E|4|LevelUpA5E",
-				"Battle Hymn Focus|Bard|LevelUpA5E|4|LevelUpA5E",
-				"Bardic Inspiration (d8)|Bard|LevelUpA5E|5|LevelUpA5E",
-				"Font of Inspiration|Bard|LevelUpA5E|5|LevelUpA5E",
-				"Key Change|Bard|LevelUpA5E|5|LevelUpA5E",
+				"Ability Score Improvement|Bard|LevelUp|4|LevelUp",
+				"Bardic Legend (1st)|Bard|LevelUp|4|LevelUp",
+				"Battle Hymn Focus|Bard|LevelUp|4|LevelUp",
+				"Bardic Inspiration (d8)|Bard|LevelUp|5|LevelUp",
+				"Font of Inspiration|Bard|LevelUp|5|LevelUp",
+				"Key Change|Bard|LevelUp|5|LevelUp",
 				{
-					"classFeature": "Archetype Feature|Bard|LevelUpA5E|6|LevelUpA5E",
+					"classFeature": "Archetype Feature|Bard|LevelUp|6|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Prestigious|Bard|LevelUpA5E|6|LevelUpA5E",
-				"Varied Expertise|Bard|LevelUpA5E|6|LevelUpA5E",
-				"Bardic Legend (2nd)|Bard|LevelUpA5E|7|LevelUpA5E",
-				"Maestro|Bard|LevelUpA5E|7|LevelUpA5E",
-				"Ability Score Improvement|Bard|LevelUpA5E|8|LevelUpA5E",
-				"Battle Hymn Specialization|Bard|LevelUpA5E|8|LevelUpA5E",
-				"Bardic Inspiration (d10)|Bard|LevelUpA5E|10|LevelUpA5E",
-				"Varied Expertise|Bard|LevelUpA5E|10|LevelUpA5E",
-				"Art Mastery|Bard|LevelUpA5E|11|LevelUpA5E",
-                "Bardic Legend (3rd)|Bard|LevelUpA5E|11|LevelUpA5E",
-                "Ability Score Improvement|Bard|LevelUpA5E|12|LevelUpA5E",
-                "Universal Trick|Bard|LevelUpA5E|13|LevelUpA5E",
+				"Prestigious|Bard|LevelUp|6|LevelUp",
+				"Varied Expertise|Bard|LevelUp|6|LevelUp",
+				"Bardic Legend (2nd)|Bard|LevelUp|7|LevelUp",
+				"Maestro|Bard|LevelUp|7|LevelUp",
+				"Ability Score Improvement|Bard|LevelUp|8|LevelUp",
+				"Battle Hymn Specialization|Bard|LevelUp|8|LevelUp",
+				"Bardic Inspiration (d10)|Bard|LevelUp|10|LevelUp",
+				"Varied Expertise|Bard|LevelUp|10|LevelUp",
+				"Art Mastery|Bard|LevelUp|11|LevelUp",
+                "Bardic Legend (3rd)|Bard|LevelUp|11|LevelUp",
+                "Ability Score Improvement|Bard|LevelUp|12|LevelUp",
+                "Universal Trick|Bard|LevelUp|13|LevelUp",
 				{
-					"classFeature": "Archetype Feature|Bard|LevelUpA5E|14|LevelUpA5E",
+					"classFeature": "Archetype Feature|Bard|LevelUp|14|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Varied Expertise|Bard|LevelUpA5E|14|LevelUpA5E",
-				"Bardic Inspiration (d12)|Bard|LevelUpA5E|15|LevelUpA5E",
-				"Ability Score Improvement|Bard|LevelUpA5E|16|LevelUpA5E",
-				"Universal Trick|Bard|LevelUpA5E|16|LevelUpA5E",
-				"Art Mastery|Bard|LevelUpA5E|17|LevelUpA5E",
-				"Grand Battle Hymn|Bard|LevelUpA5E|17|LevelUpA5E",
-				"Varied Expertise|Bard|LevelUpA5E|18|LevelUpA5E",
-				"Ability Score Improvement|Bard|LevelUpA5E|19|LevelUpA5E",
-                "Universal Trick|Bard|LevelUpA5E|19|LevelUpA5E",
-                "Virtuoso|Bard|LevelUpA5E|20|LevelUpA5E"
+				"Varied Expertise|Bard|LevelUp|14|LevelUp",
+				"Bardic Inspiration (d12)|Bard|LevelUp|15|LevelUp",
+				"Ability Score Improvement|Bard|LevelUp|16|LevelUp",
+				"Universal Trick|Bard|LevelUp|16|LevelUp",
+				"Art Mastery|Bard|LevelUp|17|LevelUp",
+				"Grand Battle Hymn|Bard|LevelUp|17|LevelUp",
+				"Varied Expertise|Bard|LevelUp|18|LevelUp",
+				"Ability Score Improvement|Bard|LevelUp|19|LevelUp",
+                "Universal Trick|Bard|LevelUp|19|LevelUp",
+                "Virtuoso|Bard|LevelUp|20|LevelUp"
 			],
 			"subclassTitle": "Bard Archetype"
 		}
@@ -524,7 +524,7 @@
 			"shortName": "Lore",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 54,
 			"srd": true,
 			"additionalSpells": [
@@ -553,7 +553,7 @@
 			"shortName": "Valor",
 			"source": "PHB",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 55,
 			"subclassFeatures": [
 				"College of Valor|Bard||Valor||3",
@@ -566,7 +566,7 @@
 			"shortName": "Satire (UA)",
 			"source": "UAKitsOfOld",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"subclassFeatures": [
 				"College of Satire|Bard||Satire (UA)|UAKitsOfOld|3",
@@ -579,7 +579,7 @@
 			"shortName": "Swords (UA)",
 			"source": "UAKitsOfOld",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
@@ -593,7 +593,7 @@
 			"shortName": "Glamour (UA)",
 			"source": "UABardBardColleges",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
@@ -607,7 +607,7 @@
 			"shortName": "Whispers (UA)",
 			"source": "UABardBardColleges",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
@@ -621,7 +621,7 @@
 			"shortName": "Swords v2 (UA)",
 			"source": "UARevisedSubclasses",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
@@ -635,7 +635,7 @@
 			"shortName": "Glamour",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 14,
 			"additionalSpells": [
 				{
@@ -657,7 +657,7 @@
 			"shortName": "Swords",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 15,
 			"subclassFeatures": [
 				"College of Swords|Bard||Swords|XGE|3",
@@ -670,7 +670,7 @@
 			"shortName": "Whispers",
 			"source": "XGE",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 16,
 			"subclassFeatures": [
 				"College of Whispers|Bard||Whispers|XGE|3",
@@ -683,7 +683,7 @@
 			"shortName": "Eloquence (UA)",
 			"source": "UABardAndPaladin",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
@@ -697,7 +697,7 @@
 			"shortName": "Creation (UA)",
 			"source": "UA2020SubclassesPt2",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
@@ -711,7 +711,7 @@
 			"shortName": "Spirits (UA)",
 			"source": "UA2020SubclassesPt4",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"subclassFeatures": [
 				"College of Spirits|Bard||Spirits (UA)|UA2020SubclassesPt4|3",
@@ -725,7 +725,7 @@
 			"shortName": "Creation",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 28,
 			"subclassFeatures": [
 				"College of Creation|Bard||Creation|TCE|3",
@@ -738,7 +738,7 @@
 			"shortName": "Eloquence",
 			"source": "TCE",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 29,
 			"otherSources": [
 				{
@@ -758,7 +758,7 @@
 			"shortName": "Spirits",
 			"source": "VRGR",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 28,
 			"additionalSpells": [
 				{
@@ -780,7 +780,7 @@
 			"shortName": "Lorehold (UA)",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"_copy": {
 				"name": "Mage of Lorehold (UA)",
 				"shortName": "Lorehold (UA)",
@@ -797,7 +797,7 @@
 			"shortName": "Silverquill (UA)",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"_copy": {
 				"name": "Mage of Silverquill (UA)",
 				"shortName": "Silverquill (UA)",
@@ -812,88 +812,88 @@
         {
 			"name": "Loremaster",
 			"shortName": "Loremaster",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Bonus Proficiencies and Specialties|Bard|LevelUpA5E|Loremaster|LevelUpA5E|3",
-				"Cunning Words|Bard|LevelUpA5E|Loremaster|LevelUpA5E|3",
-				"School Knowledge|Bard|LevelUpA5E|Loremaster|LevelUpA5E|6",
-                "Skillful Knowledge|Bard|LevelUpA5E|Loremaster|LevelUpA5E|14"
+				"Bonus Proficiencies and Specialties|Bard|LevelUp|Loremaster|LevelUp|3",
+				"Cunning Words|Bard|LevelUp|Loremaster|LevelUp|3",
+				"School Knowledge|Bard|LevelUp|Loremaster|LevelUp|6",
+                "Skillful Knowledge|Bard|LevelUp|Loremaster|LevelUp|14"
 			]
 		},
         {
 			"name": "Minstrel",
 			"shortName": "Minstrel",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Bonus Proficiencies and Specialties|Bard|LevelUpA5E|Minstrel|LevelUpA5E|3",
-				"Better Bardic Inspiration|Bard|LevelUpA5E|Minstrel|LevelUpA5E|3",
-				"Endless Legends|Bard|LevelUpA5E|Minstrel|LevelUpA5E|6",
-                "Act of Unison|Bard|LevelUpA5E|Minstrel|LevelUpA5E|14"
+				"Bonus Proficiencies and Specialties|Bard|LevelUp|Minstrel|LevelUp|3",
+				"Better Bardic Inspiration|Bard|LevelUp|Minstrel|LevelUp|3",
+				"Endless Legends|Bard|LevelUp|Minstrel|LevelUp|6",
+                "Act of Unison|Bard|LevelUp|Minstrel|LevelUp|14"
 			]
 		},
         {
 			"name": "Mountebank",
 			"shortName": "Mountebank",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Bonus Proficiencies and Specialties|Bard|LevelUpA5E|Mountebank|LevelUpA5E|3",
-				"Rapid Response|Bard|LevelUpA5E|Mountebank|LevelUpA5E|3",
-				"Honeyed Words|Bard|LevelUpA5E|Mountebank|LevelUpA5E|6",
-                "Kill Me Last|Bard|LevelUpA5E|Mountebank|LevelUpA5E|14"
+				"Bonus Proficiencies and Specialties|Bard|LevelUp|Mountebank|LevelUp|3",
+				"Rapid Response|Bard|LevelUp|Mountebank|LevelUp|3",
+				"Honeyed Words|Bard|LevelUp|Mountebank|LevelUp|6",
+                "Kill Me Last|Bard|LevelUp|Mountebank|LevelUp|14"
 			]
 		},
         {
 			"name": "Warchanter",
 			"shortName": "Warchanter",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Bonus Proficiencies and Specialties|Bard|LevelUpA5E|Warchanter|LevelUpA5E|3",
-				"Victorious Hymn|Bard|LevelUpA5E|Warchanter|LevelUpA5E|3",
-				"Second Chorus|Bard|LevelUpA5E|Warchanter|LevelUpA5E|6",
-                "Slaying Momentum|Bard|LevelUpA5E|Warchanter|LevelUpA5E|14"
+				"Bonus Proficiencies and Specialties|Bard|LevelUp|Warchanter|LevelUp|3",
+				"Victorious Hymn|Bard|LevelUp|Warchanter|LevelUp|3",
+				"Second Chorus|Bard|LevelUp|Warchanter|LevelUp|6",
+                "Slaying Momentum|Bard|LevelUp|Warchanter|LevelUp|14"
 			]
 		},
 		{
 			"name": "Vagabond",
 			"shortName": "Vagabond",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Into the Unknown|Bard|LevelUpA5E|Vagabond|LevelUpA5E|3",
-				"Wayfaring Stranger|Bard|LevelUpA5E|Vagabond|LevelUpA5E|3",
-				"Travel On|Bard|LevelUpA5E|Vagabond|LevelUpA5E|6",
-                "Ever, Ever On|Bard|LevelUpA5E|Vagabond|LevelUpA5E|14"
+				"Into the Unknown|Bard|LevelUp|Vagabond|LevelUp|3",
+				"Wayfaring Stranger|Bard|LevelUp|Vagabond|LevelUp|3",
+				"Travel On|Bard|LevelUp|Vagabond|LevelUp|6",
+                "Ever, Ever On|Bard|LevelUp|Vagabond|LevelUp|14"
 			]
 		},
 		{
 			"name": "Lore Weaver",
 			"shortName": "Lore Weaver",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Bonus Proficiencies and Specialties|Bard|LevelUpA5E|Lore Weaver|LevelUpA5E|3",
-				"Foreshadow|Bard|LevelUpA5E|Lore Weaver|LevelUpA5E|3",
-				"Plot Twist|Bard|LevelUpA5E|Lore Weaver|LevelUpA5E|6",
-                "Feed the Muse|Bard|LevelUpA5E|Lore Weaver|LevelUpA5E|14"
+				"Bonus Proficiencies and Specialties|Bard|LevelUp|Lore Weaver|LevelUp|3",
+				"Foreshadow|Bard|LevelUp|Lore Weaver|LevelUp|3",
+				"Plot Twist|Bard|LevelUp|Lore Weaver|LevelUp|6",
+                "Feed the Muse|Bard|LevelUp|Lore Weaver|LevelUp|14"
 			]
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Art Speciality",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"No bard is complete without their instrument. Be it a flute, a lute, or even your own voice, starting at 1st level you learn how to make art your greatest weapon for influencing the battlefield. For the purposes of spellcasting, any musical instrument that you have proficiency with counts as a spell focus. Although spells can be cast without these instruments, only targets that are able to perceive your performance can benefit from this feature. Whenever you finish a short or long rest, choose one of the following to be your Art Specialty.",
@@ -911,9 +911,9 @@
 		},
 		{
 			"name": "Bardic Inspiration",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"You have a preternatural ability to inspire those around you. You can use a bonus action to choose one creature other than yourself within 60 feet of you who can hear or see you. That creature gains one Bardic Inspiration die, a {@dice d6}.",
@@ -924,9 +924,9 @@
 		},
 		{
 			"name": "Battle Hymn",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Like music, battle can be wild and chaotic, and through the sensible use of formula and talent order can be brought with a dedicated change of tune. At 1st level, you learn a battle hymn. It can be expressed in any way you like — a special leitmotif in your music, a change in pitch, or even a more advanced version of your favorite art.",
@@ -995,7 +995,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Bring Low the Foe: The creature takes a –{@dice 1d8} penalty on saving throws. In addition, it is {@condition rattled|LevelUpA5E} for {@dice 1d4} rounds after the battle hymn ends.",
+									"Bring Low the Foe: The creature takes a –{@dice 1d8} penalty on saving throws. In addition, it is {@condition rattled|LevelUp} for {@dice 1d4} rounds after the battle hymn ends.",
 									"Carry the Spirit: The creature gains advantage on saving throws.",
 									"Inspiring Crescendo: The creature gains a {@dice d6} expertise die on ability checks."
 								]
@@ -1007,9 +1007,9 @@
 		},
 		{
 			"name": "Spellcasting",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"You have developed a talent for creating magic through artistic expression, whether that be a melody made enchanted or a dance that unlocks power from beyond the mortal realms.",
@@ -1076,9 +1076,9 @@
 		},
 		{
 			"name": "Adventuring Tricks",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"Even when abroad you are most at home when surrounded by those who love you — or at least tolerate you. At 2nd level, you learn one adventuring trick of your choice. Adventuring tricks are detailed in the {@filter Optional Features|optionalfeatures|Feature Type=AT} page. The Tricks Known column of the Bard table shows when you learn more adventuring tricks."
@@ -1086,9 +1086,9 @@
 		},
 		{
 			"name": "Jack-of-All-Trades",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"Starting at 2nd Level, whenever you make an ability check with a skill or tool you are not proficient with, you add half your proficiency bonus."
@@ -1096,9 +1096,9 @@
 		},
 		{
 			"name": "Varied Expertise",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"Also at 2nd level, choose one skill or tool you are proficient with. You gain an expertise die on checks made using the chosen skill or tool. At 6th level, and again at 10th, 14th, and 18th level, choose an additional skill or tool."
@@ -1106,9 +1106,9 @@
 		},
 		{
 			"name": "Bard Archetype",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"At 3rd level you choose exactly what kind of bard you want to be. Your choice grants you features at 3rd level and again at 6th and 14th level."
@@ -1116,9 +1116,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1127,9 +1127,9 @@
 		},
 		{
 			"name": "Bardic Legend (1st)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"No one is a true artist until others appreciate their work. Through the course of your career as a bard your talent can attract to your doorstep both the most curious of fans and also the vilest of enemies.",
@@ -1138,9 +1138,9 @@
 		},
 		{
 			"name": "Battle Hymn Focus",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"Also at 4th level, as soon as battle commences your mind focuses on inspiring your allies. At the end of another creature’s turn, you can use your reaction to activate a battle hymn. This battle hymn replaces any currently activated battle hymns. Replacing an activated battle hymn does not require expending a use of Bardic Inspiration if it has no target yet.",
@@ -1158,9 +1158,9 @@
 		},
 		{
 			"name": "Bardic Inspiration (d8)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 5,
 			"entries": [
 				"At 5th level, your Bardic Inspiration die changes to a {@dice d8}."
@@ -1168,9 +1168,9 @@
 		},
 		{
 			"name": "Font of Inspiration",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 5,
 			"entries": [
 				"Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest."
@@ -1178,9 +1178,9 @@
 		},
 		{
 			"name": "Key Change",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 5,
 			"entries": [
 				"Also at 5th level, you can use a bonus action to switch instruments and change your Art Speciality. Once you have used this feature, you cannot do so again until you finish a short or long rest."
@@ -1188,9 +1188,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain a feature from your bard archetype."
@@ -1198,9 +1198,9 @@
 		},
 		{
 			"name": "Prestigious",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"Beginning at 6th level, you cannot help but draw attention and spread your reputation. Your prestige in all factions familiar with you increases such that they generally consider you friendly at a base level. When you reach 11th level, these settlements instead generally revere you at a base level."
@@ -1208,9 +1208,9 @@
 		},
 		{
 			"name": "Varied Expertise",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, choose an additional skill or tool."
@@ -1218,9 +1218,9 @@
 		},
 		{
 			"name": "Bardic Legend (2nd)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 7,
 			"entries": [
 				"Starting at 7th level, you craft a second bardic legend. Commoners are either more amenable or afraid of you depending on the type of bardic legend you create. Choose one of the following skills: Deception, Insight, Intimidation, or Persuasion. You gain advantage on checks made using the chosen skill against any commoner that has heard your bardic legend."
@@ -1228,9 +1228,9 @@
 		},
 		{
 			"name": "Maestro",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 7,
 			"entries": [
 				"At 7th level you become so perfect in your craft that your style begins to bleed over into all your other workings. Choose one type of Art Speciality. You always gain the benefits of that Art Speciality no matter what instrument or art you are using."
@@ -1238,9 +1238,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1249,9 +1249,9 @@
 		},
 		{
 			"name": "Battle Hymn Specialization",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 8,
 			"entries": [
 				"At 8th level, the energy and focus you bring to battle make your presence in combat a crucial factor for victory. The range of your battle hymns increases to 60 feet.",
@@ -1269,9 +1269,9 @@
 		},
 		{
 			"name": "Bardic Inspiration (d10)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, your Bardic Inspiration die changes to a {@dice d10}."
@@ -1279,9 +1279,9 @@
 		},
 		{
 			"name": "Varied Expertise",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, choose an additional skill or tool."
@@ -1289,9 +1289,9 @@
 		},
 		{
 			"name": "Art Mastery",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 11,
 			"entries": [
 				"At 11th level, the use of your art specialty has transcended into something beyond majestic. You gain one of the following art masteries. At 17th level, you gain an additional art mastery.",
@@ -1309,9 +1309,9 @@
 		},
 		{
 			"name": "Bardic Legend (3rd)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 11,
 			"entries": [
 				"Beginning at 11th level, you craft a third bardic legend that is able to spawn other tales. Whenever you enter a settlement, you can name a new bardic legend of your choice. Allies that are part of the tale gain inspiration when they finish a long rest in that settlement. Any other creatures that are part of that tale have their reputations ruined— either they confront you directly to stop the rumor, or they are unable to hide or deal in that town for the length of time you are in it. Once you have used this feature in a settlement, you cannot do so again until you finish a long rest."
@@ -1319,9 +1319,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1330,9 +1330,9 @@
 		},
 		{
 			"name": "Universal Trick",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 13,
 			"entries": [
 				"Whether from watching your fellow adventurers work, from tales of your predecessors, or simply because you are just that talented, you have taken to adopting the techniques of your peers.",
@@ -1341,9 +1341,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain a feature from your bard archetype."
@@ -1351,9 +1351,9 @@
 		},
 		{
 			"name": "Varied Expertise",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, choose an additional skill or tool."
@@ -1361,9 +1361,9 @@
 		},
 		{
 			"name": "Bardic Inspiration (d12)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 15,
 			"entries": [
 				"At 15th level, your Bardic Inspiration die changes to a {@dice d12}."
@@ -1371,9 +1371,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1382,9 +1382,9 @@
 		},
 		{
 			"name": "Universal Trick",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 16,
 			"entries": [
 				"At 16th level, gain an additional universal trick."
@@ -1392,9 +1392,9 @@
 		},
 		{
 			"name": "Art Mastery",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 17,
 			"entries": [
 				"At 17th level, gain an additional art mastery."
@@ -1402,9 +1402,9 @@
 		},
 		{
 			"name": "Grand Battle Hymn",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 17,
 			"entries": [
 				"At 17th level, you master one of three grand battle hymns that can shake the firmament with arcane power. Choose one of the following grand battle hymns.",
@@ -1421,9 +1421,9 @@
 		},
 		{
 			"name": "Varied Expertise",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 18,
 			"entries": [
 				"At 18th level, choose an additional skill or tool."
@@ -1431,9 +1431,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1442,9 +1442,9 @@
 		},
 		{
 			"name": "Universal Trick",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 19,
 			"entries": [
 				"At 19th level, gain an additional universal trick."
@@ -1452,14 +1452,14 @@
 		},
 		{
 			"name": "Virtuoso",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 20,
 			"entries": [
 				"At 20th level, your capacity for drawing a crowd reaches dizzying new heights. As an action, you can expend a use of Bardic Inspiration to start an epic performance that lasts for {@dice 1d4} rounds. During that time, you can choose up to 50 creatures that are within 120 feet of you. Each creature able to hear or see your Epic Performance makes a Charisma saving throw against your bard spell save DC. If a creature fails its saving throw, it is {@condition charmed} by you for the duration plus 6 days, or until you or your companions do anything harmful to it. A {@condition charmed} creature regards you as a friendly acquaintance.",
 				"The performance ends early if you become {@condition unconscious} or silenced, or if you voluntarily end it (no action required). At the end of the duration, you can expend an additional use of Bardic Inspiration to extend the duration by {@dice 1d4} rounds.",
-				"When your Epic Performance lasts at least 1 minute, at the end of the duration you can target each {@condition charmed} creature as if using the {@spell mass suggestion|LevelUpA5E} spell cast at 9th-level. Creatures do not make saving throws to resist this effect. The commands you give a {@condition charmed} creature are not obvious, and other creatures must make a Wisdom (Insight) check opposed by your Charisma (Performance) check to understand that you are doing anything more than giving a performance. You can give each creature its own set of commands, but can only give out 6 different sets of commands.",
+				"When your Epic Performance lasts at least 1 minute, at the end of the duration you can target each {@condition charmed} creature as if using the {@spell mass suggestion|LevelUp} spell cast at 9th-level. Creatures do not make saving throws to resist this effect. The commands you give a {@condition charmed} creature are not obvious, and other creatures must make a Wisdom (Insight) check opposed by your Charisma (Performance) check to understand that you are doing anything more than giving a performance. You can give each creature its own set of commands, but can only give out 6 different sets of commands.",
 				"Once you use this feature, you can’t use it again until you finish a long rest."
 			]
 		}
@@ -1471,7 +1471,7 @@
 			"page": 54,
 			"srd": true,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1495,7 +1495,7 @@
 			"page": 54,
 			"srd": true,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1510,7 +1510,7 @@
 			"page": 54,
 			"srd": true,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1525,7 +1525,7 @@
 			"page": 54,
 			"srd": true,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1540,7 +1540,7 @@
 			"page": 54,
 			"srd": true,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lore",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1554,7 +1554,7 @@
 			"source": "PHB",
 			"page": 55,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1575,7 +1575,7 @@
 			"source": "PHB",
 			"page": 55,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1589,7 +1589,7 @@
 			"source": "PHB",
 			"page": 55,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 3,
@@ -1603,7 +1603,7 @@
 			"source": "PHB",
 			"page": 55,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -1617,7 +1617,7 @@
 			"source": "PHB",
 			"page": 55,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Valor",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -1631,7 +1631,7 @@
 			"source": "TCE",
 			"page": 27,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1654,7 +1654,7 @@
 			"source": "TCE",
 			"page": 27,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1691,7 +1691,7 @@
 			"source": "TCE",
 			"page": 27,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1708,7 +1708,7 @@
 			"source": "TCE",
 			"page": 27,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1726,7 +1726,7 @@
 			"source": "TCE",
 			"page": 27,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Creation",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1742,7 +1742,7 @@
 			"source": "TCE",
 			"page": 29,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1763,7 +1763,7 @@
 			"source": "TCE",
 			"page": 29,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1778,7 +1778,7 @@
 			"source": "TCE",
 			"page": 29,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1793,7 +1793,7 @@
 			"source": "TCE",
 			"page": 29,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1808,7 +1808,7 @@
 			"source": "TCE",
 			"page": 29,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1824,7 +1824,7 @@
 			"source": "TCE",
 			"page": 29,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1840,7 +1840,7 @@
 			"source": "UA2020SubclassesPt2",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Creation (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 3,
@@ -1858,7 +1858,7 @@
 			"source": "UA2020SubclassesPt2",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Creation (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 3,
@@ -1894,7 +1894,7 @@
 			"source": "UA2020SubclassesPt2",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Creation (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 6,
@@ -1912,7 +1912,7 @@
 			"source": "UA2020SubclassesPt2",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Creation (UA)",
 			"subclassSource": "UA2020SubclassesPt2",
 			"level": 14,
@@ -1929,7 +1929,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 3,
@@ -1954,7 +1954,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 3,
@@ -1969,7 +1969,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 3,
@@ -1985,7 +1985,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 3,
@@ -2064,7 +2064,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 6,
@@ -2081,7 +2081,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 6,
@@ -2096,7 +2096,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 14,
@@ -2111,7 +2111,7 @@
 			"source": "UABardAndPaladin",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 3,
@@ -2132,7 +2132,7 @@
 			"source": "UABardAndPaladin",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 3,
@@ -2147,7 +2147,7 @@
 			"source": "UABardAndPaladin",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 3,
@@ -2162,7 +2162,7 @@
 			"source": "UABardAndPaladin",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 6,
@@ -2185,7 +2185,7 @@
 			"source": "UABardAndPaladin",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Eloquence (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 14,
@@ -2201,7 +2201,7 @@
 			"source": "UABardBardColleges",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
@@ -2223,7 +2223,7 @@
 			"source": "UABardBardColleges",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
@@ -2240,7 +2240,7 @@
 			"source": "UABardBardColleges",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
@@ -2257,7 +2257,7 @@
 			"source": "UABardBardColleges",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 6,
@@ -2272,7 +2272,7 @@
 			"source": "UABardBardColleges",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 14,
@@ -2288,7 +2288,7 @@
 			"source": "UABardBardColleges",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
@@ -2310,7 +2310,7 @@
 			"source": "UABardBardColleges",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
@@ -2326,7 +2326,7 @@
 			"source": "UABardBardColleges",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
@@ -2343,7 +2343,7 @@
 			"source": "UABardBardColleges",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 6,
@@ -2361,7 +2361,7 @@
 			"source": "UABardBardColleges",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 14,
@@ -2379,7 +2379,7 @@
 			"source": "UAKitsOfOld",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Satire (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
@@ -2404,7 +2404,7 @@
 			"source": "UAKitsOfOld",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Satire (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
@@ -2418,7 +2418,7 @@
 			"source": "UAKitsOfOld",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Satire (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
@@ -2440,7 +2440,7 @@
 			"source": "UAKitsOfOld",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Satire (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 6,
@@ -2455,7 +2455,7 @@
 			"source": "UAKitsOfOld",
 			"page": 2,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Satire (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 14,
@@ -2471,7 +2471,7 @@
 			"source": "UAKitsOfOld",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
@@ -2498,7 +2498,7 @@
 			"source": "UAKitsOfOld",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
@@ -2549,7 +2549,7 @@
 			"source": "UAKitsOfOld",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
@@ -2563,7 +2563,7 @@
 			"source": "UAKitsOfOld",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
@@ -2581,7 +2581,7 @@
 			"source": "UAKitsOfOld",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 6,
@@ -2595,7 +2595,7 @@
 			"source": "UAKitsOfOld",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 14,
@@ -2609,7 +2609,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
@@ -2636,7 +2636,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
@@ -2686,7 +2686,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
@@ -2700,7 +2700,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
@@ -2728,7 +2728,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 6,
@@ -2742,7 +2742,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 14,
@@ -2756,7 +2756,7 @@
 			"source": "VRGR",
 			"page": 28,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 3,
@@ -2781,7 +2781,7 @@
 			"source": "VRGR",
 			"page": 28,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 3,
@@ -2796,7 +2796,7 @@
 			"source": "VRGR",
 			"page": 28,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 3,
@@ -2812,7 +2812,7 @@
 			"source": "VRGR",
 			"page": 28,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 3,
@@ -2892,7 +2892,7 @@
 			"source": "VRGR",
 			"page": 28,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 6,
@@ -2909,7 +2909,7 @@
 			"source": "VRGR",
 			"page": 28,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spirits",
 			"subclassSource": "VRGR",
 			"level": 14,
@@ -2931,7 +2931,7 @@
 			"source": "XGE",
 			"page": 14,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2953,7 +2953,7 @@
 			"source": "XGE",
 			"page": 14,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2970,7 +2970,7 @@
 			"source": "XGE",
 			"page": 14,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2986,7 +2986,7 @@
 			"source": "XGE",
 			"page": 14,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -3002,7 +3002,7 @@
 			"source": "XGE",
 			"page": 14,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Glamour",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -3018,7 +3018,7 @@
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3045,7 +3045,7 @@
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3077,7 +3077,7 @@
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3092,7 +3092,7 @@
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3120,7 +3120,7 @@
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -3134,7 +3134,7 @@
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -3148,7 +3148,7 @@
 			"source": "XGE",
 			"page": 16,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3170,7 +3170,7 @@
 			"source": "XGE",
 			"page": 16,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3186,7 +3186,7 @@
 			"source": "XGE",
 			"page": 16,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3203,7 +3203,7 @@
 			"source": "XGE",
 			"page": 16,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -3221,7 +3221,7 @@
 			"source": "XGE",
 			"page": 16,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Whispers",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -3240,7 +3240,7 @@
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3253,7 +3253,7 @@
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3266,7 +3266,7 @@
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Swords",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3276,11 +3276,11 @@
 		},
 		{
 			"name": "Bonus Proficiencies and Specialties",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Loremaster",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"When you select this archetype at 3rd level, choose 3 of the following skills: Arcana, History, Medicine, Nature, Religion. You gain proficiency with the chosen skills."
@@ -3288,24 +3288,24 @@
 		},
 		{
 			"name": "Cunning Words",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Loremaster",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
-				"Also at 3rd level, you can use your cunning to detect, discourage, and distract others. When a creature that you can see within 60 feet makes an ability check, attack roll, or damage roll, you can use your reaction to expend a use of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll. When you roll the minimum or maximum result for your Bardic Inspiration die, the creature is {@condition rattled|LevelUpA5E} until the end of your next turn.",
+				"Also at 3rd level, you can use your cunning to detect, discourage, and distract others. When a creature that you can see within 60 feet makes an ability check, attack roll, or damage roll, you can use your reaction to expend a use of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll. When you roll the minimum or maximum result for your Bardic Inspiration die, the creature is {@condition rattled|LevelUp} until the end of your next turn.",
 				"You can choose to use this feature after the creature makes its roll, but before the Narrator determines whether the attack roll or ability check succeeds or fails, or before damage is dealt. The creature is immune if it can’t hear you or if it’s immune to being {@condition charmed}."
 			]
 		},
 		{
 			"name": "School Knowledge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Loremaster",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain access to more fantastical magical knowledge. Choose one subschool of magic that is not either the arcane or divine subschools of magic. All spells from the chosen subschool of magic count as bard spells for you.",
@@ -3314,11 +3314,11 @@
 		},
 		{
 			"name": "Skillful Knowledge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Loremaster",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"Starting at 14th level, you can use your Bardic Inspiration on yourself. When you do so and roll the minimum or maximum result for your Bardic Inspiration die, you also gain an expertise die."
@@ -3326,11 +3326,11 @@
 		},
 		{
 			"name": "Bonus Proficiencies and Specialties",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Minstrel",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"When you select this archetype at 3rd level, you gain proficiency with History and Performance. If you are already proficient with either skill, you instead gain an expertise die."
@@ -3338,11 +3338,11 @@
 		},
 		{
 			"name": "Better Bardic Inspiration",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Minstrel",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, your ability to inspire can help an ally overcome deleterious effects. When you have granted a creature Bardic Inspiration, if the creature would make a saving throw at the end of its turn to end an effect on it, it can use the Bardic Inspiration to attempt a saving throw at the start of its turn instead.",
@@ -3351,11 +3351,11 @@
 		},
 		{
 			"name": "Endless Legends",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Minstrel",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"Beginning at 6th level, your archive of heroic exploits and legendary tales reaches a new threshold. You can use your Bardic Inspiration an additional number of times equal to your Wisdom modifier. In addition, when a creature rolls your Bardic Inspiration die, it gains a bonus equal to your Wisdom modifier."
@@ -3363,11 +3363,11 @@
 		},
 		{
 			"name": "Act of Unison",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Minstrel",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, your ability to motivate others actually spurs them into action. On your turn, you can use your action and bonus action to expend a use of Bardic Inspiration and choose a creature you can see within 60 feet. If the chosen creature can see or hear you, it gains one additional action. This action must be used before the end of your turn. A creature can only benefit from this feature once between long rests."
@@ -3375,11 +3375,11 @@
 		},
 		{
 			"name": "Bonus Proficiencies and Specialties",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Mountebank",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"When you select this archetype at 3rd level, you gain proficiency with Deception and Persuasion. If you are already proficient with either skill, you instead gain an expertise die."
@@ -3387,11 +3387,11 @@
 		},
 		{
 			"name": "Rapid Response",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Mountebank",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, you are always ready to wield your magic at the drop of a hat. When initiative is rolled, as long as you are not surprised you can choose to cast a spell with a vocalized component and casting time of 1 action. If you do so, the effects of the spell occur at the start of the first creature’s turn, and on your first turn you do not receive an action."
@@ -3399,11 +3399,11 @@
 		},
 		{
 			"name": "Honeyed Words",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Mountebank",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, you learn to weave magic directly into your very words and gesticulations. When you cast a bard spell, you can replace any vocalized components with speech and any seen components with gestures. Any observers with a passive Insight score equal to or less than your passive Deception score or passive Persuasion score do not see or hear you cast the spell. If you are making a Deception, Intimidation, or Persuasion check as part of your speech or gestures, the effects of the spell occur before the check is made.",
@@ -3412,11 +3412,11 @@
 		},
 		{
 			"name": "Kill Me Last",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Mountebank",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, you are exceptionally good at convincing your foes to attack someone other than yourself. When a creature you can see targets you with an attack or spell, you can use your reaction to focus its attention on a creature you choose within its reach or within range of it. It makes a Charisma saving throw and on a failure, it instead targets the chosen creature with its attack or spell (gaining advantage on the save if the chosen creature is an ally).",
@@ -3425,11 +3425,11 @@
 		},
 		{
 			"name": "Bonus Proficiencies and Specialties",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Warchanter",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"When you select this archetype at 3rd level, you gain proficiency with History. If you are already proficient with History, you instead gain an expertise die.",
@@ -3438,11 +3438,11 @@
 		},
 		{
 			"name": "Victorious Hymn",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Warchanter",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, your battle hymns take a different tone, now specially prepared for bloody fights and hard fought victories. You learn an additional battle hymn chosen from Table: Battle Hymns, counting your bard level as double for the purposes of which battle hymns you meet the prerequisites for. This battle hymn does not count against your number of battle hymns known. When you reach 8th level, you may change one of your battle hymns for a new Victorious Hymn."
@@ -3450,11 +3450,11 @@
 		},
 		{
 			"name": "Second Chorus",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Warchanter",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, you can turn your inspiring talents to the multiplication of magic. When you see a spell cast on an ally within 30 feet, you can use your reaction and expend a use of Bardic Inspiration to twin it. If the spell is of 3rd-level or lower, targets only that ally, and you are also within the spell’s range, you are also targeted by the spell.",
@@ -3463,11 +3463,11 @@
 		},
 		{
 			"name": "Slaying Momentum",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Warchanter",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, your thirst for battle can be overwhelming. When an ally under the effects of one of your battle hymns reduces a creature to 0 hit points, they regain hit points equal to your Bardic Inspiration die + your Charisma modifier."
@@ -3475,11 +3475,11 @@
 		},
 		{
 			"name": "Into the Unknown",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vagabond",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"When you join the College of Vagabonds at 3rd level, you gain proficiency in navigator’s tools, vehicles (water), and three languages. You can easily make forged documents like passports to satisfy port and border authorities, and you know or can find a fellow vagabond to tell you about good paths to evade patrols on borders or along shores.",
@@ -3488,24 +3488,24 @@
 		},
 		{
 			"name": "Wayfaring Stranger",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vagabond",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
-				"Also at 3rd level, you learn to use your performances to literally transport people. You add {@spell misty step|LevelUpA5E} to your spells known.",
-				"A creature you have granted Bardic Inspiration to can use a bonus action to expend that inspiration and teleport up to 30 feet as if they had cast {@spell misty step|LevelUpA5E}. This maximum distance changes when you reach certain levels in this class: it increases to 50 feet at 5th level, 100 feet at 11th level, and 500 feet at 17th level. This also increases the maximum distance traveled if you cast {@spell misty step|LevelUpA5E} using a spell slot."
+				"Also at 3rd level, you learn to use your performances to literally transport people. You add {@spell misty step|LevelUp} to your spells known.",
+				"A creature you have granted Bardic Inspiration to can use a bonus action to expend that inspiration and teleport up to 30 feet as if they had cast {@spell misty step|LevelUp}. This maximum distance changes when you reach certain levels in this class: it increases to 50 feet at 5th level, 100 feet at 11th level, and 500 feet at 17th level. This also increases the maximum distance traveled if you cast {@spell misty step|LevelUp} using a spell slot."
 			]
 		},
 		{
 			"name": "Travel On",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vagabond",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you feel at home in any environment. You gain a climb speed and swim speed equal to your walking speed. You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You also can hold your breath ten times as long as normal."
@@ -3513,11 +3513,11 @@
 		},
 		{
 			"name": "Ever, Ever On",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Vagabond",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, no obstacle can hinder your travel, not even gravity itself. You gain a fly speed equal to your walking speed. Additionally, you can spend an action to burrow or teleport a distance equal to your walking speed."
@@ -3525,11 +3525,11 @@
 		},
 		{
 			"name": "Bonus Proficiencies and Specialties",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lore Weaver",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"When you select this archetype at 3rd level, you gain proficiency with Culture and History. If you are already proficient with either skill, you instead gain an expertise die."
@@ -3537,11 +3537,11 @@
 		},
 		{
 			"name": "Foreshadow",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lore Weaver",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, you can wield your knowledge of narrative as an action to create a quasiprophecy of imminent success. Choose one creature who can benefit from your Bardic Inspiration and spend two uses. Then, narrate a single action that creature could take the following turn. For example, “Lauss will jump across the gorge” or “Vitani will strike her foe.” If the creature attempts that action before the end of your next turn, it can add an additional Bardic Inspiration die to the roll. If it cannot attempt this action or chooses not to, it is affected by your Bardic Inspiration as normal."
@@ -3549,11 +3549,11 @@
 		},
 		{
 			"name": "Plot Twist",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lore Weaver",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, when a creature you have granted Bardic Inspiration to fails an attack roll, ability check, or saving throw, you can spend your reaction to declare that isn’t how the story goes and allow it to roll again, including your Bardic Inspiration die, taking the higher result. This reroll spends the Bardic Inspiration die, even if the creature did not spend it on the first roll.",
@@ -3562,11 +3562,11 @@
 		},
 		{
 			"name": "Feed the Muse",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Bard",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lore Weaver",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"Starting 14th level, when you spend your last Bardic Inspiration you can spend a spell slot of a level no higher than your Charisma modifier as a free action to help drive the story. You regain a number of uses of Bardic Inspiration equal to half the spell slot spent (rounded up). Spending higher-level slots in this way only yields a number of uses equal to half your Charisma modifier (rounded up)."
@@ -3576,7 +3576,7 @@
 	"optionalfeature": [
 		{
 			"name": "Bewitching Companion",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3587,7 +3587,7 @@
 		},
 		{
 			"name": "Brutish Confrontation",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3598,7 +3598,7 @@
 		},
 		{
 			"name": "Improvised Engineering",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3608,7 +3608,7 @@
 		},
 		{
 			"name": "Marching Song",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3618,7 +3618,7 @@
 		},
 		{
 			"name": "Profitable",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3628,7 +3628,7 @@
 		},
 		{
 			"name": "Resonance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3639,7 +3639,7 @@
 		},
 		{
 			"name": "Sly Confidant",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3650,7 +3650,7 @@
 		},
 		{
 			"name": "Song of Rest",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3660,7 +3660,7 @@
 		},
 		{
 			"name": "Showoff",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3671,7 +3671,7 @@
 		},
 		{
 			"name": "Townie",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],
@@ -3681,7 +3681,7 @@
 		},
 		{
 			"name": "Widely Known",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"AT"
 			],

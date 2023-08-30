@@ -7,9 +7,9 @@
 		},
 		"sources": [
 			{
-				"json": "LevelUpA5E",
+				"json": "LevelUp",
 				"abbreviation": "A5E",
-				"full": "Level Up: Adventurers Guide (A5E)",
+				"full": "Level Up (A5E)",
 				"authors": [
 					"Level Up"
 				],
@@ -23,7 +23,7 @@
 	"class": [
 		{
 			"name": "Warlock",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -332,40 +332,40 @@
 			],
 			"classFeatures": [
 				{
-					"classFeature": "Warlock Archetype|Warlock|LevelUpA5E|1|LevelUpA5E",
+					"classFeature": "Warlock Archetype|Warlock|LevelUp|1|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Pact Magic|Warlock|LevelUpA5E|1|LevelUpA5E",
-				"Eldritch Blast|Warlock|LevelUpA5E|1|LevelUpA5E",
-				"Expanded Spell List|Warlock|LevelUpA5E|1|LevelUpA5E",
-				"Eldritch Invocations|Warlock|LevelUpA5E|2|LevelUpA5E",
-				"Secrets of Arcana|Warlock|LevelUpA5E|2|LevelUpA5E",
-				"Pact Boon|Warlock|LevelUpA5E|3|LevelUpA5E",
-				"Ability Score Improvement|Warlock|LevelUpA5E|4|LevelUpA5E",
-				"Invocation of the Courts (1)|Warlock|LevelUpA5E|4|LevelUpA5E",
-				"Extra Blast|Warlock|LevelUpA5E|5|LevelUpA5E",
+				"Pact Magic|Warlock|LevelUp|1|LevelUp",
+				"Eldritch Blast|Warlock|LevelUp|1|LevelUp",
+				"Expanded Spell List|Warlock|LevelUp|1|LevelUp",
+				"Eldritch Invocations|Warlock|LevelUp|2|LevelUp",
+				"Secrets of Arcana|Warlock|LevelUp|2|LevelUp",
+				"Pact Boon|Warlock|LevelUp|3|LevelUp",
+				"Ability Score Improvement|Warlock|LevelUp|4|LevelUp",
+				"Invocation of the Courts (1)|Warlock|LevelUp|4|LevelUp",
+				"Extra Blast|Warlock|LevelUp|5|LevelUp",
 				{
-					"classFeature": "Archetype Feature|Warlock|LevelUpA5E|6|LevelUpA5E",
+					"classFeature": "Archetype Feature|Warlock|LevelUp|6|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Eldritch Evolution (1)|Warlock|LevelUpA5E|6|LevelUpA5E",
-				"Ability Score Improvement|Warlock|LevelUpA5E|8|LevelUpA5E",
-				"Invocation of the Courts (2)|Warlock|LevelUpA5E|10|LevelUpA5E",
+				"Eldritch Evolution (1)|Warlock|LevelUp|6|LevelUp",
+				"Ability Score Improvement|Warlock|LevelUp|8|LevelUp",
+				"Invocation of the Courts (2)|Warlock|LevelUp|10|LevelUp",
 				{
-					"classFeature": "Archetype Feature|Warlock|LevelUpA5E|10|LevelUpA5E",
+					"classFeature": "Archetype Feature|Warlock|LevelUp|10|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlock|LevelUpA5E|12|LevelUpA5E",
-				"Eldritch Evolution (2)|Warlock|LevelUpA5E|12|LevelUpA5E",
+				"Ability Score Improvement|Warlock|LevelUp|12|LevelUp",
+				"Eldritch Evolution (2)|Warlock|LevelUp|12|LevelUp",
 				{
-					"classFeature": "Archetype Feature|Warlock|LevelUpA5E|14|LevelUpA5E",
+					"classFeature": "Archetype Feature|Warlock|LevelUp|14|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlock|LevelUpA5E|16|LevelUpA5E",
-				"Invocation of the Courts (3)|Warlock|LevelUpA5E|16|LevelUpA5E",
-				"Eldritch Evolution (3)|Warlock|LevelUpA5E|18|LevelUpA5E",
-				"Ability Score Improvement|Warlock|LevelUpA5E|19|LevelUpA5E",
-				"Dread Thaumaturge|Warlock|LevelUpA5E|20|LevelUpA5E"
+				"Ability Score Improvement|Warlock|LevelUp|16|LevelUp",
+				"Invocation of the Courts (3)|Warlock|LevelUp|16|LevelUp",
+				"Eldritch Evolution (3)|Warlock|LevelUp|18|LevelUp",
+				"Ability Score Improvement|Warlock|LevelUp|19|LevelUp",
+				"Dread Thaumaturge|Warlock|LevelUp|20|LevelUp"
 			],
 			"subclassTitle": "Warlock Archetype"
 		}
@@ -376,7 +376,7 @@
 			"shortName": "Archfey",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 108,
 			"additionalSpells": [
 				{
@@ -416,7 +416,7 @@
 			"shortName": "Fiend",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 109,
 			"srd": true,
 			"additionalSpells": [
@@ -457,7 +457,7 @@
 			"shortName": "Great Old One",
 			"source": "PHB",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 109,
 			"additionalSpells": [
 				{
@@ -497,7 +497,7 @@
 			"shortName": "Ghost in the Machine (UA)",
 			"source": "UAModernMagic",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"additionalSpells": [
 				{
@@ -537,7 +537,7 @@
 			"shortName": "Undying Light (UA)",
 			"source": "UALightDarkUnderdark",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 3,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -573,7 +573,7 @@
 			"shortName": "Undying",
 			"source": "SCAG",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 139,
 			"additionalSpells": [
 				{
@@ -618,7 +618,7 @@
 			"shortName": "Seeker (UA)",
 			"source": "UATheFaithful",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"additionalSpells": [
 				{
@@ -658,7 +658,7 @@
 			"shortName": "Hexblade (UA)",
 			"source": "UAWarlockAndWizard",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -699,7 +699,7 @@
 			"shortName": "Raven Queen (UA)",
 			"source": "UAWarlockAndWizard",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"additionalSpells": [
 				{
@@ -739,7 +739,7 @@
 			"shortName": "Celestial (UA)",
 			"source": "UARevisedClassOptions",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 4,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -780,7 +780,7 @@
 			"shortName": "Celestial",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 54,
 			"additionalSpells": [
 				{
@@ -826,7 +826,7 @@
 			"shortName": "Hexblade",
 			"source": "XGE",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 55,
 			"additionalSpells": [
 				{
@@ -866,7 +866,7 @@
 			"shortName": "Lurker in the Deep (UA)",
 			"source": "UASorcererAndWarlock",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -908,7 +908,7 @@
 			"shortName": "Noble Genie (UA)",
 			"source": "UA2020SubclassesPt1",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 4,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -950,7 +950,7 @@
 			"shortName": "Genie (UA)",
 			"source": "UA2020SubclassesRevisited",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1075,7 +1075,7 @@
 			"shortName": "Undead (UA)",
 			"source": "UA2020SubclassesPt4",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 3,
 			"isReprinted": true,
 			"additionalSpells": [
@@ -1116,7 +1116,7 @@
 			"shortName": "Fathomless",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 72,
 			"additionalSpells": [
 				{
@@ -1157,7 +1157,7 @@
 			"shortName": "Genie",
 			"source": "TCE",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 73,
 			"additionalSpells": [
 				{
@@ -1285,7 +1285,7 @@
 			"shortName": "Undead",
 			"source": "VRGR",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 30,
 			"additionalSpells": [
 				{
@@ -1325,7 +1325,7 @@
 			"shortName": "Lorehold (UA)",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"_copy": {
 				"name": "Mage of Lorehold (UA)",
 				"shortName": "Lorehold (UA)",
@@ -1342,7 +1342,7 @@
 			"shortName": "Silverquill (UA)",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"_copy": {
 				"name": "Mage of Silverquill (UA)",
 				"shortName": "Silverquill (UA)",
@@ -1359,7 +1359,7 @@
 			"shortName": "Witherbloom (UA)",
 			"source": "UA2021MagesOfStrixhaven",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"_copy": {
 				"name": "Mage of Witherbloom (UA)",
 				"shortName": "Witherbloom (UA)",
@@ -1374,76 +1374,76 @@
 		{
 			"name": "Alienist",
 			"shortName": "Alienist",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Starstruck|Warlock|LevelUpA5E|Alienist|LevelUpA5E|1",
-				"Mutated Carapace|Warlock|LevelUpA5E|Alienist|LevelUpA5E|6",
-				"Subtle Disturbance|Warlock|LevelUpA5E|Alienist|LevelUpA5E|10",
-				"Insidious Seed|Warlock|LevelUpA5E|Alienist|LevelUpA5E|14"
+				"Starstruck|Warlock|LevelUp|Alienist|LevelUp|1",
+				"Mutated Carapace|Warlock|LevelUp|Alienist|LevelUp|6",
+				"Subtle Disturbance|Warlock|LevelUp|Alienist|LevelUp|10",
+				"Insidious Seed|Warlock|LevelUp|Alienist|LevelUp|14"
 			]
 		},
 		{
 			"name": "Diabolist",
 			"shortName": "Diabolist",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Sanguine Contract|Warlock|LevelUpA5E|Diabolist|LevelUpA5E|1",
-				"Dogs of Hell|Warlock|LevelUpA5E|Diabolist|LevelUpA5E|6",
-				"Blasphemous Act|Warlock|LevelUpA5E|Diabolist|LevelUpA5E|10",
-				"Hurl Through Hell|Warlock|LevelUpA5E|Diabolist|LevelUpA5E|14"
+				"Sanguine Contract|Warlock|LevelUp|Diabolist|LevelUp|1",
+				"Dogs of Hell|Warlock|LevelUp|Diabolist|LevelUp|6",
+				"Blasphemous Act|Warlock|LevelUp|Diabolist|LevelUp|10",
+				"Hurl Through Hell|Warlock|LevelUp|Diabolist|LevelUp|14"
 			]
 		},
 		{
 			"name": "Spellbound",
 			"shortName": "Spellbound",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Rewoven Witch Magic|Warlock|LevelUpA5E|Spellbound|LevelUpA5E|1",
-				"Mischievous Mobility|Warlock|LevelUpA5E|Spellbound|LevelUpA5E|6",
-				"Toadstool Sanctuary|Warlock|LevelUpA5E|Spellbound|LevelUpA5E|10",
-				"Faeries' Retreat|Warlock|LevelUpA5E|Spellbound|LevelUpA5E|14"
+				"Rewoven Witch Magic|Warlock|LevelUp|Spellbound|LevelUp|1",
+				"Mischievous Mobility|Warlock|LevelUp|Spellbound|LevelUp|6",
+				"Toadstool Sanctuary|Warlock|LevelUp|Spellbound|LevelUp|10",
+				"Faeries' Retreat|Warlock|LevelUp|Spellbound|LevelUp|14"
 			]
 		},
 		{
 			"name": "Apprentice",
 			"shortName": "Apprentice",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"Magical Studies|Warlock|LevelUpA5E|Apprentice|LevelUpA5E|1",
-				"Emergency Blink|Warlock|LevelUpA5E|Apprentice|LevelUpA5E|6",
-				"Flexible Preparations|Warlock|LevelUpA5E|Apprentice|LevelUpA5E|6",
-				"Arcane Defence|Warlock|LevelUpA5E|Apprentice|LevelUpA5E|10",
-				"Unknown Feature|Warlock|LevelUpA5E|Apprentice|LevelUpA5E|14"
+				"Magical Studies|Warlock|LevelUp|Apprentice|LevelUp|1",
+				"Emergency Blink|Warlock|LevelUp|Apprentice|LevelUp|6",
+				"Flexible Preparations|Warlock|LevelUp|Apprentice|LevelUp|6",
+				"Arcane Defence|Warlock|LevelUp|Apprentice|LevelUp|10",
+				"Unknown Feature|Warlock|LevelUp|Apprentice|LevelUp|14"
 			]
 		},
 		{
 			"name": "Urbanist",
 			"shortName": "Urbanist",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassFeatures": [
-				"The Talk of the Town|Warlock|LevelUpA5E|Urbanist|LevelUpA5E|1",
-				"Secret Shopper|Warlock|LevelUpA5E|Urbanist|LevelUpA5E|6",
-				"Public Transportation|Warlock|LevelUpA5E|Urbanist|LevelUpA5E|10",
-				"Get Lost|Warlock|LevelUpA5E|Urbanist|LevelUpA5E|14"
+				"The Talk of the Town|Warlock|LevelUp|Urbanist|LevelUp|1",
+				"Secret Shopper|Warlock|LevelUp|Urbanist|LevelUp|6",
+				"Public Transportation|Warlock|LevelUp|Urbanist|LevelUp|10",
+				"Get Lost|Warlock|LevelUp|Urbanist|LevelUp|14"
 			]
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Warlock Archetype",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"At 1st level, you have reached out to, stumbled upon, or otherwise crossed paths with a powerful entity beyond the ken of mortals, an otherworldly patron who sets you on the path of a Warlock Archetype. Whether you were willing, coerced, tricked— or if you exploited elder magical laws—a bargain was struck and you gained great power in exchange. Your choice of archetype grants you an expanded spell list and features at 1st level and again at 6th, 10th, and 14th level."
@@ -1451,9 +1451,9 @@
 		},
 		{
 			"name": "Pact Magic",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"With care, practice, and dedication you have learned how to best siphon and channel the otherworldly powers you’ve gained from your patron.",
@@ -1546,9 +1546,9 @@
 		},
 		{
 			"name": "Eldritch Blast",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"At 1st level you learn to use your patron’s power as a weapon, blasting enemies with an eldritch force that defies even the laws of magic. Choose one of the following features.",
@@ -1585,9 +1585,9 @@
 		},
 		{
 			"name": "Expanded Spell List",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"At 1st level, if you choose an A5E or TODO archetype for your Warlock Archetype, you also choose an expanded spell list your patron grants you access to. Choose one patron expanded spell list. These spells count as warlock spells for you.",
@@ -1605,23 +1605,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell Color Spray|LevelUpA5E}, {@spell Sleep|LevelUpA5E}"
+							"{@spell Color Spray|LevelUp}, {@spell Sleep|LevelUp}"
 						],
 						[
 							"2nd",
-							"{@spell Levitate|LevelUpA5E}, {@spell Seed Bomb|LevelUpA5E}"
+							"{@spell Levitate|LevelUp}, {@spell Seed Bomb|LevelUp}"
 						],
 						[
 							"3rd",
-							"{@spell Glyph of Warding|LevelUpA5E}, {@spell Wind Wall|LevelUpA5E}"
+							"{@spell Glyph of Warding|LevelUp}, {@spell Wind Wall|LevelUp}"
 						],
 						[
 							"4th",
-							"{@spell Confusion|LevelUpA5E}, {@spell Polymorph|LevelUpA5E}"
+							"{@spell Confusion|LevelUp}, {@spell Polymorph|LevelUp}"
 						],
 						[
 							"5th",
-							"{@spell Insect Plague|LevelUpA5E}, {@spell Mislead|LevelUpA5E}"
+							"{@spell Insect Plague|LevelUp}, {@spell Mislead|LevelUp}"
 						]
 					]
 				},
@@ -1639,23 +1639,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell Detect Poison and Disease|LevelUpA5E}, {@spell Inflict Wounds|LevelUpA5E}"
+							"{@spell Detect Poison and Disease|LevelUp}, {@spell Inflict Wounds|LevelUp}"
 						],
 						[
 							"2nd",
-							"{@spell Acid Arrow|LevelUpA5E}, {@spell Blindness/Deafness|LevelUpA5E}"
+							"{@spell Acid Arrow|LevelUp}, {@spell Blindness/Deafness|LevelUp}"
 						],
 						[
 							"3rd",
-							"{@spell Bestow Curse|LevelUpA5E}, {@spell Phantom Steed|LevelUpA5E}"
+							"{@spell Bestow Curse|LevelUp}, {@spell Phantom Steed|LevelUp}"
 						],
 						[
 							"4th",
-							"{@spell Black Tentacles|LevelUpA5E}, {@spell Blight|LevelUpA5E}"
+							"{@spell Black Tentacles|LevelUp}, {@spell Blight|LevelUp}"
 						],
 						[
 							"5th",
-							"{@spell Cloudkill|LevelUpA5E}, {@spell Contagion|LevelUpA5E}"
+							"{@spell Cloudkill|LevelUp}, {@spell Contagion|LevelUp}"
 						]
 					]
 				},
@@ -1673,23 +1673,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell Burning Hands|LevelUpA5E}, {@spell Fog Cloud|LevelUpA5E} (appears as smoke)"
+							"{@spell Burning Hands|LevelUp}, {@spell Fog Cloud|LevelUp} (appears as smoke)"
 						],
 						[
 							"2nd",
-							"{@spell Flaming Sphere|LevelUpA5E}, {@spell Scorching Ray|LevelUpA5E}"
+							"{@spell Flaming Sphere|LevelUp}, {@spell Scorching Ray|LevelUp}"
 						],
 						[
 							"3rd",
-							"{@spell Darklight|LevelUpA5E}, {@spell Fireball|LevelUpA5E}"
+							"{@spell Darklight|LevelUp}, {@spell Fireball|LevelUp}"
 						],
 						[
 							"4th",
-							"{@spell Fire Shield|LevelUpA5E}, {@spell Wall of Fire|LevelUpA5E}"
+							"{@spell Fire Shield|LevelUp}, {@spell Wall of Fire|LevelUp}"
 						],
 						[
 							"5th",
-							"{@spell Conjure Elemental|LevelUpA5E} (fire only), {@spell Flame Strike|LevelUpA5E}"
+							"{@spell Conjure Elemental|LevelUp} (fire only), {@spell Flame Strike|LevelUp}"
 						]
 					]
 				},
@@ -1707,23 +1707,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell Disguise Self|LevelUpA5E}, {@spell Sanctuary|LevelUpA5E}"
+							"{@spell Disguise Self|LevelUp}, {@spell Sanctuary|LevelUp}"
 						],
 						[
 							"2nd",
-							"{@spell Find Traps|LevelUpA5E}, {@spell Knock|LevelUpA5E}"
+							"{@spell Find Traps|LevelUp}, {@spell Knock|LevelUp}"
 						],
 						[
 							"3rd",
-							"{@spell Meld Into Stone|LevelUpA5E}, {@spell Speak with Dead|LevelUpA5E}"
+							"{@spell Meld Into Stone|LevelUp}, {@spell Speak with Dead|LevelUp}"
 						],
 						[
 							"4th",
-							"{@spell Private Sanctum|LevelUpA5E}, {@spell Stone Shape|LevelUpA5E}"
+							"{@spell Private Sanctum|LevelUp}, {@spell Stone Shape|LevelUp}"
 						],
 						[
 							"5th",
-							"{@spell Passwall|LevelUpA5E}, {@spell Wall of Stone|LevelUpA5E}"
+							"{@spell Passwall|LevelUp}, {@spell Wall of Stone|LevelUp}"
 						]
 					]
 				},
@@ -1741,23 +1741,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell Feather Fall|LevelUpA5E}, {@spell Thunderwave|LevelUpA5E}"
+							"{@spell Feather Fall|LevelUp}, {@spell Thunderwave|LevelUp}"
 						],
 						[
 							"2nd",
-							"{@spell Blur|LevelUpA5E}, {@spell Deadweight|LevelUpA5E}"
+							"{@spell Blur|LevelUp}, {@spell Deadweight|LevelUp}"
 						],
 						[
 							"3rd",
-							"{@spell Blink|LevelUpA5E}, {@spell Whirlwind Kick|LevelUpA5E}"
+							"{@spell Blink|LevelUp}, {@spell Whirlwind Kick|LevelUp}"
 						],
 						[
 							"4th",
-							"{@spell Freedom of Movement|LevelUpA5E}, {@spell Greater Invisibility|LevelUpA5E}"
+							"{@spell Freedom of Movement|LevelUp}, {@spell Greater Invisibility|LevelUp}"
 						],
 						[
 							"5th",
-							"{@spell Storm Kick|LevelUpA5E}, {@spell Tree Stride|LevelUpA5E}"
+							"{@spell Storm Kick|LevelUp}, {@spell Tree Stride|LevelUp}"
 						]
 					]
 				},
@@ -1775,23 +1775,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell Command|LevelUpA5E}, {@spell Dramatic Sting|LevelUpA5E}"
+							"{@spell Command|LevelUp}, {@spell Dramatic Sting|LevelUp}"
 						],
 						[
 							"2nd",
-							"{@spell Detect Thoughts|LevelUpA5E}, {@spell Enthrall|LevelUpA5E}"
+							"{@spell Detect Thoughts|LevelUp}, {@spell Enthrall|LevelUp}"
 						],
 						[
 							"3rd",
-							"{@spell Nondetection|LevelUpA5E}, {@spell Sending|LevelUpA5E}"
+							"{@spell Nondetection|LevelUp}, {@spell Sending|LevelUp}"
 						],
 						[
 							"4th",
-							"{@spell Dominate Beast|LevelUpA5E}, {@spell Resilient Sphere|LevelUpA5E}"
+							"{@spell Dominate Beast|LevelUp}, {@spell Resilient Sphere|LevelUp}"
 						],
 						[
 							"5th",
-							"{@spell Dominate Person|LevelUpA5E}, {@spell Modify Memory|LevelUpA5E}"
+							"{@spell Dominate Person|LevelUp}, {@spell Modify Memory|LevelUp}"
 						]
 					]
 				},
@@ -1809,23 +1809,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell Bane|LevelUpA5E}, {@spell Guiding Bolt|LevelUpA5E}"
+							"{@spell Bane|LevelUp}, {@spell Guiding Bolt|LevelUp}"
 						],
 						[
 							"2nd",
-							"{@spell Moonbeam|LevelUpA5E}, {@spell Silence|LevelUpA5E}"
+							"{@spell Moonbeam|LevelUp}, {@spell Silence|LevelUp}"
 						],
 						[
 							"3rd",
-							"{@spell Aspect of the Moon|LevelUpA5E}, {@spell Daylight|LevelUpA5E}"
+							"{@spell Aspect of the Moon|LevelUp}, {@spell Daylight|LevelUp}"
 						],
 						[
 							"4th",
-							"{@spell Accelerando|LevelUpA5E}, {@spell Locate Creature|LevelUpA5E}"
+							"{@spell Accelerando|LevelUp}, {@spell Locate Creature|LevelUp}"
 						],
 						[
 							"5th",
-							"{@spell Antilife Shell|LevelUpA5E}, {@spell Wall of Force|LevelUpA5E}"
+							"{@spell Antilife Shell|LevelUp}, {@spell Wall of Force|LevelUp}"
 						]
 					]
 				}
@@ -1833,9 +1833,9 @@
 		},
 		{
 			"name": "Eldritch Invocations",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"The gifts of your patron are manyfold—not only can you channel their magic to work spells, but you can also siphon away talents, tricks, and reality-defying essence to perform other impressive magical feats.",
@@ -1845,9 +1845,9 @@
 		},
 		{
 			"name": "Secrets of Arcana",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"Also at 2nd level, you realize that there is power to be taken that your patron may never have meant for you to have. You gain a secret of arcana of your choice. Your secret options can be found on the {@filter Optional Features|optionalfeatures|Feature Type=SA} page. The Secrets Known column of the Warlock table shows when you learn more secrets of arcana."
@@ -1855,9 +1855,9 @@
 		},
 		{
 			"name": "Pact Boon",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"At 3rd level, the entity to which you are beholden provides a more durable and lasting blessing. Choose one of the following features.",
@@ -1895,9 +1895,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1906,9 +1906,9 @@
 		},
 		{
 			"name": "Invocation of the Courts (1)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"Also at 4th level, you gain a bonus invocation— one to help you traffic in courts both otherworldly and mortal. Choose one invocation from the following list: Beguiling Influence, Courts of the Outer Realms, Eyes of the Runekeeper, Gaze of Two Minds, Mask of Many Faces, Ominous Tormentor, Psionic Secrecy, Spellbinding Contract, Voice of the Chain Master, Whispers of the Grave.",
@@ -1917,9 +1917,9 @@
 		},
 		{
 			"name": "Extra Blast",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 5,
 			"entries": [
 				"Beginning at 5th level, your Eldritch Blast becomes more vicious. When you use Eldritch Ray, Eldritch Scythe, or Eldritch Whip as part of your action on your turn, as long as you make no weapon attacks you can attack twice instead of once. At 11th level you can make three attacks, and at 17th level you can make four attacks.",
@@ -1929,9 +1929,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain a feature granted by your Warlock Archetype."
@@ -1939,9 +1939,9 @@
 		},
 		{
 			"name": "Eldritch Evolution (1)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain a bonus invocation — one which represents your growth in the lethal lore behind Eldritch Blast. Choose one invocation from the following list: Agonizing Blast, Eldritch Bind, Eldritch Elementalism, Eldritch Grasp, Eldritch Prism, Eldritch Riposte, Eldritch Severance, Eldritch Spear, Eldritch Squall, Eldritch Tentacle, Repelling Blast, Versatile Blast.",
@@ -1950,9 +1950,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1961,9 +1961,9 @@
 		},
 		{
 			"name": "Invocation of the Courts (2)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain another bonus invocation from your Invocation of the Courts feature."
@@ -1971,9 +1971,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain a feature granted by your Warlock Archetype."
@@ -1981,9 +1981,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1992,9 +1992,9 @@
 		},
 		{
 			"name": "Eldritch Evolution (2)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 12,
 			"entries": [
 				"At 12th level, you gain another bonus invocation from your Eldritch Evolution feature."
@@ -2002,9 +2002,9 @@
 		},
 		{
 			"name": "Archetype Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain a feature granted by your Warlock Archetype."
@@ -2012,9 +2012,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2023,9 +2023,9 @@
 		},
 		{
 			"name": "Invocation of the Courts (3)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 16,
 			"entries": [
 				"At 16th level, you gain another bonus invocation from your Invocation of the Courts feature."
@@ -2033,9 +2033,9 @@
 		},
 		{
 			"name": "Eldritch Evolution (3)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain another bonus invocation from your Eldritch Evolution feature."
@@ -2043,9 +2043,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2054,9 +2054,9 @@
 		},
 		{
 			"name": "Dread Thaumaturge",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 20,
 			"entries": [
 				"At 20th level, you have learned all you can from your patron. You gain the following abilities.",
@@ -2076,8 +2076,8 @@
 						{
 							"type": "list",
 							"items": [
-								"You can cast {@spell plane shift|LevelUpA5E} without material components once between short rests.",
-								"You are under the constant effects of the {@spell foresight|LevelUpA5E} spell. This effect cannot be detected or dispelled by any means short of a wish spell.",
+								"You can cast {@spell plane shift|LevelUp} without material components once between short rests.",
+								"You are under the constant effects of the {@spell foresight|LevelUp} spell. This effect cannot be detected or dispelled by any means short of a wish spell.",
 								"Once per day, you can spend 1 minute in arcane contemplation to regain your spent spell points."
 							]
 						}
@@ -2092,7 +2092,7 @@
 			"source": "PHB",
 			"page": 108,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -2150,7 +2150,7 @@
 			"source": "PHB",
 			"page": 108,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -2165,7 +2165,7 @@
 			"source": "PHB",
 			"page": 108,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -2180,7 +2180,7 @@
 			"source": "PHB",
 			"page": 108,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -2194,7 +2194,7 @@
 			"source": "PHB",
 			"page": 108,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Archfey",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -2211,7 +2211,7 @@
 			"page": 109,
 			"srd": true,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -2270,7 +2270,7 @@
 			"page": 109,
 			"srd": true,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -2285,7 +2285,7 @@
 			"page": 109,
 			"srd": true,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -2301,7 +2301,7 @@
 			"page": 109,
 			"srd": true,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -2316,7 +2316,7 @@
 			"page": 109,
 			"srd": true,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fiend",
 			"subclassSource": "PHB",
 			"level": 14,
@@ -2332,7 +2332,7 @@
 			"source": "PHB",
 			"page": 109,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -2390,7 +2390,7 @@
 			"source": "PHB",
 			"page": 109,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 1,
@@ -2404,7 +2404,7 @@
 			"source": "PHB",
 			"page": 109,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 6,
@@ -2419,7 +2419,7 @@
 			"source": "PHB",
 			"page": 109,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 10,
@@ -2433,13 +2433,13 @@
 			"source": "PHB",
 			"page": 109,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Great Old One",
 			"subclassSource": "PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an {@condition dazed|LevelUpA5E} humanoid. That creature is then {@condition charmed} by you until a {@spell remove curse} spell is cast on it, the {@condition charmed} condition is removed from it, or you use this feature again.",
+				"At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an {@condition dazed|LevelUp} humanoid. That creature is then {@condition charmed} by you until a {@spell remove curse} spell is cast on it, the {@condition charmed} condition is removed from it, or you use this feature again.",
 				"You can communicate telepathically with the {@condition charmed} creature as long as the two of you are on the same plane of existence."
 			]
 		},
@@ -2448,7 +2448,7 @@
 			"source": "SCAG",
 			"page": 139,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 1,
@@ -2507,7 +2507,7 @@
 			"source": "SCAG",
 			"page": 139,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 1,
@@ -2522,7 +2522,7 @@
 			"source": "SCAG",
 			"page": 139,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 6,
@@ -2537,7 +2537,7 @@
 			"source": "SCAG",
 			"page": 139,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 10,
@@ -2552,7 +2552,7 @@
 			"source": "SCAG",
 			"page": 139,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying",
 			"subclassSource": "SCAG",
 			"level": 14,
@@ -2567,7 +2567,7 @@
 			"source": "TCE",
 			"page": 72,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -2632,7 +2632,7 @@
 			"source": "TCE",
 			"page": 72,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -2647,7 +2647,7 @@
 			"source": "TCE",
 			"page": 72,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -2665,7 +2665,7 @@
 			"source": "TCE",
 			"page": 72,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -2680,7 +2680,7 @@
 			"source": "TCE",
 			"page": 72,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -2695,7 +2695,7 @@
 			"source": "TCE",
 			"page": 72,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -2711,7 +2711,7 @@
 			"source": "TCE",
 			"page": 72,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Fathomless",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -2727,7 +2727,7 @@
 			"source": "TCE",
 			"page": 73,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -2859,7 +2859,7 @@
 			"source": "TCE",
 			"page": 73,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -2929,7 +2929,7 @@
 			"source": "TCE",
 			"page": 73,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -2945,7 +2945,7 @@
 			"source": "TCE",
 			"page": 73,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -2962,7 +2962,7 @@
 			"source": "TCE",
 			"page": 73,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -2978,7 +2978,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Noble Genie (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 1,
@@ -3037,7 +3037,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Noble Genie (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 1,
@@ -3109,7 +3109,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Noble Genie (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 6,
@@ -3125,14 +3125,14 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Noble Genie (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 10,
 			"header": 2,
 			"entries": [
 				"{@i 10th-level Noble Genie feature}",
-				"As an action, you attempt to send a creature you can see within 90 feet to your patron's court. The target must succeed on a Charisma saving throw against your warlock spell save DC or be magically drawn into your vessel and teleported to your patron's court in the Elemental Planes. While there, the target is {@condition debilitated|LevelUpA5E} and your patron marvels at the target with amusement but brings no harm to it. The target can repeat the saving throw at the end of each of its turns, reappearing in the space it left or in the nearest unoccupied space if that space is occupied on a success.",
+				"As an action, you attempt to send a creature you can see within 90 feet to your patron's court. The target must succeed on a Charisma saving throw against your warlock spell save DC or be magically drawn into your vessel and teleported to your patron's court in the Elemental Planes. While there, the target is {@condition debilitated|LevelUp} and your patron marvels at the target with amusement but brings no harm to it. The target can repeat the saving throw at the end of each of its turns, reappearing in the space it left or in the nearest unoccupied space if that space is occupied on a success.",
 				"Once you use this feature, you can't use it again until you finish a long rest. If the target remains in your patron's court for 1 minute, the genie sends the target back at the end of its turn as if it successfully saved, and you regain the use of this feature."
 			]
 		},
@@ -3141,7 +3141,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Noble Genie (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 10,
@@ -3156,7 +3156,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Noble Genie (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 14,
@@ -3167,7 +3167,7 @@
 				{
 					"type": "list",
 					"items": [
-						"A creature you can see within 60 feet of you regains {@dice 8d6} hit points and ends one disease or condition afflicting it: {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition staggered|LevelUpA5E}, or {@condition poisoned}.",
+						"A creature you can see within 60 feet of you regains {@dice 8d6} hit points and ends one disease or condition afflicting it: {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition staggered|LevelUp}, or {@condition poisoned}.",
 						"A creature you can see within 60 feet of you has disadvantage on attack rolls and saving throws until the start of your next turn.",
 						"You cast the {@spell legend lore} spell without material components."
 					]
@@ -3180,7 +3180,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 1,
@@ -3239,7 +3239,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 1,
@@ -3264,7 +3264,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 6,
@@ -3280,7 +3280,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 10,
@@ -3296,7 +3296,7 @@
 			"source": "UA2020SubclassesPt4",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead (UA)",
 			"subclassSource": "UA2020SubclassesPt4",
 			"level": 14,
@@ -3323,7 +3323,7 @@
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 1,
@@ -3455,7 +3455,7 @@
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 1,
@@ -3527,7 +3527,7 @@
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 6,
@@ -3543,7 +3543,7 @@
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 10,
@@ -3560,7 +3560,7 @@
 			"source": "UA2020SubclassesRevisited",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie (UA)",
 			"subclassSource": "UA2020SubclassesRevisited",
 			"level": 14,
@@ -3576,7 +3576,7 @@
 			"source": "UALightDarkUnderdark",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying Light (UA)",
 			"subclassSource": "UALightDarkUnderdark",
 			"level": 1,
@@ -3674,7 +3674,7 @@
 			"source": "UALightDarkUnderdark",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying Light (UA)",
 			"subclassSource": "UALightDarkUnderdark",
 			"level": 1,
@@ -3688,7 +3688,7 @@
 			"source": "UALightDarkUnderdark",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying Light (UA)",
 			"subclassSource": "UALightDarkUnderdark",
 			"level": 6,
@@ -3703,7 +3703,7 @@
 			"source": "UALightDarkUnderdark",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying Light (UA)",
 			"subclassSource": "UALightDarkUnderdark",
 			"level": 10,
@@ -3717,7 +3717,7 @@
 			"source": "UALightDarkUnderdark",
 			"page": 3,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undying Light (UA)",
 			"subclassSource": "UALightDarkUnderdark",
 			"level": 14,
@@ -3732,7 +3732,7 @@
 			"source": "UAModernMagic",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ghost in the Machine (UA)",
 			"subclassSource": "UAModernMagic",
 			"level": 1,
@@ -3795,7 +3795,7 @@
 			"source": "UAModernMagic",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ghost in the Machine (UA)",
 			"subclassSource": "UAModernMagic",
 			"level": 1,
@@ -3809,7 +3809,7 @@
 			"source": "UAModernMagic",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ghost in the Machine (UA)",
 			"subclassSource": "UAModernMagic",
 			"level": 1,
@@ -3824,7 +3824,7 @@
 			"source": "UAModernMagic",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ghost in the Machine (UA)",
 			"subclassSource": "UAModernMagic",
 			"level": 6,
@@ -3838,7 +3838,7 @@
 			"source": "UAModernMagic",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ghost in the Machine (UA)",
 			"subclassSource": "UAModernMagic",
 			"level": 10,
@@ -3852,7 +3852,7 @@
 			"source": "UAModernMagic",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ghost in the Machine (UA)",
 			"subclassSource": "UAModernMagic",
 			"level": 14,
@@ -3868,7 +3868,7 @@
 			"source": "UARevisedClassOptions",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial (UA)",
 			"subclassSource": "UARevisedClassOptions",
 			"level": 1,
@@ -3931,7 +3931,7 @@
 			"source": "UARevisedClassOptions",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial (UA)",
 			"subclassSource": "UARevisedClassOptions",
 			"level": 1,
@@ -3945,7 +3945,7 @@
 			"source": "UARevisedClassOptions",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial (UA)",
 			"subclassSource": "UARevisedClassOptions",
 			"level": 1,
@@ -3961,7 +3961,7 @@
 			"source": "UARevisedClassOptions",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial (UA)",
 			"subclassSource": "UARevisedClassOptions",
 			"level": 6,
@@ -3975,7 +3975,7 @@
 			"source": "UARevisedClassOptions",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial (UA)",
 			"subclassSource": "UARevisedClassOptions",
 			"level": 10,
@@ -3989,7 +3989,7 @@
 			"source": "UARevisedClassOptions",
 			"page": 4,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial (UA)",
 			"subclassSource": "UARevisedClassOptions",
 			"level": 14,
@@ -4004,7 +4004,7 @@
 			"source": "UASorcererAndWarlock",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lurker in the Deep (UA)",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
@@ -4071,7 +4071,7 @@
 			"source": "UASorcererAndWarlock",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lurker in the Deep (UA)",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
@@ -4088,7 +4088,7 @@
 			"source": "UASorcererAndWarlock",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lurker in the Deep (UA)",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
@@ -4103,7 +4103,7 @@
 			"source": "UASorcererAndWarlock",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lurker in the Deep (UA)",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 1,
@@ -4118,7 +4118,7 @@
 			"source": "UASorcererAndWarlock",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lurker in the Deep (UA)",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 6,
@@ -4141,7 +4141,7 @@
 			"source": "UASorcererAndWarlock",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lurker in the Deep (UA)",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 6,
@@ -4156,7 +4156,7 @@
 			"source": "UASorcererAndWarlock",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lurker in the Deep (UA)",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 10,
@@ -4172,7 +4172,7 @@
 			"source": "UASorcererAndWarlock",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Lurker in the Deep (UA)",
 			"subclassSource": "UASorcererAndWarlock",
 			"level": 14,
@@ -4201,7 +4201,7 @@
 			"source": "UATheFaithful",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Seeker (UA)",
 			"subclassSource": "UATheFaithful",
 			"level": 1,
@@ -4260,7 +4260,7 @@
 			"source": "UATheFaithful",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Seeker (UA)",
 			"subclassSource": "UATheFaithful",
 			"level": 1,
@@ -4275,7 +4275,7 @@
 			"source": "UATheFaithful",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Seeker (UA)",
 			"subclassSource": "UATheFaithful",
 			"level": 6,
@@ -4289,7 +4289,7 @@
 			"source": "UATheFaithful",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Seeker (UA)",
 			"subclassSource": "UATheFaithful",
 			"level": 10,
@@ -4303,7 +4303,7 @@
 			"source": "UATheFaithful",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Seeker (UA)",
 			"subclassSource": "UATheFaithful",
 			"level": 14,
@@ -4320,7 +4320,7 @@
 			"source": "UAWarlockAndWizard",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 1,
@@ -4382,7 +4382,7 @@
 			"source": "UAWarlockAndWizard",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 1,
@@ -4396,7 +4396,7 @@
 			"source": "UAWarlockAndWizard",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 1,
@@ -4419,14 +4419,14 @@
 			"source": "UAWarlockAndWizard",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 6,
 			"header": 2,
 			"entries": [
 				"Starting at 6th level, your shadow can split from you and transform into a hound of pure darkness. Most of the time, your shadow hound masquerades as your normal shadow. As a bonus action, you can command it to magically slip into the shadow of a creature you can see within 60 feet of you. While the shadow hound is merged in this manner, the target can't gain the benefits of half cover or three-quarters cover against your attack rolls, and you know the distance and direction to the target even if it is hidden. The hound can't be seen by anyone but you and those with {@sense truesight}, and it is unaffected by light. The target has a vague feeling of dread while the hound is present.",
-				"As a bonus action, you can command your shadow hound to return to you. It also automatically returns to you if you and the target are on different planes of existence, if you're {@condition dazed|LevelUpA5E}, or if dispel magic, {@spell remove curse}, or similar magic is used on the target."
+				"As a bonus action, you can command your shadow hound to return to you. It also automatically returns to you if you and the target are on different planes of existence, if you're {@condition dazed|LevelUp}, or if dispel magic, {@spell remove curse}, or similar magic is used on the target."
 			]
 		},
 		{
@@ -4434,7 +4434,7 @@
 			"source": "UAWarlockAndWizard",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 10,
@@ -4448,7 +4448,7 @@
 			"source": "UAWarlockAndWizard",
 			"page": 1,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 14,
@@ -4462,7 +4462,7 @@
 			"source": "UAWarlockAndWizard",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Raven Queen (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 1,
@@ -4521,14 +4521,14 @@
 			"source": "UAWarlockAndWizard",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Raven Queen (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 1,
 			"header": 1,
 			"entries": [
 				"Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a {@creature raven}, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.",
-				"While the raven is perched on your shoulder, you gain {@sense darkvision} with a range of 30 feet and a bonus to your passive Wisdom ({@skill Perception}) score and to Wisdom ({@skill Perception}) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is {@condition dazed|LevelUpA5E}.",
+				"While the raven is perched on your shoulder, you gain {@sense darkvision} with a range of 30 feet and a bonus to your passive Wisdom ({@skill Perception}) score and to Wisdom ({@skill Perception}) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is {@condition dazed|LevelUp}.",
 				"You can see through the raven's eyes and hear what it hears while it is within 100 feet of you. In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.",
 				"The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
 				"At the end of a short or long rest, you can call the raven back to you\u2014no matter where it is or whether it died\u2014and it reappears within 5 feet of you."
@@ -4539,7 +4539,7 @@
 			"source": "UAWarlockAndWizard",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Raven Queen (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 6,
@@ -4553,7 +4553,7 @@
 			"source": "UAWarlockAndWizard",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Raven Queen (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 10,
@@ -4567,7 +4567,7 @@
 			"source": "UAWarlockAndWizard",
 			"page": 2,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Raven Queen (UA)",
 			"subclassSource": "UAWarlockAndWizard",
 			"level": 14,
@@ -4581,7 +4581,7 @@
 			"source": "VRGR",
 			"page": 30,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 1,
@@ -4641,7 +4641,7 @@
 			"source": "VRGR",
 			"page": 30,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 1,
@@ -4666,7 +4666,7 @@
 			"source": "VRGR",
 			"page": 30,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 6,
@@ -4682,7 +4682,7 @@
 			"source": "VRGR",
 			"page": 30,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 10,
@@ -4698,7 +4698,7 @@
 			"source": "VRGR",
 			"page": 30,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Undead",
 			"subclassSource": "VRGR",
 			"level": 14,
@@ -4725,7 +4725,7 @@
 			"source": "XGE",
 			"page": 54,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -4788,7 +4788,7 @@
 			"source": "XGE",
 			"page": 54,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -4802,7 +4802,7 @@
 			"source": "XGE",
 			"page": 54,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -4818,7 +4818,7 @@
 			"source": "XGE",
 			"page": 54,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -4832,7 +4832,7 @@
 			"source": "XGE",
 			"page": 54,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -4846,7 +4846,7 @@
 			"source": "XGE",
 			"page": 54,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Celestial",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -4861,7 +4861,7 @@
 			"source": "XGE",
 			"page": 55,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -4924,7 +4924,7 @@
 			"source": "XGE",
 			"page": 55,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 1,
@@ -4939,13 +4939,13 @@
 			"source": "XGE",
 			"page": 55,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are {@condition dazed|LevelUpA5E}. Until the curse ends, you gain the following benefits:",
+				"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are {@condition dazed|LevelUp}. Until the curse ends, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -4962,7 +4962,7 @@
 			"source": "XGE",
 			"page": 55,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -4978,7 +4978,7 @@
 			"source": "XGE",
 			"page": 55,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -4992,13 +4992,13 @@
 			"source": "XGE",
 			"page": 55,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Hexblade",
 			"subclassSource": "XGE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition dazed|LevelUpA5E}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
+				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition dazed|LevelUp}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
 			]
 		},
 		{
@@ -5006,7 +5006,7 @@
 			"source": "TCE",
 			"page": 73,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -5019,7 +5019,7 @@
 			"source": "TCE",
 			"page": 73,
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Genie",
 			"subclassSource": "TCE",
 			"level": 1,
@@ -5029,11 +5029,11 @@
 		},
 		{
 			"name": "Starstruck",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Alienist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"When you take this archetype at 1st level, your study of alien forces conveys mind-altering magical insights. Choose one of the following:",
@@ -5064,11 +5064,11 @@
 		},
 		{
 			"name": "Mutated Carapace",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Alienist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, your skin mutates and sheds, revealing armor-like patches of barnacles, chitinous plates, glowing crystals, scales, or the like. When you take damage, except for psychic damage, you can use your reaction to reduce the amount taken by your spellcasting ability modifier + your warlock level (minimum 1). Once you have used this feature a number of times equal to half your proficiency bonus, you can’t do so again until you finish a long rest."
@@ -5076,11 +5076,11 @@
 		},
 		{
 			"name": "Subtle Disturbance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Alienist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, your uncanny presence sows unease and panic. You gain the following benefits.",
@@ -5095,25 +5095,25 @@
 		},
 		{
 			"name": "Insidious Seed",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Alienist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
-				"At 14th level, your psychic tendrils latch on their victim and do not let go. You learn {@spell dominate beast|LevelUpA5E} and {@spell dominate person|LevelUpA5E}, if you do not already know these spells. For you, {@spell dominate beast|LevelUpA5E}, {@spell dominate person|LevelUpA5E}, and {@spell dominate monster|LevelUpA5E} gain the ritual tag.",
+				"At 14th level, your psychic tendrils latch on their victim and do not let go. You learn {@spell dominate beast|LevelUp} and {@spell dominate person|LevelUp}, if you do not already know these spells. For you, {@spell dominate beast|LevelUp}, {@spell dominate person|LevelUp}, and {@spell dominate monster|LevelUp} gain the ritual tag.",
 				"When you cast one of these spells, you can change the duration to 1 hour per warlock level and do so without the need for concentration.",
 				"Once you have used this feature, you can’t do so again until you finish a long rest."
 			]
 		},
 		{
 			"name": "Sanguine Contract",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Diabolist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"When you take this archetype at 1st level, your signature on a certain metaphysical compact grants you a pernicious boon. Choose one of the following:",
@@ -5143,11 +5143,11 @@
 		},
 		{
 			"name": "Dogs of Hell",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Diabolist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, when you kill a creature targeted by your Diabolical Curse or under the effects of one of your warlock spells, you can bid your patron conjure into your service either a {@creature death dog} or a {@creature ghoul} (your choice) into an unoccupied space within 30 feet. The creature rolls its own initiative, has its own turns, and obeys your verbal commands. The creature disappears after 1 minute, when you are knocked unconscious, or when it is reduced to 0 hit points.",
@@ -5157,11 +5157,11 @@
 		},
 		{
 			"name": "Blasphemous Act",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Diabolist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, you can siphon away divine power intended for the gods’ chosen. At the end of each long rest, you gain a Channel Divinity feature. This feature must be from a {@class cleric} archetype and granted to clerics of 2nd level. Alternatively, you can instead gain Turn Undead with the benefit of the Command Undead empowerment.",
@@ -5170,11 +5170,11 @@
 		},
 		{
 			"name": "Hurl Through Hell",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Diabolist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, you can condemn a creature to see Hell in all its infernal glory. When you hit a creature with an attack, you can use this feature to instantly fling it through the most horrific vistas of the multiverse. The creature disappears until the end of your next turn, reappearing in the space it previously occupied, or the nearest unoccupied space. If the creature is not a fiend, it takes {@dice 10d10} psychic, fire, or cold damage (your choice). Once you have used this feature, you can’t do so again until you finish a long rest."
@@ -5182,14 +5182,14 @@
 		},
 		{
 			"name": "Rewoven Witch Magic",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spellbound",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
-				"When you take this archetype at 1st level, your patron sews the powers of the fey into your being. You learn {@spell druidcraft|LevelUpA5E} as a bonus cantrip. Additionally, choose one of the following:",
+				"When you take this archetype at 1st level, your patron sews the powers of the fey into your being. You learn {@spell druidcraft|LevelUp} as a bonus cantrip. Additionally, choose one of the following:",
 				{
 					"type": "entries",
 					"name": "Quickling Sprint",
@@ -5216,11 +5216,11 @@
 		},
 		{
 			"name": "Mischievous Mobility",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spellbound",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you learn new ways to travel which help you avoid— and find— trouble. Choose one of the following:",
@@ -5243,11 +5243,11 @@
 		},
 		{
 			"name": "Toadstool Sanctuary",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spellbound",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain the power to open a tiny fissure into the Dreaming which serves as a wellspring of revitalizing energy. When you are in a forest, woodlands, or other healthy greenspace, you can dance, sing, or chant for 1 minute to spring forth a circle of mushrooms in the unoccupied space around you. The mushroom circle can have a radius of up to 15 feet (minimum diameter 5 feet). Creatures resting in your toadstool sanctuary for 10 minutes gain the benefits of a short rest.",
@@ -5256,11 +5256,11 @@
 		},
 		{
 			"name": "Faeries' Retreat",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Spellbound",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, you can instantly traverse the Dreaming to a place of hopeful refuge. You can use an action to teleport yourself and up to five willing creatures you can see within 30 feet, disappearing in flashes of bright color or a vortex of leaves. You each reappear no further than 1 mile away, in the nearest unoccupied space within 30 feet of your Toadstool Sanctuary, or a fairy ring or monolith consecrated to the fey which you have previously seen. If you are already at such a location when you use this feature, you and the creatures instead teleport into or return from the Dreaming.",
@@ -5269,11 +5269,11 @@
 		},
 		{
 			"name": "Magical Studies",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Apprentice",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"When you take this archetype at 1st level, you gain an expertise die in Arcana. Additionally, you learn a cantrip from the {@filter wizard spell list|spells|level=0|class=Wizard}. This does not count toward your total cantrips known."
@@ -5281,11 +5281,11 @@
 		},
 		{
 			"name": "Emergency Blink",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Apprentice",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, when you would be hit by an attack, you may use your reaction to instantly teleport through the Astral Plane, causing the triggering attack to miss. You then immediately reappear in an unoccupied space of your choice within 30' of where you disappeared. Once you use this, you must finish a short or long rest before you can do so again."
@@ -5293,11 +5293,11 @@
 		},
 		{
 			"name": "Flexible Preparations",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Apprentice",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"Also at 6th level, each time you finish a short rest, you may replace 1 warlock spell you have prepared of 1st-level or higher with another warlock spell of your choice."
@@ -5305,11 +5305,11 @@
 		},
 		{
 			"name": "Arcane Defence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Apprentice",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain resistance to force damage, and when you are forced to make a saving throw to resist the effects of a spell or spell-like effect, you can use your reaction to make a save with your spellcasting ability in place of the normal save. You can use this reaction a number of times equal to your spellcasting ability modifier, and you regain all uses when you finish a long rest."
@@ -5317,11 +5317,11 @@
 		},
 		{
 			"name": "Unknown Feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Apprentice",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"This feature has not been defined."
@@ -5329,11 +5329,11 @@
 		},
 		{
 			"name": "The Talk of the Town",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Urbanist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Starting at 1st level, you are adept at talking in a city—any community of at least 5,000 people. You intuitively can speak in the prevailing language of the city and use an accent and slang like a local if you desire.",
@@ -5347,11 +5347,11 @@
 		},
 		{
 			"name": "Secret Shopper",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Urbanist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you always maintain an odd liminal presence in the city you were born in. This allows you to purchase any commonly available good from that city at any time. Items you buy this way must be something you can carry in your hands, so no producing boats out of your sleeve. Also, you can only buy items that the seller would freely offer to a random, anonymous buyer, which typically precludes anything of uncommon or greater rarity. However, you could easily get a meal from your favorite restaurant, get clothes from any public shop, and even buy a newspaper to keep abreast of current events.",
@@ -5360,11 +5360,11 @@
 		},
 		{
 			"name": "Public Transportation",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Urbanist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, while in a city you can spend an action to teleport to any location you are aware of within that city that is serviced by public transportation options, including subrail stations, gondola docks, and — if there are carriages for hire, rickshaws, or similar vehicles — basically any place along a public street. When you use this ability you can bring along up to eight willing creatures you can see.",
@@ -5374,14 +5374,14 @@
 		},
 		{
 			"name": "Get Lost",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Warlock",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Urbanist",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain the ability to lure foes into a demiplane that resembles a stylized version of the city you were born in. You can spend an action to have the essence of that city bleed into a 60 foot radius around you. Enemies in that area see phantom images of streets, alleys, tunnels, and other pathways, and feel their sense of place being assaulted. If a creature ends its turn in the area, you can end the phantom images and cast {@spell maze|LevelUpA5E} on them, trapping them in your demiplane until they can escape. Maintaining the phantom images or the maze requires concentration.",
+				"At 14th level, you gain the ability to lure foes into a demiplane that resembles a stylized version of the city you were born in. You can spend an action to have the essence of that city bleed into a 60 foot radius around you. Enemies in that area see phantom images of streets, alleys, tunnels, and other pathways, and feel their sense of place being assaulted. If a creature ends its turn in the area, you can end the phantom images and cast {@spell maze|LevelUp} on them, trapping them in your demiplane until they can escape. Maintaining the phantom images or the maze requires concentration.",
 				"After you use this ability, you cannot use it again until you complete a long rest."
 			]
 		}
@@ -5389,7 +5389,7 @@
 	"optionalfeature": [
 		{
 			"name": "Agonizing Blast",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5399,7 +5399,7 @@
 		},
 		{
 			"name": "Arcane Appropriation",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5409,7 +5409,7 @@
 						"level": 5,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5420,7 +5420,7 @@
 		},
 		{
 			"name": "Armor of Shadows",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5430,7 +5430,7 @@
 		},
 		{
 			"name": "Beguiling Influence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5440,7 +5440,7 @@
 		},
 		{
 			"name": "Chains of Carceri",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5450,19 +5450,19 @@
 						"level": 15,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					},
 					"pact": "Chain"
 				}
 			],
 			"entries": [
-				"You can cast {@spell hold monster|LevelUpA5E} on a celestial, fiend, or elemental without spending spell points or material components. You must finish a long rest before you can use this invocation on the same creature again."
+				"You can cast {@spell hold monster|LevelUp} on a celestial, fiend, or elemental without spending spell points or material components. You must finish a long rest before you can use this invocation on the same creature again."
 			]
 		},
 		{
 			"name": "Cosmic Armory",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5472,7 +5472,7 @@
 						"level": 17,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5483,7 +5483,7 @@
 		},
 		{
 			"name": "Courts of the Outer Realms",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5494,7 +5494,7 @@
 		},
 		{
 			"name": "Deep Patronage",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5504,7 +5504,7 @@
 						"level": 11,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5515,7 +5515,7 @@
 		},
 		{
 			"name": "Dreadful Word",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5525,18 +5525,18 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You learn the {@spell confusion|LevelUpA5E} spell, and the spell doesn’t count against your number of spells known."
+				"You learn the {@spell confusion|LevelUp} spell, and the spell doesn’t count against your number of spells known."
 			]
 		},
 		{
 			"name": "Eigth Arcanum",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5546,7 +5546,7 @@
 						"level": 15,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5557,7 +5557,7 @@
 		},
 		{
 			"name": "Eldritch Bind",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5567,20 +5567,20 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					},
 					"other": "Eldritch Whip feature"
 				}
 			],
 			"entries": [
-				"When you hit a creature with your Eldritch Whip, you can force it to make a Constitution saving throw or be {@condition staggered|LevelUpA5E} for 1 minute. At the end of each of its turns, the staggered creature can repeat the saving throw, ending the effect on a success.",
+				"When you hit a creature with your Eldritch Whip, you can force it to make a Constitution saving throw or be {@condition staggered|LevelUp} for 1 minute. At the end of each of its turns, the staggered creature can repeat the saving throw, ending the effect on a success.",
 				"Once you use this feature, you cannot do so again until you finish a short or long rest. You also regain the use of this feature after you’ve spent 5 spell points to cast a spell or use other warlock features"
 			]
 		},
 		{
 			"name": "Eldritch Elementalism",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5590,7 +5590,7 @@
 		},
 		{
 			"name": "Eldritch Grasp",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5600,7 +5600,7 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5611,7 +5611,7 @@
 		},
 		{
 			"name": "Eldritch Prism",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5621,7 +5621,7 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					},
 					"other": "Eldritch Disturbance feature"
@@ -5634,7 +5634,7 @@
 		},
 		{
 			"name": "Eldritch Riposte",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5649,7 +5649,7 @@
 		},
 		{
 			"name": "Eldritch Severance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5659,7 +5659,7 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					},
 					"other": "Eldritch Scythe feature"
@@ -5672,7 +5672,7 @@
 		},
 		{
 			"name": "Eldritch Spear",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5687,7 +5687,7 @@
 		},
 		{
 			"name": "Eldritch Squall",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5697,7 +5697,7 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					},
 					"other": "Eldritch Ray feature"
@@ -5710,7 +5710,7 @@
 		},
 		{
 			"name": "Eldritch Tentacle",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5720,7 +5720,7 @@
 		},
 		{
 			"name": "Eldritch Warrior",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5730,7 +5730,7 @@
 		},
 		{
 			"name": "Entity of Myth",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5740,7 +5740,7 @@
 						"level": 17,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5751,7 +5751,7 @@
 		},
 		{
 			"name": "Eyes of the Runekeeper",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5761,17 +5761,17 @@
 		},
 		{
 			"name": "Fiendish Vigor",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"You learn the {@condition false life|LevelUpA5E} spell, and the spell doesn’t count against your number of spells known. When you cast it on yourself as a 1st-level spell, you can do so without spending spell points or material components."
+				"You learn the {@condition false life|LevelUp} spell, and the spell doesn’t count against your number of spells known. When you cast it on yourself as a 1st-level spell, you can do so without spending spell points or material components."
 			]
 		},
 		{
 			"name": "Fog Dance",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5781,19 +5781,19 @@
 						"level": 13,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					},
 					"other": "Spellbound archetype"
 				}
 			],
 			"entries": [
-				"You can cast {@spell misty step|LevelUpA5E} without spending spell points, and if you do not move on your turn you can cast it without using a bonus action."
+				"You can cast {@spell misty step|LevelUp} without spending spell points, and if you do not move on your turn you can cast it without using a bonus action."
 			]
 		},
 		{
 			"name": "Frog Fangs",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5808,7 +5808,7 @@
 		},
 		{
 			"name": "Gaze of Two Minds",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5818,7 +5818,7 @@
 		},
 		{
 			"name": "Lifedrinker",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5833,17 +5833,17 @@
 		},
 		{
 			"name": "Mask of Many Faces",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"You can cast {@spell disguise self|LevelUpA5E} without spending spell points."
+				"You can cast {@spell disguise self|LevelUp} without spending spell points."
 			]
 		},
 		{
 			"name": "Minions of the Multiverse",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5853,7 +5853,7 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5864,7 +5864,7 @@
 		},
 		{
 			"name": "Mire the Mind",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5874,28 +5874,28 @@
 						"level": 5,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You can cast {@spell slow|LevelUpA5E} once by spending 5 spell points. You cannot do so again until you finish a long rest."
+				"You can cast {@spell slow|LevelUp} once by spending 5 spell points. You cannot do so again until you finish a long rest."
 			]
 		},
 		{
 			"name": "Misty Visions",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"You can cast {@spell silent image|LevelUpA5E} without spending spell points or material components."
+				"You can cast {@spell silent image|LevelUp} without spending spell points or material components."
 			]
 		},
 		{
 			"name": "Noxious Invigoration",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5905,7 +5905,7 @@
 		},
 		{
 			"name": "Ominous Tormentor",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5915,7 +5915,7 @@
 		},
 		{
 			"name": "Overclocked Concentration",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5925,7 +5925,7 @@
 						"level": 15,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5936,7 +5936,7 @@
 		},
 		{
 			"name": "Pactkeeper's Reward",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5946,7 +5946,7 @@
 						"level": 13,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5957,7 +5957,7 @@
 		},
 		{
 			"name": "Patron Token",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5967,7 +5967,7 @@
 		},
 		{
 			"name": "Penultimate Arcanum",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5977,7 +5977,7 @@
 						"level": 17,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -5988,7 +5988,7 @@
 		},
 		{
 			"name": "Potent Witchcraft",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -5998,7 +5998,7 @@
 		},
 		{
 			"name": "Psionic Secrecy",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6008,7 +6008,7 @@
 						"level": 11,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					},
 					"other": "Alienist archetype"
@@ -6020,7 +6020,7 @@
 		},
 		{
 			"name": "Reanimator",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6030,18 +6030,18 @@
 						"level": 5,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You can cast {@spell animate dead|LevelUpA5E} once by spending 5 spell points; you can instead cast it as 4th-level spell by spending 6 spell points, or as a 5th-level spell by spending 7 spell points. You cannot do so again until you finish a long rest."
+				"You can cast {@spell animate dead|LevelUp} once by spending 5 spell points; you can instead cast it as 4th-level spell by spending 6 spell points, or as a 5th-level spell by spending 7 spell points. You cannot do so again until you finish a long rest."
 			]
 		},
 		{
 			"name": "Repelling Blast",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6051,7 +6051,7 @@
 		},
 		{
 			"name": "Sculptor of Flesh",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6061,18 +6061,18 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You can cast {@spell polymorph|LevelUpA5E} once by spending 6 spell points. You cannot do so again until you finish a long rest."
+				"You can cast {@spell polymorph|LevelUp} once by spending 6 spell points. You cannot do so again until you finish a long rest."
 			]
 		},
 		{
 			"name": "Seething Aura",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6082,7 +6082,7 @@
 						"level": 15,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -6093,7 +6093,7 @@
 		},
 		{
 			"name": "Seventh Arcanum",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6103,7 +6103,7 @@
 						"level": 13,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -6114,7 +6114,7 @@
 		},
 		{
 			"name": "Sixth Arcanum",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6124,7 +6124,7 @@
 						"level": 11,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -6135,7 +6135,7 @@
 		},
 		{
 			"name": "Sign of Ill Omen",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6145,18 +6145,18 @@
 						"level": 5,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You learn the {@spell bestow curse|LevelUpA5E} spell, and the spell doesn’t count against your number of spells known."
+				"You learn the {@spell bestow curse|LevelUp} spell, and the spell doesn’t count against your number of spells known."
 			]
 		},
 		{
 			"name": "Spellbinding Contract",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6166,29 +6166,29 @@
 						"level": 9,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You can cast {@spell geas|LevelUpA5E} once by spending 7 spell points. You cannot do so again until you finish a long rest.",
+				"You can cast {@spell geas|LevelUp} once by spending 7 spell points. You cannot do so again until you finish a long rest.",
 				"If the command of the geas is the stipulation of an agreement to which the target consents, the target automatically fails its saving throw against this spell."
 			]
 		},
 		{
 			"name": "Thief of Five Fates",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-				"You learn the {@spell bane|LevelUpA5E} spell, and the spell doesn’t count against your number of spells known."
+				"You learn the {@spell bane|LevelUp} spell, and the spell doesn’t count against your number of spells known."
 			]
 		},
 		{
 			"name": "Tines of Wyrd",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6198,7 +6198,7 @@
 						"level": 15,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -6209,7 +6209,7 @@
 		},
 		{
 			"name": "Thirsting Blade",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6219,7 +6219,7 @@
 						"level": 5,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					},
 					"pact": "Blade"
@@ -6231,7 +6231,7 @@
 		},
 		{
 			"name": "Versatile Blast",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6242,7 +6242,7 @@
 		},
 		{
 			"name": "Voice of the Chain Master",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6257,7 +6257,7 @@
 		},
 		{
 			"name": "Whispers of the Grave",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6267,18 +6267,18 @@
 						"level": 9,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You can cast {@spell speak with dead|LevelUpA5E} without spending spell points."
+				"You can cast {@spell speak with dead|LevelUp} without spending spell points."
 			]
 		},
 		{
 			"name": "Wicked Youth",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6288,7 +6288,7 @@
 						"level": 15,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					},
 					"other": "Diabolist archetype"
@@ -6301,7 +6301,7 @@
 		},
 		{
 			"name": "Witch Sight",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6311,7 +6311,7 @@
 						"level": 15,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -6322,7 +6322,7 @@
 		},
 		{
 			"name": "Whirling Void",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"EI"
 			],
@@ -6332,18 +6332,18 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You learn the {@spell black tentacles|LevelUpA5E} spell, and the spell doesn’t count against your number of spells known."
+				"You learn the {@spell black tentacles|LevelUp} spell, and the spell doesn’t count against your number of spells known."
 			]
 		},
 		{
 			"name": "Ascendant Step",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6353,28 +6353,28 @@
 						"level": 9,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You can cast {@spell levitate|LevelUpA5E} on yourself without spending spell points or material components."
+				"You can cast {@spell levitate|LevelUp} on yourself without spending spell points or material components."
 			]
 		},
 		{
 			"name": "Beast Speech",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
 			"entries": [
-				"You are under the constant effects of the {@spell speak with animals|LevelUpA5E} spell. This effect does not emit a magical aura."
+				"You are under the constant effects of the {@spell speak with animals|LevelUp} spell. This effect does not emit a magical aura."
 			]
 		},
 		{
 			"name": "Book of Ancient Secrets",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6390,7 +6390,7 @@
 		},
 		{
 			"name": "Devil's Sight",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6400,17 +6400,17 @@
 		},
 		{
 			"name": "Eldritch Sight",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
 			"entries": [
-				"You can cast {@spell detect magic|LevelUpA5E} without spending spell points."
+				"You can cast {@spell detect magic|LevelUp} without spending spell points."
 			]
 		},
 		{
 			"name": "Inscrutability",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6420,18 +6420,18 @@
 						"level": 13,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You are under the constant effects of the {@spell nondetection|LevelUpA5E} spell."
+				"You are under the constant effects of the {@spell nondetection|LevelUp} spell."
 			]
 		},
 		{
 			"name": "Master of Myriad Forms",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6441,18 +6441,18 @@
 						"level": 15,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You can cast {@spell alter self|LevelUpA5E} without spending spell points."
+				"You can cast {@spell alter self|LevelUp} without spending spell points."
 			]
 		},
 		{
 			"name": "Mirror, Mirror",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6462,19 +6462,19 @@
 						"level": 3,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
 				"Using a reflective object, such as an ordinary mirror or the smooth surface of water, you can commune with your patron or their emissary. You may do so during a short or long rest, receiving or conveying information related to your master’s bidding. This entity may also use such surfaces to bridge communication with you on its own terms.",
-				"You can also use this feature to cast {@spell augury|LevelUpA5E} without spending spell points. Casting the spell in this way does not require material components, although you do need a reflective surface by which your patron might appear to you. Once you cast the spell in this way, you cannot do so again until you finish a long rest."
+				"You can also use this feature to cast {@spell augury|LevelUp} without spending spell points. Casting the spell in this way does not require material components, although you do need a reflective surface by which your patron might appear to you. Once you cast the spell in this way, you cannot do so again until you finish a long rest."
 			]
 		},
 		{
 			"name": "One with Shadows",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6484,7 +6484,7 @@
 						"level": 5,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -6495,17 +6495,17 @@
 		},
 		{
 			"name": "Otherworldly Leap",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
 			"entries": [
-				"You are under the constant effects of the {@spell jump|LevelUpA5E} spell. This effect does not emit a magical aura."
+				"You are under the constant effects of the {@spell jump|LevelUp} spell. This effect does not emit a magical aura."
 			]
 		},
 		{
 			"name": "Portents and Portals",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6516,7 +6516,7 @@
 		},
 		{
 			"name": "Shadowveil",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6526,18 +6526,18 @@
 						"level": 15,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You can cast {@spell invisibility|LevelUpA5E} without spending spell points."
+				"You can cast {@spell invisibility|LevelUp} without spending spell points."
 			]
 		},
 		{
 			"name": "Visions of Distant Realms",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],
@@ -6547,19 +6547,19 @@
 						"level": 7,
 						"class": {
 							"name": "Warlock",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
 			],
 			"entries": [
-				"You can cast {@spell arcane eye|LevelUpA5E} once without spending spell points. You cannot do so again until you finish a long rest.",
-				"At 15th level, you can instead cast {@spell arcane eye|LevelUpA5E} at will."
+				"You can cast {@spell arcane eye|LevelUp} once without spending spell points. You cannot do so again until you finish a long rest.",
+				"At 15th level, you can instead cast {@spell arcane eye|LevelUp} at will."
 			]
 		},
 		{
 			"name": "Whiff of the Beyond",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"SA"
 			],

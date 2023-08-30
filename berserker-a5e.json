@@ -7,9 +7,9 @@
 		},
 		"sources": [
 			{
-				"json": "LevelUpA5E",
+				"json": "LevelUp",
 				"abbreviation": "A5E",
-				"full": "Level Up: Adventurers Guide (A5E)",
+				"full": "Level Up (A5E)",
 				"authors": [
 					"Level Up"
 				],
@@ -23,7 +23,7 @@
 	"class": [
 		{
 			"name": "Berserker",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"hd": {
 				"number": 1,
 				"faces": 12
@@ -330,55 +330,55 @@
 				}
 			],
 			"classFeatures": [
-				"Battle Defence|Berserker|LevelUpA5E|1|LevelUpA5E",
-				"Developed Talents|Berserker|LevelUpA5E|1|LevelUpA5E",
-				"Rage|Berserker|LevelUpA5E|1|LevelUpA5E",
-				"Combat Maneuvers|Berserker|LevelUpA5E|2|LevelUpA5E",
-				"Danger Sense|Berserker|LevelUpA5E|2|LevelUpA5E",
-				"Furious Critical|Berserker|LevelUpA5E|2|LevelUpA5E",
-				"Versatile Exploration|Berserker|LevelUpA5E|3|LevelUpA5E",
-				"Warrior Born|Berserker|LevelUpA5E|3|LevelUpA5E",
+				"Battle Defence|Berserker|LevelUp|1|LevelUp",
+				"Developed Talents|Berserker|LevelUp|1|LevelUp",
+				"Rage|Berserker|LevelUp|1|LevelUp",
+				"Combat Maneuvers|Berserker|LevelUp|2|LevelUp",
+				"Danger Sense|Berserker|LevelUp|2|LevelUp",
+				"Furious Critical|Berserker|LevelUp|2|LevelUp",
+				"Versatile Exploration|Berserker|LevelUp|3|LevelUp",
+				"Warrior Born|Berserker|LevelUp|3|LevelUp",
 				{
-					"classFeature": "Way of Wrath|Berserker|LevelUpA5E|3|LevelUpA5E",
+					"classFeature": "Way of Wrath|Berserker|LevelUp|3|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Berserker|LevelUpA5E|4|LevelUpA5E",
-				"Furious Critical (2)|Berserker|LevelUpA5E|4|LevelUpA5E",
-				"Crushing Blows|Berserker|LevelUpA5E|5|LevelUpA5E",
-				"Extra Attack|Berserker|LevelUpA5E|5|LevelUpA5E",
-				"Furious Critical (3)|Berserker|LevelUpA5E|6|LevelUpA5E",
-				"Martial Presence|Berserker|LevelUpA5E|6|LevelUpA5E",
+				"Ability Score Improvement|Berserker|LevelUp|4|LevelUp",
+				"Furious Critical (2)|Berserker|LevelUp|4|LevelUp",
+				"Crushing Blows|Berserker|LevelUp|5|LevelUp",
+				"Extra Attack|Berserker|LevelUp|5|LevelUp",
+				"Furious Critical (3)|Berserker|LevelUp|6|LevelUp",
+				"Martial Presence|Berserker|LevelUp|6|LevelUp",
 				{
-					"classFeature": "Way feature|Berserker|LevelUpA5E|6|LevelUpA5E",
+					"classFeature": "Way feature|Berserker|LevelUp|6|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Advanced Battle Defence|Berserker|LevelUpA5E|7|LevelUpA5E",
-				"Ability Score Improvement|Berserker|LevelUpA5E|8|LevelUpA5E",
-				"Furious Critical (4)|Berserker|LevelUpA5E|8|LevelUpA5E",
-				"Battle Moxie|Berserker|LevelUpA5E|9|LevelUpA5E",
-				"Furious Critical (5)|Berserker|LevelUpA5E|10|LevelUpA5E",
+				"Advanced Battle Defence|Berserker|LevelUp|7|LevelUp",
+				"Ability Score Improvement|Berserker|LevelUp|8|LevelUp",
+				"Furious Critical (4)|Berserker|LevelUp|8|LevelUp",
+				"Battle Moxie|Berserker|LevelUp|9|LevelUp",
+				"Furious Critical (5)|Berserker|LevelUp|10|LevelUp",
 				{
-					"classFeature": "Way feature|Berserker|LevelUpA5E|10|LevelUpA5E",
+					"classFeature": "Way feature|Berserker|LevelUp|10|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"School of the Open Road|Berserker|LevelUpA5E|11|LevelUpA5E",
-				"Ability Score Improvement|Berserker|LevelUpA5E|12|LevelUpA5E",
-				"Crushing Blows (2)|Berserker|LevelUpA5E|12|LevelUpA5E",
-				"Furious Critical (6)|Berserker|LevelUpA5E|12|LevelUpA5E",
-				"Notable Reputation|Berserker|LevelUpA5E|13|LevelUpA5E",
-				"Furious Critical (7)|Berserker|LevelUpA5E|14|LevelUpA5E",
+				"School of the Open Road|Berserker|LevelUp|11|LevelUp",
+				"Ability Score Improvement|Berserker|LevelUp|12|LevelUp",
+				"Crushing Blows (2)|Berserker|LevelUp|12|LevelUp",
+				"Furious Critical (6)|Berserker|LevelUp|12|LevelUp",
+				"Notable Reputation|Berserker|LevelUp|13|LevelUp",
+				"Furious Critical (7)|Berserker|LevelUp|14|LevelUp",
 				{
-					"classFeature": "Way feature|Berserker|LevelUpA5E|14|LevelUpA5E",
+					"classFeature": "Way feature|Berserker|LevelUp|14|LevelUp",
 					"gainSubclassFeature": true
 				},
-				"Prickly Mind|Berserker|LevelUpA5E|15|LevelUpA5E",
-				"Ability Score Improvement|Berserker|LevelUpA5E|16|LevelUpA5E",
-				"Furious Critical (8)|Berserker|LevelUpA5E|16|LevelUpA5E",
-				"Crushing Blows (3)|Berserker|LevelUpA5E|17|LevelUpA5E",
-				"Reliable Might|Berserker|LevelUpA5E|17|LevelUpA5E",
-				"Furious Critical (9)|Berserker|LevelUpA5E|18|LevelUpA5E",
-				"Ability Score Improvement|Berserker|LevelUpA5E|19|LevelUpA5E",
-				"Paragon of Rage|Berserker|LevelUpA5E|20|LevelUpA5E"
+				"Prickly Mind|Berserker|LevelUp|15|LevelUp",
+				"Ability Score Improvement|Berserker|LevelUp|16|LevelUp",
+				"Furious Critical (8)|Berserker|LevelUp|16|LevelUp",
+				"Crushing Blows (3)|Berserker|LevelUp|17|LevelUp",
+				"Reliable Might|Berserker|LevelUp|17|LevelUp",
+				"Furious Critical (9)|Berserker|LevelUp|18|LevelUp",
+				"Ability Score Improvement|Berserker|LevelUp|19|LevelUp",
+				"Paragon of Rage|Berserker|LevelUp|20|LevelUp"
 			],
 			"subclassTitle": "Way of Wrath"
 		}
@@ -389,14 +389,14 @@
 			"shortName": "Berserker",
 			"source": "PHB",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 49,
 			"srd": true,
 			"subclassFeatures": [
-				"Path of the Berserker|Berserker|LevelUpA5E|Berserker|LevelUpA5E|3",
-				"Mindless Rage|Berserker|LevelUpA5E|Berserker|LevelUpA5E|6",
-				"Intimidating Presence|Berserker|LevelUpA5E|Berserker|LevelUpA5E|10",
-				"Retaliation|Berserker|LevelUpA5E|Berserker|LevelUpA5E|14"
+				"Path of the Berserker|Berserker|LevelUp|Berserker|LevelUp|3",
+				"Mindless Rage|Berserker|LevelUp|Berserker|LevelUp|6",
+				"Intimidating Presence|Berserker|LevelUp|Berserker|LevelUp|10",
+				"Retaliation|Berserker|LevelUp|Berserker|LevelUp|14"
 			]
 		},
 		{
@@ -404,7 +404,7 @@
 			"shortName": "Totem Warrior",
 			"source": "PHB",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 50,
 			"additionalSpells": [
 				{
@@ -424,10 +424,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Path of the Totem Warrior|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|3",
-				"Aspect of the Beast|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|6",
-				"Spirit Walker|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|10",
-				"Totemic Attunement|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|14"
+				"Path of the Totem Warrior|Berserker|LevelUp|Totem Warrior|LevelUp|3",
+				"Aspect of the Beast|Berserker|LevelUp|Totem Warrior|LevelUp|6",
+				"Spirit Walker|Berserker|LevelUp|Totem Warrior|LevelUp|10",
+				"Totemic Attunement|Berserker|LevelUp|Totem Warrior|LevelUp|14"
 			]
 		},
 		{
@@ -435,13 +435,13 @@
 			"shortName": "Battlerager",
 			"source": "SCAG",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 121,
 			"subclassFeatures": [
-				"Path of the Battlerager|Berserker|LevelUpA5E|Battlerager|SCAG|3",
-				"Reckless Abandon|Berserker|LevelUpA5E|Battlerager|SCAG|6",
-				"Battlerager Charge|Berserker|LevelUpA5E|Battlerager|SCAG|10",
-				"Spiked Retribution|Berserker|LevelUpA5E|Battlerager|SCAG|14"
+				"Path of the Battlerager|Berserker|LevelUp|Battlerager|SCAG|3",
+				"Reckless Abandon|Berserker|LevelUp|Battlerager|SCAG|6",
+				"Battlerager Charge|Berserker|LevelUp|Battlerager|SCAG|10",
+				"Spiked Retribution|Berserker|LevelUp|Battlerager|SCAG|14"
 			]
 		},
 		{
@@ -449,14 +449,14 @@
 			"shortName": "Ancestral Guardian (UA)",
 			"source": "UABarbarianPrimalPaths",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Path of the Ancestral Guardian|Berserker|LevelUpA5E|Ancestral Guardian (UA)|UABarbarianPrimalPaths|3",
-				"Ancestral Shield|Berserker|LevelUpA5E|Ancestral Guardian (UA)|UABarbarianPrimalPaths|6",
-				"Consult the Spirits|Berserker|LevelUpA5E|Ancestral Guardian (UA)|UABarbarianPrimalPaths|10",
-				"Vengeful Ancestors|Berserker|LevelUpA5E|Ancestral Guardian (UA)|UABarbarianPrimalPaths|14"
+				"Path of the Ancestral Guardian|Berserker|LevelUp|Ancestral Guardian (UA)|UABarbarianPrimalPaths|3",
+				"Ancestral Shield|Berserker|LevelUp|Ancestral Guardian (UA)|UABarbarianPrimalPaths|6",
+				"Consult the Spirits|Berserker|LevelUp|Ancestral Guardian (UA)|UABarbarianPrimalPaths|10",
+				"Vengeful Ancestors|Berserker|LevelUp|Ancestral Guardian (UA)|UABarbarianPrimalPaths|14"
 			]
 		},
 		{
@@ -464,14 +464,14 @@
 			"shortName": "Storm Herald (UA)",
 			"source": "UABarbarianPrimalPaths",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Path of the Storm Herald|Berserker|LevelUpA5E|Storm Herald (UA)|UABarbarianPrimalPaths|3",
-				"Storm Soul|Berserker|LevelUpA5E|Storm Herald (UA)|UABarbarianPrimalPaths|6",
-				"Shield of the Storm|Berserker|LevelUpA5E|Storm Herald (UA)|UABarbarianPrimalPaths|10",
-				"Raging Storm|Berserker|LevelUpA5E|Storm Herald (UA)|UABarbarianPrimalPaths|14"
+				"Path of the Storm Herald|Berserker|LevelUp|Storm Herald (UA)|UABarbarianPrimalPaths|3",
+				"Storm Soul|Berserker|LevelUp|Storm Herald (UA)|UABarbarianPrimalPaths|6",
+				"Shield of the Storm|Berserker|LevelUp|Storm Herald (UA)|UABarbarianPrimalPaths|10",
+				"Raging Storm|Berserker|LevelUp|Storm Herald (UA)|UABarbarianPrimalPaths|14"
 			]
 		},
 		{
@@ -479,14 +479,14 @@
 			"shortName": "Zealot (UA)",
 			"source": "UABarbarianPrimalPaths",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Path of the Zealot|Berserker|LevelUpA5E|Zealot (UA)|UABarbarianPrimalPaths|3",
-				"Zealous Focus|Berserker|LevelUpA5E|Zealot (UA)|UABarbarianPrimalPaths|6",
-				"Zealous Presence|Berserker|LevelUpA5E|Zealot (UA)|UABarbarianPrimalPaths|10",
-				"Rage Beyond Death|Berserker|LevelUpA5E|Zealot (UA)|UABarbarianPrimalPaths|14"
+				"Path of the Zealot|Berserker|LevelUp|Zealot (UA)|UABarbarianPrimalPaths|3",
+				"Zealous Focus|Berserker|LevelUp|Zealot (UA)|UABarbarianPrimalPaths|6",
+				"Zealous Presence|Berserker|LevelUp|Zealot (UA)|UABarbarianPrimalPaths|10",
+				"Rage Beyond Death|Berserker|LevelUp|Zealot (UA)|UABarbarianPrimalPaths|14"
 			]
 		},
 		{
@@ -494,15 +494,15 @@
 			"shortName": "Ancestral Guardian v2 (UA)",
 			"source": "UARevisedSubclasses",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"spellcastingAbility": "wis",
 			"subclassFeatures": [
-				"Path of the Ancestral Guardian v2|Berserker|LevelUpA5E|Ancestral Guardian v2 (UA)|UARevisedSubclasses|3",
-				"Ancestral Shield|Berserker|LevelUpA5E|Ancestral Guardian v2 (UA)|UARevisedSubclasses|6",
-				"Consult the Spirits|Berserker|LevelUpA5E|Ancestral Guardian v2 (UA)|UARevisedSubclasses|10",
-				"Vengeful Ancestors|Berserker|LevelUpA5E|Ancestral Guardian v2 (UA)|UARevisedSubclasses|14"
+				"Path of the Ancestral Guardian v2|Berserker|LevelUp|Ancestral Guardian v2 (UA)|UARevisedSubclasses|3",
+				"Ancestral Shield|Berserker|LevelUp|Ancestral Guardian v2 (UA)|UARevisedSubclasses|6",
+				"Consult the Spirits|Berserker|LevelUp|Ancestral Guardian v2 (UA)|UARevisedSubclasses|10",
+				"Vengeful Ancestors|Berserker|LevelUp|Ancestral Guardian v2 (UA)|UARevisedSubclasses|14"
 			]
 		},
 		{
@@ -510,7 +510,7 @@
 			"shortName": "Ancestral Guardian",
 			"source": "XGE",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 9,
 			"spellcastingAbility": "wis",
 			"additionalSpells": [
@@ -524,10 +524,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Path of the Ancestral Guardian|Berserker|LevelUpA5E|Ancestral Guardian|XGE|3",
-				"Spirit Shield|Berserker|LevelUpA5E|Ancestral Guardian|XGE|6",
-				"Consult the Spirits|Berserker|LevelUpA5E|Ancestral Guardian|XGE|10",
-				"Vengeful Ancestors|Berserker|LevelUpA5E|Ancestral Guardian|XGE|14"
+				"Path of the Ancestral Guardian|Berserker|LevelUp|Ancestral Guardian|XGE|3",
+				"Spirit Shield|Berserker|LevelUp|Ancestral Guardian|XGE|6",
+				"Consult the Spirits|Berserker|LevelUp|Ancestral Guardian|XGE|10",
+				"Vengeful Ancestors|Berserker|LevelUp|Ancestral Guardian|XGE|14"
 			]
 		},
 		{
@@ -535,13 +535,13 @@
 			"shortName": "Storm Herald",
 			"source": "XGE",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 10,
 			"subclassFeatures": [
-				"Path of the Storm Herald|Berserker|LevelUpA5E|Storm Herald|XGE|3",
-				"Storm Soul|Berserker|LevelUpA5E|Storm Herald|XGE|6",
-				"Shielding Storm|Berserker|LevelUpA5E|Storm Herald|XGE|10",
-				"Raging Storm|Berserker|LevelUpA5E|Storm Herald|XGE|14"
+				"Path of the Storm Herald|Berserker|LevelUp|Storm Herald|XGE|3",
+				"Storm Soul|Berserker|LevelUp|Storm Herald|XGE|6",
+				"Shielding Storm|Berserker|LevelUp|Storm Herald|XGE|10",
+				"Raging Storm|Berserker|LevelUp|Storm Herald|XGE|14"
 			]
 		},
 		{
@@ -549,13 +549,13 @@
 			"shortName": "Zealot",
 			"source": "XGE",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 11,
 			"subclassFeatures": [
-				"Path of the Zealot|Berserker|LevelUpA5E|Zealot|XGE|3",
-				"Fanatical Focus|Berserker|LevelUpA5E|Zealot|XGE|6",
-				"Zealous Presence|Berserker|LevelUpA5E|Zealot|XGE|10",
-				"Rage beyond Death|Berserker|LevelUpA5E|Zealot|XGE|14"
+				"Path of the Zealot|Berserker|LevelUp|Zealot|XGE|3",
+				"Fanatical Focus|Berserker|LevelUp|Zealot|XGE|6",
+				"Zealous Presence|Berserker|LevelUp|Zealot|XGE|10",
+				"Rage beyond Death|Berserker|LevelUp|Zealot|XGE|14"
 			]
 		},
 		{
@@ -563,15 +563,15 @@
 			"shortName": "Wild Soul (UA)",
 			"source": "UABarbarianAndMonk",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Path of the Wild Soul|Berserker|LevelUpA5E|Wild Soul (UA)|UABarbarianAndMonk|3",
-				"Magic Reserves|Berserker|LevelUpA5E|Wild Soul (UA)|UABarbarianAndMonk|6",
-				"Arcane Rebuke|Berserker|LevelUpA5E|Wild Soul (UA)|UABarbarianAndMonk|10",
-				"Chaotic Fury|Berserker|LevelUpA5E|Wild Soul (UA)|UABarbarianAndMonk|14",
-				"Improved Magic Reserves|Berserker|LevelUpA5E|Wild Soul (UA)|UABarbarianAndMonk|14"
+				"Path of the Wild Soul|Berserker|LevelUp|Wild Soul (UA)|UABarbarianAndMonk|3",
+				"Magic Reserves|Berserker|LevelUp|Wild Soul (UA)|UABarbarianAndMonk|6",
+				"Arcane Rebuke|Berserker|LevelUp|Wild Soul (UA)|UABarbarianAndMonk|10",
+				"Chaotic Fury|Berserker|LevelUp|Wild Soul (UA)|UABarbarianAndMonk|14",
+				"Improved Magic Reserves|Berserker|LevelUp|Wild Soul (UA)|UABarbarianAndMonk|14"
 			]
 		},
 		{
@@ -579,14 +579,14 @@
 			"shortName": "Beast (UA)",
 			"source": "UA2020SubclassesPt1",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Path of the Beast|Berserker|LevelUpA5E|Beast (UA)|UA2020SubclassesPt1|3",
-				"Bestial Soul|Berserker|LevelUpA5E|Beast (UA)|UA2020SubclassesPt1|6",
-				"Infectious Fury|Berserker|LevelUpA5E|Beast (UA)|UA2020SubclassesPt1|10",
-				"Call the Hunt|Berserker|LevelUpA5E|Beast (UA)|UA2020SubclassesPt1|14"
+				"Path of the Beast|Berserker|LevelUp|Beast (UA)|UA2020SubclassesPt1|3",
+				"Bestial Soul|Berserker|LevelUp|Beast (UA)|UA2020SubclassesPt1|6",
+				"Infectious Fury|Berserker|LevelUp|Beast (UA)|UA2020SubclassesPt1|10",
+				"Call the Hunt|Berserker|LevelUp|Beast (UA)|UA2020SubclassesPt1|14"
 			]
 		},
 		{
@@ -594,13 +594,13 @@
 			"shortName": "Beast",
 			"source": "TCE",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 24,
 			"subclassFeatures": [
-				"Path of the Beast|Berserker|LevelUpA5E|Beast|TCE|3",
-				"Bestial Soul|Berserker|LevelUpA5E|Beast|TCE|6",
-				"Infectious Fury|Berserker|LevelUpA5E|Beast|TCE|10",
-				"Call the Hunt|Berserker|LevelUpA5E|Beast|TCE|14"
+				"Path of the Beast|Berserker|LevelUp|Beast|TCE|3",
+				"Bestial Soul|Berserker|LevelUp|Beast|TCE|6",
+				"Infectious Fury|Berserker|LevelUp|Beast|TCE|10",
+				"Call the Hunt|Berserker|LevelUp|Beast|TCE|14"
 			]
 		},
 		{
@@ -608,13 +608,13 @@
 			"shortName": "Wild Magic",
 			"source": "TCE",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 25,
 			"subclassFeatures": [
-				"Path of Wild Magic|Berserker|LevelUpA5E|Wild Magic|TCE|3",
-				"Bolstering Magic|Berserker|LevelUpA5E|Wild Magic|TCE|6",
-				"Unstable Backlash|Berserker|LevelUpA5E|Wild Magic|TCE|10",
-				"Controlled Surge|Berserker|LevelUpA5E|Wild Magic|TCE|14"
+				"Path of Wild Magic|Berserker|LevelUp|Wild Magic|TCE|3",
+				"Bolstering Magic|Berserker|LevelUp|Wild Magic|TCE|6",
+				"Unstable Backlash|Berserker|LevelUp|Wild Magic|TCE|10",
+				"Controlled Surge|Berserker|LevelUp|Wild Magic|TCE|14"
 			]
 		},
 		{
@@ -622,22 +622,22 @@
 			"shortName": "Giant (UA)",
 			"source": "UA2022GiantOptions",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"page": 1,
 			"subclassFeatures": [
-				"Path of the Giant|Berserker|LevelUpA5E|Giant (UA)|UA2022GiantOptions|3",
-				"Elemental Cleaver|Berserker|LevelUpA5E|Giant (UA)|UA2022GiantOptions|6",
-				"Mighty Impel|Berserker|LevelUpA5E|Giant (UA)|UA2022GiantOptions|10",
-				"Demiurgic Colossus|Berserker|LevelUpA5E|Giant (UA)|UA2022GiantOptions|14"
+				"Path of the Giant|Berserker|LevelUp|Giant (UA)|UA2022GiantOptions|3",
+				"Elemental Cleaver|Berserker|LevelUp|Giant (UA)|UA2022GiantOptions|6",
+				"Mighty Impel|Berserker|LevelUp|Giant (UA)|UA2022GiantOptions|10",
+				"Demiurgic Colossus|Berserker|LevelUp|Giant (UA)|UA2022GiantOptions|14"
 			]
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Battle Defence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Starting at 1st level, you decide on how best to protect yourself on the battlefield - relying on barbaric might or encased in weighty armaments. Choose one of the following options.",
@@ -661,9 +661,9 @@
 		},
 		{
 			"name": "Developed Talents",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"Whether in the ruins of an ancient civilisation, the barren terrain of the hinterlands, or the back alleys of a prosperous city, berserkers are adept at surviving and interacting with their environments.",
@@ -672,9 +672,9 @@
 		},
 		{
 			"name": "Rage",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 1,
 			"entries": [
 				"In battle, you give yourself over to the fury within. Starting at 1st level, on your turn you can use a bonus action to enter a rage.",
@@ -695,16 +695,16 @@
 						"You gain no benefit from temporary hit points."
 					]
 				},
-				"While raging, you cannot choose to use the {@spell fall back|LevelUpA5E} reaction.",
+				"While raging, you cannot choose to use the {@spell fall back|LevelUp} reaction.",
 				"Your rage lasts for 1 minute. It ends early if you are knocked unconscious. You can also end your rage on your turn as a bonus action.",
 				"Once you have raged the number of times shown for your berserker level in the Rages column of the Berserker table, you must finish a long rest before you can rage again."
 			]
 		},
 		{
 			"name": "Combat Maneuvers",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you gain the ability to use combat maneuvers. You gain proficiency in two combat traditions from the following list: {@filter Adamant Mountain|spells|Subschool=adamant mountain|}, {@filter mirror’s glint|spells|Subschool=mirror’s glint|}, {@filter Rapid Current|spells|Subschool=rapid current|}, {@filter Tempered Iron|spells|Subschool=tempered iron|}, {@filter Tooth and Claw|spells|Subschool=tooth and claw|}. You can learn two maneuvers of your choice from traditions you are proficient with.",
@@ -714,9 +714,9 @@
 		},
 		{
 			"name": "Danger Sense",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. YOu have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you cannot be blinded, deafened, or dazed."
@@ -724,9 +724,9 @@
 		},
 		{
 			"name": "Furious Critical",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
 				"Also at 2nd level you learn to maximise the effects of your mightiest blows, empowering your critical hits. Choose one Furious Critical. At 4th level and every even berserker level after, you learn an additional Furious Critical.",
@@ -845,9 +845,9 @@
 		},
 		{
 			"name": "Versatile Exploration",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"Beginning at 3rd level, whenever you learn a new developed talent, you can instead choose from fighter {@filter soldiering knacks|optionalfeatures|feature type=sk}."
@@ -855,9 +855,9 @@
 		},
 		{
 			"name": "Warrior Born",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, the ways of combat that have come naturally to you bring new and unexpected lessons. Choose one of the following.",
@@ -888,9 +888,9 @@
 		},
 		{
 			"name": "Way of Wrath",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"For every berserker there is the spark of rage, ready to be fanned to inferno. The ways they use it however and how it came to be there can differ wildly. Some call upon their bloodline for inner strength, while others force it to a point of furious focus; many attribute it to the spirits that surround them. Still more gain their fury from a far more mundane source, such as betrayal or ill-treatment.",
@@ -899,9 +899,9 @@
 		},
 		{
 			"name": "Way feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain the following archetype feature."
@@ -909,9 +909,9 @@
 		},
 		{
 			"name": "Way feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain the following archetype feature."
@@ -919,9 +919,9 @@
 		},
 		{
 			"name": "Way feature",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain the following archetype feature."
@@ -929,9 +929,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -939,9 +939,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -949,9 +949,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -959,9 +959,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -969,9 +969,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
@@ -979,9 +979,9 @@
 		},
 		{
 			"name": "Crushing Blows",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 5,
 			"entries": [
 				"By 5th level your martial prowess is such that you are able to land attacks to the best effect, dealing devastating amounts of damage. Your melee weapon attacks have +1 critical range.",
@@ -991,9 +991,9 @@
 		},
 		{
 			"name": "Extra Attack",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 5,
 			"entries": [
 				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
@@ -1001,9 +1001,9 @@
 		},
 		{
 			"name": "Martial Presence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level your methodology to battle steeps further into the way you interact with others - and how they interact with you. Choose one of the following:",
@@ -1035,9 +1035,9 @@
 		},
 		{
 			"name": "Advanced Battle Defence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 7,
 			"entries": [
 				"By 7th level you have doubled down on your battle defence style. Choose one of the following.",
@@ -1059,9 +1059,9 @@
 		},
 		{
 			"name": "Battle Moxie",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 9,
 			"entries": [
 				"At 9th level, your experiences in combat teach you more about how to live in the world. Choose one of the following.",
@@ -1090,9 +1090,9 @@
 		},
 		{
 			"name": "School of the Open Road",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 11,
 			"entries": [
 				"At 11th level your journeys have given you a wealth of practical experience and helpful bits of information. Choose one of the following.",
@@ -1124,9 +1124,9 @@
 		},
 		{
 			"name": "Notable Reputation",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 13,
 			"entries": [
 				"At 13th level your name has spread far and wide, gaining you the respect of even important figures you've yet to meet. Choose one of the following.",
@@ -1155,9 +1155,9 @@
 		},
 		{
 			"name": "Prickly Mind",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 15,
 			"entries": [
 				"Starting at 15th level, your reactions are so honed that you react even to magic trying to affect your mind. When you make a saving throw to resist being charmed, you can use your reaction to deal an amount of psychic damage equal to your proficiency bonus to the creature attempting to charm you. This backlash does not reveal the creature that tried to charm you.",
@@ -1166,9 +1166,9 @@
 		},
 		{
 			"name": "Reliable Might",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 17,
 			"entries": [
 				"At 17th level, if your total for a Strength or Constitution check is less than the corresponding score, you can use that score in place of the total."
@@ -1176,9 +1176,9 @@
 		},
 		{
 			"name": "Paragon of Rage",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 20,
 			"entries": [
 				"At 20th level, you have reached the peak of brawn and stamina. Your Strength and Constitution scores increase by 4. YOur maximum for those scores is now 24.",
@@ -1198,9 +1198,9 @@
 		},
 		{
 			"name": "Furious Critical (2)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 4,
 			"entries": [
 				"At 4th level, you gain a second Furious Critical (see the 2nd-level Furious Critical feature)."
@@ -1208,9 +1208,9 @@
 		},
 		{
 			"name": "Furious Critical (3)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain a third Furious Critical (see the 2nd-level Furious Critical feature)."
@@ -1218,9 +1218,9 @@
 		},
 		{
 			"name": "Furious Critical (4)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 8,
 			"entries": [
 				"At 8th level, you gain a fourth Furious Critical (see the 2nd-level Furious Critical feature)."
@@ -1228,9 +1228,9 @@
 		},
 		{
 			"name": "Furious Critical (5)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain a fifth Furious Critical (see the 2nd-level Furious Critical feature)."
@@ -1238,9 +1238,9 @@
 		},
 		{
 			"name": "Furious Critical (6)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 12,
 			"entries": [
 				"At 12th level, you gain a sixth Furious Critical (see the 2nd-level Furious Critical feature)."
@@ -1248,9 +1248,9 @@
 		},
 		{
 			"name": "Furious Critical (7)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain a seventh Furious Critical (see the 2nd-level Furious Critical feature)."
@@ -1258,9 +1258,9 @@
 		},
 		{
 			"name": "Furious Critical (8)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 16,
 			"entries": [
 				"At 16th level, you gain an eighth Furious Critical (see the 2nd-level Furious Critical feature)."
@@ -1268,9 +1268,9 @@
 		},
 		{
 			"name": "Furious Critical (9)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain a ninth Furious Critical (see the 2nd-level Furious Critical feature)."
@@ -1278,9 +1278,9 @@
 		},
 		{
 			"name": "Crushing Blows (2)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 12,
 			"entries": [
 				"At 12th level, your melee weapon attacks have a further +1 critical range (for a total of +2)."
@@ -1288,9 +1288,9 @@
 		},
 		{
 			"name": "Crushing Blows (3)",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"level": 17,
 			"entries": [
 				"At 17th level, your melee weapon attacks have a further +1 critical range (for a total of +3)."
@@ -1300,31 +1300,31 @@
 	"subclassFeature": [
 		{
 			"name": "Path of the Berserker",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 49,
 			"srd": true,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Berserker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"For some barbarians, rage is a means to an end\u2014that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Frenzy|Berserker|LevelUpA5E|Berserker|LevelUpA5E|3"
+					"subclassFeature": "Frenzy|Berserker|LevelUp|Berserker|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Frenzy",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 49,
 			"srd": true,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Berserker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1333,13 +1333,13 @@
 		},
 		{
 			"name": "Mindless Rage",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 49,
 			"srd": true,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Berserker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1348,13 +1348,13 @@
 		},
 		{
 			"name": "Intimidating Presence",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 49,
 			"srd": true,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Berserker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1364,13 +1364,13 @@
 		},
 		{
 			"name": "Retaliation",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 49,
 			"srd": true,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Berserker",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1379,12 +1379,12 @@
 		},
 		{
 			"name": "Bear",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment."
@@ -1392,12 +1392,12 @@
 		},
 		{
 			"name": "Eagle",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the {@action Dash} action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease."
@@ -1405,34 +1405,34 @@
 		},
 		{
 			"name": "Path of the Totem Warrior",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.",
 				"Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spirit Seeker|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|3"
+					"subclassFeature": "Spirit Seeker|Berserker|LevelUp|Totem Warrior|LevelUp|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Totem Spirit|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|3"
+					"subclassFeature": "Totem Spirit|Berserker|LevelUp|Totem Warrior|LevelUp|3"
 				}
 			]
 		},
 		{
 			"name": "Wolf",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters."
@@ -1440,12 +1440,12 @@
 		},
 		{
 			"name": "Spirit Seeker",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1454,12 +1454,12 @@
 		},
 		{
 			"name": "Totem Spirit",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1471,23 +1471,23 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Bear|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|3"
+							"subclassFeature": "Bear|Berserker|LevelUp|Totem Warrior|LevelUp|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Eagle|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|3"
+							"subclassFeature": "Eagle|Berserker|LevelUp|Totem Warrior|LevelUp|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Elk|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|3|SCAG"
+							"subclassFeature": "Elk|Berserker|LevelUp|Totem Warrior|LevelUp|3|SCAG"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Tiger|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|3|SCAG"
+							"subclassFeature": "Tiger|Berserker|LevelUp|Totem Warrior|LevelUp|3|SCAG"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Wolf|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|3"
+							"subclassFeature": "Wolf|Berserker|LevelUp|Totem Warrior|LevelUp|3"
 						}
 					]
 				}
@@ -1495,12 +1495,12 @@
 		},
 		{
 			"name": "Bear",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects."
@@ -1508,12 +1508,12 @@
 		},
 		{
 			"name": "Eagle",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom ({@skill Perception}) checks."
@@ -1521,12 +1521,12 @@
 		},
 		{
 			"name": "Wolf",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace."
@@ -1534,12 +1534,12 @@
 		},
 		{
 			"name": "Aspect of the Beast",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1550,23 +1550,23 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Bear|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|6"
+							"subclassFeature": "Bear|Berserker|LevelUp|Totem Warrior|LevelUp|6"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Eagle|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|6"
+							"subclassFeature": "Eagle|Berserker|LevelUp|Totem Warrior|LevelUp|6"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Elk|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|6|SCAG"
+							"subclassFeature": "Elk|Berserker|LevelUp|Totem Warrior|LevelUp|6|SCAG"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Tiger|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|6|SCAG"
+							"subclassFeature": "Tiger|Berserker|LevelUp|Totem Warrior|LevelUp|6|SCAG"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Wolf|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|6"
+							"subclassFeature": "Wolf|Berserker|LevelUp|Totem Warrior|LevelUp|6"
 						}
 					]
 				}
@@ -1574,12 +1574,12 @@
 		},
 		{
 			"name": "Spirit Walker",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1588,12 +1588,12 @@
 		},
 		{
 			"name": "Bear",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be {@condition frightened}."
@@ -1601,12 +1601,12 @@
 		},
 		{
 			"name": "Eagle",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
@@ -1614,12 +1614,12 @@
 		},
 		{
 			"name": "Wolf",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature {@condition prone} when you hit it with melee weapon attack."
@@ -1627,12 +1627,12 @@
 		},
 		{
 			"name": "Totemic Attunement",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"page": 50,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1643,23 +1643,23 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Bear|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|14"
+							"subclassFeature": "Bear|Berserker|LevelUp|Totem Warrior|LevelUp|14"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Eagle|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|14"
+							"subclassFeature": "Eagle|Berserker|LevelUp|Totem Warrior|LevelUp|14"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Elk|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|14|SCAG"
+							"subclassFeature": "Elk|Berserker|LevelUp|Totem Warrior|LevelUp|14|SCAG"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Tiger|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|14|SCAG"
+							"subclassFeature": "Tiger|Berserker|LevelUp|Totem Warrior|LevelUp|14|SCAG"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Wolf|Berserker|LevelUpA5E|Totem Warrior|LevelUpA5E|14"
+							"subclassFeature": "Wolf|Berserker|LevelUp|Totem Warrior|LevelUp|14"
 						}
 					]
 				}
@@ -1670,7 +1670,7 @@
 			"source": "SCAG",
 			"page": 121,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1678,11 +1678,11 @@
 				"Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, {@item spiked armor|scag} and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restriction\u2014Dwarves Only|Berserker|LevelUpA5E|Battlerager|SCAG|3"
+					"subclassFeature": "Restriction\u2014Dwarves Only|Berserker|LevelUp|Battlerager|SCAG|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Battlerager Armor|Berserker|LevelUpA5E|Battlerager|SCAG|3"
+					"subclassFeature": "Battlerager Armor|Berserker|LevelUp|Battlerager|SCAG|3"
 				}
 			]
 		},
@@ -1691,7 +1691,7 @@
 			"source": "SCAG",
 			"page": 121,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1707,7 +1707,7 @@
 			"source": "SCAG",
 			"page": 121,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 3,
@@ -1722,7 +1722,7 @@
 			"source": "SCAG",
 			"page": 121,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 6,
@@ -1736,7 +1736,7 @@
 			"source": "SCAG",
 			"page": 121,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 10,
@@ -1750,7 +1750,7 @@
 			"source": "SCAG",
 			"page": 121,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 14,
@@ -1764,7 +1764,7 @@
 			"source": "TCE",
 			"page": 24,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1803,7 +1803,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Form of the Beast|Berserker|LevelUpA5E|Beast|TCE|3"
+					"subclassFeature": "Form of the Beast|Berserker|LevelUp|Beast|TCE|3"
 				}
 			]
 		},
@@ -1812,7 +1812,7 @@
 			"source": "TCE",
 			"page": 24,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1849,7 +1849,7 @@
 			"source": "TCE",
 			"page": 24,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -1873,7 +1873,7 @@
 			"source": "TCE",
 			"page": 24,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -1896,7 +1896,7 @@
 			"source": "TCE",
 			"page": 24,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -1913,7 +1913,7 @@
 			"source": "TCE",
 			"page": 25,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1921,11 +1921,11 @@
 				"Many places in the multiverse abound with beauty, intense emotion, and rampant magic; the Feywild, the Upper Planes, and other realms of supernatural power radiate with such forces and can profoundly influence people. As folk of deep feeling, barbarians are especially susceptible to these wild influences, with some barbarians being transformed by the magic. These magic-suffused barbarians walk the Path of Wild Magic. Elf, tiefling, aasimar, and genasi barbarians often seek this path, eager to manifest the otherworldly magic of their ancestors.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Magic Awareness|Berserker|LevelUpA5E|Wild Magic|TCE|3"
+					"subclassFeature": "Magic Awareness|Berserker|LevelUp|Wild Magic|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Surge|Berserker|LevelUpA5E|Wild Magic|TCE|3"
+					"subclassFeature": "Wild Surge|Berserker|LevelUp|Wild Magic|TCE|3"
 				}
 			]
 		},
@@ -1934,7 +1934,7 @@
 			"source": "TCE",
 			"page": 25,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -1950,7 +1950,7 @@
 			"source": "TCE",
 			"page": 25,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 3,
@@ -2015,7 +2015,7 @@
 			"source": "TCE",
 			"page": 25,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 6,
@@ -2038,7 +2038,7 @@
 			"source": "TCE",
 			"page": 25,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 10,
@@ -2053,7 +2053,7 @@
 			"source": "TCE",
 			"page": 25,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Magic",
 			"subclassSource": "TCE",
 			"level": 14,
@@ -2068,7 +2068,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 3,
@@ -2107,7 +2107,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Form of the Beast|Berserker|LevelUpA5E|Beast (UA)|UA2020SubclassesPt1|3"
+					"subclassFeature": "Form of the Beast|Berserker|LevelUp|Beast (UA)|UA2020SubclassesPt1|3"
 				}
 			]
 		},
@@ -2116,7 +2116,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 3,
@@ -2152,7 +2152,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 6,
@@ -2176,7 +2176,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 10,
@@ -2199,7 +2199,7 @@
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Beast (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 14,
@@ -2214,7 +2214,7 @@
 			"source": "UA2022GiantOptions",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Giant (UA)",
 			"subclassSource": "UA2022GiantOptions",
 			"level": 3,
@@ -2228,7 +2228,7 @@
 			"source": "UA2022GiantOptions",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Giant (UA)",
 			"subclassSource": "UA2022GiantOptions",
 			"level": 3,
@@ -2262,7 +2262,7 @@
 			"source": "UA2022GiantOptions",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Giant (UA)",
 			"subclassSource": "UA2022GiantOptions",
 			"level": 3,
@@ -2271,11 +2271,11 @@
 				"During their rage, a barbarian may take after a legendary storm giant, hair turning white and eyes crackling with lightning. Others adopt the monstrous features of apocalyptic titans, rending the world around them so that it may be made anew.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Giant Power|Berserker|LevelUpA5E|Giant (UA)|UA2022GiantOptions|3"
+					"subclassFeature": "Giant Power|Berserker|LevelUp|Giant (UA)|UA2022GiantOptions|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Giant's Havoc|Berserker|LevelUpA5E|Giant (UA)|UA2022GiantOptions|3"
+					"subclassFeature": "Giant's Havoc|Berserker|LevelUp|Giant (UA)|UA2022GiantOptions|3"
 				}
 			]
 		},
@@ -2284,7 +2284,7 @@
 			"source": "UA2022GiantOptions",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Giant (UA)",
 			"subclassSource": "UA2022GiantOptions",
 			"level": 6,
@@ -2301,7 +2301,7 @@
 			"source": "UA2022GiantOptions",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Giant (UA)",
 			"subclassSource": "UA2022GiantOptions",
 			"level": 10,
@@ -2317,7 +2317,7 @@
 			"source": "UA2022GiantOptions",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Giant (UA)",
 			"subclassSource": "UA2022GiantOptions",
 			"level": 14,
@@ -2333,7 +2333,7 @@
 			"source": "UABarbarianAndMonk",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 3,
@@ -2342,11 +2342,11 @@
 				"When a barbarian who follows this path rages, it is a bellowing roar for freedom, an explosion of expression, manifesting in unpredictable ways.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lingering Magic|Berserker|LevelUpA5E|Wild Soul (UA)|UABarbarianAndMonk|3"
+					"subclassFeature": "Lingering Magic|Berserker|LevelUp|Wild Soul (UA)|UABarbarianAndMonk|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Surge|Berserker|LevelUpA5E|Wild Soul (UA)|UABarbarianAndMonk|3"
+					"subclassFeature": "Wild Surge|Berserker|LevelUp|Wild Soul (UA)|UABarbarianAndMonk|3"
 				}
 			]
 		},
@@ -2355,7 +2355,7 @@
 			"source": "UABarbarianAndMonk",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 3,
@@ -2370,7 +2370,7 @@
 			"source": "UABarbarianAndMonk",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 3,
@@ -2431,7 +2431,7 @@
 			"source": "UABarbarianAndMonk",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 6,
@@ -2447,7 +2447,7 @@
 			"source": "UABarbarianAndMonk",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 10,
@@ -2461,7 +2461,7 @@
 			"source": "UABarbarianAndMonk",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 14,
@@ -2475,7 +2475,7 @@
 			"source": "UABarbarianAndMonk",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 14,
@@ -2489,7 +2489,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
@@ -2499,7 +2499,7 @@
 				"In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell epic sagas of victories against terrible monsters and other fearsome rivals.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Protectors|Berserker|LevelUpA5E|Ancestral Guardian (UA)|UABarbarianPrimalPaths|3"
+					"subclassFeature": "Ancestral Protectors|Berserker|LevelUp|Ancestral Guardian (UA)|UABarbarianPrimalPaths|3"
 				}
 			]
 		},
@@ -2508,7 +2508,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
@@ -2522,7 +2522,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 6,
@@ -2536,7 +2536,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 10,
@@ -2550,7 +2550,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 14,
@@ -2564,7 +2564,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
@@ -2573,7 +2573,7 @@
 				"Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect the natural realm. Other storm heralds hone their craft in elite lodges founded in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Storm of Fury|Berserker|LevelUpA5E|Storm Herald (UA)|UABarbarianPrimalPaths|3"
+					"subclassFeature": "Storm of Fury|Berserker|LevelUp|Storm Herald (UA)|UABarbarianPrimalPaths|3"
 				}
 			]
 		},
@@ -2582,7 +2582,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
@@ -2617,7 +2617,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 6,
@@ -2652,7 +2652,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 10,
@@ -2666,7 +2666,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 14,
@@ -2701,7 +2701,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
@@ -2710,11 +2710,11 @@
 				"A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Fury|Berserker|LevelUpA5E|Zealot (UA)|UABarbarianPrimalPaths|3"
+					"subclassFeature": "Divine Fury|Berserker|LevelUp|Zealot (UA)|UABarbarianPrimalPaths|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warrior of the Gods|Berserker|LevelUpA5E|Zealot (UA)|UABarbarianPrimalPaths|3"
+					"subclassFeature": "Warrior of the Gods|Berserker|LevelUp|Zealot (UA)|UABarbarianPrimalPaths|3"
 				}
 			]
 		},
@@ -2723,7 +2723,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
@@ -2737,7 +2737,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
@@ -2751,7 +2751,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 6,
@@ -2765,7 +2765,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 10,
@@ -2780,7 +2780,7 @@
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 14,
@@ -2795,7 +2795,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
@@ -2805,7 +2805,7 @@
 				"In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell epic sagas of victories against terrible monsters and other fearsome rivals.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Protectors|Berserker|LevelUpA5E|Ancestral Guardian v2 (UA)|UARevisedSubclasses|3"
+					"subclassFeature": "Ancestral Protectors|Berserker|LevelUp|Ancestral Guardian v2 (UA)|UARevisedSubclasses|3"
 				}
 			]
 		},
@@ -2814,7 +2814,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
@@ -2828,7 +2828,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 6,
@@ -2842,7 +2842,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 10,
@@ -2856,7 +2856,7 @@
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 14,
@@ -2870,7 +2870,7 @@
 			"source": "XGE",
 			"page": 9,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2879,7 +2879,7 @@
 				"Barbarians who draw on their ancestral guardians can better fight to protect their tribes and their allies. In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell sagas of victories against terrible monsters and other fearsome rivals.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Protectors|Berserker|LevelUpA5E|Ancestral Guardian|XGE|3"
+					"subclassFeature": "Ancestral Protectors|Berserker|LevelUp|Ancestral Guardian|XGE|3"
 				}
 			]
 		},
@@ -2888,7 +2888,7 @@
 			"source": "XGE",
 			"page": 9,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2902,7 +2902,7 @@
 			"source": "XGE",
 			"page": 9,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -2917,7 +2917,7 @@
 			"source": "XGE",
 			"page": 9,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -2932,7 +2932,7 @@
 			"source": "XGE",
 			"page": 9,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Ancestral Guardian",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -2946,7 +2946,7 @@
 			"source": "XGE",
 			"page": 10,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2955,7 +2955,7 @@
 				"Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Storm Aura|Berserker|LevelUpA5E|Storm Herald|XGE|3"
+					"subclassFeature": "Storm Aura|Berserker|LevelUp|Storm Herald|XGE|3"
 				}
 			]
 		},
@@ -2964,7 +2964,7 @@
 			"source": "XGE",
 			"page": 10,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -2997,7 +2997,7 @@
 			"source": "XGE",
 			"page": 10,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -3028,7 +3028,7 @@
 			"source": "XGE",
 			"page": 10,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -3042,7 +3042,7 @@
 			"source": "XGE",
 			"page": 10,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Storm Herald",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -3073,7 +3073,7 @@
 			"source": "XGE",
 			"page": 11,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3082,11 +3082,11 @@
 				"A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Fury|Berserker|LevelUpA5E|Zealot|XGE|3"
+					"subclassFeature": "Divine Fury|Berserker|LevelUp|Zealot|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warrior of the Gods|Berserker|LevelUpA5E|Zealot|XGE|3"
+					"subclassFeature": "Warrior of the Gods|Berserker|LevelUp|Zealot|XGE|3"
 				}
 			]
 		},
@@ -3095,7 +3095,7 @@
 			"source": "XGE",
 			"page": 11,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3109,7 +3109,7 @@
 			"source": "XGE",
 			"page": 11,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 3,
@@ -3123,7 +3123,7 @@
 			"source": "XGE",
 			"page": 11,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 6,
@@ -3137,7 +3137,7 @@
 			"source": "XGE",
 			"page": 11,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 10,
@@ -3152,7 +3152,7 @@
 			"source": "XGE",
 			"page": 11,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Zealot",
 			"subclassSource": "XGE",
 			"level": 14,
@@ -3167,9 +3167,9 @@
 			"source": "SCAG",
 			"page": 122,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"While you're raging and aren't wearing heavy armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift."
@@ -3180,9 +3180,9 @@
 			"source": "SCAG",
 			"page": 122,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 3,
 			"entries": [
 				"While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps."
@@ -3193,9 +3193,9 @@
 			"source": "SCAG",
 			"page": 122,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated}. The elk spirit helps you roam far and fast."
@@ -3206,9 +3206,9 @@
 			"source": "SCAG",
 			"page": 122,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 6,
 			"entries": [
 				"You gain proficiency in two skills from the following list: {@skill Athletics}, {@skill Acrobatics}, {@skill Stealth}, and {@skill Survival}. The cat spirit hones your survival instincts."
@@ -3219,9 +3219,9 @@
 			"source": "SCAG",
 			"page": 122,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked {@condition prone} and take bludgeoning damage equal to {@dice 1d12} + your Strength modifier."
@@ -3232,9 +3232,9 @@
 			"source": "SCAG",
 			"page": 122,
 			"className": "Berserker",
-			"classSource": "LevelUpA5E",
+			"classSource": "LevelUp",
 			"subclassShortName": "Totem Warrior",
-			"subclassSource": "LevelUpA5E",
+			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
 				"While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it."
@@ -3361,7 +3361,7 @@
 	"optionalfeature": [
 		{
 			"name": "Agile Sprinter",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
@@ -3371,7 +3371,7 @@
 		},
 		{
 			"name": "Flock Step",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
@@ -3381,7 +3381,7 @@
 		},
 		{
 			"name": "Lead the Pack",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
@@ -3391,7 +3391,7 @@
 						"level": 5,
 						"class": {
 							"name": "Berserker",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -3402,7 +3402,7 @@
 		},
 		{
 			"name": "Mark of the Wilderness",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
@@ -3412,7 +3412,7 @@
 		},
 		{
 			"name": "Natural Tracker",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
@@ -3422,7 +3422,7 @@
 		},
 		{
 			"name": "Path of Blustery Autumns",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
@@ -3432,7 +3432,7 @@
 		},
 		{
 			"name": "Path of Drowning Springs",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
@@ -3442,7 +3442,7 @@
 						"level": 5,
 						"class": {
 							"name": "Berserker",
-							"source": "LevelUpA5E"
+							"source": "LevelUp"
 						}
 					}
 				}
@@ -3454,7 +3454,7 @@
 		},
 		{
 			"name": "Path of Lean Winters",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
@@ -3464,7 +3464,7 @@
 		},
 		{
 			"name": "Path of Scorching Summers",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
@@ -3474,7 +3474,7 @@
 		},
 		{
 			"name": "Sharpened Senses",
-			"source": "LevelUpA5E",
+			"source": "LevelUp",
 			"featureType": [
 				"DT"
 			],
