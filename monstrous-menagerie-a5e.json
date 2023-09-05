@@ -47236,6 +47236,1271 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Wraith",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				}
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 16,
+			"int": 12,
+			"wis": 16,
+			"cha": 14,
+			"resist": [
+				"acid",
+				"cold",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical, non-silvered weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUp",
+				"grappled",
+				"staggered|LevelUp",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Aura of Fear",
+					"entries": [
+						"A creature that starts its turn within 10 feet of a wraith makes a {@dc 13} Wisdom saving throw. On a failure, it is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful or the effect ends for it, it is immune to any wraith's Aura of Fear for 24 hours."
+					]
+				},
+				{
+					"name": "Evil",
+					"entries": [
+						"The wraith radiates an Evil aura."
+					]
+				},
+				{
+					"name": "Incorporeal",
+					"entries": [
+						"The wraith can move through creatures and objects. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object. If it takes radiant damage, it loses this trait until the end of its next turn."
+					]
+				},
+				{
+					"name": "Light Sensitivity",
+					"entries": [
+						"While in sunlight or bright light cast by a fire, the wraith has disadvantage on attack rolls, as well as on Perception checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Life Drain",
+					"entries": [
+						"The wraith targets a creature within 5 feet, forcing it to make a {@dc 14} Constitution saving throw. On a failure, the target takes a level of {@condition strife|LevelUp}. It also takes 14 ({@damage 4d6}) necrotic damage, or 21 ({@damage 6d6}) necrotic damage if it is {@condition frightened} or surprised, and its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. It dies if its hit point maximum is reduced to 0."
+					]
+				},
+				{
+					"name": "Create Specter",
+					"entries": [
+						"The wraith touches a humanoid corpse it killed less than 1 day ago. The creature's spirit rises as a {@creature specter|LevelUp} under the wraith's control."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wraith Lord",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15
+				}
+			],
+			"hp": {
+				"average": 171,
+				"formula": "18d8 + 90"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				}
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 20,
+			"int": 16,
+			"wis": 18,
+			"cha": 18,
+			"resist": [
+				"acid",
+				"lightning",
+				"psychic",
+				"thunder",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUp",
+				"grappled",
+				"staggered|LevelUp",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Aura of Fear",
+					"entries": [
+						"A creature that starts its turn within 30 feet of a wraith lord makes a {@dc 17} Wisdom saving throw. On a failure, it is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful or the effect ends for it, it is immune to any {@creature wraith|LevelUp} or wraith lord's Aura of Fear for 24 hours."
+					]
+				},
+				{
+					"name": "Evil",
+					"entries": [
+						"The wraith lord radiates an Evil aura."
+					]
+				},
+				{
+					"name": "Incorporeal",
+					"entries": [
+						"The wraith lord can move through creatures and objects. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object. If it takes radiant damage, it loses this trait until the end of its next turn."
+					]
+				},
+				{
+					"name": "Light Sensitivity",
+					"entries": [
+						"While in sunlight or bright light cast by a fire, the wraith lord has disadvantage on attack rolls, as well as on Perception checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The wraith lord can use Staggering Terror. It then uses Life Drain twice. If in corporeal form, it then makes a greatsword attack."
+					]
+				},
+				{
+					"name": "Life Drain",
+					"entries": [
+						"The wraith lord targets a creature within 5 feet, forcing it to make a {@dc 18} Constitution saving throw. On a failure, the target takes a level of {@condition strife|LevelUp}. It also takes 17 ({@damage 5d6}) necrotic damage, or 24 ({@damage 7d6}) necrotic damage if it is {@condition frightened} or surprised, and its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. It dies if its hit point maximum is reduced to 0."
+					]
+				},
+				{
+					"name": "Greatsword (Corporeal Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage plus 17 ({@damage 5d6}) poison damage, and the target makes a {@dc 18} Constitution saving throw. On a failure, the target is {@condition poisoned} for 24 hours. While {@condition poisoned} in this way, the target can't regain hit points. If a creature dies while {@condition poisoned} in this way, it spsirit rises as a {@creature wraith|LevelUp} under the wraith lord's control 1 minute after its death."
+					]
+				},
+				{
+					"name": "Staggering Terror",
+					"entries": [
+						"The wraith lord targets a {@condition frightened} creature within 60 feet, forcing it to make a {@dc 18} Wisdom saving throw. On a failure, the target is {@condition staggered|LevelUp} for 1 minute. It repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Create Wraith",
+					"entries": [
+						"The wraith lord touches a humanoid corpse it killed less than 1 day ago. The creature's spirit rises as a {@creature wraith|LevelUp} under the wraith lord's control."
+					]
+				},
+				{
+					"name": "Corporeal Form (1/Day)",
+					"entries": [
+						"The wraith lord takes on a material form. In material form, it loses its incorporeal trait, its fly speed, and its immunity to the {@condition grappled}, {@condition prone}, and {@condition restrained} conditions. The wraith instantly reverts to its incorporeal form if it is bloodied, and it can do so voluntarily at any time as an action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wyvern",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "dragon",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "13d10 + 39"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 80
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 16,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"understands draconic but can't speak"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Imperfect Flight",
+					"entries": [
+						"While bloodied, the wyvern's fly speed is halved, and it can't gain altitude."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The wyvern attacks once with its bite and once with its stinger. While flying, it can use its claws in place of one other attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage. If the wyvern is attacking from above, the target is {@condition grappled} by the wyvern (escape {@dc 15}). While grappling a target in this way, the wyvern's walking speed is reduced to 0, it can't use its claws to attack any other creature, and it has advantage on attacks against the target."
+					]
+				},
+				{
+					"name": "Stinger",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage. The target makes a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failure or half damage on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Xorn",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 73,
+				"formula": "7d8 + 42"
+			},
+			"speed": {
+				"walk": 20,
+				"burrow": 20
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 22,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+3 (+1d6)",
+				"stealth": "+3"
+			},
+			"resist": [
+				"acid",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical, non-adamantine weapons",
+					"cond": "true"
+				}
+			],
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"terran"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Camouflage",
+					"entries": [
+						"The xorn has advantage on Stealth checks made to hide in rocky terrain."
+					]
+				},
+				{
+					"name": "Earth Glide",
+					"entries": [
+						"The xorn can burrow through nonmagical, unworked earth and stone without disturbing it."
+					]
+				},
+				{
+					"name": "Treasure Sense",
+					"entries": [
+						"The xorn can locate by smell coins and gems within 500 feet."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The xorn makes three claw attacks and then makes a bite attack if it can."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature that was hit by the xorn's claws at least twice this turn. {@h}13 ({@damage 2d8 + 4}) piercing damage, and the xorn consumes one of the following nonmagical objects in the target's possession: a worn set of metal armour or a carried metal weapon or shield, a piece of metal equipment, a gem, or up to 10 gold coins. For 1 minute after an item is consumed, a creature can retrieve it from the gullet of a willing, {@condition incapacitated}, or dead xorn, taking 7 ({@damage 2d6}) acid damage in the process."
+					]
+				}
+			]
+		},
+		{
+			"name": "Yeti",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 68,
+				"formula": "8d10 + 24"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 8,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+3"
+			},
+			"immune": [
+				"cold"
+			],
+			"passive": 13,
+			"languages": [
+				"yeti"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Camouflage",
+					"entries": [
+						"The yeti has advantage on Stealth checks made to hide in snowy terrain."
+					]
+				},
+				{
+					"name": "Fire Fear",
+					"entries": [
+						"When the yeti takes fire damage, it is {@condition rattled|LevelUp} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Storm Sight",
+					"entries": [
+						"The yeti's vision is not obscured by weather conditions."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The yeti uses Chilling Gaze and makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Chilling Gaze (Gaze)",
+					"entries": [
+						"One creature within 30 feet that is not immune to cold damage makes a {@dc 13} Constitution saving throw. On a failure, the creature takes 10 ({@damage 3d6}) cold damage and is {@condition staggered|LevelUp} for 1 minute. It repeats the saving throw at the end of each of its turns, ending the stagger on a success. If a creature's saving throw is successful or the effect ends for it, it is immune to any Chilling Gaze for 24 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Abominable Snowman",
+			"source": "LevelUp",
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d10 + 48"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 8,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+3"
+			},
+			"immune": [
+				"cold"
+			],
+			"passive": 13,
+			"languages": [
+				"yeti"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Camouflage",
+					"entries": [
+						"The snowman has advantage on Stealth checks made to hide in snowy terrain."
+					]
+				},
+				{
+					"name": "Fire Fear",
+					"entries": [
+						"When the snowman takes fire damage, it is {@condition rattled|LevelUp} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Storm Sight",
+					"entries": [
+						"The snowman's vision is not obscured by weather conditions."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The snowman uses Chilling Gaze and makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Chilling Gaze (Gaze)",
+					"entries": [
+						"One creature within 30 feet that is not immune to cold damage makes a {@dc 13} Constitution saving throw. On a failure, the creature takes 10 ({@damage 3d6}) cold damage and is {@condition staggered|LevelUp} for 1 minute. It repeats the saving throw at the end of each of its turns, ending the stagger on a success. If a creature's saving throw is successful or the effect ends for it, it is immune to any Chilling Gaze for 24 hours."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"The snowman ends one negative effect currently affecting it. It can use this bonus action as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Cold Breath (While Bloodied)",
+					"entries": [
+						"The snowman breathes a 30-foot cone of freezing wind. Each creature in the area makes a {@dc 13} Constitution saving throw, taking 21 ({@damage 6d10}) cold damage on a failed save or half damage on a success."
+					]
+				},
+				{
+					"name": "Blizzard (While Bloodied, 1/Day)",
+					"entries": [
+						"The snowman summons a magical blizzard that affects a 500-foot-radius area for 10 minutes or until the snowman dies. The area is difficult terrain, and a creature's visibility is reduced to 20 feet; beyond this, vision is obscured by snow. A creature in the area that doesn't move from its space during its turn takes 7 ({@damage 2d6}) cold damage."
+					]
+				},
+				{
+					"name": "Roar (While Bloodied, 1/Day)",
+					"entries": [
+						"Each creature of the snowman's choice within 120 feet that hears its roar makes a {@dc 13} Charisma saving throw. On a failure, a creature is {@condition frightened} for 1 minute. While {@condition frightened} in this way, a creature is {@condition staggered|LevelUp}. A creature repeats the saving throw at the end of its turns, ending the effect on itself on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Zombie",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 8
+				}
+			],
+			"hp": {
+				"average": 15,
+				"formula": "2d8 + 6"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 12,
+			"dex": 6,
+			"con": 16,
+			"int": 3,
+			"wis": 6,
+			"cha": 4,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Undead Fortitude (1/Day)",
+					"entries": [
+						"If the zombie is reduced to 0 hit points by damage that isn't radiant or from a critical hit, it's instead reduced to 1 hit point, falls prone, and is {@debilitated|LevelUp} until the end of its next turn, appearing to be dead."
+					]
+				},
+				{
+					"name": "Zombie Quirks",
+					"entries": [
+						"All zombies have one of the following traits:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Infectious Bite",
+									"entries": [
+										"A creature bitten by the zombie takes 2 ({@damage 1d4}) ongoing necrotic damage until it regains hit points or a creature makes a {@dc 15} Medicine check to treat the wound. If a beast, dragon, giant, humanoid, or monstrosity dies while suffering from this effect, it becomes a zombie after 1 minute, also retaining any non-magical actions it has."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vile Discharge",
+									"entries": [
+										"The zombie's melee attacks deal an extra 2 ({@damage 1d4}) poison damage. Additionally, when it's reduced to 0 hit points, it explodes. Creatures within 5 feet makes a Dexterity saving throw against the zombie's maneuver DC, taking 5 ({@damage 2d4}) poison damage on a failure."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vigor Mortis",
+									"entries": [
+										"The zombie can take the Dash action as a bonus action. It can't do so again until it moves 0 feet on one of its turns."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 11}). Until the grapple ends, the zombie can't grab another target."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one {@condition grappled} target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the zombie regains the same number of hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ogre Zombie",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 59,
+				"formula": "7d10 + 28"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 6,
+			"con": 18,
+			"int": 3,
+			"wis": 8,
+			"cha": 4,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"languages": [
+				"understands giant but can't speak"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Undead Fortitude (1/Day)",
+					"entries": [
+						"If the zombie is reduced to 0 hit points by damage that isn't radiant or from a critical hit, it's instead reduced to 1 hit point, falls prone, and is {@debilitated|LevelUp} until the end of its next turn, appearing to be dead."
+					]
+				},
+				{
+					"name": "Zombie Quirks",
+					"entries": [
+						"All zombies have one of the following traits:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Infectious Bite",
+									"entries": [
+										"A creature bitten by the zombie takes 2 ({@damage 1d4}) ongoing necrotic damage until it regains hit points or a creature makes a {@dc 15} Medicine check to treat the wound. If a beast, dragon, giant, humanoid, or monstrosity dies while suffering from this effect, it becomes a {@creature zombie|LevelUp} after 1 minute, also retaining any non-magical actions it has."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vile Discharge",
+									"entries": [
+										"The zombie's melee attacks deal an extra 2 ({@damage 1d4}) poison damage. Additionally, when it's reduced to 0 hit points, it explodes. Creatures within 5 feet makes a Dexterity saving throw against the zombie's maneuver DC, taking 5 ({@damage 2d4}) poison damage on a failure."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vigor Mortis",
+									"entries": [
+										"The zombie can take the Dash action as a bonus action. It can't do so again until it moves 0 feet on one of its turns."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and if the target is a Medium or smaller creature, it makes a {@dc 14} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Sweeping Strike",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., all creatures within 5 feet. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage, and if the target is a Medium or smaller creature, it makes a {@dc 14} Strength saving throw. On a failure, it is pushed 10 feet away from the ogre."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 14}). Until the grapple ends, the zombie can't grab another target."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target {@condition grappled} by a zombie. {@h}15 ({@damage 2d10 + 4}) piercing damage, and the zombie regains the same number of hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ogre Flesh Heap",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 59,
+				"formula": "7d10 + 28"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 6,
+			"con": 18,
+			"int": 3,
+			"wis": 8,
+			"cha": 4,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"languages": [
+				"understands giant but can't speak"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Undead Fortitude (1/Day)",
+					"entries": [
+						"If the zombie is reduced to 0 hit points by damage that isn't radiant or from a critical hit, it's instead reduced to 1 hit point, falls prone, and is {@debilitated|LevelUp} until the end of its next turn, appearing to be dead."
+					]
+				},
+				{
+					"name": "Zombie Quirks",
+					"entries": [
+						"All zombies have one of the following traits:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Infectious Bite",
+									"entries": [
+										"A creature bitten by the zombie takes 2 ({@damage 1d4}) ongoing necrotic damage until it regains hit points or a creature makes a {@dc 15} Medicine check to treat the wound. If a beast, dragon, giant, humanoid, or monstrosity dies while suffering from this effect, it becomes a {@creature zombie|LevelUp} after 1 minute, also retaining any non-magical actions it has."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vile Discharge",
+									"entries": [
+										"The zombie's melee attacks deal an extra 2 ({@damage 1d4}) poison damage. Additionally, when it's reduced to 0 hit points, it explodes. Creatures within 5 feet makes a Dexterity saving throw against the zombie's maneuver DC, taking 5 ({@damage 2d4}) poison damage on a failure."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vigor Mortis",
+									"entries": [
+										"The zombie can take the Dash action as a bonus action. It can't do so again until it moves 0 feet on one of its turns."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and if the target is a Medium or smaller creature, it makes a {@dc 14} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+				{
+					"name": "Sweeping Strike",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., all creatures within 5 feet. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage, and if the target is a Medium or smaller creature, it makes a {@dc 14} Strength saving throw. On a failure, it is pushed 10 feet away from the ogre."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 14}). Until the grapple ends, the zombie can't grab another target."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target {@condition grappled} by a zombie. {@h}15 ({@damage 2d10 + 4}) piercing damage, and the zombie regains the same number of hit points."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Bodyblock",
+					"entries": [
+						"If the ogre flesh heap is grappling a creature when it is hit with a weapon attack by a creature it can see, it uses the creature as a shield, adding 2 to its AC against the attack. If this causes the attack to miss, the attack hits the {@condition grappled} creature instead."
+					]
+				},
+				{
+					"name": "Corpulent Expulsion (Recharge 6, While Bloodied)",
+					"entries": [
+						"When it takes damage, the ogre flesh heap's belly splits and releases a torrent of caustic gore in a 30-foot cone. Creatures in this area make a {@dc 14} Dexterity saving throw, taking 14 ({@damage 4d6}) acid damage on a failure or half damage on a success. The flesh heap then takes 10 ({@damage 3d6}) acid damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Young Red Dragon Zombie",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 178,
+				"formula": "17d10 + 85"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 70
+			},
+			"str": 22,
+			"dex": 6,
+			"con": 20,
+			"int": 3,
+			"wis": 8,
+			"cha": 4,
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands common and draconic but can't speak"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Undead Fortitude (1/Day)",
+					"entries": [
+						"If the zombie is reduced to 0 hit points by damage that isn't radiant or from a critical hit, it's instead reduced to 1 hit point, falls prone, and is {@debilitated|LevelUp} until the end of its next turn, appearing to be dead."
+					]
+				},
+				{
+					"name": "Zombie Quirks",
+					"entries": [
+						"All zombies have one of the following traits:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Infectious Bite",
+									"entries": [
+										"A creature bitten by the zombie takes 2 ({@damage 1d4}) ongoing necrotic damage until it regains hit points or a creature makes a {@dc 15} Medicine check to treat the wound. If a beast, dragon, giant, humanoid, or monstrosity dies while suffering from this effect, it becomes a {@creature zombie|LevelUp} after 1 minute, also retaining any non-magical actions it has."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vile Discharge",
+									"entries": [
+										"The zombie's melee attacks deal an extra 2 ({@damage 1d4}) poison damage. Additionally, when it's reduced to 0 hit points, it explodes. Creatures within 5 feet makes a Dexterity saving throw against the zombie's maneuver DC, taking 5 ({@damage 2d4}) poison damage on a failure."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vigor Mortis",
+									"entries": [
+										"The zombie can take the Dash action as a bonus action. It can't do so again until it moves 0 feet on one of its turns."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon attacks once with its bite and twice with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage plus 4 ({@damage 1d8}) fire damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Fire Breath (Recharge 5-6)",
+					"entries": [
+						"The dragon exhales a blast of fire that fills a 30-foot cone. Each creature in that area makes a {@dc 17} Dexterity saving throw, taking 52 ({@damage 15d6}) fire damage on a failed save or half damage on a success. A creature that fails the saving throw also suffers 5 ({@damage 1d10}) ongoing fire damage. While affected by this ongoing damage, it is {@condition frightened} of the dragon. A creature can use an action to end the ongoing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Zombie Knight",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"full plate"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 16,
+			"dex": 6,
+			"con": 14,
+			"int": 3,
+			"wis": 8,
+			"cha": 4,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands one language but can't speak"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Undead Fortitude (1/Day)",
+					"entries": [
+						"If the zombie is reduced to 0 hit points by damage that isn't radiant or from a critical hit, it's instead reduced to 1 hit point, falls prone, and is {@debilitated|LevelUp} until the end of its next turn, appearing to be dead."
+					]
+				},
+				{
+					"name": "Zombie Quirks",
+					"entries": [
+						"All zombies have one of the following traits:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Infectious Bite",
+									"entries": [
+										"A creature bitten by the zombie takes 2 ({@damage 1d4}) ongoing necrotic damage until it regains hit points or a creature makes a {@dc 15} Medicine check to treat the wound. If a beast, dragon, giant, humanoid, or monstrosity dies while suffering from this effect, it becomes a {@creature zombie|LevelUp} after 1 minute, also retaining any non-magical actions it has."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vile Discharge",
+									"entries": [
+										"The zombie's melee attacks deal an extra 2 ({@damage 1d4}) poison damage. Additionally, when it's reduced to 0 hit points, it explodes. Creatures within 5 feet makes a Dexterity saving throw against the zombie's maneuver DC, taking 5 ({@damage 2d4}) poison damage on a failure."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vigor Mortis",
+									"entries": [
+										"The zombie can take the Dash action as a bonus action. It can't do so again until it moves 0 feet on one of its turns."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The zombie makes two melee attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage, and the creature is {@condition grappled} if it's Medium or smaller (escape {@dc 13}). Until the grapple ends, the zombie can't grab another target."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature {@condition grappled} by a zombie. {@h}8 ({@damage 1d10 + 3}) piercing damage, and the zombie regains hit points equal to the damage dealt."
+					]
+				}
+			]
+		},
+		{
+			"name": "Zombie Horde",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "undead",
+				"swarmSize": "M"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 8
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 12,
+			"dex": 6,
+			"con": 16,
+			"int": 3,
+			"wis": 6,
+			"cha": 4,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Area Vulnerability",
+					"entries": [
+						"The horde takes double damage from any effect that targets an area."
+					]
+				},
+				{
+					"name": "Horde",
+					"entries": [
+						"The horde is composed of 5 or more zombies. If it is subjected to a spell, attack, or other effect that affects only one target, it takes any damage but ignores other effects. It can share its space with Medium or smaller creatures or objects. The horde can move through any opening large enough for one Medium creature without squeezing."
+					]
+				},
+				{
+					"name": "Horde Dispersal",
+					"entries": [
+						"When the horde is reduced to 0 hit points, it turns into 2 ({@dice 1d4}) {@creature zombie|LevelUp|zombies} with 7 hit points each."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}22 ({@damage 5d6 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 11})."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one {@condition grappled} target. {@h}32 ({@damage 5d10 + 5}) piercing damage, and the horde regains the same number of hit points."
+					]
+				}
+			]
 		}
 	]
 }
