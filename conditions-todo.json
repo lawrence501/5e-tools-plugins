@@ -291,6 +291,15 @@
                     ]
                 }
 			]
+		},
+        {
+			"name": "Sewer Plague",
+			"source": "LevelUp",
+			"entries": [
+				"Unsanitary conditions give rise to all manner of pestilence generically referred to as sewer plague. Contact with rotting waste or stagnant water can transmit sewer plague, as can the bites of {@creature rat|LevelUp|rats} and other creatures that live amid such filth.",
+                "A humanoid exposed to sewer plague makes a {@dc 11} Constitution saving throw or it becomes infected. After {@dice 1d4} days, an infected creature experiences cramps and exhaustion. The creature suffers 1 level of {@condition fatigue|LevelUp}, it recovers only half the normal amount of hit points when spending Hit Dice, and it regains no hit points upon completing a long rest.",
+                "An infected creature repeats the saving throw whenever it finishes a long rest. On a failure, it suffers an additional level of {@condition fatigue|LevelUp}. On a success, the creature instead recovers from 1 level of {@condition fatigue|LevelUp}. The creature is cured of this disease when it has no levels of {@condition fatigue|LevelUp}."
+			]
 		}
     ]
 }
