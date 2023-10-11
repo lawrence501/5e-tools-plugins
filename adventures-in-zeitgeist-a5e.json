@@ -1,0 +1,537 @@
+{
+    "_meta": {
+        "dependencies": {
+            "subclass": [
+                "generic"
+            ]
+        },
+        "sources": [
+            {
+                "json": "LevelUp",
+                "abbreviation": "A5E",
+                "full": "Level Up (A5E)",
+                "authors": [
+                    "Level Up"
+                ],
+                "version": "0.0.1",
+                "url": "https://www.levelup5e.com/"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "monster": [
+        {
+            "name": "Template Monster",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "fiend",
+                "tags": [
+                    "demon"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 153,
+                "formula": "18d8 + 72"
+            },
+            "speed": {
+                "walk": 30,
+                "fly": 90
+            },
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "save": {
+                "wis": "+9",
+                "cha": "+9"
+            },
+            "skill": {
+                "insight": "+9",
+                "perception": "+9",
+                "religion": "+9"
+            },
+            "resist": [
+                "radiant",
+                {
+                    "resist": [
+                        "damage"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "vulnerable": [
+                "radiant"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "staggered|LevelUp",
+                "petrified",
+                "poisoned"
+            ],
+            "senses": [
+                "truesight 30 ft."
+            ],
+            "passive": 19,
+            "languages": [
+                "all",
+                "telepathy 120 ft."
+            ],
+            "cr": "10",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The aboleth's spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell detect evil and good|LevelUp}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell detect thoughts|LevelUp}",
+                            "{@spell major image|LevelUp}",
+                            "{@spell project image|LevelUp}"
+                        ]
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The deva has advantage on saving throws against spells and magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The deva makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Celestial Hammer",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage plus 17 ({@damage 5d6}) radiant damage. On a hit, the target can't make opportunityattacks against the deva until the beginning of the target's next turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Bonus",
+                    "entries": [
+                        "Entries"
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Self-Sacrifice",
+                    "entries": [
+                        "When a creature within 5 feet of the thrall that the thrall can see hits an aboleth with an attack, the thrall can make itself the target of the attack instead."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Legendary action",
+                    "entries": [
+                        "Entries for legendary action"
+                    ]
+                }
+            ],
+            "legendaryActions": 2
+        },
+        {
+            "name": "BEAR",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 123,
+                "formula": "13d8 + 65"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 21,
+            "dex": 20,
+            "con": 20,
+            "int": 4,
+            "wis": 12,
+            "cha": 6,
+            "save": {
+                "con": "+10",
+                "wis": "+5"
+            },
+            "skill": {
+                "athletics": "+9",
+                "intimidation": "+6",
+                "perception": "+9",
+                "stealth": "+13"
+            },
+            "immune": [
+                "poison",
+                "psychic",
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "conditionImmune": [
+                "charmed",
+                "fatigue|LevelUp",
+                "frightened",
+                "staggered|LevelUp",
+                "petrified",
+                "poisoned",
+                "prone"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 19,
+            "languages": [
+                "understands the languages of its creator but can't speak, aside from a few prerecorded lines, usually ordering compliance"
+            ],
+            "cr": "10",
+            "trait": [
+                {
+                    "name": "Magic Capacitor",
+                    "entries": [
+                        "The BEAR has an internal adaptive capacitor which can hold one charge. When the BEAR fails a saving throw against a spell or other magical effect, it can choose to absorb the magic, gain a charge, and instead succeed the saving throw. The BEAR can expend this charge to activate certain bonus actions, but until it does it cannot use this trait again."
+                    ]
+                },
+                {
+                    "name": "Magic Weapons",
+                    "entries": [
+                        "The BEAR's weapon attacks are magical."
+                    ]
+                },
+                {
+                    "name": "Merciful Wind",
+                    "entries": [
+                        "When the BEAR reduces a creature to 0 HP, it can choose to knock the creature out, leaving it {@condition unconscious} and stable."
+                    ]
+                },
+                {
+                    "name": "Unyielding",
+                    "entries": [
+                        "The BEAR cannot be pushed, pulled, or affected by teleportation or planar travel unless it wishes to be."
+                    ]
+                },
+                {
+                    "name": "Technological Weakness",
+                    "entries": [
+                        "Whenever a creature proficient in Engineering enters combat with a hostile BEAR, it knows that the BEAR has a weakness. As a bonus action, the creature can make a {@dc 14} Engineering check, having the DM read out the BEAR's Precarious Complexity trait on a success."
+                    ]
+                },
+                {
+                    "name": "Precarious Complexity",
+                    "entries": [
+                        "At the start of the BEAR's turn, if it took damage from four or more types since the start of its previous turn, it seizes briefly. Its capacitor loses its charge and ceases to function for one hour, and the BEAR cannot use any of its recharge abilities this turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The BEAR makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}37 ({@damage 5d12 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Integrated Semi-Automatic Firearm",
+                    "entries": [
+                        "{@atk rw} {@hit 9} to hit, range 150/600 ft., one target. {@h}37 ({@damage 5d12 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Ground Pound (Recharge 5-6)",
+                    "entries": [
+                        "The BEAR Disengages, then jumps up to 30 feet. Each Large or smaller creature of the BEAR's choice within 5 feet of it must succeed a {@dc 17} Strength saving throw or be knocked {@condition prone} and take 37 ({@damage 5d12 + 5}) bludgeoning damage. On a successful save, the creature takes only half damage, and it is not knocked {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Precision Targeting (Recharge 5-6)",
+                    "entries": [
+                        "The BEAR chooses any number of creatures within a 30-foot cone. Each of those creatures must make a {@dc 17} Dexterity saving throw, taking 37 ({@damage 5d12 + 5}) piercing damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Overclock",
+                    "entries": [
+                        "The BEAR expends the charge of its capacitor; it recharges Ground Pound and Precision Targeting and, until the start of its next turn, it has advantage on attack rolls, creatures have disadvantage on saving throws against its abilities, and it deals 2 ({@damage 1d4}) extra lightning damage whenever it deals damage to a creature."
+                    ]
+                },
+                {
+                    "name": "Thrusters",
+                    "entries": [
+                        "The BEAR expends the charge of its capacitor and flies 60 feet; it can hover until the start of its next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Brass Man",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 36,
+                "formula": "8d8"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 18,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 11,
+            "cha": 8,
+            "resist": [
+                "fire",
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical weapons that aren't adamantine",
+                    "cond": "true"
+                }
+            ],
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "fatigue|LevelUp",
+                "staggered|LevelUp",
+                "petrified",
+                "poisoned"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "understands common and primordial but can't speak"
+            ],
+            "cr": "3",
+            "trait": [
+                {
+                    "name": "Aligned Senses",
+                    "entries": [
+                        "Increase the passive Perception of all brass men within 3 miles of each other by +1 for each brass man after the first."
+                    ]
+                },
+                {
+                    "name": "Coordinated Tactics",
+                    "entries": [
+                        "During the turn of multiple brass men, each can move independently but must take the same standard action; if a given brass man cannot take the same standard action as its peers, it takes no standard action. Likewise, they must take the same bonus action (typically to reload their muskets). Brass men cannot take reactions."
+                    ]
+                },
+                {
+                    "name": "Shared Will",
+                    "entries": [
+                        "Brass men have advantage on Intelligence, Wisdom, and Charisma saving throws."
+                    ]
+                },
+                {
+                    "name": "Technological Weakness",
+                    "entries": [
+                        "Whenever a creature proficient in Insight enters combat with a hostile brass man, it knows that the brass man has a weakness. As a bonus action, the creature can make a {@dc 12} Insight check, having the DM read out the brass man's Peer Pressure trait on a success."
+                    ]
+                },
+                {
+                    "name": "Peer Pressure",
+                    "entries": [
+                        "If the brass man fails an Intelligence, Wisdom, or Charisma saving throw, the consequence also affects all other brass men within 3 miles."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Metal Fist",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Musket",
+                    "entries": [
+                        "{@atk rw} {@hit 2} to hit, range 60/180 ft., one target. {@h}9 ({@damage 2d8}) piercing damage. The brass man must use an action or bonus action to reload the musket before firing it again. If the brass man rolls a natural 1 on an attack roll with the musket, the barrel is fouled, causing future attacks to have disadvantage until the brass man spends an action to clear the barrel. Rolling a natural 1 on an attack roll with a fouled barrel causes the weapon to explode, dealing 18 ({@damage 4d8}) piercing damage to the brass man."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ran's Cachean Elephant",
+            "source": "LevelUp",
+            "size": [
+                "H"
+            ],
+            "type": "monstrosity",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 119,
+                "formula": "14d10 + 42"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 23,
+            "dex": 9,
+            "con": 16,
+            "int": 5,
+            "wis": 11,
+            "cha": 6,
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "passive": 10,
+            "languages": [
+                "understand Elvish"
+            ],
+            "cr": "6",
+            "trait": [
+                {
+                    "name": "Golden Gravity",
+                    "entries": [
+                        "Hostile creatures that start their turn or move within 10 feet of the elephant must succeed a {@dc 14} Wisdom saving throw or else have their speed reduced to 0 and be unable to teleport until the start of their next turn."
+                    ]
+                },
+                {
+                    "name": "Trampling Charge",
+                    "entries": [
+                        "If the elephant moves at least 20 feet straight towards a creature and then hit it with a gore attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the elephant can make one stomp attack against it as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Technological Weakness",
+                    "entries": [
+                        "Whenever a creature proficient in Medicine enters combat with a hostile elephant, it knows that the elephant has a weakness. As a bonus action, the creature can make a {@dc 13} Medicine check, having the DM read out the elephant's Reject Graft trait on a success."
+                    ]
+                },
+                {
+                    "name": "Reject Graft",
+                    "entries": [
+                        "When magic heals any of the elephant's hit point damage, the elephant chooses one of the following abilities, which stops working until the elephant completes a long rest: Damage Resistance, Farslayer Tusks, or Gale Shield."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Gore",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Stomp",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one {@condition prone} creature. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Farslayer Tusks",
+                    "entries": [
+                        "The elephant chooses a creature within 150 feet. That creature must make a {@dc 14} Constitution saving throw. It takes 19 ({@damage 3d8 + 6}) piercing damage, or half as much on a successful save."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Gale Shield",
+                    "entries": [
+                        "When a creature hits the elephant or a creature adjacent to it with a ranged weapon attack, the elephant can use its reaction to reduce the damage by 17 ({@damage 1d10 + 12}). If this causes the attack to deal no damage, the elephant can immediately make the following attack with the projectile. {@atk rw} {@hit 2} to hit, range 20/60 ft., one target. {@h}5 ({@damage 1d12 - 1}) damage of a type based on the projectile."
+                    ]
+                }
+            ]
+        }
+    ]
+}
