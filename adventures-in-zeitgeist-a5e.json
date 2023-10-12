@@ -532,6 +532,430 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Family Bravura",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "studded leather"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 9,
+                "formula": "2d8"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 13,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 11,
+            "cha": 12,
+            "skill": {
+                "intimidation": "+3",
+                "perception": "+2"
+            },
+            "passive": 12,
+            "languages": [
+                "common",
+                "one more based on the bravura's race"
+            ],
+            "cr": "1/8",
+            "trait": [
+                {
+                    "name": "Part of the Family",
+                    "entries": [
+                        "When an attack reduces the bravura to 0 hit points, one ally of the bravura with this same trait who can sense the attacker can use its reaction to move its Speed, then can make an attack against the creature that knocked the bravura out."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Pistol",
+                    "entries": [
+                        "{@atk rw} {@hit 2} to hit, range 20/60 ft., one target. {@h}5 ({@damage 1d10}) piercing damage. The weapon misfires on a natural 1 (see Adventures in Zeitgeist page 79). Reloading requires an action or bonus action before this attack can be made again."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kuchnost Strangler",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "studded leather"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 26,
+                "formula": "4d8 + 8"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 13,
+            "dex": 10,
+            "con": 14,
+            "int": 10,
+            "wis": 11,
+            "cha": 10,
+            "skill": {
+                "athletics": "+5",
+                "intimidation": "+2"
+            },
+            "passive": 10,
+            "languages": [
+                "dwarvish",
+                "one more based on the strangler's race"
+            ],
+            "cr": "1/4",
+            "trait": [
+                {
+                    "name": "Close Quarters Combat",
+                    "entries": [
+                        "Whenever an adjacent creature misses with an attack against the strangler when they had disadvantage on their attack roll, the strangler can use its reaction to make the attacker deal 2 ({@damage 1d4}) damage to itself, using its own weapon."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Knife",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Strangle",
+                    "entries": [
+                        "The strangler uses the {@spell Grapple|LevelUp} maneuver on a creature. If it succeeds, the target takes 3 ({@damage 1d4 + 1}) bludgeoning damage. While {@condition grappled}, the creature has disadvantage on attack rolls against the strangler."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Family Capodecina",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "studded leather"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 36,
+                "formula": "8d8"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 13,
+            "dex": 12,
+            "con": 10,
+            "int": 10,
+            "wis": 11,
+            "cha": 14,
+            "skill": {
+                "intimidation": "+4",
+                "perception": "+2",
+                "stealth": "+5"
+            },
+            "passive": 12,
+            "languages": [
+                "common",
+                "one more based on the capo's race"
+            ],
+            "cr": "1",
+            "trait": [
+                {
+                    "name": "Part of the Family",
+                    "entries": [
+                        "When an attack reduces the capo to 0 hit points, one ally of the capo with this same trait who can sense the attacker can use its reaction to move its Speed, then can make an attack against the creature that knocked the capo out."
+                    ]
+                },
+                {
+                    "name": "Sneak Attack",
+                    "entries": [
+                        "Once per turn the capo can deal an extra 10 ({@damage 3d6}) damage to one creature it hits with an attack if it has advantage on the attack roll. It doesn't need advantage if one of the capo's allies is adjacent to the target, as long as the capo doesn't have disadvantage on the attack."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Disappear in a Crowd",
+                    "entries": [
+                        "If the capo has two enemies within 10 feet, it makes a Stealth check to hide against them. Then it can either Dash or use Shortsword."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Sudden Disappearance (1/Encounter)",
+                    "entries": [
+                        "The capo and each ally within 20 feet turns {@condition invisible} until the start of the capo's next turn. If one of those creatures attack, the invisibility ends for that creature."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Sly Maneuver",
+                    "entries": [
+                        "When a creature attacks the capo, if the capo is adjacent to any creatures other than the attacker, the attacker makes a Wisdom saving throw ({@dc 13}). If it fails, the attack targets one of those other creatures instead. If there are more than one, the capo decides who is hit."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kuchnost Negotiator",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "studded leather"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 39,
+                "formula": "6d8 + 12"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 10,
+            "dex": 12,
+            "con": 14,
+            "int": 10,
+            "wis": 11,
+            "cha": 14,
+            "skill": {
+                "deception": "+4",
+                "intimidation": "+4"
+            },
+            "passive": 10,
+            "languages": [
+                "dwarvish",
+                "one more based on the negotiator's race"
+            ],
+            "cr": "1",
+            "trait": [
+                {
+                    "name": "Close Quarters Combat",
+                    "entries": [
+                        "Whenever an adjacent creature misses with an attack against the negotiator when they had disadvantage on their attack roll, the negotiator can use its reaction to make the attacker deal 2 ({@damage 1d4}) damage to itself, using its own weapon."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The negotiator makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Dirty Fighting",
+                    "entries": [
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, and the target makes a Constitution saving throw ({@dc 13}). If it fails, it's {@condition blinded} until the start of the negotiator's next turn."
+                    ]
+                },
+                {
+                    "name": "Shotgun",
+                    "entries": [
+                        "{@atk rw} {@hit 3} to hit, range 30/90 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage. The weapon misfires on a natural 1 (see Adventures in Zeitgeist page 79). Reloading requires an action or bonus action before this attack can be used again. If the attack has advantage and both rolls hit, it deals an extra 6 ({@damage 1d10}) damage. If it has disadvantage and hits with at least one, the graze still deals 2 ({@damage 1d4}) damage."
+                    ]
+                },
+                {
+                    "name": "Fight Amongst Yourselves (Recharge 5-6)",
+                    "entries": [
+                        "The negotiator chooses a spot within 30 feet. Each enemy within 10 feet of that spot makes a Wisdom saving throw ({@dc 13}). If it fails, it is goaded for one minute. While goaded, it has disadvantage on attack rolls except against its own allies. This effect ends immediately if it deals damage to an ally."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Last Raven Fetch",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 9,
+                "formula": "2d8"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 8,
+            "dex": 14,
+            "con": 10,
+            "int": 14,
+            "wis": 11,
+            "cha": 12,
+            "skill": {
+                "arcana": "+4",
+                "stealth": "+4"
+            },
+            "passive": 12,
+            "languages": [
+                "primordial",
+                "one more based on the fetch's race"
+            ],
+            "cr": "1/8",
+            "action": [
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Raven's Perch (1/Day)",
+                    "entries": [
+                        "The fetch chooses a creature within 30 feet. That creature is {@condition grappled} by a summoned shadowy raven. The raven's grapple persists until it dies or is removed, at which it disappears.",
+                        "The raven has 1 hit point, AC 12, a Maneuver DC of 12, an Athletics check bonus of +4, and otherwise has a +0 bonus on all die rolls. It can grapple creatures as if it were Medium size. On the fetch's turn it can have the raven fly with speed 20 as a free action, potentially dragging or even flying off with the creature it has {@condition grappled}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Raven's Hex (1/Day)",
+                    "entries": [
+                        "The fetch casts {@spell hex|LevelUp}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Last Raven Rooker",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "mage armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 36,
+                "formula": "8d8"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 8,
+            "dex": 14,
+            "con": 10,
+            "int": 14,
+            "wis": 11,
+            "cha": 12,
+            "skill": {
+                "arcana": "+4",
+                "deception": "+3",
+                "stealth": "+4"
+            },
+            "passive": 12,
+            "languages": [
+                "primordial",
+                "one more based on the rooker's race"
+            ],
+            "cr": "2",
+            "action": [
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Swooping Familiar",
+                    "entries": [
+                        "The rooker chooses a path up to 120 feet long, which starts at her space and then returns to her. Her familiar flies that route and makes the following attack against up to three targets along the path. The flight doesn't provoke opportunity attacks, and the familiar cannot be attacked separately. {@atk mw} {@hit 4} to hit, reach 5 ft., up to three targets. {@h}5 ({@damage 1d6 + 2}) slashing damage. If the rooker is hidden when she makes these attacks, the attack does not reveal her location, though people can possibly guess based on the path of the familiar's flight."
+                    ]
+                },
+                {
+                    "name": "Curse of the Mage's Shadow (1/Day)",
+                    "entries": [
+                        "The rooker chooses a creature within 30 feet that she has cast {@spell hex|LevelUp} on. As long as the creature remains hexed, whenever it attempts to cast a spell, it makes an opposed Arcana check against the rooker. If it fails, that creature's spell has no effect, and the rooker can use her reaction to cast the spell."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Raven's Hex (1/Day)",
+                    "entries": [
+                        "The rooker casts {@spell hex|LevelUp}."
+                    ]
+                }
+            ]
         }
     ]
 }
