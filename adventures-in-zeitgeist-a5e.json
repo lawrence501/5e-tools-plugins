@@ -956,6 +956,1314 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Police Officer",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "studded leather"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 11,
+                "formula": "2d8 + 2"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 13,
+            "dex": 10,
+            "con": 12,
+            "int": 10,
+            "wis": 11,
+            "cha": 10,
+            "skill": {
+                "intimidation": "+2",
+                "perception": "+2"
+            },
+            "passive": 12,
+            "languages": [
+                "one based on the officer's race"
+            ],
+            "cr": "1/8",
+            "trait": [
+                {
+                    "name": "Home Advantage",
+                    "entries": [
+                        "Due to familiarity with their home community, the officer can use their reaction when targeted by a ranged or area attack to move 5 feet or to drop {@condition prone}, which might grant them cover against the attack. This can only be done when the officer is within their home community."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Billy Club",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Pistol",
+                    "entries": [
+                        "{@atk rw} {@hit 2} to hit, range 20/60 ft., one target. {@h}5 ({@damage 1d10}) piercing damage. The weapon misfires on a natural 1 (see Adventures in Zeitgeist page 79). Reloading requires an action or bonus action before this attack can be made again."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Police Squad",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M"
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "studded leather"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 50,
+                "formula": "10d8 + 5"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 13,
+            "dex": 10,
+            "con": 12,
+            "int": 10,
+            "wis": 11,
+            "cha": 10,
+            "passive": 15,
+            "languages": [
+                "common"
+            ],
+            "cr": "1",
+            "trait": [
+                {
+                    "name": "Fighting Unit",
+                    "entries": [
+                        "The squad consists of 10 {@creature police officer|LevelUp|officers} working in tandem, filling the space of a single Large creature. Enemies treat spaces within 5 feet of the squad as difficult terrain. The squad can make up to four opportunity attacks per round without using its reaction.",
+                        "Effects that affect an area deal double damage to the squad if they include 2 spaces of the unit, or triple if they include the squad's entire space.",
+                        "Non-damaging effects that target only a single creature usually have no effect on the squad. The DM should use their best judgment when adjudicating such effects.",
+                        "Damage to the squad wounds individuals and weakens squad cohesion. Defeated individuals typically are back in fighting shape after a long rest."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The squad makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Subdue with Clubs",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Pistol",
+                    "entries": [
+                        "{@atk rw} {@hit 2} to hit, range 20/60 ft., one target. {@h}5 ({@damage 1d10}) piercing damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Military Troop",
+            "source": "LevelUp",
+            "size": [
+                "H"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M"
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "chain shirt"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 125,
+                "formula": "10d12 + 60"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 12,
+            "con": 12,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "passive": 17,
+            "languages": [
+                "common"
+            ],
+            "cr": "6",
+            "trait": [
+                {
+                    "name": "Fighting Unit",
+                    "entries": [
+                        "The troop consists of 25 {@creature police officer|LevelUp|officers} working in tandem, filling the space of a single Huge creature. Enemies treat spaces within 5 feet of the troop as difficult terrain. The troop can make up to four opportunity attacks per round without using its reaction.",
+                        "Effects that affect an area deal double damage to the troop if they include 2 spaces of the unit, or triple if they include the troop's entire space.",
+                        "Non-damaging effects that target only a single creature usually have no effect on the troop. The DM should use their best judgment when adjudicating such effects.",
+                        "Damage to the troop wounds individuals and weakens troop cohesion. Defeated individuals typically are back in fighting shape after a long rest."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The troop makes four attacks."
+                    ]
+                },
+                {
+                    "name": "Blades and Bludgeons",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning, piercing, or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Muskets",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 60/180 ft., one target. {@h}10 ({@damage 2d8 + 1}) piercing damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Rangale",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": "fey",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 119,
+                "formula": "14d10 + 42"
+            },
+            "speed": {
+                "walk": 50
+            },
+            "str": 22,
+            "dex": 17,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 12,
+            "skill": {
+                "insight": "+8",
+                "intimidation": "+4",
+                "nature": "+4",
+                "perception": "+5",
+                "persuasion": "+4",
+                "survival": "+8"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 15,
+            "languages": [
+                "elvish",
+                "primordial",
+                "sylvan"
+            ],
+            "cr": "8",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The rangale's spellcasting ability is Wisdom (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell clairvoyance|LevelUp}",
+                        "{@spell detect magic|LevelUp}",
+                        "{@spell detect thoughts|LevelUp}",
+                        "{@spell message|LevelUp}",
+                        "{@spell telekinesis|LevelUp}"
+                    ],
+                    "ability": "wis"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Hands-Off",
+                    "entries": [
+                        "The rangale cannot be disarmed, as it does not need limbs to wield its weapons."
+                    ]
+                },
+                {
+                    "name": "Overbearing Watch",
+                    "entries": [
+                        "The rangale can spend a bonus action to magically mark a foe within 90 feet for one hour. Its attacks against that target deal an extra 3 ({@damage 1d6}) damage, it has advantage on Wisdom checks to find it, and it can cast any of its innate spells to target that creature from any range. If it uses this ability again, the previous mark lapses."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The rangale attacks three times."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 9} to hit, reach 15 ft. or range 20/60 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Retrieving Bow",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 3}) piercing damage. The rangale pulls the target up to 50 feet towards it. If the creature succeeds a {@dc 13} Strength saving throw, the rangale can only pull the target 10 feet."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Dread Borenbog",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "fey",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 264,
+                "formula": "23d8 + 161"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 20,
+            "dex": 8,
+            "con": 24,
+            "int": 6,
+            "wis": 9,
+            "cha": 5,
+            "skill": {
+                "intimidation": "+7",
+                "survival": "+9"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 9,
+            "languages": [
+                "goblin",
+                "primordial"
+            ],
+            "cr": "15",
+            "trait": [
+                {
+                    "name": "Alcohol Sense",
+                    "entries": [
+                        "The Borenbog can use an action to sense the direction to the nearest source of alcohol within 1 mile."
+                    ]
+                },
+                {
+                    "name": "Lucky Hands (2/Day)",
+                    "entries": [
+                        "The Borenbog begins combat with two severed hands tacked to its belt. It might add more if it succeeds with its Take Hand feature, to a maximum of six. When it fails a saving throw or ability check, the Borenbog can rip one of the hands free as a free action to reroll."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The Borenbog has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Quick Swig (2/Short Rest)",
+                    "entries": [
+                        "The Borenbog uses a bonus action to drink from its magical gourd. The gourd (AC 18, 50 hit points, resistance to bludgeoning damage) it attached to a knotty leather cord around the Borenbog's neck. If the gourd is taken, the Borenbog cannot use this trait and does everything in its power to both get the gourd back and kill the creature who tried to take it. When it drinks, the Borenbog gains one of the following benefits of its choice:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Giant's Draught",
+                                    "entries": [
+                                        "The Borenbog becomes Huge size, deals an extra 7 ({@damage 2d6}) with all melee weapon attacks, and on a successful melee attack it can choose to push its target 15 feet away."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Bayou Brew",
+                                    "entries": [
+                                        "All ground within the area of the Borenbog's Stupefy Aura becomes swampy, transforming from hard surfaces into waterlogged spider webs and tangled roots suffused with negative energies. All other creatures treat the area as difficult terrain, taking 17 ({@damage 5d6}) necrotic damage at the end of their turn if they are in contact with the floor."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Redundant Defence",
+                    "entries": [
+                        "Any attack made against the Borenbog has no effect if the same type of weapon, elemental damage type (acid, cold, fire, lightning, or thunder), or specific spell affected it in the past 24 hours. For example, only one attack with a longsword can harm it per day, even if one is steel and one is silver. When the Borenbog takes ongoing damage, once that ongoing damage ends it cannot suffer that same type of ongoing damage for 24 hours."
+                    ]
+                },
+                {
+                    "name": "Stupefying Aura",
+                    "entries": [
+                        "Hostile creatures entering or starting their turn within a 40-foot radius of the Borenbog must make a {@dc 20} Intelligence saving throw or be stupefied for one round. A stupefied creature can only use an action or bonus action each round (not both) and can only move at half speed. In addition, the only actions it can take are very uncreative like walking, making basic attacks, or casting cantrips. A creature that succeeds on its saving throw against this aura becomes immune to its effects for 24 hours.",
+                        "When the Borenbog is reduced below half of its maximum hit points for the first time in a day, the aura surges with power. Creatures previously immune to the aura are subject to its effects again until they successfully save a second time."
+                    ]
+                },
+                {
+                    "name": "Take Hand",
+                    "entries": [
+                        "If the Borenbog hits a stupefied creature twice in the same turn with its gutting knife, the Borenbog also cuts off one of the target's hands, impaling it onto a nail on the Borenbog's belt and increasing the uses of the Lucky Hands trait. A creature that loses its hand becomes immune to the Borenbog's stupefying aura, even after the trait resurges. The victim bleeds, taking damage equal to its level or challenge rating at the end of each of its turns. The bleeding ends if it receives magical healing, or if someone makes a {@dc 15} Medicine check as an action to staunch the wound."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Borenbog attacks four times: three times with Gutting Knife and once with either Slam or Entangling Spit."
+                    ]
+                },
+                {
+                    "name": "Gutting Knife",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 18})."
+                    ]
+                },
+                {
+                    "name": "Entangling Spit",
+                    "entries": [
+                        "The Borenbog spits a glob of black saliva at a creature it can see within 150 feet. The target makes a {@dc 18} Dexterity saving throw or takes 17 ({@damage 5d6}) acid damage and is {@condition restrained} until it takes an action to make a {@dc 18} Strength or Dexterity saving throw (target's choice) to escape. At the start of its turn, a creature {@condition restrained} by Entangling Spit takes 17 ({@damage 5d6}) acid damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Serpent-Maned Lion",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": "fey",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 60,
+                "formula": "8d10 + 16"
+            },
+            "speed": {
+                "walk": 50
+            },
+            "str": 15,
+            "dex": 15,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 7,
+            "save": {
+                "con": "+4",
+                "wis": "+3"
+            },
+            "skill": {
+                "athletics": "+4",
+                "perception": "+5",
+                "stealth": "+6"
+            },
+            "resist": [
+                "necrotic",
+                "poison"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 15,
+            "languages": [
+                "understands primordial and sylvan but can't speak"
+            ],
+            "cr": "2",
+            "trait": [
+                {
+                    "name": "Abnegation (1/Encounter)",
+                    "entries": [
+                        "If the lion fails a saving throw, it can succeed instead. Alternatively, it can expend this feature to safely pass through conjurations and evocations until the end of its next turn, allowing it to completely ignore the effects of spells of those schools."
+                    ]
+                },
+                {
+                    "name": "Crepusculous and Adumbral",
+                    "entries": [
+                        "The lion has advantage on saving throws against spells and other magical effects. Its weapon attacks are magical. Magical darkness doesn't impede its darkvision. While the lion is bloodied, magical darkness seeps from its body in a 15-foot radius that moves with it."
+                    ]
+                },
+                {
+                    "name": "Crown of Asps",
+                    "entries": [
+                        "The lion has advantage on Perception checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition debilitated|LevelUp}, or knocked {@condition unconscious}."
+                    ]
+                },
+                {
+                    "name": "Pounce",
+                    "entries": [
+                        "If the lion moves at least 20 feet straight towards a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the lion can make one claw attack against it as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Running Leap",
+                    "entries": [
+                        "With a 10-foot running start, the lion can long jump up to 25 feet."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The lion makes two attacks: one Claw and one Flurry of Serpents."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 2}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Flurry of Serpents",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cacophonous Roar (1/Encounter)",
+                    "entries": [
+                        "Each creature of the lion's choice that is within 500 feet and able to hear it must succeed on a {@dc 12} Wisdom saving throw or be {@condition frightened} for 1 minute. A creature that fails its saving throw by 5 or more is also {@condition staggered|LevelUp} for the same duration. Creatures in darkness have disadvantage on this saving throw. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shadowlisk",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": "fey",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 92,
+                "formula": "8d10 + 48"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 21,
+            "dex": 20,
+            "con": 22,
+            "int": 6,
+            "wis": 12,
+            "cha": 7,
+            "save": {
+                "dex": "+9",
+                "con": "+10",
+                "int": "+2",
+                "wis": "+5"
+            },
+            "skill": {
+                "athletics": "+9",
+                "perception": "+9",
+                "stealth": "+13"
+            },
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "while at least part of the shadowlisk is in dim light or darkness",
+                    "cond": "true"
+                },
+                "necrotic"
+            ],
+            "senses": [
+                "truesight 120 ft."
+            ],
+            "passive": 19,
+            "languages": [
+                "understands primordial and sylvan but can't speak"
+            ],
+            "cr": "11",
+            "trait": [
+                {
+                    "name": "Abnegation (1/Encounter)",
+                    "entries": [
+                        "If the shadowlisk fails a saving throw, it can succeed instead. Alternatively, it can expend this feature to safely pass through conjurations and evocations until the end of its next turn, allowing it to completely ignore the effects of spells of those schools."
+                    ]
+                },
+                {
+                    "name": "Crepusculous and Adumbral",
+                    "entries": [
+                        "The shadowlisk has advantage on saving throws against spells and other magical effects. Its weapon attacks are magical. Magical darkness doesn't impede its darkvision. While the shadowlisk is bloodied, magical darkness seeps from its body in a 15-foot radius that moves with it."
+                    ]
+                },
+                {
+                    "name": "Amorphous",
+                    "entries": [
+                        "The shadowlisk can move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "Mirage Bane",
+                    "entries": [
+                        "Any creature that ends its turn in the shadowlisk's line of sight and within 120 feet has its true form revealed, ignoring any illusions or transmutations. Magical effects are not dispelled or suppressed, simply seen through."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The shadowlisk chooses one of the following:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "It makes two attacks - Claw and then Beak - and can use Gloaming Leap before, between, or after the attacks.",
+                                "It makes a Claw attack, then uses Umbrafying Gaze."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}36 ({@damage 9d6 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Beak",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}38 ({@damage 6d10 + 5}) piercing damage. It then uses the {@spell trip|LevelUp} maneuver on the target."
+                    ]
+                },
+                {
+                    "name": "Gloaming Leap",
+                    "entries": [
+                        "The shadowlisk magically teleports up to 30 feet to an unoccupied space it can see. The shadowlisk cannot use this ability if its current location or destination are entirely brightly illuminated. When the shadowlisk teleports, any creature that is {@condition prone} and within 5 feet of it also teleports, arriving in an unoccupied space next to the shadowlisk."
+                    ]
+                },
+                {
+                    "name": "Umbrafying Gaze",
+                    "entries": [
+                        "The shadowlisk magically focuses the light from its eyes in a path that is 25 feet long and 5 feet wide. Creatures in the path must succeed on a {@dc 18} Charisma saving throw, taking 38 ({@damage 5d12 + 6}) radiant damage on a failed save, or half as much on a successful one. A creature reduced to 0 hit points by this damage is annihilated as its body burns away and its mind and soul are imprinted on the closest surface as a shadowy silhouette, suitable for consumption by shadowlisks. While it is annihilated in this way, a creature can perceive its immediate surroundings, but is {@condition incapacitated} and {@condition debilitated|LevelUp} and cannot communicate.",
+                        "If a different creature coats its hands with the blood of a shadowlisk, it can touch the mind and soul of a creature that has been annihilated within the last day and restore its body as an action. A creature restored in this way is alive and stable, with 0 hit points."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Obtenebrating Escape (1/Encounter)",
+                    "entries": [
+                        "If the shadowlisk would take damage, it uses Gloaming Leap. The shadowlisk does not suffer the triggering damage or any effects attached to it. The rea within 5 feet of the space it teleports to is covered in magical darkness until the end of the shadowlisk's next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ten-Headed Lion",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": "fey",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 126,
+                "formula": "11d10 + 66"
+            },
+            "speed": {
+                "walk": 50
+            },
+            "str": 21,
+            "dex": 20,
+            "con": 22,
+            "int": 4,
+            "wis": 12,
+            "cha": 6,
+            "save": {
+                "dex": "+10",
+                "con": "+11",
+                "int": "+3",
+                "wis": "+6"
+            },
+            "skill": {
+                "athletics": "+10",
+                "deception": "+8",
+                "perception": "+11",
+                "stealth": "+15"
+            },
+            "immune": [
+                "fire"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 21,
+            "languages": [
+                "understands elvish and sylvan but can't speak"
+            ],
+            "cr": "14",
+            "trait": [
+                {
+                    "name": "Dreamborn",
+                    "entries": [
+                        "The lion doesn't require air, food, drink, or sleep. It has advantage on saving throws against spells and other magical effects. Its attacks are magical. It is aware of the location of each sleeping creature within 1 mile."
+                    ]
+                },
+                {
+                    "name": "Mandala Mane",
+                    "entries": [
+                        "The lion's regal poise is glorified by an additional nine heads, whirling around the catlike creature in a maned mandala. These additional heads can fly freely within 150 feet of the body. If a head starts its turn farther away from the body than 150 feet, it teleports adjacent to the body, or is destroyed if it cannot teleport. Each head is a Small creature with 25 hit points. It has the same AC, saves, and immunities as the body, and can take its own reaction. However, if a damaging source with an area of effect would strike multilpe heads simultaneously, the damage is only dealt once and is divided equally amongst them. The heads can make the body's Bite attack.",
+                        "The lion has advantage on Perception checks and saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition debilitated|LevelUp}, or knocked {@condition unconscious}.",
+                        "If the lion has at least 1 hit point and starts its turn under any of the above conditions, it can destroy a head of its choice and end all those conditions.",
+                        "Whenever a head is destroyed, the lion's maximum hit points are reduced by 25. The lion restores all of its heads as part of a long rest.",
+                        "The body can attach itself to one of its heads without an action, at any time, simply by sharing a space. The body can also detach its current head without an action, at any time. It can operate just fine without a head."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The lion uses Denarian Dance four times and makes an attack with its claw. If Roiling Flame is available, the lion can use it in place of the claw attack."
+                    ]
+                },
+                {
+                    "name": "Bite (Head Only)",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage. If the target has already been bitten by another head this round, the target is {@condition grappled} (escape {@dc 19})."
+                    ]
+                },
+                {
+                    "name": "Claw (Body Only)",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage. If the target is {@condition grappled} by a head, it is knocked {@condition prone} unless it succeeds a Strength saving throw ({@dc 19})."
+                    ]
+                },
+                {
+                    "name": "Roiling Flame (Recharges 3 Rounds After Use)",
+                    "entries": [
+                        "The ground within 150 feet of the lion is coated with flames. They linger, filling low elevations but not flowing uphill. Creatures in the area take 11 ({@damage 2d10}) fire damage immediately, as does any creature that enters the area.",
+                        "At the start of the lion's next turn, the flames grow more intense, dealing 22 ({@damage 4d10}) fire damage immediately and to any creature that enters the area.",
+                        "At the start of the lion's third turn the flames flash, dealing 44 ({@damage 8d10}) fire damage and then vanishing. At the end of that turn, this power recharges."
+                    ]
+                },
+                {
+                    "name": "Denarian Dance",
+                    "entries": [
+                        "One of the lion's heads flies up to 80 feet; the lion either makes a Bite attack with that head or uses that head's special action. Once the lion uses a specific head, that head cannot act again until the start of the lion's next turn. The special actions of the heads are as follows:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "1. Healing Tongue",
+                                    "entries": [
+                                        "The head licks wounds upon the lion's body or a bodiless head. The head must be within 5 feet of the recipient. The recipient regains 14 ({@damage 4d6}) hit points."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "2. Entangling Exhalation",
+                                    "entries": [
+                                        "The head exhales hot breath upon the ground, and dense foliage erupts around each creature of its choice in a 20-foot cone. Each creature must succeed on a {@dc 19} Strength saving throw or be {@condition restrained} until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "3. Terrifying Roar",
+                                    "entries": [
+                                        "The head roars at each creature of its choice in a 20-foot cone. Each creature must succeed on a {@dc 19} Wisdom saving throw or be {@condition frightened}. The creature can repeat the saving throw at the end of each of its turns. When it succeeds, the condition ends and it becomes immune to this roar for the next day."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "4. Petrifying Gaze",
+                                    "entries": [
+                                        "The head locks eyes with a creature it can see within 10 feet of it, which must make a {@dc 19} Constitution saving throw. On a failed save, the creature begins to turn to stone and is {@condition restrained}. A creature may choose to shut its eyes at the start of its turn and keep them shut until the start of its next turn. If it does, the partial petrification ends.",
+                                        "If the creature is already partially petrified and it fails its save against this attack, it is {@condition petrified} until the lion is destroyed or the creature is freed by the {@spell greater restoration|LevelUp} spell or other magic."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "5. Gnashing Dispel",
+                                    "entries": [
+                                        "THe head ganshes its teeth and uses {@spell dispel magic|LevelUp} with a range of 50 feet. Constitution is its spellcasting ability."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "6. Staggering Hunger",
+                                    "entries": [
+                                        "The head licks its lips at a creature it can see within 10 feet of it, which must succeed on a {@dc 19} Wisdom saving throw or become {@condition staggered|LevelUp} at the start of its next turn. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "7. Venom Fangs",
+                                    "entries": [
+                                        "Black ichor coats the fangs of the head as it makes a Bite attack against a creature within reach. If the attack hits, the creature is {@condition poisoned}. The creature can make a {@dc 19} Constitution saving throw at the end of each of its turns, ending the effect on itself on a success."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "8. Radiant Beam",
+                                    "entries": [
+                                        "Light lances out from the head's gaping mouth. The head makes a ranged spell attack with a +10 attack bonus against a creature within 50 feet. On a hit, the creature takes 14 ({@damage 4d6}) radiant damage and is {@condition blinded} until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "9. Steal Voice",
+                                    "entries": [
+                                        "The head takes a deep breath, which agonises the tongue of a creature it can see within 10 feet of it. The creature must succeed on a {@dc 19} Constitution saving throw or be cursed, unable to speak above a croaking whisper until the curse is removed or the lion is destroyed.",
+                                        "Until the target recovers its voice, all of the lion's heads can perfectly imitate it, and the lion instinctively knows how to use this voice to trick others. Whenever the target casts a spell with a verbal component, it can attempt a {@dc 15} Arcana check. If it fails, it expends the spell slot without casting the spell."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "10. Snarling Hurl",
+                                    "entries": [
+                                        "The head bares its fangs at a Huge or smaller creature it can see within 10 feet of it. The creature must succeed on a {@dc 19} Strength saving throw or be moved up to 30 feet in any direction, including upward. Until the end of the creature's next turn, the creature is {@condition restrained} by a telekinetic force. A creature lifted upward is suspended in midair. The creature might fall once it is no longer {@condition restrained}.",
+                                        "Alternatively, the tenth head can try to move an object that weighs up to 1,000 pounds it can see within 10 feet of it, as per the {@spell telekinesis|LevelUp} spell. Constitution is its spellcasting ability."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Direct the Pride",
+                    "entries": [
+                        "The lion uses Denarian Dance two times."
+                    ]
+                },
+                {
+                    "name": "Fading Leap",
+                    "entries": [
+                        "The lion's body detaches its current head (if any), then magically teleports up to 120 feet to a space occupied by one of its heads. That head then attaches to the body."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Notturna",
+            "source": "LevelUp",
+            "size": [
+                "T"
+            ],
+            "type": "fey",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "average": 2,
+                "formula": "1d4"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 2,
+            "dex": 18,
+            "con": 10,
+            "int": 10,
+            "wis": 14,
+            "cha": 15,
+            "skill": {
+                "perception": "+4",
+                "stealth": "+6"
+            },
+            "passive": 14,
+            "languages": [
+                "common",
+                "sylvan"
+            ],
+            "cr": "1/8",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The notturna's spellcasting ability is Wisdom (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell druidcraft|LevelUp}",
+                        "{@spell minor illusion|LevelUp}"
+                    ],
+                    "daily": {
+                        "2e": [
+                            "{@spell animate objects|LevelUp} (it must spend an action painting each object it wants to animate)"
+                        ]
+                    },
+                    "ability": "wis"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The notturna has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Superior Invisibility",
+                    "entries": [
+                        "The notturna turns magically {@condition invisible} until its concentration on this effect ends."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Witchoil Automaton",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "average": 134,
+                "formula": "18d10 + 36"
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 20,
+            "dex": 6,
+            "con": 14,
+            "int": 3,
+            "wis": 11,
+            "cha": 1,
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "fatigue|LevelUp",
+                "frightened",
+                "staggered|LevelUp",
+                "petrified",
+                "poisoned"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 10,
+            "languages": [
+                "understands the languages of its creator but can't speak"
+            ],
+            "cr": "7",
+            "trait": [
+                {
+                    "name": "Bleak Aura",
+                    "entries": [
+                        "The automaton's weapon attacks are magical, and some of the automaton's attacks can afflict a creature with its Bleak Aura. At the start of the automaton's turn, each afflicted creature and each creature within 10 feet of an afflicted creature takes 5 ({@damage 1d10}) necrotic damage. However, that creature's weapon attacks count as magical for the purpose of harming the automaton. A creature can remove the Bleak Aura from itself by immersing in water, taking fire damage, or spending an action to wipe the oil off."
+                    ]
+                },
+                {
+                    "name": "Witchoil Ward",
+                    "entries": [
+                        "The automaton has advantage on saving throws against spells and magical effects. Ranged attacks against it that originate more than 20 feet away have disadvantage. If those attacks already have disadvantage from being at long range, they automatically miss."
+                    ]
+                },
+                {
+                    "name": "Witchoil Breach",
+                    "entries": [
+                        "When the automaton is first reduced to 30 hit points or fewer, its souleater engine ruptures in a powerful explosion. Each creature within 20 feet takes 10 ({@damage 3d6}) fire damage, or half as much if it succeeds a {@dc 14} Dexterity saving throw. Each creature in the area is afflicted by the automaton's Bleak Aura. Thereafter, the automaton's speed increases to 40 feet, and it gains a climb speed of 40 feet, but it loses Witchoil Ward and its Witchoil Fist attack no longer inflicts a Bleak Aura."
+                    ]
+                },
+                {
+                    "name": "Technological Weakness",
+                    "entries": [
+                        "Whenever a creature proficient in either Engineering or Arcana enters combat with a hostile automaton, it knows that the automaton has weaknesses. As a bonus action, the creature can make either a {@dc 13} Arcana or Engineering check, having the DM read out either the automaton's Howl of Souls or Cold Fragility trait, respectively, on a success."
+                    ]
+                },
+                {
+                    "name": "Howl of Souls",
+                    "entries": [
+                        "Magic that would heal the automaton instead deals an equal amount of damage. The restorative energy briefly empowers the souls in the witchoil engine, and they fight against the wards holding them in. The automaton's Bleak Aura does no damage on its next turn."
+                    ]
+                },
+                {
+                    "name": "Cold Fragility",
+                    "entries": [
+                        "When the automaton takes cold damage, if any single attack deals 15 or more bludgeoning, piercing, or slashing damage to it in the next turn, this triggers Witchoil Breach (regardless of how many hit points the automaton has) if it hasn't already triggered."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The automaton makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Witchoil Fist",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage and the target is afflicted by the automaton's Bleak Aura."
+                    ]
+                },
+                {
+                    "name": "Smash Aside",
+                    "entries": [
+                        "The automaton throws an object of up to Medium size. {@atk rw} {@hit 8} to hit, range 20 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage. If the automaton hit a Medium or smaller creature with its Witchoil Fist this turn, when it uses this attack it throws that creature. If it hits with the attack, the thrown creature also takes 9 ({@damage 2d8 + 5}) bludgeoning damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Flayed Jaguar",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "monstrosity",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 60,
+                "formula": "8d8 + 24"
+            },
+            "speed": {
+                "walk": 50,
+                "climb": 40
+            },
+            "str": 15,
+            "dex": 14,
+            "con": 16,
+            "int": 6,
+            "wis": 12,
+            "cha": 7,
+            "save": {
+                "con": "+5",
+                "wis": "+3"
+            },
+            "skill": {
+                "athletics": "+4",
+                "perception": "+5",
+                "stealth": "+6"
+            },
+            "immune": [
+                "necrotic"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 15,
+            "languages": [
+                "understands the languages of its creator but can't speak"
+            ],
+            "cr": "2",
+            "trait": [
+                {
+                    "name": "Abnegation (1/Encounter)",
+                    "entries": [
+                        "If the jaguar fails a saving throw, it can succeed instead. Alternatively, it can expend this to safely pass through conjurations and evocations until the end of its next turn, allowing it to completely ignore the effects of those schools of magic."
+                    ]
+                },
+                {
+                    "name": "Crepusculous and Adumbral",
+                    "entries": [
+                        "The jaguar has advantage on saving throws against spells and other magical effects. Its weapon attacks are magical. Magical darkness doesn't impede its darkvision."
+                    ]
+                },
+                {
+                    "name": "Cursed Blood",
+                    "entries": [
+                        "Whenever the jaguar takes piercing or slashing damage, it sprays out dark blood. Each creature within 5 feet of the jaguar cannot regain hit points until the end of its next turn. Additionally, until the end of the jaguar's next turn, each space it moves through becomes contaminated difficult terrain until it is scrubbed clean. Each time a creature enters this contaminated difficult terrain or ends its turn there, it cannot regain hit points until the end of its next turn."
+                    ]
+                },
+                {
+                    "name": "Keen Smell",
+                    "entries": [
+                        "The jaguar has advantage on Perception checks that rely on smell."
+                    ]
+                },
+                {
+                    "name": "No Escape",
+                    "entries": [
+                        "If the jaguar hits with an opportunity attack, the target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Volatile Existence",
+                    "entries": [
+                        "When the jaguar is reduced to 0 hit points, it dies. Any witchoil it had that is not ensouled degenerates into regular oil; its ensouled witchoil can still be gathered up."
+                    ]
+                },
+                {
+                    "name": "Technological Weakness",
+                    "entries": [
+                        "Whenever a creature proficient in either Arcana or Insight enters combat with a hostile jaguar, it knows that the jaguar has weaknesses. As a bonus action, the creature can make either a {@dc 12} Arcana or Insight check, having the DM read out either the jaguar's Witchoil Heart or Command Collar trait, respectively, on a success."
+                    ]
+                },
+                {
+                    "name": "Witchoil Heart",
+                    "entries": [
+                        "If the jaguar's speed is 0, a creature within reach can spend an action to attempt a {@dc 13} Strength check to remove the steel plate covering the jaguar's heart. On a success, the jaguar takes 10 points of radiant damage at the start of each of its turns, and the next attack that deals damage to the jaguar kills it."
+                    ]
+                },
+                {
+                    "name": "Command Collar",
+                    "entries": [
+                        "A creature grappling the jaguar can grab its collar and spend a bonus action to attempt a {@dc 13} Charisma (Animal Handling) check. On a success, for 1 minute, the jaguar is {@condition charmed} by the creature that subjugated it and obeys that creature's verbal commands, though it will defend itself if attacked, ignoring any commands.",
+                        "While the jaguar is {@condition charmed} in this way, the character who {@condition charmed} it can remove its witchoil heart or safely open it to refill it with ensouled witchoil. If a character does so, the jaguar becomes loyal to the character for a week."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The jaguar makes two Claw attacks. If the target is {@condition prone}, it also makes a Bite attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 2}) piercing damage. If the target is a {@condition prone} Large or smaller creature, it is {@condition grappled} (escape {@dc 12}), and the jaguar cannot bite another target until this grapple ends."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shadow Hound Killer",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "average": 75,
+                "formula": "10d8 + 30"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 13,
+            "dex": 20,
+            "con": 16,
+            "int": 10,
+            "wis": 11,
+            "cha": 13,
+            "skill": {
+                "stealth": "+6"
+            },
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "immune": [
+                "necrotic"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "one based on the killer's race"
+            ],
+            "cr": "5",
+            "trait": [
+                {
+                    "name": "Abnegation (1/Encounter)",
+                    "entries": [
+                        "If the killer fails a saving throw, it can succeed instead. Alternatively, it can expend this to safely pass through conjurations and evocations until the end of its next turn, allowing it to completely ignore the effects of those schools of magic."
+                    ]
+                },
+                {
+                    "name": "Crepusculous and Adumbral",
+                    "entries": [
+                        "The killer has advantage on saving throws against spells and other magical effects. Its weapon attacks are magical. Magical darkness doesn't impede its darkvision."
+                    ]
+                },
+                {
+                    "name": "Technological Weakness",
+                    "entries": [
+                        "Whenever a creature proficient in Religion enters combat with a hostile killer, it knows that the killer has a weakness. As a bonus action, the creature can make a {@dc 12} Religion check, having the DM read out the killer's Hideous Reveal trait on a success."
+                    ]
+                },
+                {
+                    "name": "Hideous Reveal",
+                    "entries": [
+                        "Whenever the killer takes radiant damage or ends its turn in a brightly-lit area, the killer's matte, black skin fades, revealing for a moment raw muscle and sinew and weeping rivulets of blood. The killer becomes visible if it previously hid with Hide in Shadows. Additionally, until the end of its next turn it loses its damage resistance and cannot use Hide in Shadows or Draw the Dark Veil Shut."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Claw of Shadow",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage. If the target is a living creature and it takes any damage from this attack, its life is linked to the Realm of the Dead, and it bleeds copiously, feeling a terrible chill. While linked this way, it cannot heal hit points. Additionally, it takes 10 ({@damage 3d6}) cold damage at the start of each of its turns. Its hit point maximum is reduced by an amount equal to the damage taken. The link lasts until the creature ends its turn in a brightly-lit area, or until a creature spends an action and makes a {@dc 10} Medicine check to staunch the bleeding."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Hide in Shadows",
+                    "entries": [
+                        "The killer casts {@spell darkness|LevelUp}, then becomes {@condition invisible} if it is in an area of dim light or darkness, and it remains {@condition invisible} until it attacks, enters a brightly-lit area, or takes radiant damage. Its spellcasting ability for this action is Charisma."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Draw the Black Veil Shut (1/Encounter)",
+                    "entries": [
+                        "When an attack damages the killer, it uses Hide in Shadows and then teleports 30 feet to a location it can see."
+                    ]
+                }
+            ]
         }
     ]
 }
