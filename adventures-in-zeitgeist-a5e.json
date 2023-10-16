@@ -2609,7 +2609,7 @@
                 {
                     "name": "Fueled by Malice",
                     "entries": [
-                        "Killing a malice spawn deals 10 necrotic damage to the screaming malice that created it. The malice spawn automatically dies if it strays more than three miles from the screaming malice that created it."
+                        "Killing a malice spawn deals 10 necrotic damage to the {@creature screaming malice|LevelUp} that created it. The malice spawn automatically dies if it strays more than three miles from the {@creature screaming malice|LevelUp} that created it."
                     ]
                 },
                 {
@@ -2629,7 +2629,7 @@
                 {
                     "name": "Claw",
                     "entries": [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage. If the target is {@condition charmed}, {@condition frightened}, or experiencing intense magical emotions (such as from {@spell hideous laughter|LevelUp}, a berserker's rage, or Emotive Wail), it must succeed on a {@dc 18} Wisdom saving throw or fall {@condition prone}."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage. If the target is {@condition charmed}, {@condition frightened}, or experiencing intense magical emotions (such as from {@spell hideous laughter|LevelUp}, a berserker's rage, or a {@creature screaming malice|LevelUp|screaming malice's} Emotive Wail), it must succeed on a {@dc 18} Wisdom saving throw or fall {@condition prone}."
 
                     ]
                 }
