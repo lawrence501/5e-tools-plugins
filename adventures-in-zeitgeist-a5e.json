@@ -2264,6 +2264,376 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Malice Rager",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": {
+                "type": "aberration",
+                "tags": [
+                    "malice"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 88,
+                "formula": "12d10 + 24"
+            },
+            "speed": {
+                "walk": 50
+            },
+            "str": 18,
+            "dex": 13,
+            "con": 14,
+            "int": 4,
+            "wis": 12,
+            "cha": 6,
+            "immune": [
+                "fire"
+            ],
+            "vulnerable": [
+                "psychic"
+            ],
+            "passive": 11,
+            "cr": "3",
+            "trait": [
+                {
+                    "name": "Aura of Fury",
+                    "entries": [
+                        "Any creature that starts its turn or moves to within 20 feet of the malice beast must make a {@dc 12} Wisdom saving throw. If it fails, it is gripped with fury for one minute. If it succeeds its save, or when the fury ends, that creature becomes immune to this malice beast's emotion aura for 24 hours. The malice beast can suppress this aura at will, such as if it wants to ambush prey.",
+                        "A furious creature adds 2 ({@damage 1d4}) fire damage to any melee attack it makes. If a furious creature can see an enemy at the start of its turn, it feels an urge to make a melee attack against an enemy or to use its full movement speed to approach an enemy, and it cannot willingly move away from an enemy it is adjacent to. If it doesn't comply with this urge, at the end of its turn it takes 2 ({@damage 1d4}) psychic damage."
+                    ]
+                },
+                {
+                    "name": "Psychic Vulnerability",
+                    "entries": [
+                        "Whenever the malice beast takes psychic damage, one creature of the attacker's choice becomes immune to its aura for 24 hours."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Fire Burst (Recharge 5-6)",
+                    "entries": [
+                        "The beast glares at a point it can see within 120 feet of it, and fire manifests in that spot. Each creature in a 10-foot-radius sphere centered on that point takes 14 ({@damage 4d6}) fire damage, or half that damage if it succeeds a {@dc 13} Dexterity saving throw."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Goading Urge",
+                    "entries": [
+                        "After a creature outside the malice rager's Aura of Fury deals damage to it, that creature must make a saving throw as if it had entered the aura."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Screaming Malice",
+            "source": "LevelUp",
+            "size": [
+                "H"
+            ],
+            "type": {
+                "type": "aberration",
+                "tags": [
+                    "malice"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 125,
+                "formula": "10d12 + 60"
+            },
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "str": 21,
+            "dex": 20,
+            "con": 22,
+            "int": 4,
+            "wis": 12,
+            "cha": 7,
+            "save": {
+                "con": "+10",
+                "wis": "+5"
+            },
+            "skill": {
+                "athletics": "+9",
+                "perception": "+9",
+                "stealth": "+13"
+            },
+            "immune": [
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "vulnerable": [
+                "psychic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "frightened",
+                "prone"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 19,
+            "cr": "10",
+            "trait": [
+                {
+                    "name": "Legendary Resistances (3/Day)",
+                    "entries": [
+                        "If the screaming malice fails a saving throw, it can succeed instead."
+                    ]
+                },
+                {
+                    "name": "Psychic Vulnerability",
+                    "entries": [
+                        "Whenever the malice beast takes psychic damage, one creature of the attacker's choice becomes immune to its Emotive Wail for 24 hours."
+                    ]
+                },
+                {
+                    "name": "Cephalic Quincunx",
+                    "entries": [
+                        "The screaming malice has five Medium heads which can share the body's space and which each have a reach of 5 feet. Whenever the sreaming malice moves, only its body moves unless otherwise stipulated. When it starts its turn, it can reposition its heads to spaces of its choice within 30 feet of its body, which does not provoke opportunity attacks. If a head is ever more than 30 feet away, it falls off and dies harmlessly, and a replacement head grows at the end of the screaming malice's next turn, sharing its space. Each head can be dealt damage by attacking it, but the heads and body share a single hit point pool. Individuals heads cannot be destroyed this way. While it has more than one head, the screaming malice cannot be {@condition blinded}, {@condition deafened}, {@condition debilitated|LevelUp}, or knocked {@condition unconscious}.",
+                        "The screaming malice can take four reactions per round, but the extra three can only be used to make opportunity attack bites with heads, and each head can only make one opportunity attack per round."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The creature has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Magic Weapons",
+                    "entries": [
+                        "The creature's weapon attacks are magical."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The creature uses Emotive Wail, then for each of its heads, it uses either Predatory Pentad or Cranial Biogenesis."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage. If the target is {@condition charmed}, {@condition frightened}, or experiencing intense magical emotions (such as from {@spell hideous laughter|LevelUp}, a berserker's rage, or Emotive Wail), it must succeed on a {@dc 18} Wisdom saving throw or fall {@condition prone}."
+
+                    ]
+                },
+                {
+                    "name": "Emotive Wail",
+                    "entries": [
+                        "Each non-malice creature within 120 feet of the screaming malice and not currently affected by Emotive Wail takes 2 ({@damage 1d4}) nonlethal psychic damage and must succeed on a {@dc 18} Wisdom saving throw or suffer a random effect for 1 minute. Each creature rolls a {@dice d6} to determine how it is magically affected:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "1-2:",
+                                    "entries": [
+                                        "Fear. The creature is {@condition frightened}."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "3-4:",
+                                    "entries": [
+                                        "Fascination. The creature is {@condition charmed}. The effect ends if the creature takes any damage."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "5-6:",
+                                    "entries": [
+                                        "Euphoria. The only action that the creature can take is Dash. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Emotive Wail for the next 24 hours."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Predatory Pentad",
+                    "entries": [
+                        "The screaming malice moves one of its heads up to 30 feet and makes a Bite attack with that head."
+                    ]
+                },
+                {
+                    "name": "Cranial Biogenesis",
+                    "entries": [
+                        "The screaming malice moves one of its heads up to 30 feet and detaches and trasnforms that head into a {@creature malice spawn|LevelUp}. The spawn acts immediately after each of the screaming malice's turns, including the turn in which the spawn was created. A new head regrows at the end of the screaming malice's next turn. The creature cannot use this ability if it already has three active spawn."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Devour Heroics",
+                    "entries": [
+                        "fter another creature achieves a natural 20 on an attack roll, ability check, or saving throw, the screaming malice can us Predatory Pentad and try to bite it."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Never-Tangling Quintet",
+                    "entries": [
+                        "The screaming malice uses Predatory Pentad."
+                    ]
+                },
+                {
+                    "name": "Feed on Fear",
+                    "entries": [
+                        "One {@condition frightened} creature within 120 feet of the screaming malice must make a {@dc 18} Wisdom saving throw. If it fails it takes 9 ({@damage 1d6 + 6}) psychic damage, and the screaming malice can move 10 feet."
+                    ]
+                },
+                {
+                    "name": "Lure",
+                    "entries": [
+                        "One {@condition charmed} creature within 120 feet moves a distance equal to its speed, its path chosen by the screaming malice. The creature is then {@condition dazed|LevelUp} for as long as it remains {@condition charmed} by the screaming malice."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Malice Spawn",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 10,
+                "formula": "1d20"
+            },
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "str": 21,
+            "dex": 20,
+            "con": 22,
+            "int": 4,
+            "wis": 12,
+            "cha": 7,
+            "skill": {
+                "athletics": "+9",
+                "perception": "+9",
+                "stealth": "+13"
+            },
+            "immune": [
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "vulnerable": [
+                "psychic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "frightened",
+                "prone"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 19,
+            "cr": "1",
+            "trait": [
+                {
+                    "name": "Evasive Mettle",
+                    "entries": [
+                        "If the malice spawn is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Fueled by Malice",
+                    "entries": [
+                        "Killing a malice spawn deals 10 necrotic damage to the screaming malice that created it. The malice spawn automatically dies if it strays more than three miles from the screaming malice that created it."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The creature has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Magic Weapons",
+                    "entries": [
+                        "The creature's weapon attacks are magical."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage. If the target is {@condition charmed}, {@condition frightened}, or experiencing intense magical emotions (such as from {@spell hideous laughter|LevelUp}, a berserker's rage, or Emotive Wail), it must succeed on a {@dc 18} Wisdom saving throw or fall {@condition prone}."
+
+                    ]
+                }
+            ]
         }
     ]
 }
