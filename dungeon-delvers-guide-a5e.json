@@ -63,10 +63,12 @@
 			},
 			"duration": [
 				{
-					"type": "permanent",
-                    "ends": [
-                        "dispel"
-                    ]
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
 				}
 			],
 			"entries": [
@@ -86,6 +88,15 @@
                 },
 				"A permanent, immovable zone of antimagic fills the area, suppressing all magical effects within it. At the DM's discretion, sufficiently powerful artifacts and deities may be able to ignore the zone's effects. The zone is dispelled only if more than 10 percent of its area overlaps with that of another antimagic zone spell (which is also dispelled)."
 			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot above 6th, the aberration's AC increases by 1, its hit points increase by 10, and when it deals damage with an attack it deals {@dice 1d4} extra damage."
+                    ]
+                }
+            ],
 			"miscTags": [
 				"PRM",
 				"OBJ"
@@ -273,6 +284,454 @@
 			"miscTags": [
 				"OBJ"
 			]
+		},
+        {
+			"name": "Awaken Portal",
+			"source": "LevelUp",
+			"level": 4,
+			"school": "T",
+            "subschools": [
+                "arcane",
+                "architecture",
+                "divine",
+                "protection"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "gold key worth at least 250 gp, consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "permanent",
+                    "ends": [
+                        "dispel"
+                    ]
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "Huge or smaller door or window"
+                    ]
+                },
+				"You impart sentience to a door, window, gate, lid, or other object that can be opened, closed, and locked. You grant it an Intelligence, Wisdom, and Charisma of 10. The door retains its hit points, AC, and other characteristics, and is considered an object. If the door is reduced to 0 hit points, it is killed and the spell ends.",
+                "The door is able to open, close, lock, and unlock by itself, and can speak and understand one language that you know. If {@spell arcane lock|LevelUp} is cast on the door, the door can activate and deactivate the spell at will. The door is friendly to you and follows your orders."
+			],
+			"miscTags": [
+				"PRM",
+				"OBJ"
+			]
+		},
+        {
+			"name": "Conjure Aberration",
+			"source": "LevelUp",
+			"level": 6,
+			"school": "C",
+            "subschools": [
+                "arcane",
+                "divine",
+                "evil",
+                "planar",
+                "summoning"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+				"You wrench open a hole in reality and summon a creature from the cracks between the planes. This creature uses the statistics of a {@creature conjured aberration|LevelUp}. In addition, roll {@dice 1d4} or choose the averration's general appearance.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "1",
+                            "entries": [
+                                "Squid-like"
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "2",
+                            "entries": [
+                                "Writhing ball of body parts"
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "3",
+                            "entries": [
+                                "Humanoid with featureless face"
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "4",
+                            "entries": [
+                                "Translucent worm"
+                            ]
+                        }
+                    ]
+                },
+                "The creature is friendly to you and your companions and takes its turn immediately after yours. It obeys your verbal commands. Without such commands, the creature only defends itself. The creature disappears when reduced to 0 hit points. If your concentration is broken before the spell ends, you lose control of the aberration, which becomes hostile and attacks you and your companions. An uncontrolled creature disappears 1 hour after you summoned it."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot above 6th, the aberration's AC increases by 1, its hit points increase by 10, and when it deals damage with an attack it deals {@dice 1d4} extra damage."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"SMN"
+			]
+		},
+        {
+			"name": "Escape",
+			"source": "LevelUp",
+			"level": 5,
+			"school": "C",
+            "subschools": [
+                "arcane",
+                "teleporation"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "silken cord"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "You and up to 5 willing creatures"
+                    ]
+                },
+				"If you cast this spell while underground or inside a building, you teleport to the outdoor space you occupied most recently within the last 24 hours. You are teleported whether or not the destination is hazardous.",
+                "The spell fails if there is 100 contiguous feet of earth or stone or a thin layer of lead in a direct line between you and the destination."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each spell slot above 5th, you can teleport two additional creatures along with you."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"TP"
+			]
 		}
+    ],
+    "monster": [
+        {
+            "name": "Template Monster",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "fiend",
+                "tags": [
+                    "demon"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 153,
+                "formula": "18d8 + 72"
+            },
+            "speed": {
+                "walk": 30,
+                "fly": 90
+            },
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "save": {
+                "wis": "+9",
+                "cha": "+9"
+            },
+            "skill": {
+                "insight": "+9",
+                "perception": "+9",
+                "religion": "+9"
+            },
+            "resist": [
+                "radiant",
+                {
+                    "resist": [
+                        "damage"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "vulnerable": [
+                "radiant"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "staggered|LevelUp",
+                "petrified",
+                "poisoned"
+            ],
+            "senses": [
+                "truesight 30 ft."
+            ],
+            "passive": 19,
+            "languages": [
+                "all",
+                "telepathy 120 ft."
+            ],
+            "cr": "10",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The aboleth's spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell detect evil and good|LevelUp}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell detect thoughts|LevelUp}",
+                            "{@spell major image|LevelUp}",
+                            "{@spell project image|LevelUp}"
+                        ]
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The deva has advantage on saving throws against spells and magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The deva makes two attacks."
+                    ]
+                },
+                {
+                    "name": "Celestial Hammer",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage plus 17 ({@damage 5d6}) radiant damage. On a hit, the target can't make opportunityattacks against the deva until the beginning of the target's next turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Bonus",
+                    "entries": [
+                        "Entries"
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Self-Sacrifice",
+                    "entries": [
+                        "When a creature within 5 feet of the thrall that the thrall can see hits an aboleth with an attack, the thrall can make itself the target of the attack instead."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Legendary action",
+                    "entries": [
+                        "Entries for legendary action"
+                    ]
+                }
+            ],
+            "legendaryActions": 2
+        },
+        {
+            "name": "Conjured Aberration",
+            "source": "LevelUp",
+            "summonedBySpell": "Conjure Aberration|LevelUp",
+            "summonedBySpellLevel": 6,
+            "size": [
+                "L"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "14 + 1 for each spell level above 6th (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "100 + 10 for each spell level above 6th"
+            },
+            "speed": {
+                "walk": 30,
+                "fly": {
+                    "number": 30,
+                    "condition": "(hover)"
+                },
+                "swim": 30
+            },
+            "str": 18,
+            "dex": 14,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 12,
+            "conditionImmune": [
+                "fatigue|LevelUp",
+                "staggered|LevelUp",
+                "petrified",
+                "strife|LevelUp",
+                "unconscious"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "deep speech",
+                "telepathy 120 ft."
+            ],
+            "action": [
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 10 ft., one target. {@h}18 ({@damage 4d6 + 4}) bludgeoning damage plus 2 ({@damage 1d4}) extra damage for each spell slot level above 6th. If the target is a Medium or smaller creature, it is {@condition grappled} (your spell save DC to escape)."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target {@condition grappled} by the aberration. {@h}25 ({@damage 6d6 + 4}) piercing damage plus 2 ({@damage 1d4}) extra damage for each spell slot level above 6th."
+                    ]
+                }
+            ]
+        }
     ]
 }
