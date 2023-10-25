@@ -49,6 +49,9 @@
 					"unit": "minute"
 				}
 			],
+            "meta": {
+                "ritual": true
+            },
 			"range": {
 				"type": "point",
 				"distance": {
@@ -103,7 +106,17 @@
 			],
 			"areaTags": [
 				"S"
-			]
+			],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "saving throw": [
+                "dexterity"
+            ],
+            "conditionInflict": [
+                "restrained",
+                "prone"
+            ]
 		},
         {
 			"name": "Antimagic Zone",
@@ -519,6 +532,327 @@
 			"miscTags": [
 				"TP"
 			]
+		},
+        {
+			"name": "Invisible Object",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "I",
+            "subschools": [
+                "arcane",
+                "obscurement",
+                "shadow"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One object"
+                    ]
+                },
+				"A Medium or smaller object becomes invisible, as do any inanimate contents inside it when the spell is cast. Objects removed from the spell's original target fter the spell is cast remain visible, and dirt, dust, and other markings may reveal the invisible object's location. The spell ends if the object deals damage.",
+                "Attacks made with an invisible melee weapon are made with advantage."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "When cast with a 5th-level spell slot, the duration is 1 day. When cast with a 7th-level spell slot, the duration is permanent until dispelled."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM",
+				"OBJ",
+                "ADV"
+			]
+		},
+        {
+			"name": "Magic Map",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "D",
+            "subschools": [
+                "arcane",
+                "knowledge",
+                "nature"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": false,
+				"s": true,
+                "m": "blank parchment and special inks worth at least 25 gp, consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "Special"
+                    ]
+                },
+				"You create a map with yourself at the centre, or update a map previously created with this spell. When creating a map, you choose its scale, from 100 by 100 feet to 100 by 100 miles. As part of the spell, you can make notes or other annotations on the map. The map only includes locations that you've seen and traveled through. The map doesn't show areas at a significantly different elevation from your current locaiton. If you cast the spell while you are lose, the spell fails.",
+                "At the DM's discretion, some magical areas can't be mapped with this spell."
+			],
+			"miscTags": [
+				"PRM"
+			]
+		},
+        {
+			"name": "Metabolic Stasis",
+			"source": "LevelUp",
+			"level": 6,
+			"school": "T",
+            "subschools": [
+                "arcane",
+                "divine",
+                "nature",
+                "negation"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": false,
+				"s": true,
+                "m": "diamond-dust-filled hourglass worth at least 1,000 gp, consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "permanent",
+                    "ends": [
+                        "dispel"
+                    ]
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "50-foot cube"
+                    ]
+                },
+				"Creatures in the area when the spell is cast no longer age or require sustenance. The effect ends for a creature the first time it leaves the area."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "When cast with an 8th-level spell slot, affected creatures no longer need to breathe."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM"
+			]
+		},
+        {
+			"name": "Ravaging Roots",
+			"source": "LevelUp",
+			"level": 6,
+			"school": "V",
+            "subschools": [
+                "arcane",
+                "earth",
+                "nature",
+                "plants"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "dried willow tree root"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "30-foot square"
+                    ]
+                },
+				"Roots erupt out of an earth or stone surface that you can see within range, swelling as they smash stone and displace earth. When the spell ends, the roots wither away, but the damage remains.",
+                {
+                    "type": "entries",
+                    "name": "Creatures",
+                    "entries": [
+                        "A creature that starts its turn in the area makes a Dexterity saving throw or is {@condition restrained} by the roots, taking {@damage 5d6} bludgeoning damage. A creature already {@condition restrained} by the roots automatically fails this saving throw. A creature can use its action to make a Strength check against your spell save DC, freeing itself or another creature on a success."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ground",
+                    "entries": [
+                        "Ground and floors in the area (and underneath ceilings in the area, if you cast the spell on a ceiling) become difficult terrain."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Walls and Ceilings",
+                    "entries": [
+                        "Constructed walls and ceilings in the area take {@damage 5d6} bludgeoning damage at the start of each of your turns while the spell lasts. A structure reduced to 0 hit points by this spell collapses. Most structures of worked stone have around 27 ({@dice 5d10}) hit points per 10-foot-square section, while natural walls and ceilings have half as many hit points.",
+                        "When a wall or ceiling collapses, the spell ends early. Each creature in or directly beneath the spell's area makes a Dexterity saving throw. On a failure, it takes {@damage 5d6} bludgeoning damage, is knocked {@condition prone}, and is buried by rubble. A creature buried by rubble that is underground is also unable to breathe. A creature can use its action to make a Strength check against your spell save DC, freeing itself or another creature on a success."
+                    ]
+                }
+			],
+			"miscTags": [
+				"OBJ",
+                "DFT"
+			],
+			"areaTags": [
+				"R"
+			],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "saving throw": [
+                "dexterity"
+            ],
+            "conditionInflict": [
+                "restrained",
+                "prone"
+            ]
 		}
     ],
     "monster": [
