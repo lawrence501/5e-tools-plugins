@@ -89,6 +89,13 @@
                         "10-foot cube"
                     ]
                 },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Dexterity halves and negates deafness"
+                    ]
+                },
 				"A permanent, immovable zone of antimagic fills the area, suppressing all magical effects within it. At the DM's discretion, sufficiently powerful artifacts and deities may be able to ignore the zone's effects. The zone is dispelled only if more than 10 percent of its area overlaps with that of another antimagic zone spell (which is also dispelled)."
 			],
             "entriesHigherLevel": [
@@ -852,6 +859,265 @@
             "conditionInflict": [
                 "restrained",
                 "prone"
+            ]
+		},
+        {
+			"name": "Skeletal Hands",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "N",
+            "subschools": [
+                "arcane",
+                "control",
+                "divine",
+                "necrotic"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": false,
+				"s": true,
+                "m": "finger bone"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "1 creature"
+                    ]
+                },
+				"Dozens of skeletal hands reach from a wall or other vertical surface to grasp a creature within 5 feet of the surface. Make a melee spell attack. On a hit, the target takes {@damage 1d8} necrotic damage and is {@condition restrained} until the spell ends. A creature {@condition restrained} by the hands can use a bonus action to make a Strength saving throw to escape, ending the spell early on a success. On a failure, the target takes {@damage 1d8} necrotic damage. When the spell ends, the hands withdraw into the wall."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The spell's initial damage and damage on a failed escape attempt increase by {@damage 1d8} per slot level above 1st."
+                    ]
+                }
+            ],
+			"areaTags": [
+				"ST"
+			],
+            "damageInflict": [
+                "necrotic"
+            ],
+            "saving throw": [
+                "strength"
+            ],
+            "conditionInflict": [
+                "restrained"
+            ]
+		},
+        {
+			"name": "Stonesense",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "D",
+            "subschools": [
+                "arcane",
+                "divine",
+                "earth",
+                "nature"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Paladin",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a rough figure of an earth elemental"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "1 creature"
+                    ]
+                },
+				"You imbue the target with a preternatural understanding of stone. The target gains tremorsense out to a distance of 60 feet.",
+                "Whenever the target makes a History check related to the origin of stonework, it is considered proficient in the History skill and gains expertise die on the check. If the target already had the Stonecunning trait, it makes the check with advantage.",
+                "Additionally, if the target is underground, it can make a {@dc 10} Intelligence check to correctly determine the distance between itself and the surface, or to perfectly recall any path it has traveled in the past week."
+			]
+		},
+        {
+			"name": "Thunder Bolt",
+			"source": "LevelUp",
+			"level": 4,
+			"school": "V",
+            "subschools": [
+                "arcane",
+                "attack",
+                "nature",
+                "sound",
+                "storm",
+                "thunder"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "tiny sheet of metal"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "20-foot-radius sphere"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Dexterity halves and negates deafness"
+                    ]
+                },
+				"A peal of thunder ripples from a point you can see within range. Each creature in the area takes {@damage 9d6} thunder damage and is {@condition deafened} until the end of its next turn. If the area contains Large or larger nonmagical wood or stone objects, the objects take {@damage 9d6} thunder damage and creatures in the area that fail their saving throw take an additional {@damage 3d6} slashing damage from flying splinters. The thunderclap can be heard from 600 feet away."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For every slot level above 4th, the thunder and slashing damage increase by {@damage 1d6}, and the thunderclap can be heard from an additional 100 feet away."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"SGT",
+				"OBJ"
+			],
+			"areaTags": [
+				"S"
+			],
+            "damageInflict": [
+                "thunder",
+                "slashing"
+            ],
+            "saving throw": [
+                "dexterity"
+            ],
+            "conditionInflict": [
+                "deafened"
             ]
 		}
     ],
