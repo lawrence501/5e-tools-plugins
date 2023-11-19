@@ -1332,6 +1332,655 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Aboleth Brute",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 210,
+                "formula": "20d10 + 100"
+            },
+            "speed": {
+                "walk": 10,
+                "swim": 40
+            },
+            "str": 22,
+            "dex": 14,
+            "con": 20,
+            "int": 20,
+            "wis": 20,
+            "cha": 18,
+            "save": {
+                "dex": "+7",
+                "con": "+10",
+                "int": "+10",
+                "wis": "+10"
+            },
+            "skill": {
+                "deception": "+9",
+                "history": "+10",
+                "intimidation": "+9",
+                "stealth": "+7"
+            },
+            "resist": [
+                "poison",
+                "psychic"
+            ],
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "passive": 15,
+            "languages": [
+                "deep speech",
+                "telepathy 120 ft."
+            ],
+            "cr": "13",
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The aboleth can breathe air and water."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The aboleth attacks once with its bite and twice with its tentacles."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}32 ({@damage 4d12 + 6}) piercing damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the aboleth can't bite a different creature."
+                    ]
+                },
+                {
+                    "name": "Tentacle",
+                    "entries": [
+                        "{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage. If the target is a creature, it makes a {@dc 18} Constitution saving throw. On a failure, it contracts a disease called the Sea Change. On a success, it is immune to this disease for 24 hours. While affected by this disease, the target has disadvantage on Wisdom saving throws. After 1 hour, the target grows gills, it can breathe water, its skin becomes slimy, and it begins to suffocate if it goes 12 hours without being immersed in water for at least 1 hour. This disease can be removed with a disease-removing spell cast with at least a 4th-level spell slot, and it ends 24 hours after the aboleth dies."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Ink Jet (Recharge 5-6)",
+                    "entries": [
+                        "While underwater, the aboleth exudes a cloud of inky slime in a 30-foot-radius sphere. The slime extends around corners, and the area is heavily obscured for 1 minute or until a strong current dissipates the cloud. The aboleth then moves up to its speed without provoking opportunity attacks."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aboleth Fallen Ascendant",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 210,
+                "formula": "20d10 + 100"
+            },
+            "speed": {
+                "walk": 10,
+                "swim": 40
+            },
+            "str": 22,
+            "dex": 14,
+            "con": 20,
+            "int": 20,
+            "wis": 20,
+            "cha": 18,
+            "save": {
+                "dex": "+7",
+                "con": "+10",
+                "int": "+10",
+                "wis": "+10"
+            },
+            "skill": {
+                "deception": "+9",
+                "history": "+10",
+                "intimidation": "+9",
+                "stealth": "+7"
+            },
+            "resist": [
+                "poison",
+                "psychic"
+            ],
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "passive": 15,
+            "languages": [
+                "deep speech",
+                "telepathy 120 ft."
+            ],
+            "cr": "14",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The aboleth's spellcasting ability is Wisdom (spell save {@dc 18}, +10 to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell detect thoughts|LevelUp} (range 120 ft.)",
+                            "{@spell eyebite|LevelUp}",
+                            "{@spell phantasmal force|LevelUp}",
+                            "{@spell project image|LevelUp} (range 1 mile)"
+                        ]
+                    },
+                    "ability": "wis"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The aboleth can breathe air and water."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The aboleth attacks once with its bite and twice with its tentacles."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}32 ({@damage 4d12 + 6}) piercing damage, and the target is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the aboleth can't bite a different creature."
+                    ]
+                },
+                {
+                    "name": "Tentacle",
+                    "entries": [
+                        "{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage. If the target is a creature, it makes a {@dc 18} Constitution saving throw. On a failure, it contracts a disease called the Sea Change. On a success, it is immune to this disease for 24 hours. While affected by this disease, the target has disadvantage on Wisdom saving throws. After 1 hour, the target grows gills, it can breathe water, its skin becomes slimy, and it begins to suffocate if it goes 12 hours without being immersed in water for at least 1 hour. This disease can be removed with a disease-removing spell cast with at least a 4th-level spell slot, and it ends 24 hours after the aboleth dies."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Ink Jet (Recharge 5-6)",
+                    "entries": [
+                        "While underwater, the aboleth exudes a cloud of inky slime in a 30-foot-radius sphere. The slime extends around corners, and the area is heavily obscured for 1 minute or until a strong current dissipates the cloud. The aboleth then moves up to its speed without provoking opportunity attacks."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aboleth Champion",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "aberration"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "chain shirt"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 135,
+                "formula": "18d8 + 54"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 16,
+            "int": 14,
+            "wis": 14,
+            "cha": 16,
+            "skill": {
+                "deception": "+6",
+                "intimidation": "+6"
+            },
+            "senses": [
+                "darkvision 30 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "common",
+                "deep speech",
+                "one more"
+            ],
+            "cr": "7",
+            "trait": [
+                {
+                    "name": "Abolethic Agent",
+                    "entries": [
+                        "The aboleth champion is treated as an aboleth for the purposes of an {@creature aboleth thrall|LevelUp|aboleth thrall's} Self-Sacrifice reaction."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The champion makes two melee attacks."
+                    ]
+                },
+                {
+                    "name": "Serrated Sword",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage. If the target is a creature other than an undead or construct, it makes a {@dc 15} Constitution saving throw. On a failure, it receives a wound. While wounded, it takes 4 ({@damage 1d8}) ongoing slashing damage and is {@condition rattled|LevelUp}. Further wounds on a wounded creature have no effect. A creature can use an action to make a {@dc 12} Medicine check, ending the ongoing damage and {@condition rattled|LevelUp} condition on a success. The effect also ends if the target receives at least 1 hit point of magical healing."
+                    ]
+                },
+                {
+                    "name": "Strangling Grasp",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 15}). While {@condition grappled} in this way, the target is {@condition restrained} and can't breathe, and the champion can't use its strangling grasp on a different creature."
+                    ]
+                },
+                {
+                    "name": "Mental Blast",
+                    "entries": [
+                        "The champion emits a 15-foot cone of psychic energy. Each creature in the area makes a {@dc 13} Intelligence saving throw. On a failed save, the target takes 27 ({@damage 5d10}) psychic damage and is {@condition rattled|LevelUp} until the end of its next turn. On a success, the target takes half damage and isn't {@condition rattled|LevelUp}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Vicious Taunt",
+                    "entries": [
+                        "The champion magically mocks or threatens a {@condition rattled|LevelUp} creature that can hear and understand it. The target makes a {@dc 14} Charisma saving throw. On a failure, it takes 14 ({@damage 4d6}) psychic damage and has disadvantage on attack rolls until the end of its next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Maw Swarm",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "aberration",
+                "swarmSize": [
+                    "T"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "average": 71,
+                "formula": "11d8 + 22"
+            },
+            "speed": {
+                "walk": 0,
+                "fly": {
+                    "condition": "(hover)",
+                    "number": 40
+                },
+                "swim": 40
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 14,
+            "int": 3,
+            "wis": 10,
+            "cha": 6,
+            "resist": [
+                "bludgeoning",
+                "piercing",
+                "slashing"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "frightened",
+                "grappled",
+                "staggered|LevelUp",
+                "petrified",
+                "prone",
+                "restrained",
+                "debilitated|LevelUp",
+                "unconscious"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "languages": [
+                "deep speech"
+            ],
+            "cr": "4",
+            "trait": [
+                {
+                    "name": "Aberrant Physiology",
+                    "entries": [
+                        "The swarm doesn't require air or sleep."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The swarm can occupy another creature's space and move through any opening large enough for a Tiny creature. It can't gain hit points or temporary hit points."
+                    ]
+                },
+                {
+                    "name": "Whispers of the Weird",
+                    "entries": [
+                        "The swarm murmurs and whispers constantly, speaking secrets in languages beyond mortal comprehension. A creature that starts its turn within 5 feet of the maw swarm and can hear it must make a {@dc 13} Wisdom saving throw or take 10 ({@damage 3d6}) psychic damage."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bites",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 0 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage, or 10 ({@damage 2d6 + 3}) piercing damage if the swarm is bloodied."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oculite",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 49,
+                "formula": "11d6 + 11"
+            },
+            "speed": {
+                "walk": 5,
+                "fly": {
+                    "condition": "(hover)",
+                    "number": 30
+                },
+                "swim": 30
+            },
+            "str": 6,
+            "dex": 14,
+            "con": 12,
+            "int": 8,
+            "wis": 14,
+            "cha": 14,
+            "vulnerable": [
+                "thunder"
+            ],
+            "conditionImmune": [
+                "deafened",
+                "prone"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "understands deep speech but can't speak"
+            ],
+            "cr": "2",
+            "trait": [
+                {
+                    "name": "Aberrant Physiology",
+                    "entries": [
+                        "The oculite doesn't require air, sustenance, or sleep."
+                    ]
+                },
+                {
+                    "name": "Refraction",
+                    "entries": [
+                        "When the oculite takes radiant damage, one creature of the oculite's choice within 30 feet takes the same amount of damage."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Energy Ray",
+                    "entries": [
+                        "{@atk rs} {@hit 4} to hit, range 120 ft., one target. {@h}14 ({@damage 4d6}) fire damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slitherwhite",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 33,
+                "formula": "6d8 + 6"
+            },
+            "speed": {
+                "walk": 20,
+                "swim": 40
+            },
+            "str": 14,
+            "dex": 12,
+            "con": 12,
+            "int": 3,
+            "wis": 10,
+            "cha": 6,
+            "conditionImmune": [
+                "prone"
+            ],
+            "senses": [
+                "blindsight 30 ft."
+            ],
+            "passive": 10,
+            "languages": [
+                "understands deep speech but can't speak"
+            ],
+            "cr": "1",
+            "trait": [
+                {
+                    "name": "Aberrant Physiology",
+                    "entries": [
+                        "The slitherwhite doesn't require air or sleep."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Tentacle",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage plus 3 ({@damage 1d6}) poison damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 12}). The slitherwhite can grapple only one creature at a time."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bright Orb",
+            "source": "LevelUp",
+            "size": [
+                "T"
+            ],
+            "type": "plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 10
+                }
+            ],
+            "hp": {
+                "average": 30,
+                "formula": "12d4"
+            },
+            "speed": {
+                "walk": 0,
+                "fly": {
+                    "condition": "(hover)",
+                    "number": 25
+                }
+            },
+            "str": 2,
+            "dex": 10,
+            "con": 10,
+            "int": 3,
+            "wis": 10,
+            "cha": 3,
+            "resist": [
+                {
+                    "resist": [
+                        "damage"
+                    ],
+                    "note": "from spells",
+                    "cond": "true"
+                },
+                {
+                    "resist": [
+                        "damage"
+                    ],
+                    "note": "from magical weapons",
+                    "cond": "true"
+                }
+            ],
+            "immune": [
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "fatigue|LevelUp",
+                "frightened",
+                "prone",
+                "restrained",
+                "debilitated|LevelUp"
+            ],
+            "senses": [
+                "blindsight 60 ft. (blind beyond this radius)"
+            ],
+            "passive": 10,
+            "cr": "2",
+            "trait": [
+                {
+                    "name": "Detect Magic",
+                    "entries": [
+                        "The bright orb senses creatures that bear magic and magic objects within 500 feet."
+                    ]
+                },
+                {
+                    "name": "Illumination",
+                    "entries": [
+                        "The bright orb sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Arcane Touch",
+                    "entries": [
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) force damage, and the target is subject to Consume Magic."
+                    ]
+                },
+                {
+                    "name": "Consume Magic",
+                    "entries": [
+                        "The bright orb targets a creature, an object, or an ongoing magical effect within 30 feet of it and attempts to consume the magic, ending one effect if the magic is temporary (such as a spell with a limited duration) or suppressing one effect for 1 minute if the magic is permanent (such as a magic item). If the magic was created by a spell of 3rd level or higher, the bright orb must make a Wisdom check against a DC equal to 10 + the spell's level or Consume Magic fails. At the DM's discretion, a success might cause a magical effect to malfunction instead of end."
+                    ]
+                },
+                {
+                    "name": "Magic Missile Barrage",
+                    "entries": [
+                        "The bright orb targets up to two creature within 120 feet, launching a barrage of magical darts of force at each creature. The missiles strike unerrringly and simultaneously, dealing 10 ({@damage 3d4 + 3}) force damage to each creature."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Illusory Duplicate",
+                    "entries": [
+                        "An illusory duplicate of the bright orb appears in its space. The duplicate obscures the orb's true location and moves with the bright orb for 1 minute or until it is destroyed. Whenever the real bright orb is targeted by an attack, there is a change the duplicate is hit instead. Roll the attack as usual; if the result of the {@dice d20} is odd, the attack hits the duplicate, and the duplicate is destroyed."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Blinding Rebuke (1/Day)",
+                    "entries": [
+                        "When the bright orb is targeted by a harmful spell or hit by an attack made by a creature within 30 feet of it, it releases an intense flash of blinding light. Each creature within 30 feet of the bright orb makes a {@dc 10} Dexterity saving throw. On a failed save, the target takes 13 ({@damage 3d8}) radiant damage and is {@condition blinded} until the end of its next turn. On a success, the target takes half damage and isn't {@condition blinded}."
+                    ]
+                },
+                {
+                    "name": "Consume Spell (1/Day)",
+                    "entries": [
+                        "When a creature within 60 feet casts a spell, the bright orb uses Consume Magic, targeting the triggering spell."
+                    ]
+                }
+            ]
         }
     ]
 }
