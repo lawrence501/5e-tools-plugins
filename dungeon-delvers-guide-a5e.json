@@ -1134,6 +1134,7 @@
                     "demon"
                 ]
             },
+            "cr": "10",
             "alignment": [
                 "U"
             ],
@@ -1201,7 +1202,6 @@
                 "all",
                 "telepathy 120 ft."
             ],
-            "cr": "10",
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
@@ -1978,6 +1978,519 @@
                     "name": "Consume Spell (1/Day)",
                     "entries": [
                         "When a creature within 60 feet casts a spell, the bright orb uses Consume Magic, targeting the triggering spell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Draconic Horror",
+            "source": "LevelUp",
+            "size": [
+                "H"
+            ],
+            "type": {
+                "type": "aberration",
+                "tags": [
+                    "dragon"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 287,
+                "formula": "25d12 + 125"
+            },
+            "speed": {
+                "walk": 40,
+                "fly": 100
+            },
+            "str": 22,
+            "dex": 14,
+            "con": 20,
+            "int": 12,
+            "wis": 16,
+            "cha": 22,
+            "save": {
+                "dex": "+8",
+                "con": "+11",
+                "wis": "+9"
+            },
+            "skill": {
+                "insight": "+9",
+                "intimidation": "+12",
+                "perception": "+9 (+1d10)"
+            },
+            "resist": [
+                {
+                    "resist": [
+                        "damage"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "immune": [
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "confused|LevelUp",
+                "frightened",
+                "staggered|LevelUp",
+                "petrified",
+                "poisoned"
+            ],
+            "senses": [
+                "darkvision 120 ft.",
+                "truesight 30 ft."
+            ],
+            "passive": 24,
+            "languages": [
+                "common",
+                "draconic"
+            ],
+            "cr": "19",
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The horror can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Horrifying Cacophony",
+                    "entries": [
+                        "A non-aberration that starts its turn within 20 feet of the horror and can hear it makes a {@dc 17} Intelligence saving throw. On a failed save, the creature takes 14 ({@damage 4d6}) psychic damage and is {@condition confused|LevelUp} until the start of its next turn. On a success, the creature takes half damage and isn't {@condition confused|LevelUp}. A creature that succeeds on its saving throw is immune to the horror's Horrifying Cacophony for 24 hours."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "When the horror fails a saving throw while it is within 60 feet of another aberration, it can choose to succeed instead. When it does so, an aberration of its choice within 60 feet of it dies."
+                    ]
+                },
+                {
+                    "name": "Warper of Reality",
+                    "entries": [
+                        "Non-aberrations treat the ground within 20 feet of the horror as difficult terrain. The flying speed of any non-aberration creature within 20 feet of the horror is halved."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The horror attacks twice with its claws, once with its horrific maws, and once with its stinger."
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Horrific Maws",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., up to five targets. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+                    ]
+                },
+                {
+                    "name": "Stinger",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}24 ({@damage 4d8 + 6}) piercing damage and the target must make a {@dc 19} Constitution save. On a failed save, the target is implanted with a larval seed. The target is {@condition confused|LevelUp} until the end of its next turn and then takes 27 ({@damage 6d8}) necrotic damage and two levels of {@condition strife|LevelUp} as a newly formed {@creature gibbering mouther|LevelUp} rips from its body."
+                    ]
+                },
+                {
+                    "name": "Horrifying Breath (Recharge 5-6)",
+                    "entries": [
+                        "The draconic horror exhales a blast of psychic energy in a 60-foot cone. Each non-aberration creature in the area must make a {@dc 19} Wisdom saving throw. On a failed save, the target takes 63 ({@damage 18d6}) psychic damage and gains a level of {@condition strife|LevelUp}. On a success, the target takes half damage and doesn't gain {@condition strife|LevelUp}."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Absorb Ally",
+                    "entries": [
+                        "The horror consumes a Large or smaller aberration within 5 feet of it, regaining 27 ({@dice 6d8}) hit points."
+                    ]
+                },
+                {
+                    "name": "Psionic Assault",
+                    "entries": [
+                        "The horror targets a creature within 120 feet with a blast of psionic energy. The target must succeed on a {@dc 19} Charisma save or be {@condition frightened} until the end of its next turn. A creature that fails the save by 5 or more is also {@condition staggered|LevelUp} while {@condition frightened} in this way."
+                    ]
+                },
+                {
+                    "name": "Whirlwind",
+                    "entries": [
+                        "The horror flaps its wings, creating a howling wind. Non-aberration creatures within 30 feet of the horror must succeed on a {@dc 20} Strength saving throw or be pushed 10 feet directly away from the horror or pulled 10 feet closer (horror's choice; same effect on all applicable creatures)."
+                    ]
+                }
+            ],
+            "legendaryActions": 2
+        },
+        {
+            "name": "Dreamer's Morel",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": "plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 8,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 21,
+                "formula": "6d6"
+            },
+            "speed": {
+                "walk": 5
+            },
+            "str": 3,
+            "dex": 1,
+            "con": 10,
+            "int": 14,
+            "wis": 12,
+            "cha": 13,
+            "save": {
+                "int": "+4"
+            },
+            "skill": {
+                "arcana": "+4"
+            },
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "fatigue|LevelUp",
+                "frightened",
+                "prone",
+                "restrained",
+                "debilitated|LevelUp"
+            ],
+            "senses": [
+                "blindsight 30 ft. (blind beyond this radius)"
+            ],
+            "passive": 11,
+            "languages": [
+                "understands common but can't speak"
+            ],
+            "cr": "1/2",
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The morel attacks with its tendrils and uses Eat Dreams if possible."
+                    ]
+                },
+                {
+                    "name": "Tendrils",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage plus 7 ({@damage 2d6}) psychic damage. A creature reduced to 0 hit points by this damage is stabilised."
+                    ]
+                },
+                {
+                    "name": "Eat Dreams",
+                    "entries": [
+                        "One {@condition dazed|LevelUp} creature within 10 feet of the morel takes 5 ({@damage 2d4}) psychic damage. If this reduces a creature to 0 hit points, it is stabilised but can't awaken until restored to full hit points."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Dream Spores (Recharge 6)",
+                    "entries": [
+                        "If the dreamer's morel is in an area of bright light, it expels a cloud of spores in a 10-foot radius. Breathing creatures in the cloud must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for {@dice 2d4} hours. A creature {@condition poisoned} in this way is also {@condition dazed|LevelUp} and experiences vivid hallucinations. Unless the creature is cured of the poison before the condition ends, it must make a {@dc 12} Intelligence saving throw when it does end. On a failure, it takes 5 ({@damage 2d4}) psychic damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fungal Zombie",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 9
+                }
+            ],
+            "hp": {
+                "average": 37,
+                "formula": "5d8 + 15"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 8,
+            "con": 16,
+            "int": 10,
+            "wis": 10,
+            "cha": 8,
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "fatigue|LevelUp",
+                "poisoned"
+            ],
+            "senses": [
+                "blindsight 30 ft."
+            ],
+            "passive": 10,
+            "languages": [
+                "the languages its host knew in life",
+                "telepathy 30 ft."
+            ],
+            "cr": "1",
+            "trait": [
+                {
+                    "name": "Fungal Zombie Spores",
+                    "entries": [
+                        "When the zombie hits a target with a melee attack and reduces it to 0 hit points, the target is infected with fungal zombie spores. If the target dies within 1 minute, it rises 1 hour later, gaining the fungal zombie template (Dungeon Delver's Guide, pg234). It loses its original personality and acts as an ally to other fungal zombies."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Spell Shrieker",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": "plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 5
+                }
+            ],
+            "hp": {
+                "average": 35,
+                "formula": "10d6"
+            },
+            "speed": {
+                "walk": 0
+            },
+            "str": 1,
+            "dex": 1,
+            "con": 10,
+            "int": 1,
+            "wis": 2,
+            "cha": 1,
+            "vulnerable": [
+                "bludgeoning",
+                "slashing"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "fatigue|LevelUp",
+                "frightened",
+                "poisoned",
+                "prone",
+                "restrained",
+                "debilitated|LevelUp"
+            ],
+            "senses": [
+                "blindsight 30 ft. (blind beyond this radius)"
+            ],
+            "passive": 6,
+            "cr": "1/2",
+            "trait": [
+                {
+                    "name": "False Appearance",
+                    "entries": [
+                        "While motionless, the shrieker is indistinguishable from a normal fungus."
+                    ]
+                },
+                {
+                    "name": "Spell Sense",
+                    "entries": [
+                        "The shrieker can sense the presence of creatures or magic items with the ability to cast spells within 30 feet."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Shriek",
+                    "entries": [
+                        "If the shrieker perceives a spellcasting creature or magic item within 30 feet, it shrieks loudly and continuously. The shriek is audible within 300 feet. The shrieker continues to shriek for 1 minute after the creature or item has moved away.",
+                        "While within 30 feet of the shrieking shrieker, a creature can't cast spells with vocalised components and can't concentrate on spells."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cerberus Guardian",
+            "source": "LevelUp",
+            "size": [
+                "H"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 310,
+                "formula": "20d12 + 180"
+            },
+            "speed": {
+                "walk": 60
+            },
+            "str": 26,
+            "dex": 12,
+            "con": 28,
+            "int": 6,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "str": "+15",
+                "con": "+16",
+                "int": "+5",
+                "wis": "+11",
+                "cha": "+9"
+            },
+            "skill": {
+                "perception": "+11"
+            },
+            "immune": [
+                "acid",
+                "fire",
+                "poison",
+                "psychic",
+                {
+                    "immune": [
+                        "damage"
+                    ],
+                    "note": "from nonmagical, non-adamantine weapons",
+                    "cond": "true"
+                }
+            ],
+            "conditionImmune": [
+                "charmed",
+                "fatigue|LevelUp",
+                "frightened",
+                "staggered|LevelUp",
+                "petrified",
+                "poisoned"
+            ],
+            "senses": [
+                "truesight 90 ft."
+            ],
+            "passive": 21,
+            "languages": [
+                "understands the languages of its creator but can't speak"
+            ],
+            "cr": "23",
+            "trait": [
+                {
+                    "name": "Immutable Form",
+                    "entries": [
+                        "The guardian is immune to any effect that would alter its form."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "When the guardian fails a saving throw while it has at least two heads active, it can choose to succeed instead. When it does so, one of its heads becomes inactive until the end of its next turn."
+                    ]
+                },
+                {
+                    "name": "Multiple Heads",
+                    "entries": [
+                        "While the guardian has more than one head active, it has advantage on Perception checks and on saving throws against being {@condition blinded}, {@condition deafened}, {@condition debilitated}, and knocked {@condition unconscious}, and it can't be flanked."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The guardian makes three bite attacks, minus one for each of its inactive heads. Each bite must be against a different target."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}27 ({@damage 3d12 + 8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Poison Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}18 ({@damage 3d6 + 8}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Bronze Clangor (1/Round)",
+                    "entries": [
+                        "The guardian's tongue tolls in its bronze mouth like a bell. Each creature within 60 feet that can heart the clangor makes a {@dc 24} Constitution saving throw. On a failed save, the target takes 21 ({@damage 6d6}) thunder damage and is {@condition deafened} for 1 minute. On a success, the target takes half damage and isn't {@condition deafened}. The guardian can't use this legendary action if its bronze head is disabled."
+                    ]
+                },
+                {
+                    "name": "Iron Breath (1/Round)",
+                    "entries": [
+                        "The guardian breathes poison gas in a 60-foot cone. Each creatre in the area makes a {@dc 24} Constitution saving throw. On a failed save, the target takes 24 ({@damage 7d6}) poison damage and is {@condition poisoned} for 1 minute. On a success, the target takes half damage and isn't {@condition poisoned}. The guardian can't use this legendary action if its iron head is disabled."
+                    ]
+                },
+                {
+                    "name": "Stone Howl (1/Round)",
+                    "entries": [
+                        "The guardian lets loose a spine-chilling howl. Each creature within 60 feet that can hear the howl must succeed on a {@dc 21} Wisdom saving throw or be {@condition frightened} for 1 minute. The target must repeat the saving throw at the end of each of its turns. On a successful save, the effect on itself ends. On a failure, the creature is {@condition petrified}. The guardian can't use this legendary action if its stone head is disabled."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "The guardian attacks with its poison tail."
                     ]
                 }
             ]

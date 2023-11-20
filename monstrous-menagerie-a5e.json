@@ -33,6 +33,7 @@
 					"demon"
 				]
 			},
+			"cr": "10",
 			"alignment": [
 				"U"
 			],
@@ -100,7 +101,6 @@
 				"all",
 				"telepathy 120 ft."
 			],
-			"cr": "10",
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
