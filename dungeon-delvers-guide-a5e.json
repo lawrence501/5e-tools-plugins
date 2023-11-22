@@ -2494,6 +2494,1171 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Green Kobold Drake",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "dragon",
+            "cr": "1/2",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 27,
+                "formula": "5d8 + 5"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 14,
+            "dex": 12,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 8,
+            "skill": {
+                "perception": "+2"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "understands draconic but can't speak"
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Poison Breath (1/Day)",
+                    "entries": [
+                        "The drake exhales a cloud of poison in a 15-foot cone. Each creature in that area makes a {@dc 11} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save or half damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kobold Artillerist",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "kobold"
+                ]
+            },
+            "cr": "1",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 21,
+                "formula": "6d6"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 8,
+            "dex": 14,
+            "con": 10,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "languages": [
+                "common",
+                "draconic"
+            ],
+            "trait": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries": [
+                        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Perception checks that rely on sight."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. On a hit, until the end of the turn the kobold can use the Disengage action as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Blowgun",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}2 ({@damage 1d4}) piercing damage, and the target must make a {@dc 12} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save or half damage on a success."
+                    ]
+                },
+                {
+                    "name": "Poison Breath Bottle (1/Day)",
+                    "entries": [
+                        "The kobold throws a vial at a point within 20 feet, where it shatters and creates a 5-foot-radius cloud of poison gas. A creature that starts its turn in the cloud must succeed on a {@dc 12} Constitution saving throw or take 7 ({@damage 2d6}) poison damage and become {@condition poisoned} until the end of its next turn. The area of the cloud is lightly obscured. The cloud remains for 1 minute or until a strong wind disperses it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kobold Firebomber",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "kobold"
+                ]
+            },
+            "cr": "1",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 21,
+                "formula": "6d6"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 8,
+            "dex": 14,
+            "con": 10,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "languages": [
+                "common",
+                "draconic"
+            ],
+            "trait": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries": [
+                        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Perception checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Flammable",
+                    "entries": [
+                        "If the kobold firebomber takes fire damage or is critically hit while in possession of its Firebomb Bottle, the bottle explodes as if it had been thrown at the kobold's space."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. On a hit, until the end of the turn the kobold can use the Disengage action as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Blowgun",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}2 ({@damage 1d4}) piercing damage, and the target must make a {@dc 12} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save or half damage on a success."
+                    ]
+                },
+                {
+                    "name": "Firebomb Bottle (1/Day)",
+                    "entries": [
+                        "The kobold throws a jar at a point within 20 feet, where it shatters and creates a 5-foot-radius burst of flame. Each creature in the area makes a {@dc 12} Dexterity saving throw, taking 10 ({@damage 3d6}) fire damage on a failed save or half damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kobold Bully",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "kobold"
+                ]
+            },
+            "cr": "2",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 44,
+                "formula": "8d6 + 16"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "languages": [
+                "common",
+                "draconic"
+            ],
+            "trait": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries": [
+                        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Perception checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The kobold has advantage on attack rolls against a creature if at least one of the kobold's allies is within 5 feet of the creature and not {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The kobold makes two spear attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Make a Distraction",
+                    "entries": [
+                        "A kobold within 10 feet of the bully can use its reaction to make an attack. If the attack hits, the target of the attack has disadvantage on attack rolls against the bully until the start of the bully's next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kobold Drakerider",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "kobold"
+                ]
+            },
+            "cr": "1/4",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 14,
+                "formula": "4d6"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 14,
+            "con": 10,
+            "int": 10,
+            "wis": 12,
+            "cha": 8,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "languages": [
+                "common",
+                "draconic"
+            ],
+            "trait": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries": [
+                        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Perception checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Mounted Combatant",
+                    "entries": [
+                        "While mounted, the kobold can use a bonus action to command its mount. The mount can use its reaction to move up to its Speed or make a melee attack."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bill Hook",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 11} Strength saving throw or fall {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Sling",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Defensive Reins",
+                    "entries": [
+                        "The kobold adds 2 to the mount's AC against one attack that would hit the mount. To do so, the kobold must be mounted and able to see the attacker."
+                    ]
+                }
+            ]
+        },
+        {
+			"name": "Blazing Black Pudding",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 7
+				}
+			],
+			"hp": {
+				"average": 85,
+				"formula": "10d10 + 30"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20,
+				"swim": 20
+			},
+			"str": 16,
+			"dex": 4,
+			"con": 16,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+            "resist": [
+                "fire"
+            ],
+			"immune": [
+				"acid",
+				"cold",
+				"lightning",
+				"slashing"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"fatigue|LevelUp",
+				"frightened",
+				"prone"
+			],
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The pudding can pass through an opening as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Corrosive Body",
+					"entries": [
+						"A creature that touches the pudding or hit it with a melee attack while within 5 feet takes 9 ({@damage 2d8}) acid damage. A nonmagical weapon made of metal or wood that hits the black pudding corrodes after dealing damage, taking a permanent -1 penalty to damage rolls per hit. If this penalty reaches -5, the weapon is destroyed. Wooden or metal nonmagical ammunition is destroyed after dealing damage. Any other nonmagical metal or organic object that touches it takes 9 ({@damage 2d8}) acid damage."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The pudding can use its climb speed even on difficult surfaces and upside down on ceilings."
+					]
+				},
+                {
+					"name": "Blazing Form",
+					"entries": [
+						"When the pudding takes fire damage, it ignites until the end of its next turn. While ablaze, the pudding is immune to fire damage, and it sheds bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, its Speed is doubled, and it can make a pseudopod attack as a bonus action. Finally, when an adjacent creature touches the pudding or hits it with a melee attack, that creature takes 2 ({@damage 1d4}) fire damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 9 ({@damage 2d8}) acid damage. Nonmagical armour worn by the target corrodes, taking a permanent -1 penalty to its AC protection per hit. If the penalty reduces the armour's AC protection to 10, the armour is destroyed."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a Medium or larger pudding with at least 10 hit points is subjected to lightning or slashing damage, it splits into two puddings that are each one size smaller. Each new pudding has half the original's hit points."
+					]
+				}
+			]
+		},
+        {
+			"name": "Euphoria Cube",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 6
+				}
+			],
+			"hp": {
+				"average": 76,
+				"formula": "8d10 + 32"
+			},
+			"speed": {
+				"walk": 15,
+				"swim": 15
+			},
+			"str": 16,
+			"dex": 2,
+			"con": 18,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"fatigue|LevelUp",
+				"frightened",
+				"prone"
+			],
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Engulfing Body",
+					"entries": [
+						"A creature that enters the cube's space is subjected to the saving throw and consquences of its Engulf attack."
+					]
+				},
+				{
+					"name": "Transparent",
+					"entries": [
+						"While the cube is motionless, creatures unaware of its presence must succeed on a {@dc 15} Perception check to spot it."
+					]
+				},
+                {
+					"name": "Euphoric Gelatin",
+					"entries": [
+						"A creature that starts its turn engulfed by the cube must make a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the creature is {@condition charmed} while it is engulfed by the cube."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 3d6}) acid damage."
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"The cube moves up to its Speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the cube enters a creature's space, the creature makes a {@dc 13} Dexterity saving throw. If the creature is unaware of the cube's presence, it makes its saving throw against Engulf with disadvantage. On a success, the creature may use its reaction, if available, to move up to half its Speed without provoking opportunity attacks. If the creature doesn't move, it is engulfed by the cube.",
+						"A creature engulfed by the cube takes 10 ({@damage 3d6}) acid damage, can't breathe, is {@condition restrained}, and takes 10 ({@damage 3d6}) acid damage at the start of each of the cube's turns. It can be seen but has total cover. It moves with the cube. The cube can hold as many creatures as fit in its space without squeezing.",
+						"An engulfed creature can escape by using an action to make a {@dc 13} Strength check. On a success, the creature moves to a space within 5 feet of the cube. A creature within 5 feet can take the same action to free an engulfed creature, but takes 10 ({@damage 3d6}) acid damage in the process."
+					]
+				}
+			]
+		},
+        {
+			"name": "Flash Jelly",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 8
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"walk": 15,
+				"climb": 15,
+				"swim": 15
+			},
+			"str": 14,
+			"dex": 6,
+			"con": 14,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"immune": [
+				"acid",
+				"lightning",
+				"slashing"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"fatigue|LevelUp",
+				"frightened",
+				"prone"
+			],
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The jelly can pass through an opening as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The jelly can use its climb speed even on difficult surfaces and upside down on ceilings."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage plus 3 ({@damage 1d6}) acid damage, and the target is {@condition grappled} (escape {@dc 12}). A {@condition grappled} target takes 3 ({@damage 1d6}) acid damage at the start of each of the jelly's turns."
+					]
+				},
+                {
+					"name": "Hypnotic Display (Recharge 5-6)",
+					"entries": [
+						"Each creature within 10 feet of the jelly that can see it must succeed on a {@dc 12} Wisdom saving throw or be {@condition charmed} for 1 minute. While {@condition charmed} in this way, a creature is {@condition incapacitated|LevelUp} and has a speed of 0. The creature can repeat the save at the end of each of its turns, ending the effect on itself on a success. The effect also ends if another creature uses its action to shake the creature out of its trance, or if the creature takes any damage"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a Medium or larger jelly with at least 10 hit points is subjected to lightning or slashing damage, it splits into two jellies that are each one size smaller, freeing any {@condition grappled} targets. Each new jelly has half the original's hit points."
+					]
+				},
+                {
+					"name": "Sudden Flash",
+					"entries": [
+						"When the jelly is hit with a weapon attack, it produces a sudden flash of light. Each creature within 10 feet that can see the jelly must succeed on a {@dc 12} Dexterity saving throw or be {@condition blinded} until the end of its next turn."
+					]
+				}
+			]
+		},
+        {
+			"name": "Slime Mold",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 9
+				}
+			],
+			"hp": {
+				"average": 104,
+				"formula": "11d10 + 44"
+			},
+			"speed": {
+				"walk": 15,
+				"climb": 15,
+				"swim": 15
+			},
+			"str": 16,
+			"dex": 8,
+			"con": 18,
+			"int": 3,
+			"wis": 10,
+			"cha": 4,
+            "resist": [
+                {
+                    "resist": [
+                        "damage"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+			"immune": [
+				"acid"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"fatigue|LevelUp",
+				"frightened",
+				"prone"
+			],
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 10,
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The slime mold can pass through an opening as narrow as 1 inch wide without squeezing, and it can occupy the same space as a creature its size or smaller."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The slime mold can use its climb speed even on difficult surfaces and upside down on ceilings."
+					]
+				},
+                {
+					"name": "Corrosive",
+					"entries": [
+						"A nonmagical weapon made of metal or wood that hits the slime mold corrodes or rots. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that his the slime mold is destroyed after dealing damage.",
+                        "The slime mold can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
+					]
+				},
+                {
+					"name": "Damage Transfer",
+					"entries": [
+						"While a creature is engulfed within it, the slime mold takes only half the damage dealt to it. The remaining damage is split evenly amongst the engulfed creatures."
+					]
+				},
+                {
+					"name": "False Appearance",
+					"entries": [
+						"While motionless, the slime mold is indistinguishable from normal mold or lichen."
+					]
+				},
+                {
+					"name": "Sticky",
+					"entries": [
+						"A creature that touches the slime mold immediately becomes stuck. While stuck, the creature's speed is reduced to 0, and it takes 9 ({@damage 2d8}) acid damage at the start of each of its turns. A creature can free itself by using its action to make a {@dc 13} Strength check.",
+                        "A creature that hits the slime mold with a melee attack must succeed a {@dc 13} Strength saving throw or its weapon becomes stuck. A creature can use its action to make a {@dc 13} Strength check, removing the stuck weapon on a success. At the start of each of the slime mold's turns, the stuck weapon is subjected to the mold's Corrosive trait."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage plus 21 ({@damage 6d6}) acid damage, and the target is subjected to the slime mold's Sticky trait."
+					]
+				},
+                {
+					"name": "Engulf",
+					"entries": [
+						"The slime mold attempts to engulf creatures that are stuck to it. Each creature stuck to the slime mold makes a {@dc 15} Strength saving throw. On a failed save, the creature is engulfed as well as stuck.",
+                        "An engulfed creature is {@condition restrained}, can't breathe, and takes 21 ({@damage 6d6}) acid damage at the start of each of the slime mold's turns. When the slime mold moves, the engulfed creature moves with it. If a creature is no longer stuck, is it no longer engulfed either. The slime mold can engulf one creature of its size or two smaller creatures."
+					]
+				}
+			],
+            "bonus": [
+                {
+					"name": "Merge",
+					"entries": [
+						"The slime mold merges with another slime mold of the same size. The new slime mold has hit points equal to the combination of the two and is one size larger."
+					]
+				},
+                {
+					"name": "Split",
+					"entries": [
+						"If the slime mold is Medium or larger and has at least 10 hit points, it splits into two new slime molds. Each new slime mold has hit points equal to half of the original slime mold. New slime molds are one size smaller than the original slime mold. Creatures engulfed by the slime mold are no longer engulfed, but they remain stuck to one of the slime molds."
+					]
+				}
+            ]
+		},
+        {
+            "name": "Mutant Rust Monster",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": "monstrosity",
+            "cr": "8",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 126,
+                "formula": "12d10 + 60"
+            },
+            "speed": {
+                "walk": 45
+            },
+            "str": 20,
+            "dex": 12,
+            "con": 20,
+            "int": 4,
+            "wis": 12,
+            "cha": 6,
+            "save": {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "resist": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "poison",
+                "psychic",
+                "thunder"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "frightened"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "trait": [
+                {
+                    "name": "Draining Aura",
+                    "entries": [
+                        "When a living creature starts its turn within 20 feet of the rust monster or enters the area for the first time on a turn, it must succeed on a {@dc 16} Constitution saving throw or take 3 ({@damage 1d6}) force damage as its blood is sucked from its pores by the rust monster's feathery antennae. The creature's hit point maximum is reduced by an amount equal to the force damage taken, and it has disadvantage on attack rolls and ability checks until the start of its next turn. The reduction kasts until the creature finishes a long rest or is targeted by a {@spell greater restoration|LevelUp} spell. The target dies if its hit point maximum is reduced to 0."
+                    ]
+                },
+                {
+                    "name": "Metal Detection",
+                    "entries": [
+                        "The rust monster can smell metal within 60 feet."
+                    ]
+                },
+                {
+                    "name": "Rust Metal",
+                    "entries": [
+                        "A weapon made of metal that hits the rust monster corrodes after dealing damage, taking a permanent -1 penalty to damage rolls per hit. If this penalty reaches -5, the weapon is destroyed. A creature can spend 1 minute polishing or repairing a magic weapon, removing this penalty. Metal ammunition is destroyed after dealing damage."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The rust monster attacks once with its antennae and twice with its bite."
+                    ]
+                },
+                {
+                    "name": "Antennae",
+                    "entries": [
+                        "The urst monster uses its atennae to corrode a metal object within 20 feet. It can destroy up to a 1-foot-square portion of an unattended object. If the object is worn or carried, the object's owner makes a {@dc 16} Dexterity saving throw, avoiding the rust monster's antennae on a success.",
+                        "Metal shields or armour the rust monster touches with its antennae corrode, taking a permanent -1 penalty to its AC protection per hit. If the penalty reduces the armour's AC protection to 10, the armour is destroyed. A creature can spend 1 minute polishing or repairing magical armour, removing this penalty. If the rust monster touches a metal weapon, the weapon is subject to Rust Metal."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d8 + 5}) piercing damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained} and the rust monster can bite another target."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Supermutant Rust Monster",
+            "source": "LevelUp",
+            "size": [
+                "H"
+            ],
+            "type": "monstrosity",
+            "cr": "12",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 195,
+                "formula": "17d12 + 85"
+            },
+            "speed": {
+                "walk": 45
+            },
+            "str": 20,
+            "dex": 12,
+            "con": 20,
+            "int": 4,
+            "wis": 12,
+            "cha": 6,
+            "save": {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "resist": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "poison",
+                "psychic",
+                "thunder"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "frightened"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "trait": [
+                {
+                    "name": "Draining Aura",
+                    "entries": [
+                        "When a living creature starts its turn within 20 feet of the rust monster or enters the area for the first time on a turn, it must succeed on a {@dc 16} Constitution saving throw or take 14 ({@damage 4d6}) force damage as its blood is sucked from its pores by the rust monster's feathery antennae. The creature's hit point maximum is reduced by an amount equal to the force damage taken, and it has disadvantage on attack rolls and ability checks until the start of its next turn. The reduction kasts until the creature finishes a long rest or is targeted by a {@spell greater restoration|LevelUp} spell. The target dies if its hit point maximum is reduced to 0."
+                    ]
+                },
+                {
+                    "name": "Metal Detection",
+                    "entries": [
+                        "The rust monster can smell metal within 60 feet."
+                    ]
+                },
+                {
+                    "name": "Rust Metal",
+                    "entries": [
+                        "A weapon made of metal that hits the rust monster corrodes after dealing damage, taking a permanent -1 penalty to damage rolls per hit. If this penalty reaches -5, the weapon is destroyed. A creature can spend 1 minute polishing or repairing a magic weapon, removing this penalty. Metal ammunition is destroyed after dealing damage."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The rust monster attacks once with its antennae and twice with its bite."
+                    ]
+                },
+                {
+                    "name": "Antennae",
+                    "entries": [
+                        "The urst monster uses its atennae to corrode a metal object within 20 feet. It can destroy up to a 1-foot-square portion of an unattended object. If the object is worn or carried, the object's owner makes a {@dc 16} Dexterity saving throw, avoiding the rust monster's antennae on a success.",
+                        "Metal shields or armour the rust monster touches with its antennae corrode, taking a permanent -1 penalty to its AC protection per hit. If the penalty reduces the armour's AC protection to 10, the armour is destroyed. A creature can spend 1 minute polishing or repairing magical armour, removing this penalty. If the rust monster touches a metal weapon, the weapon is subject to Rust Metal."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d8 + 5}) piercing damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained} and the rust monster can bite another target."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shadow Symbiote",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": "ooze",
+            "cr": "2",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 36,
+                "formula": "8d6 + 8"
+            },
+            "speed": {
+                "walk": 20,
+                "climb": 20,
+                "swim": 20
+            },
+            "str": 8,
+            "dex": 14,
+            "con": 12,
+            "int": 14,
+            "wis": 12,
+            "cha": 16,
+            "skill": {
+                "deception": "+5",
+                "stealth": "+4"
+            },
+            "resist": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "thunder",
+                {
+                    "resist": [
+                        "damage"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "fatigue|LevelUp",
+                "frightened",
+                "grappled",
+                "staggered|LevelUp",
+                "petrified",
+                "poisoned",
+                "prone",
+                "restrained"
+            ],
+            "senses": [
+                "blindsight 120 ft."
+            ],
+            "passive": 11,
+            "languages": [
+                "understands common but can't speak",
+                "telepathy 30 ft."
+            ],
+            "trait": [
+                {
+                    "name": "Amorphous",
+                    "entries": [
+                        "The symbiote can pass through an opening as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "Sunlight Weakness",
+                    "entries": [
+                        "While in sunlight, the symbiote has disadvantage on attack rolls, ability checks, and saving throws."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The symbiote attacks with its shadow tendril and uses Assimilate."
+                    ]
+                },
+                {
+                    "name": "Shadow Tendril",
+                    "entries": [
+                        "{@atk ms} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) necrotic damage, and the symbiote attaches to the target. A creature can use an action to make a {@dc 9} Strength check, detaching the symbiote on a success. The symbiote can detach itself as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Assimilate",
+                    "entries": [
+                        "The symbiote targets a humanoid it's attached to, a willing humanoid within 5 feet, or a humanoid corpse within 5 feet. The symbiote attempts to assimilate the target. An unwilling creature can make a {@dc 13} Charisma saving throw to resist. A creature warded by {@spell protection from evil and good|LevelUp} automatically succeeds on this save. If the target is a corpse, it becomes an undead creature under the symbiote's control, regaining all its hit points. The undead creature is destroyed when the symbiote leaves it.",
+                        "While assimilated, the symbiote has full cover from all effects and is immune to all damage, except that it takes any radiant damage taken by its host. It can't make shadow tendril attacks or use Assimilate or Snuff Light. The target gains the shadow symbiote thrall template (Dungeon Delver's Guide pg245) and is {@condition charmed} by the symbiote.",
+                        "The symbiote can use an action to leave the host. It is forced out if the host is reduced to 0 hit points or if the host is the target of a {@spell protection from evil and good|LevelUp} spell. When the symbiote leaves, it appears within 5 feet of the host."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Snuff Light",
+                    "entries": [
+                        "The symbiote magically extinguishes nonmagical light sources within 30 feet."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shadow Symbiote Knight",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "cr": "7",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "half plate"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 110,
+                "formula": "13d8 + 52"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 14,
+            "con": 18,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+7",
+                "con": "+7",
+                "wis": "+5"
+            },
+            "skill": {
+                "perception": "+5",
+                "stealth": "+5"
+            },
+            "resist": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "thunder",
+                {
+                    "resist": [
+                        "damage"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "senses": [
+                "blindsight 120 ft."
+            ],
+            "passive": 15,
+            "languages": [
+                "common",
+                "telepathy 30 ft."
+            ],
+            "trait": [
+                {
+                    "name": "Heart of Darkness",
+                    "entries": [
+                        "Creatures within 30 feet of the knight have the range of their darkvision reduced by 60 feet, to a minimum of 0."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The knight attacks twice with its greatsword."
+                    ]
+                },
+                {
+                    "name": "Greatsword",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Snuff Light",
+                    "entries": [
+                        "The knight magically extinguishes nonmagical light sources within 30 feet."
+                    ]
+                },
+                {
+                    "name": "Shadow Tendril",
+                    "entries": [
+                        "{@atk ms} {@hit 6} to hit, reach 15 ft., one target. {@h}14 ({@damage 4d6}) necrotic damage, and any light source the target wears or carries is suppressed until the end of the knight's next turn."
+                    ]
+                }
+            ]
         }
     ]
 }
