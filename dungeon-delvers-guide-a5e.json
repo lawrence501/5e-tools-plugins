@@ -3659,6 +3659,1790 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Bonespawn",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "cr": "1/8",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 11
+                }
+            ],
+            "hp": {
+                "average": 1,
+                "formula": "1d8 - 3"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 10,
+            "dex": 12,
+            "con": 4,
+            "int": 4,
+            "wis": 6,
+            "cha": 5,
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "fatigue|LevelUp",
+                "poisoned"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "languages": [
+                "understands the languages of its creator but can't speak"
+            ],
+            "action": [
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Shortbow",
+                    "entries": [
+                        "{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Skeletal Immortal",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "cr": "1",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "medium shield"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 19,
+                "formula": "3d8 + 6"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 14,
+            "int": 8,
+            "wis": 8,
+            "cha": 5,
+            "vulnerable": [
+                "bludgeoning"
+            ],
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "fatigue|LevelUp",
+                "poisoned"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 9,
+            "languages": [
+                "understands the languages it knew in life but can't speak"
+            ],
+            "trait": [
+                {
+                    "name": "Reanimation",
+                    "entries": [
+                        "When the immortal is reduced to 0 hit points, it is not destroyed but falls {@condition prone} and is {@condition incapacitated} until the end of its next turn. While {@condition incapacitated}, it is indistinguishable from an inanimate skeleton. When this incapacitation ends, the immortal regains all its hit points. If the immortal is reduced to 0 hit points by an attack that deals bludgeoning or radiant damage, or if it is dealt bludgeoning or radiant damage while at 0 hit points, it is permanently destroyed."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The immortal makes two scimitar attacks."
+                    ]
+                },
+                {
+                    "name": "Scimitar",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Disarm",
+                    "entries": [
+                        "When an adjacent creature the immortal can see misses the immortal with an attack made with a melee weapon, the immortal makes a Dexterity check. If this check is higher than the triggering attack roll, the attacker drops the weapon they used to make the attack. The weapon lands in a space of the skeleton's choice within 5 feet of the attacker."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Skeletal Warlord",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "cr": "9",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "half plate"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 144,
+                "formula": "17d8 + 68"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 18,
+            "int": 16,
+            "wis": 14,
+            "cha": 16,
+            "skill": {
+                "intimidation": "+7"
+            },
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "fatigue|LevelUp",
+                "poisoned"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "the languages it knew in life"
+            ],
+            "trait": [
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The warlord has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warlord makes two greatsword attacks or two black lightning attacks."
+                    ]
+                },
+                {
+                    "name": "Greatsword",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 5 ({@damage 1d10}) necrotic damage. On a critical hit, the warlord can use Sound the Attack."
+                    ]
+                },
+                {
+                    "name": "Black Lightning",
+                    "entries": [
+                        "{@atk rs} {@hit 7} to hit, range 60 ft., one target. {@h}13 ({@damage 3d8}) necrotic damage."
+                    ]
+                },
+                {
+                    "name": "Sound the Attack",
+                    "entries": [
+                        "Each skeleton or skeletal horde of CR 7 or less within 30 feet can use its reaction to make an attack."
+                    ]
+                },
+                {
+                    "name": "Raise Bonespawn",
+                    "entries": [
+                        "The warlord touches up to three inanimate skeletons or piles of bones, animating them as {@creature bonespawn|LevelUp} under the warlord's control."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Arcane Punishment",
+                    "entries": [
+                        "When the warlord succeeds on a saving throw against a spell cast by a creature within 60 feet that the warlord can see, the warlord attacks the caster with black lightning."
+                    ]
+                },
+                {
+                    "name": "Riposte",
+                    "entries": [
+                        "When a creature the warlord can see misses the warlord with a melee attack, the warlord makes a greatsword attack against that creature."
+                    ]
+                }
+            ]
+        },
+        {
+			"name": "Burning Skeleton",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armor scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d8 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"immune": [
+                "fire",
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "1",
+            "trait": [
+                {
+                    "name": "Burning Weapons",
+                    "entries": [
+                        "A creature hit by the skeleton's melee or ranged attacks takes ongoing fire damage equal to the skeleton's proficiency bonus. The creature can use an action to extinguish the flames, ending the ongoing damage."
+                    ]
+                },
+                {
+                    "name": "Death Burst",
+                    "entries": [
+                        "When the skeleton is destroyed, it explodes. Each creature within 5 feet makes a {@dc 10} Dexterity saving throw, taking 4 ({@damage 1d8}) fire damage on a failed save or half damage on a success."
+                    ]
+                }
+            ],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shorbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+        {
+			"name": "Four-Armed Skeleton",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armor scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "1/2",
+            "trait": [
+                {
+                    "name": "Elite Recovery",
+                    "entries": [
+                        "At the end of each of its turns while bloodied, the skeleton ends one negative effect currently affecting it. It can do so as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Four Arms (While Bloodied)",
+                    "entries": [
+                        "As a bonus action on each of its turns, the skeleton can make an attack or take the Multiattack action."
+                    ]
+                },
+                {
+                    "name": "Reactive Arms (While Bloodied)",
+                    "entries": [
+                        "The skeleton can take two reactions each round, but not more than one per turn."
+                    ]
+                }
+            ],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shorbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+        {
+			"name": "Winged Skeleton",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armor scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d8 + 4"
+			},
+			"speed": {
+				"walk": 30,
+                "fly": 60
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shorbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+        {
+            "name": "Stone Shark",
+            "source": "LevelUp",
+            "size": [
+                "L"
+            ],
+            "type": "monstrosity",
+            "cr": "4",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 85,
+                "formula": "9d10 + 36"
+            },
+            "speed": {
+                "walk": 0,
+                "burrow": 40,
+                "fly": {
+                    "condition": "(hover)",
+                    "number": 40
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 18,
+            "int": 2,
+            "wis": 10,
+            "cha": 4,
+            "senses": [
+                "tremorsense 60 ft."
+            ],
+            "passive": 10,
+            "trait": [
+                {
+                    "name": "Stone Glide",
+                    "entries": [
+                        "The shark can burrow through nonmagical stone. While doing so, it doesn't disturb the material it moves through. The shark can't be harmed by stone weapons or projectiles, as such weapons pass right through them."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 14}). While {@condition grappled} in this way, the target gains the stone shark's Stone Glide trait, and the stone shark can't bite a different creature. If the target escapes the grapple while it is inside stone, it takes 27 ({@damage 5d10}) force damage and is shunted to the nearest unoccupied space outside the stone."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Tail Swat",
+                    "entries": [
+                        "When a creature the stone shark can see hits it with a melee attack, the shark attacks that creature with its tail."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Midir",
+            "source": "LevelUp",
+            "size": [
+                "G"
+            ],
+            "type": {
+                "type": "celestial",
+                "tags": [
+                    "titan"
+                ]
+            },
+            "cr": "24",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 21,
+                    "from": [
+                        "breastplate"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 369,
+                "formula": "18d20 + 180"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": 60
+            },
+            "str": 30,
+            "dex": 24,
+            "con": 30,
+            "int": 24,
+            "wis": 20,
+            "cha": 30,
+            "save": {
+                "str": "+17",
+                "con": "+17",
+                "int": "+14",
+                "wis": "+12",
+                "cha": "+17"
+            },
+            "skill": {
+                "perception": "+12",
+                "persuasion": "+17"
+            },
+            "immune": [
+                "radiant",
+                {
+                    "immune": [
+                        "damage"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "senses": [
+                "truesight 120 ft."
+            ],
+            "passive": 22,
+            "languages": [
+                "celestial",
+                "common",
+                "telepathy 60 ft."
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Midir's spellcasting ability is Charisma (spell save {@dc 25}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell arcane mirror|LevelUp}",
+                        "{@spell charm monster|LevelUp}",
+                        "{@spell command|LevelUp}",
+                        "{@spell creation|LevelUp}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell heroes’ feast|LevelUp}",
+                            "{@spell hold monster|LevelUp}",
+                            "{@spell teleportation circle|LevelUp} (both sides are the surface of a mirror known to Midir instead of a magic circle; Midir can't pass through)",
+                            "{@spell shatter|LevelUp} (6th level)"
+                        ]
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "Midir has advantage on saving throws against spells and magical effects."
+                    ]
+                },
+                {
+                    "name": "Divine Grace",
+                    "entries": [
+                        "If Midir makes a saving throw against an effect that deals half damage on a success, he takes no damage on a success and half damage on a failure. Furthermore, while wearing medium armour, Midir adds his full Dexterity bonus to his Armour Class (already included)."
+                    ]
+                },
+                {
+                    "name": "Mirror Prohibition",
+                    "entries": [
+                        "Midir can't willingly break a mirror."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "Midir regains 20 hit points at the start of his turn as long as he has at least 1 hit point."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Midir's Trident",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 20} to hit, reach 10 ft. or range 40/120 ft., one target. {@h}27 ({@damage 4d6 + 13}) piercing damage plus 17 ({@damage 5d6}) lightning damage. If used to make a ranged attack, the trident then reappears in Midir's hand."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Immortal Form",
+                    "entries": [
+                        "Midir magically changes his size between Gargantuan and Medium. While Medium, he has disadvantage on Strength checks. His statistics are otherwise unchanged."
+                    ]
+                },
+                {
+                    "name": "Teleport",
+                    "entries": [
+                        "Midir magically teleports to an unoccupied space within 120 feet that he can see (either directly or reflected in a mirror)."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Split Self (1/Round)",
+                    "entries": [
+                        "When Midir takes damage, he splits himself into two identical bodies in the same space. Each body has half the hit points of the original, rounded down, and they share their daily spells in common. On Midir's turn, each body can take a full turn, in any order Midir chooses. Each body has its own reaction, and each can take 1 legendary action each round. The bodies can share a space. Midir can'thave more than three bodies at a time.",
+                        "As a bonus action, two Midirs in the same space can merge their bodies. The new body has the total hit points of both and is only affected by conditions or effects that affected both."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Attack",
+                    "entries": [
+                        "Midir makes a weapon attack."
+                    ]
+                },
+                {
+                    "name": "Cast Spell",
+                    "entries": [
+                        "Midir cast a spell. He can't use this option if he has cast a spell since the start of his last turn."
+                    ]
+                },
+                {
+                    "name": "Teleport",
+                    "entries": [
+                        "Midir uses Teleport."
+                    ]
+                }
+            ],
+            "legendaryActions": 1
+        },
+        {
+            "name": "Midir the Reborn",
+            "source": "LevelUp",
+            "size": [
+                "G"
+            ],
+            "type": {
+                "type": "celestial",
+                "tags": [
+                    "titan"
+                ]
+            },
+            "cr": "48",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 21,
+                    "from": [
+                        "breastplate"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 738,
+                "formula": "36d20 + 360"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": 60
+            },
+            "str": 30,
+            "dex": 24,
+            "con": 30,
+            "int": 24,
+            "wis": 20,
+            "cha": 30,
+            "save": {
+                "str": "+17",
+                "con": "+17",
+                "int": "+14",
+                "wis": "+12",
+                "cha": "+17"
+            },
+            "skill": {
+                "perception": "+12",
+                "persuasion": "+17"
+            },
+            "immune": [
+                "radiant",
+                {
+                    "immune": [
+                        "damage"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": "true"
+                }
+            ],
+            "senses": [
+                "truesight 120 ft."
+            ],
+            "passive": 22,
+            "languages": [
+                "celestial",
+                "common",
+                "telepathy 60 ft."
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Midir's spellcasting ability is Charisma (spell save {@dc 25}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell arcane mirror|LevelUp}",
+                        "{@spell charm monster|LevelUp}",
+                        "{@spell command|LevelUp}",
+                        "{@spell creation|LevelUp}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell heroes’ feast|LevelUp}",
+                            "{@spell hold monster|LevelUp}",
+                            "{@spell teleportation circle|LevelUp} (both sides are the surface of a mirror known to Midir instead of a magic circle; Midir can't pass through)",
+                            "{@spell shatter|LevelUp} (6th level)"
+                        ]
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "Midir has advantage on saving throws against spells and magical effects."
+                    ]
+                },
+                {
+                    "name": "Divine Grace",
+                    "entries": [
+                        "If Midir makes a saving throw against an effect that deals half damage on a success, he takes no damage on a success and half damage on a failure. Furthermore, while wearing medium armour, Midir adds his full Dexterity bonus to his Armour Class (already included)."
+                    ]
+                },
+                {
+                    "name": "Mirror Prohibition",
+                    "entries": [
+                        "Midir can't willingly break a mirror."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "Midir regains 20 hit points at the start of his turn as long as he has at least 1 hit point."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Midir's Trident",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 20} to hit, reach 10 ft. or range 40/120 ft., one target. {@h}27 ({@damage 4d6 + 13}) piercing damage plus 17 ({@damage 5d6}) lightning damage. If used to make a ranged attack, the trident then reappears in Midir's hand."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Immortal Form",
+                    "entries": [
+                        "Midir magically changes his size between Gargantuan and Medium. While Medium, he has disadvantage on Strength checks. His statistics are otherwise unchanged."
+                    ]
+                },
+                {
+                    "name": "Teleport",
+                    "entries": [
+                        "Midir magically teleports to an unoccupied space within 120 feet that he can see (either directly or reflected in a mirror)."
+                    ]
+                },
+                {
+                    "name": "Summon Aleas (While Bloodied)",
+                    "entries": [
+                        "Midir summons an aleas (Dungeon Delver's Guide pg253) from an unbroken mirror within 60 feet. The aleas appears in an unoccupied space within 5 feet of the mirror. Midir chooses the creature that the aleas doubles, which must be a creature Midir can see and which can't be a creature that currently has an aleas double. Midir can't summon more than one aleas per round, even if there are multiple Midirs."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Split Self (1/Round)",
+                    "entries": [
+                        "When Midir takes damage, he splits himself into two identical bodies in the same space. Each body has half the hit points of the original, rounded down, and they share their daily spells in common. On Midir's turn, each body can take a full turn, in any order Midir chooses. Each body has its own reaction, and each can take 1 legendary action each round. The bodies can share a space. Midir can'thave more than three bodies at a time.",
+                        "As a bonus action, two Midirs in the same space can merge their bodies. The new body has the total hit points of both and is only affected by conditions or effects that affected both."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Attack",
+                    "entries": [
+                        "Midir makes a weapon attack."
+                    ]
+                },
+                {
+                    "name": "Cast Spell",
+                    "entries": [
+                        "Midir cast a spell. He can't use this option if he has cast a spell since the start of his last turn."
+                    ]
+                },
+                {
+                    "name": "Teleport",
+                    "entries": [
+                        "Midir uses Teleport."
+                    ]
+                }
+            ],
+            "legendaryActions": 1
+        },
+        {
+            "name": "Troll Hulk",
+            "source": "LevelUp",
+            "size": [
+                "H"
+            ],
+            "type": "giant",
+            "cr": "15",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 250,
+                "formula": "20d12 + 120"
+            },
+            "speed": {
+                "walk": 50
+            },
+            "str": 24,
+            "dex": 12,
+            "con": 22,
+            "int": 12,
+            "wis": 16,
+            "cha": 10,
+            "skill": {
+                "perception": "+8",
+                "stealth": "+6",
+                "survival": "+8"
+            },
+            "resist": [
+                "bludgeoning",
+                "piercing"
+            ],
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 18,
+            "languages": [
+                "common",
+                "giant"
+            ],
+            "trait": [
+                {
+                    "name": "Keen Smell",
+                    "entries": [
+                        "The troll has advantage on Perception checks that rely on smell."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (4)",
+                    "entries": [
+                        "The troll has four extra troll, humanoid, or giant faces budding from its hide. When the troll fails a saving throw, it can choose to succeed instead. If it does, one of its extra faces dies. When the troll succeeds on a saving throw in this way, it takes no damage from an effect that would deal half damage on a success. Once the troll has used this trait four times, it can't do so again until it consumes another creature that has a face."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The troll regains 20 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function on its next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The troll attacks once with its bite and twice with its claw."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}26 ({@damage 3d12 + 7}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until the grapple ends, the target is {@condition restrained} and the troll can't bite a different creature. If this attack reduces a creature to 0 hit points, the creature dies and the troll swallows the creature. If a swallowed creature isn't retrieved from the troll's stomach within 1 hour, its body is destroyed, its face appears on the troll's hide, and the troll gains another use of Legendary Resistance."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}14 ({@damage 3d4 + 7}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Rock",
+                    "entries": [
+                        "{@atk rw} {@hit 12} to hit, range 20/60 ft., one target. {@h}26 ({@damage 3d12 + 7}) piercing damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Clumsy Leap",
+                    "entries": [
+                        "The troll leaps up to 50 feet horizontally or 20 feet vertically, with or without a running start. The troll lands {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Lunging Claw",
+                    "entries": [
+                        "The troll moves up to half its speed straight towards a target without provoking opportunity attacks and makes a claw attack against that target."
+                    ]
+                },
+                {
+                    "name": "Backhand Swipe (Costs 2 Actions)",
+                    "entries": [
+                        "The troll makes a claw attack against one or two targets."
+                    ]
+                },
+                {
+                    "name": "Rock (Costs 2 Actions)",
+                    "entries": [
+                        "The troll makes a rock attack."
+                    ]
+                }
+            ],
+            "legendaryActions": 2
+        },
+        {
+            "name": "Troll King",
+            "source": "LevelUp",
+            "size": [
+                "H"
+            ],
+            "type": "giant",
+            "cr": "30",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 500,
+                "formula": "40d12 + 240"
+            },
+            "speed": {
+                "walk": 50
+            },
+            "str": 24,
+            "dex": 12,
+            "con": 22,
+            "int": 12,
+            "wis": 16,
+            "cha": 10,
+            "skill": {
+                "perception": "+8",
+                "stealth": "+6",
+                "survival": "+8"
+            },
+            "resist": [
+                "bludgeoning",
+                "piercing"
+            ],
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 18,
+            "languages": [
+                "common",
+                "giant"
+            ],
+            "trait": [
+                {
+                    "name": "Keen Smell",
+                    "entries": [
+                        "The troll has advantage on Perception checks that rely on smell."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (4)",
+                    "entries": [
+                        "The troll has four extra troll, humanoid, or giant faces budding from its hide. When the troll fails a saving throw, it can choose to succeed instead. If it does, one of its extra faces dies. When the troll succeeds on a saving throw in this way, it takes no damage from an effect that would deal half damage on a success. Once the troll has used this trait four times, it can't do so again until it consumes another creature that has a face."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The troll regains 20 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function on its next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The troll attacks once with its bite and twice with its claw."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}26 ({@damage 3d12 + 7}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until the grapple ends, the target is {@condition restrained} and the troll can't bite a different creature. If this attack reduces a creature to 0 hit points, the creature dies and the troll swallows the creature. If a swallowed creature isn't retrieved from the troll's stomach within 1 hour, its body is destroyed, its face appears on the troll's hide, and the troll gains another use of Legendary Resistance."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}14 ({@damage 3d4 + 7}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Rock",
+                    "entries": [
+                        "{@atk rw} {@hit 12} to hit, range 20/60 ft., one target. {@h}26 ({@damage 3d12 + 7}) piercing damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Budding Slash",
+                    "entries": [
+                        "When the troll takes slashing damage, it can expend one use of its Legendary Resistance. If it does so, one of the extra faces on its skin is severed and becomes a {@creature troll|LevelUp} within 5 feet of the troll king. This troll acts on the troll king's initiative, and bears an uncanny resemblance to the severed face. The troll king can use a bonus action to deal 3 ({@damage 1d6}) slashing damage to itself, triggering this reaction."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Clumsy Leap",
+                    "entries": [
+                        "The troll leaps up to 50 feet horizontally or 20 feet vertically, with or without a running start. The troll lands {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Lunging Claw",
+                    "entries": [
+                        "The troll moves up to half its speed straight towards a target without provoking opportunity attacks and makes a claw attack against that target."
+                    ]
+                },
+                {
+                    "name": "Backhand Swipe (Costs 2 Actions)",
+                    "entries": [
+                        "The troll makes a claw attack against one or two targets."
+                    ]
+                },
+                {
+                    "name": "Rock (Costs 2 Actions)",
+                    "entries": [
+                        "The troll makes a rock attack."
+                    ]
+                },
+                {
+                    "name": "Elite Recovery (While Bloodied)",
+                    "entries": [
+                        "The troll ends one negative effect currently affecting it. It can use this action as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "legendaryActions": 2
+        },
+        {
+            "name": "Cultist Execrator",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "cr": "6",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "medium shield"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 102,
+                "formula": "12d8 + 48"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 18,
+            "int": 10,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "wis": "+7",
+                "cha": "+5"
+            },
+            "skill": {
+                "intimidation": "+5",
+                "religion": "+3 (+1d4)"
+            },
+            "passive": 14,
+            "languages": [
+                "any two"
+            ],
+            "spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The execrator is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, +7 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell sacred flame|LevelUp} (2d8 damage)",
+								"{@spell thaumaturgy|LevelUp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bane|LevelUp}",
+								"{@spell command|LevelUp}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell aid|LevelUp}",
+								"{@spell silence|LevelUp}"
+							]
+						},
+                        "3": {
+							"slots": 3,
+							"spells": [
+								"{@spell bestow curse|LevelUp}",
+								"{@spell dispel magic|LevelUp}"
+							]
+						},
+                        "4": {
+							"slots": 3,
+							"spells": [
+								"{@spell blight|LevelUp}",
+								"{@spell locate creature|LevelUp}"
+							]
+						},
+                        "5": {
+							"slots": 1,
+							"spells": [
+								"{@spell insect plague|LevelUp}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The execrator makes two flail attacks."
+                    ]
+                },
+                {
+                    "name": "Flail",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage plus 10 ({@damage 3d6}) necrotic damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Mark of the Pariah (Recharge 6)",
+                    "entries": [
+                        "One creature within 60 feet that the execrator can see makes a {@dc 15} Wisdom saving throw. On a failure, it is marked with a visible brand for 1 minute. While marked in this way, the creature makes saving throws with disadvantage, and whenever it takes damage it takes 2 ({@damage 1d4}) extra psychic damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fetid Witch",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "cr": "2",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 39,
+                "formula": "6d8 + 12"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 14,
+            "con": 14,
+            "int": 14,
+            "wis": 14,
+            "cha": 6,
+            "save": {
+                "con": "+4",
+                "wis": "+4"
+            },
+            "skill": {
+                "animal handling": "+4",
+                "medicine": "+4",
+                "nature": "+4",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "common",
+                "druidic"
+            ],
+            "spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The witch is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, +4 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft|LevelUp}",
+								"{@spell mending|LevelUp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell animal friendship|LevelUp}",
+								"{@spell entangle|LevelUp}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person|LevelUp}",
+								"{@spell spider climb|LevelUp}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+            "trait": [
+                {
+                    "name": "Carrier",
+                    "entries": [
+                        "The witch can contract and spread diseases, but never suffers any of their ill effects."
+                    ]
+                },
+                {
+                    "name": "Vermin Master",
+                    "entries": [
+                        "When the witch casts a spell that targets only a rat, bat, or insect, she can cast it at its lowest level without expending a spell slot. She can communicate telepathically with any such creature within 10 miles."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Staff of Squalor",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, or 7 ({@damage 1d10 + 2}) bludgeoning damage if used with two hands. If the target is a creature, it must succeed on a {@dc 12} Constitution saving throw or contract sewer plague."
+                    ]
+                },
+                {
+                    "name": "Rupture",
+                    "entries": [
+                        "The witch targets the corpse of a rat within 60 feet, causing it to explode. Creatures within 10 feet of the explosion make a {@dc 12} Constitution saving throw. On a failed save, the target takes 7 ({@damage 2d6}) thunder damage and is {@condition poisoned} for 1 minute. On a success, the creature takes half damage and isn't {@condition poisoned}. A {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Poison Cloud (Recharge 4-6)",
+                    "entries": [
+                        "Poison gas appears in a 5-foot radius around a point the witch can see within 30 feet. Each creature that enters the cloud for the first time on a turn or starts its turn there makes a {@dc 12} Constitution saving throw. On a failure, it takes 4 ({@damage 1d8}) poison damage and its speed is halved until the end of its next turn. On a success, it takes half damage and its speed isn't reduced."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Motley Warrior",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "motley"
+                ]
+            },
+            "cr": "1/2",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 27,
+                "formula": "5d8 + 5"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "skill": {
+                "athletics": "+5",
+                "perception": "+3 (+1d4)"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 15,
+            "languages": [
+                "any two"
+            ],
+            "trait": [
+                {
+                    "name": "Strange Gifts",
+                    "entries": [
+                        "The warrior has a bestial feature. Roll {@dice 1d6}.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "1-2: Long Arms",
+                                    "entries": [
+                                        "The reach of the warrior's melee attacks increases by 5."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "3-4: Tail",
+                                    "entries": [
+                                        "The warrior gains an expertise die on checks made to balance or climb or make Sleight of Hand checks. Its tail can carry objects weighing up to 5 pounds."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "5-6: Pincers",
+                                    "entries": [
+                                        "When the warrior hits with a claw attack, the target is {@condition grappled} (escape {@dc 13})."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Claws",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mycelial Traveler",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "mycelial",
+                    "plant"
+                ]
+            },
+            "cr": "1/4",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 13,
+                "formula": "3d6 + 3"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 8,
+            "dex": 14,
+            "con": 12,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "skill": {
+                "stealth": "+4",
+                "survival": "+3"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "languages": [
+                "any two"
+            ],
+            "action": [
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Spores (Recharge 6)",
+                    "entries": [
+                        "The traveler releases a puff of poisonous spores in a 5-foot-radius area centered on the traveler. The spores lightly obscure the area and linger in air or water for 1 minute or until dispersed by a strong wind or current. Non-plant creatures that enter the area for the first time on a turn or start their turn there must make a {@dc 11} Constitution saving throw. On a failure, the creature takes 3 ({@damage 1d6}) poison damage and is {@condition poisoned} until the end of its next turn. Once a creature has been affected by the spores, it is immune to this effect for 24 hours."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oozefolk Oozemancer",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "oozefolk"
+                ]
+            },
+            "cr": "3",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 52,
+                "formula": "8d6 + 24"
+            },
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "str": 10,
+            "dex": 14,
+            "con": 16,
+            "int": 16,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "int": "+5",
+                "wis": "+3"
+            },
+            "skill": {
+                "arcana": "+5",
+                "deception": "+2 (+1d4)"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "languages": [
+                "any two"
+            ],
+            "spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The oozemancer is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, +5 to hit with spell attacks). It can cast the following spells, requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash|LevelUp}",
+								"{@spell prestidigitation|LevelUp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell animal friendship|LevelUp} (oozes only)",
+								"{@spell find familiar|LevelUp} (grey ooze only)"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell acid arrow|LevelUp}",
+								"{@spell spider climb|LevelUp}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+            "trait": [
+                {
+                    "name": "Amorphous Form",
+                    "entries": [
+                        "While unarmoured and not carrying any items, the oozemancer can pass through an opening as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "Hasty Pudding",
+                    "entries": [
+                        "Each ooze of the oozemancer's choice that starts its turn within 30 feet of the oozemancer can use the Dash action as a bonus action."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The oozemancer attacks with its ooze touch and casts a spell."
+                    ]
+                },
+                {
+                    "name": "Ooze Touch",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) acid damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ratling Scavenger",
+            "source": "LevelUp",
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "ratling"
+                ]
+            },
+            "cr": "1/2",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "average": 19,
+                "formula": "3d6 + 9"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 10,
+            "dex": 14,
+            "con": 16,
+            "int": 10,
+            "wis": 8,
+            "cha": 10,
+            "skill": {
+                "perception": "+1 (+1d4)",
+                "stealth": "+4 (+1d4)"
+            },
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 13,
+            "languages": [
+                "any two"
+            ],
+            "trait": [
+                {
+                    "name": "Rat Swarm",
+                    "entries": [
+                        "The scavenger has advantage on attack rolls against a creature if another creature has made a melee attack against the same target since the end of the scavenger's last turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Crossbow-Sword",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 80/320 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage, plus 3 ({@damage 1d6}) piercing damage if the attack roll is made with advantage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Rockborn Guard",
+            "source": "LevelUp",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "rockborn"
+                ]
+            },
+            "cr": "1/4",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 13,
+                "formula": "2d8 + 4"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 10,
+            "con": 14,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "skill": {
+                "perception": "+2"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "any two"
+            ],
+            "action": [
+                {
+                    "name": "War Pick",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Roll",
+                    "entries": [
+                        "The guard rolls up to its Speed in a straight line. While rolling, it can attempt to move into the space of Large or smaller creatures. A creature can make a {@dc 12} Dexterity saving throw, taking 4 ({@damage 1d4 + 2}) bludgeoning damage on a failure and ending the guard's movement on a success."
+                    ]
+                },
+                {
+                    "name": "Rock",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 40/80 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+                    ]
+                }
+            ]
         }
     ]
 }
