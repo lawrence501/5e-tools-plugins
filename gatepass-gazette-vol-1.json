@@ -491,6 +491,494 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Fateholder",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"cr": "13",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 210,
+				"formula": "20d10 + 100"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 20,
+			"con": 20,
+			"int": 16,
+			"wis": 20,
+			"cha": 18,
+			"skill": {
+				"deception": "+9",
+				"insight": "+10",
+				"intimidation": "+9",
+				"perception": "+10",
+				"stealth": "+10"
+			},
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"staggered|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"truesight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"common",
+				"undercommon",
+				"telepathy 30 ft."
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The fateholder's spellcasting ability is Wisdom (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell alarm|LevelUp}",
+							"{@spell detect thoughts|LevelUp}",
+							"{@spell legend lore|LevelUp}",
+							"{@spell mirage arcane|LevelUp}",
+							"{@spell misty step|LevelUp}",
+							"{@spell scrying|LevelUp}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The fateholder can see into both the Material and Ethereal Plane."
+					]
+				},
+				{
+					"name": "Lawful",
+					"entries": [
+						"The fateholder radiates a Lawful aura."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"When the fateholder fails a saving throw, it can choose to succeed instead. When it does so, one of its eight eyes becomes dull. Roll {@dice d8} on the list of Eye Beam secondary effects. Targets automatically succeed on saving throws against that effect."
+					]
+				},
+				{
+					"name": "Psionic Awareness",
+					"entries": [
+						"When a creature within 1 mile of the fateholder uses a psionic ability, the fateholder knows the creature's direction but not its distance."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The fateholder can use its climb speed even on difficult surfaces and upside down on ceilings."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"The fateholder ignores movement restrictions imposed by webs."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fateholder makes four claw attcks. It can replace any claw attack with an Eye Beam."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, and the target is {@condition grappled} (escape {@dc 18})."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target {@condition grappled} by the fateholder. {@h}12 ({@damage 2d6 + 5}) slashing damage plus 21 ({@damage 6d6}) poison damage, and the target must make a {@dc 15} Constitution saving throw. On a failure, it is infected with {@disease pastrasite|LevelUp|pastrasites} which first manifest during its next rest."
+					]
+				},
+				{
+					"name": "Eye Beam",
+					"entries": [
+						"{@atk rs} {@hit 10} to hit, range 120 ft., one target. {@h}9 ({@damage 2d8}) psychic damage and the target must succeed on a {@dc 17} Constitution saving throw or be subjected to one of the following randomly chosen secondary effects:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Alter Fate",
+									"entries": [
+										"The target gains the {@condition doomed|LevelUp} condition. It is aware it will die as a result of a bizarre series of coincidences in 13 ({@dice 2d12}) hours. In addition to the normal means of removing the condition, it can be avoided if the fateholder dies or chooses to end it as an action. Alternatively, the fateholder can instead permanently replace the target's Destiny with one of the fateholder's choice. A character who has unlocked the fulfillment feature of their previous destiny is considered to have already unlocked that of their new destiny."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Cut Strand",
+									"entries": [
+										"THe target takes an additional 13 ({@damage 3d8}) necrotic damage. If this damage reduces the target to 0 hit points it dies, its body disappears, and creatures tht are more than 100 feet away when it dies forget about its existence until reminded. This effect can only be undone with {@spell wish|LevelUp} or {@spell true resurrection|LevelUp}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Foreshadow",
+									"entries": [
+										"The next hit on the target before the end of the fateholder's next turn is a critical hit."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Seal Spells",
+									"entries": [
+										"The target can't cast spells or use psionic abilities until the end of its next turn."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Shift Reality",
+									"entries": [
+										"The fateholder teleports the target to an unoccupied space within 120 feet of the fateholder. The space must be on a solid surface but the fateholder doesn't need to see it."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tangle Psyches",
+									"entries": [
+										"The target is {@condition confused|LevelUp} until the end of its next turn as several alternate versions of itself vie for mental control."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Terrify",
+									"entries": [
+										"The target is {@condition frightened} until the end of its next turn. While {@condition frightened} in this way, its Speed is 0."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Twist History",
+									"entries": [
+										"The fateholder alters a Large or smaller nonmagical object, or a 10-foot cube of a nonmagical Huge or larger object, within 5 feet of the target, replacing it with a similar object from another version of reality. The fateholder can create or destroy the object or change its nature (for instance, adding or removing a door to a wall). This change can't immediately cause a creature or object to take damage or fall."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Eye Beam",
+					"entries": [
+						"The fateholder uses Eye Beam."
+					]
+				},
+				{
+					"name": "Focused Eye Beam (Costs 2 Actions)",
+					"entries": [
+						"The fateholder uses Eye Beam. On a hit, it chooses the secondary effect instead of rolling it randomly."
+					]
+				}
+			],
+			"legendaryActions": 4
+		},
+		{
+			"name": "Askwise Keeper",
+			"source": "LevelUp",
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15
+				}
+			],
+			"hp": {
+				"average": 2,
+				"formula": "1d4"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 2,
+			"dex": 20,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"sylvan"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The pixie has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Shadow Shroud",
+					"entries": [
+						"As a bonus action, the askwise keeper can dim the lighting for 30 feet. In that area, bright light becomes dim light, and dim light becomes darkness. This ability has no effect on magical light sources."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Thorn Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 10/30 ft., one target. {@h}1 piercing damage."
+					]
+				},
+				{
+					"name": "Oathkeeper (3/Day)",
+					"entries": [
+						"The askwise keeper targets up to 4 willing creatures within 30 feet who have just spoken an oath. For a year, the first time each day that one of those creatures takes an action that breaks the oath it takes 38 ({@damage 7d10}) psychic damage. A {@spell remove curse|LevelUp}, {@spell greater restoration|LevelUp}, or {@spell wish|LevelUp} spell cast on the target using at least a 7th level slot ends this effect. The askwise keeper is always aware of the exact wording of the oath, who is currently under its effect, and can end the effect on a creature as an action.",
+						{
+							"type": "list",
+							"items": [
+								"The target gains truesight out to a range of 120 feet.",
+								"The target gains the benefit of the pixie's Magic Resistance trait.",
+								"The target speaks Sylvan."
+							]
+						}
+					]
+				},
+				{
+					"name": "Faerie Curse",
+					"entries": [
+						"The pixie targets a creature within 30 feet not already under a Faerie Curse. The target makes a {@dc 12} Wisdom saving throw. On a failure, the target is subjected to a special magical curse for 1 hour. The curse ends if the pixie dies or is {@condition incapacitated}, the pixie or one of its allies deals damage to the target, or the pixie spends an action to end the curse. Spells such as {@spell remove curse|LevelUp}, {@spell dispel magic|LevelUp}, and {@spell lesser restoration|LevelUp} also end the curse. If a creature makes its saving throw or the condition ends for it, it is immune to any Faerie Curse for the next 24 hours.",
+						"When the target fails its saving throw against this effect, the pixie chooses one of the following effects to impose on the target.",
+						{
+							"type": "list",
+							"items": [
+								"The target is {@condition blinded}.",
+								"The target is {@condition charmed} by the pixie.",
+								"If the target is already {@condition charmed} by the pixie, the target falls asleep. It wakes if it is shaken awake as an action or if it takes damage.",
+								"The target's head takes on the appearance of a beast's head (donkey, wolf, etc.). The target's statistics don't change, but the target can no longer speak; it can only make animal noises."
+							]
+						}
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The pixie and any equipment it wears or carries magically turns {@condition invisible} until the pixie attacks, casts a spell, becomes {@condition incapacitated}, or uses a bonus action to become visible."
+					]
+				}
+			]
+		},
+		{
+			"name": "Earless Hungerer",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 16,
+			"skill": {
+				"perception": "+2",
+				"sleight of hand": "+4",
+				"stealth": "+4"
+			},
+			"passive": 12,
+			"languages": [
+				"sylvan through sign language, but can't speak"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The satyr has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Deafened",
+					"entries": [
+						"An earless hungerer is permanently {@condition deafened}, has disadvantage on perception checks based on sound, and resistance to thunder damage."
+					]
+				},
+				{
+					"name": "Joyless Rage",
+					"entries": [
+						"The earless hungerer gains advantage on attacks against creature it has seen smiling, playing a musical instrument, or dancing, and criticals against such creatures deal an additional 3 ({@damage 1d6}) damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Skull Smash",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage. If the satyr moves at least 20 feet straight towards the target before the attack, the target makes a {@dc 13} Constitution saving throw or is {@condition debilitated|LevelUp} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Crippling Stomp",
+					"entries": [
+						"Up to two humanoids within 5 feet of the earless hungerer make a {@dc 13} Dexterity saving throw. On a failure, they take 3 ({@damage 1d4}) bludgeoning damage, their movement speed is halved, and they have disadvantage on attack rolls until the beginning of the satyr's next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sewer Walker",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 123,
+				"formula": "13d10 + 52"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 20
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 18,
+			"int": 6,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"stealth": "+3"
+			},
+			"resist": [
+				"cold",
+				"fire",
+				"piercing"
+			],
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"fatigue|LevelUp"
+			],
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 11,
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Acid Absorption",
+					"entries": [
+						"When the sewer walker is subjected to acid damage, it instead regains hit points equal to the acid damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The shambling mound makes two lash attacks. If both attacks hit one Medium or smaller creature, the target is {@condition grappled} (escape {@dc 15}), and the sewer walker uses Drown against it."
+					]
+				},
+				{
+					"name": "Lash",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Drown",
+					"entries": [
+						"The sewer walker drags a Medium or smaller {@condition grappled} creature under its body. The creature is {@condition restrained}, {@condition rattled|LevelUp}, can't breathe, and moves with the sewer walker. At the start of each of the sewer walker's turns, the target takes 11 ({@damage 2d6 + 4}) acid damage. When the grapple ends, the creature is no longer being drowned. The sewer walker can only be drowning one creature engulfed at a time."
+					]
+				}
+			]
 		}
     ]
 }

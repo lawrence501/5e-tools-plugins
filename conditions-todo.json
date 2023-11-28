@@ -300,6 +300,18 @@
                 "A humanoid exposed to sewer plague makes a {@dc 11} Constitution saving throw or it becomes infected. After {@dice 1d4} days, an infected creature experiences cramps and exhaustion. The creature suffers 1 level of {@condition fatigue|LevelUp}, it recovers only half the normal amount of hit points when spending Hit Dice, and it regains no hit points upon completing a long rest.",
                 "An infected creature repeats the saving throw whenever it finishes a long rest. On a failure, it suffers an additional level of {@condition fatigue|LevelUp}. On a success, the creature instead recovers from 1 level of {@condition fatigue|LevelUp}. The creature is cured of this disease when it has no levels of {@condition fatigue|LevelUp}."
 			]
+		},
+        {
+			"name": "Pastrasite",
+			"source": "LevelUp",
+			"entries": [
+				"This chrono-active parasite is native to Limbo, a result of the ever-shifting environment in which even time is malleable. Unfortunately pastrasites are drawn to the Material Plane where the rigid temporal structure of past, present, and future provides an excellent foundation to cling to, akin to a caterpillar climbing up and down a tree's bark. They are usually contracted in places of historical significance where they exist in a dormant state around the time of the event itself, looking into the future in search of visitors who have an especially interesting past - adventurers.",
+                "There's not certainty as to what a pastrasite looks like as they can only be detected by their symptoms. They never come in contact with the infected creature itself, instead consuming the creature's background, subsiding on the temporal backlash that results when the timeline snaps back.",
+                "When an adventurer enters an area with pastrasites they make a {@dc 15} Charisma saving throw as their psyche instinctively tries to maintain their personal timeline.",
+                "On a success, the pastrasite immediately retreats, choosing another adventurer to infect until there are none at which point it can no longer maintain its temporal existence, disappearing and leaving behind a strong sense of imminence within its would-be victims. For the next several hours the adventurers have advantage on Intelligence checks made to recall information.",
+                "On a failure, the adventurer becomes infected and the pastrasite immediately destroys several years of their past. The infected adventurer loses its background and gains a randomly determined background. This new background is now - and always has been - the adventurer's past. The adventurer is vaguely aware of what happened with blurred recollection of things being somehow different that before becoming infected. Only spells that contact other planes can reveal information from the infected adventurer's previous timeline. Most facts change as little as possible to remain consistent with the infected adventurer's new past, but some friction remains. Whenever an inconsistency between the old and new timelines is first spoken of in front of the infected adventurer, it takes 10 ({@damage 3d6}) psychic damage.",
+                "The new timeline gradually settles, and the true past can only be restored through powerful magic such as {@spell wish|LevelUp}. Once a parasite has altered an adventurer's timeline, although its effects remain the adventurer recovers from the disease. Spells like {@spell remove disease|LevelUp} or features like a herald's Lay on Hands have no effect on pastrasites."
+			]
 		}
     ]
 }
