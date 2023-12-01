@@ -312,6 +312,14 @@
                 "On a failure, the adventurer becomes infected and the pastrasite immediately destroys several years of their past. The infected adventurer loses its background and gains a randomly determined background. This new background is now - and always has been - the adventurer's past. The adventurer is vaguely aware of what happened with blurred recollection of things being somehow different that before becoming infected. Only spells that contact other planes can reveal information from the infected adventurer's previous timeline. Most facts change as little as possible to remain consistent with the infected adventurer's new past, but some friction remains. Whenever an inconsistency between the old and new timelines is first spoken of in front of the infected adventurer, it takes 10 ({@damage 3d6}) psychic damage.",
                 "The new timeline gradually settles, and the true past can only be restored through powerful magic such as {@spell wish|LevelUp}. Once a parasite has altered an adventurer's timeline, although its effects remain the adventurer recovers from the disease. Spells like {@spell remove disease|LevelUp} or features like a herald's Lay on Hands have no effect on pastrasites."
 			]
+		},
+        {
+			"name": "Blood Maggot Infestation",
+			"source": "LevelUp",
+			"entries": [
+				"A creature can be infected with blood maggots either by the egg-depositing attack of a {@creature corpse fly|LevelUp}, the actions of a {@creature gorger zombie|LevelUp}, or simply by the maggots themselves looking for more food. Once infected, the host takes 4 ({@damage 1d4 + 2}) piercing damage each time it finishes a long rest. Additionally, it must make a {@dc 11} Constitution saving throw or suffer one level of {@condition fatigue|LevelUp} that cannot be removed by a long rest until the {@creature blood maggot|LevelUp} is removed. The DC for the save increases by one for each additional infesting maggot. If the host successfully passes three consecutive Constitution saving throws, the {@creature blood maggot|LevelUp} dies and is harmlessly expelled from the body, at which point the host can recover and rest normally. Should the host die while infected, it rises as a {@creature gorger zombie|LevelUp} 1 minute later.",
+                "A blood maggot infestation can be magically removed with {@spell lesser restoration|LevelUp}. Otherwise, they can be surgically removed with a {@dc 13} Medicine check, which deals 4 ({@damage 1d4 + 2}) true damage per attempt, regardless of success. Each infecting maggot requires its own check to remove."
+			]
 		}
     ]
 }

@@ -1337,6 +1337,475 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Blood Maggot",
+			"source": "LevelUp",
+			"size": [
+				"T"
+			],
+			"type": "monstrosity",
+			"cr": "1/8",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d4 + 1"
+			},
+			"speed": {
+				"walk": 20,
+				"burrow": 5,
+				"climb": 15,
+				"swim": 15
+			},
+			"str": 3,
+			"dex": 14,
+			"con": 12,
+			"int": 1,
+			"wis": 8,
+			"cha": 6,
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"senses": [
+				"blindsight 40 ft.",
+				"tremorsense 40 ft."
+			],
+			"passive": 9,
+			"trait": [
+				{
+					"name": "Disconcerting Leap",
+					"entries": [
+						"The blood maggot can jump up to half its Speed horizontally and half its Speed vertically. If it's within 5 feet of a creature at the end of this movement, it may make a bite attack as an action against that creature with advantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. The blood maggot attaches to the target. Any creature can make a {@dc 11} Strength check to remove it. While attached, the blood maggot cannot attack other creatures."
+					]
+				},
+				{
+					"name": "Burrow",
+					"entries": [
+						"Once the blood maggot is attached, it attempts to burrow into the target, which makes a {@dc 11} Constitution saving throw, taking 4 ({@damage 1d4 + 2}) true damage on a failure and half damage on a success.",
+						"A blood maggot can be removed with a successful piercing or slashing attack and takes damage equal to half the damage dealt to the host. If it is not removed within three rounds, the target is infected with a {@disease blood maggot infestation|LevelUp}. If the target dies at any point in this process, it rises 1 minute later as a {@creature gorger zombie|LevelUp}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Misery of Blood Maggots",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"swarmSize": "T"
+			},
+			"cr": "2",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "10d8"
+			},
+			"speed": {
+				"walk": 20,
+				"burrow": 5,
+				"climb": 15,
+				"swim": 15
+			},
+			"str": 9,
+			"dex": 18,
+			"con": 12,
+			"int": 1,
+			"wis": 8,
+			"cha": 6,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"staggered|LevelUp",
+				"petrified",
+				"debilitated|LevelUp",
+				"unconscious"
+			],
+			"senses": [
+				"blindsight 20 ft.",
+				"tremorsense 30 ft."
+			],
+			"passive": 9,
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and move through any opening large enough for a Tiny creature. It can't gain HP or temporary hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 0 ft., one target. {@h}14 ({@damage 4d6}) piercing damage, or 7 ({@damage 2d6}) piercing if the swarm is bloodied. Additionally, {@dice 1d4 + 1} blood maggots attach to the target (see {@creature blood maggot|LevelUp}). The swarm takes 3 damage for every blood maggot that attaches."
+					]
+				}
+			]
+		},
+		{
+			"name": "Corpse Fly",
+			"source": "LevelUp",
+			"size": [
+				"T"
+			],
+			"type": "monstrosity",
+			"cr": "1",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d6 + 5"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 13,
+			"int": 8,
+			"wis": 8,
+			"cha": 8,
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"telepathy 60 ft."
+			],
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The corpse fly can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Putrid Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage, and the target makes a {@dc 12} Constitution saving throw, contracting a {@disease blood maggot infestation|LevelUp} on a failed save. On a successful save, it instead takes 2 ({@damage 1d4}) poison damage. If the target is reduced to 0 hit points from this attack it dies and rises 1 minute later as a {@creature gorger zombie|LevelUp}."
+					]
+				},
+				{
+					"name": "Corrosive Bile Spit (Recharge 5-6)",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 15/30 ft., one target. {@h}9 ({@damage 2d6 + 2}) acid damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scourge of Corpse Flies",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": {
+				"swarmSize": "T",
+				"type": "monstrosity"
+			},
+			"cr": "6",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "20d6 + 35"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 16,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"staggered|LevelUp",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"debilitated|LevelUp",
+				"unconscious"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"telepathy 60 ft."
+			],
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The scourge can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and move through any opening large enough for a Tiny creature. It can't gain HP or temporary hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Putrid Bites",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 0 ft., one target. {@h}25 ({@damage 6d6 + 4}) piercing damage or 14 ({@damage 3d6 + 4}) if the swarm is bloodied. The target makes a {@dc 14} Constitution saving throw, contracting a {@disease blood maggot infestation|LevelUp} on a failed save. On a successful save, it instead takes 14 ({@damage 4d6}) poison damage or 7 ({@damage 2d6}) if the swarm is bloodied. If the target is reduced to 0 hit points from this attack it dies and rises 1 minute later as a {@creature gorger zombie|LevelUp}."
+					]
+				},
+				{
+					"name": "Corrosive Bile Spit (Recharge 5-6)",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 15/30 ft., one target. {@h}28 ({@damage 8d6}) acid damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gorger Zombie",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 8
+				}
+			],
+			"hp": {
+				"average": 15,
+				"formula": "2d8 + 6"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 12,
+			"dex": 6,
+			"con": 16,
+			"int": 3,
+			"wis": 6,
+			"cha": 4,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Sickening Disease",
+					"entries": [
+						"If damage reduces the gorger zombie to 0 hit points, it explodes. Roll {@dice 1d4}. On a 1 to 3, this expels {@dice 2d4} {@creature blood maggot|LevelUp|blood maggots}. Each immediately makes a bite attack against a creature within 5 feet of the zombie. On a 4, a {@creature corpse fly|LevelUp} bursts out into the space the gorger zombie occupied, immediately making a putrid bite attack against a randomly-selected adjacent creature."
+					]
+				},
+				{
+					"name": "Zombie Quirks",
+					"entries": [
+						"All zombies have one of the following traits:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Infectious Bite",
+									"entries": [
+										"A creature bitten by the zombie takes 2 ({@damage 1d4}) ongoing necrotic damage until it regains hit points or a creature makes a {@dc 15} Medicine check to treat the wound. If a beast, dragon, giant, humanoid, or monstrosity dies while suffering from this effect, it becomes a zombie after 1 minute, also retaining any non-magical actions it has."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vile Discharge",
+									"entries": [
+										"The zombie's melee attacks deal an extra 2 ({@damage 1d4}) poison damage. Additionally, when it's reduced to 0 hit points, it explodes. Creatures within 5 feet makes a Dexterity saving throw against the zombie's maneuver DC, taking 5 ({@damage 2d4}) poison damage on a failure."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vigor Mortis",
+									"entries": [
+										"The zombie can take the Dash action as a bonus action. It can't do so again until it moves 0 feet on one of its turns."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Infested Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage. On a critical hit, instead of additional damage, a {@creature blood maggot|LevelUp} automatically attaches to the target (see {@creature blood maggot|LevelUp}) and immediately deals 4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gorger Zombie Horde",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "undead",
+				"swarmSize": "M"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 8
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 12,
+			"dex": 6,
+			"con": 16,
+			"int": 3,
+			"wis": 6,
+			"cha": 4,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Area Vulnerability",
+					"entries": [
+						"The horde takes double damage from any effect that targets an area."
+					]
+				},
+				{
+					"name": "Horde",
+					"entries": [
+						"The horde is composed of 5 or more zombies. If it is subjected to a spell, attack, or other effect that affects only one target, it takes any damage but ignores other effects. It can share its space with Medium or smaller creatures or objects. The horde can move through any opening large enough for one Medium creature without squeezing."
+					]
+				},
+				{
+					"name": "Sickening Dispersal",
+					"entries": [
+						"When the horde is reduced to 0 hit points, it turns into 2 ({@dice 1d4}) {@creature gorger zombie|LevelUp|gorger zombies} with 7 hit points each. Additionally, several of the fallen zombies explode, expelling their loathsome burdens. Roll {@dice 1d4}. On a 1 to 3, 1 {@creature misery of blood maggots|LevelUp} spills into an adjacent space. On a 4, 2 {@creature corpse fly|LevelUp|corpse flies} emerge and immediately make a putrid bite attack against adjacent creatures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Infested Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}20 ({@damage 5d6 + 3}) bludgeoning damage. Once per day, when the gorger zombie horde rolls a critical hit, it can forgo the extra damage to instead release 1 {@creature misery of blood maggots|LevelUp} into a space adjacent to the target. THe swarm can then immediately make a bite attack against any adjacent creature."
+					]
+				}
+			]
 		}
     ]
 }
