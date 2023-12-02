@@ -1806,6 +1806,186 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Lance Crab",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d12"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 10,
+			"int": 1,
+			"wis": 8,
+			"cha": 4,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The crab can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The lance crab makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 12}). The crab has two claws and can grapple one creature with each."
+					]
+				},
+				{
+					"name": "Spine Barrage (2/Day)",
+					"entries": [
+						"The lance crab flicks its shell upwards, sending a number of its spines arcing towards its enemy. A 5-foot-radius area within 30 feet is pelted with falling spines. Each creature in the area makes a {@dc 12} Dexterity saving throw, taking 9 ({@damage 2d6 + 2}) piercing damage on a failed save or half damage on a success. On a failure, the creature is also {@condition slowed|LevelUp} until the end of its next turn as it attempts to free itself from the spines."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bay Witch",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "7d8 + 21"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 40
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 16,
+			"int": 12,
+			"wis": 12,
+			"cha": 16,
+			"save": {
+				"con": "+5",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+3",
+				"deception": "+5",
+				"insight": "+3"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"aquan",
+				"common",
+				"giant"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The hag's spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights|LevelUp}",
+						"{@spell diguise self|LevelUp}",
+						"{@spell augury|LevelUp}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell control weather|LevelUp}",
+							"{@spell geas|LevelUp}",
+							"{@spell scrying|LevelUp}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Curse",
+					"entries": [
+						"A creature that makes a bargain with the hag is magically cursed for 30 days. While it is cursed, the target automatically fails saving throws against the hag's {@spell scrying|LevelUp} and {@spell geas|LevelUp} spells, and the hag can cast {@spell control weather|LevelUp} centered on the creature."
+					]
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The hag can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Terrifying Visions",
+					"entries": [
+						"The witch sends waves of visions, filling its enemies minds with images of their own death. Each creature within 30 feet that can see the hag makes a {@dc 11} Wisdom saving throw. A creature under the hag's curse automatically fails this saving throw. On a failure, the creature is {@condition frightened} of the hag until the end of its next turn and gains an expertise die on its next Wisdom or Dexterity saving throw, guided by the premonitions of the future. If a creature's saving throw is successful, it is immune to the hag's Terrifying Visions for 24 hours."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Foretelling (Recharge 5-6)",
+					"entries": [
+						"When a bay witch is attacked or forced to make a saving throw it can draw on its kaleidoscope of visions to foresee the outcome. The bay witch gains advantage on its next saving throw and its AC increases by 3 until the start of its next turn."
+					]
+				}
+			]
 		}
     ]
 }
