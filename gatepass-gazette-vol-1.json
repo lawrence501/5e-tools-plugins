@@ -1987,5 +1987,554 @@
 				}
 			]
 		}
-    ]
+    ],
+	"spell": [
+		{
+			"name": "Template Spell",
+			"source": "LevelUp",
+			"level": 9,
+			"school": "A",
+            "subschools": [
+                "arcane",
+                "divine",
+                "negation",
+                "planar",
+                "protection"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "opal worth at least 1,000gp, consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A mirror on the same plane of existence as you"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "10-foot cube"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Dexterity halves and negates deafness"
+                    ]
+                },
+				"A permanent, immovable zone of antimagic fills the area, suppressing all magical effects within it. At the DM's discretion, sufficiently powerful artifacts and deities may be able to ignore the zone's effects. The zone is dispelled only if more than 10 percent of its area overlaps with that of another antimagic zone spell (which is also dispelled)."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot above 6th, the aberration's AC increases by 1, its hit points increase by 10, and when it deals damage with an attack it deals {@dice 1d4} extra damage."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM",
+				"OBJ"
+			],
+			"areaTags": [
+				"S"
+			],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "saving throw": [
+                "dexterity"
+            ],
+            "conditionInflict": [
+                "restrained",
+                "prone"
+            ]
+		},
+		{
+			"name": "Eavesdrop",
+			"source": "LevelUp",
+			"level": 4,
+			"school": "D",
+            "subschools": [
+                "arcane",
+                "divine",
+                "law",
+                "scrying",
+                "senses"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": false,
+				"s": true,
+                "m": "silver wire"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 24
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "Once creature or object"
+                    ]
+                },
+				"You touch the target and mark it with a glyph that acts as a scrying sensor. The glyph is visible and resembles a one-inch-tall drawing of an ear. The sensor can be covered or concealed without changing the function of the spell. A creature can wipe it away as an action, ending the spell. You can only have one such sensor active at once.",
+				"While the sensor is active, you can use a bonus action to hear both through the sensor as though you were at its location and through your normal senses. This effect lasts until you end the spell as an action, use a bonus action to silence it (doing so does not end the spell), or the duration ends. While hearing through the sensor you have advantage on Perception checks to observe your surroundings, but not to those made to detect noises through the sensor. Additionally, you can hear through this sensor even if you are {@condition deafened}. Creatures cannot hear you through the sensor."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "When cast using a 7th-level spell slot, the spell's duration increases to 30 days. When cast using a 9th-level spell slot, the spell's duration is permanent."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM",
+				"OBJ"
+			]
+		},
+		{
+			"name": "Identify Weapon",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "D",
+            "subschools": [
+                "arcane",
+                "divine",
+                "knowledge",
+                "law",
+                "weaponry"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature or corpse"
+                    ]
+                },
+				"While casting this spell, you touch a wound on a creature or corpse. If the wound was inflicted by an object, such as a weapon, you know exactly what the specific item looks like for the purposes of spells like {@spell locate object|LevelUp}. For the duration of the spell you also know the object's general direction and its current trajectory if it's traveling.",
+				"The spell fails if the wound was inflicted by a creature's natural weapons, such as fists or claws, or by a spell. The spell also fails if the wound was inflicted more than 3 days ago. If the weapon is more than 5 miles away, has been destroyed, or if there is any thickness of lead in the direct path between you and the object, the spell is unable to provide its direction."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "When using a 3rd-level spell slot, the spell's duration increases to 10 minutes and it can detect a weapon up to 30 miles away."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Reopen Rift",
+			"source": "LevelUp",
+			"level": 6,
+			"school": "C",
+            "subschools": [
+                "arcane",
+                "divine",
+                "law",
+                "teleportation",
+                "travel"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "silver scissors worth 25 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"If any creature used teleportation or plane shift magic, such as {@spell dimension door|LevelUp} or {@spell teleportation circle|LevelUp}, to leave the spell's area within the past 24 hour, a glowing rift appears in the space from which they left. If multiple spells have been cast within this period, only the most recent rift materialises.",
+				"A rift resembles a glowing, opaque circle of light through which its destination can't be seen. The rift remains open until the end of your next turn. During this item, any creature can pass through the rift. When they enter the rift, they are teleported to the destination of the original teleportation effect that was used to leave the area. If the destination is currently occupied, the creature takes 16 ({@damage 3d10}) force damage and appears in the closes unoccupied space to the destination. Creature that enter the rift cannot use it to return, though as long as it is within 24 hours of the target spell's casting you can choose to cast this spell a second time to reopen your last rift instead of opening a new one, regardless of what other teleportation effects have been used in the area in the meantime."
+			],
+			"miscTags": [
+				"TP",
+				"PS"
+			]
+		},
+		{
+			"name": "Silver Shield",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "I",
+            "subschools": [
+                "arcane",
+                "divine",
+                "law"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "20 silver coins, which are consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One nonmagical shield"
+                    ]
+                },
+				"You touch a nonmagical shield, giving it a silver mirror coating (see Adventurer's Guide pg324).",
+				"While a creature wields this silver shield, its face is fully concealed by an illusory silver visor that resembles a blank, featureless face. This grants the wearer advantage on Intimidation checks against its own creature tyep, as well as a {@dice 1d6} expertise die to saving throws made to resist being {@condition charmed}, {@condition debilitated|LevelUp}, or {@condition rattled|LevelUp}. This visor does not impair the creature's vision and can't be removed except by removing the shield. Additionally, while wearing the shield the creature's voice becomes metallic and unrecognisable. Creatures have disadvantage on checks made to identify a creature wielding the shield."
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Stone Sentinel",
+			"source": "LevelUp",
+			"level": 5,
+			"school": "T",
+            "subschools": [
+                "arcane",
+                "divine",
+                "law",
+                "transformation"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "book of laws written in silver ink worth 1,000 gp, which is consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One nonmagical Medium or Large statue"
+                    ]
+                },
+				"You touch a statue and transform it into a {@creature walking statue|LevelUp}. The walking statue is either Medium or Large, depending on the original statue's size, and its Intelligence is 8 (-1); otherwise, its statistics are unchanged.",
+				"This stone sentinel is not under your control. Instead, it remains dormant in its original position. It is indistinguishable from a normal statue until it perceives a law being broken, at which point it takes action. The walking statue is aware of all laws in the book used as the material component, though its understanding of the law is literal and without nuance. You can update the laws for a stone sentinel you have created with another casting of this spell, using the new law book as the material component.",
+				"Each time you cast the spell, you can choose between three sets of instructions, which the walking statuse will carry out to the best of its ability.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "1. Apprehend Criminals",
+							"entries": [
+								"When the sentinel perceives a major or minor law being broken, it chases the lawbreaker and attacks them. If it loses sight of a lawbreaker or if the lawbreaker is reduced to 0 hit points, the sentinel returns to its original position and returns to its dormant state. The stone statue's attacks are non-lethal."
+							]
+						},
+						{
+							"type": "item",
+							"name": "2. Apprehend Criminals with Extremem Prejudice",
+							"entries": [
+								"As Apprehend Criminals, but the stone sentinel's attacks are not non-lethal."
+							]
+						},
+						{
+							"type": "item",
+							"name": "3. Keep Watch",
+							"entries": [
+								"When the stone sentinel perceives a crime, it does not move or attack. Instead, it sounds the alarm, shouting the nature of the crime, as well as the direction and description of the lawbreaker. It continues to shout the crime and the last known direction and description for 5 rounds."
+							]
+						}
+					]
+				}
+			],
+			"miscTags": [
+				"PRM",
+				"OBJ",
+				"SMN"
+			]
+		},
+		{
+			"name": "Trace Magic Aura",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "D",
+            "subschools": [
+                "arcane",
+                "divine",
+                "law",
+                "senses"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "glass lens"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "Self"
+                    ]
+                },
+				"Until the spell ends you sense the lingering aura of spells that were cast within the recent past. For you to detect a spell's aura, it must have been cast within the radius of this spell and in a location you can see. You can pinpoint the location where the spellcaster stood at the time that they cast the spell, the spell's schools of magic, and its area of effect (if it is completely within this spell's radius). If the spell is one that you know, you can identify it as such.",
+				"A spell's magic aura can be traced for one hour per level of the spell slot used to cast it. For instance, {@spell fireball|LevelUp} cast with a 4th-level slot can be detected with trace magic aura for 4 hours after it is cast.",
+				"{@spell arcanist’s magic aura|LevelUp} can erase a spell's lingering aura or manufacture a false one. Furthermore, trace magic aura doesn't detect castings of {@spell arcanist’s magic aura|LevelUp} or {@spell nondetection|LevelUp}."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "When using a 3rd-level or higher spell slot, you can detect castings of {@spell arcanist’s magic aura|LevelUp} or {@spell nondetection|LevelUp} as long as you cast this spell with a higher-level spell slot than was used to cast {@spell arcanist’s magic aura|LevelUp} or {@spell nondetection|LevelUp}."
+                    ]
+                }
+            ]
+		}
+	]
 }
