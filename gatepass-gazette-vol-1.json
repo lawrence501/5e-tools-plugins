@@ -643,7 +643,7 @@
 									"type": "item",
 									"name": "Cut Strand",
 									"entries": [
-										"THe target takes an additional 13 ({@damage 3d8}) necrotic damage. If this damage reduces the target to 0 hit points it dies, its body disappears, and creatures tht are more than 100 feet away when it dies forget about its existence until reminded. This effect can only be undone with {@spell wish|LevelUp} or {@spell true resurrection|LevelUp}."
+										"The target takes an additional 13 ({@damage 3d8}) necrotic damage. If this damage reduces the target to 0 hit points it dies, its body disappears, and creatures tht are more than 100 feet away when it dies forget about its existence until reminded. This effect can only be undone with {@spell wish|LevelUp} or {@spell true resurrection|LevelUp}."
 									]
 								},
 								{
@@ -1802,7 +1802,7 @@
 				{
 					"name": "Infested Slam",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}20 ({@damage 5d6 + 3}) bludgeoning damage. Once per day, when the gorger zombie horde rolls a critical hit, it can forgo the extra damage to instead release 1 {@creature misery of blood maggots|LevelUp} into a space adjacent to the target. THe swarm can then immediately make a bite attack against any adjacent creature."
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}20 ({@damage 5d6 + 3}) bludgeoning damage. Once per day, when the gorger zombie horde rolls a critical hit, it can forgo the extra damage to instead release 1 {@creature misery of blood maggots|LevelUp} into a space adjacent to the target. The swarm can then immediately make a bite attack against any adjacent creature."
 					]
 				}
 			]
@@ -1983,6 +1983,513 @@
 					"name": "Foretelling (Recharge 5-6)",
 					"entries": [
 						"When a bay witch is attacked or forced to make a saving throw it can draw on its kaleidoscope of visions to foresee the outcome. The bay witch gains advantage on its next saving throw and its AC increases by 3 until the start of its next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Assaultskull",
+			"source": "LevelUp",
+			"size": [
+				"S"
+			],
+			"type": "undead",
+			"cr": "2",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d6 + 18"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+                    "number": 40,
+                    "condition": "(hover)"
+                }
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 17,
+			"int": 3,
+			"wis": 15,
+			"cha": 8,
+			"save": {
+				"str": "+3"
+			},
+			"skill": {
+				"intimidation": "+1 (+1d8)",
+				"perception": "+4 (+1d8)"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"staggered|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"languages": [
+				"understands the language of its creator but cannot speak"
+			],
+			"trait": [
+				{
+					"name": "Macabre",
+					"entries": [
+						"The assaultskull has advantage on Intimidation checks made against humanoids."
+					]
+				},
+				{
+					"name": "Networking",
+					"entries": [
+						"When the assaultskull uses its Sensor Sweep, ally mechanoskulls within 500 feet are able to see with its blindsight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mouthblade",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Eyelaser",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 120/240 ft., one target. {@h}7 ({@damage 1d8 + 3}) radiant damage."
+					]
+				},
+				{
+					"name": "Elemental Blast (Recharge 6)",
+					"entries": [
+						"The assaultskull unleashes elemental energies in a 30-foot-long, 5-foot-wide line, choosing which when it uses this attack (acid, cold, fire, or lightning). Each creature in that area makes a {@dc 13} Dexterity saving throw, taking 10 ({@damage 2d8}) elemental damage on a failure or half damage on a success."
+					]
+				},
+				{
+					"name": "Transmit",
+					"entries": [
+						"The mechanoskull sends data to an object or creature designated by its creator. As a bonus action, the designated creature can see through the mechanoskull's senses as if they were their own. A creature can only be the receiver for a number of mechanoskulls equal to its proficiency bonus and can only see through the senses of one mechanoskull at a time. During this time it is {@condition blinded} and {@condition deafened} to its body's surroundings. If the receiver is a computer or similar device, such as a crystal ball, the data can also be recorded for later viewing."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Hyperneedle (3/Day)",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Sensor Sweep (Recharge 4-6)",
+					"entries": [
+						"The assaultskull gains blindsight to a range of 60 feet until the start of its next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Overclock",
+					"entries": [
+						"The assaultskull takes the Dash action when a creature misses it with an attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "Decoyskull",
+			"source": "LevelUp",
+			"size": [
+				"T"
+			],
+			"type": "undead",
+			"cr": "1",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d4 + 8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+                    "number": 30,
+                    "condition": "(hover)"
+                }
+			},
+			"str": 7,
+			"dex": 15,
+			"con": 14,
+			"int": 3,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"dex": "+4"
+			},
+			"skill": {
+				"deception": "+1 (+1d8)"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"staggered|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"understands the language of its creator but cannot speak"
+			],
+			"trait": [
+				{
+					"name": "Networking",
+					"entries": [
+						"When the decoyskull uses its Sensor Sweep, ally mechanoskulls within 500 feet are able to see with its blindsight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Eyelaser",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 120/240 ft., one target. {@h}5 ({@damage 1d6 + 2}) radiant damage."
+					]
+				},
+				{
+					"name": "Transmit",
+					"entries": [
+						"The mechanoskull sends data to an object or creature designated by its creator. As a bonus action, the designated creature can see through the mechanoskull's senses as if they were their own. A creature can only be the receiver for a number of mechanoskulls equal to its proficiency bonus and can only see through the senses of one mechanoskull at a time. During this time it is {@condition blinded} and {@condition deafened} to its body's surroundings. If the receiver is a computer or similar device, such as a crystal ball, the data can also be recorded for later viewing."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Action",
+					"entries": [
+						"The decoyskull takes the Dash or Disengage action."
+					]
+				},
+				{
+					"name": "Sensor Sweep (Recharge 4-6)",
+					"entries": [
+						"The decoyskull gains blindsight to a range of 60 feet until the start of its next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Self-Destruct",
+					"entries": [
+						"When an attack, effect, or spell would reduce the decoyskull to 0 hit points, it moves up to 20 feet and explodes with flames in a 20-foot radius. Each creature in that area makes a {@dc 12} Dexterity saving throw, taking 18 ({@damage 4d8}) fire damage on a failure or half damage on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gobletskull",
+			"source": "LevelUp",
+			"size": [
+				"T"
+			],
+			"type": "undead",
+			"cr": "1/4",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 14,
+				"formula": "4d4 + 4"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+                    "number": 40,
+                    "condition": "(hover)"
+                }
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 12,
+			"int": 5,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"acrobatics": "+6 (+1d8)"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"staggered|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the language of its creator but cannot speak"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Transmit",
+					"entries": [
+						"The mechanoskull sends data to an object or creature designated by its creator. As a bonus action, the designated creature can see through the mechanoskull's senses as if they were their own. A creature can only be the receiver for a number of mechanoskulls equal to its proficiency bonus and can only see through the senses of one mechanoskull at a time. During this time it is {@condition blinded} and {@condition deafened} to its body's surroundings. If the receiver is a computer or similar device, such as a crystal ball, the data can also be recorded for later viewing."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Alcoholic Spray (2/Day)",
+					"entries": [
+						"The gobletskull processes some of the wine it is carrying and sprays it as a 15-foot cone of inebriating gas. Each creature in that area makes a {@dc 11} Constitution saving throw. On a failure, it is {@condition poisoned} for 1 hour. If a {@condition poisoned} creature fails the save, or if any creature fails the save by 5 or more, it falls asleep for 1 hour. It takes if it takes damage or is shaken awake as an action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Serviceskull",
+			"source": "LevelUp",
+			"size": [
+				"T"
+			],
+			"type": "undead",
+			"cr": "1/8",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d4 + 4"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+                    "number": 20,
+                    "condition": "(hover)"
+                }
+			},
+			"str": 9,
+			"dex": 13,
+			"con": 12,
+			"int": 3,
+			"wis": 10,
+			"cha": 8,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"staggered|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the language of its creator but cannot speak"
+			],
+			"trait": [
+				{
+					"name": "Networking",
+					"entries": [
+						"When the serviceskull uses its Sensor Sweep, ally mechanoskulls within 500 feet are able to see with its blindsight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Transmit",
+					"entries": [
+						"The mechanoskull sends data to an object or creature designated by its creator. As a bonus action, the designated creature can see through the mechanoskull's senses as if they were their own. A creature can only be the receiver for a number of mechanoskulls equal to its proficiency bonus and can only see through the senses of one mechanoskull at a time. During this time it is {@condition blinded} and {@condition deafened} to its body's surroundings. If the receiver is a computer or similar device, such as a crystal ball, the data can also be recorded for later viewing."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Sensor Sweep (Recharge 4-6)",
+					"entries": [
+						"The serviceskull gains blindsight to a range of 60 feet until the start of its next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spyskull",
+			"source": "LevelUp",
+			"size": [
+				"T"
+			],
+			"type": "undead",
+			"cr": "1",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d4 + 12"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+                    "number": 40,
+                    "condition": "(hover)"
+                },
+				"swim": 40
+			},
+			"str": 7,
+			"dex": 18,
+			"con": 15,
+			"int": 5,
+			"wis": 14,
+			"cha": 8,
+			"save": {
+				"dex": "+6"
+			},
+			"skill": {
+				"athletics": "+0 (+1d8)",
+				"perception": "+4 (+1d8)",
+				"stealth": "+6 (+1d8)"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"staggered|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"languages": [
+				"understands the language of its creator but cannot speak"
+			],
+			"trait": [
+				{
+					"name": "Disturbing",
+					"entries": [
+						"When a humanoid creature looks at the spyskull, it makes a {@dc 12} Wisdom saving throw or becomes {@condition rattled|LevelUp} for 1 minute. A creature that fails its save by 5 or more becomes {@condition frightened} instead. On a success, the creature is immune to Disturbing for 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Eyelaser",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/240 ft., one target. {@h}7 ({@damage 1d6 + 4}) radiant damage."
+					]
+				},
+				{
+					"name": "Transmit",
+					"entries": [
+						"The mechanoskull sends data to an object or creature designated by its creator. As a bonus action, the designated creature can see through the mechanoskull's senses as if they were their own. A creature can only be the receiver for a number of mechanoskulls equal to its proficiency bonus and can only see through the senses of one mechanoskull at a time. During this time it is {@condition blinded} and {@condition deafened} to its body's surroundings. If the receiver is a computer or similar device, such as a crystal ball, the data can also be recorded for later viewing."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cunning Movements",
+					"entries": [
+						"The spyskull takes the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Sensor Sweep (Recharge 4-6)",
+					"entries": [
+						"The spyskull gains blindsight to a range of 60 feet until the start of its next turn."
 					]
 				}
 			]
