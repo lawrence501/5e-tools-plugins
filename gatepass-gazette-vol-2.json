@@ -323,6 +323,216 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Poltergeist",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"cr": "1",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 36,
+				"formula": "8d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 16,
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"frightened",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"trait": [
+				{
+					"name": "Ethereal Form",
+					"entries": [
+						"The poltergeist lives on the Ethereal Plane. While on that plane, it can't be sensed or attacked by creatures on the Material Plane."
+					]
+				},
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The poltergeist can see into both the Material Plane and Ethereal Plane."
+					]
+				},
+				{
+					"name": "Phantasmal Dissolution",
+					"entries": [
+						"When the poltergeist is destroyed, it appears in its true form for a moment and dissipates into glowing dust."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Possess Object",
+					"entries": [
+						"While on the Ethereal Plane, the poltergeist magically possesses a Medium or smaller unattended non-magical object in a corresponding space on the Material Plane. Until this possession ends, the poltergeist invisibly enters the object and exists on the Material Plane. The poltergeist can use its movement to move the object and use its action to manipulate the object (such as by causing a possessed door to slam or lock, or a piano to play). While the object stays still, the possession can be detected by effects and spells like {@spell detect evil and good|LevelUp} and {@spell detect magic|LevelUp} or by a {@dc 13} Investigation or Religion check.",
+						"Any attacks or effects that would target or affect a possessed object instead target or affect the poltergeist. The possession ends after 1 minute, when the poltergeist is {@condition incapacitated}, when the poltergeist ends it as an action, or when the poltergeist is turned or affected by {@spell dispel evil and good|LevelUp} or a similar effect. When the possession ends, the object is destroyed and cannot be possessed again, and the poltergeist returns to the Ethereal Plane. If the poltergeist is reduced to 0 hit points while possessing an object, the poltergeist and the object are both destroyed."
+					]
+				},
+				{
+					"name": "Slam (While Possessing Object)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning, piercing, or slashing damage (depending on possessed object)."
+					]
+				},
+				{
+					"name": "Throw (While Possessing Object)",
+					"entries": [
+						"The poltergeist throws a possessed object up to 30 feet, ending the possession and destroying the object. If the object is thrown at a creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take 3 ({@damage 1d6}) bludgeoning, slashing, or piercing damage (depending on possessed object)."
+					]
+				},
+				{
+					"name": "Horrid Illusion (3/Day)",
+					"entries": [
+						"While on the Ethereal Plane, the poltergeist creates a magical illusion, changing the appearance of a Large or smaller object in a corresponding space on the Material Plane. The illusion lasts for 1 minute or until the poltergeist or the object leaves its space. The poltergeist can't change the basic shape of the object by more than a few inches and can't create a visual illusion in an empty space.",
+						"When the illusion appears, each creature of the poltergeist's choice within 30 feet of the illusion that can see it makes a {@dc 13} Wisdom saving throw. On a failure, the target gains a level of {@condition strife|LevelUp}. On a success, the creature recognises the illusion as false and is immune to Horrid Illusion for 24 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Phantasmal Poltergeist",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"cr": "2",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 72,
+				"formula": "16d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 16,
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"frightened",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"trait": [
+				{
+					"name": "Ethereal Form",
+					"entries": [
+						"The poltergeist lives on the Ethereal Plane. While on that plane, it can't be sensed or attacked by creatures on the Material Plane."
+					]
+				},
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The poltergeist can see into both the Material Plane and Ethereal Plane."
+					]
+				},
+				{
+					"name": "Phantasmal Dissolution",
+					"entries": [
+						"When the poltergeist is destroyed, it appears in its true form for a moment and dissipates into glowing dust."
+					]
+				},
+				{
+					"name": "Phantasmal Illusion",
+					"entries": [
+						"When a creature fails its saving throw against the poltergeist's Horrid Illusion while the poltergeist is bloodied, the poltergeist regains 10 hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Possess Object",
+					"entries": [
+						"While on the Ethereal Plane, the poltergeist magically possesses a Medium or smaller unattended non-magical object in a corresponding space on the Material Plane. Until this possession ends, the poltergeist invisibly enters the object and exists on the Material Plane. The poltergeist can use its movement to move the object and use its action to manipulate the object (such as by causing a possessed door to slam or lock, or a piano to play). While the object stays still, the possession can be detected by effects and spells like {@spell detect evil and good|LevelUp} and {@spell detect magic|LevelUp} or by a {@dc 13} Investigation or Religion check.",
+						"Any attacks or effects that would target or affect a possessed object instead target or affect the poltergeist. The possession ends after 1 minute, when the poltergeist is {@condition incapacitated}, when the poltergeist ends it as an action, or when the poltergeist is turned or affected by {@spell dispel evil and good|LevelUp} or a similar effect. When the possession ends, the object is destroyed and cannot be possessed again, and the poltergeist returns to the Ethereal Plane. If the poltergeist is reduced to 0 hit points while possessing an object, the poltergeist and the object are both destroyed."
+					]
+				},
+				{
+					"name": "Slam (While Possessing Object)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning, piercing, or slashing damage (depending on possessed object)."
+					]
+				},
+				{
+					"name": "Throw (While Possessing Object)",
+					"entries": [
+						"The poltergeist throws a possessed object up to 30 feet, ending the possession and destroying the object. If the object is thrown at a creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take 3 ({@damage 1d6}) bludgeoning, slashing, or piercing damage (depending on possessed object)."
+					]
+				},
+				{
+					"name": "Horrid Illusion (3/Day)",
+					"entries": [
+						"While on the Ethereal Plane, the poltergeist creates a magical illusion, changing the appearance of a Large or smaller object in a corresponding space on the Material Plane. The illusion lasts for 1 minute or until the poltergeist or the object leaves its space. The poltergeist can't change the basic shape of the object by more than a few inches and can't create a visual illusion in an empty space.",
+						"When the illusion appears, each creature of the poltergeist's choice within 30 feet of the illusion that can see it makes a {@dc 13} Wisdom saving throw. On a failure, the target gains a level of {@condition strife|LevelUp}. On a success, the creature recognises the illusion as false and is immune to Horrid Illusion for 24 hours."
+					]
+				},
+				{
+					"name": "Elite Recovery (While Bloodied)",
+					"entries": [
+						"The poltergeist ends one negative effect currently affecting it. It can use this action as long as it has at least 1 hit point, even while {@condition unconscious} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Telekinetic Cloud (While Bloodied and Possessing Object)",
+					"entries": [
+						"The phantasmal poltergeist causes nearby Tiny objects, debris, and dust to coalesce into a swirling cloud around the poltergeist within a radius of 20 feet. A creature that enters this area for the first time on a turn or starts its turn there must succeed on a {@dc 13} Dexterity saving throw or take 5 ({@damage 1d10}) bludgeoning damage."
+					]
+				}
+			]
 		}
     ]
 }
