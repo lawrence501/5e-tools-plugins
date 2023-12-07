@@ -534,5 +534,662 @@
 				}
 			]
 		}
-    ]
+    ],
+	"spell": [
+        {
+			"name": "Template Spell",
+			"source": "LevelUp",
+			"level": 9,
+			"school": "A",
+            "subschools": [
+                "arcane",
+                "divine",
+                "negation",
+                "planar",
+                "protection"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "opal worth at least 1,000gp, consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A mirror on the same plane of existence as you"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "10-foot cube"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Dexterity halves and negates deafness"
+                    ]
+                },
+				"A permanent, immovable zone of antimagic fills the area, suppressing all magical effects within it. At the DM's discretion, sufficiently powerful artifacts and deities may be able to ignore the zone's effects. The zone is dispelled only if more than 10 percent of its area overlaps with that of another antimagic zone spell (which is also dispelled)."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot above 6th, the aberration's AC increases by 1, its hit points increase by 10, and when it deals damage with an attack it deals {@dice 1d4} extra damage."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM",
+				"OBJ"
+			],
+			"areaTags": [
+				"S"
+			],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "saving throw": [
+                "dexterity"
+            ],
+            "conditionInflict": [
+                "restrained",
+                "prone"
+            ]
+		},
+		{
+			"name": "Beautify Creature",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "T",
+            "subschools": [
+                "arcane",
+                "divine",
+                "enhancement",
+                "utility"
+            ],
+            "fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a brush"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A creature of up to Large size"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"The creature is immediately and beautifully groomed, as if it had been lovingly attended to by a group of no less than 4 highly-skilled servants. Its clothing (if it has any) will be spotlessly clean with any minor damage mended and, at the creature's option, it may also be festooned with ribbons, be perfumed, and have makeup, face paint, or body paint applied. If the creature desires, its hair, beard, fur, and/or feathers can be styled or cut by this spell. This spell can only provide the most basic of accessories, such as ribbons, simple hair pins, and the like, which disappear in 8 hours.",
+				"The creature gains an exerptise die on all non-combat related Persuasion and Performance checks for the next 8 hours. The DM may declare this effect ends early if the creature is in a grueling fight, caught in severe weather, or endures any other that may compromise the grooming.",
+				"A truly unwilling creature can resist the spell, but few do; the experience is very pleasant and tailored to the target's wishes and aesthetics, not the caster's."
+			],
+			"miscTags": [
+				"OBJ"
+			],
+            "saving throw": [
+                "wisdom"
+            ]
+		},
+		{
+			"name": "Chef's Palate",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "D",
+            "subschools": [
+                "arcane",
+                "divine",
+                "protection",
+                "utility"
+            ],
+            "fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A single serving of food or drink"
+                    ]
+                },
+				"You instantly learn the ingredients list and preparation method for the item of food or drink targeted by this spell. For one hour after you cast the spell you retain perfect, detailed knowledge sufficient to perfectly recreate the serving of food or drink, including an accurate awareness of any contaminants (including vermind and poisons, but not disease) in the fare. Identifying such contaminants as harmful usually requires a {@dc 10} Perception check, but the DM may use {@dc 15} for those that are uncommon, {@dc 20} for rare, or {@dc 25} for those that are truly unique. If preparing the food requires specialised expertise (such as intricate decorating skills or master-level knife work) you do not acquire these abilities, merely the knowledge that, if you had them, you could reproduce the food item. If you have a medium to write on, you can create an accurate recipe during the hour you retain knowledge of the food or drink."
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Convenient Retrieval",
+			"source": "LevelUp",
+			"level": 0,
+			"school": "C",
+            "subschools": [
+                "arcane",
+                "utility"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "An object carried in an unsecured container on your person."
+                    ]
+                },
+				"You reach into the container and instantly retrieve an object, regardless of its position in the container. This allows you to quickly snatch an item from an extradimensional space such as a bag of holding, as well as retrieving items from more conventional containers, such as backpacks and sacks. For this spell to work, you must be holding or wearing the container, it must not be locked, tied shut, or otherwise secured, and it must contain the item you wish to retrieve. If any of these conditions are not met, the spell fails.",
+				"You may retrieve a specific object known to you, provided that you have observed it within 30 feet at least once. You may also choose to retrieve a certain type of object (for example, an instrument, ring, or weapon), at which point the DM randomly determines the specific item of that type you end up with. If the item can be wielded, such as a shield or weapon, the spell ends with you wielding it if you choose."
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Fertilise Field",
+			"source": "LevelUp",
+			"level": 4,
+			"school": "T",
+            "subschools": [
+                "divine",
+                "earth",
+                "plants",
+                "utility"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a pinch of manure and the seeds, roots, or fruiting body of the desired crop"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "130-foot square area"
+                    ]
+                },
+				"You bless the ground to accommodate a specific crop. The soil alters its composition to become ideal for that specific plant, purging contaminants (such as salt or other undesirable minerals), instantly decomposing any bodies lying in its soil down to a depth of 5 feet, and dispelling curses of up to 4th level. For a year and a day, plants of the type specified at the casting of the spell produce 50% more yield than they normally would, potentially increasing the income of a farm if properly harvested. Bodies destroyed by this spell immediately become useless for {@spell speak with dead|LevelUp}, {@spell animate dead|LevelUp}, {@spell resurrection|LevelUp}, and other similar spells that require a body (the bodies of particularly powerful magical creatures may not be affected by this spell at the DM's discretion)."
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Housekeeping",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "T",
+            "subschools": [
+                "arcane",
+                "utility"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a miniature broom"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A number of 5-foot squares within range"
+                    ]
+                },
+				"When you cast this spell, select a 10-foot square section within range. If it is a hard, treated or manufactured surface (such as wood, fabric, leather, stone, glass, or metal) it becomes spotlessly clean. Any foreign substances on the surface of the square that you specify such as dirt, blood, toxic chemicals, paint, ink, and so on vanish harmlessly, leaving the surface clean and sanitary. This cleaning makes it impossible to track a creature through the affected areas via mundane means, but the utter cleanliness may itself be suspicious. The spell has no effect on non-solid surfaces such as dirt, sand, or mud."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "You may select an additional 5-foot square for each slot level above 1st. Each square must touch another square along at least one side and all squares must be within range."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM",
+				"OBJ"
+			]
+		},
+		{
+			"name": "Instant Window",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "C",
+            "subschools": [
+                "arcane",
+                "utility"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a small chisel and a piece of glass"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A solid surface (see below)."
+                    ]
+                },
+				"You create a window roughly 4 inches square, centered on the point that you touch. If the surface is more than 1 foot thick or made of materials other than wood, dirt, or stone, the spell fails. The window is sufficiently braced to prevent any structural weakening to the surrounding structure, but otherwise is just a small hole you can look through. The hole lasts for 1 minute, then vanishes. The hold can also be dismissed by the caster as a bonus action. Creatures in this space when the window vanishes are immediately shunted to the nearest unoccupied space and take {@dice 1d6} force damage for every square moved."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot level beyond 2nd, you can choose one of the following features:",
+						{
+							"type": "list",
+							"items": [
+								"Glass pane: the window comes with a pane of glass (AC 5, 2 hit points), which functions as a normal window pane, keeping rain, outside air, etc. out and inside air in.",
+								"Small-sized: the window is of sufficient diameter for a Small-sized creature to squeeze through as an action.",
+								"Medium-sized (counts as two features): the window is of sufficient diameter for a Medium creature to squeeze through as an action. Small creatures can pass through as part of their normal movement.",
+								"Barred: the window has heavy iron bars (AC 19, 50 hit points) covering it, granting three-quarters cover.",
+								"Increased duration: the window lasts for an additional minute. This feature can be chosen multiple times, increasing the duration by 1 minute each time."
+							]
+						}
+                    ]
+                }
+            ],
+			"miscTags": [
+				"OBJ",
+				"FMV"
+			],
+            "damageInflict": [
+                "force"
+            ]
+		},
+		{
+			"name": "Laundry Day",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "T",
+            "subschools": [
+                "arcane",
+                "divine",
+                "utility"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a lump of soap and a needle"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A pile of laundry within range"
+                    ]
+                },
+				"When you cast this spell, choose a pile of laundry that you can see within range, weighing up to 25 pounds and occupying a single 5-foot square, to clean and repair. Threadbare or worn laundry is restored to as-new condition, and even extremely damaged laundry (bloodstained, cut to tatters in a combat, etc.) is restored. As long as at least half the material that comprises an article of laundry is present, it can be restored by this spell. This spell leaves no trace that the object was damaged.",
+				"This spell affects anything made of cloth, so even rugs, small sails, and tapestries may be restored. Magic items and constructs may be repaired in this way, but their magic is not restored. You gain an expertise die on maintenance checks if you are able to cast this spell on the item you are treating."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "FOr each spell slot level above 2nd, this spell can affect an additional 25 pounds of laundry occupying up to one additional 5-foot square."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM",
+				"OBJ",
+				"SGT"
+			]
+		},
+		{
+			"name": "Map Marker",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "D",
+            "subschools": [
+                "knowledge",
+                "utility"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a compass"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A map"
+                    ]
+                },
+				"When casting this spell, touch a map. If you cast the spell in territory not depicted on the map, the spell fails. If you are in territory depicted on the map, your position is marked by a small glowing spot on the map. The spot continues to move with your position on it, updating once per minute. If you enter territory not marked on the map, the spell ends. While your position is marked this way, you cannot become lost by mundane means and gain a {@dice 1d6} expertise die on all checks against becoming lost by magical means. Additionally, any critical or substantial failures on the Scout journey activity become failures.",
+				"The spell depicts your position as accurately as the map will allow, but poorly-drawn maps may lengthen the duration of your travel or cause you to make checks to avoid hazards at disadvantage at the DM's discretion."
+			],
+			"miscTags": [
+				"OBJ"
+			]
+		}
+	]
 }
