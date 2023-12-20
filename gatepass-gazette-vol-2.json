@@ -533,6 +533,318 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Rime Ant",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				},
+				{
+					"ac": 10,
+					"from": [
+						"while prone"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 15
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 14,
+			"cha": 8,
+			"immune": [
+				"cold"
+			],
+			"senses": [
+				"tremorsense 30 ft."
+			],
+			"passive": 12,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Ice Climb",
+					"entries": [
+						"THe ant can climb icy surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Torpor",
+					"entries": [
+						"Over the course of one hour the ant enters hibernation. While in this state it doesn't require food or drink and remains asleep until awoken by its queen, or its resting place is disturbed. When leaving torpor because it was disturbed, a rime ant is sleepy and suffers disadvantage on any Dexterity or attack rolls on the first round of combat."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3} slashing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}, and the ankheg can't use its claws on anyone else."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature {@condition grappled} by the ankheg. {@h}16 ({@damage 3d8 + 3} slashing damage. If this damage kills the target, the ankheg severs its head."
+					]
+				},
+				{
+					"name": "Icy Breath (Recharge 6)",
+					"entries": [
+						"The ant releases a cloud of incredibly cold air in a 30 foot cone. Each creature in the area makes a {@dc 13} Constitution saving throw, taking 7 ({@damage 2d6}) cold damage on a failure or half damage on a success. In addition, on a failure the creature is coated in a layer of restrictive ice that halves its movement speed until it spends an action to clear it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rime Ant Queen",
+			"source": "LevelUp",
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				},
+				{
+					"ac": 10,
+					"from": [
+						"while prone"
+					]
+				}
+			],
+			"hp": {
+				"average": 68,
+				"formula": "8d12 + 16"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 15
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 14,
+			"int": 10,
+			"wis": 18,
+			"cha": 8,
+			"immune": [
+				"cold"
+			],
+			"senses": [
+				"tremorsense 30 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"telepathy 120 ft."
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The ant's spellcasting ability is Wisdom (spell save {@dc 14}, spell attack bonus +6). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell ray of frost|LevelUp}",
+						"{@spell resistance|LevelUp}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell bane|LevelUp}",
+							"{@spell calm emotions|LevelUp}",
+							"{@spell ice storm|LevelUp}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Ice Climb",
+					"entries": [
+						"THe ant can climb icy surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Torpor",
+					"entries": [
+						"Over the course of up to one hour the ant enters hibernation. While in this state it doesn't require food or drink and remains asleep until the duration ends (chosen when entering torpor), or its resting place is disturbed. When leaving torpor because it was disturbed, a rime ant is sleepy and suffers disadvantage on any Dexterity or attack rolls on the first round of combat."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3} slashing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}, and the ankheg can't use its claws on anyone else."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature {@condition grappled} by the ankheg. {@h}16 ({@damage 3d8 + 3} slashing damage. If this damage kills the target, the ankheg severs its head."
+					]
+				},
+				{
+					"name": "Icy Breath (Recharge 6)",
+					"entries": [
+						"The ant releases a cloud of incredibly cold air in a 30 foot cone. Each creature in the area makes a {@dc 13} Constitution saving throw, taking 7 ({@damage 2d6}) cold damage on a failure or half damage on a success. In addition, on a failure the creature is coated in a layer of restrictive ice that halves its movement speed until it spends an action to clear it."
+					]
+				},
+				{
+					"name": "Awakening",
+					"entries": [
+						"The queen sends out a telepathic pulse that travels up to 300 feet through the ice. If there is a hibernating group of ants within range they awake from torpor and immediately begin moving towards her as fast as they can."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rhinam Guardian",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 16,
+			"int": 8,
+			"wis": 14,
+			"cha": 8,
+			"skill": {
+				"perception": "+4"
+			},
+			"resist": [
+				{
+					"resist": [
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical, non-adamantine weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"goblin",
+				"rhinam",
+				"terran"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While motionless, the gargoyle is indistinguishable from a normal statue."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gargoyle attacks with its bite and its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage, or 9 ({@damage 2d6 + 2}) slashing damage if the gargoyle started its turn at least 20 feet above the target."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Empowered Blows (Once Ever, While Bloodied)",
+					"entries": [
+						"The guardian permanently increases its Strength score by 4."
+					]
+				},
+				{
+					"name": "Empowered Movement (Once Ever, While Bloodied)",
+					"entries": [
+						"The guardian permanently increases its movement speed by 20 feet. Additionally, until the end of its turn it doesn't provoke opportunity attacks when flying."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Empowered Defences (Recharge 6+, While Bloodied)",
+					"entries": [
+						"When it is hit by an attack, the guardian's eyes flare with power. Until the start of its next turn, it gains a +3 bonus to its AC, including against the triggering attack."
+					]
+				}
+			]
 		}
     ],
 	"spell": [
