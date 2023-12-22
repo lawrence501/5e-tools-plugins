@@ -845,6 +845,398 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Lost Prospector",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11
+				}
+			],
+			"hp": {
+				"average": 58,
+				"formula": "13d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 40
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 16,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"fatigue|LevelUp",
+				"frightened",
+				"grappled",
+				"staggered|LevelUp",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"the languages it spoke in life"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The ghost can see into both the Material and Ethereal Plane."
+					]
+				},
+				{
+					"name": "Incorporeal",
+					"entries": [
+						"The ghost can move through creatures and objects. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"A ghost doesn't require air, sustenance, or sleep."
+					]
+				},
+				{
+					"name": "Unquiet Spirit",
+					"entries": [
+						"If defeated in combat, the ghost returns in 24 hours. It can be put to rest permanently only by finding and casting {@spell remove curse|LevelUp} on its remains or by resolving the unfinished business that keeps it from journeying to the afterlife."
+					]
+				},
+				{
+					"name": "Gold Sense",
+					"entries": [
+						"The lost prospector has advantage on Perception checks made to notice any creature carrying at least 1 gp."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) necrotic damage. If the target is {@condition frightened}, it is magically aged {@dice 1d4} x 10 years. The aging effect can be reversed with a {@spell greater restoration|LevelUp} spell. Additionally, the lost prospector corrupts the same amount of gold pieces from the victim as the damage dealt by the attack, turning the coins to worthless metal. If the victim carries no gold pieces this has no effect. If the ghost can successfully be put to rest within 24 hours, the coins are restored."
+					]
+				},
+				{
+					"name": "Ethereal Jaunt",
+					"entries": [
+						"The ghost magically shifts from the Material Plane to the Ethereal Plane or vice versa. If it wishes, it can be visible to creatures on one plane while on the other."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet and on the same plane of existence that can see the ghost makes a {@dc 13} Wisdom saving throw. On a failure, a creature is {@condition frightened} for 1 minute. A {@condition frightened} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, it is immune to the ghost's Horrifying Visage for 24 hours."
+					]
+				},
+				{
+					"name": "Possession (Recharge 6)",
+					"entries": [
+						"One humanoid within 5 feet makes a {@dc 13} Charisma saving throw. On a failure, it is possessed by the ghost. The possessed creature is {@condition unconscious}. The ghost enters the creature's body and takes control of it. The ghost can be targeted only by effects that turn undead, and it retains its Intelligence, Wisdom, and Charisma. It grants its host body immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed creature's statistics and actions instead of its own. It doesn't gain access to the creature's memories but does gain access to proficiencies, nonmagical class features and traits, and nonmagical actions. It can't use limited-use abilities or class traits that require spending a resource. The possession ends after 24 hours, when the body drops to 0 hit points, when the ghost ends it as a bonus action, or when the ghost is turned or affected by {@spell dispel evil and good|LevelUp} or a similar effect. Additionally, the possessed creature repeats its saving throw whenever it takes damage. When the possession ends, the ghost reappears in a space within 5 feet of the body. A creature is immune to this ghost's Possession for 24 hours after succeeding on its saving throw or after the possession ends."
+					]
+				},
+				{
+					"name": "Drain Heat",
+					"entries": [
+						"The ghost magically drains the heat from a 15-foot-radius area around it. Each creature in the area makes a {@dc 13} Constitution saving throw, taking 17 ({@damage 5d6}) cold damage on a failure or half damage on a success. A creature reduced to 0 hit points by this damage can't regain hit points until the start of the ghost's next turn."
+					]
+				},
+				{
+					"name": "Pyrokinesis",
+					"entries": [
+						"The ghost magically ignites up to three flammable, unattended, nonmagical objects it can see within 30 feet. Each creature within 5 feet of an object when it ignites makes a {@dc 13} Dexterity saving throw, taking 7 ({@damage 2d6}) fire damage on a failure or half damage on a success."
+					]
+				},
+				{
+					"name": "Spew Ectoplasm",
+					"entries": [
+						"The ghost vomits a spray of ectoplasm in a 15-foot cone. Each creature in the area makes a {@dc 13} Constitution saving throw. On a success, the creature is {@condition rattled|LevelUp} until the end of its next turn. On a failure, the creature is {@condition poisoned} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Telekinetic Shove",
+					"entries": [
+						"The ghost targets one Large or smaller creature within 60 feet. THe target makes a {@dc 13} Strength saving throw. On a failure, the ghost magically moves the target up to 30 feet in any direction, including upward. If the target strikes and object, such as a wall, it takes 10 ({@damage 3d6}) bludgeoning damage and falls {@condition prone}. If the target would strike another creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"If the ghost takes damage from an attack or spell, it uses Horrifying Visage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Minotaur Conqueror",
+			"source": "LevelUp",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"fiend"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 262,
+				"formula": "21d12 + 126"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 22,
+			"dex": 10,
+			"con": 22,
+			"int": 14,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"str": "+11",
+				"dex": "+5",
+				"con": "+11",
+				"wis": "+8"
+			},
+			"skill": {
+				"history": "+7",
+				"insight": "+8",
+				"intimidation": "+7 (+1d4)",
+				"perception": "+8 (+1d6)"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"languages": [
+				"abyssal",
+				"undercommon"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Labyrinthine Recall",
+					"entries": [
+						"The minotaur can perfectly recall any route it has travelled."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The minotaur has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The minotaur gores once and attcks twice with its greataxe."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d12 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) piercing damage, and the target makes a {@dc 19} Strength saving throw, being pushed up to 5 feet away and falling {@condition prone} on a failure. If the minotaur moves at least 10 feet straight towards the target before the attack, the attack deals an extra 13 ({@damage 3d8}) damage."
+					]
+				},
+				{
+					"name": "Intimidating Bellow (Recharge 5-6)",
+					"entries": [
+						"The minotaur conqueror emits a threatening cry. Each creature in a 60-foot radius who can hear it must make a {@dc 19} Wisdom saving throw. On a failure, a creature is {@condition debilitated|LevelUp} until the end of the minotaur conqueror's next turn or until the creature receives damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Roar of Triumph",
+					"entries": [
+						"If the minotaur reduced a living creature to 0 hit points since the end of its last turn, it roars and gains 35 ({@dice 10d6}) temporary hit points."
+					]
+				},
+				{
+					"name": "Stomp the Opposition",
+					"entries": [
+						"The minotaur conqueror strikes the ground, creating a shockwave in a 15-foot radius centered on itself. Creatures standing in the area must make a {@dc 19} Strength saving throw or fall {@condition prone}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Luz Mala",
+			"source": "LevelUp",
+			"size": [
+				"S"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "15d6"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				}
+			},
+			"str": 2,
+			"dex": 24,
+			"con": 10,
+			"int": 12,
+			"wis": 18,
+			"cha": 12,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"thunder",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"lightning",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"grappled",
+				"staggered|LevelUp",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Conductive",
+					"entries": [
+						"Each time a creature touches the will-o'-wisp or hits it with a metal melee weapon for the first time on a turn, the creature takes 7 ({@damage 2d6}) lightning damage. This trait doesn't function while the will-o'-wisp's glow is extinguished."
+					]
+				},
+				{
+					"name": "Insubstantial",
+					"entries": [
+						"The will-o'-wisp can't pick up or move objects or creatures. It can move through creatures and objects. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Treasure Sense",
+					"entries": [
+						"The will-o'-wisp knows the location of coins, gems, and other nonmagical wealth within 500 feet."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"A will-o'-wisp doesn't require air, sustenance, or sleep."
+					]
+				},
+				{
+					"name": "Dreadful Light",
+					"entries": [
+						"A creature that begins its turn in the area illuminated by the luz mala or enters it for the first time on a turn must make a {@dc 13} Wisdom saving throw or become {@condition frightened} of the luz mala and drop whatever it's holding. These effects last for one minute, and the creature can repeat the saving throw at the beginning of its turn as long as the luz mala isn't in its line of sight, ending the effect on a success. This effect also ends if the luz mala extinguishes its light. If a creature's saving throw is successful, it is immune to any luz mala's Dreadful Light for 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shock",
+					"entries": [
+						"{@atk ms} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 3d6}) lightning damage. The will-o'-wisp can't make this attack while its glow is extinguished."
+					]
+				},
+				{
+					"name": "Spirit Drain",
+					"entries": [
+						"{@atk ms} {@hit 6} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d10}) necrotic damage. The luz mala can't make this attack while its glow is extinguished."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Illumination",
+					"entries": [
+						"The will-o'-wisp alters the radius of its glow (shedding bright light in a 5- to 20-foot radius and dim light for the same number of feet beyond that radius), changes the color of its glow, or extinguishes its glow (making it {@condition invisible})."
+					]
+				}
+			]
 		}
     ],
 	"spell": [
