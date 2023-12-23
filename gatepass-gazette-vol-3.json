@@ -1,0 +1,221 @@
+{
+	"_meta": {
+		"dependencies": {
+			"subclass": [
+				"generic"
+			]
+		},
+		"sources": [
+			{
+				"json": "LevelUp",
+				"abbreviation": "A5E",
+				"full": "Level Up (A5E)",
+				"authors": [
+					"Level Up"
+				],
+				"version": "0.0.1",
+				"url": "https://www.levelup5e.com/"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"monster": [
+		{
+			"name": "Mykand",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 10,
+			"int": 12,
+			"wis": 16,
+			"cha": 18,
+			"skill": {
+				"nature": "+3 (+1d4)",
+				"perception": "+5",
+				"stealth": "+3 (+1d4)",
+				"survival": "+5"
+			},
+            "immune": [
+                "poison"
+            ],
+			"vulnerable": [
+				"radiant",
+				"slashing"
+			],
+            "conditionImmune": [
+                "poisoned"
+            ],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"sylvan",
+                "undercommon"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The dryad has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Speak with Nature",
+					"entries": [
+						"The dryad can communicate with beasts and plants."
+					]
+				},
+				{
+					"name": "Fungal Pathway",
+					"entries": [
+						"Once per turn, the mykand can use 10 feet of movement to enter a mushroom ring and then teleport up to 30 feet away."
+					]
+				},
+                {
+					"name": "Mykand Resilience",
+					"entries": [
+						"The mykand cannot become diseased."
+					]
+				},
+                {
+					"name": "Web Walker",
+					"entries": [
+						"The mykand ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Club",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 30/120 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Dragon's Head Mushroom (3/Day)",
+					"entries": [
+						"Plucking a red-topped mushroom that bears a loose similarity to a dragon's head from a hidden pocket, the mykand throws it at a spot it can see within 30 feet where it bursts, releasing a cloud of black spores in a 10-foot radius. Each creature in the area aside from a mykand must make a {@dc 13} Wisdom saving throw. On a failure, the creature is {@condition frightened}. While {@condition frightened} in this way, it regards any Dragon's Head Mushrooms it can see with abject terror, and must use its movement each turn to get out of sight of it. A creature can repeat this saving throw if the mykand or the mykand's allies harm it, ending the effect on a success. Otherwise, the effect lasts 24 hours. If the creature succeeds on a saving throw against the Dragon's Head Mushrooms or the effect ends for it, it is immune to Dragon's Head Mushrooms for 24 hours."
+					]
+				}
+			]
+		},
+        {
+			"name": "Kanos Spawn",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": {
+                "type": "fiend",
+                "tags": [
+                    "demon"
+                ]
+            },
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "13d8 + 13"
+			},
+			"speed": {
+				"walk": 60,
+                "climb": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 12,
+			"int": 4,
+			"wis": 12,
+			"cha": 5,
+            "skill": {
+                "stealth": "+4"
+            },
+            "resist": [
+                "cold"
+            ],
+            "senses": [
+                "darkvision 120 ft."
+            ],
+			"passive": 11,
+            "languages": [
+                "understands abyssal but cannot speak"
+            ],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The raptor has advantage on attack rolls against a creature if at least one of the raptor's allies is within 5 feet of the creature and not {@condition incapacitated}."
+					]
+				},
+                {
+					"name": "Wall Walker",
+					"entries": [
+						"The spawn can use its climb speed even on difficult surfaces, including upside down on ceilings."
+					]
+				}
+			],
+			"action": [
+                {
+					"name": "Multiattack",
+					"entries": [
+						"The Kanos spawn makes two attacks with its claws."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage. If the target is a Medium or smaller creature, it makes a {@dc 13} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				},
+                {
+					"name": "Icy Breath (Recharge 6)",
+					"entries": [
+						"The spawn releases an icy blast of frigid air in a 20-foot cone. All creatures in the area must make a {@dc 14} Constitution saving throw, taking 10 ({@damage 2d6 + 3}) cold damage and becoming {@condition restrained} by a layer of ice on a failure. On a succcess, the creature takes half damage and is not {@condition restrained}. Creatures remain {@condition restrained} for 1 minute or until they spend an action to free themselves.",
+                        "Until the start of its next turn the area is lightly obscured and the spawn can use a bonus action to attempt to hide, making its Stealth check with advantage."
+					]
+				}
+			]
+		}
+	]
+}
