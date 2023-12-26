@@ -1,10 +1,5 @@
 {
     "_meta": {
-        "dependencies": {
-            "subclass": [
-                "generic"
-            ]
-        },
         "sources": [
             {
                 "json": "LevelUp",
