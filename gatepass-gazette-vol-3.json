@@ -217,5 +217,844 @@
 				}
 			]
 		}
+	],
+	"spell": [
+        {
+			"name": "Template Spell",
+			"source": "LevelUp",
+			"level": 9,
+			"school": "A",
+            "subschools": [
+                "arcane",
+                "divine",
+                "negation",
+                "planar",
+                "protection"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "opal worth at least 1,000gp, consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A mirror on the same plane of existence as you"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "10-foot cube"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Dexterity halves and negates deafness"
+                    ]
+                },
+				"A permanent, immovable zone of antimagic fills the area, suppressing all magical effects within it. At the DM's discretion, sufficiently powerful artifacts and deities may be able to ignore the zone's effects. The zone is dispelled only if more than 10 percent of its area overlaps with that of another antimagic zone spell (which is also dispelled)."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot above 6th, the aberration's AC increases by 1, its hit points increase by 10, and when it deals damage with an attack it deals {@dice 1d4} extra damage."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM",
+				"OBJ"
+			],
+			"areaTags": [
+				"S"
+			],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "saving throw": [
+                "dexterity"
+            ],
+            "conditionInflict": [
+                "restrained",
+                "prone"
+            ]
+		},
+		{
+			"name": "Abstraction",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "T",
+            "subschools": [
+                "affliction",
+                "prismatic",
+                "transformation"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a mechanical device that has been completely disassembled"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Charisma negates"
+                    ]
+                },
+				"You imagine a creature you can see within range in a deconstructed and simplified form. The target must make a Charisma saving throw. On a failed save, the target becomes a barely recognisable, abstracted version of itself until the spell ends.",
+				"An abstracted creature's speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.",
+				"At the end of each of its turns, an abstracted target repeats the saving throw to end the spell's effect on it."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "You can choose one additional target for each slot level above 1st."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"SGT"
+			],
+            "saving throw": [
+                "charisma"
+            ]
+		},
+		{
+			"name": "Animated Painting",
+			"source": "LevelUp",
+			"level": 6,
+			"school": "T",
+            "subschools": [
+                "planar",
+                "prismatic",
+                "transformation",
+                "utility"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A single drawing or painting that is Medium or smaller"
+                    ]
+                },
+				"The scene depicted within an artwork transforms into an extradimensional space containing any objects or creatures depicted within the painting, and such objects and creatures are manifested as impressions. The extradimensional space is a 100-foot cube, unless the depicted space would be smaller. The picture's frame forms the entryway into this extradimensional space. No spells, attacks, or environmental effects can cross into or out of this extradimensional space, but creatures and objects can pass through it unimpeded.",
+				"Any object or creature manifested as an impression by this spell retains their proportions, scale, and artistic style. For example, a painting depicting a 6-inch long dragon made of abstract shapes targeted by this spell would manifest a Tiny-sized abstract dragon impression.",
+				"Non-magical objects manifested as impressions by this spell are functional but difficult to use, and any attacks or checks made with them are made at disadvantage. Magical objects manifested as impressions have no magical qualities and act as mundane versions of themselves.",
+				"Any creatures manifested as impressions are animated under your control. Each impression has Constitution 10, Intelligence 3, Wisdom 3, and Charisma 10, as well as a walking speed, swim speed, and fly speed of 30 feet if the depicted creature could walk, swim, or fly, respectively. When you command an impression to attack, it makes a single melee attack against a creature within 5 feet of it. The type of damage dealt by an impression is bludgeoning damage, unless the impression depicts a more specific damage type, such as a knight's sword dealing slashing damage or a mummy dealing necrotic damage. Otherwise, an impression's statistics are determined by its size and artistic style as per Table: Animated Painting. If you manifest 4 or more Small or Tiny impressions, instead of controlling each impression individually they function as an impression swarm. Attacks made against an impression swarm deal half damage. When an impression drops to 0 hit points, it is destroyed.",
+				"You can use a bonus action to mentally command any impression made with this spell while it is within 500 feet. When you combine multiple impressions using this spell, you may simultaneously give them all the same command, which can be specific commands or more general orders such as 'attack this creature' or 'guard this area'. Without commands the impressions act accordingly to the scene they were depicted in, know only the world depicted in the piece, and, barring any obvious interactions, act only to defend themselves.",
+				"When the spell ends, any non-impression creature or object within the extradimensional space is dropped outside of it into the closest unoccupied spaces to the entryway. Any remaining impressions returns inanimate to the painting, though any impressions that were destroyed are now absent from the artwork.",
+				{
+					"type": "table",
+					"caption": "Animate Painting",
+					"colLabels": [
+						"Size",
+						"HP",
+						"AC",
+						"Attack",
+						"STR",
+						"DEX"
+					],
+					"colStyles": [
+						"col-5",
+						"col-2",
+						"col-2",
+						"col-10",
+						"col-2 text-center",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Tiny",
+							"5",
+							"14",
+							"+6 to hit, {@damage 1d4 - 3} damage",
+							"4",
+							"18"
+						],
+						[
+							"Small",
+							"10",
+							"12",
+							"+4 to hit, {@damage 1d6 - 2} damage",
+							"4",
+							"18"
+						],
+						[
+							"Swarm of Tiny and Small",
+							"15",
+							"13",
+							"+5 to hit, {@damage 2d6} damage (or {@damage 1d6} damage if below half hit points)",
+							"5",
+							"16"
+						],
+						[
+							"Medium",
+							"20",
+							"11",
+							"+3 to hit, {@damage 1d8} damage",
+							"10",
+							"12"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Artistic Style",
+					"colLabels": [
+						"Artistic Style",
+						"Additional Abilities"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Abstract",
+							"Abstract impressions are difficult to read, and attacks made against them have disadvantage."
+						],
+						[
+							"Expressionist",
+							"Expressionist impressions are otherworldly and unnerving in motion, and creatures hostile towards you are {@condition rattled|LevelUp} while they can see an expressionist impression."
+						],
+						[
+							"Minimalist",
+							"Minimalist impressions are made of thick, durable shapes and gain a +4 AC bonus."
+						],
+						[
+							"Realistic",
+							"Realistic impressions can only be determined as unreal by using an action to make an Investigation check with a DC equal to your spell save DC."
+						],
+						[
+							"Sketch",
+							"Sketches or pencil impressions are almost perfectly flat and can move through a space as narrow as 1 inch wide without squeezing."
+						]
+					]
+				}
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The duration of the spell increases by 10 minutes for each slot level above 6th."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"OBJ",
+				"PS"
+			]
+		},
+		{
+			"name": "Chromatic Beam",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "V",
+            "subschools": [
+                "arcane",
+                "prismatic"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a diamond worth at least 50 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "Line 30 feet long and 5 feet wide"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Dexterity halves"
+                    ]
+                },
+				"You pour prismatic energy into a gemstone refracting the energy until it fires off as a chromatic beam in a direction you choose. Choose red (fire), orange (acid), yellow (lightning), green (poison), blue (cold), or indigo (thunder) for the colour of beam you create. Each creature in the area takes {@damage 4d8} damage of the chosen type."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by 1d8 for each slot level above 2nd."
+                    ]
+                }
+            ],
+			"areaTags": [
+				"L"
+			],
+            "damageInflict": [
+                "fire",
+				"acid",
+				"lightning",
+				"poison",
+				"cold",
+				"thunder"
+            ],
+            "saving throw": [
+                "dexterity"
+            ]
+		},
+		{
+			"name": "Glamour",
+			"source": "LevelUp",
+			"level": 0,
+			"school": "I",
+            "subschools": [
+                "enhancement",
+                "obscurement",
+                "prismatic"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a drop of skin cream"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+				}
+			],
+			"entries": [
+				"You distort light and colours around yourself so that you are subtly more appealing, masking any untoward marks and blemishes. Until the spell ends or use an action to dismiss it, you are glamoured by an illusion that can slightly alter your appearance. These minor changes include hair style and length, eye colouration, sex, signs of age or tiredness such as crows feet and bags under the eyes, concealing or adding tattoos or other marks or blemishes, and general signs of hygiene or cleanliness. You cannot change the perception of your height or race with this spell or disguise yourself as a creature of a different size category, and your limb structure remains the same; for example, if you're bipedal, you can't use this spell to appear as a quadruped.",
+				"The glamour does not hold up to physical inspection. A creature that tries to grab illusory hair, for example, finds its hand passes straight through the figment. To see through your glamour without such an inspection, a creature must use its action to make an Investigation check against your spell save DC.",
+				"The duration of this spell increases when you reach 5th level (30 minutes) and 11th level (1 hour)."
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Pigment Cloud",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "V",
+            "subschools": [
+                "arcane",
+                "obscurement",
+                "prismatic"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a piece of coloured chalk"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "20-foot radius sphere"
+                    ]
+                },
+				"You create a heavily obscured area of multicoloured fog. The fog spreads around corners and can be dispersed by a moderate wind (at least 10 miles per hour). Any creature that moves through this cloud on their turn or that starts their turn there is covered in a rainbow of colourful pigments and while covered in this way they leave multicoloured footprints and trails of pigment behind them as they move for the duration of the spell. Checks made to see or track creatures covered in such pigment are made at advantage. These pigments are removed if the affected creature is fully submerged in water or similar liquid."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The spell's radius increases by 20 feet for each slot level above 2nd."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"ADV",
+				"OBS"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Prismatic Mess",
+			"source": "LevelUp",
+			"level": 5,
+			"school": "V",
+            "subschools": [
+                "arcane",
+                "prismatic"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a paint or pigment set containing multiple colours"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "35-foot cube"
+                    ]
+                },
+				"Even a chaotic mess can be made useful using prisimancy. You flood the area around yourself with multicoloured pigments and each creature (except you) in a 35-foot cube centered on you must make a Dexterity saving throw. For each target, roll a {@dice d8} to determine which colour of pigment affects it.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "1 - Red",
+							"entries": [
+								"The target takes {@damage 6d6} fire damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "item",
+							"name": "2 - Orange",
+							"entries": [
+								"The target takes {@damage 6d6} acid damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "item",
+							"name": "3 - Yellow",
+							"entries": [
+								"The target takes {@damage 6d6} lightning damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "item",
+							"name": "4 - Green",
+							"entries": [
+								"The target takes {@damage 6d6} poison damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "item",
+							"name": "5 - Blue",
+							"entries": [
+								"The target takes {@damage 6d6} cold damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "item",
+							"name": "6 - Indigo",
+							"entries": [
+								"On a failed save, the target is {@condition restrained}. It must make a Strength saving throw at the end of each of its turns. On a successful saving throw it frees itself form the constricting pigments and is no longer {@condition restrained}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "7 - Violet",
+							"entries": [
+								"On a failed save, the target is {@condition blinded}. At the start of each of the creature's turns, it makes a Constitution saving throw, ending the effect on itself on a success."
+							]
+						},
+						{
+							"type": "item",
+							"name": "8 - Special",
+							"entries": [
+								"THe target is afflicted by two pigments. Roll twice more, rerolling any 8."
+							]
+						}
+					]
+				}
+			],
+			"miscTags": [
+				"PRM",
+				"RO"
+			],
+			"areaTags": [
+				"C"
+			],
+            "damageInflict": [
+                "fire",
+				"acid",
+				"lightning",
+				"poison",
+				"cold"
+            ],
+            "saving throw": [
+                "dexterity",
+				"strength",
+				"constitution"
+            ],
+            "conditionInflict": [
+                "restrained",
+                "blinded"
+            ]
+		},
+		{
+			"name": "Resplendent Refraction",
+			"source": "LevelUp",
+			"level": 4,
+			"school": "T",
+            "subschools": [
+                "prismatic",
+                "protection",
+                "radiant"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a gemstone worth at least 50 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing creature"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Constitution halves"
+                    ]
+                },
+				"The target's skin becomes reflective and faceted like a finely cut gemstone. Until the spell ends, the target can use their action to fire a beam of reflected light in a 30-foot line. Each creature in that area must make a Constitution saving throw, taking an amount of damage determined by the light level around the target on a failed save, or half as much on a successful one.",
+				"In addition, whenever the target would take radiant damage (from a source other than this spell), it may instead reflect is as a reaction. If it does, it gains resistance to the triggering damage and may immediately fire a beam at the attacker as if it were in bright light.",
+				{
+					"type": "table",
+					"caption": "Resplendent Refraction",
+					"colLabels": [
+						"Light Level",
+						"Damage and Effects"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Darkness",
+							"Beams cannot be fired."
+						],
+						[
+							"Dim Light",
+							"{@damage 1d10} radiant damage"
+						],
+						[
+							"Bright Light",
+							"{@damage 5d10} radiant damage, and on a failed save the creature is also {@condition blinded} until the end of their next turn."
+						]
+					]
+				}
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "This spell's damage increases by {@damage 1d10} in both dim light and bright light for each slot level above 4th."
+                    ]
+                }
+            ],
+			"areaTags": [
+				"L"
+			],
+            "damageInflict": [
+                "radiant"
+            ],
+            "saving throw": [
+                "constitution"
+            ],
+            "conditionInflict": [
+                "blinded"
+            ]
+		}
 	]
 }
