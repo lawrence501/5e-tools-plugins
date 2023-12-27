@@ -17,6 +17,153 @@
 	},
 	"monster": [
 		{
+			"name": "Template Monster",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"cr": "10",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 153,
+				"formula": "18d8 + 72"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 90
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"save": {
+				"wis": "+9",
+				"cha": "+9"
+			},
+			"skill": {
+				"insight": "+9",
+				"perception": "+9",
+				"religion": "+9"
+			},
+			"resist": [
+				"radiant",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"staggered|LevelUp",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The aboleth's spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect evil and good|LevelUp}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell detect thoughts|LevelUp}",
+							"{@spell major image|LevelUp}",
+							"{@spell project image|LevelUp}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The deva has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The deva makes two attacks."
+					]
+				},
+				{
+					"name": "Celestial Hammer",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage plus 17 ({@damage 5d6}) radiant damage. On a hit, the target can't make opportunityattacks against the deva until the beginning of the target's next turn."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bonus",
+					"entries": [
+						"Entries"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Self-Sacrifice",
+					"entries": [
+						"When a creature within 5 feet of the thrall that the thrall can see hits an aboleth with an attack, the thrall can make itself the target of the attack instead."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Legendary action",
+					"entries": [
+						"Entries for legendary action"
+					]
+				}
+			],
+			"legendaryActions": 2
+		},
+		{
 			"name": "Mykand",
 			"source": "LevelUp",
 			"size": [
@@ -208,6 +355,396 @@
 					"entries": [
 						"The spawn releases an icy blast of frigid air in a 20-foot cone. All creatures in the area must make a {@dc 14} Constitution saving throw, taking 10 ({@damage 2d6 + 3}) cold damage and becoming {@condition restrained} by a layer of ice on a failure. On a succcess, the creature takes half damage and is not {@condition restrained}. Creatures remain {@condition restrained} for 1 minute or until they spend an action to free themselves.",
                         "Until the start of its next turn the area is lightly obscured and the spawn can use a bonus action to attempt to hide, making its Stealth check with advantage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Abtazri the Brutal",
+			"source": "LevelUp",
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"cr": "6",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d12 + 30"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 19,
+			"dex": 18,
+			"con": 17,
+			"int": 16,
+			"wis": 13,
+			"cha": 12,
+			"save": {
+				"str": "+7",
+				"wis": "+4"
+			},
+			"skill": {
+				"athletics": "+7",
+				"perception": "+4 (+1d8)",
+				"stealth": "+7 (+1d4)",
+				"survival": "+4 (+1d4)"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"common",
+				"sylvan"
+			],
+			"trait": [
+				{
+					"name": "Combat Maneuvers (6 exertion/Rest)",
+					"entries": [
+						"Abtazri knows the Tempered Iron and Tooth and Claw combat traditions. Her maneuver DC is 16. She can spend exertion to activate the following combat maneuvers:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Tempered Iron",
+									"entries": [
+										"{@spell imposing glare|LevelUp} (1st), {@spell purge magic|LevelUp} (1st), {@spell zealous stance|LevelUp} (1st), {@spell faith within|LevelUp} (2nd), {@spell gaze of conviction|LevelUp} (2nd)"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tooth and Claw",
+									"entries": [
+										"{@spell expert tumble|LevelUp} (2nd), {@spell primal intercept|LevelUp} (2nd)"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Fighting Style: Technical Fighting",
+					"entries": [
+						"WHenever Abtazri uses a combat maneuver, any damage dealt by attacks using it deals an additional 2 damage, and her maneuver DC increases by 1 (included above)."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Abtazri's weapon attacks count as magical for the purposes of overcoming damage resistances and immunities."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Abtazri makes two attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}17 ({@damage 3d8 + 4}) slashing damage. If Abtazri moves at least 10 feet towards her target before making this attack, she gains advantage on the attack."
+					]
+				},
+				{
+					"name": "+2 Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 9} to hit, reach 10 ft. or range 20/60 ft., one target. {@h}13 ({@damage 2d6 + 6}) magical piercing damage. Immediately after hitting or missing the target after it is thrown, the +2 spear reappears in Abtazri's claws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kadderia the Ferocious",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"cr": "6",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d10 + 20"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 15,
+			"int": 12,
+			"wis": 13,
+			"cha": 19,
+			"save": {
+				"dex": "+5",
+				"int": "+4",
+				"wis": "+4"
+			},
+			"skill": {
+				"acrobatics": "+5",
+				"arcana": "+4 (+1d6)",
+				"nature": "+4 (+1d8)",
+				"perception": "+4 (+1d8)"
+			},
+			"passive": 19,
+			"languages": [
+				"common",
+				"sylvan"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kadderia is a 6th-level spellcaster. Their spellcasting ability is Charisma (spell save {@dc 15}, +7 to hit with spell attacks). They can cast the following spells, requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt|LevelUp} (2d10 damage)",
+								"{@spell mage hand|LevelUp}",
+								"{@spell prestidigitation|LevelUp}",
+								"{@spell shocking grasp|LevelUp} (2d8 damage)"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic|LevelUp}",
+								"{@spell identify|LevelUp}",
+								"{@spell magic missile|LevelUp}",
+								"{@spell shield|LevelUp}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell invisibility|LevelUp}",
+								"{@spell misty step|LevelUp}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell|LevelUp}",
+								"{@spell fireball|LevelUp}",
+								"{@spell lightning bolt|LevelUp}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Sorcery Points (6/day)",
+					"entries": [
+						"Kadderia can expend sorcery points to enhance spells with metamagic.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Quickened Spell",
+									"entries": [
+										"When Kadderia casts a spell that has a casting time of 1 action, they can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Subtle Spell",
+									"entries": [
+										"When Kadderia casts a spell, they can spend 1 sorcery point to cast it without any seen or verbalised components."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Twinned Spell",
+									"entries": [
+										"When Kadderia casts a spell that targets only one creature and doesn't have a range of self, they can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell's current level."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"Kadderia doesn't provoke an opportunity attack when they fly out of a creature's reach."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Kadderia's weapon attacks count as magical for the purposes of overcoming damage resistances and immunities."
+					]
+				},
+				{
+					"name": "Ring of Free Action",
+					"entries": [
+						"Kadderia is not slowed by difficult terrain, and magic cannot cause them to be {@condition restrained}, {@condition staggered|LevelUp}, or slow their movement."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kadderia attacks once with their bite and casts a spell."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) magical piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Create Spell Slots",
+					"entries": [
+						"Kadderia can expend one spell slot and either gain a number of sorcery points equal to the slot's level or create a spell slot by expending sorcery points (1st-level: 2 points, 2nd-level: 3 points, 3rd-level: 5 points)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Xeraz the Vicious",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"cr": "6",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"+1 padded leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "13d8 + 13"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 16,
+			"dex": 17,
+			"con": 12,
+			"int": 17,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"dex": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"athletics": "+6",
+				"deception": "+5 (+1d8)",
+				"insight": "+4 (+1d6)",
+				"nature": "+6 (+1d4)",
+				"perception": "+4 (+1d8)",
+				"stealth": "+6 (+1d8)",
+				"survival": "+4 (+1d6)"
+			},
+			"passive": 11,
+			"languages": [
+				"common",
+				"sylvan"
+			],
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"When Xeraz is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Xeraz's weapon attacks count as magical for the purposes of overcoming damage resistances and immunities."
+					]
+				},
+				{
+					"name": "Magic Items",
+					"entries": [
+						"Xeraz also carries a periapt of proof against poison, potion of invisibility, potion of speed, and a green bag of tricks."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"Xeraz has advantage on attack rolls against a creature if at least one of his allies is within 5 feet of the creature and not {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Once per turn, Xeraz deals 10 ({@damage 3d6}) extra damage when he hits a creature with a finesse weapon (including his claws) or ranged weapon attack. To apply this damage, Xeraz must not have disadvantage, and his target must be within 5 feet of another enemy of the target who is not {@condition incapacitated}. Alternatively, Xeraz can apply sneak attack damage if he has advantage on the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Xeraz attacks twice with his claws."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) magical slashing damage. If the target is a Medium or smaller creature, it makes a {@dc 14} Strength saving throw, falling {@condition prone} on a failure."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cunning Action (1/turn)",
+					"entries": [
+						"Xeraz can take a bonus action to take the Dash, Disengage, Hide, or Use Object action, Sleight of Hand check, or to use thieves' tools to disarm a trap or open a lock."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"When an attcker Xeraz can see hits him with an attack, Xeraz can use his reaction to halve the attck's damage against him."
 					]
 				}
 			]
