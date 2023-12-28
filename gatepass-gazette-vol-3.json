@@ -748,6 +748,189 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Swarm of Sickle Bats",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "beast",
+				"swarmSize": "T"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 5,
+				"fly": 30
+			},
+			"str": 4,
+			"dex": 14,
+			"con": 10,
+			"int": 2,
+			"wis": 12,
+			"cha": 4,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"staggered|LevelUp",
+				"petrified",
+				"prone",
+				"restrained",
+				"debilitated|LevelUp",
+				"unconscious"
+			],
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 11,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Echolocation",
+					"entries": [
+						"The swarm can't use blindsight while {@condition deafened}."
+					]
+				},
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The swarm has advantage on Perception checks that rely on hearing."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and move through any opening large enough for a Tiny creature. It can't gain HP or temporary hit points. While the swarm is bloodied, it becomes Medium size."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 0 ft., one target. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the swarm is bloodied."
+					]
+				},
+				{
+					"name": "Slicing Flurry",
+					"entries": [
+						"Each creature sharing a space with the swarm makes a {@dc 12} Dexterity saving throw, taking 10 ({@damage 4d4}) slashing damage, or 5 ({@damage 2d4}) slashing damage if the swarm is bloodied, on a failure, or half as much on a success. Creatures can gain advantage on this saving throw by choosing to fall {@condition prone} as a free action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spore Thrall",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 8
+				}
+			],
+			"hp": {
+				"average": 15,
+				"formula": "2d8 + 6"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 12,
+			"dex": 6,
+			"con": 16,
+			"int": 3,
+			"wis": 6,
+			"cha": 4,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Undead Fortitude (1/Day)",
+					"entries": [
+						"If the zombie is reduced to 0 hit points by damage that isn't radiant or from a critical hit, it's instead reduced to 1 hit point, falls prone, and is {@debilitated|LevelUp} until the end of its next turn, appearing to be dead."
+					]
+				},
+				{
+					"name": "Zombie Quirks",
+					"entries": [
+						"All zombies have one of the following traits:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Infectious Bite",
+									"entries": [
+										"A creature bitten by the zombie takes 2 ({@damage 1d4}) ongoing necrotic damage until it regains hit points or a creature makes a {@dc 15} Medicine check to treat the wound. If a beast, dragon, giant, humanoid, or monstrosity dies while suffering from this effect, it becomes a zombie after 1 minute, also retaining any non-magical actions it has."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vile Discharge",
+									"entries": [
+										"The zombie's melee attacks deal an extra 2 ({@damage 1d4}) poison damage. Additionally, when it's reduced to 0 hit points, it explodes. Creatures within 5 feet makes a Dexterity saving throw against the zombie's maneuver DC, taking 5 ({@damage 2d4}) poison damage on a failure."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vigor Mortis",
+									"entries": [
+										"The zombie can take the Dash action as a bonus action. It can't do so again until it moves 0 feet on one of its turns."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 11}). Until the grapple ends, the zombie can't grab another target."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one {@condition grappled} target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the zombie regains the same number of hit points."
+					]
+				}
+			]
 		}
 	],
 	"spell": [

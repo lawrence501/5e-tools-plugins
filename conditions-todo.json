@@ -320,6 +320,16 @@
 				"A creature can be infected with blood maggots either by the egg-depositing attack of a {@creature corpse fly|LevelUp}, the actions of a {@creature gorger zombie|LevelUp}, or simply by the maggots themselves looking for more food. Once infected, the host takes 4 ({@damage 1d4 + 2}) piercing damage each time it finishes a long rest. Additionally, it must make a {@dc 11} Constitution saving throw or suffer one level of {@condition fatigue|LevelUp} that cannot be removed by a long rest until the {@creature blood maggot|LevelUp} is removed. The DC for the save increases by one for each additional infesting maggot. If the host successfully passes three consecutive Constitution saving throws, the {@creature blood maggot|LevelUp} dies and is harmlessly expelled from the body, at which point the host can recover and rest normally. Should the host die while infected, it rises as a {@creature gorger zombie|LevelUp} 1 minute later.",
                 "A blood maggot infestation can be magically removed with {@spell lesser restoration|LevelUp}. Otherwise, they can be surgically removed with a {@dc 13} Medicine check, which deals 4 ({@damage 1d4 + 2}) true damage per attempt, regardless of success. Each infecting maggot requires its own check to remove."
 			]
+		},
+        {
+			"name": "Eltare's Malaise",
+			"source": "LevelUp",
+			"entries": [
+				"Elare's Malaise can be contracted by breathing in spores or being bitten by a {@creature spore thrall|LevelUp}. An infected creature is lethargic, prone to oversleeping, and rapidly loses cognitive function. Many recover fully, but the unfortunate die, becoming {@creature spore thrall|LevelUp|spore thralls} themselves.",
+                "A creature is afflicted for a number of daysequal to {@dice 1d10} - its Constitution modifier (minimum 1 day). While afflicted, it has disadvantage on initiative rolls, and if it falls asleep it remains {@condition unconscious} until it takes damage or another creature uses an action to shake or slap it awake. Additionally, at the end of each long rest, its Intelligence decreases by 2 ({@dice 1d4}) as spores grow inside its brain. If the creature's Intelligence is ever reduced to 0, it dies. If a humanoid dies while suffering from this effect, it becomes a {@creature spore thrall|LevelUp} in {@dice 1d4} hours. If a beast, dragon, giant, or monstrosity dies from this effect, it gains the spore thrall template (Gatepass Gazette 15 pg8). Spells like {@spell gentle repose|LevelUp} prevent this reanimation.",
+                "Once the disease passes, at the end of each long rest a creature recovers {@dice 1d4} Intelligence until back to their starting value.",
+                "{@spell Lesser restoration|LevelUp} cures the disease and restores {@dice 1d4} Intelligence, with any remaining deficit returning as described above. {@spell Greater restoration|LevelUp} ends the effect and immediately restores all lost Intelligence."
+			]
 		}
     ]
 }
