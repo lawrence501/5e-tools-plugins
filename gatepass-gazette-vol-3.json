@@ -879,41 +879,9 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Undead Fortitude (1/Day)",
+					"name": "Sporous Resilience (2/Day)",
 					"entries": [
-						"If the zombie is reduced to 0 hit points by damage that isn't radiant or from a critical hit, it's instead reduced to 1 hit point, falls prone, and is {@debilitated|LevelUp} until the end of its next turn, appearing to be dead."
-					]
-				},
-				{
-					"name": "Zombie Quirks",
-					"entries": [
-						"All zombies have one of the following traits:",
-						{
-							"type": "list",
-							"items": [
-								{
-									"type": "item",
-									"name": "Infectious Bite",
-									"entries": [
-										"A creature bitten by the zombie takes 2 ({@damage 1d4}) ongoing necrotic damage until it regains hit points or a creature makes a {@dc 15} Medicine check to treat the wound. If a beast, dragon, giant, humanoid, or monstrosity dies while suffering from this effect, it becomes a zombie after 1 minute, also retaining any non-magical actions it has."
-									]
-								},
-								{
-									"type": "item",
-									"name": "Vile Discharge",
-									"entries": [
-										"The zombie's melee attacks deal an extra 2 ({@damage 1d4}) poison damage. Additionally, when it's reduced to 0 hit points, it explodes. Creatures within 5 feet makes a Dexterity saving throw against the zombie's maneuver DC, taking 5 ({@damage 2d4}) poison damage on a failure."
-									]
-								},
-								{
-									"type": "item",
-									"name": "Vigor Mortis",
-									"entries": [
-										"The zombie can take the Dash action as a bonus action. It can't do so again until it moves 0 feet on one of its turns."
-									]
-								}
-							]
-						}
+						"If the spore thrall is reduced to 0 hit points by damage that isn't necrotic or from a critical hit, it is instead reduced to 1 hit point, falls {@condition prone}, and is {@condition stunned} until the end of its next turn, appearing to be dead. This ruse can be detected with a {@dc 11} Medicine check."
 					]
 				}
 			],
@@ -925,9 +893,9 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Spore Bite",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one {@condition grappled} target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the zombie regains the same number of hit points."
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one {@condition grappled} target. {@h}6 ({@damage 1d10 + 1}) piercing damage and the target makes a {@dc 11} Constitution saving throw, becoming infected with {@disease eltare's malaise|LevelUp} on a failure."
 					]
 				}
 			]
@@ -1769,6 +1737,1093 @@
             ],
             "conditionInflict": [
                 "blinded"
+            ]
+		},
+		{
+			"name": "Burst of Strength",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "T",
+            "subschools": [
+                "enhancement",
+                "movement",
+                "protection"
+            ],
+            "fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": false
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"In a sudden eruption of fortitude, you break bonds in inhuman fasion. If you are {@condition grappled} by a creature or non-magical restraints when you cast this spell, you immediately escape the grapple.",
+				"Alternatively, if you have been {@condition grappled} or {@condition restrained} by a spell or a magical effect or item due to a failed saving throw, you immediately re-roll the saving throw with advantage. In either case, you suffer a level of {@condition fatigue|LevelUp} at the end of your turn."
+			],
+			"miscTags": [
+				"ADV"
+			],
+			"conditionInflict": [
+				"fatigue|LevelUp"
+			]
+		},
+		{
+			"name": "Consume Vigour",
+			"source": "LevelUp",
+			"level": 4,
+			"school": "N",
+            "subschools": [
+                "healing",
+                "necrotic"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Constitution halves"
+                    ]
+                },
+				"You rend the lifeforce from a creature to sustain yourself. The target of this spell takes {@damage 6d8} necrotic damage. Undead and constructs are immune to this spell. If this damage reduces it to 0 hit points, it is killed and you reduce 1 level of your choice of either your {@condition fatigue|LevelUp} or {@condition strife|LevelUp}."
+			],
+			"areaTags": [
+				"ST"
+			],
+            "damageInflict": [
+                "necrotic"
+            ],
+            "saving throw": [
+                "constitution"
+            ]
+		},
+		{
+			"name": "Dementing Touch",
+			"source": "LevelUp",
+			"level": 5,
+			"school": "E",
+            "subschools": [
+                "affliction",
+                "evil"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": false,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"Your touch implants a vile plague in a creature's mind. While a creature is under the effects of this spell and can see you, you can use an action to force it to make a Wisdom saving throw. On a failure, it takes a level of {@condition strife|LevelUp}. You can only inflict a number of levels in {@condition strife|LevelUp} equal to half your proficiency bonus in this way each time you cast this spell.",
+				"The target knows it has been enchanted and can recognise you as the source of this effect with an Insight check against your spell save DC."
+			],
+			"miscTags": [
+				"SCL"
+			],
+            "saving throw": [
+                "wisdom"
+            ],
+            "conditionInflict": [
+                "strife|LevelUp"
+            ]
+		},
+		{
+			"name": "Draining Nova",
+			"source": "LevelUp",
+			"level": 4,
+			"school": "N",
+            "subschools": [
+                "affliction",
+                "healing",
+                "necrotic"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a handheld silver cauldron worth at least 50 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "30-foot radius"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Special"
+                    ]
+                },
+				"Creatures in the area make a Constitution saving throw, taking {@damage 4d8} necrotic damage and suffering one level of {@condition fatigue|LevelUp} on a failed save and avoiding the {@condition fatigue|LevelUp} on a successful one. For each level of {@condition fatigue|LevelUp} you cause in this manner, you gain {@dice 1d8} temporary hit points."
+			],
+			"miscTags": [
+				"THP"
+			],
+			"areaTags": [
+				"S"
+			],
+            "damageInflict": [
+                "necrotic"
+            ],
+            "saving throw": [
+                "constitution"
+            ],
+            "conditionInflict": [
+                "fatigue|LevelUp"
+            ]
+		},
+		{
+			"name": "Enervating Light",
+			"source": "LevelUp",
+			"level": 4,
+			"school": "N",
+            "subschools": [
+                "affliction",
+                "undead"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Constitution negates"
+                    ]
+                },
+				"You conjure a mote of sickly light at a point within range. The mote emits bright light in a 20-foot radius, and dim light for another 20 feet. A non-undead creature that starts its turn in the bright light, or enters the bright light for the first time on a turn, must succeed on a Constitution saving throw or suffer a level of {@condition fatigue|LevelUp}. Additionally, if it suffers this {@condition fatigue|LevelUp}, all undead in the area of bright light gain {@dice 2d8} temporary hit points and those in the area of dim light gain {@dice 1d8} temporary hit points. On a successful save, a creature is immune to the effect until it leaves the area."
+			],
+			"miscTags": [
+				"THP",
+				"LGT"
+			],
+			"areaTags": [
+				"S"
+			],
+            "saving throw": [
+                "constitution"
+            ],
+            "conditionInflict": [
+                "fatigue|LevelUp"
+            ]
+		},
+		{
+			"name": "Fatigued Bargain",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "E",
+            "subschools": [
+                "compulsion",
+                "enhancement",
+                "psychic"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing creature"
+                    ]
+                },
+				"Your magic suppresses a creature's inhibitions, urging out its own self-destructive strength. Until the end of your next turn, it ignores the effects of {@condition fatigue|LevelUp}. At the end of the duration, it takes an amount of psychic damage equal to {@dice 1d4} x the number of levels of {@condition fatigue|LevelUp} it is suffering. Additionally, on its turn, it can take an additional action, which can't be used for casting a spell other than a cantrip with a casting time of 1 action. If it takes this additional action, it suffers a level of {@condition fatigue|LevelUp} at the end of its turn."
+			],
+            "damageInflict": [
+                "psychic"
+            ],
+            "conditionInflict": [
+                "fatigue|LevelUp"
+            ]
+		},
+		{
+			"name": "Fortified Will",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "E",
+            "subschools": [
+                "protection"
+            ],
+            "fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing creature"
+                    ]
+                },
+				"You harden a creature's mind with an unbending willpower. For the duration, if the creature fails a saving throw against an effect that would cause it to become {@condition charmed}, {@condition confused|LevelUp}, {@condition frightened}, or {@condition debilitated|LevelUp}, it can use its reaction to automatically succeed on the save instead. If it does, it takes a level of {@condition strife|LevelUp} and the spell ends."
+			],
+            "conditionInflict": [
+                "strife|LevelUp"
+            ]
+		},
+		{
+			"name": "Gate From Beyond",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "C",
+            "subschools": [
+                "arcane",
+                "teleportation"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "special",
+                    "concentration": true
+				}
+			],
+			"entries": [
+				"You rend the veil to create a short-range portal from your location to any place you can see, visualise, or describe by stating a distance and direction such as 200 feet straight downward or 400 feet upward at a 30-degree angle to the southeast. The other end of the portal appears within 5 feet of you and you suffer a level of {@condition strife|LevelUp}.",
+				"A creature within 5 feet of either end of the portal can use 5 feet of movement to step through, appearing in an unoccupied space within 5 feet of the other end. If there is no such space, it is moved to the nearest unoccupied space, taking {@dice 1d10} force damage for every 5 feet moved. The portal remains open for as long as you maintain concentration and remain within 5 feet of one end of it, but for the duration of your concentration you suffer an additional level of {@condition strife|LevelUp} at the end of each of your turns after the first."
+			],
+			"miscTags": [
+				"TP"
+			],
+            "conditionInflict": [
+                "strife|LevelUp"
+            ]
+		},
+		{
+			"name": "Inner Solace",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "T",
+            "subschools": [
+                "enhancement"
+            ],
+            "fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing creature"
+                    ]
+                },
+				"You turn a creature's exhaustion into a well of inner strength. While under the effect of this spell, the target gains a number of temporary hit points equal to {@dice 1d6} x its combined levels of {@condition fatigue|LevelUp} and {@condition strife|LevelUp} at the start of each of its turns. Any temporary hit points remaining are lost when the spell ends.",
+				"Additionally, if its total levels of {@condition fatigue|LevelUp} and {@condition strife|LevelUp} are 3 or more, the target gains advantage on its first attack roll each turn."
+			],
+			"miscTags": [
+				"ADV",
+				"THP"
+			]
+		},
+		{
+			"name": "Muddle",
+			"source": "LevelUp",
+			"level": 0,
+			"school": "E",
+            "subschools": [
+                "affliction",
+                "psychic"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Constitution or Wisdom negates"
+                    ]
+                },
+				"You attempt to disorient a creature. Choose either {@condition fatigue|LevelUp} or {@condition strife|LevelUp}. If you choose {@condition fatigue|LevelUp}, the creature must succeed on a Constitution saving throw or suffer a level of {@condition fatigue|LevelUp}. If you choose {@condition strife|LevelUp}, the creature must succeed on a Wisdom saving throw or suffer a level of {@condition strife|LevelUp}. Regardless, the effect only lasts until the end of the creature's next turn. This spell fails if the target already has a level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} (whichever the spell is meant to inflict).",
+				"You can inflict an additional level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} when you reach 5th level (2), 11th level (3), and 17th level (4). These levels must be either all {@condition fatigue|LevelUp} or all {@condition strife|LevelUp}."
+			],
+			"miscTags": [
+				"SCL"
+			],
+            "saving throw": [
+                "constitution",
+				"wisdom"
+            ],
+            "conditionInflict": [
+                "fatigue|LevelUp",
+                "strife|LevelUp"
+            ]
+		},
+		{
+			"name": "Reckless March",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "T",
+            "subschools": [
+                "enhancement",
+                "movement"
+            ],
+            "fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a miniature wooden horse"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "You and up to three willing creatures"
+                    ]
+                },
+				"You suppress exhaustion in your traveling companions. For the duration, the targets move at double speed during overworld travel.",
+				"When this spell ends, the target creatures must roll a single Constitution saving throw against a difficulty of 10 + the number of hours of double-speed travel undertaken during the spell. On a failure, they suffer levels of {@condition fatigue|LevelUp} equal to half the number of hours of the double-speed travel (minimum 1)."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "You target an additional creature for each slot level above 2nd."
+                    ]
+                }
+            ],
+            "saving throw": [
+                "constitution"
+            ],
+            "conditionInflict": [
+                "fatigue|LevelUp"
+            ]
+		},
+		{
+			"name": "Sufferer's Pact",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "V",
+            "subschools": [
+                "divine",
+                "force",
+                "healing"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a piece of bloody string"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing creature"
+                    ]
+                },
+				"You burn away weakness to reveal inner strength. The target takes {@dice 4d8} force damage. Then, at the start of each of its turns, it gains {@dice 2d8} temporary hit points. When this spell ends, the target removes its choice of one level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp}. Any temporary hit points remaining are lost when the spell ends."
+			],
+			"miscTags": [
+				"THP"
+			],
+            "damageInflict": [
+                "force"
+            ]
+		},
+		{
+			"name": "Sufferer's Strike",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "V",
+            "subschools": [
+                "affliction",
+                "attack",
+                "divine",
+                "force"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Paladin",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": false
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Special"
+                    ]
+                },
+				"Your weapon thrums with the power of your misery. As part of casting this spell, make a melee spell attack against the target. On a hit, you deal your weapon damage plus {@dice 2d8} force damage. This damage increases by {@dice 1d8} for each level of {@condition fatigue|LevelUp} and {@condition strife|LevelUp} you are suffering. If the total of your {@condition fatigue|LevelUp} and {@condition strife|LevelUp} levels is 3 or more, the target makes a Constitution saving throw or suffers one level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} (your choice).",
+				"You can inflict an additional level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} when you reach 11th level (2) and 17th level (3). These levels must be either all {@condition fatigue|LevelUp} or all {@condition strife|LevelUp}."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The base damage of this spell increases by {@dice 1d8} for every two spell slot levels above 2nd."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"SCL",
+				"AAD"
+			],
+            "damageInflict": [
+                "force"
+            ],
+            "saving throw": [
+                "constitution"
+            ],
+            "conditionInflict": [
+                "fatigue|LevelUp",
+                "strife|LevelUp"
+            ]
+		},
+		{
+			"name": "Transmute Exhaustion",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "T",
+            "fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Constitution negates"
+                    ]
+                },
+				"All the target creature's levels of {@condition strife|LevelUp} are transformed into {@condition fatigue|LevelUp}, or vice-versa. This spell fails if the target's total levels of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} would equal 7 or more."
+			],
+            "saving throw": [
+                "constitution"
+            ],
+            "conditionInflict": [
+                "fatigue|LevelUp",
+                "strife|LevelUp"
+            ]
+		},
+		{
+			"name": "Transfer Exhaustion",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "T",
+            "subschools": [
+                "affliction",
+                "divine",
+                "healing"
+            ],
+            "fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing creature"
+                    ]
+                },
+				"Your touch draws out a creature's exhaustion. Choose a number of levels of either {@condition fatigue|LevelUp} or {@condition strife|LevelUp} up to the number of levels it is suffering and take them, removing them from the target and adding them to your own."
+			],
+            "conditionInflict": [
+                "fatigue|LevelUp",
+                "strife|LevelUp"
             ]
 		}
 	]
