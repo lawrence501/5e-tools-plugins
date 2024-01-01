@@ -2825,6 +2825,138 @@
                 "fatigue|LevelUp",
                 "strife|LevelUp"
             ]
+		},
+		{
+			"name": "Fey Tongue",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "D",
+            "subschools": [
+                "communication",
+                "knowledge"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a piece of parchment with Elvish, Sylvan, or Primordial writing on it"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+				"You gain a +10 bonus on Insight checks made to understand the meaning of any spoken Sylvan, Elvish, or Primordial that you hear, or any written text in those languages that you can touch. In addition, you gain an expertise die on Performance and Persuasion checks for the duration."
+			]
+		},
+		{
+			"name": "Spellbound Oath",
+			"source": "LevelUp",
+			"level": 6,
+			"school": "E",
+            "subschools": [
+                "arcane",
+                "compulsion"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "two matching pieces of jewelry worth at least 25 gold each"
+			},
+			"duration": [
+				{
+					"type": "permanent",
+                    "ends": [
+						"dispel",
+						"both sides are fufilled"
+					]
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "Two willing creatures"
+                    ]
+                },
+				"This spell binds two creatures to an agreement spoken as part of the casting of the spell in a language that both parties understand.",
+				"The agreement must include a promise by both parties to do or refrain from doing something specific. The promises do not need to be the same or equal but mustn't be obviously harmful to either creature. For example, an archfey may promise to restore the freedom of a loved one in exchange for a mortal becoming their emissary.",
+				"A creature attempting to act in a way that will breach the terms must make a Wisdom saving throw. On a failure, they find themselves unable to act as intended, ending their turn if they are in combat. Regardless, it suffers 52 ({@damage 8d12}) psychic damage for the attempt. Damage from this spell cannot instantly kill through massive damage, though the creature makes death saving throws as usual."
+			],
+			"miscTags": [
+				"PRM"
+			],
+			"areaTags": [
+				"ST"
+			],
+            "damageInflict": [
+                "psychic"
+            ],
+            "saving throw": [
+                "wisdom"
+            ]
 		}
 	]
 }
