@@ -899,6 +899,429 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Blastfire Crewmate",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"cr": "3",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"padded leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d8 + 24"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20,
+				"swim": 20
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 16,
+			"int": 12,
+			"wis": 11,
+			"cha": 11,
+			"save": {
+				"dex": "+4",
+				"con": "+5"
+			},
+			"skill": {
+				"athletics": "+4",
+				"deception": "+2 (+1d4)",
+				"perception": "+2",
+				"stealth": "+4"
+			},
+			"resist": [
+				"fire",
+				"poison"
+			],
+			"passive": 12,
+			"languages": [
+				"common",
+				"thieves' cant"
+			],
+			"trait": [
+				{
+					"name": "Blastfire Cauldron",
+					"entries": [
+						"The crewmate can spend 24 hours (-{@dice 1d4} hours per additional crewmate) modifying the rear of a water vehicle to add on a blastfire cauldron. Once per day, the water vehicle can double its Speed for up to {@dice 1d4} rounds, during which it can only travel in one direction."
+					]
+				},
+				{
+					"name": "Combat Expertise",
+					"entries": [
+						"The damage of the crewmate's attacks includes a {@dice d4} expertise die."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The crewmate makes two attacks in any combination, but they can only make one ranged attack with their saber pistol or carbine per turn."
+					]
+				},
+				{
+					"name": "Saber Pistol",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 10/30 ft., one target. {@h}9 ({@damage 1d8 + 1d4 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Carbine",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/150 ft., one target. {@h}11 ({@damage 1d12 + 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Blasting Jump (1/Day)",
+					"entries": [
+						"The crewmate tears a pouched-horn from their belt and lights it, moving them 40 feet in a direction of their choice without provoking opportunity attacks while creating a 15-foot radius explosion centered on their starting space. Each creature in the area makes a {@dc 13} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failure, or half damage on a success. The crewmate can spend their reaction to halve damage from colliding with a structure during this movement, but such an impact ends the movement."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defusing Fuses (1/Day)",
+					"entries": [
+						"When a creature hits the crewmate with a melee attack, they pull a bundle of friction-lit fuses out of their bandolier to create a shower of sparks that disrupt their attcker and turn the hit into a miss."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blastfire Captain",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"cr": "6",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"+1 padded leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 119,
+				"formula": "14d8 + 56"
+			},
+			"speed": {
+				"walk": 35,
+				"climb": 25,
+				"swim": 25
+			},
+			"str": 16,
+			"dex": 17,
+			"con": 18,
+			"int": 15,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"dex": "+6",
+				"con": "+7"
+			},
+			"skill": {
+				"athletics": "+6 (+1d4)",
+				"deception": "+5 (+1d6)",
+				"insight": "+4 (+1d4)",
+				"nature": "+5",
+				"perception": "+4 (+1d4)",
+				"stealth": "+6 (+1d6)"
+			},
+			"resist": [
+				"fire",
+				"poison"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"common",
+				"thieves' cant"
+			],
+			"trait": [
+				{
+					"name": "Blastfire Cauldron",
+					"entries": [
+						"The captain can spend 16 hours (-{@dice 1d4} hours per crewmate helping) modifying the rear of a water vehicle to add on a blastfire cauldron. Twice per day, the water vehicle can double its Speed for up to {@damage 1d4 + 2} rounds, during which it can only travel in one direction."
+					]
+				},
+				{
+					"name": "Combat Expertise",
+					"entries": [
+						"The damage of the captain's attacks includes a {@dice d6} expertise die."
+					]
+				},
+				{
+					"name": "Chaotic",
+					"entries": [
+						"The captain radiates a Chaotic aura."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"When the captain makes a Dexterity saving throw against an effect that deals half damage on a success, they take no damage on a success and half damage on a failure."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The captain deals an extra 10 ({@damage 3d6}) damage when they hit with a weapon attack while they have advantage on the attack, or when the captain's target is within 5 feet of an ally of the captain while the captain doesn't have disadvantage on the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Blastfire captain makes two attacks in any combination, but they can only make one ranged attack with their saber pistol per turn and must have sufficient ammunition loaded to fire their revolver more than once per turn."
+					]
+				},
+				{
+					"name": "Saber Pistol",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 10/30 ft., one target. {@h}11 ({@damage 1d8 + 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Revolver",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 60/180 ft., one target. {@h}13 ({@damage 3d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Blasting Leap (2/Day)",
+					"entries": [
+						"The captain tears a pouched-horn from their belt and lights it, moving them up to 80 feet in a direction of their choosing without provoking opportunity attacks while creating a 20-foot radius explosion centered on their starting space. Each creature in the area makes a {@dc 15} Dexterity saving throw, taking 35 ({@damage 10d6}) fire damage on a failure, or half damage on a success. The captain can spend their reaction to take no damage from colliding with a structure during this movement and otherwise takes half damage, but such an impact ends the movement."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"The captain takes the Dash, Disengage, Hide, or Use an Object action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defusing Fuses (2/Day)",
+					"entries": [
+						"When a creature hits the captain with a melee attack, they pull a bundle of friction-lit fuses out of their bandolier to create a shower of sparks that disrupt their attcker and turn the hit into a miss."
+					]
+				},
+				{
+					"name": "Twist the Knife (Recharge 6)",
+					"entries": [
+						"When the captain scores a critical hit with a melee weapon attack, they deal their sneak attack damage (if they are not already doing so)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonnie Blastfire",
+			"source": "LevelUp",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"halfling"
+				]
+			},
+			"cr": "12",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"+3 padded leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 170,
+				"formula": "20d6 + 100"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30,
+				"swim": 30
+			},
+			"str": 18,
+			"dex": 19,
+			"con": 20,
+			"int": 17,
+			"wis": 14,
+			"cha": 17,
+			"save": {
+				"dex": "+8",
+				"con": "+9"
+			},
+			"skill": {
+				"athletics": "+8 (+1d6)",
+				"deception": "+7 (+1d8)",
+				"insight": "+6 (+1d8)",
+				"intimidation": "+7",
+				"nature": "+7 (+1d4)",
+				"perception": "+6 (+1d6)",
+				"stealth": "+8 (+1d8)"
+			},
+			"resist": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"common",
+				"thieves' cant"
+			],
+			"trait": [
+				{
+					"name": "Blastfire Cauldron",
+					"entries": [
+						"Bonnie can spend 8 hours (-{@dice 1d4} hours per creature helping) modifying the rear of a water vehicle to add on a blastfire cauldron. Three times per day, the water vehicle can double its Speed for up to {@damage 2d4 + 2} rounds, during which it can only travel in one direction."
+					]
+				},
+				{
+					"name": "Combat Expertise",
+					"entries": [
+						"The damage of Bonnie's attacks includes a {@dice d8} expertise die."
+					]
+				},
+				{
+					"name": "Chaotic",
+					"entries": [
+						"Bonnie radiates a Chaotic aura."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"When Bonnie makes a Dexterity saving throw against an effect that deals half damage on a success, she takes no damage on a success and half damage on a failure."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Bonnie deals an extra 21 ({@damage 6d6}) damage when she hits with a weapon attack while she has advantage on the attack, or when her target is within 5 feet of an ally of hers while she doesn't have disadvantage on the attack."
+					]
+				},
+				{
+					"name": "Halfling Nimbleness",
+					"entries": [
+						"Bonnie can move through the space of any creature that is of a size larger than hers."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries": [
+						"When Bonnie rolls a 1, 2, or 3 on the {@dice d20} for an ability check, attack roll, or saving throw, she can reroll the die and must use the new roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Bonnie makes three attacks in any combination, but she can only make one ranged attack with her saber pistol per turn and must have sufficient ammunition loaded to fire her revolver more than once per turn."
+					]
+				},
+				{
+					"name": "+1 Saber Pistol",
+					"entries": [
+						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 10/30 ft., one target. {@h}14 ({@damage 2d8 + 5}) magical slashing damage."
+					]
+				},
+				{
+					"name": "Revolver",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 60/180 ft., one target. {@h}15 ({@damage 2d6 + 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Blasting Leap (3/Day)",
+					"entries": [
+						"Bonnie tears a pouched-horn from their belt and lights it, moving them up to 120 feet in a direction of her choosing without provoking opportunity attacks while creating a 30-foot radius explosion centered on her starting space. Each creature in the area makes a {@dc 17} Dexterity saving throw, taking 49 ({@damage 14d6}) fire damage on a failure, or half damage on a success. Bonnie takes no damage from colliding with a structure during this movement, but such an impact ends the movement."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Bonnie takes the Dash, Disengage, Hide, or Use an Object action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Defusing Fuses (3/Day)",
+					"entries": [
+						"When a creature hits Bonnie with a melee attack, she pulls a bundle of friction-lit fuses out of her bandolier to create a shower of sparks that disrupt her attcker and turn the hit into a miss."
+					]
+				},
+				{
+					"name": "Twist the Knife (Recharge 4-6)",
+					"entries": [
+						"When Bonnie scores a critical hit with a melee weapon attack, she deals their sneak attack damage (if she is not already doing so)."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Blast Em!",
+					"entries": [
+						"Bonnie yells at a {@creature blastfire crewmate|LevelUp} she can see within 60 feet. The crewmate can use its reaction to make a ranged weapon attack using a firearm."
+					]
+				},
+				{
+					"name": "Buccaneer Rally",
+					"entries": [
+						"Bonnie or a {@creature blastfire crewmate|LevelUp} or {@creature blastfire captain|LevelUp|captain} she can see within 30 feet regain 12 ({@damage 2d8 + 3}) hit points."
+					]
+				},
+				{
+					"name": "Blasting Leap (Costs 2 Actions)",
+					"entries": [
+						"Bonnie uses Blasting Leap."
+					]
+				}
+			]
 		}
 	],
 	"spell": [
