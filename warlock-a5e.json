@@ -1883,6 +1883,34 @@
 						{
 							"type": "refOptionalfeature",
 							"optionalfeature": "Pact of the Talisman|TCE"
+						},
+						{
+							"type": "entries",
+							"name": "Pact of the Censer",
+							"entries": [
+								"Approving of your desire to obfuscate and deceive, your patron has granted you a magical censer. As a bonus action, you can summon a Tiny censer; it appears in your hand or hanging from your clothing. This censer is destroyed if you use this feature to create another censer. You can also dismiss this censer without an action. The censer will burn any magical or mundane incense placed in it, but otherwise you can use a bonus action while holding it to cause it to produce smoke as a mundane censer, lightly obscuring your space for 1 round. Any effects that cause the censer to spread smoke do not increase the area of effect for anything burning within it. Anything burning within the censer moves with it when you dismiss the censer, and it is left behind when the censer is destroyed.",
+								"As a bonus action, or as part of the bonus action used to create the censer, you can order the censer to fly to an unoccupied space you can see. The censer has a fly speed of a number of feet equal to 10 x your proficiency bonus and can't be commanded or used for any abilities if it is ever more than 60 feet away from you or if you can't see it (though you do not need to see it for the entire duration of the effect, just to initiate it or give further direction).",
+								"You can cast spells with a target of Self and an area of effect that centers on you (such as {@spell burning hands|LevelUp}, {@spell color spray|LevelUp}, or {@spell antilife shell|LevelUp}) as though you occupied its space. This does not apply to spells that require a body, such as gazes or spitting, such as with {@spell cobra spit|LevelUp}.",
+								"Your censer has an Armour Class equal to 8 + your proficiency bonus + your spellcasting ability modifier and a number of hit points equal to your warlock level. It is destroyed if its hit points are reduced to 0. If you lose your censer, you can perform a 1 hour ritual to receive a replacement, or have a member of your party at least substantially succeed at a Pray journey activity check. This process destroys the previous censer. If your censer s dismissed or destroyed, any spell or effect that it grants ends. You can only use one {@filter eldritch invocation|optionalfeatures|feature type=ei} or {@filter secret of arcana|optionalfeatures|feature type=sa} that utilises your censer at a time. Using a second feature ends the first. The censer and any of its contents are collected by your patron when you die."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Pact of the Cauldron",
+							"entries": [
+								"Aware of your knack for divination, your patron bestows on you a mystical cauldron, which appears in an unoccupied space adjacent to you. If there is no such square, it can't be summoned. The cauldron is Medium and can contain a Medium creature if it squeezes. The cauldron is always filled with a mist-like substance, which you can use a bonus action to order to heat up, allowing you to cook wtih it as though it were water, although the mist itself doesn't provide any sustenance and can't be used to inflict damage. You may dismiss this cauldron without using an action, though anything that was inside it remains behind unless otherwise stated.",
+								"While summoned, this cauldron provides you with several benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You can use your cauldron as a spellcasting focus for your warlock spells.",
+										"You learn {@filter one cantrip of your choice from the Divination, Enchantment, or Illusion school|spells|school=d;e;i|level=0}. It is considered a warlock spell for you and does not count against your number of cantrips known.",
+										"While your cauldron is within 5 feet of you, you can cast any warlock spell you know as a ritual if it has the ritual tag.",
+										"You can use your cauldron in place of reasonable artisan's tools, such as an alchemist's kit or a brewer's kit. This does not grant you proficiency with such kits."
+									]
+								},
+								"The cauldron has an AC of 10 and hit points equal to 10 x your proficiency bonus. It is destroyed if its hit points are reduced to 0. Your cauldron regains hit points equal to {@dice 1d10} x your proficiency bonus at the end of a long rest. If it is destroyed, you can't use any spells granted by it or by {@filter eldritch invocations|optionalfeatures|feature type=ei} with this pact as a prerequisite until you replace it. You can perform a 1 hour ceremony, or have a member of your party at least substantially succeed at a Pray journey activity check, to receive a replacement from your patron. The cauldron and any of its contents are collected by your patron when you die."
+							]
 						}
 					]
 				}
@@ -6337,6 +6365,176 @@
 			]
 		},
 		{
+			"name": "Cauldron of Holding",
+			"source": "LevelUp",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Cauldron"
+				}
+			],
+			"entries": [
+				"While your cauldron is summoned, you can store items within it as if it were a bag of holding, except where stated otherwise here. If your cauldron is dismissed, these items are shunted to a timeless extradimensional space along with your cauldron, but may be accessed when your cauldron is resummoned.",
+				"The mouth of the cauldron is 5 feet wide for the purposes of fitting items inside it and can store one heavy item. Only you can add or remove items from your cauldron's extradimensional space. Living creatures are expelled from your cauldron if it is dismissed or destroyed. Supply cooked in your cauldron does not lose its nourishing qualities. Using your cauldron does not affect the stored items, but you can't access them while your cauldron is being used to cook, brew, or cast spells. You can't teleport items stored in this dimensional space using Dimensional Cauldron unless you first remove them from the space."
+			]
+		},
+		{
+			"name": "Dimensional Cauldron",
+			"source": "LevelUp",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock",
+							"source": "LevelUp"
+						}
+					},
+					"pact": "Cauldron"
+				}
+			],
+			"entries": [
+				"A number of times per day equal to your spellcasting ability modifier, you can teleport willing creatures or objects within your cauldron as if you had cast {@spell dimension door|LevelUp} without spending spell points. The same restrictions of the spell apply, except the creature must be Medium size and stand within the empty cauldron, and you do not need to also transport yourself (though you must be adjacent to the cauldron). Not doing so does not allow you to transport an additional creature. If you do transport yourself, the cauldron is dismissed after you pass through. You can always teleport yourself in this way, even if you would not otherwise fit inside your cauldron."
+			]
+		},
+		{
+			"name": "Fire Burn and Cauldron Bubble",
+			"source": "LevelUp",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "LevelUp"
+						}
+					},
+					"pact": "Cauldron"
+				}
+			],
+			"entries": [
+				"Over the course of a long rest, you can summon your cauldron and produce a single potion of healing or a vial of common poison without material components (including a vial). You can produce a potion of healing or greater healing in this way, as well as basic and advanced poisons. At 11th level you can produce a potion of superior healing and potent poison, and at 15th level you can produce a potion of supreme healing. Potions and poisons produced in this way disappear if they are not used before your next long rest. You can also do so even if you are cooking or brewing with your cauldron.",
+				"You can also use your cauldron to brew any potion or poison you can craft and for which you have the material components for in half the time and for half the cost. You also gain a {@dice 1d6} expertise die on ability checks to brew it. Your cauldron can also 'store' a brew in progress. As a reaction, you can render your cauldron empty for the purposes of cooking, casting a spell, or using a feature that requires your cauldron to be empty. If you store a brew in this way or if your cauldron is dismissed while brewing, the crafting process is halted, resuming when you summon your cauldron again or use your reaction to return the brew to the cauldron. If the cauldron is destroyed during this time any material components are left behind, intact."
+			]
+		},
+		{
+			"name": "Path of Ashes",
+			"source": "LevelUp",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "LevelUp"
+						}
+					},
+					"pact": "Censer"
+				}
+			],
+			"entries": [
+				"As a bonus action, or as part of the bonus action to direct your censer to move, you can have your censer produce a thick cloud of smoke in your space or leave a number of them in its wake. Each cloud of smoke fills a 5-foot cube, heavily obscures its area, and lasts for 1 hour. A creature can move through a cube, treating it as difficult terrain, stand on the cube, or even climb its semisolid side with a {@dc 10} Athletics check. The cubes can support up to 500 pounds and do not block attacks or provide cover beyond obscuring the area.",
+				"You can create a maximum number of cubes equal to your proficiency bonus and can dismiss any number of them as a bonus action. You regain all uses at the end of a short or long rest. The cubes can be dispersed by a moderate wind (at least 10 miles per hour)."
+			]
+		},
+		{
+			"name": "Part the Veil",
+			"source": "LevelUp",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Warlock",
+							"source": "LevelUp"
+						}
+					},
+					"pact": "Cauldron"
+				}
+			],
+			"entries": [
+				"Choose a number of spells from the {@filter Divination school|spells|school=d} equal to your proficiency bonus. You must cast these spells through your cauldron and they must be of a level you are able to cast through Pact Magic and have a range of Self. You are able to cast each spell once per long rest. At the DM's discretion, some spells may not be cast in this way, such as those that create physical objects or alter your perception. The spell ends early if your cauldron is destroyed or dismissed.",
+				"You do not need to provide material components (including those with a specified cost) when casting a spell in this way, though you must provide spell components that are consumed by the spell and any that require part of a target (sych as some of the target's hair). You can replace the chosen spells you can cast through this feature whenever you complete a long rest. These spells are considered warlock spells for you when cast in this way. You can choose additional spells whenever your proficiency bonus increases."
+			]
+		},
+		{
+			"name": "Smoke Cloud Conjurer",
+			"source": "LevelUp",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Warlock",
+							"source": "LevelUp"
+						}
+					},
+					"pact": "Censer"
+				}
+			],
+			"entries": [
+				"Your censer now has a number of charges equal to your spellcasting ability modifier and regains all spent charges after you take a short or long rest. While your censer is summoned, you can expect 1 charge to cast {@spell fog cloud|LevelUp} without spending spell points. You can also expend 3 charges to cast {@spell stinking cloud|LevelUp} without spending spell points.",
+				"You must be holding your censer to cast these spells, which visually appear to be smoke. You may expend an extra charge when you cast one of these spells through your censer to grant yourself the ability to see in these clouds as if the area were only lightly obscured or two charges to grant yourself and a number of creatures up to your spellcasting ability modifier within 30 feet the ability to see in these clouds as if the area were only lightly obscured.",
+				"When you cast one of the above spells using this feature you are not required to concentrate on the spell. However, ther spell immediately ends if your censer leaves your hand or if you spend any additional charges."
+			]
+		},
+		{
+			"name": "Shade of Smoke",
+			"source": "LevelUp",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Censer"
+				}
+			],
+			"entries": [
+				"As an action, you may cause your censer to billow a dense cloud of colourful smoke. This forms into a smoky shade of yourself in an adjacent space. This shade can't create sound, light, scent (aside from a faint, smoky fragrance), or other sensory effects, though it can be the target of spells that create such effects. As a bonus action or as part of the bonus action to move your censer, you can mentally command this image of smoke to act however you wish (including interacting with a smoky version of any item in your possession when the shade was created), but it always remains centered on the censer.",
+				"The shade is revealed as smoke with any physical interaction, as physical objects and creatures pass through it, though it grants your censer total cover. An Investigation check against your spell save DC also reveals the shade is an illusion. The shade holds its form in light and moderate winds, but distorts in strong winds, revealing it to be an illusion. The shade only grants half cover to your censer against attacks made by creatures that have seen it as an illusion. The shade remains for 1 minute, until you dismiss it (no action required), or if you leave your censer's range.",
+				"Once you have used this feature a number of times equal to your spellcasting ability modifier, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Trail of Embers",
+			"source": "LevelUp",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Warlock",
+							"source": "LevelUp"
+						}
+					},
+					"pact": "Censer"
+				}
+			],
+			"entries": [
+				"You can cast {@spell incendiary cloud|LevelUp} once by spending 7 spell points. You can't do so again until you finish a long rest. You can spend an additional 7 spell points to center the spell's effect on your censer, which allows the area of effect to move as your censer moves. Your censer's Speed is halved while this spell is active through it, and it is not damaged by the spell's effects."
+			]
+		},
+		{
 			"name": "Ascendant Step",
 			"source": "LevelUp",
 			"featureType": [
@@ -6561,6 +6759,45 @@
 			"entries": [
 				"You automatically know when an aberration, celestial, elemental, fey, fiend, or undead creature has been in a space within 30 feet of you within the past 24 hours, though not which type of creature triggered this knowledge.",
 				"Additionally, you gain an expertise die on Perception checks, and you have advantage on checks made to track these creatures."
+			]
+		},
+		{
+			"name": "Cauldron of Holding",
+			"source": "LevelUp",
+			"featureType": [
+				"SA"
+			],
+			"prerequisite": [
+				{
+					"pact": "Cauldron"
+				}
+			],
+			"entries": [
+				"While your cauldron is summoned, you can store items within it as if it were a bag of holding, except where stated otherwise here. If your cauldron is dismissed, these items are shunted to a timeless extradimensional space along with your cauldron, but may be accessed when your cauldron is resummoned.",
+				"The mouth of the cauldron is 5 feet wide for the purposes of fitting items inside it and can store one heavy item. Only you can add or remove items from your cauldron's extradimensional space. Living creatures are expelled from your cauldron if it is dismissed or destroyed. Supply cooked in your cauldron does not lose its nourishing qualities. Using your cauldron does not affect the stored items, but you can't access them while your cauldron is being used to cook, brew, or cast spells. You can't teleport items stored in this dimensional space using Dimensional Cauldron unless you first remove them from the space."
+			]
+		},
+		{
+			"name": "Path of Ashes",
+			"source": "LevelUp",
+			"featureType": [
+				"SA"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "LevelUp"
+						}
+					},
+					"pact": "Censer"
+				}
+			],
+			"entries": [
+				"As a bonus action, or as part of the bonus action to direct your censer to move, you can have your censer produce a thick cloud of smoke in your space or leave a number of them in its wake. Each cloud of smoke fills a 5-foot cube, heavily obscures its area, and lasts for 1 hour. A creature can move through a cube, treating it as difficult terrain, stand on the cube, or even climb its semisolid side with a {@dc 10} Athletics check. The cubes can support up to 500 pounds and do not block attacks or provide cover beyond obscuring the area.",
+				"You can create a maximum number of cubes equal to your proficiency bonus and can dismiss any number of them as a bonus action. You regain all uses at the end of a short or long rest. The cubes can be dispersed by a moderate wind (at least 10 miles per hour)."
 			]
 		}
 	]
