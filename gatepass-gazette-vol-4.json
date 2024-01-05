@@ -511,5 +511,270 @@
 				}
 			]
 		}
-    ]
+    ],
+	"spell": [
+        {
+			"name": "Template Spell",
+			"source": "LevelUp",
+			"level": 9,
+			"school": "A",
+            "subschools": [
+                "arcane",
+                "divine",
+                "negation",
+                "planar",
+                "protection"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "opal worth at least 1,000gp, consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A mirror on the same plane of existence as you"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "10-foot cube"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Dexterity halves and negates deafness"
+                    ]
+                },
+				"A permanent, immovable zone of antimagic fills the area, suppressing all magical effects within it. At the DM's discretion, sufficiently powerful artifacts and deities may be able to ignore the zone's effects. The zone is dispelled only if more than 10 percent of its area overlaps with that of another antimagic zone spell (which is also dispelled)."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot above 6th, the aberration's AC increases by 1, its hit points increase by 10, and when it deals damage with an attack it deals {@dice 1d4} extra damage."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM",
+				"OBJ"
+			],
+			"areaTags": [
+				"S"
+			],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "saving throw": [
+                "dexterity"
+            ],
+            "conditionInflict": [
+                "restrained",
+                "prone"
+            ]
+		},
+		{
+			"name": "Dancing Feet",
+			"source": "LevelUp",
+			"level": 5,
+			"school": "E",
+            "subschools": [
+                "affliction",
+                "arcane",
+                "compulsion"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "the lace of a dancer's shoe"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "10-foot radius circle"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"You cause a musical chord to play and creatures in the area have a sudden urge to dance. Fey and creature that can't be {@condition charmed} are immune to this spell.",
+				"Affected creatures have their Speed reduced by half and disadvantage on attack rolls and saving throws for the duration. As an action on each of their turns, a creature may attempt to end the spell by making another saving throw (with disadvantage), ending the spell's effects on a success. If the spell lasts the full duration, each creature under its influence when the spell ends suffers {@dice 1d4} levels of {@condition fatigue|LevelUp}.",
+				"Any damage done to a target by you or an ally ends the spell for that creature."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The area increases by 5 feet for each slot level above 5th."
+                    ]
+                }
+            ],
+			"areaTags": [
+				"R"
+			],
+            "saving throw": [
+                "wisdom"
+            ],
+            "conditionInflict": [
+                "fatigue|LevelUp"
+            ]
+		},
+		{
+			"name": "Sleeplessness",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "E",
+            "subschools": [
+                "compulsion",
+                "nature"
+            ],
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                }
+            ],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": false
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing creature"
+                    ]
+                },
+				"You grant a creature supernatural vigour that keeps it awake.",
+				"Until the spell ends, the target does not need to sleep to gain the benefits of a long rest. A long rest remains 8 hours for the target as normal, and the remainder of the time must be filled only with light activity. The target also can't be put to sleep by poisons or magical means, except those cast at a higher slot level than this spell.",
+				"If the target is affected by sleep caused by a spell of this spell's level or lower, the spell that caused the sleep is dispelled."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot level above 3rd, you can increase the duration by 4 hours or choose an additional target."
+                    ]
+                }
+            ]
+		}
+	]
 }
