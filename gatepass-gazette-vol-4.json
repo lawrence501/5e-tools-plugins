@@ -510,6 +510,361 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Ruler of the Hall",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "fey",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 76,
+				"formula": "9d10 + 27"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 16,
+			"int": 10,
+			"wis": 16,
+			"cha": 10,
+			"skill": {
+				"perception": "+5 (+1d6)"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 18,
+			"languages": [
+				"common",
+				"elvish",
+				"sylvan"
+			],
+			"cr": "4",
+			"action": [
+				{
+					"name": "Hallmaster's Sceptre",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 4}) bludgeoning damage. The ruler can choose to make the attack with advantage. If it does so, attacks against it have advantage until the start of its next turn."
+					]
+				},
+				{
+					"name": "Capering Command",
+					"entries": [
+						"Each humanoid, fey, or giant within 30 feet that can hear the ruler makes a {@dc 14} Wisdom saving throw. On a failure, it is magically {@condition charmed} and must dance until the beginning of the ruler's next turn. While dancing, its movement speed is halved, and it has disadvantage on attack rolls. {@creatures satyr|LevelUp|Satyrs} don't suffer the negative consequences of dancing. On a successful saving throw, the creature is immune to the ruler's Capering Command for 24 hours."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Roar of Triumph",
+					"entries": [
+						"If the minotaur reduced a living creature to 0 hit points since the end of its last turn, it roars and gains 10 ({@dice 3d6}) temporary hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wailrus",
+			"source": "LevelUp",
+			"size": [
+				"H"
+			],
+			"type": "undead",
+			"cr": "11",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 162,
+				"formula": "13d12 + 78"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 90
+			},
+			"str": 20,
+			"dex": 9,
+			"con": 22,
+			"int": 7,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"str": "+9",
+				"con": "+10"
+			},
+			"resist": [
+				"cold",
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"When the wailrus fails a saving throw, it can choose to succeed instead. When it does, part of its tusks break off and turn to ash. If it has no more uses of this ability, the wailrus cannot attack with its tusks again until they grow back when it finishes a long rest."
+					]
+				},
+				{
+					"name": "Sonorous Despair",
+					"entries": [
+						"The wailrus' song resonates for miles. Any creature that does not have a swim speed and is within two miles of a singing wailrus experiences deep sorrow and must make a {@dc 15} Wisdom saving throw or is {@condition charmed} and compelled to seek out its source (i.e. the wailrus).",
+						"A {@condition charmed} creature must use its turns trying to move as close to the wailrus as possible. It also cannot take reactions. If the creature ends its turn further from the wailrus than it started, the creature despairs and suffers 2 ({@damage 1d4}) psychic damage. The creature repeats the saving throw at the end of each of its turns, ending the effect on a success. The effect also ends when the creature becomes {@condition unconscious} or can no longer hear the song.",
+						"On a successful save, a creature is immune to this effect for 24 hours."
+					]
+				},
+				{
+					"name": "Sorrowful Supplication",
+					"entries": [
+						"A wailrus that hears a holy hymn sung as a bonus action within 120 feet has disadvantage on saving throws against any effect that turns undead until the beginning of its next turn."
+					]
+				},
+				{
+					"name": "Undead Nature",
+					"entries": [
+						"The wailrus doesn't require air, sustenance, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The wailrus makes two melee attacks."
+					]
+				},
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage. If the wailrus moves at least 20 feet straight towards the target before the target, it can immediately use its reaction to make an attack with its tusks."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Tusks",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Wailing Roar (Recharge 6)",
+					"entries": [
+						"The wailrus emits a low-pitched, baleful noise. Each creature in a 15-foot cone makes a {@dc 15} Wisdom saving throw. On a failed save, a creature takes 44 ({@damage 8d10}) thunder damage and is {@condition staggered|LevelUp} by an overwhelming sense of loss. It can repeat the saving throw at the end of each of its turns, ending the stagger on a success. On a successful save, the creature takes half as much damage and is not {@condition staggered|LevelUp}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Incense Roar (1/Day)",
+					"entries": [
+						"When bloodied, the wailrus immediately recharges and uses its Wailing Roar."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Tail Slap",
+					"entries": [
+						"The wailrus attacks with its tail."
+					]
+				},
+				{
+					"name": "Gore Rush",
+					"entries": [
+						"The wailrus moves up to half its Speed and attacks with its tusks."
+					]
+				},
+				{
+					"name": "Crushing Weight (Costs 2 Actions)",
+					"entries": [
+						"While on land or ice, the wailrus moves 5 feet to enter the space of a large or smaller creature. The creature makes a {@dc 17} Dexterity saving throw or takes 19 ({@damage 3d8 + 6}) bludgeoning damage, is knocked {@condition prone} and {@condition restrained} until the wailrus moves from the spot. A creature can use an action to free itself or another {@condition restrained} creature with a {@dc 17} Strength check. On a successful save a creature takes half damage and isn't knocked {@condition prone} or {@condition restrained}."
+					]
+				}
+			],
+			"legendaryActions": 2
+		},
+		{
+			"name": "Giant Walrus",
+			"source": "LevelUp",
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"cr": "3",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "7d12 + 21"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 80
+			},
+			"str": 16,
+			"dex": 9,
+			"con": 17,
+			"int": 4,
+			"wis": 11,
+			"cha": 6,
+			"resist": [
+				"cold"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The giant walrus can hold its breath for 20 minutes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d8 + 3}) bludgeoning damage. If the giant walrus moves at least 20 feet straight towards the target before the target, it can immediately use its reaction to make an attack with its tusks."
+					]
+				},
+				{
+					"name": "Crushing Weight",
+					"entries": [
+						"While on land or ice, the giant walrus moves 5 feet to enter the space of a Large or smaller creature. The creature makes a {@dc 13} Dexterity saving throw or takes 13 ({@damage 3d6 + 3}) bludgeoning damage, is knocked {@condition prone} and {@condition restrained} until the giant walrus moves from the spot. A creature can use an action to free itself or another {@condition restrained} creature with a {@dc 13} Strength check. On a successful save a creature takes half damage and isn't knocked {@condition prone} or {@condition restrained}."
+					]
+				},
+				{
+					"name": "Tusks",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Walrus",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"cr": "3",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 34,
+				"formula": "4d10 + 12"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 80
+			},
+			"str": 15,
+			"dex": 9,
+			"con": 17,
+			"int": 2,
+			"wis": 11,
+			"cha": 6,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The walrus can hold its breath for 10 minutes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) bludgeoning damage. If the walrus moves at least 20 feet straight towards the target before the target, it can immediately use its reaction to make an attack with its tusks."
+					]
+				},
+				{
+					"name": "Crushing Weight",
+					"entries": [
+						"While on land or ice, the walrus moves 5 feet to enter the space of a Medium or smaller creature. The creature makes a {@dc 12} Dexterity saving throw or takes 9 ({@damage 3d4 + 2}) bludgeoning damage, is knocked {@condition prone} and {@condition restrained} until the giant walrus moves from the spot. A creature can use an action to free itself or another {@condition restrained} creature with a {@dc 12} Strength check. On a successful save a creature takes half damage and isn't knocked {@condition prone} or {@condition restrained}."
+					]
+				},
+				{
+					"name": "Tusks",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
+					]
+				}
+			]
 		}
     ],
 	"spell": [
