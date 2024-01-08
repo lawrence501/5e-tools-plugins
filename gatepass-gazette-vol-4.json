@@ -865,6 +865,118 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Dire Mole",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"cr": "1/4",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 10
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 20,
+				"burrow": 20
+			},
+			"str": 13,
+			"dex": 10,
+			"con": 13,
+			"int": 2,
+			"wis": 13,
+			"cha": 6,
+			"skill": {
+				"athletics": "+2",
+				"perception": "+3 (+1d4)"
+			},
+			"senses": [
+				"tremorsense 20 ft."
+			],
+			"passive": 15,
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The dire mole has advantage on Perception checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Poor Eyesight",
+					"entries": [
+						"The dire mole is unable to see colour and has disadvantage on Perception checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dire Sparrow",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"cr": "1/4",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 7,
+			"dex": 14,
+			"con": 11,
+			"int": 2,
+			"wis": 13,
+			"cha": 6,
+			"skill": {
+				"acrobatics": "+4"
+			},
+			"passive": 11,
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The dire sparrow has advantage on Perception checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			]
 		}
     ],
 	"spell": [
