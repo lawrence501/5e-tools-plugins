@@ -76,7 +76,9 @@
 			"optionalfeatureProgression": [
 				{
 					"name": "Eldritch Invocations",
-					"featureType": "EI",
+					"featureType": [
+						"EI"
+					],
 					"progression": [
 						0,
 						1,
@@ -102,7 +104,9 @@
 				},
 				{
 					"name": "Secrets of Arcana",
-					"featureType": "SA",
+					"featureType": [
+						"SA"
+					],
 					"progression": [
 						0,
 						1,

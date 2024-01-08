@@ -1,335 +1,355 @@
 {
-    "_meta": {
-		"sources": [
-			{
-				"json": "LevelUp",
-				"abbreviation": "A5E",
-				"full": "Level Up (A5E)",
-				"authors": [
-					"Level Up"
-				],
-				"version": "0.0.1",
-				"url": "https://www.levelup5e.com/"
-			}
-		],
-		"dateAdded": 0,
-		"dateLastModified": 0
-	},
-    "condition": [
-        {
-            "name": "Confused",
-            "source": "LevelUp",
-            "entries": [
-                "A confused creature cannot take reactions.",
-                "On its turn, a confused creature rolls a {@dice d8} to determine what it does.",
-                {
-                    "type": "list",
-					"items": [
-						"On a 1-4, a confused creature is debilitated until the end of its turn.",
-                        "On a 5-6, a confused creature is dazed until the end of its turn.",
-                        "On a 7+, a confused creature makes a melee weapon attack against a randomly determined creature at the start of its turn as a free action."
-					]
-                }
-            ],
-            "hasFluffImages": false
-        },
-        {
-            "name": "Dazed",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition incapacitated}.",
-                "A dazed creature has disadvantage with Offence and Defence."
-            ],
-            "hasFluffImages": false
-        },
-		{
-            "name": "Debilitated",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition stunned}.",
-                "A debilitated creature suffers the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Disadvantage with damaging Offence.",
-						"All damage dealt is halved.",
-						"Cannot take bonus actions or reactions.",
-						"Does not grant disadvantage to adjacent ranged attackers."
-					]
-				}
-            ],
-            "hasFluffImages": false
-        },
-		{
-            "name": "Dominated",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition charmed}.",
-                "A dominated creature is {@condition charmed}. Additionally, dominated creature gains a free action at the start of each of its turns that can be taken to both move up to its speed and make either a single weapon attack or cast a cantrip. This free action is completely controlled by the creature that dominated the victim."
-            ],
-            "hasFluffImages": false
-        },
-        {
-            "name": "Doomed",
-            "source": "LevelUp",
-            "entries": [
-                "A doomed creature dies at a time determined by the DM, or within 13 ({@dice 2d12}) hours.",
-                "A doomed creature continues to be doomed even after it dies. Magic equivalent to a 7th-level or higher spell can remove the doomed condition (such as {@spell regenerate|LevelUp} cast on a living creature, {@spell resurrection|LevelUp}, {@spell true resurrection|LevelUp}, or {@spell wish|LevelUp}. A doomed creature cannot otherwise be returned to life."
-            ],
-            "hasFluffImages": false
-        },
-        {
-            "name": "Fatigue",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition exhaustion}.",
-                {
-					"type": "table",
-					"colLabels": [
-						"Level",
-						"Effects"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							"1",
-							"Cannot take the Dash action."
-						],
-						[
-							"2",
-							"Disadvantage on Strength, Dexterity, and Constitution checks."
-						],
-						[
-							"3",
-							"Speed halved and unable to maintain a fast travel pace."
-						],
-						[
-							"4",
-							"Disadvantage on attack rolls and saving throws using Strength, Dexterity, or Constitution, and unable to maintain a normal travel pace."
-						],
-						[
-							"5",
-							"Hit Dice halved."
-						],
-						[
-							"6",
-							"Speed reduced to 5 feet and unable to maintain a slow travel pace."
-						],
-                        [
-                            "7",
-                            "Death"
-                        ]
-					]
-				}
-            ],
-            "hasFluffImages": false
-        },
-		{
-            "name": "Rattled",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition frightened}.",
-                "A rattled creature cannot benefit from expertise dice and cannot take reactions."
-            ],
-            "hasFluffImages": false
-        },
-		{
-            "name": "Slowed",
-            "source": "LevelUp",
-            "entries": [
-                "A slowed creature's speed is halved.",
-                "A slowed creature takes a -2 penalty to AC and Dexterity saving throws.",
-                "A slowed creature cannot take reactions",
-                "On its turn, a slowed creature can take either an action or a bonus action, not both. In addition, it can't make more than one melee or ranged attack during its turn."
-            ],
-            "hasFluffImages": false
-        },
-		{
-            "name": "Sluggish",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition exhaustion}.",
-                "A sluggish creature reduces the number of attacks it can make with its Attack action by 1 (or Multiattack, where relevant)."
-            ],
-            "hasFluffImages": false
-        },
-		{
-            "name": "Staggered",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition paralyzed}.",
-                "A staggered creature suffers the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Disadvantage with damaging Defence.",
-						"Incoming attack damage is always critical.",
-						"All speeds are set to 0 feet."
-					]
-				}
-            ],
-            "hasFluffImages": false
-        },
-        {
-            "name": "Strife",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition exhaustion}.",
-                {
-					"type": "table",
-					"colLabels": [
-						"Level",
-						"Effects"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							"1",
-							"Disadvantage on Intelligence, Wisdom, and Charisma checks."
-						],
-						[
-							"2",
-							"Disadvantage on concentration saves."
-						],
-						[
-							"3",
-							"Can only take a bonus or standard action each turn (not both)."
-						],
-						[
-							"4",
-							"Disadvantage on attack rolls and saving throws using Intelligence, Wisdom, and Charisma."
-						],
-						[
-							"5",
-							"Suffer the effects of a random short-term mental stress effect."
-						],
-						[
-							"6",
-							"Cannot cast levelled spells."
-						],
-                        [
-                            "7",
-                            "Suffer the effects of a random long-term mental stress effect."
-                        ]
-					]
-				}
-            ],
-            "hasFluffImages": false
-        },
-		{
-            "name": "Taunted",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition charmed}.",
-                "A taunted creature must target at least their taunter with all offensive actions."
-            ],
-            "hasFluffImages": false
-        },
-		{
-            "name": "Weakened",
-            "source": "LevelUp",
-            "entries": [
-                "Shares condition immunity with {@condition stunned}.",
-                "A weakened creature deals half damage."
-            ],
-            "hasFluffImages": false
-        }
+  "_meta": {
+    "sources": [
+      {
+        "json": "LevelUp",
+        "abbreviation": "A5E",
+        "full": "Level Up (A5E)",
+        "authors": [
+          "Level Up"
+        ],
+        "version": "0.0.1",
+        "url": "https://www.levelup5e.com/"
+      }
     ],
-    "disease": [
+    "dateAdded": 0,
+    "dateLastModified": 0
+  },
+  "condition": [
+    {
+      "name": "Confused",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "A confused creature cannot take reactions.",
+        "On its turn, a confused creature rolls a {@dice d8} to determine what it does.",
         {
-			"name": "Brain Larvae",
-			"source": "LevelUp",
-			"entries": [
-				"A {@creature khalkos|LevelUp} can infect an intelligent creature with a horrifying disease, injecting {@creature khalkos|LevelUp} larvae directly into the creature's skull. While infected with this disease, the host undergoes the following changes:",
-				{
-                    "type": "list",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Telepathy",
-                            "entries": [
-                                "The host gains telepathy out to a radius of 120 feet. Additionally, the host can telepathically communicate with the {@creature khalkos|LevelUp} that infected it over any distance, as long as they are on the same plane."
-                            ]
-                        },
-                        {
-                            "type": "item",
-                            "name": "Trust",
-                            "entries": [
-                                "Whenever a {@creature khalkos|LevelUp} makes a Charisma check to convince the host of its good intentions, it does so with advantage. If it succeeds, the host becomes friendly to it no matter its previous attitude."
-                            ]
-                        }
-                    ]
-                },
-                "After 10 ({@dice 3d6}) days, the host develops a splitting headache and is {@condition incapacitated} for 24 hours. At the end of this time, the host dies, and 2 or 3 {@creature khalkos spawn|LevelUp} burst out of the host's skull after 1 round.",
-                "This disease can only be detected or cured by a spell cast with a 5th-level or higher spell slot. It can't be cured by effects that don't require a spell slot. Creatures without a head are immune to this disease."
-			]
-		},
+          "type": "list",
+          "items": [
+            "On a 1-4, a confused creature is debilitated until the end of its turn.",
+            "On a 5-6, a confused creature is dazed until the end of its turn.",
+            "On a 7+, a confused creature makes a melee weapon attack against a randomly determined creature at the start of its turn as a free action."
+          ]
+        }
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Dazed",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition incapacitated}.",
+        "A dazed creature has disadvantage with Offence and Defence."
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Debilitated",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition stunned}.",
+        "A debilitated creature suffers the following effects:",
         {
-			"name": "Mummy Rot",
-			"source": "LevelUp",
-			"entries": [
-				"A {@creature mummy|LevelUp|mummy's} touch inflicts a dreadful curse called mummy rot. A cursed creature can't regain hit points, and its hit point maximum decreases by an amount equal to the creature's total number of Hit Dice for every 24 hours that elapse. If this curse reduces the target's hit point maximum to 0, the target dies and crumbles to dust."
-			]
-		},
+          "type": "list",
+          "items": [
+            "Disadvantage with damaging Offence.",
+            "All damage dealt is halved.",
+            "Cannot take bonus actions or reactions.",
+            "Does not grant disadvantage to adjacent ranged attackers."
+          ]
+        }
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Dominated",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition charmed}.",
+        "A dominated creature is {@condition charmed}. Additionally, dominated creature gains a free action at the start of each of its turns that can be taken to both move up to its speed and make either a single weapon attack or cast a cantrip. This free action is completely controlled by the creature that dominated the victim."
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Doomed",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "A doomed creature dies at a time determined by the DM, or within 13 ({@dice 2d12}) hours.",
+        "A doomed creature continues to be doomed even after it dies. Magic equivalent to a 7th-level or higher spell can remove the doomed condition (such as {@spell regenerate|LevelUp} cast on a living creature, {@spell resurrection|LevelUp}, {@spell true resurrection|LevelUp}, or {@spell wish|LevelUp}. A doomed creature cannot otherwise be returned to life."
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Fatigue",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition exhaustion}.",
         {
-			"name": "Troglodyte Stench",
-			"source": "LevelUp",
-			"entries": [
-				"A {@creature troglodyte|LevelUp|troglodyte's} bite can infect a living creature with troglodyte stench. An infected creature is {@condition poisoned} and gains the following trait:",
-                {
-                    "type": "entries",
-                    "name": "Stench",
-                    "entries": [
-                        "A non-troglodyte other than the creature that starts its turn within 5 feet of the creature makes a {@dc 12} Constitution saving throw. On a failure, the creature is {@condition poisoned} until the start of its next turn. On a successful save, the creature is immune to troglodyte Stench for 24 hours.",
-                        "The subject makes a {@dc 12} Constitution saving throw every 24 hours after being infected, becoming cured on a success. The disease can also be cured with {@spell lesser restoration|LevelUp} and similar magic."
-                    ]
-                }
-			]
-		},
+          "type": "table",
+          "colLabels": [
+            "Level",
+            "Effects"
+          ],
+          "colStyles": [
+            "col-1 text-center",
+            "col-11"
+          ],
+          "rows": [
+            [
+              "1",
+              "Cannot take the Dash action."
+            ],
+            [
+              "2",
+              "Disadvantage on Strength, Dexterity, and Constitution checks."
+            ],
+            [
+              "3",
+              "Speed halved and unable to maintain a fast travel pace."
+            ],
+            [
+              "4",
+              "Disadvantage on attack rolls and saving throws using Strength, Dexterity, or Constitution, and unable to maintain a normal travel pace."
+            ],
+            [
+              "5",
+              "Hit Dice halved."
+            ],
+            [
+              "6",
+              "Speed reduced to 5 feet and unable to maintain a slow travel pace."
+            ],
+            [
+              "7",
+              "Death"
+            ]
+          ]
+        }
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Rattled",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition frightened}.",
+        "A rattled creature cannot benefit from expertise dice and cannot take reactions."
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Slowed",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "A slowed creature's speed is halved.",
+        "A slowed creature takes a -2 penalty to AC and Dexterity saving throws.",
+        "A slowed creature cannot take reactions",
+        "On its turn, a slowed creature can take either an action or a bonus action, not both. In addition, it can't make more than one melee or ranged attack during its turn."
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Sluggish",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition exhaustion}.",
+        "A sluggish creature reduces the number of attacks it can make with its Attack action by 1 (or Multiattack, where relevant)."
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Staggered",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition paralyzed}.",
+        "A staggered creature suffers the following effects:",
         {
-			"name": "Sewer Plague",
-			"source": "LevelUp",
-			"entries": [
-				"Unsanitary conditions give rise to all manner of pestilence generically referred to as sewer plague. Contact with rotting waste or stagnant water can transmit sewer plague, as can the bites of {@creature rat|LevelUp|rats} and other creatures that live amid such filth.",
-                "A humanoid exposed to sewer plague makes a {@dc 11} Constitution saving throw or it becomes infected. After {@dice 1d4} days, an infected creature experiences cramps and exhaustion. The creature suffers 1 level of {@condition fatigue|LevelUp}, it recovers only half the normal amount of hit points when spending Hit Dice, and it regains no hit points upon completing a long rest.",
-                "An infected creature repeats the saving throw whenever it finishes a long rest. On a failure, it suffers an additional level of {@condition fatigue|LevelUp}. On a success, the creature instead recovers from 1 level of {@condition fatigue|LevelUp}. The creature is cured of this disease when it has no levels of {@condition fatigue|LevelUp}."
-			]
-		},
+          "type": "list",
+          "items": [
+            "Disadvantage with damaging Defence.",
+            "Incoming attack damage is always critical.",
+            "All speeds are set to 0 feet."
+          ]
+        }
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Strife",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition exhaustion}.",
         {
-			"name": "Pastrasite",
-			"source": "LevelUp",
-			"entries": [
-				"This chrono-active parasite is native to Limbo, a result of the ever-shifting environment in which even time is malleable. Unfortunately pastrasites are drawn to the Material Plane where the rigid temporal structure of past, present, and future provides an excellent foundation to cling to, akin to a caterpillar climbing up and down a tree's bark. They are usually contracted in places of historical significance where they exist in a dormant state around the time of the event itself, looking into the future in search of visitors who have an especially interesting past - adventurers.",
-                "There's not certainty as to what a pastrasite looks like as they can only be detected by their symptoms. They never come in contact with the infected creature itself, instead consuming the creature's background, subsiding on the temporal backlash that results when the timeline snaps back.",
-                "When an adventurer enters an area with pastrasites they make a {@dc 15} Charisma saving throw as their psyche instinctively tries to maintain their personal timeline.",
-                "On a success, the pastrasite immediately retreats, choosing another adventurer to infect until there are none at which point it can no longer maintain its temporal existence, disappearing and leaving behind a strong sense of imminence within its would-be victims. For the next several hours the adventurers have advantage on Intelligence checks made to recall information.",
-                "On a failure, the adventurer becomes infected and the pastrasite immediately destroys several years of their past. The infected adventurer loses its background and gains a randomly determined background. This new background is now - and always has been - the adventurer's past. The adventurer is vaguely aware of what happened with blurred recollection of things being somehow different that before becoming infected. Only spells that contact other planes can reveal information from the infected adventurer's previous timeline. Most facts change as little as possible to remain consistent with the infected adventurer's new past, but some friction remains. Whenever an inconsistency between the old and new timelines is first spoken of in front of the infected adventurer, it takes 10 ({@damage 3d6}) psychic damage.",
-                "The new timeline gradually settles, and the true past can only be restored through powerful magic such as {@spell wish|LevelUp}. Once a parasite has altered an adventurer's timeline, although its effects remain the adventurer recovers from the disease. Spells like {@spell remove disease|LevelUp} or features like a herald's Lay on Hands have no effect on pastrasites."
-			]
-		},
+          "type": "table",
+          "colLabels": [
+            "Level",
+            "Effects"
+          ],
+          "colStyles": [
+            "col-1 text-center",
+            "col-11"
+          ],
+          "rows": [
+            [
+              "1",
+              "Disadvantage on Intelligence, Wisdom, and Charisma checks."
+            ],
+            [
+              "2",
+              "Disadvantage on concentration saves."
+            ],
+            [
+              "3",
+              "Can only take a bonus or standard action each turn (not both)."
+            ],
+            [
+              "4",
+              "Disadvantage on attack rolls and saving throws using Intelligence, Wisdom, and Charisma."
+            ],
+            [
+              "5",
+              "Suffer the effects of a random short-term mental stress effect."
+            ],
+            [
+              "6",
+              "Cannot cast levelled spells."
+            ],
+            [
+              "7",
+              "Suffer the effects of a random long-term mental stress effect."
+            ]
+          ]
+        }
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Taunted",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition charmed}.",
+        "A taunted creature must target at least their taunter with all offensive actions."
+      ],
+      "hasFluffImages": false
+    },
+    {
+      "name": "Weakened",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition stunned}.",
+        "A weakened creature deals half damage."
+      ],
+      "hasFluffImages": false
+    }
+  ],
+  "disease": [
+    {
+      "name": "Brain Larvae",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "A {@creature khalkos|LevelUp} can infect an intelligent creature with a horrifying disease, injecting {@creature khalkos|LevelUp} larvae directly into the creature's skull. While infected with this disease, the host undergoes the following changes:",
         {
-			"name": "Blood Maggot Infestation",
-			"source": "LevelUp",
-			"entries": [
-				"A creature can be infected with blood maggots either by the egg-depositing attack of a {@creature corpse fly|LevelUp}, the actions of a {@creature gorger zombie|LevelUp}, or simply by the maggots themselves looking for more food. Once infected, the host takes 4 ({@damage 1d4 + 2}) piercing damage each time it finishes a long rest. Additionally, it must make a {@dc 11} Constitution saving throw or suffer one level of {@condition fatigue|LevelUp} that cannot be removed by a long rest until the {@creature blood maggot|LevelUp} is removed. The DC for the save increases by one for each additional infesting maggot. If the host successfully passes three consecutive Constitution saving throws, the {@creature blood maggot|LevelUp} dies and is harmlessly expelled from the body, at which point the host can recover and rest normally. Should the host die while infected, it rises as a {@creature gorger zombie|LevelUp} 1 minute later.",
-                "A blood maggot infestation can be magically removed with {@spell lesser restoration|LevelUp}. Otherwise, they can be surgically removed with a {@dc 13} Medicine check, which deals 4 ({@damage 1d4 + 2}) true damage per attempt, regardless of success. Each infecting maggot requires its own check to remove."
-			]
-		},
+          "type": "list",
+          "items": [
+            {
+              "type": "item",
+              "name": "Telepathy",
+              "entries": [
+                "The host gains telepathy out to a radius of 120 feet. Additionally, the host can telepathically communicate with the {@creature khalkos|LevelUp} that infected it over any distance, as long as they are on the same plane."
+              ]
+            },
+            {
+              "type": "item",
+              "name": "Trust",
+              "entries": [
+                "Whenever a {@creature khalkos|LevelUp} makes a Charisma check to convince the host of its good intentions, it does so with advantage. If it succeeds, the host becomes friendly to it no matter its previous attitude."
+              ]
+            }
+          ]
+        },
+        "After 10 ({@dice 3d6}) days, the host develops a splitting headache and is {@condition incapacitated} for 24 hours. At the end of this time, the host dies, and 2 or 3 {@creature khalkos spawn|LevelUp} burst out of the host's skull after 1 round.",
+        "This disease can only be detected or cured by a spell cast with a 5th-level or higher spell slot. It can't be cured by effects that don't require a spell slot. Creatures without a head are immune to this disease."
+      ]
+    },
+    {
+      "name": "Mummy Rot",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "A {@creature mummy|LevelUp|mummy's} touch inflicts a dreadful curse called mummy rot. A cursed creature can't regain hit points, and its hit point maximum decreases by an amount equal to the creature's total number of Hit Dice for every 24 hours that elapse. If this curse reduces the target's hit point maximum to 0, the target dies and crumbles to dust."
+      ]
+    },
+    {
+      "name": "Troglodyte Stench",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "A {@creature troglodyte|LevelUp|troglodyte's} bite can infect a living creature with troglodyte stench. An infected creature is {@condition poisoned} and gains the following trait:",
         {
-			"name": "Eltare's Malaise",
-			"source": "LevelUp",
-			"entries": [
-				"Elare's Malaise can be contracted by breathing in spores or being bitten by a {@creature spore thrall|LevelUp}. An infected creature is lethargic, prone to oversleeping, and rapidly loses cognitive function. Many recover fully, but the unfortunate die, becoming {@creature spore thrall|LevelUp|spore thralls} themselves.",
-                "A creature is afflicted for a number of daysequal to {@dice 1d10} - its Constitution modifier (minimum 1 day). While afflicted, it has disadvantage on initiative rolls, and if it falls asleep it remains {@condition unconscious} until it takes damage or another creature uses an action to shake or slap it awake. Additionally, at the end of each long rest, its Intelligence decreases by 2 ({@dice 1d4}) as spores grow inside its brain. If the creature's Intelligence is ever reduced to 0, it dies. If a humanoid dies while suffering from this effect, it becomes a {@creature spore thrall|LevelUp} in {@dice 1d4} hours. If a beast, dragon, giant, or monstrosity dies from this effect, it gains the spore thrall template (Gatepass Gazette 15 pg8). Spells like {@spell gentle repose|LevelUp} prevent this reanimation.",
-                "Once the disease passes, at the end of each long rest a creature recovers {@dice 1d4} Intelligence until back to their starting value.",
-                "{@spell Lesser restoration|LevelUp} cures the disease and restores {@dice 1d4} Intelligence, with any remaining deficit returning as described above. {@spell Greater restoration|LevelUp} ends the effect and immediately restores all lost Intelligence."
-			]
-		}
-    ]
+          "type": "entries",
+          "name": "Stench",
+          "entries": [
+            "A non-troglodyte other than the creature that starts its turn within 5 feet of the creature makes a {@dc 12} Constitution saving throw. On a failure, the creature is {@condition poisoned} until the start of its next turn. On a successful save, the creature is immune to troglodyte Stench for 24 hours.",
+            "The subject makes a {@dc 12} Constitution saving throw every 24 hours after being infected, becoming cured on a success. The disease can also be cured with {@spell lesser restoration|LevelUp} and similar magic."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sewer Plague",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Unsanitary conditions give rise to all manner of pestilence generically referred to as sewer plague. Contact with rotting waste or stagnant water can transmit sewer plague, as can the bites of {@creature rat|LevelUp|rats} and other creatures that live amid such filth.",
+        "A humanoid exposed to sewer plague makes a {@dc 11} Constitution saving throw or it becomes infected. After {@dice 1d4} days, an infected creature experiences cramps and exhaustion. The creature suffers 1 level of {@condition fatigue|LevelUp}, it recovers only half the normal amount of hit points when spending Hit Dice, and it regains no hit points upon completing a long rest.",
+        "An infected creature repeats the saving throw whenever it finishes a long rest. On a failure, it suffers an additional level of {@condition fatigue|LevelUp}. On a success, the creature instead recovers from 1 level of {@condition fatigue|LevelUp}. The creature is cured of this disease when it has no levels of {@condition fatigue|LevelUp}."
+      ]
+    },
+    {
+      "name": "Pastrasite",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "This chrono-active parasite is native to Limbo, a result of the ever-shifting environment in which even time is malleable. Unfortunately pastrasites are drawn to the Material Plane where the rigid temporal structure of past, present, and future provides an excellent foundation to cling to, akin to a caterpillar climbing up and down a tree's bark. They are usually contracted in places of historical significance where they exist in a dormant state around the time of the event itself, looking into the future in search of visitors who have an especially interesting past - adventurers.",
+        "There's not certainty as to what a pastrasite looks like as they can only be detected by their symptoms. They never come in contact with the infected creature itself, instead consuming the creature's background, subsiding on the temporal backlash that results when the timeline snaps back.",
+        "When an adventurer enters an area with pastrasites they make a {@dc 15} Charisma saving throw as their psyche instinctively tries to maintain their personal timeline.",
+        "On a success, the pastrasite immediately retreats, choosing another adventurer to infect until there are none at which point it can no longer maintain its temporal existence, disappearing and leaving behind a strong sense of imminence within its would-be victims. For the next several hours the adventurers have advantage on Intelligence checks made to recall information.",
+        "On a failure, the adventurer becomes infected and the pastrasite immediately destroys several years of their past. The infected adventurer loses its background and gains a randomly determined background. This new background is now - and always has been - the adventurer's past. The adventurer is vaguely aware of what happened with blurred recollection of things being somehow different that before becoming infected. Only spells that contact other planes can reveal information from the infected adventurer's previous timeline. Most facts change as little as possible to remain consistent with the infected adventurer's new past, but some friction remains. Whenever an inconsistency between the old and new timelines is first spoken of in front of the infected adventurer, it takes 10 ({@damage 3d6}) psychic damage.",
+        "The new timeline gradually settles, and the true past can only be restored through powerful magic such as {@spell wish|LevelUp}. Once a parasite has altered an adventurer's timeline, although its effects remain the adventurer recovers from the disease. Spells like {@spell remove disease|LevelUp} or features like a herald's Lay on Hands have no effect on pastrasites."
+      ]
+    },
+    {
+      "name": "Blood Maggot Infestation",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "A creature can be infected with blood maggots either by the egg-depositing attack of a {@creature corpse fly|LevelUp}, the actions of a {@creature gorger zombie|LevelUp}, or simply by the maggots themselves looking for more food. Once infected, the host takes 4 ({@damage 1d4 + 2}) piercing damage each time it finishes a long rest. Additionally, it must make a {@dc 11} Constitution saving throw or suffer one level of {@condition fatigue|LevelUp} that cannot be removed by a long rest until the {@creature blood maggot|LevelUp} is removed. The DC for the save increases by one for each additional infesting maggot. If the host successfully passes three consecutive Constitution saving throws, the {@creature blood maggot|LevelUp} dies and is harmlessly expelled from the body, at which point the host can recover and rest normally. Should the host die while infected, it rises as a {@creature gorger zombie|LevelUp} 1 minute later.",
+        "A blood maggot infestation can be magically removed with {@spell lesser restoration|LevelUp}. Otherwise, they can be surgically removed with a {@dc 13} Medicine check, which deals 4 ({@damage 1d4 + 2}) true damage per attempt, regardless of success. Each infecting maggot requires its own check to remove."
+      ]
+    },
+    {
+      "name": "Eltare's Malaise",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Elare's Malaise can be contracted by breathing in spores or being bitten by a {@creature spore thrall|LevelUp}. An infected creature is lethargic, prone to oversleeping, and rapidly loses cognitive function. Many recover fully, but the unfortunate die, becoming {@creature spore thrall|LevelUp|spore thralls} themselves.",
+        "A creature is afflicted for a number of daysequal to {@dice 1d10} - its Constitution modifier (minimum 1 day). While afflicted, it has disadvantage on initiative rolls, and if it falls asleep it remains {@condition unconscious} until it takes damage or another creature uses an action to shake or slap it awake. Additionally, at the end of each long rest, its Intelligence decreases by 2 ({@dice 1d4}) as spores grow inside its brain. If the creature's Intelligence is ever reduced to 0, it dies. If a humanoid dies while suffering from this effect, it becomes a {@creature spore thrall|LevelUp} in {@dice 1d4} hours. If a beast, dragon, giant, or monstrosity dies from this effect, it gains the spore thrall template (Gatepass Gazette 15 pg8). Spells like {@spell gentle repose|LevelUp} prevent this reanimation.",
+        "Once the disease passes, at the end of each long rest a creature recovers {@dice 1d4} Intelligence until back to their starting value.",
+        "{@spell Lesser restoration|LevelUp} cures the disease and restores {@dice 1d4} Intelligence, with any remaining deficit returning as described above. {@spell Greater restoration|LevelUp} ends the effect and immediately restores all lost Intelligence."
+      ]
+    }
+  ]
 }
