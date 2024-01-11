@@ -1490,21 +1490,21 @@
 			"entries": [
 				"At 10th level, you gain a more powerful aura that is active alongside your Sacred Aura. The range of this aura is the same, and you can only have one Improved Sacred Aura active at a time. You can swap your active improved aura upon finishing a long rest.",
                 {
-                    "types": "entries",
+                    "type": "entries",
                     "name": "Aura of Healing",
                     "entries": [
                         "Whenever you or an ally cast a spell to heal yourself or another ally while both a within your aura, both the spellcaster and target gain additional hit points equal to your Charisma modifier."
                     ]
                 },
                 {
-                    "types": "entries",
+                    "type": "entries",
                     "name": "Aura of Overcoming",
                     "entries": [
                         "Weapon attacks made by allies within your aura ignore bludgeoning, piercing, and slashing resistances and immunities."
                     ]
                 },
                 {
-                    "types": "entries",
+                    "type": "entries",
                     "name": "Aura of Smiting",
                     "entries": [
                         "Whenever an ally within your aura scores a critical hit with a weapon attack, they deal additional radiant damage equal to half your herald level."
