@@ -1,0 +1,463 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LevelUp",
+				"abbreviation": "A5E",
+				"full": "Level Up (A5E)",
+				"authors": [
+					"Level Up"
+				],
+				"version": "0.0.1",
+				"url": "https://www.levelup5e.com/"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "class": [
+		{
+			"name": "Sidekick",
+			"source": "LevelUp",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"con"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"heavy",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"animal handling",
+								"athletics",
+								"history",
+								"insight",
+								"intimidation",
+								"perception",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item chain mail|phb} or (b) {@item leather armor|phb}, {@item longbow|phb}, and {@item arrows (20)|phb|20 arrows}",
+					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
+					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) two {@item handaxe|phb|handaxes}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
+				],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"chain mail|phb"
+						],
+						"b": [
+							"leather armor|phb",
+							"longbow|phb",
+							"arrows (20)|phb"
+						]
+					},
+					{
+						"a": [
+							{
+								"equipmentType": "weaponMartial"
+							},
+							"shield|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponMartial",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							"light crossbow|phb",
+							"crossbow bolts (20)|phb"
+						],
+						"b": [
+							{
+								"item": "handaxe|phb",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					}
+				]
+			},
+            "classTableGroups": [
+                {
+					"colLabels": [
+                        "AB/AC Bonus",
+                        "Max HP Bonus",
+                        "Damage Bonus"
+					],
+					"rows": [
+						[
+							0,
+                            0,
+                            0
+						],
+						[
+							0,
+                            2,
+                            1
+						],
+						[
+							0,
+                            4,
+                            2
+						],
+						[
+							0,
+                            6,
+                            3
+						],
+						[
+							1,
+                            8,
+                            4
+						],
+						[
+							1,
+                            10,
+                            5
+						],
+						[
+							1,
+                            12,
+                            6
+						],
+						[
+							1,
+                            14,
+                            7
+						],
+						[
+							1,
+                            16,
+                            8
+						],
+						[
+							1,
+                            18,
+                            9
+						],
+						[
+							2,
+                            20,
+                            10
+						],
+						[
+							2,
+                            22,
+                            11
+						],
+						[
+							2,
+                            24,
+                            12
+						],
+						[
+							2,
+                            26,
+                            13
+						],
+						[
+							2,
+                            28,
+                            14
+						],
+						[
+							2,
+                            30,
+                            15
+						],
+						[
+							3,
+                            32,
+                            16
+						],
+						[
+							3,
+                            34,
+                            17
+						],
+						[
+							3,
+                            36,
+                            18
+						],
+						[
+							4,
+                            38,
+                            19
+						]
+					]
+				}
+			],
+			"classFeatures": [
+                "No Equipment|Sidekick|LevelUp|1|LevelUp",
+				"Passive Regeneration (prof)|Sidekick|LevelUp|1|LevelUp",
+				"Danger Sense|Sidekick|LevelUp|2|LevelUp",
+				"Improved Critical (+1)|Sidekick|LevelUp|3|LevelUp",
+				"Ability Score Improvement|Sidekick|LevelUp|4|LevelUp",
+				"Extra Attack (1 extra)|Sidekick|LevelUp|5|LevelUp",
+				"Ability Score Improvement|Sidekick|LevelUp|6|LevelUp",
+				"Battle Readiness|Sidekick|LevelUp|7|LevelUp",
+				"Ability Score Improvement|Sidekick|LevelUp|8|LevelUp",
+				"Improved Saves (+1)|Sidekick|LevelUp|9|LevelUp",
+				"Improved Defence|Sidekick|LevelUp|10|LevelUp",
+				"Extra Attack (2 extra)|Sidekick|LevelUp|11|LevelUp",
+				"Ability Score Improvement|Sidekick|LevelUp|12|LevelUp",
+				"Improved Saves (+2)|Sidekick|LevelUp|13|LevelUp",
+				"Ability Score Improvement|Sidekick|LevelUp|14|LevelUp",
+				"Improved Critical (+2)|Sidekick|LevelUp|15|LevelUp",
+				"Ability Score Improvement|Sidekick|LevelUp|16|LevelUp",
+				"Improved Saves (+3)|Sidekick|LevelUp|17|LevelUp",
+				"Passive Regeneration (double prof)|Sidekick|LevelUp|18|LevelUp",
+				"Ability Score Improvement|Sidekick|LevelUp|19|LevelUp",
+				"Extra Attack (3 extra)|Sidekick|LevelUp|20|LevelUp"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "No Equipment",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 1,
+			"entries": [
+				"From 1st level, the sidekick has no ability to wear any equipment beyond their starting items. In exchange, they receive bonuses to their stats based on the AB/AC, Max HP, and Damage bonus columns of the Sidekick table."
+			]
+		},
+		{
+			"name": "Passive Regeneration (prof)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 1,
+			"entries": [
+				"Also from 1st level, the sidekick heals a number of hit points equal to their proficiency bonus at the start of each of their turns in combat."
+			]
+		},
+		{
+			"name": "Danger Sense",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 2,
+			"entries": [
+				"Beginning at 2nd level, the sidekick has advantage on Dexterity saving throws against effects they can see, such as traps and spells."
+			]
+		},
+		{
+			"name": "Improved Critical (+1)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, the sidekick's critical hit range increases by 1."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 4,
+			"entries": [
+				"At 4th level, the sidekick increases one ability score of their choice by 2, or the sidekick increases two ability scores of their choice by 1 each. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+        {
+			"name": "Ability Score Improvement",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 6,
+			"entries": [
+				"At 6th level, the sidekick increases one ability score of their choice by 2, or the sidekick increases two ability scores of their choice by 1 each. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+        {
+			"name": "Ability Score Improvement",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 8,
+			"entries": [
+				"At 8th level, the sidekick increases one ability score of their choice by 2, or the sidekick increases two ability scores of their choice by 1 each. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+        {
+			"name": "Ability Score Improvement",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 12,
+			"entries": [
+				"At 12th level, the sidekick increases one ability score of their choice by 2, or the sidekick increases two ability scores of their choice by 1 each. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 14,
+			"entries": [
+				"At 14th level, the sidekick increases one ability score of their choice by 2, or the sidekick increases two ability scores of their choice by 1 each. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+        {
+			"name": "Ability Score Improvement",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 16,
+			"entries": [
+				"At 16th level, the sidekick increases one ability score of their choice by 2, or the sidekick increases two ability scores of their choice by 1 each. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+        {
+			"name": "Ability Score Improvement",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 19,
+			"entries": [
+				"At 19th level, the sidekick increases one ability score of their choice by 2, or the sidekick increases two ability scores of their choice by 1 each. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+        {
+			"name": "Extra Attack (1 extra)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, the sidekick can attack twice, instead of once, whenever they takes the Attack action on their turn."
+			]
+		},
+        {
+			"name": "Battle Readiness",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 7,
+			"entries": [
+				"After the sidekick reaches 7th level, it has advantage on initiative rolls."
+			]
+		},
+		{
+			"name": "Improved Saves (+1)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 9,
+			"entries": [
+				"From 9th level, the sidekick gains a +1 bonus to saving throws."
+			]
+		},
+        {
+			"name": "Improved Defence",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 10,
+			"entries": [
+				"At 10th level, the sidekick's Armour Class increases by 1."
+			]
+		},
+        {
+			"name": "Extra Attack (2 extra)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 11,
+			"entries": [
+				"Beginning at 11th level, the sidekick can attack three times, instead of once, whenever they takes the Attack action on their turn."
+			]
+		},
+        {
+			"name": "Improved Saves (+2)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 13,
+			"entries": [
+				"From 13th level, the sidekick gains a further +1 bonus (for a total of +2) to saving throws."
+			]
+		},
+        {
+			"name": "Improved Critical (+2)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, the sidekick's critical hit range increases by a further 1 (for a total of +2)."
+			]
+		},
+		{
+			"name": "Improved Saves (+3)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 17,
+			"entries": [
+				"From 17th level, the sidekick gains a further +1 bonus (for a total of +3) to saving throws."
+			]
+		},
+        {
+			"name": "Passive Regeneration (double prof)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 18,
+			"entries": [
+				"From 18th level, the number of hit points the sidekick heals at the start of each of their turns in combat increases to double their proficiency bonus."
+			]
+		},
+        {
+			"name": "Extra Attack (3 extra)",
+			"source": "LevelUp",
+			"className": "Sidekick",
+			"classSource": "LevelUp",
+			"level": 20,
+			"entries": [
+				"At 20th level, the sidekick can attack four times, instead of once, whenever it takes the Attack action on its turn."
+			]
+		}
+	]
+}
