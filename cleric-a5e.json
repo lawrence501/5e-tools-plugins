@@ -1790,6 +1790,47 @@
 				"Blessed Strikes|Cleric|LevelUp|Fate (UA)|UA2022WondersOfTheMultiverse|LevelUp|TCE",
 				"Visions of the Future|Cleric|LevelUp|Fate (UA)|LevelUp|17"
 			]
+		},
+		{
+			"name": "Healer",
+			"shortName": "Healer",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"cure wounds|LevelUp",
+							"healing word|LevelUp"
+						],
+						"3": [
+							"lesser restoration|LevelUp",
+							"prayer of healing|LevelUp"
+						],
+						"5": [
+							"beacon of hope|LevelUp",
+							"mass healing word|LevelUp"
+						],
+						"7": [
+							"rage of the meek|LevelUp",
+							"tearful sonnet|LevelUp"
+						],
+						"9": [
+							"flame strike|LevelUp",
+							"greater restoration|LevelUp"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Heal Up|Cleric|LevelUp|Healer|LevelUp|1",
+				"Small Mercy|Cleric|LevelUp|Healer|LevelUp|1",
+				"Better Than Cure|Cleric|LevelUp|Healer|LevelUp|2",
+				"Healing Aura|Cleric|LevelUp|Healer|LevelUp|6",
+				"Balance in All Things|Cleric|LevelUp|Healer|LevelUp|8",
+				"Channel Divinity: Divine Protection|Cleric|LevelUp|Healer|LevelUp|17"
+			]
 		}
 	],
 	"classFeature": [
@@ -7683,6 +7724,79 @@
 			"header": 2,
 			"entries": [
 				"Starting at 17th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature only if you aren't {@condition incapacitated}. Once you use it, you can't do so again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Heal Up",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"subclassShortName": "Healer",
+			"subclassSource": "LevelUp",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level when you choose this archetype, you may add your Wisdom modifier to the hit points restored by healing spells of 1st-level or higher."
+			]
+		},
+		{
+			"name": "Small Mercy",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"subclassShortName": "Healer",
+			"subclassSource": "LevelUp",
+			"level": 1,
+			"entries": [
+				"Also at 1st level, you're given the power to improve the chances of allies wounded on the battlefield. You learn the {@spell spare the dying|LevelUp} cantrip. This does not count against your number of known cantrips."
+			]
+		},
+		{
+			"name": "Better Than Cure",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"subclassShortName": "Healer",
+			"subclassSource": "LevelUp",
+			"level": 2,
+			"entries": [
+				"Beginning at 2nd level, you may interject to prevent harm to your allies. When an ally within 30 feet of you is hit with an attack that deals nonmagical bludgeoning, piercing, or slashing damage, you may use your reaction to halve the damage. At 8th level, you may negate all of the attack's damage.",
+				"Once you have used this feature a number of times equal to your proficiency bonus, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Healing Aura",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"subclassShortName": "Healer",
+			"subclassSource": "LevelUp",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, your restorative powers radiate while you recuperate. Allies taking a short rest within 30 feet of you gain the maximum amount of hit points possible from any expended Hit Dice."
+			]
+		},
+		{
+			"name": "Balance in All Things",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"subclassShortName": "Healer",
+			"subclassSource": "LevelUp",
+			"level": 8,
+			"entries": [
+				"At 8th level, the damage you deal to your enemies radiates healing energy back to you and your allies. When you hit with a spell attack, you and any allies within 30 feet of you regain hit points equal to your Wisdom modifier + the spell's level. A creature cannot benefit from this effect more than once per short rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Divine Protection",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"subclassShortName": "Healer",
+			"subclassSource": "LevelUp",
+			"level": 17,
+			"entries": [
+				"Beginning at 17th level, you may bluntly deploy divine power to shield your companions from harm. When one or more allies within 30 feet would take damage from an attack, effect, or spell, you can use your reaction and Channel Divinity to negate that damage."
 			]
 		}
 	],
