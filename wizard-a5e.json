@@ -835,6 +835,20 @@
 				"Volley Master|Wizard|LevelUp|Eldritch Archer|LevelUp|10",
 				"14th Level Feature|Wizard|LevelUp|Eldritch Archer|LevelUp|14"
 			]
+		},
+		{
+			"name": "Spiritist",
+			"shortName": "Spiritist",
+			"source": "LevelUp",
+			"className": "Wizard",
+			"classSource": "LevelUp",
+			"subclassFeatures": [
+				"Spectral Influence|Wizard|LevelUp|Spiritist|LevelUp|2",
+				"Mutual Respect|Wizard|LevelUp|Spiritist|LevelUp|2",
+				"Feeding Spirits|Wizard|LevelUp|Spiritist|LevelUp|6",
+				"Perpetual Rejuvenation|Wizard|LevelUp|Spiritist|LevelUp|10",
+				"14th Level Feature|Wizard|LevelUp|Spiritist|LevelUp|14"
+			]
 		}
 	],
 	"classFeature": [
@@ -4747,6 +4761,280 @@
 			"className": "Wizard",
 			"classSource": "LevelUp",
 			"subclassShortName": "Eldritch Archer",
+			"subclassSource": "LevelUp",
+			"level": 14,
+			"entries": [
+				"From 14th level, who knows. I'm hoping we don't get here and I don't have to come up with anything."
+			]
+		},
+		{
+			"name": "Spectral Influence",
+			"source": "LevelUp",
+			"className": "Wizard",
+			"classSource": "LevelUp",
+			"subclassShortName": "Spiritist",
+			"subclassSource": "LevelUp",
+			"level": 2,
+			"entries": [
+				"From 2nd level when you choose this archetype, the spirits of the dead follow you across your travels, and allow you to channel their powers through your spells. Whenever you cast a limited-use spell, you may choose to roll on the following table. Any effects on the table apply before the spell is cast, unless specified otherwise. If a Spectral Influence effect is a spell, and it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration. Also, if the effect mentions a spell targeting an invalid target (eg. if the spell would usually target an inanimate object), the effect does not take place.",
+				{
+					"type": "table",
+					"caption": "Spectral Influence",
+					"colLabels": [
+						"d100",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"01-02",
+							"Take damage equal to the spell slot level of the spell, and the spell has no effect."
+						],
+						[
+							"03-04",
+							"If the spell targets a specific creature or creatures, it instead targets an equal amount of random creatures within a 60-foot radius of yourself, potentially including yourself, ignoring range restrictions. If the spell targets a location, that location is instead centered on a random creature within the spell's normal range. This spell cannot reduce a creature's hit points below 1."
+						],
+						[
+							"05-06",
+							"After your spell is cast, it is repeated, targeting you (or your location) instead. If the spell required concentration, the second casting shares concentration with the first. The second casting of this spell cannot reduce a creature's hit points below 1."
+						],
+						[
+							"07-08",
+							"The spell consumes two spell slots instead of one. If you have no remaining spell slots at that level, take damage equal to your Wizard level."
+						],
+						[
+							"09-10",
+							"After your spell is cast, you become unable to cast that spell again for 1 minute."
+						],
+						[
+							"11-12",
+							"After your spell is cast, you are teleported to a random unoccupied space within 5 feet of you."
+						],
+						[
+							"13-14",
+							"You are {@condition deafened|LevelUp} for {@dice 1d4} rounds. Any other creatures affected by your spell are {@condition deafened|LevelUp} for twice this duration."
+						],
+						[
+							"15-16",
+							"Yourself and all non-downed creatures you can see take damage equal to your proficiency bonus."
+						],
+						[
+							"17-18",
+							"Until the end of your next turn, any space you walk on becomes difficult terrain for a minute."
+						],
+						[
+							"19-20",
+							"You are {@condition confused|LevelUp} until the end of your next turn. While {@condition confused|LevelUp} in this way, all creatures damaged by you, and all creatures that damage you, become {@condition confused|LevelUp} until the end of their next turn."
+						],
+						[
+							"21-22",
+							"Creatures other than yourself affected by your spell are pushed 5 feet away from you."
+						],
+						[
+							"23-24",
+							"If the spell deals damage, all damage you deal until the end of your next turn is converted to the base damage type of this spell."
+						],
+						[
+							"25-26",
+							"If the spell requires concentration, you have +1 to concentration saves for the duration of the spell. Otherwise, all creatures targeted by the spell have -2 to concentration saves for a minute."
+						],
+						[
+							"27-28",
+							"If you kill a creature with this spell, you immediately case {@spell Speak with Dead|LevelUp} on that creature, ignoring range restrictions."
+						],
+						[
+							"29-30",
+							"Roll a {@dice d4}. If the result is even, add that amount to the DC or AB of the spell. If odd, reduce the spell's AB or DC by that amount."
+						],
+						[
+							"31-32",
+							"If your spell deals damage, all creatures affected by the spell are also targeted by a {@spell Sapping Sting|LevelUp} (as if it was cast by you, but ignoring range restrictions)."
+						],
+						[
+							"33-34",
+							"You gain resistance to any damage types successfully dealt by this spell."
+						],
+						[
+							"35-36",
+							"You may ask one question about an enemy targeted by this spell."
+						],
+						[
+							"37-38",
+							"For the next minute, enemies you critically hit with a spell become {@condition Sluggish|LevelUp}."
+						],
+						[
+							"39-40",
+							"If any creatures targeted by this spell die within the next minute, one creature you can see of your choice becomes {@condition poisoned}, making Constitution saving throws at the end of each of its turns to end the effect."
+						],
+						[
+							"41-42",
+							"Creatures of your choice that are hit by your spell are silenced until the end of their next turn."
+						],
+						[
+							"43-44",
+							"Creatures of your choice that are affected by the spell gain temporary hit points equal to your Wizard level."
+						],
+						[
+							"45-46",
+							"Creatures that become afflicted by a condition as a result of your spell are also {@condition Confused|LevelUp} for the duration."
+						],
+						[
+							"47-48",
+							"After this spell has finished casting, you may rewind time back to the start of your turn."
+						],
+						[
+							"49-50",
+							"You may swap your conditions with any creature affected or targeted by this spell."
+						],
+						[
+							"51-52",
+							"Roll twice on this table and take both effects in the order in which they were rolled."
+						],
+						[
+							"53-54",
+							"The spell is upcast by one spell tier if you've cast this spell under Spectral Influence in the last minute."
+						],
+						[
+							"55-56",
+							"An incorporeal spirit appears in a random unoccupied space within 5 feet of you, and moves 5 feet in a random diration at the end of each of your turns. Creatures sharing a space with the spirit have +1 to their Intelligence modifier. The spirit disappears after a minute."
+						],
+						[
+							"57-58",
+							"Creatures of your choice within 5 feet of you at the time of casting this spell have advantage on attacks against one creature targeted or affected by this spell, until the end of their next turns."
+						],
+						[
+							"59-60",
+							"Creatures of your choice affected by this spell lose all conditions on them and regain hit points equal to your Wizard level."
+						],
+						[
+							"61-62",
+							"Your next Survival check is made with advantage. If you already have advantage on that check, gain 1 expertise die instead."
+						],
+						[
+							"63-64",
+							"Your next Investigation check is made with advantage. If you already have advantage on that check, gain 1 expertise die instead."
+						],
+						[
+							"65-66",
+							"Your next use of Arcane Recovery recovers twice as many spell slots."
+						],
+						[
+							"67-68",
+							"Choose a spell you know. Until you finish a long rest, you may cast that spell as a ritual, even if it does not have a ritual tag."
+						],
+						[
+							"69-70",
+							"The next time you make a skill check, you can replace the number you roll with a 15."
+						],
+						[
+							"71-72",
+							"You cast {@spell Mage Armor|LevelUp} on a creature of your choice, regardless of range restrictions."
+						],
+						[
+							"73-74",
+							"You cast {@spell Blindness/Deafness|LevelUp}."
+						],
+						[
+							"75-76",
+							"You cast {@spell Hex|LevelUp}. When cast in this way, instead of having the target take extra damage when you hit it with an attack, you may choose an ally, and instead the target takes the extra damage whenever that ally hits that target."
+						],
+						[
+							"77-78",
+							"You cast {@spell Inflict Wounds|LevelUp} at the same spell level used by this spell, targeting any creature you can see."
+						],
+						[
+							"79-80",
+							"You cast {@spell Spirit Shroud|LevelUp} (Necrotic only). If you're already under the effect of {@spell Spirit Shroud|LevelUp}, you may target any other creature you can see."
+						],
+						[
+							"81-82",
+							"You have proficiency in all skills until you finish a long rest."
+						],
+						[
+							"83-84",
+							"Until you finish a long rest, whenever you cast a spell, you have a 15% chance to avoid consuming a spell slot."
+						],
+						[
+							"85-86",
+							"Until you finish a long rest, the next time you lose concentration on a spell as a result of a failed concentration save, you may choose to maintain concentration instead."
+						],
+						[
+							"87-88",
+							"You have +1 AC until you finish a long rest."
+						],
+						[
+							"89-90",
+							"The next time you gain experience, gain one more experience than you usually would."
+						],
+						[
+							"91-92",
+							"Your Intelligence score is considered to be 1 higher for the purpose of this spellcast."
+						],
+						[
+							"93-94",
+							"For the next minute, roll a {@dice d6} at the start of each of your turns. On a 6, you may repeat the casting of this spell as a free action, without consuming spell slots, and without requiring concentration."
+						],
+						[
+							"95-96",
+							"Next time you damage a creature, they must make a Wisdom saving throw (repeating) or become {@condition staggered|LevelUp}. If you damage multiple creatures at once, choose only one to make the saving throw. You may choose after all creatures have taken the damage."
+						],
+						[
+							"97-98",
+							"The spell is cast as a free action instead."
+						],
+						[
+							"99-100",
+							"The spell is upcast to the maximum spell slot you have available, and does not consume a spell slot."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Mutual Respect",
+			"source": "LevelUp",
+			"className": "Wizard",
+			"classSource": "LevelUp",
+			"subclassShortName": "Spiritist",
+			"subclassSource": "LevelUp",
+			"level": 2,
+			"entries": [
+				"The spirits are willing to help you, but their willingness is not unconditional. Also from 2nd level, you may not cast any spells that disrespect the cycle of life and death. These include Animate Dead, Clone, Create Undead, Danse Macabre, Gentle Repose, Magic Jar, Raise Dead, Resurrection, Revivify, Skeletal Hands, and True Resurrection."
+			]
+		},
+		{
+			"name": "Feeding Spirits",
+			"source": "LevelUp",
+			"className": "Wizard",
+			"classSource": "LevelUp",
+			"subclassShortName": "Spiritist",
+			"subclassSource": "LevelUp",
+			"level": 6,
+			"entries": [
+				"From 6th level, whenever the result of your Spectral Influence is between 1-50, gain temporary hit points equal to your Intelligence modifier. While you have temporary hit points, gain a bonus to your Spectral Influence rolls equal to your Wizard level. Furthermore, you always have the {@spell False Life|LevelUp} spell prepared, and it does not count against your number of prepared spells."
+			]
+		},
+		{
+			"name": "Perpetual Rejuvenation",
+			"source": "LevelUp",
+			"className": "Wizard",
+			"classSource": "LevelUp",
+			"subclassShortName": "Spiritist",
+			"subclassSource": "LevelUp",
+			"level": 10,
+			"entries": [
+				"From 10th level, whenever you roll for initiative, you may immediately cast {@spell False Life|LevelUp} on yourself. Additionally, whenever you cast a spell and choose to use Spectral Influence, you may also consume a first level spell slot to cast {@spell False Life|LevelUp} as a free action before you roll for Spectral Influence. When cast in this way, {@spell False Life|LevelUp} is upcast to match the spell level of the spell that was cast, and you cannot use Spectral Influence with it."
+			]
+		},
+		{
+			"name": "14th Level Feature",
+			"source": "LevelUp",
+			"className": "Wizard",
+			"classSource": "LevelUp",
+			"subclassShortName": "Spiritist",
 			"subclassSource": "LevelUp",
 			"level": 14,
 			"entries": [
