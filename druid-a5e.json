@@ -78,49 +78,62 @@
                 ]
             },
             "startingEquipment": {
-                "additionalFromBackground": true,
-                "default": [
-                    "(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|LevelUp|20 bolts} or (b) any {@filter simple weapon|items|source=phb|LevelUp|type=simple weapon}",
-                    "(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
-                    "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-                    "Two {@item dagger|LevelUp|daggers}"
-                ],
-                "goldAlternative": "{@dice 3d4 × 10|3d4 × 10|Starting Gold}",
-                "defaultData": [
-                    {
-                        "a": [
-                            "light crossbow|phb",
-                            "crossbow bolts (20)|phb"
-                        ],
-                        "b": [
-                            {
-                                "equipmentType": "weaponSimple"
-                            }
-                        ]
-                    },
-                    {
-                        "a": [
-                            "component pouch|phb"
-                        ],
-                        "b": [
-                            "druidic focus|phb"
-                        ]
-                    },
-                    {
-                        "_": [
-                            "explorer's pack|phb"
-                        ]
-                    },
-                    {
-                        "_": [
-                            {
-                                "item": "dagger|phb",
-                                "quantity": 2
-                            }
-                        ]
-                    }
-                ]
-            },
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item mace|phb} or (b) a {@item warhammer|phb} (if proficient)",
+					"(a) {@item scale mail|phb}, (b) {@item leather armor|phb}, or (c) {@item chain mail|phb} (if proficient)",
+					"(a) a {@item light crossbow|phb} and {@item Crossbow Bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"A {@item shield|phb} and a {@item holy symbol|phb}"
+				],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"mace|phb"
+						],
+						"b": [
+							"warhammer|phb"
+						]
+					},
+					{
+						"a": [
+							"scale mail|phb"
+						],
+						"b": [
+							"leather armor|phb"
+						],
+						"c": [
+							"chain mail|phb"
+						]
+					},
+					{
+						"a": [
+							"light crossbow|phb",
+							"Crossbow Bolts (20)|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"priest's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"shield|phb",
+							"holy symbol|phb"
+						]
+					}
+				]
+			},
             "multiclassing": {
                 "requirements": {
                     "wis": 13
@@ -217,7 +230,7 @@
                 },
                 {
                     "colLabels": [
-                        "{@filter Cantrips Known|spells|level=0|class=sorcerer}"
+                        "{@filter Cantrips Known|spells|level=0|class=druid}"
                     ],
                     "rows": [
                         [
