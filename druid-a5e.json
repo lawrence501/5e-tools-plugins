@@ -1500,7 +1500,47 @@
             "entries": [
                 "At 20th level, your wild shapes improve, as per the Wild Shape feature."
             ]
-        }
+        },
+        {
+			"name": "Druid Circle feature",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"level": 6,
+			"entries": [
+				"At 6th level you gain another archetype feature."
+			]
+		},
+        {
+			"name": "Druid Circle feature",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"level": 10,
+			"entries": [
+				"At 10th level you gain another archetype feature."
+			]
+		},
+        {
+			"name": "Druid Circle feature",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"level": 14,
+			"entries": [
+				"At 14th level you gain another archetype feature."
+			]
+		},
+        {
+			"name": "Druid Circle",
+			"source": "LevelUp",
+			"className": "Cleric",
+			"classSource": "LevelUp",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you choose a circle of druids to identify with."
+			]
+		}
     ],
     "subclassFeature": [
         {
