@@ -1504,7 +1504,7 @@
         {
 			"name": "Druid Circle feature",
 			"source": "LevelUp",
-			"className": "Cleric",
+			"className": "Druid",
 			"classSource": "LevelUp",
 			"level": 6,
 			"entries": [
@@ -1514,7 +1514,7 @@
         {
 			"name": "Druid Circle feature",
 			"source": "LevelUp",
-			"className": "Cleric",
+			"className": "Druid",
 			"classSource": "LevelUp",
 			"level": 10,
 			"entries": [
@@ -1524,7 +1524,7 @@
         {
 			"name": "Druid Circle feature",
 			"source": "LevelUp",
-			"className": "Cleric",
+			"className": "Druid",
 			"classSource": "LevelUp",
 			"level": 14,
 			"entries": [
@@ -1534,7 +1534,7 @@
         {
 			"name": "Druid Circle",
 			"source": "LevelUp",
-			"className": "Cleric",
+			"className": "Druid",
 			"classSource": "LevelUp",
 			"level": 2,
 			"entries": [
