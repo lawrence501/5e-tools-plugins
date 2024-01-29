@@ -538,9 +538,9 @@
 				}
 			],
 			"subclassFeatures": [
-				"College of Lore|Bard||Lore||3",
-				"Additional Magical Secrets|Bard||Lore||6",
-				"Peerless Skill|Bard||Lore||14"
+				"College of Lore|Bard|LevelUp|Lore||3",
+				"Additional Magical Secrets|Bard|LevelUp|Lore||6",
+				"Peerless Skill|Bard|LevelUp|Lore||14"
 			]
 		},
 		{
@@ -551,9 +551,9 @@
 			"classSource": "LevelUp",
 			"page": 55,
 			"subclassFeatures": [
-				"College of Valor|Bard||Valor||3",
-				"Extra Attack|Bard||Valor||6",
-				"Battle Magic|Bard||Valor||14"
+				"College of Valor|Bard|LevelUp|Valor||3",
+				"Extra Attack|Bard|LevelUp|Valor||6",
+				"Battle Magic|Bard|LevelUp|Valor||14"
 			]
 		},
 		{
@@ -564,9 +564,9 @@
 			"classSource": "LevelUp",
 			"page": 2,
 			"subclassFeatures": [
-				"College of Satire|Bard||Satire (UA)|UAKitsOfOld|3",
-				"Fool's Insight|Bard||Satire (UA)|UAKitsOfOld|6",
-				"Fool's Luck|Bard||Satire (UA)|UAKitsOfOld|14"
+				"College of Satire|Bard|LevelUp|Satire (UA)|UAKitsOfOld|3",
+				"Fool's Insight|Bard|LevelUp|Satire (UA)|UAKitsOfOld|6",
+				"Fool's Luck|Bard|LevelUp|Satire (UA)|UAKitsOfOld|14"
 			]
 		},
 		{
@@ -578,9 +578,9 @@
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"College of Swords|Bard||Swords (UA)|UAKitsOfOld|3",
-				"Extra Attack|Bard||Swords (UA)|UAKitsOfOld|6",
-				"Battle Magic|Bard||Swords (UA)|UAKitsOfOld|14"
+				"College of Swords|Bard|LevelUp|Swords (UA)|UAKitsOfOld|3",
+				"Extra Attack|Bard|LevelUp|Swords (UA)|UAKitsOfOld|6",
+				"Battle Magic|Bard|LevelUp|Swords (UA)|UAKitsOfOld|14"
 			]
 		},
 		{
@@ -592,9 +592,9 @@
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"College of Glamour|Bard||Glamour (UA)|UABardBardColleges|3",
-				"Mantle of Majesty|Bard||Glamour (UA)|UABardBardColleges|6",
-				"Mantle of Majesty|Bard||Glamour (UA)|UABardBardColleges|14"
+				"College of Glamour|Bard|LevelUp|Glamour (UA)|UABardBardColleges|3",
+				"Mantle of Majesty|Bard|LevelUp|Glamour (UA)|UABardBardColleges|6",
+				"Mantle of Majesty|Bard|LevelUp|Glamour (UA)|UABardBardColleges|14"
 			]
 		},
 		{
@@ -606,9 +606,9 @@
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"College of Whispers|Bard||Whispers (UA)|UABardBardColleges|3",
-				"Mantle of Whispers|Bard||Whispers (UA)|UABardBardColleges|6",
-				"Shadow Lore|Bard||Whispers (UA)|UABardBardColleges|14"
+				"College of Whispers|Bard|LevelUp|Whispers (UA)|UABardBardColleges|3",
+				"Mantle of Whispers|Bard|LevelUp|Whispers (UA)|UABardBardColleges|6",
+				"Shadow Lore|Bard|LevelUp|Whispers (UA)|UABardBardColleges|14"
 			]
 		},
 		{
@@ -620,9 +620,9 @@
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"College of Swords v2|Bard||Swords v2 (UA)|UARevisedSubclasses|3",
-				"Cunning Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|6",
-				"Master's Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|14"
+				"College of Swords v2|Bard|LevelUp|Swords v2 (UA)|UARevisedSubclasses|3",
+				"Cunning Flourish|Bard|LevelUp|Swords v2 (UA)|UARevisedSubclasses|6",
+				"Master's Flourish|Bard|LevelUp|Swords v2 (UA)|UARevisedSubclasses|14"
 			]
 		},
 		{
@@ -642,9 +642,9 @@
 				}
 			],
 			"subclassFeatures": [
-				"College of Glamour|Bard||Glamour|XGE|3",
-				"Mantle of Majesty|Bard||Glamour|XGE|6",
-				"Unbreakable Majesty|Bard||Glamour|XGE|14"
+				"College of Glamour|Bard|LevelUp|Glamour|XGE|3",
+				"Mantle of Majesty|Bard|LevelUp|Glamour|XGE|6",
+				"Unbreakable Majesty|Bard|LevelUp|Glamour|XGE|14"
 			]
 		},
 		{
@@ -655,9 +655,9 @@
 			"classSource": "LevelUp",
 			"page": 15,
 			"subclassFeatures": [
-				"College of Swords|Bard||Swords|XGE|3",
-				"Extra Attack|Bard||Swords|XGE|6",
-				"Master's Flourish|Bard||Swords|XGE|14"
+				"College of Swords|Bard|LevelUp|Swords|XGE|3",
+				"Extra Attack|Bard|LevelUp|Swords|XGE|6",
+				"Master's Flourish|Bard|LevelUp|Swords|XGE|14"
 			]
 		},
 		{
@@ -668,9 +668,9 @@
 			"classSource": "LevelUp",
 			"page": 16,
 			"subclassFeatures": [
-				"College of Whispers|Bard||Whispers|XGE|3",
-				"Mantle of Whispers|Bard||Whispers|XGE|6",
-				"Shadow Lore|Bard||Whispers|XGE|14"
+				"College of Whispers|Bard|LevelUp|Whispers|XGE|3",
+				"Mantle of Whispers|Bard|LevelUp|Whispers|XGE|6",
+				"Shadow Lore|Bard|LevelUp|Whispers|XGE|14"
 			]
 		},
 		{
@@ -682,9 +682,9 @@
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"College of Eloquence|Bard||Eloquence (UA)|UABardAndPaladin|3",
-				"Undeniable Logic|Bard||Eloquence (UA)|UABardAndPaladin|6",
-				"Infectious Inspiration|Bard||Eloquence (UA)|UABardAndPaladin|14"
+				"College of Eloquence|Bard|LevelUp|Eloquence (UA)|UABardAndPaladin|3",
+				"Undeniable Logic|Bard|LevelUp|Eloquence (UA)|UABardAndPaladin|6",
+				"Infectious Inspiration|Bard|LevelUp|Eloquence (UA)|UABardAndPaladin|14"
 			]
 		},
 		{
@@ -696,9 +696,9 @@
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"College of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|3",
-				"Animating Performance|Bard||Creation (UA)|UA2020SubclassesPt2|6",
-				"Performance of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|14"
+				"College of Creation|Bard|LevelUp|Creation (UA)|UA2020SubclassesPt2|3",
+				"Animating Performance|Bard|LevelUp|Creation (UA)|UA2020SubclassesPt2|6",
+				"Performance of Creation|Bard|LevelUp|Creation (UA)|UA2020SubclassesPt2|14"
 			]
 		},
 		{
@@ -709,10 +709,10 @@
 			"classSource": "LevelUp",
 			"page": 1,
 			"subclassFeatures": [
-				"College of Spirits|Bard||Spirits (UA)|UA2020SubclassesPt4|3",
-				"Spirit Session|Bard||Spirits (UA)|UA2020SubclassesPt4|6",
-				"Spiritual Focus|Bard||Spirits (UA)|UA2020SubclassesPt4|6",
-				"Mystical Connection|Bard||Spirits (UA)|UA2020SubclassesPt4|14"
+				"College of Spirits|Bard|LevelUp|Spirits (UA)|UA2020SubclassesPt4|3",
+				"Spirit Session|Bard|LevelUp|Spirits (UA)|UA2020SubclassesPt4|6",
+				"Spiritual Focus|Bard|LevelUp|Spirits (UA)|UA2020SubclassesPt4|6",
+				"Mystical Connection|Bard|LevelUp|Spirits (UA)|UA2020SubclassesPt4|14"
 			]
 		},
 		{
@@ -723,9 +723,9 @@
 			"classSource": "LevelUp",
 			"page": 28,
 			"subclassFeatures": [
-				"College of Creation|Bard||Creation|TCE|3",
-				"Animating Performance|Bard||Creation|TCE|6",
-				"Creative Crescendo|Bard||Creation|TCE|14"
+				"College of Creation|Bard|LevelUp|Creation|TCE|3",
+				"Animating Performance|Bard|LevelUp|Creation|TCE|6",
+				"Creative Crescendo|Bard|LevelUp|Creation|TCE|14"
 			]
 		},
 		{
@@ -742,10 +742,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"College of Eloquence|Bard||Eloquence|TCE|3",
-				"Unfailing Inspiration|Bard||Eloquence|TCE|6",
-				"Universal Speech|Bard||Eloquence|TCE|6",
-				"Infectious Inspiration|Bard||Eloquence|TCE|14"
+				"College of Eloquence|Bard|LevelUp|Eloquence|TCE|3",
+				"Unfailing Inspiration|Bard|LevelUp|Eloquence|TCE|6",
+				"Universal Speech|Bard|LevelUp|Eloquence|TCE|6",
+				"Infectious Inspiration|Bard|LevelUp|Eloquence|TCE|14"
 			]
 		},
 		{
@@ -765,9 +765,9 @@
 				}
 			],
 			"subclassFeatures": [
-				"College of Spirits|Bard||Spirits|VRGR|3",
-				"Spirit Session|Bard||Spirits|VRGR|6",
-				"Mystical Connection|Bard||Spirits|VRGR|14"
+				"College of Spirits|Bard|LevelUp|Spirits|VRGR|3",
+				"Spirit Session|Bard|LevelUp|Spirits|VRGR|6",
+				"Mystical Connection|Bard|LevelUp|Spirits|VRGR|14"
 			]
 		},
 		{
@@ -1476,11 +1476,11 @@
 				"The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard||Lore||3"
+					"subclassFeature": "Bonus Proficiencies|Bard|LevelUp|Lore||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cutting Words|Bard||Lore||3"
+					"subclassFeature": "Cutting Words|Bard|LevelUp|Lore||3"
 				}
 			]
 		},
@@ -1557,11 +1557,11 @@
 				"Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard||Valor||3"
+					"subclassFeature": "Bonus Proficiencies|Bard|LevelUp|Valor||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Inspiration|Bard||Valor||3"
+					"subclassFeature": "Combat Inspiration|Bard|LevelUp|Valor||3"
 				}
 			]
 		},
@@ -1636,11 +1636,11 @@
 				"Dwarves and gnomes often encourage their bards to become students of the Song of Creation. And among dragonborn, the Song of Creation is revered, for legends portray Bahamut and Tiamat-the greatest of dragons-as two of the song's first singers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mote of Potential|Bard||Creation|TCE|3"
+					"subclassFeature": "Mote of Potential|Bard|LevelUp|Creation|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Performance of Creation|Bard||Creation|TCE|3"
+					"subclassFeature": "Performance of Creation|Bard|LevelUp|Creation|TCE|3"
 				}
 			]
 		},
@@ -1745,11 +1745,11 @@
 				"Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Silver Tongue|Bard||Eloquence|TCE|3"
+					"subclassFeature": "Silver Tongue|Bard|LevelUp|Eloquence|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unsettling Words|Bard||Eloquence|TCE|3"
+					"subclassFeature": "Unsettling Words|Bard|LevelUp|Eloquence|TCE|3"
 				}
 			]
 		},
@@ -1844,7 +1844,7 @@
 				"Members of this college might have developed their powers during experiences on other worlds or planes of existence. Those who have seen the commonalities of multiple realities might have learned how to tap into truths most mortals glimpse only for a moment. Alternatively, the bard might find themselves out of step with their own home plane, reality, or time, their connections to elsewhere allowing them to manipulate the space around them. Regardless of where a bard draws their powers from, other performers might be drawn to them, either to learn their secrets or to put an end to their dangerous manipulation of the Song of Creation.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Note of Potential|Bard||Creation (UA)|UA2020SubclassesPt2|3"
+					"subclassFeature": "Note of Potential|Bard|LevelUp|Creation (UA)|UA2020SubclassesPt2|3"
 				}
 			]
 		},
@@ -1932,15 +1932,15 @@
 				"Stories of the past are powerful; they hold lessons of history, philosophy, and magic. Bards of the College of Spirits seek the stories of those from beyond the material plane. Using gaming sets, they reach out to hear their stories, but the bards have no control over what story they find.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Guiding Whispers|Bard||Spirits (UA)|UA2020SubclassesPt4|3"
+					"subclassFeature": "Guiding Whispers|Bard|LevelUp|Spirits (UA)|UA2020SubclassesPt4|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spiritual Focus|Bard||Spirits (UA)|UA2020SubclassesPt4|3"
+					"subclassFeature": "Spiritual Focus|Bard|LevelUp|Spirits (UA)|UA2020SubclassesPt4|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tales from Beyond|Bard||Spirits (UA)|UA2020SubclassesPt4|3"
+					"subclassFeature": "Tales from Beyond|Bard|LevelUp|Spirits (UA)|UA2020SubclassesPt4|3"
 				}
 			]
 		},
@@ -2114,11 +2114,11 @@
 				"Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more powerful than objective truth. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments, and plucking at heartstrings to appeal to the emotions of entire audiences.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Universal Speech|Bard||Eloquence (UA)|UABardAndPaladin|3"
+					"subclassFeature": "Universal Speech|Bard|LevelUp|Eloquence (UA)|UABardAndPaladin|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Soothing Words|Bard||Eloquence (UA)|UABardAndPaladin|3"
+					"subclassFeature": "Soothing Words|Bard|LevelUp|Eloquence (UA)|UABardAndPaladin|3"
 				}
 			]
 		},
@@ -2205,11 +2205,11 @@
 				"The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. The bards of this college are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, abusing their magic to turn their hosts into thralls.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mantle of Inspiration|Bard||Glamour (UA)|UABardBardColleges|3"
+					"subclassFeature": "Mantle of Inspiration|Bard|LevelUp|Glamour (UA)|UABardBardColleges|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enthralling Performance|Bard||Glamour (UA)|UABardBardColleges|3"
+					"subclassFeature": "Enthralling Performance|Bard|LevelUp|Glamour (UA)|UABardBardColleges|3"
 				}
 			]
 		},
@@ -2292,11 +2292,11 @@
 				"Many other bards hate the College of Whispers, viewing it as a parasite that uses the bards' reputation to acquire wealth and power. For this reason, these bards rarely reveal their true nature unless they must. They typically claim to follow some other college, or keep their true nature secret in order to better infiltrate and exploit royal courts and other settings of power.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Venomous Blades|Bard||Whispers (UA)|UABardBardColleges|3"
+					"subclassFeature": "Venomous Blades|Bard|LevelUp|Whispers (UA)|UABardBardColleges|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Venomous Words|Bard||Whispers (UA)|UABardBardColleges|3"
+					"subclassFeature": "Venomous Words|Bard|LevelUp|Whispers (UA)|UABardBardColleges|3"
 				}
 			]
 		},
@@ -2386,11 +2386,11 @@
 				"Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies' spirits while casting doubt into foes' minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard||Satire (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Bonus Proficiencies|Bard|LevelUp|Satire (UA)|UAKitsOfOld|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tumbling Fool|Bard||Satire (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Tumbling Fool|Bard|LevelUp|Satire (UA)|UAKitsOfOld|3"
 				}
 			]
 		},
@@ -2476,15 +2476,15 @@
 				"Blades who abandon lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most performer troupes. With their weapon skills as their greatest asset, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard||Swords (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Bonus Proficiencies|Bard|LevelUp|Swords (UA)|UAKitsOfOld|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fighting Style|Bard||Swords (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Fighting Style|Bard|LevelUp|Swords (UA)|UAKitsOfOld|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blade Flourish|Bard||Swords (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Blade Flourish|Bard|LevelUp|Swords (UA)|UAKitsOfOld|3"
 				}
 			]
 		},
@@ -2614,15 +2614,15 @@
 				"Blades who abandon lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most performer troupes. With their weapon skills as their greatest asset, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard||Swords v2 (UA)|UARevisedSubclasses|3"
+					"subclassFeature": "Bonus Proficiencies|Bard|LevelUp|Swords v2 (UA)|UARevisedSubclasses|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fighting Style|Bard||Swords v2 (UA)|UARevisedSubclasses|3"
+					"subclassFeature": "Fighting Style|Bard|LevelUp|Swords v2 (UA)|UARevisedSubclasses|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blade Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|3"
+					"subclassFeature": "Blade Flourish|Bard|LevelUp|Swords v2 (UA)|UARevisedSubclasses|3"
 				}
 			]
 		},
@@ -2759,15 +2759,15 @@
 				"Bards of the College of Spirits seek tales with inherent power\u2014be they legends, histories, or fictions\u2014and bring their subjects to life. Using occult trappings, these bards conjure spiritual embodiments of powerful forces to change the world once more. Such spirits are capricious, though, and what a bard summons isn't always entirely under their control.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Guiding Whispers|Bard||Spirits|VRGR|3"
+					"subclassFeature": "Guiding Whispers|Bard|LevelUp|Spirits|VRGR|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spiritual Focus|Bard||Spirits|VRGR|3"
+					"subclassFeature": "Spiritual Focus|Bard|LevelUp|Spirits|VRGR|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tales from Beyond|Bard||Spirits|VRGR|3"
+					"subclassFeature": "Tales from Beyond|Bard|LevelUp|Spirits|VRGR|3"
 				}
 			]
 		},
@@ -2935,11 +2935,11 @@
 				"The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mantle of Inspiration|Bard||Glamour|XGE|3"
+					"subclassFeature": "Mantle of Inspiration|Bard|LevelUp|Glamour|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enthralling Performance|Bard||Glamour|XGE|3"
+					"subclassFeature": "Enthralling Performance|Bard|LevelUp|Glamour|XGE|3"
 				}
 			]
 		},
@@ -3023,15 +3023,15 @@
 				"Blades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard||Swords|XGE|3"
+					"subclassFeature": "Bonus Proficiencies|Bard|LevelUp|Swords|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fighting Style|Bard||Swords|XGE|3"
+					"subclassFeature": "Fighting Style|Bard|LevelUp|Swords|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blade Flourish|Bard||Swords|XGE|3"
+					"subclassFeature": "Blade Flourish|Bard|LevelUp|Swords|XGE|3"
 				}
 			]
 		},
@@ -3152,11 +3152,11 @@
 				"Many other bards hate the College of Whispers, viewing it as a parasite that uses a bard's reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Blades|Bard||Whispers|XGE|3"
+					"subclassFeature": "Psychic Blades|Bard|LevelUp|Whispers|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Words of Terror|Bard||Whispers|XGE|3"
+					"subclassFeature": "Words of Terror|Bard|LevelUp|Whispers|XGE|3"
 				}
 			]
 		},

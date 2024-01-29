@@ -319,16 +319,16 @@
 				}
 			],
 			"subclassFeatures": [
-				"Battle Master|Fighter||Battle Master||3",
-				"Additional Maneuvers|Fighter||Battle Master||7",
-				"Additional Superiority Die|Fighter||Battle Master||7",
-				"Know Your Enemy|Fighter||Battle Master||7",
-				"Additional Maneuvers|Fighter||Battle Master||10",
-				"Improved Combat Superiority (d10)|Fighter||Battle Master||10",
-				"Additional Maneuvers|Fighter||Battle Master||15",
-				"Additional Superiority Die|Fighter||Battle Master||15",
-				"Relentless|Fighter||Battle Master||15",
-				"Improved Combat Superiority (d12)|Fighter||Battle Master||18"
+				"Battle Master|Fighter|LevelUp|Battle Master||3",
+				"Additional Maneuvers|Fighter|LevelUp|Battle Master||7",
+				"Additional Superiority Die|Fighter|LevelUp|Battle Master||7",
+				"Know Your Enemy|Fighter|LevelUp|Battle Master||7",
+				"Additional Maneuvers|Fighter|LevelUp|Battle Master||10",
+				"Improved Combat Superiority (d10)|Fighter|LevelUp|Battle Master||10",
+				"Additional Maneuvers|Fighter|LevelUp|Battle Master||15",
+				"Additional Superiority Die|Fighter|LevelUp|Battle Master||15",
+				"Relentless|Fighter|LevelUp|Battle Master||15",
+				"Improved Combat Superiority (d12)|Fighter|LevelUp|Battle Master||18"
 			]
 		},
 		{
@@ -352,11 +352,11 @@
 				}
 			],
 			"subclassFeatures": [
-				"Champion|Fighter||Champion||3",
-				"Remarkable Athlete|Fighter||Champion||7",
-				"Additional Fighting Style|Fighter||Champion||10",
-				"Superior Critical|Fighter||Champion||15",
-				"Survivor|Fighter||Champion||18"
+				"Champion|Fighter|LevelUp|Champion||3",
+				"Remarkable Athlete|Fighter|LevelUp|Champion||7",
+				"Additional Fighting Style|Fighter|LevelUp|Champion||10",
+				"Superior Critical|Fighter|LevelUp|Champion||15",
+				"Survivor|Fighter|LevelUp|Champion||18"
 			]
 		},
 		{
@@ -646,11 +646,11 @@
 				}
 			],
 			"subclassFeatures": [
-				"Eldritch Knight|Fighter||Eldritch Knight||3",
-				"War Magic|Fighter||Eldritch Knight||7",
-				"Eldritch Strike|Fighter||Eldritch Knight||10",
-				"Arcane Charge|Fighter||Eldritch Knight||15",
-				"Improved War Magic|Fighter||Eldritch Knight||18"
+				"Eldritch Knight|Fighter|LevelUp|Eldritch Knight||3",
+				"War Magic|Fighter|LevelUp|Eldritch Knight||7",
+				"Eldritch Strike|Fighter|LevelUp|Eldritch Knight||10",
+				"Arcane Charge|Fighter|LevelUp|Eldritch Knight||15",
+				"Improved War Magic|Fighter|LevelUp|Eldritch Knight||18"
 			]
 		},
 		{
@@ -661,11 +661,11 @@
 			"classSource": "LevelUp",
 			"page": 128,
 			"subclassFeatures": [
-				"Purple Dragon Knight (Banneret)|Fighter||Purple Dragon Knight (Banneret)|SCAG|3",
-				"Royal Envoy|Fighter||Purple Dragon Knight (Banneret)|SCAG|7",
-				"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|10",
-				"Bulwark|Fighter||Purple Dragon Knight (Banneret)|SCAG|15",
-				"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|18"
+				"Purple Dragon Knight (Banneret)|Fighter|LevelUp|Purple Dragon Knight (Banneret)|SCAG|3",
+				"Royal Envoy|Fighter|LevelUp|Purple Dragon Knight (Banneret)|SCAG|7",
+				"Inspiring Surge|Fighter|LevelUp|Purple Dragon Knight (Banneret)|SCAG|10",
+				"Bulwark|Fighter|LevelUp|Purple Dragon Knight (Banneret)|SCAG|15",
+				"Inspiring Surge|Fighter|LevelUp|Purple Dragon Knight (Banneret)|SCAG|18"
 			]
 		},
 		{
@@ -677,11 +677,11 @@
 			"page": 3,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Cavalier|Fighter||Cavalier (UA)|UAKitsOfOld|3",
-				"Ferocious Charger|Fighter||Cavalier (UA)|UAKitsOfOld|7",
-				"Improved Combat Superiority|Fighter||Cavalier (UA)|UAKitsOfOld|10",
-				"Relentless|Fighter||Cavalier (UA)|UAKitsOfOld|15",
-				"Improved Combat Superiority|Fighter||Cavalier (UA)|UAKitsOfOld|18"
+				"Cavalier|Fighter|LevelUp|Cavalier (UA)|UAKitsOfOld|3",
+				"Ferocious Charger|Fighter|LevelUp|Cavalier (UA)|UAKitsOfOld|7",
+				"Improved Combat Superiority|Fighter|LevelUp|Cavalier (UA)|UAKitsOfOld|10",
+				"Relentless|Fighter|LevelUp|Cavalier (UA)|UAKitsOfOld|15",
+				"Improved Combat Superiority|Fighter|LevelUp|Cavalier (UA)|UAKitsOfOld|18"
 			]
 		},
 		{
@@ -692,12 +692,12 @@
 			"classSource": "LevelUp",
 			"page": 4,
 			"subclassFeatures": [
-				"Scout|Fighter||Scout (UA)|UAKitsOfOld|3",
-				"Additional Superiority Die|Fighter||Scout (UA)|UAKitsOfOld|7",
-				"Improved Combat Superiority|Fighter||Scout (UA)|UAKitsOfOld|10",
-				"Relentless|Fighter||Scout (UA)|UAKitsOfOld|15",
-				"Additional Superiority Die|Fighter||Scout (UA)|UAKitsOfOld|15",
-				"Improved Combat Superiority|Fighter||Scout (UA)|UAKitsOfOld|18"
+				"Scout|Fighter|LevelUp|Scout (UA)|UAKitsOfOld|3",
+				"Additional Superiority Die|Fighter|LevelUp|Scout (UA)|UAKitsOfOld|7",
+				"Improved Combat Superiority|Fighter|LevelUp|Scout (UA)|UAKitsOfOld|10",
+				"Relentless|Fighter|LevelUp|Scout (UA)|UAKitsOfOld|15",
+				"Additional Superiority Die|Fighter|LevelUp|Scout (UA)|UAKitsOfOld|15",
+				"Improved Combat Superiority|Fighter|LevelUp|Scout (UA)|UAKitsOfOld|18"
 			]
 		},
 		{
@@ -709,11 +709,11 @@
 			"page": 2,
 			"spellcastingAbility": "wis",
 			"subclassFeatures": [
-				"Monster Hunter|Fighter||Monster Hunter (UA)|UAGothicHeroes|3",
-				"Monster Slayer|Fighter||Monster Hunter (UA)|UAGothicHeroes|7",
-				"Improved Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|10",
-				"Relentless|Fighter||Monster Hunter (UA)|UAGothicHeroes|15",
-				"Improved Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|18"
+				"Monster Hunter|Fighter|LevelUp|Monster Hunter (UA)|UAGothicHeroes|3",
+				"Monster Slayer|Fighter|LevelUp|Monster Hunter (UA)|UAGothicHeroes|7",
+				"Improved Combat Superiority|Fighter|LevelUp|Monster Hunter (UA)|UAGothicHeroes|10",
+				"Relentless|Fighter|LevelUp|Monster Hunter (UA)|UAGothicHeroes|15",
+				"Improved Combat Superiority|Fighter|LevelUp|Monster Hunter (UA)|UAGothicHeroes|18"
 			]
 		},
 		{
@@ -740,14 +740,14 @@
 				}
 			],
 			"subclassFeatures": [
-				"Arcane Archer|Fighter||Arcane Archer (UA)|UAFighter|3",
-				"Conjure Arrows|Fighter||Arcane Archer (UA)|UAFighter|7",
-				"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|7",
-				"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|10",
-				"Ever-Ready Arrow|Fighter||Arcane Archer (UA)|UAFighter|15",
-				"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|15",
-				"Deadly Arrow|Fighter||Arcane Archer (UA)|UAFighter|18",
-				"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|18"
+				"Arcane Archer|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|3",
+				"Conjure Arrows|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|7",
+				"Extra Arcane Shot|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|7",
+				"Extra Arcane Shot|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|10",
+				"Ever-Ready Arrow|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|15",
+				"Extra Arcane Shot|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|15",
+				"Deadly Arrow|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|18",
+				"Extra Arcane Shot|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|18"
 			]
 		},
 		{
@@ -758,11 +758,11 @@
 			"classSource": "LevelUp",
 			"page": 2,
 			"subclassFeatures": [
-				"Knight|Fighter||Knight (UA)|UAFighter|3",
-				"Noble Cavalry|Fighter||Knight (UA)|UAFighter|7",
-				"Hold the Line|Fighter||Knight (UA)|UAFighter|10",
-				"Rapid Strike|Fighter||Knight (UA)|UAFighter|15",
-				"Defender's Blade|Fighter||Knight (UA)|UAFighter|18"
+				"Knight|Fighter|LevelUp|Knight (UA)|UAFighter|3",
+				"Noble Cavalry|Fighter|LevelUp|Knight (UA)|UAFighter|7",
+				"Hold the Line|Fighter|LevelUp|Knight (UA)|UAFighter|10",
+				"Rapid Strike|Fighter|LevelUp|Knight (UA)|UAFighter|15",
+				"Defender's Blade|Fighter|LevelUp|Knight (UA)|UAFighter|18"
 			]
 		},
 		{
@@ -774,11 +774,11 @@
 			"page": 3,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Samurai|Fighter||Samurai (UA)|UAFighter|3",
-				"Elegant Courtier|Fighter||Samurai (UA)|UAFighter|7",
-				"Unbreakable Will|Fighter||Samurai (UA)|UAFighter|10",
-				"Rapid Strike|Fighter||Samurai (UA)|UAFighter|15",
-				"Strength Before Death|Fighter||Samurai (UA)|UAFighter|18"
+				"Samurai|Fighter|LevelUp|Samurai (UA)|UAFighter|3",
+				"Elegant Courtier|Fighter|LevelUp|Samurai (UA)|UAFighter|7",
+				"Unbreakable Will|Fighter|LevelUp|Samurai (UA)|UAFighter|10",
+				"Rapid Strike|Fighter|LevelUp|Samurai (UA)|UAFighter|15",
+				"Strength Before Death|Fighter|LevelUp|Samurai (UA)|UAFighter|18"
 			]
 		},
 		{
@@ -789,11 +789,11 @@
 			"classSource": "LevelUp",
 			"page": 3,
 			"subclassFeatures": [
-				"Sharpshooter|Fighter||Sharpshooter (UA)|UAFighter|3",
-				"Careful Eyes|Fighter||Sharpshooter (UA)|UAFighter|7",
-				"Close-Quarters Shooting|Fighter||Sharpshooter (UA)|UAFighter|10",
-				"Rapid Strike|Fighter||Sharpshooter (UA)|UAFighter|15",
-				"Snap Shot|Fighter||Sharpshooter (UA)|UAFighter|18"
+				"Sharpshooter|Fighter|LevelUp|Sharpshooter (UA)|UAFighter|3",
+				"Careful Eyes|Fighter|LevelUp|Sharpshooter (UA)|UAFighter|7",
+				"Close-Quarters Shooting|Fighter|LevelUp|Sharpshooter (UA)|UAFighter|10",
+				"Rapid Strike|Fighter|LevelUp|Sharpshooter (UA)|UAFighter|15",
+				"Snap Shot|Fighter|LevelUp|Sharpshooter (UA)|UAFighter|18"
 			]
 		},
 		{
@@ -820,13 +820,13 @@
 				}
 			],
 			"subclassFeatures": [
-				"Arcane Archer v2|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3",
-				"Curving Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|7",
-				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|7",
-				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|10",
-				"Ever-Ready Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|15",
-				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|15",
-				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|18"
+				"Arcane Archer v2|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|3",
+				"Curving Shot|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|7",
+				"Extra Arcane Shot|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|7",
+				"Extra Arcane Shot|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|10",
+				"Ever-Ready Shot|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|15",
+				"Extra Arcane Shot|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|15",
+				"Extra Arcane Shot|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|18"
 			]
 		},
 		{
@@ -838,11 +838,11 @@
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Cavalier v2|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|3",
-				"Ferocious Charger|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|7",
-				"Improved Combat Superiority|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|10",
-				"Relentless|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|15",
-				"Improved Combat Superiority|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|18"
+				"Cavalier v2|Fighter|LevelUp|Cavalier v2 (UA)|UARevisedClassOptions|3",
+				"Ferocious Charger|Fighter|LevelUp|Cavalier v2 (UA)|UARevisedClassOptions|7",
+				"Improved Combat Superiority|Fighter|LevelUp|Cavalier v2 (UA)|UARevisedClassOptions|10",
+				"Relentless|Fighter|LevelUp|Cavalier v2 (UA)|UARevisedClassOptions|15",
+				"Improved Combat Superiority|Fighter|LevelUp|Cavalier v2 (UA)|UARevisedClassOptions|18"
 			]
 		},
 		{
@@ -884,14 +884,14 @@
 				}
 			],
 			"subclassFeatures": [
-				"Arcane Archer|Fighter||Arcane Archer|XGE|3",
-				"Magic Arrow|Fighter||Arcane Archer|XGE|7",
-				"Curving Shot|Fighter||Arcane Archer|XGE|7",
-				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|7",
-				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|10",
-				"Ever-Ready Shot|Fighter||Arcane Archer|XGE|15",
-				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|15",
-				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|18"
+				"Arcane Archer|Fighter|LevelUp|Arcane Archer|XGE|3",
+				"Magic Arrow|Fighter|LevelUp|Arcane Archer|XGE|7",
+				"Curving Shot|Fighter|LevelUp|Arcane Archer|XGE|7",
+				"Additional Arcane Shot Option|Fighter|LevelUp|Arcane Archer|XGE|7",
+				"Additional Arcane Shot Option|Fighter|LevelUp|Arcane Archer|XGE|10",
+				"Ever-Ready Shot|Fighter|LevelUp|Arcane Archer|XGE|15",
+				"Additional Arcane Shot Option|Fighter|LevelUp|Arcane Archer|XGE|15",
+				"Additional Arcane Shot Option|Fighter|LevelUp|Arcane Archer|XGE|18"
 			]
 		},
 		{
@@ -902,11 +902,11 @@
 			"classSource": "LevelUp",
 			"page": 30,
 			"subclassFeatures": [
-				"Cavalier|Fighter||Cavalier|XGE|3",
-				"Warding Maneuver|Fighter||Cavalier|XGE|7",
-				"Hold the Line|Fighter||Cavalier|XGE|10",
-				"Ferocious Charger|Fighter||Cavalier|XGE|15",
-				"Vigilant Defender|Fighter||Cavalier|XGE|18"
+				"Cavalier|Fighter|LevelUp|Cavalier|XGE|3",
+				"Warding Maneuver|Fighter|LevelUp|Cavalier|XGE|7",
+				"Hold the Line|Fighter|LevelUp|Cavalier|XGE|10",
+				"Ferocious Charger|Fighter|LevelUp|Cavalier|XGE|15",
+				"Vigilant Defender|Fighter|LevelUp|Cavalier|XGE|18"
 			]
 		},
 		{
@@ -917,11 +917,11 @@
 			"classSource": "LevelUp",
 			"page": 31,
 			"subclassFeatures": [
-				"Samurai|Fighter||Samurai|XGE|3",
-				"Elegant Courtier|Fighter||Samurai|XGE|7",
-				"Tireless Spirit|Fighter||Samurai|XGE|10",
-				"Rapid Strike|Fighter||Samurai|XGE|15",
-				"Strength before Death|Fighter||Samurai|XGE|18"
+				"Samurai|Fighter|LevelUp|Samurai|XGE|3",
+				"Elegant Courtier|Fighter|LevelUp|Samurai|XGE|7",
+				"Tireless Spirit|Fighter|LevelUp|Samurai|XGE|10",
+				"Rapid Strike|Fighter|LevelUp|Samurai|XGE|15",
+				"Strength before Death|Fighter|LevelUp|Samurai|XGE|18"
 			]
 		},
 		{
@@ -943,11 +943,11 @@
 				}
 			],
 			"subclassFeatures": [
-				"Brute|Fighter||Brute (UA)|UAThreeSubclasses|3",
-				"Brutish Durability|Fighter||Brute (UA)|UAThreeSubclasses|7",
-				"Additional Fighting Style|Fighter||Brute (UA)|UAThreeSubclasses|10",
-				"Devastating Critical|Fighter||Brute (UA)|UAThreeSubclasses|15",
-				"Survivor|Fighter||Brute (UA)|UAThreeSubclasses|18"
+				"Brute|Fighter|LevelUp|Brute (UA)|UAThreeSubclasses|3",
+				"Brutish Durability|Fighter|LevelUp|Brute (UA)|UAThreeSubclasses|7",
+				"Additional Fighting Style|Fighter|LevelUp|Brute (UA)|UAThreeSubclasses|10",
+				"Devastating Critical|Fighter|LevelUp|Brute (UA)|UAThreeSubclasses|15",
+				"Survivor|Fighter|LevelUp|Brute (UA)|UAThreeSubclasses|18"
 			]
 		},
 		{
@@ -973,11 +973,11 @@
 				}
 			],
 			"subclassFeatures": [
-				"Rune Knight|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3",
-				"Defensive Runes|Fighter||Rune Knight (UA)|UAFighterRangerRogue|7",
-				"Great Stature|Fighter||Rune Knight (UA)|UAFighterRangerRogue|10",
-				"Rune Magic Mastery|Fighter||Rune Knight (UA)|UAFighterRangerRogue|15",
-				"Blessing of the All Father|Fighter||Rune Knight (UA)|UAFighterRangerRogue|18"
+				"Rune Knight|Fighter|LevelUp|Rune Knight (UA)|UAFighterRangerRogue|3",
+				"Defensive Runes|Fighter|LevelUp|Rune Knight (UA)|UAFighterRangerRogue|7",
+				"Great Stature|Fighter|LevelUp|Rune Knight (UA)|UAFighterRangerRogue|10",
+				"Rune Magic Mastery|Fighter|LevelUp|Rune Knight (UA)|UAFighterRangerRogue|15",
+				"Blessing of the All Father|Fighter|LevelUp|Rune Knight (UA)|UAFighterRangerRogue|18"
 			]
 		},
 		{
@@ -989,12 +989,12 @@
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Psychic Warrior|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|3",
-				"Strength of Mind|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|7",
-				"Telekinetic Bulwark|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|10",
-				"Psionic Armament Improvement|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|10",
-				"Agonizing Strikes|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|15",
-				"Psychic Dreadnaught|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|18"
+				"Psychic Warrior|Fighter|LevelUp|Psychic Warrior (UA)|UAFighterRogueWizard|3",
+				"Strength of Mind|Fighter|LevelUp|Psychic Warrior (UA)|UAFighterRogueWizard|7",
+				"Telekinetic Bulwark|Fighter|LevelUp|Psychic Warrior (UA)|UAFighterRogueWizard|10",
+				"Psionic Armament Improvement|Fighter|LevelUp|Psychic Warrior (UA)|UAFighterRogueWizard|10",
+				"Agonizing Strikes|Fighter|LevelUp|Psychic Warrior (UA)|UAFighterRogueWizard|15",
+				"Psychic Dreadnaught|Fighter|LevelUp|Psychic Warrior (UA)|UAFighterRogueWizard|18"
 			]
 		},
 		{
@@ -1005,11 +1005,11 @@
 			"classSource": "LevelUp",
 			"page": 183,
 			"subclassFeatures": [
-				"Echo Knight|Fighter||Echo Knight|EGW|3",
-				"Echo Avatar|Fighter||Echo Knight|EGW|7",
-				"Shadow Martyr|Fighter||Echo Knight|EGW|10",
-				"Reclaim Potential|Fighter||Echo Knight|EGW|15",
-				"Legion of One|Fighter||Echo Knight|EGW|18"
+				"Echo Knight|Fighter|LevelUp|Echo Knight|EGW|3",
+				"Echo Avatar|Fighter|LevelUp|Echo Knight|EGW|7",
+				"Shadow Martyr|Fighter|LevelUp|Echo Knight|EGW|10",
+				"Reclaim Potential|Fighter|LevelUp|Echo Knight|EGW|15",
+				"Legion of One|Fighter|LevelUp|Echo Knight|EGW|18"
 			]
 		},
 		{
@@ -1021,11 +1021,11 @@
 			"page": 2,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Psi Knight|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3",
-				"Telekinetic Adept|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|7",
-				"Psi-Enhanced Metabolism|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|10",
-				"Bulwark of Force|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|15",
-				"Telekinetic Master|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|18"
+				"Psi Knight|Fighter|LevelUp|Psi Knight (UA)|UA2020PsionicOptionsRevisited|3",
+				"Telekinetic Adept|Fighter|LevelUp|Psi Knight (UA)|UA2020PsionicOptionsRevisited|7",
+				"Psi-Enhanced Metabolism|Fighter|LevelUp|Psi Knight (UA)|UA2020PsionicOptionsRevisited|10",
+				"Bulwark of Force|Fighter|LevelUp|Psi Knight (UA)|UA2020PsionicOptionsRevisited|15",
+				"Telekinetic Master|Fighter|LevelUp|Psi Knight (UA)|UA2020PsionicOptionsRevisited|18"
 			]
 		},
 		{
@@ -1036,11 +1036,11 @@
 			"classSource": "LevelUp",
 			"page": 42,
 			"subclassFeatures": [
-				"Psi Warrior|Fighter||Psi Warrior|TCE|3",
-				"Telekinetic Adept|Fighter||Psi Warrior|TCE|7",
-				"Guarded Mind|Fighter||Psi Warrior|TCE|10",
-				"Bulwark of Force|Fighter||Psi Warrior|TCE|15",
-				"Telekinetic Master|Fighter||Psi Warrior|TCE|18"
+				"Psi Warrior|Fighter|LevelUp|Psi Warrior|TCE|3",
+				"Telekinetic Adept|Fighter|LevelUp|Psi Warrior|TCE|7",
+				"Guarded Mind|Fighter|LevelUp|Psi Warrior|TCE|10",
+				"Bulwark of Force|Fighter|LevelUp|Psi Warrior|TCE|15",
+				"Telekinetic Master|Fighter|LevelUp|Psi Warrior|TCE|18"
 			]
 		},
 		{
@@ -1065,14 +1065,14 @@
 				}
 			],
 			"subclassFeatures": [
-				"Rune Knight|Fighter||Rune Knight|TCE|3",
-				"Runic Shield|Fighter||Rune Knight|TCE|7",
-				"Additional Rune Known|Fighter||Rune Knight|TCE|7",
-				"Great Stature|Fighter||Rune Knight|TCE|10",
-				"Additional Rune Known|Fighter||Rune Knight|TCE|10",
-				"Master of Runes|Fighter||Rune Knight|TCE|15",
-				"Additional Rune Known|Fighter||Rune Knight|TCE|15",
-				"Runic Juggernaut|Fighter||Rune Knight|TCE|18"
+				"Rune Knight|Fighter|LevelUp|Rune Knight|TCE|3",
+				"Runic Shield|Fighter|LevelUp|Rune Knight|TCE|7",
+				"Additional Rune Known|Fighter|LevelUp|Rune Knight|TCE|7",
+				"Great Stature|Fighter|LevelUp|Rune Knight|TCE|10",
+				"Additional Rune Known|Fighter|LevelUp|Rune Knight|TCE|10",
+				"Master of Runes|Fighter|LevelUp|Rune Knight|TCE|15",
+				"Additional Rune Known|Fighter|LevelUp|Rune Knight|TCE|15",
+				"Runic Juggernaut|Fighter|LevelUp|Rune Knight|TCE|18"
 			]
 		},
         {
@@ -1690,11 +1690,11 @@
 				"A mysterious and feared frontline warrior of the Kryn Dynasty, the Echo Knight has mastered the art of using dunamis to summon the fading shades of unrealized timelines to aid them in battle. Surrounded by echoes of their own might, they charge into the fray as a cycling swarm of shadows and strikes.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Manifest Echo|Fighter||Echo Knight|EGW|3"
+					"subclassFeature": "Manifest Echo|Fighter|LevelUp|Echo Knight|EGW|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unleash Incarnation|Fighter||Echo Knight|EGW|3"
+					"subclassFeature": "Unleash Incarnation|Fighter|LevelUp|Echo Knight|EGW|3"
 				}
 			]
 		},
@@ -1815,23 +1815,23 @@
 				"Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Student of War|Fighter||Battle Master||3"
+					"subclassFeature": "Student of War|Fighter|LevelUp|Battle Master||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Superiority|Fighter||Battle Master||3"
+					"subclassFeature": "Combat Superiority|Fighter|LevelUp|Battle Master||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Maneuvers|Fighter||Battle Master||3"
+					"subclassFeature": "Maneuvers|Fighter|LevelUp|Battle Master||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Maneuver Options|Fighter||Battle Master||3|UAClassFeatureVariants"
+					"subclassFeature": "Maneuver Options|Fighter|LevelUp|Battle Master||3|UAClassFeatureVariants"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Maneuver Options|Fighter||Battle Master||3|TCE"
+					"subclassFeature": "Maneuver Options|Fighter|LevelUp|Battle Master||3|TCE"
 				}
 			]
 		},
@@ -2254,7 +2254,7 @@
 				"The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Improved Critical|Fighter||Champion||3"
+					"subclassFeature": "Improved Critical|Fighter|LevelUp|Champion||3"
 				}
 			]
 		},
@@ -2352,11 +2352,11 @@
 				"The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic\u2014abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Fighter||Eldritch Knight||3"
+					"subclassFeature": "Spellcasting|Fighter|LevelUp|Eldritch Knight||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Weapon Bond|Fighter||Eldritch Knight||3"
+					"subclassFeature": "Weapon Bond|Fighter|LevelUp|Eldritch Knight||3"
 				}
 			]
 		},
@@ -2522,11 +2522,11 @@
 				"A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restriction: Knighthood|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
+					"subclassFeature": "Restriction: Knighthood|Fighter|LevelUp|Purple Dragon Knight (Banneret)|SCAG|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rallying Cry|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
+					"subclassFeature": "Rallying Cry|Fighter|LevelUp|Purple Dragon Knight (Banneret)|SCAG|3"
 				}
 			]
 		},
@@ -2633,7 +2633,7 @@
 				"As a Psi Warrior, you might have honed your psionic abilities through solo discipline, unlocked it under the tutelage of a master, or refined it at an academy dedicated to wielding the mind's power as both weapon and shield.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Power|Fighter||Psi Warrior|TCE|3"
+					"subclassFeature": "Psionic Power|Fighter|LevelUp|Psi Warrior|TCE|3"
 				}
 			]
 		},
@@ -2762,15 +2762,15 @@
 				"Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant's work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant's craft and learned how to apply magic runes to empower your equipment.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Fighter||Rune Knight|TCE|3"
+					"subclassFeature": "Bonus Proficiencies|Fighter|LevelUp|Rune Knight|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rune Carver|Fighter||Rune Knight|TCE|3"
+					"subclassFeature": "Rune Carver|Fighter|LevelUp|Rune Knight|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Giant's Might|Fighter||Rune Knight|TCE|3"
+					"subclassFeature": "Giant's Might|Fighter|LevelUp|Rune Knight|TCE|3"
 				}
 			]
 		},
@@ -3013,19 +3013,19 @@
 				"As a Psi Knight, you might have honed your psionic abilities through solo discipline, unlocked it under the tutelage of a master, or refined it at an academy dedicated to wielding the mind's power as both weapon and shield.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Talent|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
+					"subclassFeature": "Psionic Talent|Fighter|LevelUp|Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Talent Options|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
+					"subclassFeature": "Psionic Talent Options|Fighter|LevelUp|Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Changing the Die's Size|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
+					"subclassFeature": "Changing the Die's Size|Fighter|LevelUp|Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psi Replenishment|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
+					"subclassFeature": "Psi Replenishment|Fighter|LevelUp|Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
 				}
 			]
 		},
@@ -3198,15 +3198,15 @@
 				"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Among elves, Arcane Archers are some of their most elite warriors. These archers stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Arrow|Fighter||Arcane Archer (UA)|UAFighter|3"
+					"subclassFeature": "Arcane Arrow|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Archer's Lore|Fighter||Arcane Archer (UA)|UAFighter|3"
+					"subclassFeature": "Archer's Lore|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Shots|Fighter||Arcane Archer (UA)|UAFighter|3"
+					"subclassFeature": "Arcane Shots|Fighter|LevelUp|Arcane Archer (UA)|UAFighter|3"
 				}
 			]
 		},
@@ -3428,11 +3428,11 @@
 				"The Knight is a colossus on the battlefield who can shrug off attacks and protect allies from harm. Knights fight from the saddle when they can, and in combat they are expected to seek out and lock down the mightiest of the enemy's forces. On adventures, they are the armored bulwark that strives to keep the rest of the party safe.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Born to the Saddle|Fighter||Knight (UA)|UAFighter|3"
+					"subclassFeature": "Born to the Saddle|Fighter|LevelUp|Knight (UA)|UAFighter|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Implacable Mark|Fighter||Knight (UA)|UAFighter|3"
+					"subclassFeature": "Implacable Mark|Fighter|LevelUp|Knight (UA)|UAFighter|3"
 				}
 			]
 		},
@@ -3537,7 +3537,7 @@
 				"The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai's willpower is nearly unbreakable, and the enemies in a Samurai's path have two choices: yield or die fighting.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fighting Spirit|Fighter||Samurai (UA)|UAFighter|3"
+					"subclassFeature": "Fighting Spirit|Fighter|LevelUp|Samurai (UA)|UAFighter|3"
 				}
 			]
 		},
@@ -3627,7 +3627,7 @@
 				"The Sharpshooter is a master of ranged combat. An excellent sniper and eagle-eyed scout, this fighter is a perilous foe who can defeat an entire war band so long as they are kept at range.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Steady Aim|Fighter||Sharpshooter (UA)|UAFighter|3"
+					"subclassFeature": "Steady Aim|Fighter|LevelUp|Sharpshooter (UA)|UAFighter|3"
 				}
 			]
 		},
@@ -3724,19 +3724,19 @@
 				"You discovered how to enhance your martial prowess using the supernatural power of runes. The ancient practice of rune magic originated with giants. {@i Skiltgravr} (\"rune cutters\") can be found among any type of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant's work carved into a hill or cave, learned of the runes from a traveling sage, or met the giant in person, you studied the giant's craft. In time, you learned how to carve and apply runes to your equipment and how to invoke their magic, ultimately becoming a Rune Knight.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3"
+					"subclassFeature": "Bonus Proficiencies|Fighter|LevelUp|Rune Knight (UA)|UAFighterRangerRogue|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rune Magic|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3"
+					"subclassFeature": "Rune Magic|Fighter|LevelUp|Rune Knight (UA)|UAFighterRangerRogue|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rune Options|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3"
+					"subclassFeature": "Rune Options|Fighter|LevelUp|Rune Knight (UA)|UAFighterRangerRogue|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Giant Might|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3"
+					"subclassFeature": "Giant Might|Fighter|LevelUp|Rune Knight (UA)|UAFighterRangerRogue|3"
 				}
 			]
 		},
@@ -3918,11 +3918,11 @@
 				"As a Psychic Warrior, you might have honed your psionic abilities through your own disciplined practice, unlocked it under the tutelage of a master, or developed it at an academy dedicated to wielding the mind's power as both weapon and shield.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psionic Armament|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|3"
+					"subclassFeature": "Psionic Armament|Fighter|LevelUp|Psychic Warrior (UA)|UAFighterRogueWizard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Telekinetic Hand|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|3"
+					"subclassFeature": "Telekinetic Hand|Fighter|LevelUp|Psychic Warrior (UA)|UAFighterRogueWizard|3"
 				}
 			]
 		},
@@ -4070,15 +4070,15 @@
 				"As an archetypal Monster Hunter, you are an expert at defeating supernatural threats. Typically mentored by an older, experienced Monster Hunter, you learn to overcome a variety of unnatural defenses and attacks, including those of undead, lycanthropes, and other creatures of horror.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Fighter||Monster Hunter (UA)|UAGothicHeroes|3"
+					"subclassFeature": "Bonus Proficiencies|Fighter|LevelUp|Monster Hunter (UA)|UAGothicHeroes|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|3"
+					"subclassFeature": "Combat Superiority|Fighter|LevelUp|Monster Hunter (UA)|UAGothicHeroes|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Mysticism|Fighter||Monster Hunter (UA)|UAGothicHeroes|3"
+					"subclassFeature": "Hunter's Mysticism|Fighter|LevelUp|Monster Hunter (UA)|UAGothicHeroes|3"
 				}
 			]
 		},
@@ -4227,15 +4227,15 @@
 				"The archetypal Cavalier excels at mounted combat. Usually born to nobility and raised in a royal court, a Cavalier is equally at home leading a cavalry charge or exchanging witty repartee at a state dinner.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Fighter||Cavalier (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Bonus Proficiencies|Fighter|LevelUp|Cavalier (UA)|UAKitsOfOld|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Born to the Saddle|Fighter||Cavalier (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Born to the Saddle|Fighter|LevelUp|Cavalier (UA)|UAKitsOfOld|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Superiority|Fighter||Cavalier (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Combat Superiority|Fighter|LevelUp|Cavalier (UA)|UAKitsOfOld|3"
 				}
 			]
 		},
@@ -4384,15 +4384,15 @@
 				"The archetypal Scout excels at finding safe passage through dangerous regions. Scouts usually favor light armor and ranged weapons, but they are comfortable using heavier gear when faced with intense fighting.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Fighter||Scout (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Bonus Proficiencies|Fighter|LevelUp|Scout (UA)|UAKitsOfOld|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Superiority|Fighter||Scout (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Combat Superiority|Fighter|LevelUp|Scout (UA)|UAKitsOfOld|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Natural Explorer|Fighter||Scout (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Natural Explorer|Fighter|LevelUp|Scout (UA)|UAKitsOfOld|3"
 				}
 			]
 		},
@@ -4566,19 +4566,19 @@
 				"The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Drawn to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|3"
+					"subclassFeature": "Bonus Proficiencies|Fighter|LevelUp|Cavalier v2 (UA)|UARevisedClassOptions|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Born to the Saddle|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|3"
+					"subclassFeature": "Born to the Saddle|Fighter|LevelUp|Cavalier v2 (UA)|UARevisedClassOptions|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Superiority|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|3"
+					"subclassFeature": "Combat Superiority|Fighter|LevelUp|Cavalier v2 (UA)|UARevisedClassOptions|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Maneuvers|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|3"
+					"subclassFeature": "Maneuvers|Fighter|LevelUp|Cavalier v2 (UA)|UARevisedClassOptions|3"
 				}
 			]
 		},
@@ -4754,19 +4754,19 @@
 				"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Among elves, Arcane Archers are some of their most elite warriors. These archers stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Magic Arrow|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3"
+					"subclassFeature": "Magic Arrow|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Arrow|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3"
+					"subclassFeature": "Arcane Arrow|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Archer's Lore|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3"
+					"subclassFeature": "Archer's Lore|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3"
+					"subclassFeature": "Arcane Shot|Fighter|LevelUp|Arcane Archer v2 (UA)|UARevisedSubclasses|3"
 				}
 			]
 		},
@@ -4964,7 +4964,7 @@
 				"Brutes are simple warriors who rely on mighty attacks and their own durability to overcome their enemies. Some brutes combine this physical might with tactical cunning. Others just hit things until those things stop hitting back.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Brute Force|Fighter||Brute (UA)|UAThreeSubclasses|3"
+					"subclassFeature": "Brute Force|Fighter|LevelUp|Brute (UA)|UAThreeSubclasses|3"
 				}
 			]
 		},
@@ -5082,15 +5082,15 @@
 				"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Archer Lore|Fighter||Arcane Archer|XGE|3"
+					"subclassFeature": "Arcane Archer Lore|Fighter|LevelUp|Arcane Archer|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Shot|Fighter||Arcane Archer|XGE|3"
+					"subclassFeature": "Arcane Shot|Fighter|LevelUp|Arcane Archer|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Shot Options|Fighter||Arcane Archer|XGE|3"
+					"subclassFeature": "Arcane Shot Options|Fighter|LevelUp|Arcane Archer|XGE|3"
 				}
 			]
 		},
@@ -5295,15 +5295,15 @@
 				"The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Compelled to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Fighter||Cavalier|XGE|3"
+					"subclassFeature": "Bonus Proficiency|Fighter|LevelUp|Cavalier|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Born to the Saddle|Fighter||Cavalier|XGE|3"
+					"subclassFeature": "Born to the Saddle|Fighter|LevelUp|Cavalier|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Unwavering Mark|Fighter||Cavalier|XGE|3"
+					"subclassFeature": "Unwavering Mark|Fighter|LevelUp|Cavalier|XGE|3"
 				}
 			]
 		},
@@ -5423,11 +5423,11 @@
 				"The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai's resolve is nearly unbreakable, and the enemies in a Samurai's path have two choices: yield or die fighting.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Fighter||Samurai|XGE|3"
+					"subclassFeature": "Bonus Proficiency|Fighter|LevelUp|Samurai|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fighting Spirit|Fighter||Samurai|XGE|3"
+					"subclassFeature": "Fighting Spirit|Fighter|LevelUp|Samurai|XGE|3"
 				}
 			]
 		},
