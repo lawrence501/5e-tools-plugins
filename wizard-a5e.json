@@ -4781,7 +4781,7 @@
 					"type": "table",
 					"caption": "Spectral Influence",
 					"colLabels": [
-						"d100",
+						"{@dice min(d100 + summonclasslevel, 100)}",
 						"Effect"
 					],
 					"colStyles": [
@@ -4843,7 +4843,7 @@
 						],
 						[
 							"27-28",
-							"If you kill a creature with this spell, you immediately case {@spell Speak with Dead|LevelUp} on that creature, ignoring range restrictions."
+							"If you kill a creature with this spell, you immediately cast {@spell Speak with Dead|LevelUp} on that creature, ignoring range restrictions."
 						],
 						[
 							"29-30",
@@ -4899,7 +4899,7 @@
 						],
 						[
 							"55-56",
-							"An incorporeal spirit appears in a random unoccupied space within 5 feet of you, and moves 5 feet in a random diration at the end of each of your turns. Creatures sharing a space with the spirit have +1 to their Intelligence modifier. The spirit disappears after a minute."
+							"An incorporeal spirit appears in a random unoccupied space within 5 feet of you, and moves 5 feet in a random direction at the end of each of your turns. Creatures sharing a space with the spirit have +1 to their Intelligence modifier. The spirit disappears after a minute."
 						],
 						[
 							"57-58",
@@ -5050,7 +5050,7 @@
 				"ES"
 			],
 			"entries": [
-				"You can use an action to increase your vertical jump distance to 15 feet until the end of your turn. When you jump in this way, you can also glide with the updraft, allowing you to move 10 feet horizontally for every 5 feet you descen vertically."
+				"You can use an action to increase your vertical jump distance to 15 feet until the end of your turn. When you jump in this way, you can also glide with the updraft, allowing you to move 10 feet horizontally for every 5 feet you descend vertically."
 			]
 		},
 		{
