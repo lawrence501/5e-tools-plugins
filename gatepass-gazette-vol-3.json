@@ -53,23 +53,23 @@
 				"stealth": "+3 (+1d4)",
 				"survival": "+5"
 			},
-            "immune": [
-                "poison"
-            ],
+			"immune": [
+				"poison"
+			],
 			"vulnerable": [
 				"radiant",
 				"slashing"
 			],
-            "conditionImmune": [
-                "poisoned"
-            ],
+			"conditionImmune": [
+				"poisoned"
+			],
 			"senses": [
 				"darkvision 60 ft."
 			],
 			"passive": 14,
 			"languages": [
 				"sylvan",
-                "undercommon"
+				"undercommon"
 			],
 			"cr": "1/2",
 			"trait": [
@@ -91,13 +91,13 @@
 						"Once per turn, the mykand can use 10 feet of movement to enter a mushroom ring and then teleport up to 30 feet away."
 					]
 				},
-                {
+				{
 					"name": "Mykand Resilience",
 					"entries": [
 						"The mykand cannot become diseased."
 					]
 				},
-                {
+				{
 					"name": "Web Walker",
 					"entries": [
 						"The mykand ignores movement restrictions caused by webbing."
@@ -125,18 +125,18 @@
 				}
 			]
 		},
-        {
+		{
 			"name": "Kanos Spawn",
 			"source": "LevelUp",
 			"size": [
 				"M"
 			],
 			"type": {
-                "type": "fiend",
-                "tags": [
-                    "demon"
-                ]
-            },
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
 			"alignment": [
 				"U"
 			],
@@ -154,7 +154,7 @@
 			},
 			"speed": {
 				"walk": 60,
-                "climb": 30
+				"climb": 30
 			},
 			"str": 16,
 			"dex": 14,
@@ -162,19 +162,19 @@
 			"int": 4,
 			"wis": 12,
 			"cha": 5,
-            "skill": {
-                "stealth": "+4"
-            },
-            "resist": [
-                "cold"
-            ],
-            "senses": [
-                "darkvision 120 ft."
-            ],
+			"skill": {
+				"stealth": "+4"
+			},
+			"resist": [
+				"cold"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
 			"passive": 11,
-            "languages": [
-                "understands abyssal but cannot speak"
-            ],
+			"languages": [
+				"understands abyssal but cannot speak"
+			],
 			"cr": "4",
 			"trait": [
 				{
@@ -183,7 +183,7 @@
 						"The raptor has advantage on attack rolls against a creature if at least one of the raptor's allies is within 5 feet of the creature and not {@condition incapacitated}."
 					]
 				},
-                {
+				{
 					"name": "Wall Walker",
 					"entries": [
 						"The spawn can use its climb speed even on difficult surfaces, including upside down on ceilings."
@@ -191,7 +191,7 @@
 				}
 			],
 			"action": [
-                {
+				{
 					"name": "Multiattack",
 					"entries": [
 						"The Kanos spawn makes two attacks with its claws."
@@ -203,11 +203,11 @@
 						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage. If the target is a Medium or smaller creature, it makes a {@dc 13} Strength saving throw, falling {@condition prone} on a failure."
 					]
 				},
-                {
+				{
 					"name": "Icy Breath (Recharge 6)",
 					"entries": [
 						"The spawn releases an icy blast of frigid air in a 20-foot cone. All creatures in the area must make a {@dc 14} Constitution saving throw, taking 10 ({@damage 2d6 + 3}) cold damage and becoming {@condition restrained} by a layer of ice on a failure. On a succcess, the creature takes half damage and is not {@condition restrained}. Creatures remain {@condition restrained} for 1 minute or until they spend an action to free themselves.",
-                        "Until the start of its next turn the area is lightly obscured and the spawn can use a bonus action to attempt to hide, making its Stealth check with advantage."
+						"Until the start of its next turn the area is lightly obscured and the spawn can use a bonus action to attempt to hide, making its Stealth check with advantage."
 					]
 				}
 			]
@@ -1183,25 +1183,27 @@
 			"source": "LevelUp",
 			"level": 2,
 			"school": "T",
-            "subschools": [
-                "affliction",
-                "prismatic",
-                "transformation"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"affliction",
+				"prismatic",
+				"transformation"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1218,74 +1220,76 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a mechanical device that has been completely disassembled"
+				"m": "a mechanical device that has been completely disassembled"
 			},
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Charisma negates"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One creature"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Charisma negates"
+					]
+				},
 				"You imagine a creature you can see within range in a deconstructed and simplified form. The target must make a Charisma saving throw. On a failed save, the target becomes a barely recognisable, abstracted version of itself until the spell ends.",
 				"An abstracted creature's speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.",
 				"At the end of each of its turns, an abstracted target repeats the saving throw to end the spell's effect on it."
 			],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "You can choose one additional target for each slot level above 1st."
-                    ]
-                }
-            ],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cast at Higher Levels",
+					"entries": [
+						"You can choose one additional target for each slot level above 1st."
+					]
+				}
+			],
 			"miscTags": [
 				"SGT"
 			],
-            "saving throw": [
-                "charisma"
-            ]
+			"saving throw": [
+				"charisma"
+			]
 		},
 		{
 			"name": "Animated Painting",
 			"source": "LevelUp",
 			"level": 6,
 			"school": "T",
-            "subschools": [
-                "planar",
-                "prismatic",
-                "transformation",
-                "utility"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Warlock",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"planar",
+				"prismatic",
+				"transformation",
+				"utility"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1306,21 +1310,21 @@
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "A single drawing or painting that is Medium or smaller"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"A single drawing or painting that is Medium or smaller"
+					]
+				},
 				"The scene depicted within an artwork transforms into an extradimensional space containing any objects or creatures depicted within the painting, and such objects and creatures are manifested as impressions. The extradimensional space is a 100-foot cube, unless the depicted space would be smaller. The picture's frame forms the entryway into this extradimensional space. No spells, attacks, or environmental effects can cross into or out of this extradimensional space, but creatures and objects can pass through it unimpeded.",
 				"Any object or creature manifested as an impression by this spell retains their proportions, scale, and artistic style. For example, a painting depicting a 6-inch long dragon made of abstract shapes targeted by this spell would manifest a Tiny-sized abstract dragon impression.",
 				"Non-magical objects manifested as impressions by this spell are functional but difficult to use, and any attacks or checks made with them are made at disadvantage. Magical objects manifested as impressions have no magical qualities and act as mundane versions of themselves.",
@@ -1416,15 +1420,15 @@
 					]
 				}
 			],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "The duration of the spell increases by 10 minutes for each slot level above 6th."
-                    ]
-                }
-            ],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cast at Higher Levels",
+					"entries": [
+						"The duration of the spell increases by 10 minutes for each slot level above 6th."
+					]
+				}
+			],
 			"miscTags": [
 				"OBJ",
 				"PS"
@@ -1435,24 +1439,26 @@
 			"source": "LevelUp",
 			"level": 2,
 			"school": "V",
-            "subschools": [
-                "arcane",
-                "prismatic"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"arcane",
+				"prismatic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1468,7 +1474,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a diamond worth at least 50 gp"
+				"m": "a diamond worth at least 50 gp"
 			},
 			"duration": [
 				{
@@ -1476,70 +1482,72 @@
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Area",
-                    "entries": [
-                        "Line 30 feet long and 5 feet wide"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Area",
+					"entries": [
+						"Line 30 feet long and 5 feet wide"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Dexterity halves"
+					]
+				},
 				"You pour prismatic energy into a gemstone refracting the energy until it fires off as a chromatic beam in a direction you choose. Choose red (fire), orange (acid), yellow (lightning), green (poison), blue (cold), or indigo (thunder) for the colour of beam you create. Each creature in the area takes {@damage 4d8} damage of the chosen type."
 			],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "The damage increases by 1d8 for each slot level above 2nd."
-                    ]
-                }
-            ],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cast at Higher Levels",
+					"entries": [
+						"The damage increases by 1d8 for each slot level above 2nd."
+					]
+				}
+			],
 			"areaTags": [
 				"L"
 			],
-            "damageInflict": [
-                "fire",
+			"damageInflict": [
+				"fire",
 				"acid",
 				"lightning",
 				"poison",
 				"cold",
 				"thunder"
-            ],
-            "saving throw": [
-                "dexterity"
-            ]
+			],
+			"saving throw": [
+				"dexterity"
+			]
 		},
 		{
 			"name": "Glamour",
 			"source": "LevelUp",
 			"level": 0,
 			"school": "I",
-            "subschools": [
-                "enhancement",
-                "obscurement",
-                "prismatic"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"enhancement",
+				"obscurement",
+				"prismatic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1555,15 +1563,15 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a drop of skin cream"
+				"m": "a drop of skin cream"
 			},
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 10
-                    }
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
 				}
 			],
 			"entries": [
@@ -1580,25 +1588,27 @@
 			"source": "LevelUp",
 			"level": 2,
 			"school": "V",
-            "subschools": [
-                "arcane",
-                "obscurement",
-                "prismatic"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"arcane",
+				"obscurement",
+				"prismatic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1615,37 +1625,37 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a piece of coloured chalk"
+				"m": "a piece of coloured chalk"
 			},
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "hour",
-                        "amount": 1
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Area",
-                    "entries": [
-                        "20-foot radius sphere"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Area",
+					"entries": [
+						"20-foot radius sphere"
+					]
+				},
 				"You create a heavily obscured area of multicoloured fog. The fog spreads around corners and can be dispersed by a moderate wind (at least 10 miles per hour). Any creature that moves through this cloud on their turn or that starts their turn there is covered in a rainbow of colourful pigments and while covered in this way they leave multicoloured footprints and trails of pigment behind them as they move for the duration of the spell. Checks made to see or track creatures covered in such pigment are made at advantage. These pigments are removed if the affected creature is fully submerged in water or similar liquid."
 			],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "The spell's radius increases by 20 feet for each slot level above 2nd."
-                    ]
-                }
-            ],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cast at Higher Levels",
+					"entries": [
+						"The spell's radius increases by 20 feet for each slot level above 2nd."
+					]
+				}
+			],
 			"miscTags": [
 				"ADV",
 				"OBS"
@@ -1659,24 +1669,26 @@
 			"source": "LevelUp",
 			"level": 5,
 			"school": "V",
-            "subschools": [
-                "arcane",
-                "prismatic"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"arcane",
+				"prismatic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1692,7 +1704,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a paint or pigment set containing multiple colours"
+				"m": "a paint or pigment set containing multiple colours"
 			},
 			"duration": [
 				{
@@ -1700,13 +1712,13 @@
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Area",
-                    "entries": [
-                        "35-foot cube"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Area",
+					"entries": [
+						"35-foot cube"
+					]
+				},
 				"Even a chaotic mess can be made useful using prisimancy. You flood the area around yourself with multicoloured pigments and each creature (except you) in a 35-foot cube centered on you must make a Dexterity saving throw. For each target, roll a {@dice d8} to determine which colour of pigment affects it.",
 				{
 					"type": "list",
@@ -1777,47 +1789,49 @@
 			"areaTags": [
 				"C"
 			],
-            "damageInflict": [
-                "fire",
+			"damageInflict": [
+				"fire",
 				"acid",
 				"lightning",
 				"poison",
 				"cold"
-            ],
-            "saving throw": [
-                "dexterity",
+			],
+			"saving throw": [
+				"dexterity",
 				"strength",
 				"constitution"
-            ],
-            "conditionInflict": [
-                "restrained",
-                "blinded"
-            ]
+			],
+			"conditionInflict": [
+				"restrained",
+				"blinded"
+			]
 		},
 		{
 			"name": "Resplendent Refraction",
 			"source": "LevelUp",
 			"level": 4,
 			"school": "T",
-            "subschools": [
-                "prismatic",
-                "protection",
-                "radiant"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"prismatic",
+				"protection",
+				"radiant"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1833,33 +1847,33 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a gemstone worth at least 50 gp"
+				"m": "a gemstone worth at least 50 gp"
 			},
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One willing creature"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One willing creature"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Constitution halves"
+					]
+				},
 				"The target's skin becomes reflective and faceted like a finely cut gemstone. Until the spell ends, the target can use their action to fire a beam of reflected light in a 30-foot line. Each creature in that area must make a Constitution saving throw, taking an amount of damage determined by the light level around the target on a failed save, or half as much on a successful one.",
 				"In addition, whenever the target would take radiant damage (from a source other than this spell), it may instead reflect is as a reaction. If it does, it gains resistance to the triggering damage and may immediately fire a beam at the attacker as if it were in bright light.",
 				{
@@ -1889,60 +1903,62 @@
 					]
 				}
 			],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "This spell's damage increases by {@damage 1d10} in both dim light and bright light for each slot level above 4th."
-                    ]
-                }
-            ],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cast at Higher Levels",
+					"entries": [
+						"This spell's damage increases by {@damage 1d10} in both dim light and bright light for each slot level above 4th."
+					]
+				}
+			],
 			"areaTags": [
 				"L"
 			],
-            "damageInflict": [
-                "radiant"
-            ],
-            "saving throw": [
-                "constitution"
-            ],
-            "conditionInflict": [
-                "blinded"
-            ]
+			"damageInflict": [
+				"radiant"
+			],
+			"saving throw": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"blinded"
+			]
 		},
 		{
 			"name": "Burst of Strength",
 			"source": "LevelUp",
 			"level": 1,
 			"school": "T",
-            "subschools": [
-                "enhancement",
-                "movement",
-                "protection"
-            ],
-            "fromClassList": [
-				{
-					"name": "Bard",
-					"source": "PHB"
-				},
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-				{
-					"name": "Sorcerer",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"enhancement",
+				"movement",
+				"protection"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1980,20 +1996,22 @@
 			"source": "LevelUp",
 			"level": 4,
 			"school": "N",
-            "subschools": [
-                "healing",
-                "necrotic"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Warlock",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"healing",
+				"necrotic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2017,59 +2035,61 @@
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One creature"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Constitution halves"
+					]
+				},
 				"You rend the lifeforce from a creature to sustain yourself. The target of this spell takes {@damage 6d8} necrotic damage. Undead and constructs are immune to this spell. If this damage reduces it to 0 hit points, it is killed and you reduce 1 level of your choice of either your {@condition fatigue|LevelUp} or {@condition strife|LevelUp}."
 			],
 			"areaTags": [
 				"ST"
 			],
-            "damageInflict": [
-                "necrotic"
-            ],
-            "saving throw": [
-                "constitution"
-            ]
+			"damageInflict": [
+				"necrotic"
+			],
+			"saving throw": [
+				"constitution"
+			]
 		},
 		{
 			"name": "Dementing Touch",
 			"source": "LevelUp",
 			"level": 5,
 			"school": "E",
-            "subschools": [
-                "affliction",
-                "evil"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-				{
-					"name": "Sorcerer",
-					"source": "PHB"
-				},
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"affliction",
+				"evil"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2089,73 +2109,75 @@
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One creature"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Wisdom negates"
+					]
+				},
 				"Your touch implants a vile plague in a creature's mind. While a creature is under the effects of this spell and can see you, you can use an action to force it to make a Wisdom saving throw. On a failure, it takes a level of {@condition strife|LevelUp}. You can only inflict a number of levels in {@condition strife|LevelUp} equal to half your proficiency bonus in this way each time you cast this spell.",
 				"The target knows it has been enchanted and can recognise you as the source of this effect with an Insight check against your spell save DC."
 			],
 			"miscTags": [
 				"SCL"
 			],
-            "saving throw": [
-                "wisdom"
-            ],
-            "conditionInflict": [
-                "strife|LevelUp"
-            ]
+			"saving throw": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"strife|LevelUp"
+			]
 		},
 		{
 			"name": "Draining Nova",
 			"source": "LevelUp",
 			"level": 4,
 			"school": "N",
-            "subschools": [
-                "affliction",
-                "healing",
-                "necrotic"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Druid",
-					"source": "PHB"
-				},
-				{
-					"name": "Sorcerer",
-					"source": "PHB"
-				},
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"affliction",
+				"healing",
+				"necrotic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2171,7 +2193,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a handheld silver cauldron worth at least 50 gp"
+				"m": "a handheld silver cauldron worth at least 50 gp"
 			},
 			"duration": [
 				{
@@ -2179,20 +2201,20 @@
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Area",
-                    "entries": [
-                        "30-foot radius"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Special"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Area",
+					"entries": [
+						"30-foot radius"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Special"
+					]
+				},
 				"Creatures in the area make a Constitution saving throw, taking {@damage 4d8} necrotic damage and suffering one level of {@condition fatigue|LevelUp} on a failed save and avoiding the {@condition fatigue|LevelUp} on a successful one. For each level of {@condition fatigue|LevelUp} you cause in this manner, you gain {@dice 1d8} temporary hit points."
 			],
 			"miscTags": [
@@ -2201,43 +2223,45 @@
 			"areaTags": [
 				"S"
 			],
-            "damageInflict": [
-                "necrotic"
-            ],
-            "saving throw": [
-                "constitution"
-            ],
-            "conditionInflict": [
-                "fatigue|LevelUp"
-            ]
+			"damageInflict": [
+				"necrotic"
+			],
+			"saving throw": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"fatigue|LevelUp"
+			]
 		},
 		{
 			"name": "Enervating Light",
 			"source": "LevelUp",
 			"level": 4,
 			"school": "N",
-            "subschools": [
-                "affliction",
-                "undead"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Sorcerer",
-					"source": "PHB"
-				},
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"affliction",
+				"undead"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2258,21 +2282,21 @@
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution negates"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Constitution negates"
+					]
+				},
 				"You conjure a mote of sickly light at a point within range. The mote emits bright light in a 20-foot radius, and dim light for another 20 feet. A non-undead creature that starts its turn in the bright light, or enters the bright light for the first time on a turn, must succeed on a Constitution saving throw or suffer a level of {@condition fatigue|LevelUp}. Additionally, if it suffers this {@condition fatigue|LevelUp}, all undead in the area of bright light gain {@dice 2d8} temporary hit points and those in the area of dim light gain {@dice 1d8} temporary hit points. On a successful save, a creature is immune to the effect until it leaves the area."
 			],
 			"miscTags": [
@@ -2282,41 +2306,43 @@
 			"areaTags": [
 				"S"
 			],
-            "saving throw": [
-                "constitution"
-            ],
-            "conditionInflict": [
-                "fatigue|LevelUp"
-            ]
+			"saving throw": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"fatigue|LevelUp"
+			]
 		},
 		{
 			"name": "Fatigued Bargain",
 			"source": "LevelUp",
 			"level": 1,
 			"school": "E",
-            "subschools": [
-                "compulsion",
-                "enhancement",
-                "psychic"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-				{
-					"name": "Sorcerer",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"compulsion",
+				"enhancement",
+				"psychic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2337,55 +2363,57 @@
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "round",
-                        "amount": 1
-                    }
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One willing creature"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One willing creature"
+					]
+				},
 				"Your magic suppresses a creature's inhibitions, urging out its own self-destructive strength. Until the end of your next turn, it ignores the effects of {@condition fatigue|LevelUp}. At the end of the duration, it takes an amount of psychic damage equal to {@dice 1d4} x the number of levels of {@condition fatigue|LevelUp} it is suffering. Additionally, on its turn, it can take an additional action, which can't be used for casting a spell other than a cantrip with a casting time of 1 action. If it takes this additional action, it suffers a level of {@condition fatigue|LevelUp} at the end of its turn."
 			],
-            "damageInflict": [
-                "psychic"
-            ],
-            "conditionInflict": [
-                "fatigue|LevelUp"
-            ]
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"fatigue|LevelUp"
+			]
 		},
 		{
 			"name": "Fortified Will",
 			"source": "LevelUp",
 			"level": 1,
 			"school": "E",
-            "subschools": [
-                "protection"
-            ],
-            "fromClassList": [
-				{
-					"name": "Bard",
-					"source": "PHB"
-				},
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"protection"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2405,49 +2433,51 @@
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    }
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One willing creature"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One willing creature"
+					]
+				},
 				"You harden a creature's mind with an unbending willpower. For the duration, if the creature fails a saving throw against an effect that would cause it to become {@condition charmed}, {@condition confused|LevelUp}, {@condition frightened}, or {@condition debilitated|LevelUp}, it can use its reaction to automatically succeed on the save instead. If it does, it takes a level of {@condition strife|LevelUp} and the spell ends."
 			],
-            "conditionInflict": [
-                "strife|LevelUp"
-            ]
+			"conditionInflict": [
+				"strife|LevelUp"
+			]
 		},
 		{
 			"name": "Gate From Beyond",
 			"source": "LevelUp",
 			"level": 3,
 			"school": "C",
-            "subschools": [
-                "arcane",
-                "teleportation"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"arcane",
+				"teleportation"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2464,7 +2494,7 @@
 			"duration": [
 				{
 					"type": "special",
-                    "concentration": true
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -2474,36 +2504,38 @@
 			"miscTags": [
 				"TP"
 			],
-            "conditionInflict": [
-                "strife|LevelUp"
-            ]
+			"conditionInflict": [
+				"strife|LevelUp"
+			]
 		},
 		{
 			"name": "Inner Solace",
 			"source": "LevelUp",
 			"level": 3,
 			"school": "T",
-            "subschools": [
-                "enhancement"
-            ],
-            "fromClassList": [
-				{
-					"name": "Bard",
-					"source": "PHB"
-				},
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"enhancement"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2524,21 +2556,21 @@
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One willing creature"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One willing creature"
+					]
+				},
 				"You turn a creature's exhaustion into a well of inner strength. While under the effect of this spell, the target gains a number of temporary hit points equal to {@dice 1d6} x its combined levels of {@condition fatigue|LevelUp} and {@condition strife|LevelUp} at the start of each of its turns. Any temporary hit points remaining are lost when the spell ends.",
 				"Additionally, if its total levels of {@condition fatigue|LevelUp} and {@condition strife|LevelUp} are 3 or more, the target gains advantage on its first attack roll each turn."
 			],
@@ -2552,28 +2584,30 @@
 			"source": "LevelUp",
 			"level": 0,
 			"school": "E",
-            "subschools": [
-                "affliction",
-                "psychic"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Sorcerer",
-					"source": "PHB"
-				},
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"affliction",
+				"psychic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2594,69 +2628,71 @@
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "round",
-                        "amount": 1
-                    }
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution or Wisdom negates"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One creature"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Constitution or Wisdom negates"
+					]
+				},
 				"You attempt to disorient a creature. Choose either {@condition fatigue|LevelUp} or {@condition strife|LevelUp}. If you choose {@condition fatigue|LevelUp}, the creature must succeed on a Constitution saving throw or suffer a level of {@condition fatigue|LevelUp}. If you choose {@condition strife|LevelUp}, the creature must succeed on a Wisdom saving throw or suffer a level of {@condition strife|LevelUp}. Regardless, the effect only lasts until the end of the creature's next turn. This spell fails if the target already has a level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} (whichever the spell is meant to inflict).",
 				"You can inflict an additional level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} when you reach 5th level (2), 11th level (3), and 17th level (4). These levels must be either all {@condition fatigue|LevelUp} or all {@condition strife|LevelUp}."
 			],
 			"miscTags": [
 				"SCL"
 			],
-            "saving throw": [
-                "constitution",
+			"saving throw": [
+				"constitution",
 				"wisdom"
-            ],
-            "conditionInflict": [
-                "fatigue|LevelUp",
-                "strife|LevelUp"
-            ]
+			],
+			"conditionInflict": [
+				"fatigue|LevelUp",
+				"strife|LevelUp"
+			]
 		},
 		{
 			"name": "Reckless March",
 			"source": "LevelUp",
 			"level": 2,
 			"school": "T",
-            "subschools": [
-                "enhancement",
-                "movement"
-            ],
-            "fromClassList": [
-				{
-					"name": "Bard",
-					"source": "PHB"
-				},
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"enhancement",
+				"movement"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2673,73 +2709,75 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a miniature wooden horse"
+				"m": "a miniature wooden horse"
 			},
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "hour",
-                        "amount": 8
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "You and up to three willing creatures"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"You and up to three willing creatures"
+					]
+				},
 				"You suppress exhaustion in your traveling companions. For the duration, the targets move at double speed during overworld travel.",
 				"When this spell ends, the target creatures must roll a single Constitution saving throw against a difficulty of 10 + the number of hours of double-speed travel undertaken during the spell. On a failure, they suffer levels of {@condition fatigue|LevelUp} equal to half the number of hours of the double-speed travel (minimum 1)."
 			],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "You target an additional creature for each slot level above 2nd."
-                    ]
-                }
-            ],
-            "saving throw": [
-                "constitution"
-            ],
-            "conditionInflict": [
-                "fatigue|LevelUp"
-            ]
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cast at Higher Levels",
+					"entries": [
+						"You target an additional creature for each slot level above 2nd."
+					]
+				}
+			],
+			"saving throw": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"fatigue|LevelUp"
+			]
 		},
 		{
 			"name": "Sufferer's Pact",
 			"source": "LevelUp",
 			"level": 3,
 			"school": "V",
-            "subschools": [
-                "divine",
-                "force",
-                "healing"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"divine",
+				"force",
+				"healing"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2756,55 +2794,57 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a piece of bloody string"
+				"m": "a piece of bloody string"
 			},
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    }
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One willing creature"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One willing creature"
+					]
+				},
 				"You burn away weakness to reveal inner strength. The target takes {@dice 4d8} force damage. Then, at the start of each of its turns, it gains {@dice 2d8} temporary hit points. When this spell ends, the target removes its choice of one level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp}. Any temporary hit points remaining are lost when the spell ends."
 			],
 			"miscTags": [
 				"THP"
 			],
-            "damageInflict": [
-                "force"
-            ]
+			"damageInflict": [
+				"force"
+			]
 		},
 		{
 			"name": "Sufferer's Strike",
 			"source": "LevelUp",
 			"level": 2,
 			"school": "V",
-            "subschools": [
-                "affliction",
-                "attack",
-                "divine",
-                "force"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Paladin",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"affliction",
+				"attack",
+				"divine",
+				"force"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2827,63 +2867,65 @@
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Special"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Special"
+					]
+				},
 				"Your weapon thrums with the power of your misery. As part of casting this spell, make a melee spell attack against the target. On a hit, you deal your weapon damage plus {@dice 2d8} force damage. This damage increases by {@dice 1d8} for each level of {@condition fatigue|LevelUp} and {@condition strife|LevelUp} you are suffering. If the total of your {@condition fatigue|LevelUp} and {@condition strife|LevelUp} levels is 3 or more, the target makes a Constitution saving throw or suffers one level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} (your choice).",
 				"You can inflict an additional level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} when you reach 11th level (2) and 17th level (3). These levels must be either all {@condition fatigue|LevelUp} or all {@condition strife|LevelUp}."
 			],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "The base damage of this spell increases by {@dice 1d8} for every two spell slot levels above 2nd."
-                    ]
-                }
-            ],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cast at Higher Levels",
+					"entries": [
+						"The base damage of this spell increases by {@dice 1d8} for every two spell slot levels above 2nd."
+					]
+				}
+			],
 			"miscTags": [
 				"SCL",
 				"AAD"
 			],
-            "damageInflict": [
-                "force"
-            ],
-            "saving throw": [
-                "constitution"
-            ],
-            "conditionInflict": [
-                "fatigue|LevelUp",
-                "strife|LevelUp"
-            ]
+			"damageInflict": [
+				"force"
+			],
+			"saving throw": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"fatigue|LevelUp",
+				"strife|LevelUp"
+			]
 		},
 		{
 			"name": "Transmute Exhaustion",
 			"source": "LevelUp",
 			"level": 2,
 			"school": "T",
-            "fromClassList": [
-				{
-					"name": "Bard",
-					"source": "PHB"
-				},
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				}
-            ],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2906,62 +2948,64 @@
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution negates"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One creature"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Constitution negates"
+					]
+				},
 				"All the target creature's levels of {@condition strife|LevelUp} are transformed into {@condition fatigue|LevelUp}, or vice-versa. This spell fails if the target's total levels of {@condition fatigue|LevelUp} or {@condition strife|LevelUp} would equal 7 or more."
 			],
-            "saving throw": [
-                "constitution"
-            ],
-            "conditionInflict": [
-                "fatigue|LevelUp",
-                "strife|LevelUp"
-            ]
+			"saving throw": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"fatigue|LevelUp",
+				"strife|LevelUp"
+			]
 		},
 		{
 			"name": "Transfer Exhaustion",
 			"source": "LevelUp",
 			"level": 2,
 			"school": "T",
-            "subschools": [
-                "affliction",
-                "divine",
-                "healing"
-            ],
-            "fromClassList": [
-				{
-					"name": "Bard",
-					"source": "PHB"
-				},
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				}
-            ],
+			"subschools": [
+				"affliction",
+				"divine",
+				"healing"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2984,47 +3028,49 @@
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One willing creature"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One willing creature"
+					]
+				},
 				"Your touch draws out a creature's exhaustion. Choose a number of levels of either {@condition fatigue|LevelUp} or {@condition strife|LevelUp} up to the number of levels it is suffering and take them, removing them from the target and adding them to your own."
 			],
-            "conditionInflict": [
-                "fatigue|LevelUp",
-                "strife|LevelUp"
-            ]
+			"conditionInflict": [
+				"fatigue|LevelUp",
+				"strife|LevelUp"
+			]
 		},
 		{
 			"name": "Fey Tongue",
 			"source": "LevelUp",
 			"level": 1,
 			"school": "D",
-            "subschools": [
-                "communication",
-                "knowledge"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-				{
-					"name": "Druid",
-					"source": "PHB"
-				},
-				{
-					"name": "Sorcerer",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"communication",
+				"knowledge"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -3040,16 +3086,16 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "a piece of parchment with Elvish, Sylvan, or Primordial writing on it"
+				"m": "a piece of parchment with Elvish, Sylvan, or Primordial writing on it"
 			},
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 10
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -3061,24 +3107,26 @@
 			"source": "LevelUp",
 			"level": 6,
 			"school": "E",
-            "subschools": [
-                "arcane",
-                "compulsion"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"arcane",
+				"compulsion"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -3094,25 +3142,25 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "two matching pieces of jewelry worth at least 25 gold each"
+				"m": "two matching pieces of jewelry worth at least 25 gold each"
 			},
 			"duration": [
 				{
 					"type": "permanent",
-                    "ends": [
+					"ends": [
 						"dispel",
 						"both sides are fufilled"
 					]
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "Two willing creatures"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"Two willing creatures"
+					]
+				},
 				"This spell binds two creatures to an agreement spoken as part of the casting of the spell in a language that both parties understand.",
 				"The agreement must include a promise by both parties to do or refrain from doing something specific. The promises do not need to be the same or equal but mustn't be obviously harmful to either creature. For example, an archfey may promise to restore the freedom of a loved one in exchange for a mortal becoming their emissary.",
 				"A creature attempting to act in a way that will breach the terms must make a Wisdom saving throw. On a failure, they find themselves unable to act as intended, ending their turn if they are in combat. Regardless, it suffers 52 ({@damage 8d12}) psychic damage for the attempt. Damage from this spell cannot instantly kill through massive damage, though the creature makes death saving throws as usual."
@@ -3123,12 +3171,12 @@
 			"areaTags": [
 				"ST"
 			],
-            "damageInflict": [
-                "psychic"
-            ],
-            "saving throw": [
-                "wisdom"
-            ]
+			"damageInflict": [
+				"psychic"
+			],
+			"saving throw": [
+				"wisdom"
+			]
 		}
 	]
 }

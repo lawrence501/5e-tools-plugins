@@ -16,7 +16,7 @@
 		"dateLastModified": 0
 	},
 	"monster": [
-        {
+		{
 			"name": "Gourd Empress",
 			"source": "LevelUp",
 			"size": [
@@ -42,7 +42,7 @@
 			"speed": {
 				"walk": 50,
 				"burrow": 30,
-                "climb": 40
+				"climb": 40
 			},
 			"str": 18,
 			"dex": 17,
@@ -53,14 +53,14 @@
 			"save": {
 				"str": "+8",
 				"dex": "+7",
-                "con": "+8",
-                "int": "+8"
+				"con": "+8",
+				"int": "+8"
 			},
 			"skill": {
-                "deception": "+9 (+1d4)",
-                "history": "+8 (+1d8)",
+				"deception": "+9 (+1d4)",
+				"history": "+8 (+1d8)",
 				"insight": "+9 (+1d6)",
-                "nature": "+8",
+				"nature": "+8",
 				"perception": "+9"
 			},
 			"resist": [
@@ -76,7 +76,7 @@
 			"immune": [
 				"necrotic",
 				"poison",
-                "psychic"
+				"psychic"
 			],
 			"senses": [
 				"darkvision 200 ft."
@@ -85,10 +85,10 @@
 			"languages": [
 				"common",
 				"draconic",
-                "dwarvish",
-                "elvish",
-                "squash",
-                "sylvan"
+				"dwarvish",
+				"elvish",
+				"squash",
+				"sylvan"
 			],
 			"trait": [
 				{
@@ -97,13 +97,13 @@
 						"When the empress fails a saving throw, she can choose to succeed instead. When she does so, leaves wilt off of her body."
 					]
 				},
-                {
+				{
 					"name": "Mistress of Despair",
 					"entries": [
 						"Each time the empress deals 16 or more necrotic and psychic damage to a creature it becomes {@condition frightened} of her. At the start of each of its turns a {@condition frightened} creature repeats the saving throw, ending the effect on itself on a success."
 					]
 				},
-                {
+				{
 					"name": "Regeneration",
 					"entries": [
 						"The empress regains 10 hit points at the beginning of each of her turns as long as she has at least 1 hit point."
@@ -123,7 +123,7 @@
 						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) bludgeoning damage plus 3 ({@damage 1d6}) necrotic damage and 3 ({@damage 1d6}) psychic damage."
 					]
 				},
-                {
+				{
 					"name": "Vines",
 					"entries": [
 						"{@atk mw} {@hit 8} to hit, reach 20 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 2 ({@damage 1d4}) necrotic damage and 2 ({@damage 1d4}) psychic damage. If the target is Larger or smaller it is {@condition grappled} (escape {@dc 16})."
@@ -131,7 +131,7 @@
 				}
 			],
 			"bonus": [
-                {
+				{
 					"name": "Psychic Contortion",
 					"entries": [
 						"{@atk ms} {@hit 9} to hit, reach 5 ft., one {@condition grappled} creature. {@h}7 ({@damage 2d6}) necrotic damage plus 7 ({@damage 2d6}) psychic damage."
@@ -153,19 +153,19 @@
 						"The empress plants seeds within 20 feet that grow into 3 ({@damage 1d4 + 1}) {@creature squashling|LevelUp|squashlings} which emerge at the start of her next turn."
 					]
 				},
-                {
+				{
 					"name": "Vine",
 					"entries": [
 						"The empress attacks with her vine."
 					]
 				},
-                {
+				{
 					"name": "Dance of Ruin (Costs 2 Actions)",
 					"entries": [
 						"The empress twirls and bounds, moving up to 25 feet without provoking opportunity attacks. At the end of her movement each non-plant creature within 60 feet makes a {@dc 17} Intelligence saving throw, taking 13 ({@damage 2d12}) necrotic damage and 13 ({@damage 2d12}) psychic damage on a failure, or half damage on a success."
 					]
 				},
-                {
+				{
 					"name": "Growth (Costs 2 Actions, 2/Day)",
 					"entries": [
 						"The empress tears a piece of herself free and throws it onto a patch of earth or soil within 60 feet. At the start of the next creature's turn it grows into a {@creature gourdling|LevelUp} that immediately attacks."
@@ -174,7 +174,7 @@
 			],
 			"legendaryActions": 2
 		},
-        {
+		{
 			"name": "Gourdling",
 			"source": "LevelUp",
 			"size": [
@@ -200,7 +200,7 @@
 			"speed": {
 				"walk": 40,
 				"burrow": 20,
-                "climb": 30
+				"climb": 30
 			},
 			"str": 17,
 			"dex": 9,
@@ -211,23 +211,23 @@
 			"save": {
 				"str": "+5",
 				"dex": "+1",
-                "con": "+5"
+				"con": "+5"
 			},
 			"skill": {
-                "athletics": "+5",
+				"athletics": "+5",
 				"perception": "+2 (+1d8)"
 			},
 			"resist": [
 				"necrotic",
-                "poison",
-                "psychic"
+				"poison",
+				"psychic"
 			],
 			"senses": [
 				"darkvision 120 ft."
 			],
 			"passive": 16,
 			"languages": [
-                "squash"
+				"squash"
 			],
 			"trait": [
 				{
@@ -250,7 +250,7 @@
 						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) bludgeoning damage."
 					]
 				},
-                {
+				{
 					"name": "Vines",
 					"entries": [
 						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage. If the target is Medium-sized or smaller it is {@condition grappled} (escape {@dc 13})."
@@ -258,7 +258,7 @@
 				}
 			],
 			"bonus": [
-                {
+				{
 					"name": "Dread Rend",
 					"entries": [
 						"When the gourdling hits a creature it is grappling with its slam, the creature takes 3 ({@damage 1d6}) necrotic and 3 ({@damage 1d6}) psychic damage and it makes a {@dc 13} Charisma saving throw or is {@condition rattled|LevelUp} until the end of the creature's next turn."
@@ -274,7 +274,7 @@
 				}
 			]
 		},
-        {
+		{
 			"name": "Squashling",
 			"source": "LevelUp",
 			"size": [
@@ -300,7 +300,7 @@
 			"speed": {
 				"walk": 25,
 				"burrow": 15,
-                "climb": 20
+				"climb": 20
 			},
 			"str": 8,
 			"dex": 9,
@@ -309,21 +309,21 @@
 			"wis": 14,
 			"cha": 13,
 			"save": {
-                "int": "+3",
-                "cha": "+2"
+				"int": "+3",
+				"cha": "+2"
 			},
 			"skill": {
-                "athletics": "+1",
-                "nature": "+3",
+				"athletics": "+1",
+				"nature": "+3",
 				"performance": "+2 (+1d8)",
-                "persuasion": "+3 (+1d6)",
-                "religion": "+3",
-                "survival": "+4"
+				"persuasion": "+3 (+1d6)",
+				"religion": "+3",
+				"survival": "+4"
 			},
 			"resist": [
 				"necrotic",
-                "poison",
-                "psychic"
+				"poison",
+				"psychic"
 			],
 			"senses": [
 				"darkvision 120 ft."
@@ -331,7 +331,7 @@
 			"passive": 12,
 			"languages": [
 				"common",
-                "squash"
+				"squash"
 			],
 			"action": [
 				{
@@ -340,7 +340,7 @@
 						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) bludgeoning damage."
 					]
 				},
-                {
+				{
 					"name": "Seed Shot (Recharge 3-6)",
 					"entries": [
 						"{@atk rw} {@hit 4} to hit, range 50/200 ft., one target. {@h}5 ({@damage 2d4}) necrotic damage plus 5 ({@damage 2d4}) psychic damage. A creature that takes 12 or more damage is {@condition rattled|LevelUp} until the end of its next turn."
@@ -348,7 +348,7 @@
 				}
 			],
 			"bonus": [
-                {
+				{
 					"name": "Charming Aspect (2/Day)",
 					"entries": [
 						"A creature within 30 feet that the squashling can see makes a {@dc 12} Wisdom saving throw or becomes {@condition charmed} for 1 hour. At the end of each minute and whenever it takes damage the {@condition charmed} creature repeats the saving throw, ending the effect on itself on a success."
@@ -1010,32 +1010,34 @@
 				}
 			]
 		}
-    ],
+	],
 	"spell": [
 		{
 			"name": "Dancing Feet",
 			"source": "LevelUp",
 			"level": 5,
 			"school": "E",
-            "subschools": [
-                "affliction",
-                "arcane",
-                "compulsion"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-				{
-					"name": "Sorcerer",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"affliction",
+				"arcane",
+				"compulsion"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1052,84 +1054,86 @@
 			"components": {
 				"v": true,
 				"s": true,
-                "m": "the lace of a dancer's shoe"
+				"m": "the lace of a dancer's shoe"
 			},
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Area",
-                    "entries": [
-                        "10-foot radius circle"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Area",
+					"entries": [
+						"10-foot radius circle"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throw",
+					"entries": [
+						"Wisdom negates"
+					]
+				},
 				"You cause a musical chord to play and creatures in the area have a sudden urge to dance. Fey and creature that can't be {@condition charmed} are immune to this spell.",
 				"Affected creatures have their Speed reduced by half and disadvantage on attack rolls and saving throws for the duration. As an action on each of their turns, a creature may attempt to end the spell by making another saving throw (with disadvantage), ending the spell's effects on a success. If the spell lasts the full duration, each creature under its influence when the spell ends suffers {@dice 1d4} levels of {@condition fatigue|LevelUp}.",
 				"Any damage done to a target by you or an ally ends the spell for that creature."
 			],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "The area increases by 5 feet for each slot level above 5th."
-                    ]
-                }
-            ],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cast at Higher Levels",
+					"entries": [
+						"The area increases by 5 feet for each slot level above 5th."
+					]
+				}
+			],
 			"areaTags": [
 				"R"
 			],
-            "saving throw": [
-                "wisdom"
-            ],
-            "conditionInflict": [
-                "fatigue|LevelUp"
-            ]
+			"saving throw": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"fatigue|LevelUp"
+			]
 		},
 		{
 			"name": "Sleeplessness",
 			"source": "LevelUp",
 			"level": 3,
 			"school": "E",
-            "subschools": [
-                "compulsion",
-                "nature"
-            ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                }
-            ],
+			"subschools": [
+				"compulsion",
+				"nature"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
 					"unit": "minute"
 				}
 			],
-            "meta": {
-                "ritual": true
-            },
+			"meta": {
+				"ritual": true
+			},
 			"range": {
 				"type": "point",
 				"distance": {
@@ -1143,33 +1147,33 @@
 			"duration": [
 				{
 					"type": "timed",
-                    "duration": {
-                        "type": "hour",
-                        "amount": 8
-                    }
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
 				}
 			],
 			"entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One willing creature"
-                    ]
-                },
+				{
+					"type": "entries",
+					"name": "Target",
+					"entries": [
+						"One willing creature"
+					]
+				},
 				"You grant a creature supernatural vigour that keeps it awake.",
 				"Until the spell ends, the target does not need to sleep to gain the benefits of a long rest. A long rest remains 8 hours for the target as normal, and the remainder of the time must be filled only with light activity. The target also can't be put to sleep by poisons or magical means, except those cast at a higher slot level than this spell.",
 				"If the target is affected by sleep caused by a spell of this spell's level or lower, the spell that caused the sleep is dispelled."
 			],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "For each slot level above 3rd, you can increase the duration by 4 hours or choose an additional target."
-                    ]
-                }
-            ]
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cast at Higher Levels",
+					"entries": [
+						"For each slot level above 3rd, you can increase the duration by 4 hours or choose an additional target."
+					]
+				}
+			]
 		}
 	]
 }

@@ -2356,20 +2356,22 @@
                 "scrying",
                 "senses"
             ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2433,20 +2435,22 @@
                 "law",
                 "weaponry"
             ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2509,20 +2513,22 @@
                 "teleportation",
                 "travel"
             ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2565,20 +2571,22 @@
                 "divine",
                 "law"
             ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2632,20 +2640,22 @@
                 "law",
                 "transformation"
             ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -2723,20 +2733,22 @@
                 "law",
                 "senses"
             ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,

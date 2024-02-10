@@ -1099,24 +1099,26 @@
                 "enhancement",
                 "utility"
             ],
-            "fromClassList": [
-				{
-					"name": "Bard",
-					"source": "PHB"
-				},
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                },
-				{
-					"name": "Paladin",
-					"source": "PHB"
-				}
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1177,24 +1179,26 @@
                 "protection",
                 "utility"
             ],
-            "fromClassList": [
-				{
-					"name": "Bard",
-					"source": "PHB"
-				},
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-				{
-					"name": "Sorcerer",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1239,20 +1243,22 @@
                 "arcane",
                 "utility"
             ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-				{
-					"name": "Warlock",
-					"source": "PHB"
-				}
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1300,16 +1306,18 @@
                 "plants",
                 "utility"
             ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Druid",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1359,16 +1367,18 @@
                 "arcane",
                 "utility"
             ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1428,16 +1438,18 @@
                 "arcane",
                 "utility"
             ],
-            "fromClassList": [
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1512,16 +1524,18 @@
                 "divine",
                 "utility"
             ],
-            "fromClassList": [
-                {
-                    "name": "Cleric",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1583,20 +1597,22 @@
                 "knowledge",
                 "utility"
             ],
-            "fromClassList": [
-                {
-                    "name": "Bard",
-                    "source": "PHB"
-                },
-				{
-					"name": "Druid",
-					"source": "PHB"
-				},
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-            ],
+            "classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
 			"time": [
 				{
 					"number": 1,
