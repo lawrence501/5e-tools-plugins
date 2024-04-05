@@ -1,0 +1,489 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LevelUp",
+				"abbreviation": "A5E",
+				"full": "Level Up (A5E)",
+				"authors": [
+					"Level Up"
+				],
+				"version": "0.0.1",
+				"url": "https://www.levelup5e.com/"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "monster": [
+        {
+			"name": "Template Monster",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"cr": "10",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 153,
+				"formula": "18d8 + 72"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 90
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"save": {
+				"wis": "+9",
+				"cha": "+9"
+			},
+			"skill": {
+				"insight": "+9",
+				"perception": "+9",
+				"religion": "+9"
+			},
+			"resist": [
+				"radiant",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"staggered|LevelUp",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The aboleth's spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect evil and good|LevelUp}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell detect thoughts|LevelUp}",
+							"{@spell major image|LevelUp}",
+							"{@spell project image|LevelUp}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The deva has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The deva makes two attacks."
+					]
+				},
+				{
+					"name": "Celestial Hammer",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage plus 17 ({@damage 5d6}) radiant damage. On a hit, the target can't make opportunityattacks against the deva until the beginning of the target's next turn."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bonus",
+					"entries": [
+						"Entries"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Self-Sacrifice",
+					"entries": [
+						"When a creature within 5 feet of the thrall that the thrall can see hits an aboleth with an attack, the thrall can make itself the target of the attack instead."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Legendary action",
+					"entries": [
+						"Entries for legendary action"
+					]
+				}
+			],
+			"legendaryActions": 2
+		},
+        {
+			"name": "Direnaut",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "humanoid",
+			"cr": "10",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"fixed armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 187,
+				"formula": "15d10 + 105"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 23,
+			"dex": 13,
+			"con": 24,
+			"int": 8,
+			"wis": 13,
+			"cha": 8,
+			"save": {
+				"str": "+10",
+				"con": "+11"
+			},
+			"skill": {
+				"athletics": "+10 (+1d12)"
+			},
+			"resist": [
+				"cold",
+                "fire"
+			],
+			"vulnerable": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"fatigue|LevelUp",
+				"staggered|LevelUp",
+				"petrified",
+				"strife|LevelUp",
+                "debilitated|LevelUp"
+			],
+			"passive": 6,
+			"languages": [
+				"common"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Direnaut's spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell antilife shell|LevelUp}",
+                        "{@spell resilient sphere|LevelUp}"
+					],
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Direnaut has advantage on saving throws against spells and magical effects."
+					]
+				},
+                {
+					"name": "Ageless",
+					"entries": [
+						"The Direnaut does not age, cannot suffer from frailty of old age, die from old age, or be aged magically."
+					]
+				},
+                {
+					"name": "Fixed Helmet",
+					"entries": [
+						"The Direnaut gains immunity to psychic damage, the {@condition charmed} condition, and the {@condition frightened} condition while wearing its helmet. Ability checks made to remove the Direnaut's helmet have disadvantage."
+					]
+				},
+                {
+					"name": "Mutated Toughness",
+					"entries": [
+						"The Direnaut reduces any non-psychic damage it takes by 12 (minimum 0 damage) after calculating resistances."
+					]
+				},
+                {
+					"name": "Obscuring Visor",
+					"entries": [
+						"The Direnaut has disadvantage on Perception checks while helmeted."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage."
+					]
+				},
+                {
+					"name": "Dire Charge (Recharge 4-5)",
+					"entries": [
+						"The Direnaut moves in a straight line up to its Speed. This movement can be through the spaces of hostile creatures and does not provoke opportunity attacks. Each creature of Huge-size or smaller in the Direnaut's path must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) bludgeoning damage on a failure, or half damage on a success. On a substantial failure a creature is knocked {@condition prone}, or on a failure by 10 or more it is knocked {@condition prone} and {@condition debilitated|LevelUp} until the start of the Direnaut's next turn."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Basic Maneuver",
+					"entries": [
+						"The Direnaut makes a {@spell Grapple|LevelUp}, {@spell Knockdown|LevelUp}, or {@spell Shove|LevelUp} basic maneuver (dealing 7 bludgeoning basic melee damage)."
+					]
+				}
+			]
+		},
+        {
+			"name": "Everficer",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"cr": "13",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 178,
+				"formula": "21d8 + 84"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+                    "number": 50,
+                    "condition": "(hover)"
+                }
+			},
+			"str": 17,
+			"dex": 20,
+			"con": 18,
+			"int": 20,
+			"wis": 19,
+			"cha": 17,
+			"skill": {
+                "arcana": "+10",
+                "deception": "+8",
+				"insight": "+9",
+                "investigation": "+9",
+                "medicine": "+9",
+                "nature": "+10",
+				"perception": "+9"
+			},
+			"resist": [
+				"cold",
+                "fire",
+                "lightning",
+                "poison",
+				{
+					"resist": [
+						"damage"
+					],
+					"note": "from nonmagical weapons",
+					"cond": "true"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"confused|LevelUp",
+                "fatigue|LevelUp",
+				"frightened",
+				"staggered|LevelUp",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+                "darkvision 200 ft.",
+				"truesight 90 ft."
+			],
+			"passive": 21,
+			"languages": [
+				"all",
+				"telepathy 200 ft."
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Everficer's spellcasting ability is Intelligence (spell save {@dc 18}, +10 to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self|LevelUp}",
+                        "{@spell augury|LevelUp}",
+                        "{@spell calculate|LevelUp}",
+                        "{@spell detect magic|LevelUp}",
+                        "{@spell detect thoughts|LevelUp}",
+                        "{@spell disguise self|LevelUp}",
+                        "{@spell scrying|LevelUp}",
+                        "{@spell telekinesis|LevelUp}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm monster|LevelUp}",
+							"{@spell counterspell|LevelUp}",
+							"{@spell dispel magic|LevelUp}",
+                            "{@spell hold monster|LevelUp}",
+                            "{@spell major image|LevelUp}"
+						],
+                        "1e": [
+                            "{@spell dominate monster|LevelUp}",
+                            "{@spell modify memory|LevelUp}",
+                            "{@spell programmed illusion|LevelUp}"
+                        ]
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The Everficer can pass through an opening as narrow as 1 inch wide without squeezing."
+					]
+				},
+                {
+					"name": "Ever-Hidden",
+					"entries": [
+						"The Everficer is hidden from divination magic and cannot be perceived by magical scrying sensors."
+					]
+				},
+                {
+					"name": "Immortal Researcher",
+					"entries": [
+						"The Everficer does not age, cannot suffer from frailty of old age, die from old age, or be aged magically. In addition, she gains an expertise die on any ability check that uses a skill or tool set."
+					]
+				},
+                {
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"When the Everficer fails a saving throw, she can choose to succeed instead. When she does, her skin becomes more opaque and translucent until it can easily be seen through."
+					]
+				},
+                {
+					"name": "Regeneration",
+					"entries": [
+						"The Everficer regains 70 hit points at the start of her turn. If the Everficer takes psychic damage or damage from a spell enhanced with sorcery points, this trait doesn't function on her next turn. The Everficer dies only if she starts her turn with 0 hit points and doesn't regenerate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Everficer attacks four times."
+					]
+				},
+				{
+					"name": "Armed Strike",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning, piercing, or slashing damage (chosen when the Everficer attacks)."
+					]
+				},
+                {
+					"name": "Energy Blast",
+					"entries": [
+						"{@atk rs} {@hit 10} to hit, range 200/400 ft., one target. {@h}10 ({@damage 1d10 + 5}) force or radiant damage (chosen when the Everficer attacks)."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Everstep",
+					"entries": [
+						"The Everficer teleports to an unoccupied space she can see within 50 feet."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The Everficer makes an attack."
+					]
+				},
+                {
+					"name": "Fool (Costs 2 Actions)",
+					"entries": [
+						"The Everficer casts {@spell major image|LevelUp} without the need for concentration."
+					]
+				},
+                {
+					"name": "Influence (Costs 2 Actions)",
+					"entries": [
+						"The Everficer casts {@spell charm monster|LevelUp} without the need for concentration."
+					]
+				},
+                {
+					"name": "Stagger (Costs 2 Actions)",
+					"entries": [
+						"The Everficer casts {@spell hold monster|LevelUp} without the need for concentration."
+					]
+				}
+			]
+		}
+    ]
+}
