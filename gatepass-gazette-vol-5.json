@@ -484,6 +484,70 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Heshgarat Cat",
+			"source": "LevelUp",
+			"size": [
+				"S"
+			],
+			"type": "monstrosity",
+			"cr": "1/2",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 21,
+				"formula": "6d6"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 5,
+			"dex": 17,
+			"con": 10,
+			"int": 7,
+			"wis": 12,
+			"cha": 7,
+			"save": {
+				"con": "+6",
+				"int": "+7"
+			},
+			"passive": 11,
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The heshgarat cat has advantage on Perception checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The cat's senses extend into the ethereal plane."
+					]
+				},
+				{
+					"name": "Guardian of the Dead",
+					"entries": [
+						"When an undead creature starts its turn or attempts to move to within 30 feet of the heshgarat cat, it must make a {@dc 11} Wisdom saving throw. On a failure, it can't willingly move any closer to the cat, and while within 30 feet of the cat it has disadvantage on all attacks for the next minute. On a success, it is immune to this effect for the next 24 hours. Creatures that have advantage against being turned also have advantage on this save. Additionally, a creature with legendary actions is immune to this effect."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage. If the target is undead, it also takes {@damage 2d4} radiant damage."
+					]
+				}
+			]
 		}
     ]
 }
