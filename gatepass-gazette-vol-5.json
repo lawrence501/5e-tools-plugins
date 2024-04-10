@@ -548,6 +548,634 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Mounted Pistoleer",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "humanoid",
+			"cr": "1",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"chain shirt"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"animal handling": "+3",
+				"acrobatics": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"elven",
+				"any one"
+			],
+			"trait": [
+				{
+					"name": "Armoured Warhorse",
+					"entries": [
+						"The pistoleer's mount has AC 14 (chain armour), but otherwise uses the statistics of a standard {@creature warhorse|LevelUp}."
+					]
+				},
+				{
+					"name": "Combat Maneuvers (4 exertion/Rest)",
+					"entries": [
+						"The pistoleer can spend exertion to activate the following combat maneuvers:",
+						"{@spell Cavalier stance|LevelUp} (1st), {@spell riding leap|LevelUp} (1st)"
+					]
+				},
+				{
+					"name": "Loading Weapon",
+					"entries": [
+						"A pistol must be loaded before it can be used. The pistoleer can only make one attack with a single pistol when they use an action, bonus action, or reaction to fire it, even if they can normally make more attacks, unless they have another loaded pistol. A pistoleer can't load their pistols while mounted in combat."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pistol (4/Rest)",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Sabre",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragoon",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "humanoid",
+			"cr": "1",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"chain shirt"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"animal handling": "+3",
+				"acrobatics": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"elven",
+				"any one"
+			],
+			"trait": [
+				{
+					"name": "Armoured Warhorse",
+					"entries": [
+						"The pistoleer's mount has AC 14 (chain armour), but otherwise uses the statistics of a standard {@creature warhorse|LevelUp}."
+					]
+				},
+				{
+					"name": "Combat Maneuvers (4 exertion/Rest)",
+					"entries": [
+						"The pistoleer can spend exertion to activate the following combat maneuvers:",
+						"{@spell Cavalier stance|LevelUp} (1st), {@spell riding leap|LevelUp} (1st)"
+					]
+				},
+				{
+					"name": "Loading Weapon",
+					"entries": [
+						"A pistol must be loaded before it can be used. The pistoleer can only make one attack with a single pistol when they use an action, bonus action, or reaction to fire it, even if they can normally make more attacks, unless they have another loaded pistol. A pistoleer can't load their pistols while mounted in combat."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Carbine",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 50/150 ft., one target. {@h}8 ({@damage 1d12 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Sabre",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "High Elf Spell Slinger",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "humanoid",
+			"cr": "1",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"chain shirt"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 10,
+			"int": 14,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"animal handling": "+3",
+				"acrobatics": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"elven",
+				"any one"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The high elf spell slinger is a 1st-level spellcaster. Their spellcasting ability is Intelligence (spell save {@dc 12}, +4 to hit with spell attacks). They can cast the following spells, requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch|LevelUp}",
+								"{@spell fire bolt|LevelUp}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Armoured Warhorse",
+					"entries": [
+						"The pistoleer's mount has AC 14 (chain armour), but otherwise uses the statistics of a standard {@creature warhorse|LevelUp}."
+					]
+				},
+				{
+					"name": "Combat Maneuvers (4 exertion/Rest)",
+					"entries": [
+						"The pistoleer can spend exertion to activate the following combat maneuvers:",
+						"{@spell Cavalier stance|LevelUp} (1st), {@spell riding leap|LevelUp} (1st)"
+					]
+				},
+				{
+					"name": "Loading Weapon",
+					"entries": [
+						"A pistol must be loaded before it can be used. The pistoleer can only make one attack with a single pistol when they use an action, bonus action, or reaction to fire it, even if they can normally make more attacks, unless they have another loaded pistol. A pistoleer can't load their pistols while mounted in combat."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pistol (4/Rest)",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Sabre",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mounted Gunslinger",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": "humanoid",
+			"cr": "2",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"chain shirt"
+					]
+				}
+			],
+			"hp": {
+				"average": 36,
+				"formula": "8d8"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 10,
+			"int": 10,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"animal handling": "+3",
+				"acrobatics": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"elven",
+				"any one"
+			],
+			"trait": [
+				{
+					"name": "Armoured Warhorse",
+					"entries": [
+						"The pistoleer's mount has AC 14 (chain armour), but otherwise uses the statistics of a standard {@creature warhorse|LevelUp}."
+					]
+				},
+				{
+					"name": "Combat Maneuvers (4 exertion/Rest)",
+					"entries": [
+						"The pistoleer can spend exertion to activate the following combat maneuvers:",
+						"{@spell Cavalier stance|LevelUp} (1st), {@spell riding leap|LevelUp} (1st)"
+					]
+				},
+				{
+					"name": "Revolving Weapon",
+					"entries": [
+						"A revolver must be loaded before it can be used. The mounted gunslinger can fire 6 shots before needing to reload. When mounted, the gunslinger can't use movement on a turn it uses an action to reload."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mounted gunslinger makes 2 attacks with their revolver."
+					]
+				},
+				{
+					"name": "Revolver",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/180 ft., one target. {@h}9 ({@damage 2d6 + 3}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mounted Pistoleer Squad",
+			"source": "LevelUp",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "humanoid",
+				"swarmSize": "M"
+			},
+			"cr": "6",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"chain shirt"
+					]
+				}
+			],
+			"hp": {
+				"average": 125,
+				"formula": "25d8"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"animal handling": "+3",
+				"acrobatics": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"any one"
+			],
+			"trait": [
+				{
+					"name": "Armoured Warhorse",
+					"entries": [
+						"The pistoleers' mounts have AC 14 (chain armour), but otherwise use the statistics of a standard {@creature warhorse|LevelUp}."
+					]
+				},
+				{
+					"name": "Combat Maneuvers (6 exertion/Rest)",
+					"entries": [
+						"The pistoleers can spend exertion to activate the following combat maneuvers:",
+						"{@spell Cavalier stance|LevelUp} (1st), {@spell riding leap|LevelUp} (1st)"
+					]
+				},
+				{
+					"name": "Loading Weapon",
+					"entries": [
+						"A pistol must be loaded before it can be used. The pistoleers can only make one attack with a single pistol when they use an action, bonus action, or reaction to fire it, even if they can normally make more attacks, unless they have another loaded pistol. The squad can't load their pistols while mounted in combat."
+					]
+				},
+				{
+					"name": "Area Vulnerability",
+					"entries": [
+						"The squad takes double damage from any effect that targets an area."
+					]
+				},
+				{
+					"name": "Squad Dispersal",
+					"entries": [
+						"When the squad is reduced to 0 hit points, it turns into 2 ({@dice 1d4}) {@creature Mounted Pistoleer|LevelUp|Mounted Pistoleers} with 13 hit points each."
+					]
+				},
+				{
+					"name": "Squad",
+					"entries": [
+						"The squd is composed of 5 or more {@creature mounted pistoleer|LevelUp|mounted pistoleers}. If it is subjected to a spell attack, or other effect that affects only one target, it takes any damage but ignores other effects. It can share its space with Large or smaller creatures or objects. The squad can move through any opening large enough for one Medium creature without squeezing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pistol (4/Rest)",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}38 ({@damage 5d10 + 10}) piercing damage or half damage if the squad is bloodied."
+					]
+				},
+				{
+					"name": "Sabre",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}38 ({@damage 5d10 + 10}) slashing damage, or half damage if the squad is bloodied."
+					]
+				}
+			]
+		},
+		{
+			"name": "Door Breaker",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"cr": "3",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"scale mail"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "5d10 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 15,
+			"int": 11,
+			"wis": 10,
+			"cha": 8,
+			"save": {
+				"con": "+4"
+			},
+			"skill": {
+				"arcana": "+2"
+			},
+			"resist": [
+				"fire",
+				"force"
+			],
+			"passive": 10,
+			"languages": [
+				"any one"
+			],
+			"trait": [
+				{
+					"name": "Loading Weapon",
+					"entries": [
+						"Explosive gauntlets must be loaded before they can be used. The door breaker can only make one attack with a single gauntlet when they use an action, bonus action, or reaction to use it, even if they can normally make more attacks, unless they have another loaded gauntlet."
+					]
+				},
+				{
+					"name": "Specialised Weaponry",
+					"entries": [
+						"The door breaker's attacks with its gauntlet have the breaker property, allowing them to deal double damage to objects and structures. They also have advantage on attack rolls against objects and structures, such as doors or barricades."
+					]
+				},
+				{
+					"name": "Smoky Sight",
+					"entries": [
+						"Door breakers do not suffer penalties to attack rolls, Perception checks, or other checks to navigate when engulfed in obscuring smoke."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The door breaker attacks twice using its explosive gauntlets."
+					]
+				},
+				{
+					"name": "Explosive Gauntlets",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}3 bludgeoning damage plus 3 ({@damage 1d6}) fire damage plus 3 ({@damage 1d6}) force damage."
+					]
+				},
+				{
+					"name": "Clear the Way",
+					"entries": [
+						"The door breaker claps their gauntlets together, directing the force of the explosion in a 15-foot cone. Each creature in that area makes a {@dc 13} Strength saving throw, or is knocked {@condition prone}, pushed back 15 feet, and takes 3 ({@damage 1d6}) fire damage and 3 ({@damage 1d6}) force damage. On a success, a creature is not pushed back or knocked {@condition prone}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Reload",
+					"entries": [
+						"As a bonus action, the door breaker reloads both of its gauntlets."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Smoke Screen (Recharge 4-6)",
+					"entries": [
+						"When hit by a ranged attack, the door breaker throws a bunch of burning rags on the floor, granting them three-quarters cover until the beginning of their next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bugbear Door Breaker",
+			"source": "LevelUp",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"cr": "3",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"scale mail"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "5d10 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 15,
+			"int": 11,
+			"wis": 10,
+			"cha": 8,
+			"save": {
+				"con": "+4"
+			},
+			"skill": {
+				"arcana": "+2"
+			},
+			"resist": [
+				"fire",
+				"force"
+			],
+			"passive": 10,
+			"languages": [
+				"any one"
+			],
+			"trait": [
+				{
+					"name": "Loading Weapon",
+					"entries": [
+						"Explosive gauntlets must be loaded before they can be used. The door breaker can only make one attack with a single gauntlet when they use an action, bonus action, or reaction to use it, even if they can normally make more attacks, unless they have another loaded gauntlet."
+					]
+				},
+				{
+					"name": "Specialised Weaponry",
+					"entries": [
+						"The door breaker's attacks with its gauntlet have the breaker property, allowing them to deal double damage to objects and structures. They also have advantage on attack rolls against objects and structures, such as doors or barricades."
+					]
+				},
+				{
+					"name": "Smoky Sight",
+					"entries": [
+						"Door breakers do not suffer penalties to attack rolls, Perception checks, or other checks to navigate when engulfed in obscuring smoke."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The door breaker attacks twice using its explosive gauntlets."
+					]
+				},
+				{
+					"name": "Explosive Gauntlets",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}3 bludgeoning damage plus 3 ({@damage 1d6}) fire damage plus 3 ({@damage 1d6}) force damage."
+					]
+				},
+				{
+					"name": "Clear the Way",
+					"entries": [
+						"The door breaker claps their gauntlets together, directing the force of the explosion in a 15-foot cone. Each creature in that area makes a {@dc 13} Strength saving throw, or is knocked {@condition prone}, pushed back 15 feet, and takes 3 ({@damage 1d6}) fire damage and 3 ({@damage 1d6}) force damage. On a success, a creature is not pushed back or knocked {@condition prone}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Reload",
+					"entries": [
+						"As a bonus action, the door breaker reloads both of its gauntlets."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Smoke Screen (Recharge 4-6)",
+					"entries": [
+						"When hit by a ranged attack, the door breaker throws a bunch of burning rags on the floor, granting them three-quarters cover until the beginning of their next turn."
+					]
+				}
+			]
 		}
     ]
 }
