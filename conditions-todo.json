@@ -350,6 +350,53 @@
         "Once the disease passes, at the end of each long rest a creature recovers {@dice 1d4} Intelligence until back to their starting value.",
         "{@spell Lesser restoration|LevelUp} cures the disease and restores {@dice 1d4} Intelligence, with any remaining deficit returning as described above. {@spell Greater restoration|LevelUp} ends the effect and immediately restores all lost Intelligence."
       ]
+    },
+    {
+      "name": "Fractured Rift Disorder",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Every being is tied to the plane it is native to, both the realm's physical laws and the dimension's place in the multiverse. On rare occasions that connection can weaken - and perhaps even be severed. Frequent travel beyond the Inner and Outer planes dilutes a soul's tether to its original plane of existence. Spells such as {@spell plane shift|LevelUp} and well-made portals are generally safe, allowing for a smooth transition between dimensions, but journeying by other means can have ill effects. Whenever a creature travels between planes using a naturally occurring portal or dangerous magical item (like a well of many worlds), it makes a {@dc 15} constitution saving throw or becomes infected with fractured rift disorder.",
+        "Unless treated (see below) the rift continues to fracture and the infection worsens. At the end of every week during which a creature with a basic or mild infection does more than rest, it makes a Constitution saving throw or the disease worsens as per Table: Fractured Rift Disorder. On a success, its infection is reduces by one stage (from mild to basic, or basic to recovered).",
+        "All of this disease's effects manifest only while on the Material Plane.",
+        "Restoration and similar magic have no effect on fractured rift disorder since the problem can't be fixed with positive energy. Instead the infected creature needs to strengthen its connection to the world. A druid or similarly nature-oriented person can diagnose the disease with a {@dc 18} Nature check and prescribe a long-term treatment, usually requiring a month of peaceful meditation in an ancient grove or cave at the end of which the infected creature recovers.",
+        "There are legends about living with fractured rift disorder as well, the most popular claiming that an old dwarven hero infected with it crafted a pair of magical iron boots to keep himself grounded.",
+        {
+          "type": "table",
+          "colLabels": [
+            "Fracture Level",
+            "Cumulative Effect",
+            "Worsens when..."
+          ],
+          "colStyles": [
+            "col-1",
+            "col-11",
+            "col-5"
+          ],
+          "rows": [
+            [
+              "Basic",
+              "Make a {@dc 12} Constitution save after suffering a level of {@condition fatigue|LevelUp} or {@condition strife|LevelUp}, or teleport {@dice 1d20} feet in a random direction.",
+              "Failing a {@dc 15} Constitution saving throw at the end of a week of adventuring."
+            ],
+            [
+              "Mild",
+              "Make a {@dc 12} Constitution save after scoring or taking a critical hit, teleporting {@dice 1d20} feet in a random direction on a failure.",
+              "Failing a {@dc 17} Constitution saving throw at the end of a week of adventuring."
+            ],
+            [
+              "Severe",
+              "Become ethereal (as the {@spell blink|LevelUp} spell) whenever the infected creature rolls a natural 1 on a {@dice d20}. Make a {@dc 12} Dexterity saving throw to avoid dropping held items just before the transition.",
+              "Automatically worsens after two consecutive weeks not spent resting."
+            ],
+            [
+              "Deadly",
+              "When the infected creature has been targeted by a magical effect that changes its form or location within the last round and it makes a Strength check, melee attack roll, or attacks with a thrown weapon, it makes a {@dc 10} Constitution saving throw or it is transported to a random plane of existence.",
+              "-"
+            ]
+          ]
+        }
+      ]
     }
   ]
 }
