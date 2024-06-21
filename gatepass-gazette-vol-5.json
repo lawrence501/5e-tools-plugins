@@ -1177,5 +1177,913 @@
 				}
 			]
 		}
-    ]
+    ],
+	"spell": [
+		{
+			"name": "Template Spell",
+			"source": "LevelUp",
+			"level": 9,
+			"school": "A",
+            "subschools": [
+                "arcane",
+                "divine",
+                "negation",
+                "planar",
+                "protection"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+            "meta": {
+                "ritual": true
+            },
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "opal worth at least 1,000gp, consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "A mirror on the same plane of existence as you"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "10-foot cube"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Dexterity halves and negates deafness"
+                    ]
+                },
+				"A permanent, immovable zone of antimagic fills the area, suppressing all magical effects within it. At the DM's discretion, sufficiently powerful artifacts and deities may be able to ignore the zone's effects. The zone is dispelled only if more than 10 percent of its area overlaps with that of another antimagic zone spell (which is also dispelled)."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot above 6th, the aberration's AC increases by 1, its hit points increase by 10, and when it deals damage with an attack it deals {@dice 1d4} extra damage."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"PRM",
+				"OBJ"
+			],
+			"areaTags": [
+				"S"
+			],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "saving throw": [
+                "dexterity"
+            ],
+            "conditionInflict": [
+                "restrained",
+                "prone"
+            ]
+		},
+		{
+			"name": "Charm Crowd",
+			"source": "LevelUp",
+			"level": 7,
+			"school": "E",
+            "subschools": [
+                "arcane",
+                "compulsion"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "Any number of humanoids within range"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"You only require line of sight to a target (not line of effect) and it has advantage on its saving throw if you or your companions are fighting it. Until the spell ends, each target is {@condition charmed} by you and friendly towards you. You can choose to instead designate another creature within range that the crowd is friendly towards.",
+				"Anything harmful done to a target by you or an ally ends the effect on that creature. A target knows it was {@condition charmed} by you when it is no longer affected by the spell."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot above 7th, the spell's range increases by 20 feet."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"SGT"
+			],
+            "saving throw": [
+                "wisdom"
+            ],
+            "conditionInflict": [
+                "charmed"
+            ]
+		},
+		{
+			"name": "Compulsive Urge",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "E",
+            "subschools": [
+                "affliction",
+                "compulsion"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "permanent",
+                    "ends": [
+                        "dispel"
+                    ]
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"Choose a behaviour and a condition that triggers it. The behaviour can't include an Attack action, must be simple enough to desribe in a single sentence, and can be performed in 1 minute, and the trigger must be something the target can see or hear. For example, you may choose a behaviour where the target must buy every faberge egg it sees.",
+				"When your trigger condition is met, the target must make a saving throw or act out the behaviour. If it succeeds on the save, the creature is immune to the effects of the save for 1 hour. If the behaviour requires the target to directly harm its allies, it makes the save with advantage.",
+				"Creatures that cannot be {@condition charmed} are immune to this spell. Effects that end the {@condition charmed} condition end this spell."
+			],
+			"miscTags": [
+				"PRM"
+			],
+            "saving throw": [
+                "wisdom"
+            ]
+		},
+		{
+			"name": "Deadly Beckoning",
+			"source": "LevelUp",
+			"level": 4,
+			"school": "E",
+            "subschools": [
+                "compulsion",
+                "movement",
+                "psychic"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "venus fly trap nectar"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"Until the spell ends, the target is {@condition charmed} by you and friendly towards you. The spell ends if you or your companions do anything harmful towards the target.",
+				"While {@condition charmed} in this way, the target must move in as direct of a path as it can towards you on its turn. Once it is within reach, you can touch the target on your turn as a free action, dealing {@dice 6d10} psychic damage to it and ending the spell."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 1d10} for each slot level above 4th."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"FMV"
+			],
+			"areaTags": [
+				"ST"
+			],
+            "damageInflict": [
+                "psychic"
+            ],
+            "saving throw": [
+                "wisdom"
+            ],
+            "conditionInflict": [
+                "charmed"
+            ]
+		},
+		{
+			"name": "Dizziness",
+			"source": "LevelUp",
+			"level": 0,
+			"school": "E",
+            "subschools": [
+                "affliction"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"The target's balance becomes unsteady. It has disadvantage on all saving throws against effects that would knock it {@condition prone}. Whenever the target falls prone, it takes {@dice 1d6} bludgeoning damage.",
+				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "saving throw": [
+                "wisdom"
+            ]
+		},
+		{
+			"name": "Gish Gallop",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "E",
+            "subschools": [
+                "communication",
+                "negation"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": false
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+				}
+			],
+			"entries": [
+				"You weave subtle charms into your speech to conceal your mistakes. When you fail a Deception, Intimidation, or Persuasion check, you can choose to immediately end the spell to repeat the triggering skill check, but with a different skill of your choice from the following: Deception, Intimidation, Persuasion. If you succeed on this check, it replaces the triggering failure. If you fail, all creatures that you are interacting with know you attempted to manipulate them."
+			]
+		},
+		{
+			"name": "Inflict Paranoia",
+			"source": "LevelUp",
+			"level": 3,
+			"school": "E",
+            "subschools": [
+                "affliction",
+                "chaos",
+                "compulsion"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "10-foot radius sphere"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"You magically shatter your enemies' comradery. Each target that fails has disadvantage on saving throws against being {@condition frightened} and will not directly support an ally. For example, they will continue to fight, but not cast enhancement or healing spells on their allies, share resources with them, provide cover, or use the Help action. If a creature is already supporting an ally in this way, such as concentrating on a spell, it will immediately stop.",
+				"A creature can repeat the saving throw at the end of each of its turns, ending the spell's effects on it on a successful save."
+			],
+            "saving throw": [
+                "wisdom"
+            ]
+		},
+		{
+			"name": "Nervous Recoil",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "E",
+            "subschools": [
+                "negation",
+                "psychic"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you see a creature within range succeed on an attack roll, but before damage is rolled"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+				"You magically cloud the target's judgment at the last instant. The target must choose to keep its successful roll or treat the roll as a failure instead. If it keeps the success, the target takes {@dice 2d6} psychic damage."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 1d6} for each slot level above 1st."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+            "damageInflict": [
+                "psychic"
+            ]
+		},
+		{
+			"name": "Object of Fascination",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "E",
+            "subschools": [
+                "compulsion"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": false,
+				"s": true,
+                "m": "a once-coveted gold ring"
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One object worth at least 5 silver"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"Choose one creature that you can see within 15 feet of the item. Until the spell ends, the creature is {@condition fixated|LevelUp} on it.",
+				"While the target is {@condition fixated|LevelUp} in this way and within range of both you and the item, you can, as a free action, compel it to retrieve the item, provided that doing do isn't obviously dangerous."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "For each slot level above 2nd, you affect one additional creature, potentially causing an altercation at the DM's discretion."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"SGT",
+				"OBJ"
+			],
+            "saving throw": [
+                "wisdom"
+            ],
+            "conditionInflict": [
+                "fixated|LevelUp"
+            ]
+		},
+		{
+			"name": "Stumble",
+			"source": "LevelUp",
+			"level": 1,
+			"school": "E",
+            "subschools": [
+                "affliction",
+                "movement"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature that isn't {@condition prone}"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throw",
+                    "entries": [
+                        "Wisdom negates"
+                    ]
+                },
+				"The target moves up to 10 feet in a direction you choose, stopping short of any ledges or other dangerous hazards, or if it collides with another creature, object or an obstacle, such as a wall or door. This movement does not provoke opportunity attacks. At the end of its movement, the target falls {@condition prone}, taking {@dice 2d6} bludgeoning damage if it collides with an obstacle. If it collides with another creature or object, the damage is split between them."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 1d6} for each slot level above 1st."
+                    ]
+                }
+            ],
+			"miscTags": [
+				"OBJ",
+				"FMV"
+			],
+			"areaTags": [
+				"ST"
+			],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "saving throw": [
+                "wisdom"
+            ],
+            "conditionInflict": [
+                "prone"
+            ]
+		},
+		{
+			"name": "Subliminal Messenger",
+			"source": "LevelUp",
+			"level": 2,
+			"school": "E",
+            "subschools": [
+                "communication",
+                "compulsion"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+					{
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": false
+			},
+			"duration": [
+				{
+					"type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 24
+                    }
+				}
+			],
+			"entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing creature that can speak at least one language"
+                    ]
+                },
+				"The target is imbued with a spoken message of 25 words or fewer, which it speaks when a trigger condition you define is met. The target will forget your message after you say it.",
+				"When your trigger condition is met, the target recites the message in the same cadence, tone, and volume as you used and the spell ends. The target does not recall the message it recited, nor does it need to understand the language the message is in. The trigger condition must be something the target can see or hear within 30 feet of it, and may be as highly detailed or broad as you choose, as long as it is designated in a language the creature understands and it is able to recognise (if not understand) the trigger itself. For example, the trigger could be when a specific code phrase is spoken to the target, or when they next hear music. The code phrase may be in a language the target doesn't speak, but the triggering music can't be a specific piano piece if the creature is unfamiliar with it."
+			],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "When using a 4th-level spell slot, the duration is up to 1 week. When using a 5th-level spell slot, the duration is 1 month. When using a 7th-level spell slot, the effect lasts for 1 year. When using a 9th-level spell slot, the effect lasts until it is dispelled or triggered."
+                    ]
+                }
+            ]
+		}
+	]
 }

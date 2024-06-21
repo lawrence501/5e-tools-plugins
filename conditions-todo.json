@@ -252,6 +252,17 @@
         "A weakened creature deals half damage."
       ],
       "hasFluffImages": false
+    },
+    {
+      "name": "Fixated",
+      "source": "LevelUp",
+      "page": 0,
+      "entries": [
+        "Shares condition immunity with {@condition charmed}.",
+        "A fixated creature has disadvantage on Investigation and Perception checks to perceive or examine creatures or objects other than the source of its fixation.",
+        "A fixated creature must spend 2 feet of movement for every 1 foot of movement away from the source of its fixation."
+      ],
+      "hasFluffImages": false
     }
   ],
   "disease": [
