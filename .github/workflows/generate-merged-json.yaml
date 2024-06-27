@@ -16,7 +16,7 @@ jobs:
           bb: latest
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - run: mkdir generated
-      - run: bb .github/workflows/src/generate-merged-json.bb
+      - run: bb scripts/generate-merged-json.bb
       - uses: actions/upload-artifact@v4
         with:
           name: all.json
