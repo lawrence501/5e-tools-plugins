@@ -16,8 +16,13 @@ jobs:
           bb: latest
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - run: mkdir generated
-      - run: bb scripts/generate-merged-json.bb
+      - run: bb scripts/generate-merged-json.bb a5e
+      - run: bb scripts/generate-merged-json.bb sns
       - uses: actions/upload-artifact@v4
         with:
-          name: all.json
-          path: generated/all.json
+          name: sns.json
+          path: generated/sns.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: a5e.json
+          path: generated/a5e.json

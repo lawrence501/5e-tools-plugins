@@ -1,7 +1,7 @@
 (require '[babashka.fs :as fs])
 
-(defn- list-jsons []
-  (fs/glob "." "*.json"))
+(defn- list-jsons [category]
+  (fs/glob category "*.json"))
 
 (def merge-data (partial
                   merge-with
@@ -11,16 +11,14 @@
                       (map? left) (merge-with concat-merge left right)
                       :else right))))
 
-(defn- merge-jsons []
+(defn- merge-jsons [category]
   (transduce (map (comp json/parse-stream io/reader fs/file))
              merge-data
-             (list-jsons)))
+             (list-jsons category)))
 
-(-> (merge-jsons)
-    (update-in ["_meta" "sources"] set)
-    json/generate-string
-    (->> (spit "generated/all.json")))
-{"sources" [{"json" "LevelUp", "abbreviation" "A5E", "full" "Level Up (A5E)", "url" "https://www.levelup5e.com/", "authors" ["Level Up"], "convertedBy" ["TODO DMs"], "version" "0.0.1"}
-            {"json" "sns", "abbreviation" "S&S", "full" "Spies & Spiders", "authors" ["Spies & Spiders"], "version" "0.0.1"}
-            {"json" "LevelUp", "abbreviation" "A5E", "full" "Level Up (A5E)", "authors" ["Level Up"], "version" "0.0.1", "url" "https://www.levelup5e.com/"}]
- "dateAdded" 0, "dateLastModified" 0}
+(let [category (first *command-line-args*)]
+  (assert (some? category))
+  (-> (merge-jsons category)
+      (update-in ["_meta" "sources"] set)
+      json/generate-string
+      (->> (spit (str "generated/" (or category "all") ".json")))))
