@@ -152,7 +152,7 @@
 						],
 						[
 							"4",
-							"Disadvantage on armour attack rolls based on Strength or Dexterity, and -1 to fortitude and reflex."
+							"Disadvantage on armour attack rolls based on Strength or Dexterity, and incoming fortitude and reflex attacks have advantage."
 						],
 						[
 							"5",
@@ -269,7 +269,7 @@
 					"type": "list",
 					"items": [
 						"A slowed creature's speed is halved.",
-						"The creature has a -1 penalty to armour and reflex.",
+						"Armour and reflex attacks against the creature have advantage.",
 						"The creature cannot take reactions.",
 						"On its turn, the creature can take either an action or a bonus action, not both."
 					]
@@ -332,7 +332,7 @@
 						],
 						[
 							"4",
-							"Disadvantage on armour attack rolls based on Intelligence, Wisdom, or Charisma, and -1 to reflex and will."
+							"Disadvantage on armour attack rolls based on Intelligence, Wisdom, or Charisma, and incoming reflex and will attacks have advantage."
 						],
 						[
 							"5",
