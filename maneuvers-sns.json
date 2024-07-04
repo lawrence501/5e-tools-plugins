@@ -535,7 +535,7 @@
                     ]
                 },
                 "With a bone crushing strike you briefly deprive an opponent of their very ability to defend themselves.",
-                "Make a melee weapon attack using a two-handed weapon. On a major success, the target is {@condition staggered|LevelUp} until it takes damage or the end of your next turn (whichever comes first)."
+                "Make a melee weapon attack using a two-handed weapon. On a major success, the target is {@condition staggered|sns} until it takes damage or the end of your next turn (whichever comes first)."
             ],
             "name": "Crushing Blow",
             "time": [
@@ -1084,7 +1084,7 @@
                     ]
                 },
                 "By closing your eyes and focusing on the sound of the environment, you target an unseen foe with uncanny accuracy.",
-                "Make a Perception check contested by the Stealth check of a target you cannot sense with sight that is within 30 feet. On a success, you know the target's location and do not have disadvantage on your next ranged attack against it before the end of your turn."
+                "Make a Perception check contested by the Stealth check of a target you cannot primarily sense that is within 30 feet. On a success, you know the target's location and do not have disadvantage on your next ranged attack against it before the end of your turn."
             ],
             "name": "Blindshot",
             "time": [
@@ -1169,7 +1169,7 @@
                 },
                 "With careful judgments of distances, materials, wind, and applied force you let loose a shot that bounces off of one or more surfaces to strike opponents crouching behind walls or otherwise hidden from sight by cover.",
                 "On the next ranged weapon attack you make before the start of your turn, you can completely ignore a target's cover.",
-                "Only targets that have total cover from being entirely enclosed by an object or effect (such as inside of a chamber with no openings to shoot through or a sphere from wall of force) have cover against this attack, and you do not have disadvantage from attacking a target you cannot sense with sight."
+                "Only targets that have total cover from being entirely enclosed by an object or effect (such as inside of a chamber with no openings to shoot through or a sphere from wall of force) have cover against this attack, and you do not have disadvantage from attacking a target you cannot primarily sense."
             ],
             "name": "Ricochet",
             "time": [
@@ -1512,7 +1512,7 @@
                     ]
                 },
                 "When an opponent opens themself up to a reflexive strike you can deliver a blow that shakes them to their core and forces them to hesitate.",
-                "When a hostile creature that you can sense with sight moves out of a space adjacent to you, you can use your reaction to make a melee weapon attack and on a hit its Speed is reduced to 0 until the start of its next turn."
+                "When a hostile creature that you can primarily sense moves out of a space adjacent to you, you can use your reaction to make a melee weapon attack and on a hit its Speed is reduced to 0 until the start of its next turn."
             ],
             "name": "Warning Strike",
             "time": [
@@ -2409,7 +2409,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Mist and Shade"
@@ -2433,8 +2433,8 @@
                     ]
                 },
                 "You pace your attacks in a disruptive flow that makes it easy to follow a strike with maneuvering that temporarily blinds your foes.",
-                "After you hit a creature with a melee weapon attack, you can spend 1 exertion to make a Sleight of Hand check, blinding it if the result is higher than its AC.",
-                "At the beginning of each of its turns, the {@condition blinded} creature can make a Wisdom saving throw to recover from its blindness."
+                "After you hit a creature with a melee weapon attack, you can spend 1 exertion to make a Sleight of Hand check. Reduce the result by the target's armour, and if it succeeds against a DC of 15, the target is {@condition blinded|sns}.",
+                "At the beginning of each of its turns, the {@condition blinded|sns} creature can make a save to recover from its blindness."
             ],
             "name": "Blinding Blow Stance",
             "time": [
@@ -2451,7 +2451,7 @@
                     ]
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Mist and Shade"
@@ -2475,8 +2475,34 @@
                     ]
                 },
                 "A quick step and suddenly you and your foe exchange places.",
-                "You can use your reaction to make a Sleight of Hand check when a creature makes a melee attack against you, turning it into a miss if your result is higher than the attack roll.",
-                "In addition, you may also swap places with the attacker (no opportunity attacks provoked), forcing it to make a Wisdom saving throw or be {@condition debilitated|LevelUp} until the beginning of its next turn."
+                "You can use your reaction to reduce the success tier of a creature's makes a melee weapon attack against you by one.",
+                "In addition, you may also swap places with the attacker (no opportunity attacks provoked), then make a will attack against it with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target has disadvantage on attack rolls until the start of its next turn."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is {@condition staggered|sns} until the start of its next turn."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "The target is {@condition staggered|sns} until the end of its next turn."
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Spinning Parry",
             "time": [
@@ -2490,7 +2516,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Mist and Shade"
@@ -2514,7 +2540,7 @@
                     ]
                 },
                 "A quick jab to a pressure point locks your opponent's joints.",
-                "When a creature moves into your reach you can use your reaction to make a Sleight of Hand check against its AC. On a success, the creature becomes {@condition restrained} until the beginning of its next turn."
+                "When a creature moves into your reach you can use your reaction to make a Sleight of Hand check. Reduce the result by the creature's armour, and if it succeeds against a DC of 15, the creature is {@condition restrained|sns} until the start of its next turn."
             ],
             "name": "Steal Momentum",
             "time": [
@@ -2528,7 +2554,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Mist and Shade"
@@ -2551,11 +2577,18 @@
                         "3 points"
                     ]
                 },
-                "Prerequisites: Extra Attack You swiftly adjust your enemy's armor so that they cannot move.",
-                "Make a Sleight of Hand check against the AC of a creature within reach that is wearing armor, paralyzing it on a success. At the beginning of each of its turns, a creature {@condition staggered|LevelUp} by this maneuver can make a Strength saving throw, ending the effect on itself on a success (unlike normal, the {@condition staggered|LevelUp} creature doesn't automatically fail this save).",
-                "A creature wearing heavy armor has disadvantage on its saving throw."
+                {
+                    "type": "entries",
+                    "name": "Prerequisites",
+                    "entries": [
+                        "The Empowered Attack feature"
+                    ]
+                },
+                "You swiftly adjust your enemy's armor so that they cannot move.",
+                "Make a Sleight of Hand check. Reduce the result by the armour of a creature within reach that is wearing armour, and if it succeeds against a DC of 15, the creature is {@condition staggered|sns}. At the beginning of each of its turns, a creature {@condition staggered|sns} by this maneuver can make a save, ending the effect on itself on a success.",
+                "Your sleight of hand check has advantage if the creature is wearing heavy armour."
             ],
-            "name": "Armor Lock",
+            "name": "Armour Lock",
             "time": [
                 {
                     "number": 1,
@@ -2567,7 +2600,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Mist and Shade"
@@ -2591,7 +2624,33 @@
                     ]
                 },
                 "You dart forward and snatch an item from a foe just as they start to use it.",
-                "When a creature within 15 feet draws an item or takes the Use an Object action, you can use your reaction to move adjacent to it and force it to make a Wisdom saving throw. This movement does not provoke opportunity attacks. On a failure, you can either take the item for yourself or choose the target of the creature's Use an Object action."
+                "When a creature within 15 feet draws an item, you can use your reaction to shift into a space adjacent to it and make a will attack against it with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The item is knocked from the target's hand, dropping onto the ground in its space."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "You take the item for yourself, stowing one of your held items at the same time so you can hold it."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "You take the item for yourself and immediately use it, stowing one of your held items at the same time so you can hold it."
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Pilfer Object",
             "time": [
@@ -2605,7 +2664,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Mist and Shade"
@@ -2642,7 +2701,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Rapid Current"
@@ -2666,7 +2725,7 @@
                     ]
                 },
                 "You rapidly lash out in a rising strike targeting your opponent's brow, leaving a wound that obscures their vision.",
-                "Make a melee weapon attack against a creature that relies on sight. On a hit, it makes a Constitution saving throw or is {@condition blinded} until the end of your next turn."
+                "Make a melee weapon attack against a creature that relies on sight as its primary sense. On a major success, it is {@condition blinded|sns} until the end of your next turn."
             ],
             "name": "Eye Slash",
             "time": [
@@ -2680,7 +2739,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Rapid Current"
@@ -2704,7 +2763,7 @@
                     ]
                 },
                 "With practiced agility you weave around an opponent wielding a more cumbersome weapon, quickly darting in to strike with a lighter armament.",
-                "When a creature attacks you with a melee weapon that has the heavy property, or a Largesized or larger creature attacks you with a natural weapon, you can use your reaction to make a melee weapon attack against it using a weapon that has the dual-wielding or finesse property."
+                "When a creature attacks you with a two-handed melee weapon, or a Large-sized or larger creature attacks you with a natural weapon, you can use your reaction to make a melee weapon attack so long as either your main hand weapon is Dexterity-based or you are holding a weapon with the offhand trait."
             ],
             "name": "Speed Over Strength",
             "time": [
@@ -2718,7 +2777,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Rapid Current"
@@ -2759,7 +2818,7 @@
                     ]
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Rapid Current"
@@ -2783,9 +2842,9 @@
                     ]
                 },
                 "Pointing your weapon at your foe you challenge them, forcing them to lower their defenses so you can launch an attack of your own.",
-                "At the end of your turn, you can use your reaction to gain an expertise die to your AC against one creature you can see within reach.",
-                "This increase to your AC only applies to the chosen creature and ends at the start of your next turn.",
-                "If the creature misses with one or more attacks against you before the start of your next turn, you can make a melee weapon attack against it."
+                "At the end of your turn, you can use your reaction to add an expertise die to your armour against one creature you can see within reach.",
+                "This increase to your armour only applies to the chosen creature and ends at the start of your next turn.",
+                "If the creature fails to hit you with one or more armour attacks before the start of your next turn, you can make a melee weapon attack against it."
             ],
             "name": "Parrying Counter",
             "time": [
@@ -2799,7 +2858,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Rapid Current"
@@ -2828,8 +2887,7 @@
             "name": "Rapid Drink",
             "time": [
                 {
-                    "number": 1,
-                    "unit": "bonus"
+                    "unit": "free action"
                 }
             ],
             "duration": [
@@ -2837,7 +2895,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Rapid Current"
@@ -2861,7 +2919,7 @@
                     ]
                 },
                 "Flowing through battle like the wind itself, you deftly sprint forward through the reach of enemies to deliver an unexpected attack.",
-                "Move up to 20 feet without provoking opportunity attacks and make a melee weapon attack."
+                "Shift up to 20 feet and make a melee weapon attack."
             ],
             "name": "Rolling Strike",
             "time": [
@@ -2875,7 +2933,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Rapid Current"
@@ -2899,7 +2957,7 @@
                     ]
                 },
                 "With expert timing you apply just the right amount of force to send an opponent's weapon flying just as they strike.",
-                "When a creature makes a melee weapon attack against you and misses, you can use your reaction to force it to make a Dexterity saving throw. On a failure, a weapon it is wielding (your choice) flies from its grip to land in a randomly determined space 10 feet away."
+                "When a creature makes a melee weapon attack against you and fails to hit, you can use your reaction to make a reflex attack against it with the following outcomes: . On a failure, a weapon it is wielding (your choice) flies from its grip to land in a randomly determined space 10 feet away."
             ],
             "name": "Disarming Counter",
             "time": [
