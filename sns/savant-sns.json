@@ -698,7 +698,7 @@
                     "type": "entries",
                     "name": "Empowered Attack",
                     "entries": [
-                        "When you use the Attack action on your turn, your main hand weapon's base damage is doubled. For example, a weapon with a damage of {@dice 1d6} + your Strength modifier deals {@dice 2d6} + double your Strength modifier instead."
+                        "When you use the Attack action, your main hand weapon's base damage is doubled. For example, a weapon with a damage of {@dice 1d6} + your Strength modifier deals {@dice 2d6} + double your Strength modifier instead."
                     ]
                 },
                 {
