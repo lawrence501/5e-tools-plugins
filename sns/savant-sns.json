@@ -12,7 +12,10 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateLastModified": 0,
+		"optionalFeatureTypes": {
+			"cs": "Clever Schemes"
+		}
 	},
 	"class": [
 		{
