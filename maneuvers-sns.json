@@ -5513,7 +5513,7 @@
                     ]
                 },
                 "You interrupt a spell to stop it being cast.",
-                "When a creature within your reach casts a spell, you can use your reaction to make a melee weapon attack against it. On a major success, the spell is interrupted (expending the spell slot) and has no effect."
+                "When a creature within your reach casts a spell, you can use your reaction to make a melee weapon attack against it. On a major success, the target does not cast that spell (and therefore does not expend any resources on it, including any actions) and cannot cast that spell for the next minute."
             ],
             "name": "Break Spell",
             "time": [
@@ -5674,7 +5674,7 @@
                     ]
                 },
                 "You charge a spellcaster in order to interrupt their spell.",
-                "When a creature within your line of sight casts a spell, you can use your reaction to move up to your Speed. If you end your movement adjacent to that creature, you can make a melee weapon attack against it. On a critical success, the spell is interrupted (expending the spell slot) and has no effect."
+                "When a creature within your line of sight casts a spell, you can use your reaction to move up to your Speed. If you end your movement adjacent to that creature, you can make a melee weapon attack against it. On a critical success, the target does not cast that spell (and therefore does not expend any resources on it, including any actions) and cannot cast that spell for the next minute."
             ],
             "name": "Disrupting Charge",
             "time": [
@@ -5712,7 +5712,7 @@
                     ]
                 },
                 "You strike a spellcaster and disrupt their control over magic, fracturing the power behind a spell and transforming the energy so it roots them to the spot.",
-                "When a creature within your reach casts a spell, you can use your reaction to make a melee weapon attack against it. On a major success, the spell is interrupted (expending the spell slot) and has no effect.",
+                "When a creature within your reach casts a spell, you can use your reaction to make a melee weapon attack against it. On a major success, the target does not cast that spell (and therefore does not expend any resources on it, including any actions) and cannot cast that spell for the next minute.",
                 {
                     "type": "list",
                     "items": [
@@ -6137,7 +6137,7 @@
                     ]
                 },
                 "You instinctively know when you hit an opponent's weak spot and can muster an extra bit of force to devastating effect, causing your foe to suffer momentary fatigue.",
-                "When you hit a creature with a weapon attack, you can use your reaction to give the target one level of fatigue for 1 minute. On a critical hit, the target gains two levels of fatigue instead.",
+                "When you hit a creature with a weapon attack, you can use your reaction to give the target one level of {@condition fatigue|sns} for 1 minute. If the weapon attack scored a critical success, the target gains two levels of {@condition fatigue|sns} instead.",
                 "A target cannot gain more than two levels of fatigue from this maneuver."
             ],
             "name": "Gut Strike",
@@ -6152,7 +6152,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Tooth and Claw"
@@ -6175,8 +6175,15 @@
                         "1 point"
                     ]
                 },
+                {
+                    "type": "entries",
+                    "name": "Prerequisites",
+                    "entries": [
+                        "The Empowered Attack feature"
+                    ]
+                },
                 "With two deft attacks you rend at your opponent, striking at them first to diminish their defenses then delivering a ferocious second blow.",
-                "When you activate this maneuver, you take the Attack action and make a weapon attack, as well as any additional attacks granted by Extra Attack. Until the start of your next turn, when you hit a creature with two or more melee weapon attacks, each hit after the first deals {@dice 1d8} extra damage."
+                "When you activate this maneuver, you take the Attack action. The attack deals {@dice 1d8} extra base damage for each instance of the Empowered Attack feature affecting it."
             ],
             "name": "Rake",
             "time": [
@@ -6190,7 +6197,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Tooth and Claw"
@@ -6228,7 +6235,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Tooth and Claw"
@@ -6253,7 +6260,7 @@
                 },
                 "You use all your senses to focus your attacks on a single enemy.",
                 "You gain blindsight out to a range of 30 feet.",
-                "If a creature leaves the range of your blindsight, you can use your reaction to mark it as prey and move up to your Speed. The next melee weapon attack you make against that creature before the end of your next turn deals an additional weapon damage die."
+                "If a creature leaves the range of your blindsight, you can use your reaction to mark it as prey and move up to your Speed. The next melee weapon attack you make against that creature before the end of your next turn deals additional damage equal to the attack's base weapon damage die."
             ],
             "name": "Blind Instinct",
             "time": [
@@ -6267,7 +6274,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Tooth and Claw"
@@ -6292,7 +6299,7 @@
                 },
                 "A victorious battle cry strikes fear in the heart of your foes.",
                 "Make a melee weapon attack against a creature.",
-                "On a hit, you release a mighty roar that shakes the very earth and firmament in a 30-foot cube centered on you. Each hostile creature in the area makes a Wisdom saving throw. On a failure, a creature takes psychic damage equal to twice your proficiency bonus and it becomes {@condition frightened} until the end of its next turn, or on a success it takes half damage and does not become {@condition frightened}."
+                "On a major success, you release a mighty roar that shakes the very earth and firmament in a 30-foot cube centered on you. Each hostile creature in the area takes psychic DoT damage equal to twice your proficiency bonus and it becomes {@condition frightened|sns} until the end of its next turn. On a standard success, the same creatures take half as much psychic DoT damage and do not become {@condition frightened|sns}."
             ],
             "name": "Bloody Roar",
             "time": [
@@ -6306,7 +6313,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Tooth and Claw"
@@ -6330,7 +6337,7 @@
                     ]
                 },
                 "By tapping into your basic survival instincts you not only unleash your potential —you make certain that every strike counts.",
-                "The minimum result on a damage die rolled with a natural weapon, unarmed strike, or weapon with the dual-wielding property is a 3."
+                "The minimum result on a damage die rolled with a natural weapon, unarmed strike, or weapon with the Offhand trait is a 3."
             ],
             "name": "Mercurial Striking Stance",
             "time": [
@@ -6347,7 +6354,7 @@
                     ]
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Tooth and Claw"
@@ -6370,12 +6377,20 @@
                         "3 points"
                     ]
                 },
-                "Prerequisites: Extra Attack You unleash blow after blow, striking your opponent again and again, oblivious to your surroundings.",
+                {
+                    "type": "entries",
+                    "name": "Prerequisites",
+                    "entries": [
+                        "The Empowered Attack feature"
+                    ]
+                },
+                "You unleash an intense blow driven by pure fury, oblivious to your surroundings.",
                 "Make a melee weapon attack against a creature.",
-                "On a hit, make another melee weapon attack. You can keep attacking until you miss. You cannot make more attacks than your proficiency bonus in this manner.",
-                "Attack rolls against you have advantage until the beginning of your next turn."
+                "On a hit, make a save. Do this again until you fail a save, or you have succeeded on a number of saves equal to your proficiency bonus.",
+                "For each save you succeeded, the attack's damage is increased by your weapon's base damage.",
+                "Armour attack rolls against you have advantage until the beginning of your next turn."
             ],
-            "name": "Furious Barrage",
+            "name": "Furious Blow",
             "time": [
                 {
                     "number": 1,
@@ -6387,7 +6402,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Tooth and Claw"
@@ -6411,10 +6426,10 @@
                     ]
                 },
                 "Playing dead, you surprise your foe with a sudden attack.",
-                "When you lose hit points, you can use your reaction to fall {@condition prone} and pretend to be dead. All hostile creatures able to see you consider you to be dead or dying.",
+                "When you lose hit points, you can use your reaction to fall {@condition prone|sns} and pretend to be dead. All hostile creatures able to see you consider you to be dead or dying.",
                 "If a creature moves within your reach before the beginning of your next turn, you can immediately stand up and spend exertion to use a Tooth and Claw maneuver you know against it.",
-                "No action is required to activate the maneuver and any melee attacks made as part of the maneuver have advantage.",
-                "After you have used Wounded Animal Gambit against a creature, if you activate it again before the end of combat it receives a Wisdom saving throw. On a success, it realizes you are playing dead."
+                "No action is required to activate the maneuver and any melee weapon attack made as part of the maneuver has advantage.",
+                "After you have used Wounded Animal Gambit against a creature, if you activate it again before the end of combat that creature makes a save, realising you are playing dead on a success."
             ],
             "name": "Wounded Animal Gambit",
             "time": [
@@ -6428,7 +6443,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Tooth and Claw"
@@ -6452,9 +6467,9 @@
                     ]
                 },
                 "You have mastered a strike that is unmistakably your own.",
-                "Choose a simple symbol (such as a letter) to be your signature. When you have advantage on a melee weapon attack roll, on a hit you can leave your signature on the creature or object you attacked. Your signature remains on a creature until it is fully healed and has taken a long rest.",
+                "Choose a simple symbol (such as a letter) to be your signature. When you have advantage on a melee weapon attack roll, on a hit you can leave your signature on the creature or object you attacked. Your signature remains on a creature until it has taken a long rest.",
                 "While a creature bears your signature, you can use a bonus action to try to intimidate it.",
-                "The creature makes a Wisdom saving throw against your maneuver DC or becomes {@condition frightened} of you until the start of your next turn."
+                "The creature makes a save or becomes {@condition frightened|sns} of you until the start of your next turn."
             ],
             "name": "Dangerous Signature",
             "time": [
@@ -6468,7 +6483,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6492,7 +6507,7 @@
                     ]
                 },
                 "You wield your weapon with a practiced familiarity that makes it deadly even when a foe is beyond your reach, able to hurl it as accurately as a thrown dagger.",
-                "Choose a weapon when you learn this combat maneuver. While you are wielding the chosen weapon it has the rebounding property and thrown property (range 30/60 feet)."
+                "Choose a weapon when you learn this combat maneuver. While you are wielding the chosen weapon it gains the Thrown (20'/60') trait."
             ],
             "name": "Throwing Stance",
             "time": [
@@ -6509,7 +6524,7 @@
                     ]
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6534,7 +6549,7 @@
                 },
                 "Your victory pose spurs your allies.",
                 "Choose a weapon when you learn this combat maneuver. When you score a critical hit with this weapon, you can use your reaction to pose dramatically as you finish the strike.",
-                "As you dramatically pose, choose a number of allies equal to your proficiency bonus that you can see within 30 feet. The chosen allies have advantage on the next death saving throw each makes before the end of combat."
+                "As you dramatically pose, choose a number of allies equal to your proficiency bonus within 30 feet. The chosen allies have advantage on the next death saving throw each makes before the end of combat."
             ],
             "name": "Victory Pose",
             "time": [
@@ -6548,7 +6563,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6572,10 +6587,9 @@
                     ]
                 },
                 "Swinging or thrusting with your weapon like you have thousands of times before, you know precisely where its tip grazes and your swing hits at the smallest flaw in an opponent's armor to deliver a painful wound.",
-                "Choose a weapon when you learn this combat maneuver. If you hit with your next attack roll using the chosen weapon against a living creature, you deliver a wound that deals {@dice 1d4} ongoing damage (page 448).",
-                "At the start of each of the wounded creature's turns, it makes a Constitution saving throw, ending the effect on itself on a success.",
-                "Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a Medicine check against your maneuver DC, ending the ongoing damage on a success.",
-                "Healing magically or from a trait (such as Regeneration) also ends the effect."
+                "Choose a weapon when you learn this combat maneuver. If you hit with your next attack roll using the chosen weapon against a living creature, you deliver a wound that deals {@dice 1d4} ongoing damage of the weapon's base type that lasts until the creature succeeds on a passive save.",
+                "Alternatively, the wounded creature, or a creature adjacent to it, can use an action to make a Medicine check against your standard DC, ending the ongoing damage on a success.",
+                "The effect also ends if the wounded creature recovers any number of hit points."
             ],
             "name": "Wounding Strike",
             "time": [
@@ -6589,7 +6603,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6613,8 +6627,8 @@
                     ]
                 },
                 "With a bit of effort as an opponent strikes at you, you can knock the blow away and divert the attack.",
-                "When a creature hits you with a weapon attack, you can use your reaction to reduce the attack's damage by a number of {@dice d6} equal to your proficiency bonus.",
-                "If this maneuver reduces the damage to 0, the attack becomes a miss."
+                "When a creature hits you with a weapon armour attack, you can use your reaction to reduce the attack's damage by a number of {@dice d6} equal to your proficiency bonus.",
+                "If this maneuver reduces the damage to 0, the attack is no longer considered a hit."
             ],
             "name": "Deflect Strike",
             "time": [
@@ -6628,7 +6642,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6652,7 +6666,7 @@
                     ]
                 },
                 "You quickly draw and strike with a weapon in the blink of an eye.",
-                "Choose a creature within your reach. You draw a melee weapon and use it to make an attack against that creature. You cannot use this combat maneuver against the same creature more than once per combat."
+                "Choose a creature within your reach. You draw a melee weapon that you are not currently holding and use it to deal DoT damage equal to the weapon's base damage to that creature. You cannot use this combat maneuver against the same creature more than once per combat."
             ],
             "name": "Instant Strike",
             "time": [
@@ -6666,7 +6680,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6690,7 +6704,7 @@
                     ]
                 },
                 "By executing your attacks with perfect precision your weapon can slip beneath even supernatural defenses.",
-                "Choose a weapon when you learn this combat maneuver. When you activate this maneuver, you take the Attack action and make a weapon attack, as well as any additional attacks granted by Extra Attack. Until the start of your next turn, your weapon attacks using that weapon ignore resistance to nonmagical weapon damage."
+                "Choose a weapon when you learn this combat maneuver. When you activate this maneuver, you take the Attack action. Until the start of your next turn, your weapon attacks using that weapon ignore all damage resistance."
             ],
             "name": "Preternatural Strikes",
             "time": [
@@ -6704,7 +6718,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6728,8 +6742,8 @@
                     ]
                 },
                 "Instead of waiting for an opponent to strike so you can slap their weapon away, you lay into them with attacks that knock it from their hands.",
-                "When you activate this maneuver, you take the Attack action and make a weapon attack, as well as any additional attacks granted by Extra Attack.",
-                "Until the start of your next turn, your strikes can deprive foes of their armaments. In addition to dealing damage, when you hit a creature with a melee weapon attack it makes a Strength saving throw. On a failure, an item of your choice that the creature is holding (including a shield) flies from its grip to land in a randomly determined space 10 feet away."
+                "When you activate this maneuver, you take the Attack action.",
+                "Until the start of your next turn, your strikes can deprive foes of their armaments. In addition to dealing damage, when you score a major success against a creature with a melee weapon attack, an item of your choice that the creature is holding flies from its grip to land in a randomly determined space 10 feet away."
             ],
             "name": "Disarming Assault",
             "time": [
@@ -6743,7 +6757,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6767,7 +6781,7 @@
                     ]
                 },
                 "You respond to an attacker's weapon with a peerless defensive step that displays your prowess as a warrior.",
-                "When a creature makes a weapon attack against you, you can use your reaction to gain a bonus to AC equal to your proficiency bonus, possibly turning a hit into a miss."
+                "When a creature makes a weapon attack against you, you can use your reaction to reduce the attack's success tier by 1."
             ],
             "name": "Expert Sidestep",
             "time": [
@@ -6781,7 +6795,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6805,7 +6819,7 @@
                     ]
                 },
                 "Your attack unnerves your foe, making it hard for them to concentrate.",
-                "Choose a weapon when you learn this combat maneuver. Make a melee weapon attack using the chosen weapon, and on a hit the target makes a Constitution saving throw. On a failure the target loses concentration on any spell it has cast, any combat stance it is using ends, and it cannot use combat maneuvers or cast spells until the end of your next turn."
+                "Choose a weapon when you learn this combat maneuver. Make a melee weapon attack using the chosen weapon, and on a major success the target loses concentration on any spell it has cast, any combat stance it is using ends, and it cannot use combat maneuvers or cast spells until the end of your next turn."
             ],
             "name": "Unsettling Injury",
             "time": [
@@ -6819,7 +6833,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6843,7 +6857,7 @@
                     ]
                 },
                 "What you wield isn't what makes you a deadly combatant—you are the weapon. Attaining mastery of some weaponry has taught you how to focus and bring all that practice to bear even with lethal implements you've never seen before.",
-                "You gain proficiency with all weapons (including rare weapons)."
+                "You gain proficiency with all weapons, and the damage die size of all weapons is increased by 1 for you."
             ],
             "name": "Any Weapon Stance",
             "time": [
@@ -6860,7 +6874,7 @@
                     ]
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6884,9 +6898,9 @@
                     ]
                 },
                 "Mastery is making sure even a mistake becomes an opportunity. You follow-through on a miss to attack a different enemy.",
-                "When you miss with a melee weapon attack against a creature, you can use your reaction to take your momentum and target a different creature within your reach with a melee attack using the same weapon.",
+                "When you miss with a melee weapon attack against a creature, you can use your reaction to ignore the results of that attack to take your momentum and target a different creature within your reach with a melee attack using the same weapon.",
                 "This attack is made with advantage and deals extra damage equal to your proficiency bonus.",
-                "If both attack rolls would hit the creature, it is {@condition debilitated|LevelUp} until the end of its next turn."
+                "If both attack rolls would hit the creature, it is {@condition debilitated|sns} until the end of its next turn."
             ],
             "name": "Mistaken Opportunity",
             "time": [
@@ -6900,7 +6914,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6924,9 +6938,9 @@
                     ]
                 },
                 "You use a melee weapon to strike a foe from a distance.",
-                "Choose a weapon when you learn this combat maneuver. You can use the chosen weapon to strike a distant target with air pressure, giving your attack a normal range of 20 feet and long range of 60 feet. This functions as if your weapon had the thrown property except you don't actually throw it.",
+                "Choose a melee weapon when you learn this combat maneuver. You can use the chosen weapon to make a ranged attack against a distant target with air pressure, giving your attack a normal range of 20 feet and long range of 60 feet. This functions mechanically as if your weapon had the Thrown trait, except you don't actually throw it and it does not count as a thrown attack.",
                 "You have advantage on attack rolls made using this maneuver. If both attack rolls hit, you deal an additional weapon damage die.",
-                "After using this maneuver to hit a creature, it can use an action to make a Perception check against your maneuver DC. On a success, for the next minute any uses of Wind Strike do not grant advantage on attack rolls made against the creature."
+                "After using this maneuver to hit a creature, it can use an action to make a Perception check against your standard DC. On a success, for the next minute any uses of Wind Strike do not grant advantage on attack rolls made against the creature."
             ],
             "name": "Wind Strike",
             "time": [
@@ -6940,7 +6954,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -6964,7 +6978,7 @@
                     ]
                 },
                 "You focus on the bond between you and your weapon.",
-                "Choose a weapon when you learn this combat maneuver. For the next minute, attacks made with the chosen weapon score a critical hit on a roll of 19–20 and ignore any damage resistances a target might have. If you already have a feature that increases the range of your critical hits, your critical hit range increases by 1 (maximum 17–20)."
+                "Choose a weapon when you learn this combat maneuver. For the next minute, attacks made with the chosen weapon have +1 critical success range and ignore any damage resistances a target might have."
             ],
             "name": "Heart of the Sword",
             "time": [
@@ -6978,7 +6992,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
@@ -7001,8 +7015,15 @@
                         "3 points"
                     ]
                 },
-                "Prerequisites: Extra Attack In a blur of smooth motion, you unleash a sequence of attacks.",
-                "When you activate this maneuver, you take the Attack action and make two weapon attacks, as well as double the number of additional attacks granted by Extra Attack. You can replace any number of these attacks with combat maneuvers that do not grant more than one attack. At the end of your turn your exertion pool is reduced to 0 and you suffer a level of fatigue."
+                {
+                    "type": "entries",
+                    "name": "Prerequisites",
+                    "entries": [
+                        "The Empowered Attack feature"
+                    ]
+                },
+                "In a blur of smooth motion, you unleash a sequence of attacks.",
+                "When you activate this maneuver, you take the Attack action. Before or after the action's attack, you may use a combat maneuver you know that cannot make attacks. At the end of your turn your exertion pool is reduced to 0 and you suffer a level of fatigue."
             ],
             "name": "Perfect Assault",
             "time": [
@@ -7016,7 +7037,7 @@
                     "type": "instant"
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "Maneuver",
                 "Unending Wheel"
