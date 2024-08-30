@@ -1549,7 +1549,7 @@
 			"source": "LevelUp",
 			"className": "Druid",
 			"classSource": "LevelUp",
-			"level": 2,
+			"level": 2, 
 			"entries": [
 				"At 2nd level, you choose a circle of druids to identify with."
 			]
