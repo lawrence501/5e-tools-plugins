@@ -333,7 +333,7 @@
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Aurana's Rapid Air Wave. If you have the Extra Attack feature, you may make two melee weapon attacks against the target."
+                        "Aurana's Rapid Air Wave. If you have the Empowered Attack feature, this spell benefits from one instance of it."
                     ]
                 }
             ],
@@ -358,11 +358,12 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "air",
-                "weaponry"
+                "weaponry",
+                "melee",
+                "weapon"
             ],
             "level": 1,
             "components": {
@@ -434,8 +435,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
@@ -689,14 +689,33 @@
                         "Beast that you can see that is able to hear you and has Intelligence 3 or less"
                     ]
                 },
+                "You allow your inner beauty to shine through in song and dance whether to call a bird from its tree or a badger from its sett. Make a will attack against the target, with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "You gain an expertise die on the first Animal Handling check related to the target that you make before the end of your next turn."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Until the spell ends or one of your companions harms it (whichever is sooner), the target is {@condition charmed|sns}."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition dominated|sns}."
+                            ]
+                        }
                     ]
                 },
-                "You allow your inner beauty to shine through in song and dance whether to call a bird from its tree or a badger from its sett. Until the spell ends or one of your companions harms it (whichever is sooner), the target is {@condition charmed} by you.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -731,12 +750,12 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "beasts",
                 "compulsion",
-                "nature"
+                "nature",
+                "ranged"
             ],
             "level": 1,
             "components": {
@@ -1660,12 +1679,12 @@
         {
             "school": "V",
             "entries": [
-                "You respond to an incoming attack with a magically-infused attack of your own. Make a melee spell attack against the creature that attacked you. If you hit, the creature takes {@dice 3d6} acid, cold, fire, lightning, poison, or thunder damage.",
+                "You respond to an incoming attack with a magically-infused attack of your own. Make an armour attack against the creature that attacked you that deals {@dice 3d6} acid, cold, fire, lightning, poison, or thunder damage.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kasvarina's Unsettling Arcane Riposte. When you deal 10 or more damage, the target is {@condition rattled|LevelUp} until the end of your next turn."
+                        "Kasvarina's Unsettling Arcane Riposte. When you deal 10 or more damage, the target is {@condition rattled|sns} until the end of your next turn."
                     ]
                 }
             ],
@@ -1690,11 +1709,12 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
-                "attack"
+                "attack",
+                "melee",
+                "spell"
             ],
             "level": 1,
             "components": {
@@ -2148,26 +2168,45 @@
                         "Up to three creatures"
                     ]
                 },
+                "The senses of the targets are filled with phantom energies that make them more vulnerable and less capable. Make a will attack against the targets with the following outcomes:Until the spell ends, a {@dice d4} is subtracted from attack rolls and saving throws made by a target.",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Charisma negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target's armour attack rolls are reduced by 1 for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Until the spell ends, the target subtracts a {@dice d4} from their armour attack rolls, and a {@dice d4} is added to non-armour attack rolls against them."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the dice change to {@dice d6}s."
+                            ]
+                        }
                     ]
                 },
-                "The senses of the targets are filled with phantom energies that make them more vulnerable and less capable. Until the spell ends, a {@dice d4} is subtracted from attack rolls and saving throws made by a target.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Beshala's Unnerving Bane. Targets affected by this spell are {@condition rattled|LevelUp}."
+                        "Beshala's Unnerving Bane. Targets affected by this spell are {@condition rattled|sns}."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Tormenting Bane. A target affected by this spell has disadvantage on its next saving throw made against fear."
+                        "Kreven's Tormenting Bane. The next attack that can cause the {@condition frightened|sns} condition against a target affected by this spell has advantage."
                     ]
                 }
             ],
@@ -2198,10 +2237,10 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
-                "affliction"
+                "affliction",
+                "ranged"
             ],
             "level": 1,
             "components": {
@@ -2806,7 +2845,7 @@
                         "Up to three creatures"
                     ]
                 },
-                "The blessing you bestow upon the targets makes them more durable and competent. Until the spell ends, a {@dice d4} is added to attack rolls and saving throws made by a target."
+                "The blessing you bestow upon the targets makes them more durable and competent. Until the spell ends, a {@dice d4} is added to armour attack rolls made by a target, and a {@dice d4} is subtracted from non-armour attack rolls against it."
             ],
             "name": "Bless",
             "time": [
@@ -2835,8 +2874,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "enhancement"
@@ -3250,19 +3288,12 @@
                         "15-foot cone"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
-                "A thin sheet of flames shoots forth from your outstretched hands. Each creature in the area takes {@dice 3d6} fire damage. The fire ignites any flammable unattended objects in the area.",
+                "A thin sheet of flames shoots forth from your outstretched hands. Make a reflex attack against each creature in the area dealing {@dice 3d6} fire damage. The fire ignites any flammable unattended objects in the area.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Gabal's Inverted Burning Hands. The spell deals cold damage instead of fire damage, creatures in the area make a Constitution saving throw instead of a Dexterity saving throw, and the area becomes difficult terrain for 1 minute as it is covered in hoarfrost."
+                        "Gabal's Inverted Burning Hands. The spell deals cold damage instead of fire damage, the attack is a fortitude attack instead of a reflex attack, and the area becomes difficult terrain for 1 minute as it is covered in hoarfrost."
                     ]
                 }
             ],
@@ -3287,14 +3318,15 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "N"
             ],
             "subschools": [
                 "arcane",
-                "fire"
+                "fire",
+                "area",
+                "spell"
             ],
             "level": 1,
             "components": {
@@ -3381,7 +3413,7 @@
         {
             "school": "A",
             "entries": [
-                "You surround yourself with a dampening magical field and collect the energy of a foe's attack to use against them. When you take damage from a weapon attack, you can end the spell to halve the attack's damage against you, gaining a retribution charge that lasts until the end of your next turn. By expending the retribution charge when you hit with a melee attack, you deal an additional {@dice 2d1}0 force damage."
+                "You surround yourself with a dampening magical field and collect the energy of a foe's attack to use against them. When you are hit by a weapon armour attack, you can end the spell to halve the attack's damage against you, gaining a retribution charge that lasts until the end of your next turn. By expending the retribution charge when you hit with a melee weapon attack, you deal an additional {@dice 2d10} force damage."
             ],
             "name": "Calculated Retribution",
             "time": [
@@ -3395,8 +3427,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "You may use your reaction to halve the damage of an attack against you up to a number of times equal to the level of the spell slot used, gaining a retribution charge each time that lasts until 1 round after the spell ends.",
-                        "You must still make Constitution saving throws to maintain your concentration on this spell, but you do so with advantage, or if you already have advantage, you automatically succeed."
+                        "You may use your reaction to halve the damage of a weapon armour attack against you up to a number of times equal to the level of the spell slot used, gaining a retribution charge each time that lasts until 1 round after the spell ends."
                     ]
                 }
             ],
@@ -3411,11 +3442,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "force",
-                "weaponry"
+                "weaponry",
+                "melee",
+                "weapon"
             ],
             "level": 1,
             "components": {
@@ -3643,11 +3675,10 @@
                     ]
                 },
                 "You perform a religious ceremony during the casting time of this spell. When you cast the spell, you choose one of the following effects, any targets of which must be within range during the entire casting.",
-                "Funeral: You bless one or more corpses, acknowledging their transition away from this world. For the next week, they cannot become undead by any means short of a wish spell. This benefit lasts indefinitely regarding undead of CR 1/4 or less. A corpse can only benefit from this effect once.",
-                "Guide the Passing: You bless one or more creatures within range for their passage into the next life. For the next 7 days, their souls cannot be trapped or captured by any means short of a wish spell. Once a creature benefits from this effect, it can't do so again until it has been restored to life.",
-                "Offering: The gifts of the faithful are offered to the benefit of the gods and the community.",
-                "Choose one skill or tool proficiency and target a number of creatures equal to your proficiency bonus that are within range. When a target makes an ability check using the skill or tool within the next week, it can choose to use this benefit to gain an expertise die on the check. A creature can be targeted by this effect no more than once per week.",
-                "Purification: A creature you touch is washed with your spiritual energy. Choose one disease or possession effect on the target. If the save DC for that effect is equal to or lower than your spell save DC, the effect ends.",
+                "Funeral: You bless one or more corpses, acknowledging their transition away from this world. For the next week, they cannot become undead by any means short of a {@spell wish|sns} spell. This benefit lasts indefinitely regarding undead of CR 1/4 or less. A corpse can only benefit from this effect once.",
+                "Guide the Passing: You bless one or more creatures within range for their passage into the next life. For the next 7 days, their souls cannot be trapped or captured by any means short of a {@spell wish|sns} spell. Once a creature benefits from this effect, it can't do so again until it has been restored to life.",
+                "Offering: The gifts of the faithful are offered to the benefit of the gods and the community. Choose one skill or tool proficiency and target a number of creatures equal to your proficiency bonus that are within range. When a target makes an ability check using the skill or tool within the next week, it can choose to use this benefit to gain an expertise die on the check. A creature can be targeted by this effect no more than once per week.",
+                "Purification: A creature you touch is washed with your spiritual energy. Choose one disease or possession effect on the target. The target makes a save, ending the effect on a success.",
                 "Rite of Passage: You shepherd one or more creatures into the next phase of life, such as in a child dedication, coming of age, marriage, or conversion ceremony. These creatures gain inspiration. A creature can benefit from this effect no more than once per year."
             ],
             "name": "Ceremony",
@@ -3662,8 +3693,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine"
             ],
@@ -3870,15 +3900,34 @@
                         "One humanoid"
                     ]
                 },
+                "You do not need line of sight to the target so long as they can sense you. Make a will attack against the target, which has disadvantage if you or your companions are fighting the target. The attack has the following outcomes:Until the spell ends, the target is {@condition charmed} by you and friendly towards you.",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "Your next Charisma check made towards the target before the end of your next turn gains an expertise die."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Until the spell ends, the target is {@condition charmed|sns} and friendly towards you."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition dominated|sns}."
+                            ]
+                        }
                     ]
                 },
-                "You only require line of sight to the target (not line of effect) and it has advantage on its saving throw to resist the spell if you or your companions are fighting it. Until the spell ends, the target is {@condition charmed} by you and friendly towards you.",
-                "The spell ends if you or your companions do anything harmful towards the target. The target knows it was {@condition charmed} by you when the spell ends."
+                "The spell ends if you or your companions do anything harmful towards the target. The target knows it was {@condition charmed|sns} by you when the spell ends."
             ],
             "name": "Charm Person",
             "time": [
@@ -3906,11 +3955,11 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
-                "compulsion"
+                "compulsion",
+                "ranged"
             ],
             "level": 1,
             "components": {
@@ -4447,7 +4496,7 @@
                     "type": "entries",
                     "name": "Target",
                     "entries": [
-                        "6d10 hit points worth of creatures"
+                        "The creature in the area with the fewest hit points"
                     ]
                 },
                 {
@@ -4457,11 +4506,9 @@
                         "15-foot cone"
                     ]
                 },
-                "A blast of dazzling multicolored light flashes from your hand to blind your targets until the start of your next turn. Starting with the target with the lowest hit points (ignoring {@condition unconscious} creatures), targets within the area are {@condition blinded}, in ascending order according to their hit points.",
-                "When a target is {@condition blinded}, subtract its hit points from the total before moving on to the next target.",
-                "A target's hit points must be equal to or less than the total remaining for the spell to have any affect."
+                "A blast of dazzling multicolored light flashes from your hand to cause the target to become {@condition blinded|sns} until the start of your next turn."
             ],
-            "name": "Color Spray",
+            "name": "Colour Spray",
             "time": [
                 {
                     "number": 1,
@@ -4473,7 +4520,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "Add an additional {@dice 2d1}0 hit points for each slot level above 1st."
+                        "Add an additional target with the next-fewest hit points in the area for each slot level above 1st."
                     ]
                 }
             ],
@@ -4487,15 +4534,15 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "N"
             ],
             "subschools": [
                 "arcane",
                 "prismatic",
-                "senses"
+                "senses",
+                "area"
             ],
             "level": 1,
             "components": {
@@ -4534,20 +4581,39 @@
                         "One creature"
                     ]
                 },
+                "This spell does not require line of sight so long as the target can sense you. Make a will attack against the target, with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "You gain an expertise die on the first Persuasion check you make against the target before the end of your next turn."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "On its next turn the target follows a one-word command of your choosing. The spell fails if the target is undead, if it does not understand your command, or if the command is immediately harmful to it."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the command can be comprised of two words."
+                            ]
+                        }
                     ]
                 },
-                "You only require line of sight to the target (not line of effect). On its next turn the target follows a one-word command of your choosing. The spell fails if the target is undead, if it does not understand your command, or if the command is immediately harmful to it.",
-                "Below are example commands, but at the Narrator's discretion you may give any one-word command.",
-                "Approach | Come | Here: The target uses its action to take the Dash action and move toward you by the shortest route, ending its turn if it reaches within 5 feet of you.",
-                "Bow | Grovel | Kneel: The target falls {@condition prone} and ends its turn.",
-                "Drop: The target drops anything it is holding and ends its turn.",
-                "Flee | Run: The target uses its action to Dash and moves away from you as far as it can.",
-                "Halt: The target remains where it is and takes no actions. A flying creature that cannot hover moves the minimum distance needed to remain aloft."
+                "Below are example one-word commands, but at the Narrator's discretion you may give any one-word command.",
+                "Approach | Come | Here: At the start of its turn, the target uses its movement to move towards you by the shortest route until it is adjacent to you.",
+                "Bow | Grovel | Kneel: At the start of its turn, the target falls {@condition prone|sns}.",
+                "Drop: At the start of its turn, the target drops anything it is holding.",
+                "Flee | Run: At the start of its turn, the target uses its movement to move away from you as far as it can.",
+                "Halt: The target is {@condition sluggish|sns}."
             ],
             "name": "Command",
             "time": [
@@ -4575,11 +4641,11 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "compulsion",
-                "divine"
+                "divine",
+                "ranged"
             ],
             "level": 1,
             "components": {
@@ -18429,7 +18495,10 @@
             ],
             "subschools": [
                 "nature",
-                "summoning"
+                "summoning",
+                "persistent",
+                "area",
+                "dot"
             ],
             "level": 0,
             "components": {
@@ -27577,7 +27646,7 @@
             }
         },
         {
-            "school": "V",
+            "school": "C",
             "entries": [
                 {
                     "type": "entries",
@@ -27616,6 +27685,278 @@
                 "fromClassList": [
                     {
                         "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "amount": 30,
+                    "type": "feet"
+                }
+            }
+        },
+        {
+            "school": "A",
+            "entries": [
+                "A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration, or until you have 0 temporary hit points. If a creature hits you with a melee attack while this spell is active, the creature takes 5 cold DoT damage."
+            ],
+            "name": "Armour of Agathys",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "Both the temporary hit points and the cold damage increase by 5 for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1,
+                        "upTo": false
+                    }
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "cold",
+                "dot"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a cup of water"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "10-foot radius sphere"
+                    ]
+                },
+                "You invoke the power of Hadar, the Dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Make a fortitude attack against each creature in that area that deals {@dice 3d4} necrotic damage. On a hit, a target can't take reactions until its next turn."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 2d4} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "name": "Arms of Hadar",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "necrotic",
+                "area",
+                "spell"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make an armour attack against the target that deals {@dice 3d8} damage of the type you chose."
+            ],
+            "name": "Chromatic Orb",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 1d8} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "poison",
+                "thunder",
+                "ranged",
+                "spell"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a diamond worth at least 50 gp"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "amount": 90,
+                    "type": "feet"
+                }
+            }
+        },
+        {
+            "school": "E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "You attempt to compel the target into a duel. Make a will attack against the target with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "For 1 round, when the target attempts to move to a space that is more than 30 feet away from you, it must make a save, reducing its speed to 0 until the end of the turn on a failure."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "For the duration, the target has disadvantage on armour attack rolls against creatures other than you, and must make a save each time it attempts to move to a space that is more than 30 feet away from you, reducing its speed to 0 until the end of the turn on a failure."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target cannot make armour attacks against creatures other than you."
+                            ]
+                        }
+                    ]
+                },
+                "The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target."
+            ],
+            "name": "Compelled Duel",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": false
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "ranged"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
                         "source": "PHB"
                     }
                 ]
