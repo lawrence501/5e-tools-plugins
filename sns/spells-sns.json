@@ -1692,7 +1692,8 @@
             "time": [
                 {
                     "number": 1,
-                    "unit": "reaction"
+                    "unit": "reaction",
+                    "condition": "which you take when a creature makes a melee armour attack against you"
                 }
             ],
             "entriesHigherLevel": [
@@ -4541,8 +4542,7 @@
             "subschools": [
                 "arcane",
                 "prismatic",
-                "senses",
-                "area"
+                "senses"
             ],
             "level": 1,
             "components": {
@@ -4838,8 +4838,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "communication",
                 "knowledge"
@@ -6052,14 +6051,7 @@
                         "One corpse within range"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves and negates poisoned"
-                    ]
-                },
-                "A corpse explodes in a poisonous cloud. Each creature in a 10-foot radius of the corpse must make a Constitution saving throw. A creature takes {@dice 3d6} thunder damage and is {@condition poisoned} for 1 minute on a failed save, or it takes half as much damage and is not {@condition poisoned} on a successful one. A {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect for itself on a success."
+                "A corpse explodes in a poisonous cloud. Make a fortitude attack against each creature in a 10-foot radius of the corpse that deals {@dice 2d10} thunder damage. On a hit, a creature is {@condition poisoned|sns} for 1 minute, or until it passes a passive save."
             ],
             "name": "Corpse Explosion",
             "time": [
@@ -6082,11 +6074,12 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "poison",
-                "thunder"
+                "thunder",
+                "area",
+                "spell"
             ],
             "level": 1,
             "components": {
@@ -6283,8 +6276,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "utility",
@@ -6575,7 +6567,7 @@
                         "One creature that is neither a construct nor undead"
                     ]
                 },
-                "The target regains hit points equal to {@dice 1d8} + your spellcasting ability modifier."
+                "The target regains hit points equal to {@dice 1d10} + your spellcasting ability modifier."
             ],
             "name": "Cure Wounds",
             "time": [
@@ -6589,7 +6581,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The hit points regained increase by {@dice 1d8} for each slot level above 1st."
+                        "The hit points regained increase by {@dice 1d10} for each slot level above 1st."
                     ]
                 }
             ],
@@ -6598,8 +6590,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "healing",
@@ -7300,8 +7291,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "senses"
@@ -7374,8 +7364,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
@@ -7436,7 +7425,7 @@
                         "Self"
                     ]
                 },
-                "On the round you cast it, and as an action on subsequent turns until the spell ends, you can attempt to sense the presence of poisons, poisonous creatures, and disease by making a Perception check. On a success you identify the type of each poison or disease within range. Typically noticing and identifying a poison or disease is a DC 10 check, but the Narrator may use DC 15 for uncommon afflictions, DC 20 for rare afflictions, or DC 25 for afflictions that are truly unique. On a failed check, this casting of the spell cannot sense that specific poison or disease.",
+                "On the round you cast it, and as an action on subsequent turns until the spell ends, you can attempt to sense the presence of poisons, poisonous creatures, and disease by making a Perception check. On a success you identify the type of each poison or disease within range. Typically noticing and identifying a poison or disease is a DC 10 check, but the DM may use {@dc 15} for uncommon afflictions, {@dc 20} for rare afflictions, or {@dc 25} for afflictions that are truly unique. On a failed check, this casting of the spell cannot sense that specific poison or disease.",
                 "The spell penetrates most barriers but is blocked by 3 feet of wood or dirt, 1 foot of stone, 1 inch of common metal, or a thin sheet of lead."
             ],
             "name": "Detect Poison and Disease",
@@ -7457,8 +7446,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "nature",
@@ -7657,8 +7645,8 @@
         {
             "school": "I",
             "entries": [
-                "Until the spell ends or you use an action to dismiss it, you and your gear are cloaked by an illusory disguise that makes you appear like another creature of your general size and body type, including but not limited to: your heritage, 1 foot of height, weight, clothing, tattoos, piercings, facial features, hair style and length, skin and eye coloration, sex, and any other distinguishing features. You cannot disguise yourself as a creature of a different size category, and your limb structure remains the same; for example if you're bipedal, you can't use this spell to appear as a quadruped.",
-                "The disguise does not hold up to physical inspection. A creature that tries to grab an illusory hat, for example, finds its hand passes straight through the figment. To see through your disguise without such an inspection, a creature must use its action to make an Investigation check against your spell save DC."
+                "Until the spell ends or you use an action to dismiss it, you and your gear are cloaked by an illusory disguise that makes you appear like another creature of your general size and body type, including but not limited to: your race, 1 foot of height, weight, clothing, tattoos, piercings, facial features, hair style and length, skin and eye coloration, sex, and any other distinguishing features. You cannot disguise yourself as a creature of a different size category, and your limb structure remains the same; for example if you're bipedal, you can't use this spell to appear as a quadruped.",
+                "The disguise does not hold up to physical inspection. A creature that tries to grab an illusory hat, for example, finds its hand passes straight through the figment. To see through your disguise without such an inspection, a creature must use its action to make an Investigation check against your standard DC."
             ],
             "name": "Disguise Self",
             "time": [
@@ -7672,7 +7660,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "When using a 3rd-level spell slot or higher, this spell functions identically to the seeming spell, except the spell's duration is 10 minutes."
+                        "When using a 3rd-level spell slot or higher, this spell functions identically to the {@spell seeming|sns} spell, except the spell's duration is 10 minutes."
                     ]
                 }
             ],
@@ -7686,8 +7674,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "obscurement"
@@ -8022,16 +8009,16 @@
         {
             "school": "V",
             "entries": [
-                "You imbue divine power into your strikes. Until the spell ends, you deal an extra {@dice 1d4} radiant damage with your weapon attacks.",
+                "You imbue divine power into your strikes. Until the spell ends, you deal an extra {@dice 1d4} radiant damage with your weapon attack hits.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Sigismund's Spiteful Divine Favor. You deal extra necrotic damage instead of extra radiant damage, and when rolling extra damage from this spell you reroll any results of 1 (you must use the new result)."
+                        "Sigismund's Spiteful Divine Favour. You deal extra necrotic damage instead of extra radiant damage, and when rolling extra damage from this spell you reroll any results of 1 (you must use the new result)."
                     ]
                 }
             ],
-            "name": "Divine Favor",
+            "name": "Divine Favour",
             "time": [
                 {
                     "number": 1,
@@ -8049,8 +8036,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "attack",
                 "divine",
@@ -8404,16 +8390,9 @@
                         "One creature"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
-                    ]
-                },
-                "You frighten the target by echoing its movements with ominous music and terrifying sound effects. It takes {@dice 1d4} psychic damage and becomes {@condition frightened} of you until the spell ends.",
-                "At the end of each of the creature's turns, it can make another Wisdom saving throw, ending the effect on itself on a success. On a failed save, the creature takes {@dice 1d4} psychic damage.",
-                "You cannot cast another spell through your spellcasting focus while concentrating on this spell.",
+                "You frighten the target by echoing its movements with ominous music and terrifying sound effects. Make a will attack against the target that deals {@dice 1d4} psychic damage. On a hit, the target becomes {@condition frightened|sns} until either the spell ends or it passes a passive save.",
+                "Whenever the target fails its passive save to end the fear, it takes {@dice 1d4} psychic DoT damage.",
+                "You cannot cast another spell requiring a material component while concentrating on this spell.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -8449,12 +8428,13 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "fear",
                 "psychic",
-                "sound"
+                "sound",
+                "ranged",
+                "spell"
             ],
             "level": 1,
             "components": {
@@ -8612,12 +8592,12 @@
         {
             "school": "A",
             "entries": [
-                "Choose an unoccupied space between you and the source of the attack which triggers the spell. You call forth a pillar of earth or stone (3 feet diameter, 20 feet tall, AC 10, 20 hit points) in that space that provides you with three-quarters cover (+5 to AC, Dexterity saving throws, and ability checks made to hide).",
+                "Choose an unoccupied space between you and the source of the attack which triggers the spell. You call forth a pillar of earth or stone (3 feet diameter, 20 feet tall, 0 in all defences, 22 hit points) in that space that provides you with three-quarters cover.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Sidoneth's Crystal Pillar. The pillar summoned by this spell is made of translucent crystal. If this spell causes an attack to miss, the attack hits the pillar instead. If this pillar is destroyed, every creature within 5 feet of it takes {@dice 2d6} piercing damage."
+                        "Sidoneth's Crystal Pillar. The pillar summoned by this spell is made of translucent crystal. If this spell causes an attack to no longer target you, the attack hits the pillar instead. If this pillar is destroyed, every creature within 5 feet of it takes {@dice 2d6} piercing DoT damage."
                     ]
                 }
             ],
@@ -8625,7 +8605,8 @@
             "time": [
                 {
                     "number": 1,
-                    "unit": "reaction"
+                    "unit": "reaction",
+                    "condition": "which you take when you are targeted with a ranged armour attack"
                 }
             ],
             "duration": [
@@ -8638,8 +8619,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "earth",
                 "protection"
@@ -9095,7 +9075,33 @@
                         "20-foot square centered on the target"
                     ]
                 },
-                "Constraining plants erupt from the ground in the spell's area, wrapping vines and tendrils around creatures. Until the spell ends, the area is difficult terrain. A creature in the area when you cast the spell makes a Strength saving throw or it becomes {@condition restrained} as the plants wrap around it. A creature {@condition restrained} in this way can use its action to make a Strength check against your spell save DC, freeing itself on a success.",
+                "Constraining plants erupt from the ground in the spell's area, wrapping vines and tendrils around creatures. Until the spell ends, the area is difficult terrain. When you cast the spell, make a fortitude attack against all creatures in the area, with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target becomes {@condition restrained|sns} for 1 round as the plants wrap around it."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target becomes {@condition restrained|sns} as the plants wrap around it. A creature {@condition restrained|sns} in this way can use its action to make a Brawn check against your standard DC, freeing itself on a success."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition debilitated|sns}."
+                            ]
+                        }
+                    ]
+                },
                 "When the spell ends, the plants wither away."
             ],
             "name": "Entangle",
@@ -9116,15 +9122,15 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "Q"
             ],
             "subschools": [
                 "nature",
                 "plants",
-                "terrain"
+                "terrain",
+                "area"
             ],
             "level": 1,
             "components": {
@@ -9326,8 +9332,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "movement"
@@ -9505,20 +9510,40 @@
                         "20-foot cube within range"
                     ]
                 },
+                "Each object in a 20-foot cube within range is outlined in light (your choice of color). Additionally, make a reflex attack against all creatures in the area with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity (special)"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target cannot benefit from invisibility for 1 round, but is not outlined in light."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Until the spell ends, the target is outlined in light."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition staggered|sns}."
+                            ]
+                        }
                     ]
                 },
-                "Each object in a 20-foot cube within range is outlined in light (your choice of color). Any creature in the area when the spell is cast is also outlined unless it makes a Dexterity saving throw. Until the spell ends, affected objects and creatures shed dim light in a 10-foot radius.",
-                "Any attack roll against an affected object or creature has advantage. The spell also negates the benefits of invisibility on affected creatures and objects.",
+                "Until the spell ends, outlined objects and creatures shed dim light in a 10-foot radius.",
+                "Any armour attack roll against an outlined object or creature has advantage. The outline also negates the benefits of invisibility on affected creatures and objects.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Beshela's Rattling Faerie Fire. When an affected creature is damaged by a weapon attack it takes {@dice 1d4} psychic damage and is {@condition rattled|LevelUp} until the end of its next turn."
+                        "Beshela's Rattling Faerie Fire. When an affected creature is damaged by a weapon armour attack it takes {@dice 1d4} additional psychic damage and is {@condition rattled|sns} until the end of its next turn."
                     ]
                 }
             ],
@@ -9540,8 +9565,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
@@ -9649,12 +9673,12 @@
         {
             "school": "N",
             "entries": [
-                "You are bolstered with fell energies resembling life, gaining {@dice 1d4+4} temporary hit points that last until the spell ends.",
+                "You are bolstered with fell energies resembling life, gaining {@dice 1d4+5} temporary hit points that last until the spell ends.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kasvarina's Resolute False Life. While you have temporary hit points from this spell, you gain an expertise die on saving throws made against fear."
+                        "Kasvarina's Resolute False Life. While you have temporary hit points from this spell, you subtract a {@dice d4} from non-armour attacks made against you that can cause the {@condition frightened|sns} condition."
                     ]
                 }
             ],
@@ -9670,7 +9694,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "Gain an additional 5 temporary hit points for each slot level above 1st."
+                        "Gain an additional 6 temporary hit points for each slot level above 1st."
                     ]
                 }
             ],
@@ -9684,8 +9708,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "enhancement"
@@ -9823,7 +9846,8 @@
             "time": [
                 {
                     "number": 1,
-                    "unit": "reaction"
+                    "unit": "reaction",
+                    "condition": "which you take when you or a creature within range falls"
                 }
             ],
             "entriesHigherLevel": [
@@ -9845,8 +9869,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "protection"
@@ -9965,12 +9988,12 @@
                 "Your familiar, a spirit that takes the form of any CR 0 beast of Small or Tiny size, appears in an unoccupied space within range. It has the statistics of the chosen form, but is your choice of a celestial, fey, or fiend (instead of a beast).",
                 "Your familiar is an independent creature that rolls its own initiative and acts on its own turn in combat (but cannot take the Attack action). However, it is loyal to you and always obeys your commands.",
                 "When the familiar drops to 0 hit points, it vanishes without a trace. Casting the spell again causes it to reappear.",
-                "You are able to communicate telepathically with your familiar when it is within 100 feet. As long as it is within this range, you can use an action to see through your familiar's eyes and hear through its ears until the beginning of your next turn, gaining the benefit of any special senses it has. During this time, you are blind and deaf to your body's surroundings.",
+                "You are able to communicate telepathically with your familiar when it is within 100 feet. As long as it is within this range, you can use an action to see through your familiar's eyes and hear through its ears until the beginning of your next turn, gaining the benefit of any special senses it has. During this time, you are {@condition blinded|sns|blind} and {@condition deafened|sns|deaf} to your body's surroundings.",
                 "You can use an action to either permanently dismiss your familiar or temporarily dismiss it to a pocket dimension where it awaits your summons.",
                 "While it is temporarily dismissed, you can use an action to call it back, causing it to appear in any unoccupied space within 30 feet of you.",
                 "You can't have more than one familiar at a time, but if you cast this spell while you already have a familiar, you can cause it to adopt a different form.",
                 "Finally, when you cast a spell with a range of Touch and your familiar is within 100 feet of you, it can deliver the spell as if it was the spellcaster.",
-                "Your familiar must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, use your attack bonus for the spell."
+                "Your familiar must use its reaction to deliver the spell when you cast it. The spell still uses your statistics."
             ],
             "name": "Find Familiar",
             "time": [
@@ -9984,8 +10007,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "summoning"
@@ -11031,8 +11053,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "movement"
@@ -11190,8 +11211,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -11455,12 +11475,12 @@
                         "One creature or object within your reach"
                     ]
                 },
-                "Make a melee spell attack. On a hit, the target takes {@dice 3d8} force damage.",
+                "Make an armour attack that deals {@dice 3d8} force damage.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Vorax-Hul's Mighty Force Punch. The target is pushed 5 feet away from you for every 10 points of damage dealt."
+                        "Vorax-Hul's Mighty Force Punch. On a hit, the target is pushed 5 feet away from you for every 10 points of damage dealt."
                     ]
                 }
             ],
@@ -11485,12 +11505,13 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "attack",
                 "force",
-                "unarmed"
+                "unarmed",
+                "melee",
+                "spell"
             ],
             "level": 1,
             "components": {
@@ -12460,13 +12481,13 @@
         {
             "school": "T",
             "entries": [
-                "You transform the components into {@dice 2d4} berries.",
-                "For the next 24 hours, any creature that consumes one of these berries regains 1 hit point. Eating or administering a berry is an action. The berries do not provide any nourishment or sate hunger.",
+                "You create {@dice 2d4} berries.",
+                "For the next 24 hours, any creature that consumes one of these berries regains 2 hit points. Eating or administering a berry is an action. The berries do not provide any nourishment or sate hunger.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Beshela's Bunched Goodberry. Eating or administering any number of berries is a bonus action, and a creature regains 1 hit point per berry consumed."
+                        "Beshela's Bunched Goodberry. Eating or administering any number of berries is a bonus action."
                     ]
                 }
             ],
@@ -12491,8 +12512,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "healing",
                 "nature",
@@ -12576,12 +12596,39 @@
                     ]
                 },
                 "Grease erupts from a point that you can see within range and coats the ground in the area, turning it into difficult terrain until the spell ends.",
-                "When the grease appears, each creature within the area must succeed on a Dexterity saving throw or fall {@condition prone}. A creature that enters or ends its turn in the area must also succeed on a Dexterity saving throw or fall {@condition prone}.",
+                "When the grease appears, make a reflex attack against each creature within the area with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The next melee armour attack against the target before the start of its next turn has advantage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target falls {@condition prone|sns}."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target cannot stand until the end of its next turn."
+                            ]
+                        }
+                    ]
+                },
+                "A creature that enters or ends its turn in the area must succeed on a save or fall {@condition prone|sns}.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Katrina's Flammable Grease. Until the spell ends, a creature that has made a saving throw against it gets grease on itself and becomes flammable. When the creature takes fire damage, it takes {@dice 1d6} ongoing fire damage until it uses an action to douse the flames."
+                        "Katrina's Flammable Grease. Until the spell ends, a creature that has been attacked by the spell or made a save for it gets grease on itself and becomes flammable. When the creature takes fire damage from a hit, it takes {@dice 1d6} ongoing fire damage until it uses an action to douse the flames."
                     ]
                 }
             ],
@@ -12602,14 +12649,14 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "Q"
             ],
             "subschools": [
                 "arcane",
-                "earth"
+                "earth",
+                "area"
             ],
             "level": 1,
             "components": {
@@ -12930,7 +12977,7 @@
                         "One creature"
                     ]
                 },
-                "A bolt of light erupts from your hand. Make a ranged spell attack against the target. On a hit, you deal {@dice 4d6} radiant damage and the next attack roll made against the target before the end of your next turn has advantage.",
+                "A bolt of light erupts from your hand. Make an armour attack against the target that deals {@dice 4d6} radiant damage. On a hit, the next armour attack roll made against the target before the end of your next turn has advantage.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -12965,12 +13012,13 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "attack",
                 "divine",
-                "radiant"
+                "radiant",
+                "ranged",
+                "spell"
             ],
             "level": 1,
             "components": {
@@ -13305,7 +13353,7 @@
             "school": "A",
             "entries": [
                 "You harmonize with the rhythm of those around you until you're perfectly in sync. You may take the Help action as a bonus action. Additionally, when a creature within 30 feet uses a Bardic Inspiration die, you may choose to reroll the die after it is rolled but before the outcome is determined.",
-                "You cannot cast another spell through your spellcasting focus while concentrating on this spell.",
+                "You cannot cast another spell that requires a material component while concentrating on this spell.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -13332,8 +13380,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement",
                 "sound"
@@ -13509,7 +13556,7 @@
                         "One creature that is neither a construct nor undead"
                     ]
                 },
-                "Healing energy washes over the target and it regains hit points equal to {@dice 1d4} + your spellcasting modifier."
+                "Healing energy washes over the target and it regains hit points equal to {@dice 1d6} + your spellcasting modifier."
             ],
             "name": "Healing Word",
             "time": [
@@ -13523,7 +13570,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The hit points regained increase by {@dice 1d4} for each slot level above 1st."
+                        "The hit points regained increase by {@dice 1d6} for each slot level above 1st."
                     ]
                 }
             ],
@@ -13532,8 +13579,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "healing"
@@ -13784,12 +13830,12 @@
                         "One willing creature"
                     ]
                 },
-                "The target's spirit is bolstered. Until the spell ends, the target gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns and it cannot be {@condition frightened}. Any temporary hit points remaining are lost when the spell ends.",
+                "The target's spirit is bolstered. Until the spell ends, the target gains temporary hit points equal to your spellcasting ability modifier plus your proficiency bonus at the start of each of its turns and it cannot be {@condition frightened|sns}. Any temporary hit points remaining are lost when the spell ends.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Koren's Glowing Heroism. The target glows with bright light in a 10-foot radius and dim light an additional 5 feet. When a creature within the target's glow regains hit points, it regains {@dice 1d4} additional hit points."
+                        "Koren's Glowing Heroism. The target glows with bright light in a 10-foot radius and dim light an additional 5 feet. When a creature within the target's glow regains hit points, it regains {@dice 1d6} additional hit points."
                     ]
                 }
             ],
@@ -13820,8 +13866,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement"
             ],
@@ -13859,30 +13904,48 @@
                         "One creature with an Intelligence of 5 or more"
                     ]
                 },
+                "The target is overwhelmed by the absurdity of the world and is crippled by paroxysms of laughter.",
+                "Make a will attack against the target with the following outcomes:The target falls {@condition prone}, becomes {@condition dazed|LevelUp}, and cannot stand.",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target falls {@condition prone|sns}."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Until the spell ends, the target falls {@condition prone|sns}, becomes {@condition dazed|sns}, and cannot stand."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition debilitated|sns}."
+                            ]
+                        }
                     ]
                 },
-                "The target is overwhelmed by the absurdity of the world and is crippled by paroxysms of laughter.",
-                "The target falls {@condition prone}, becomes {@condition dazed|LevelUp}, and cannot stand.",
-                "Until the spell ends, at the end of each of the target's turns and when it suffers damage, the target may attempt another saving throw (with advantage if triggered by damage). On a successful save, the spell ends.",
-                "Cast At Higher Levels: Target an additional creature within 30 feet of the original for each slot level above 1st.",
+                "The target may make passive saves to end the spell's effects, and may also make an advantaged save whenever it takes damage, ending the spell on a success.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
                         "Beshala's Infectious Hideous Laughter.",
-                        "Any creature that touches the target must also succeed on a Wisdom saving throw or be affected by the spell."
+                        "Any creature that touches the target must also succeed on a save or be affected by the spell."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Despairing Hideous Laughter. When the mirth fades the target is affected with crushing grief, sadness, and despair, causing it to sob uncontrollably. The emotional toll of the spell causes the target to have disadvantage on the first ability check, attack roll, or saving throw it makes after the spell ends."
+                        "Kreven's Despairing Hideous Laughter. When the mirth fades the target is affected with crushing grief, sadness, and despair, causing it to sob uncontrollably. The emotional toll of the spell causes the target to have disadvantage on the first ability check or armour attack roll it makes after the spell ends, or if a non-armour attack is made against it before that, it has advantage."
                     ]
                 }
             ],
@@ -13891,6 +13954,15 @@
                 {
                     "number": 1,
                     "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "Target an additional creature within 30 feet of the original for each slot level above 1st."
+                    ]
                 }
             ],
             "duration": [
@@ -13904,12 +13976,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
                 "arcane",
-                "compulsion"
+                "compulsion",
+                "ranged"
             ],
             "level": 1,
             "components": {
@@ -14372,9 +14444,9 @@
                         "One object or creature"
                     ]
                 },
-                "You learn the target item's magical properties along with how to use them. This spell also reveals whether or not a targeted item requires attunement and how many charges it has. You learn what spells are affecting the targeted item (if any) along with what spells were used to create it.",
+                "You learn the target object's magical properties along with how to use them. You learn what spells are affecting the targeted object (if any) along with what spells were used to create it.",
                 "Alternatively, you learn any spells that are currently affecting a targeted creature.",
-                "What this spell can reveal is at the Narrator's discretion, and some powerful and rare magics are immune to identify."
+                "What this spell can reveal is at the DM's discretion, and some powerful and rare magics are immune to identify."
             ],
             "name": "Identify",
             "time": [
@@ -14388,8 +14460,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "knowledge"
@@ -14453,8 +14524,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "communication"
@@ -14804,7 +14874,7 @@
                         "One creature"
                     ]
                 },
-                "You impart fell energies that suck away the target's life force, making a melee spell attack that deals {@dice 3d1}0 necrotic damage."
+                "You impart fell energies that suck away the target's life force, making an armour attack against the target that deals {@dice 3d10} necrotic damage."
             ],
             "name": "Inflict Wounds",
             "time": [
@@ -14818,7 +14888,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d1}0 for each slot level above 1st."
+                        "The damage increases by {@dice 1d10} for each slot level above 1st."
                     ]
                 }
             ],
@@ -14827,12 +14897,13 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "attack",
                 "divine",
-                "necrotic"
+                "necrotic",
+                "melee",
+                "spell"
             ],
             "level": 1,
             "components": {
@@ -15272,7 +15343,7 @@
                         "One creature"
                     ]
                 },
-                "You imbue a target with the ability to make impossible leaps. The target's jump distances increase 15 feet vertically and 30 feet horizontally."
+                "You imbue the target with the ability to make impossible leaps. The target's jump distances increase 15 feet vertically and 30 feet horizontally."
             ],
             "name": "Jump",
             "time": [
@@ -15300,8 +15371,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement",
                 "movement"
@@ -15690,13 +15760,6 @@
                     "name": "Target",
                     "entries": [
                         "Object no larger than 10 feet in any dimension"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity for object held or worn by hostile creature"
                     ]
                 },
                 "Until the spell ends, the target emits bright light in a 20-foot radius and dim light an additional 20 feet. Light emanating from the target may be any color. Completely covering the target with something that is not transparent blocks the light. The spell ends when you use an action to dismiss it or if you cast it again.",
@@ -16144,8 +16207,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "movement",
                 "utility"
@@ -16187,16 +16249,16 @@
                         "A willing, unarmored creature"
                     ]
                 },
-                "Until the spell ends, the target is protected by a shimmering magical force. Its AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor, or if you use an action to dismiss it.",
+                "Until the spell ends, the target is protected by a shimmering magical force. Its armour becomes 10 plus half its spellcasting ability modifier. The spell ends if the target dons armor, or if you use an action to dismiss it.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Stekart's Enhanced Mage Armor. The target's AC becomes 10 + your proficiency bonus + its Dexterity modifier."
+                        "Stekart's Enhanced Mage Armour. The target's armour becomes 10 plus your proficiency bonus plus half its spellcasting ability modifier."
                     ]
                 }
             ],
-            "name": "Mage Armor",
+            "name": "Mage Armour",
             "time": [
                 {
                     "number": 1,
@@ -16208,7 +16270,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The target gains 5 temporary hit points for each slot level above 1st. The temporary hit points last for the spell's duration."
+                        "The target gains 6 temporary hit points for each slot level above 1st. The temporary hit points last for the spell's duration."
                     ]
                 }
             ],
@@ -16222,8 +16284,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "protection"
@@ -16482,12 +16543,12 @@
                         "Up to three creatures"
                     ]
                 },
-                "A trio of glowing darts of magical force unerringly and simultaneously strike the targets, each dealing {@dice 1d4+1} force damage.",
+                "A trio of glowing darts of magical force unerringly and simultaneously strike the targets, each dealing {@dice 1d4+1} force DoT damage. Any bonuses to this damage apply only once per target.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Ruinous Magic Missile. Creatures damaged by this spell make a Strength saving throw or are {@condition rattled|LevelUp} until the end of your next turn."
+                        "Kreven's Ruinous Magic Missile. Creatures damaged by this spell must make a save or become {@condition rattled|sns} until the end of your next turn."
                     ]
                 }
             ],
@@ -16512,12 +16573,12 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "attack",
-                "force"
+                "force",
+                "dot"
             ],
             "level": 1,
             "components": {
@@ -18468,7 +18529,7 @@
                         "10-foot sphere"
                     ]
                 },
-                "A swarm of insects fills the area, which becomes a persistent area dealing 1 piercing DoT damage. The pests also ravage any unattended organic material within their radius, such as plant, wood, or fabric.",
+                "A swarm of insects fills the area, which becomes a persistent zone dealing 1 piercing DoT damage. The pests also ravage any unattended organic material within their radius, such as plant, wood, or fabric.",
                 "This spell's damage increases by 1 when you reach 5th level (2), 10th level (3), and 15th level (4)."
             ],
             "name": "Pestilence",
@@ -18497,7 +18558,6 @@
                 "nature",
                 "summoning",
                 "persistent",
-                "area",
                 "dot"
             ],
             "level": 0,
@@ -27966,6 +28026,180 @@
                 "distance": {
                     "amount": 30,
                     "type": "feet"
+                }
+            }
+        },
+        {
+            "school": "E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "You whisper a discordant melody that only the target can hear, wracking it with terrible pain. Make a will attack against the target that deals {@dice 2d10} psychic damage. On a hit, the target must immediately use its reaction, if available, to move as far as its Speed allows away from you. The target doesn't move into obviously dangerous ground, such as a fire or a pit. A {@condition deafened|sns} target reduces the success tier of the attack by 1."
+            ],
+            "name": "Dissonant Whispers",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "ranged",
+                "psychic",
+                "spell"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "amount": 60,
+                    "type": "feet"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "You point your finger, and the creature that hit you is momentarily surrounded by hellish flames. Make a reflex attack against the creature that deals {@dice 2d12} fire damage."
+            ],
+            "name": "Hellish Rebuke",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction",
+                    "condition": "which you take in response to being hit by a damaging attack from a creature within range"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The spell deals an extra {@dice 1d12} damage for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "fire",
+                "ranged",
+                "spell"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "You place a curse on the target. Until the spell ends, you deal an extra {@dice 1d6} necrotic damage to the target whenever you hit it with an armour attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.",
+                "If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.",
+                "A {@spell remove curse|sns} cast on the target ends this spell early."
+            ],
+            "name": "Hex",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "necrotic"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "the petrified eye of a newt"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 90
                 }
             }
         }
