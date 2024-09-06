@@ -18682,8 +18682,8 @@
         {
             "school": "E",
             "entries": [
-                "You silently clench your hand into a claw and {@condition invisible} talons of pure will sprout from your fingers.",
-                "The talons do not interact with physical matter, but rip viciously at the psyche of any creature struck by them. For the duration, your unarmed strikes gain the finesse property and deal psychic damage. In addition, if your unarmed strike normally deals less than {@dice 1d4} damage, it instead deals {@dice 1d4} damage."
+                "You silently clench your hand into a claw and talons of pure will sprout from your fingers.",
+                "The talons do not interact with physical matter, but rip viciously at the psyche of any creature struck by them. For the duration, your unarmed attacks are governed by your choice of either Strength or Dexterity, and their base damage is converted to psychic. In addition, if your unarmed strike's base damage die is less than {@dice 1d4}, it is instead {@dice 1d4}."
             ],
             "name": "Phantasmal Talons",
             "time": [
@@ -18703,8 +18703,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "psychic",
                 "unarmed"
@@ -20070,8 +20069,8 @@
                         "One willing creature"
                     ]
                 },
-                "The target is protected against the following types of creatures: aberrations, celestials, elementals, fey, fiends, and undead. Creatures of those types have disadvantage on attack rolls against the target and are unable to charm, frighten, or possess the target.",
-                "If the target is already {@condition charmed}, {@condition frightened}, or possessed by such a creature, the target has advantage on any new saving throw against that effect."
+                "The target is protected against the following types of creatures: aberrations, celestials, elementals, fey, fiends, and undead. Creatures of those types have disadvantage on armour attack rolls against the target and are unable to {@condition charmed|sns|charm}, {@condition frightened|sns|frighten}, or possess the target.",
+                "If the target is already {@condition charmed|sns}, {@condition frightened|sns}, or possessed by such a creature, the target has advantage on any saves against that effect."
             ],
             "name": "Protection from Evil and Good",
             "time": [
@@ -20091,8 +20090,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
@@ -20208,7 +20206,7 @@
                         "5-foot radius sphere"
                     ]
                 },
-                "You remove all poison and disease from a number of Supply equal to your proficiency bonus."
+                "You remove all poison and disease from a number of food and drink items equal to your proficiency bonus."
             ],
             "name": "Purify Food and Drink",
             "time": [
@@ -20222,7 +20220,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "Remove all poison and disease from an additional Supply for each slot level above 1st."
+                        "Remove all poison and disease from an additional food or drink item for each slot level above 1st."
                     ]
                 }
             ],
@@ -20231,8 +20229,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -21354,8 +21351,8 @@
                     ]
                 },
                 "You ward a creature against intentional harm.",
-                "Any creature that makes an attack against or casts a harmful spell against the target must first make a Wisdom saving throw. On a failed save, the attacking creature must choose a different creature to attack or it loses the attack or spell. This spell doesn't protect the target from area effects, such as an explosion.",
-                "This spell ends early when the target attacks or casts a spell that affects an enemy creature."
+                "Any creature that makes a non-area attack against the target must first make a save. On a failure, the attacking creature must choose a different creature to attack or it loses the attack.",
+                "This spell ends early when the target makes an attack."
             ],
             "name": "Sanctuary",
             "time": [
@@ -21374,8 +21371,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "protection"
@@ -21573,14 +21569,7 @@
                         "15-foot cone"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Intelligence halves and negates deafened"
-                    ]
-                },
-                "You briefly go into a magical trance and whisper an alien equation which you never fully remember once the spell is complete. Each creature in the area takes {@dice 3d4} psychic damage and is {@condition deafened} for 1 round.",
+                "You briefly go into a magical trance and whisper an alien equation which you never fully remember once the spell is complete. Make a reflex attack against each creature in the area that deals {@dice 3d6} psychic damage. On a hit, the target is also {@condition deafened|sns} for 1 round.",
                 "Creatures who are unable to hear the equation, immune to psychic damage, or who have an Intelligence score lower than 4 are immune to this spell."
             ],
             "name": "Searing Equation",
@@ -21595,7 +21584,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "Creatures are {@condition deafened} for 1 additional round for each slot level above 1st."
+                        "Creatures are {@condition deafened|sns} for 1 additional round for each slot level above 1st."
                     ]
                 }
             ],
@@ -21604,14 +21593,15 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "N"
             ],
             "subschools": [
                 "affliction",
-                "psychic"
+                "psychic",
+                "area",
+                "spell"
             ],
             "level": 1,
             "components": {
@@ -22262,13 +22252,14 @@
         {
             "school": "A",
             "entries": [
-                "You create a shimmering arcane barrier between yourself and an oncoming attack. Until the spell ends, you gain a +5 bonus to your AC (including against the triggering attack) and any magic missile targeting you is harmlessly deflected."
+                "You create a shimmering arcane barrier between yourself and an oncoming attack. Until the spell ends, all armour attacks made against you have their success tier reduced by 1 (including the triggering attack) and any {@spell magic missile|sns} targeting you is harmlessly deflected."
             ],
             "name": "Shield",
             "time": [
                 {
                     "number": 1,
-                    "unit": "reaction"
+                    "unit": "reaction",
+                    "condition": "which you take when you are hit by an attack or targeted by the {@spell magic missile|sns} spell"
                 }
             ],
             "duration": [
@@ -22281,8 +22272,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "protection"
@@ -22321,12 +22311,12 @@
                         "One creature"
                     ]
                 },
-                "Until the spell ends, a barrier of divine energy envelops the target and increases its AC by +2.",
+                "Until the spell ends, a barrier of divine energy envelops the target and increases its armour by +2.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Komanov's Radiant Shield. When a creature makes a melee attack against the target, it takes {@dice 1d6} radiant damage as the shield sparks and flares with holy power."
+                        "Komanov's Radiant Shield. When a creature makes a melee weapon attack against the target, it takes {@dice 1d6} radiant DoT damage as the shield sparks and flares with holy power."
                     ]
                 }
             ],
@@ -22342,7 +22332,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The bonus to AC increases by +1 for every three slot levels above 1st."
+                        "The bonus to armour increases by +1 for every three slot levels above 1st."
                     ]
                 }
             ],
@@ -22357,8 +22347,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "protection"
@@ -22589,7 +22578,7 @@
                 },
                 "You create an illusory image of a creature, object, or other visible effect within the area. The illusion is purely visual, it cannot produce sound or smell, and items and other creatures pass through it.",
                 "As an action, you can move the image to any point within range. The image's movement can be natural and lifelike (for example, a ball will roll and a bird will fly).",
-                "A creature can spend an action to make an Investigation check against your spell save DC to determine if the image is an illusion. On a success, it is able to see through the image."
+                "A creature can spend an action to make an Investigation check against your standard DC to determine if the image is an illusion. On a success, it is able to see through the image."
             ],
             "name": "Silent Image",
             "time": [
@@ -22609,8 +22598,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "senses"
@@ -22713,7 +22701,7 @@
                     "type": "entries",
                     "name": "Target",
                     "entries": [
-                        "4d10 hit points worth of creatures"
+                        "The creature in the area with the fewest hit points"
                     ]
                 },
                 {
@@ -22723,11 +22711,8 @@
                         "20-foot radius"
                     ]
                 },
-                "You send your enemies into a magical slumber.",
-                "Starting with the target with the lowest hit points (ignoring {@condition unconscious} creatures), targets within the area fall {@condition unconscious} in ascending order according to their hit points. Slumbering creatures stay asleep until the spell ends, they take damage, or someone uses an action to physically wake them.",
-                "As each target falls asleep, subtract its hit points from the total before moving on to the next target.",
-                "A target's hit points must be equal to or less than the total remaining for the spell to have any effect.",
-                "If the spell puts no creatures to sleep, the creature in the area with the lowest hit point total is {@condition rattled|LevelUp} until the beginning of its next turn.",
+                "You send the target into a magical slumber.",
+                "The target falls {@condition unconscious|sns}. Slumbering creatures stay asleep until the spell ends, they take damage, or someone uses an action to physically wake them.",
                 "Constructs and undead are not affected by this spell."
             ],
             "name": "Sleep",
@@ -22742,7 +22727,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The spell affects an additional {@dice 2d1}0 hit points worth of creatures for each slot level above 1st."
+                        "Add an additional target with the next-fewest hit points in the area for each slot level above 1st."
                     ]
                 }
             ],
@@ -22756,8 +22741,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "arcane",
@@ -23098,12 +23082,12 @@
             },
             "school": "D",
             "entries": [
-                "You call upon the secret lore of beasts and gain the ability to speak with them. Beasts have a different perspective of the world, and their knowledge and awareness is filtered through that perspective. At a minimum, beasts can tell you about nearby locations and monsters, including things they have recently perceived. At the Narrator's discretion, you might be able to persuade a beast to perform a small favor for you.",
+                "You call upon the secret lore of beasts and gain the ability to speak with them. Beasts have a different perspective of the world, and their knowledge and awareness is filtered through that perspective. At a minimum, beasts can tell you about nearby locations and monsters, including things they have recently perceived. At the DM's discretion, you might be able to persuade a beast to perform a small favor for you.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Nevard's Insightful Speak with Animals. So long as your spell save DC is higher than the passive Insight score of a beast you are conversing with, you can use an action to view the memories of an event the beast is describing."
+                        "Nevard's Insightful Speak with Animals. So long as your standard DC is higher than the passive Insight score of a beast you are conversing with, you can use an action to view the memories of an event the beast is describing."
                     ]
                 }
             ],
@@ -23124,8 +23108,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "beasts",
                 "communication",
@@ -24932,20 +24915,13 @@
                         "15-foot cube"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves and negates push"
-                    ]
-                },
-                "You create a wave of thunderous force, damaging creatures and pushing them back. Creatures in the area take {@dice 2d8} thunder damage and are pushed 10 feet away from you.",
+                "You create a wave of thunderous force, damaging creatures and pushing them back. Make a fortitude attack against all creatures in the area that deals {@dice 4d4} thunder damage. On a hit, a creature is pushed 10 feet away from you.",
                 "Unsecured objects completely within the area are also pushed 10 feet away from you. The thunderous boom of the spell is audible out to 300 feet.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Vorax-Hul's Shaking Thunderwave. A creature that takes 10 or more damage from this spell is knocked {@condition prone}."
+                        "Vorax-Hul's Shaking Thunderwave. A creature hit by this spell that takes 10 or more damage is knocked {@condition prone|sns}."
                     ]
                 }
             ],
@@ -24961,7 +24937,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d8} for each slot level above 1st."
+                        "The damage increases by {@dice 2d4} for each slot level above 1st."
                     ]
                 }
             ],
@@ -24970,15 +24946,16 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
             "subschools": [
                 "arcane",
                 "nature",
-                "thunder"
+                "thunder",
+                "area",
+                "spell"
             ],
             "level": 1,
             "components": {
@@ -25274,8 +25251,7 @@
                     ]
                 },
                 "Until the spell ends, creatures have disadvantage on Sleight of Hand checks made against the target.",
-                "If a creature fails a Sleight of Hand check to steal from the target, the ward creates a loud noise and a flash of bright light easily heard and seen by creatures within 100 feet.",
-                "While journeying adventurers can only recover from fatigue or strife on a long rest when they have access to a haven: a place to sleep without the reasonable risk of attack or harm from the elements, such as an inn."
+                "If a creature fails a Sleight of Hand check to steal from the target, the ward creates a loud noise and a flash of bright light easily heard and seen by creatures within 100 feet."
             ],
             "name": "Traveler's Ward",
             "time": [
@@ -25294,8 +25270,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "protection",
                 "sound"
@@ -25752,7 +25727,7 @@
             },
             "school": "C",
             "entries": [
-                "You create an {@condition invisible}, mindless, shapeless force to perform simple tasks. The servant appears in an unoccupied space on the ground that you can see and endures until it takes damage, moves more than 60 feet away from you, or the spell ends. It has AC 10, a Strength of 2, and it can't attack.",
+                "You create an {@condition invisible}, mindless, shapeless force to perform simple tasks. The servant appears in an unoccupied space on the ground that you can see and endures until it takes damage, moves more than 60 feet away from you, or the spell ends. It has 0 in all defences, a Strength of 2, and it can't attack.",
                 "You can use a bonus action to mentally command it to move up to 15 feet and interact with an object.",
                 "The servant can do anything a humanoid servant can do — fetching things, cleaning, mending, folding clothes, lighting fires, serving food, pouring wine, and so on. Once given a command the servant performs the task to the best of its ability until the task is completed, then waits for its next command.",
                 {
@@ -25789,8 +25764,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "summoning",
@@ -27050,7 +27024,7 @@
         {
             "school": "V",
             "entries": [
-                "You wind your power up like a spring. You gain advantage on the next melee attack roll you make before the end of the spell's duration, after which the spell ends."
+                "You wind your power up like a spring. You gain advantage on the next melee weapon attack you make before the end of the spell's duration, after which the spell ends."
             ],
             "name": "Wind Up",
             "time": [
@@ -27069,8 +27043,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement"
             ],
@@ -28200,6 +28173,298 @@
                 "distance": {
                     "type": "feet",
                     "amount": 90
+                }
+            }
+        },
+        {
+            "school": "N",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "A ray of sickening greenish energy lashes out towards the target. Make an armour attack against the target that deals {@dice 2d8} poison damage. On a major success, the target is also {@condition poisoned|sns} until the end of your next turn."
+            ],
+            "name": "Ray of Sickness",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 1d8} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "poison",
+                "ranged",
+                "spell"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon flares with white-hot intensity and the attack deals an extra {@dice 1d6} fire damage to the target and causes the target to ignite in flames. The target makes passive saves to end the spell, but whenever it fails one, it takes {@dice 1d6} fire DoT damage. If the target or a creature adjacent to it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends."
+            ],
+            "name": "Searing Smite",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The initial extra damage dealt by the hit increases by {@dice 1d6} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "fire"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "The first time you hit with a melee weapon attack during this spell's duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra {@dice 2d6} thunder damage to the target. Additionally, if the target is a creature and the attack scored a major success, the target is pushed 10 feet away from you and knocked {@condition prone|sns}."
+            ],
+            "name": "Thunderous Smite",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "thunder"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "A beam of crackling, blue energy lances out towards the target, forming a sustained arc of lightning between it and you. Make an armour attack against the target that deals {@dice 1d12} lightning damage. On a hit, you can use your action on subsequent turns for the duration to deal {@dice 1d12} lightning DoT damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you."
+            ],
+            "name": "Witch Bolt",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The initial damage increases by {@dice 1d12} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "lightning",
+                "ranged",
+                "spell",
+                "dot"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a twig from a tree that has been struck by lightning"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra {@dice 1d6} psychic damage. Additionally, if the target is a creature and the attack scored a major success, the target is {@condition frightened|sns} until the spell ends. As an action, the creature can make a Wisdom check against your standard DC to steel its resolve and end this spell."
+            ],
+            "name": "Thunderous Smite",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "psychic"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
                 }
             }
         }
