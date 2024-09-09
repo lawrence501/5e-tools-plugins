@@ -67,79 +67,79 @@
                             1
 						],[
                             4,
-                            2
+                            1
 						],
                         [
                             4,
-                            3
+                            2
 						],
                         [
                             5,
-                            3
+                            2
 						],
                         [
                             6,
-                            4
+                            3
+						],
+                        [
+                            7,
+                            3
 						],
                         [
                             7,
                             4
-						],
-                        [
-                            7,
-                            5
 						],
                         [
                             8,
-                            5
+                            4
 						],
                         [
                             9,
-                            6
+                            5
+						],
+                        [
+                            10,
+                            5
 						],
                         [
                             10,
                             6
-						],
-                        [
-                            10,
-                            7
 						],
                         [
                             11,
-                            8
+                            6
 						],
                         [
                             12,
-                            9
+                            7
 						],
                         [
                             13,
-                            9
+                            7
 						],
                         [
                             13,
-                            10
+                            8
 						],
                         [
                             14,
-                            10
+                            8
 						],
                         [
                             15,
-                            11
+                            9
 						],
                         [
                             16,
-                            11
+                            9
 						],
                         [
                             16,
-                            12
+                            10
 						],
                         [
                             17,
-                            12
+                            10
 						]
 					]
 				}
@@ -160,12 +160,12 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Savant|sns|4|sns",
-                "Signature Move|Savant|sns|4|sns",
                 "Developed Poise|Savant|sns|5|sns",
                 {
 					"classFeature": "First Subclass Tier 3|Savant|sns|5|sns",
 					"gainSubclassFeature": true
 				},
+				"Signature Move|Savant|sns|6|sns",
                 "Intelligent Caution|Savant|sns|7|sns",
                 "Skill Focus|Savant|sns|7|sns",
                 "Quick Wits|Savant|sns|7|sns",
@@ -183,8 +183,8 @@
                 "Skill Focus|Savant|sns|11|sns",
                 "Second Subclass Tier 1|Savant|sns|11|sns",
                 "Ability Score Improvement|Savant|sns|12|sns",
-                "Exceptional Poise|Savant|sns|13|sns",
                 "Second Subclass Tier 2|Savant|sns|13|sns",
+				"Exceptional Poise|Savant|sns|14|sns",
                 "Clockwork Mind|Savant|sns|15|sns",
                 "Skill Focus|Savant|sns|15|sns",
                 "Second Subclass Tier 3|Savant|sns|15|sns",
@@ -212,6 +212,7 @@
                 "Supernatural Senses|Savant|sns|Sired|sns|5",
                 "Sired Major Effect #2|Savant|sns|Sired|sns|5",
                 "Emerging Immortality|Savant|sns|Sired|sns|7",
+				"Perfect Senses|Savant|sns|Sired|sns|7",
                 "Eternal Form|Savant|sns|Sired|sns|9"
 			]
 		}
@@ -681,9 +682,9 @@
 			"source": "sns",
 			"className": "Savant",
 			"classSource": "sns",
-			"level": 4,
+			"level": 6,
 			"entries": [
-				"At 4th level, choose one savant trick you know. You are considered to always have that trick prepared, and it does not count against the limit of tricks you can have prepared. When you use that trick, it does not stop being prepared. Whenever you complete a long rest, you can change your signature move."
+				"At 6th level, choose one savant trick you know. You are considered to always have that trick prepared, and it does not count against the limit of tricks you can have prepared. When you use that trick, it does not stop being prepared. Whenever you complete a long rest, you can change your signature move."
 			]
 		},
 		{
@@ -747,7 +748,7 @@
 			"classSource": "sns",
 			"level": 10,
 			"entries": [
-				"At 10th level, you can have two tricks prepared at once, in addition to your signature trick. You still require a bonus action to prepare a trick."
+				"At 10th level, you can have two tricks prepared at once, in addition to your signature move. You still require a bonus action to prepare a trick."
 			]
 		},
 		{
@@ -755,9 +756,9 @@
 			"source": "sns",
 			"className": "Savant",
 			"classSource": "sns",
-			"level": 13,
+			"level": 14,
 			"entries": [
-				"At 13th level, your combat poise can achieve remarkable things. Choose one of the following, or one of the combat poise options available at 2nd or 5th level.",
+				"At 14th level, your combat poise can achieve remarkable things. Choose one of the following, or one of the combat poise options available at 2nd or 5th level.",
 				{
 					"type": "entries",
 					"name": "Confounding Defence",
@@ -910,6 +911,19 @@
 						"Whenever you would drop to 0 hit points, make a disadvantaged save, remaining at 1 hit point instead on a success."
 					]
 				}
+			]
+		},
+		{
+			"name": "Perfect Senses",
+			"source": "sns",
+			"className": "Savant",
+			"classSource": "sns",
+			"subclassShortName": "Sired",
+			"subclassSource": "sns",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Also at tier 4, you gain 30 feet of true sight."
 			]
 		},
 		{
