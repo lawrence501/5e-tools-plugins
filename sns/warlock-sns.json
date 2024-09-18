@@ -86,8 +86,14 @@
 						1,
 						2,
 						2,
+						2,
+						2,
 						3,
 						3,
+						4,
+						4,
+						4,
+						4,
 						4,
 						4,
 						5,
@@ -95,13 +101,7 @@
 						5,
 						6,
 						6,
-						6,
-						7,
-						7,
-						7,
-						8,
-						8,
-						8
+						6
 					]
 				},
 				{
@@ -367,8 +367,8 @@
                 "Second Subclass Tier 1|Warlock|sns|11|sns",
                 "Expanded Spell List (Second)|Warlock|sns|11|sns",
 				"Ability Score Improvement|Warlock|sns|12|sns",
-				"Eldritch Evolution (2)|Warlock|sns|12|sns",
                 "Second Subclass Tier 2|Warlock|sns|13|sns",
+				"Eldritch Evolution (2)|Warlock|sns|14|sns",
                 "Second Subclass Tier 3|Warlock|sns|15|sns",
 				"Ability Score Improvement|Warlock|sns|16|sns",
 				"Invocation of the Courts (3)|Warlock|sns|16|sns",
@@ -1332,7 +1332,7 @@
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain a bonus invocation — one which represents your growth in the lethal lore behind Eldritch Blast. Choose one invocation from the following list: Agonizing Blast, Eldritch Bind, Eldritch Elementalism, Eldritch Grasp, Eldritch Prism, Eldritch Riposte, Eldritch Severance, Eldritch Spear, Eldritch Squall, Eldritch Tentacle, Repelling Blast, Versatile Blast.",
-				"You gain another bonus invocation in this way at 12th level and again at 18th level. Whenever you complete a long rest, you can choose one of the bonus invocations you know and replace it with another bonus invocation from this list that you could learn at that level."
+				"You gain another bonus invocation in this way at 14th level and again at 18th level. Whenever you complete a long rest, you can choose one of the bonus invocations you know and replace it with another bonus invocation from this list that you could learn at that level."
 			]
 		},
 		{
@@ -1370,9 +1370,9 @@
 			"source": "sns",
 			"className": "Warlock",
 			"classSource": "sns",
-			"level": 12,
+			"level": 14,
 			"entries": [
-				"At 12th level, you gain another bonus invocation from your Eldritch Evolution feature."
+				"At 14th level, you gain another bonus invocation from your Eldritch Evolution feature."
 			]
 		},
 		{
