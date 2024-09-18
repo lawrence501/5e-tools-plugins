@@ -336,47 +336,47 @@
 					"classFeature": "First Subclass Tier 1|Warlock|sns|1|sns",
 					"gainSubclassFeature": true
 				},
-				"Pact Magic|Warlock|LevelUp|1|LevelUp",
-				"Eldritch Blast|Warlock|LevelUp|1|LevelUp",
-				"Expanded Spell List (First)|Warlock|LevelUp|1|LevelUp",
-				"Eldritch Invocations|Warlock|LevelUp|2|LevelUp",
-				"Secrets of Arcana|Warlock|LevelUp|2|LevelUp",
-				"Pact Boon|Warlock|LevelUp|3|LevelUp",
+				"Pact Magic|Warlock|sns|1|sns",
+				"Eldritch Blast|Warlock|sns|1|sns",
+				"Expanded Spell List (First)|Warlock|sns|1|sns",
+				"Eldritch Invocations|Warlock|sns|2|sns",
+				"Secrets of Arcana|Warlock|sns|2|sns",
+				"Pact Boon|Warlock|sns|3|sns",
                 {
 					"classFeature": "First Subclass Tier 2|Warlock|sns|3|sns",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlock|LevelUp|4|LevelUp",
-				"Invocation of the Courts (1)|Warlock|LevelUp|4|LevelUp",
-				"Extra Blast|Warlock|LevelUp|5|LevelUp",
+				"Ability Score Improvement|Warlock|sns|4|sns",
+				"Invocation of the Courts (1)|Warlock|sns|4|sns",
+				"Extra Blast|Warlock|sns|5|sns",
 				{
 					"classFeature": "First Subclass Tier 3|Warlock|sns|5|sns",
 					"gainSubclassFeature": true
 				},
-				"Eldritch Evolution (1)|Warlock|LevelUp|6|LevelUp",
+				"Eldritch Evolution (1)|Warlock|sns|6|sns",
                 {
 					"classFeature": "First Subclass Tier 4|Warlock|sns|7|sns",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Warlock|LevelUp|8|LevelUp",
+				"Ability Score Improvement|Warlock|sns|8|sns",
                 {
 					"classFeature": "First Subclass Tier 5|Warlock|sns|9|sns",
 					"gainSubclassFeature": true
 				},
-				"Invocation of the Courts (2)|Warlock|LevelUp|10|LevelUp",
+				"Invocation of the Courts (2)|Warlock|sns|10|sns",
                 "Second Subclass Tier 1|Warlock|sns|11|sns",
-                "Expanded Spell List (Second)|Warlock|LevelUp|11|LevelUp",
-				"Ability Score Improvement|Warlock|LevelUp|12|LevelUp",
-				"Eldritch Evolution (2)|Warlock|LevelUp|12|LevelUp",
+                "Expanded Spell List (Second)|Warlock|sns|11|sns",
+				"Ability Score Improvement|Warlock|sns|12|sns",
+				"Eldritch Evolution (2)|Warlock|sns|12|sns",
                 "Second Subclass Tier 2|Warlock|sns|13|sns",
                 "Second Subclass Tier 3|Warlock|sns|15|sns",
-				"Ability Score Improvement|Warlock|LevelUp|16|LevelUp",
-				"Invocation of the Courts (3)|Warlock|LevelUp|16|LevelUp",
+				"Ability Score Improvement|Warlock|sns|16|sns",
+				"Invocation of the Courts (3)|Warlock|sns|16|sns",
                 "Second Subclass Tier 4|Warlock|sns|17|sns",
-				"Eldritch Evolution (3)|Warlock|LevelUp|18|LevelUp",
-				"Ability Score Improvement|Warlock|LevelUp|19|LevelUp",
+				"Eldritch Evolution (3)|Warlock|sns|18|sns",
+				"Ability Score Improvement|Warlock|sns|19|sns",
                 "Second Subclass Tier 5|Warlock|sns|19|sns",
-				"Dread Thaumaturge|Warlock|LevelUp|20|LevelUp"
+				"Dread Thaumaturge|Warlock|sns|20|sns"
 			],
 			"subclassTitle": "Warlock Subclass"
 		}
@@ -1367,7 +1367,7 @@
 		},
 		{
 			"name": "Eldritch Evolution (2)",
-			"source": "LevelUp",
+			"source": "sns",
 			"className": "Warlock",
 			"classSource": "sns",
 			"level": 12,
@@ -1820,7 +1820,7 @@
 		},
 		{
 			"name": "Dreadful Word",
-			"source": "LevelUp",
+			"source": "sns",
 			"featureType": [
 				"EI"
 			],
