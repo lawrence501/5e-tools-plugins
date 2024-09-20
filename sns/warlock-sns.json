@@ -1578,6 +1578,10 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Genie's Vessel|Warlock|sns|Genie|sns|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Genie Major Effect #1|Warlock|sns|Genie|sns|1"
 				}
 			]
 		},
@@ -1656,6 +1660,18 @@
 			]
 		},
 		{
+			"name": "Genie Major Effect #1",
+			"source": "sns",
+			"className": "Warlock",
+			"classSource": "sns",
+			"subclassShortName": "Genie",
+			"subclassSource": "sns",
+			"level": 1,
+			"entries": [
+				"Major effect that must be designed."
+			]
+		},
+		{
 			"name": "Elemental Gift",
 			"source": "sns",
 			"className": "Warlock",
@@ -1680,6 +1696,19 @@
 			"header": 2,
 			"entries": [
 				"At tier 3, you get a new strong feature."
+			]
+		},
+		{
+			"name": "Genie Major Effect #2",
+			"source": "sns",
+			"className": "Warlock",
+			"classSource": "sns",
+			"subclassShortName": "Genie",
+			"subclassSource": "sns",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"Major effect that must be designed."
 			]
 		},
 		{
