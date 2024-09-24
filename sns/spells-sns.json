@@ -110,19 +110,19 @@
                         "Creature or object"
                     ]
                 },
-                "A jet of acid streaks towards the target like a hissing, green arrow. Make a ranged spell attack. On a hit the target takes {@dice 4d4} acid damage and {@dice 2d4} ongoing acid damage for 1 round. On a miss the target takes half damage.",
+                "A jet of acid streaks towards the target like a hissing, green arrow. Make an armour attack that deals {@dice 2d10} acid damage and on a hit, inflicts {@dice 2d4} ongoing acid damage for 1 round.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Gabal's Blinding Acid Arrow. The arrow flies to the target's sensory organs seeking to damage its sight. A creature damaged by this spell makes a Dexterity saving throw or it is {@condition blinded} until the end of its next turn."
+                        "Gabal's Blinding Acid Arrow. The arrow flies to the target's sensory organs seeking to damage its sight. If the spell's attack scores a major success, the target is {@condition blinded|sns} until the end of its next turn."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Insidious Acid Arrow. The acid stinks and disorients as it burns. A creature damaged by this spell makes a Constitution saving throw with advantage or it is {@condition poisoned} until the end of its next turn."
+                        "Kreven's Insidious Acid Arrow. The acid stinks and disorients as it burns. If the spell's attack scores a major success, the target is {@condition poisoned|sns} until the end of its next turn."
                     ]
                 }
             ],
@@ -138,7 +138,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "Increase this spell's initial and ongoing damage by {@dice 1d4} per slot level above 2nd."
+                        "Increase this spell's initial damage by {@dice 1d10} and ongoing damage by {@dice 1d4} per slot level above 2nd."
                     ]
                 }
             ],
@@ -147,11 +147,12 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "acid",
-                "arcane"
+                "arcane",
+                "spell",
+                "ranged"
             ],
             "level": 2,
             "components": {
@@ -249,12 +250,12 @@
                         "Up to three creatures"
                     ]
                 },
-                "You draw upon divine power, imbuing the targets with fortitude. Until the spell ends, each target increases its hit point maximum and current hit points by 5.",
+                "You draw upon divine power, imbuing the targets with constitution. Until the spell ends, each target increases its hit point maximum and current hit points by 6.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Stekart's Fortifying Aid. Once per round each target gains an expertise die on its first saving throw made to resist or end a condition."
+                        "Stekart's Fortifying Aid. Once per round each target gains an expertise die on its first save made to resist or end a condition."
                     ]
                 }
             ],
@@ -270,7 +271,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The granted hit points increase by an additional 5 for each slot level above 2nd."
+                        "The granted hit points increase by an additional 6 for each slot level above 2nd."
                     ]
                 }
             ],
@@ -284,8 +285,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "enhancement"
@@ -544,10 +544,33 @@
             "entries": [
                 "You use magic to mold yourself into a new form.",
                 "Choose one of the options below. Until the spell ends, you can use an action to choose a different option.",
-                "Amphibian: Your body takes on aquatic adaptations. You can breathe underwater normally and gain a swimming speed equal to your base Speed.",
-                "Altered State: You decide what you look like.",
-                "None of your gameplay statistics change but you can alter anything about your body's appearance, including but not limited to: your heritage, 1 foot of height, weight, clothing, tattoos, piercings, facial features, sound of your voice, hair style and length, skin and eye coloration, sex, and any other distinguishing features. You cannot become a creature of a different size category, and your limb structure remains the same; for example if you're bipedal, you can't use this spell to become a quadruped. Until the spell ends, you can use an action to change your appearance.",
-                "Red in Tooth and Claw: You grow magical natural weapons of your choice with a +1 bonus to attack and damage. Your unarmed strikes deal {@dice 1d6} bludgeoning, piercing, or slashing damage of a type determined by the natural weapon you chose; for example a tentacle deals bludgeoning, a horn deals piercing, and claws deal slashing."
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Amphibian",
+                            "entries": [
+                                "Your body takes on aquatic adaptations. You can breathe underwater normally and gain a swimming speed equal to your base Speed."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Altered State",
+                            "entries": [
+                                "You decide what you look like.",
+                                "None of your gameplay statistics change but you can alter anything about your body's appearance, including but not limited to: your heritage, 1 foot of height, weight, clothing, tattoos, piercings, facial features, sound of your voice, hair style and length, skin and eye coloration, sex, and any other distinguishing features. You cannot become a creature of a different size category, and your limb structure remains the same; for example if you're bipedal, you can't use this spell to become a quadruped. Until the spell ends, you can use an action to change your appearance."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Red in Tooth and Claw",
+                            "entries": [
+                                "You grow magical natural weapons of your choice with a +1 bonus to attack rolls and damage which ignore resistances and immunities. These unarmed strikes deal {@dice 1d6} bludgeoning, piercing, or slashing damage of a type determined by the natural weapon you chose; for example a tentacle deals bludgeoning, a horn deals piercing, and claws deal slashing."
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Alter Self",
             "time": [
@@ -562,9 +585,32 @@
                     "name": "Cast at Higher Levels",
                     "entries": [
                         "When using a spell slot of 5th-level, add the following to the list of forms you can adopt.",
-                        "Greater Natural Weapons. The damage dealt by your natural weapon increases to {@dice 2d6}, and you gain a +2 bonus to attack and damage rolls with your natural weapons.",
-                        "Mask of the Grave. You adopt the appearance of a skeleton or zombie (your choice). Your type changes to undead, and mindless undead creatures ignore your presence, treating you as one of their own. You don't need to breathe and you become immune to poison.",
-                        "Wings. A pair of wings sprouts from your back. The wings can appear bird-like, leathery like a bat or dragon's wings, or like the wings of an insect. You gain a fly speed equal to your base Speed."
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Greater Natural Weapons",
+                                    "entries": [
+                                        "The damage dealt by your natural weapon increases to {@dice 2d6}, and you gain a +2 bonus to attack and damage rolls with these natural weapons."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Mask of the Grave",
+                                    "entries": [
+                                        "You adopt the appearance of a skeleton or zombie (your choice). Your type changes to undead, and mindless undead creatures ignore your presence, treating you as one of their own. You don't need to breathe and you become immune to poison."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Wings",
+                                    "entries": [
+                                        "A pair of wings sprouts from your back. The wings can appear bird-like, leathery like a bat or dragon's wings, or like the wings of an insect. You gain a fly speed equal to your base Speed."
+                                    ]
+                                }
+                            ]
+                        }
                     ]
                 }
             ],
@@ -579,8 +625,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "movement",
@@ -836,8 +881,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "beasts",
                 "communication",
@@ -1583,8 +1627,7 @@
                     ]
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "protection"
@@ -1830,9 +1873,26 @@
                 },
                 "You craft an illusion to deceive others about the target's true magical properties.",
                 "Choose one or both of the following effects. When cast upon the same target with the same effect for 30 successive days, it lasts until it is dispelled.",
-                "False Aura: A magical target appears nonmagical, a nonmagical target appears magical, or you change a target's magical aura so that it appears to belong to a school of magic of your choosing. Additionally, you can choose to make the false magic apparent to any creature that handles the item.",
-                "Masking Effect: Choose a creature type.",
-                "Spells and magical effects that detect creature types (such as a herald's Divine Sense or the trigger of a symbol spell) treat the target as if it were a creature of that type. Additionally, you can choose to mask the target's alignment trait (if it has one)."
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "False Aura",
+                            "entries": [
+                                "A magical target appears nonmagical, a nonmagical target appears magical, or you change a target's magical aura so that it appears to belong to a school of magic of your choosing. Additionally, you can choose to make the false magic apparent to any creature that handles the item."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Masking Effect",
+                            "entries": [
+                                "Choose a creature type.",
+                                "Spells and magical effects that detect creature types (such as a herald's Divine Sense or the trigger of a symbol spell) treat the target as if it were a creature of that type. Additionally, you can choose to mask the target's alignment trait (if it has one)."
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Arcanist's Magic Aura",
             "time": [
@@ -1860,8 +1920,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "obscurement",
@@ -2047,8 +2106,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "communication",
                 "divine",
@@ -2384,7 +2442,7 @@
                         "One willing creature"
                     ]
                 },
-                "The target's skin takes on the texture and appearance of bark, increasing its AC to 16 (unless its AC is already higher)."
+                "The target's skin takes on the texture and appearance of bark, increasing its armour to 3 (unless its armour is already higher)."
             ],
             "name": "Barkskin",
             "time": [
@@ -2398,7 +2456,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The target's AC increases by +1 for every two slot levels above 2nd."
+                        "The target's armour increases by +1 for every two slot levels above 2nd."
                     ]
                 }
             ],
@@ -2412,8 +2470,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "nature",
                 "plants",
@@ -3001,14 +3058,33 @@
                         "One creature"
                     ]
                 },
+                "Make a fortitude attack against the target with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target has disadvantage on attack rolls for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Until either the spell ends or the target passes a passive save, the target is {@condition blinded|sns} or {@condition deafened|sns} (your choice)."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target also loses all forms of sense, including true sight."
+                            ]
+                        }
                     ]
-                },
-                "Until the spell ends, the target is {@condition blinded} or {@condition deafened} (your choice). At the end of each of its turns the target can repeat its saving throw, ending the spell on a success."
+                }
             ],
             "name": "Blindness/Deafness",
             "time": [
@@ -3036,13 +3112,13 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
                 "arcane",
                 "divine",
-                "senses"
+                "senses",
+                "ranged"
             ],
             "level": 2,
             "components": {
@@ -3220,7 +3296,7 @@
         {
             "school": "I",
             "entries": [
-                "Until the spell ends, you are shrouded in distortion and your image is blurred. Creatures make attack rolls against you with disadvantage unless they have senses that allow them to perceive without sight or to see through illusions (like blindsight or truesight)."
+                "Until the spell ends, you are shrouded in distortion and your image is blurred. Creatures make armour attack rolls against you with disadvantage unless they have senses that allow them to perceive without sight or to see through illusions (like blindsight or truesight)."
             ],
             "name": "Blur",
             "time": [
@@ -3234,7 +3310,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "You may target an additional willing creature you can see within range for each slot level above 2nd. Whenever an affected creature other than you is hit by an attack, the spell ends for that creature. When using a higher level spell slot, increase the spell's range to 30 feet."
+                        "You may target an additional willing creature you can see within range for each slot level above 2nd. Whenever an affected creature other than you is hit by an armour attack, the spell ends for that creature. When using a higher level spell slot, increase the spell's range to 30 feet."
                     ]
                 }
             ],
@@ -3249,8 +3325,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "protection",
@@ -3584,21 +3659,41 @@
                     ],
                     "type": "entries"
                 },
+                "Strong and harmful emotions are suppressed within the area. Make a will attack against each unwilling target with the following outcomes:",
                 {
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Charisma negates"
-                    ],
-                    "type": "entries"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target has disadvantage on attack rolls for 1 round, or until it is attacked or sees its allies being attacked."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "You can choose one of the below effects to apply to the target."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but you do not need to maintain concentration on the spell."
+                            ]
+                        }
+                    ]
                 },
-                "Strong and harmful emotions are suppressed within the area. You can choose which of the following two effects to apply to each target of this spell.",
                 {
                     "items": [
-                        "Suppress the {@condition charmed} or {@condition frightened} conditions, though they resume when the spell ends (time spent suppressed counts against a condition's duration).",
-                        "Suppress hostile feelings towards creatures of your choice until the spell ends. This suppression ends if a target is attacked or sees its allies being attacked. Targets act normally when the spell ends."
+                        "Suppress the {@condition charmed|sns} and {@condition frightened|sns} conditions, though they resume when the spell ends (time spent suppressed counts against a condition's duration).",
+                        "Suppress hostile feelings towards creatures of your choice until the spell ends. This suppression ends if a target is attacked or sees its allies being attacked. Targets act normally when the spell ends. If the target missed atleast one turn of combat while suppressed, they immediately take a turn when the spell ends. This does not affect initiative order."
                     ],
                     "type": "list"
-                }
+                },
+                "If a target is willing, automatically use the standard success outcome against them without making an attack roll."
             ],
             "name": "Calm Emotions",
             "time": [
@@ -3627,14 +3722,14 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
             "subschools": [
                 "divine",
-                "negation"
+                "negation",
+                "ranged"
             ],
             "level": 2,
             "components": {
@@ -3656,7 +3751,7 @@
             "savingThrow": [],
             "range": {
                 "type": "point",
-                "distance": {
+                "distance": {                                                                                                                                                    
                     "amount": 60,
                     "type": "feet"
                 }
@@ -3901,7 +3996,7 @@
                         "One humanoid"
                     ]
                 },
-                "You do not need line of sight to the target so long as they can sense you. Make a will attack against the target, which has disadvantage if you or your companions are fighting the target. The attack has the following outcomes:Until the spell ends, the target is {@condition charmed} by you and friendly towards you.",
+                "You do not need line of sight to the target so long as they can sense you. Make a will attack against the target, which has disadvantage if you or your companions are fighting the target. The attack has the following outcomes:",
                 {
                     "type": "list",
                     "items": [
@@ -5751,8 +5846,7 @@
                     ]
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
@@ -6773,7 +6867,7 @@
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Cyneburg's Blinding Darkness. A creature that moves out of the darkness must make a Constitution saving throw or be {@condition blinded} for 1 minute. A creature {@condition blinded} by this spell can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                        "Cyneburg's Blinding Darkness. A creature that moves out of the darkness must make a save or be {@condition blinded|sns} for 1 minute, or until it passes a passive save."
                     ]
                 }
             ],
@@ -6795,8 +6889,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -6873,8 +6966,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "nature",
@@ -6996,8 +7088,34 @@
                     ]
                 },
                 "The target object's weight is greatly increased.",
-                "Any creature holding the object must succeed on a Strength saving throw or drop it. A creature which doesn't drop the object has disadvantage on attack rolls until the start of your next turn as it figures out the object's new balance.",
-                "Creatures that attempt to push, drag, or lift the object must succeed on a Strength check against your spell save DC to do so."
+                "If a creature is holding the object, make a fortitude attack against it with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target has disadvantage on armour attack rolls for 1 round as it figures out the object's new balance."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target drops the object in a random space within 5 feet of them."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the object is dropped 10 feet away from the target."
+                            ]
+                        }
+                    ]
+                },
+                "Creatures that attempt to push, drag, or lift the object must succeed on a Brawn check against your standard DC to do so."
             ],
             "name": "Deadweight",
             "time": [
@@ -7017,11 +7135,11 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "mobility",
-                "transformation"
+                "transformation",
+                "melee"
             ],
             "level": 2,
             "components": {
@@ -7494,20 +7612,42 @@
                         "Self"
                     ]
                 },
+                "On the round you cast it, and as an action on subsequent turns until the spell ends, you can probe the mind of a creature within range that speaks at least one language with an Intelligence score of at least 4 to read its thoughts. Make a will attack against the creature with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom (special)"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "You may ask one question about the creature's statistics, and then may not probe that creature's mind again until the spell ends."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "You learn the creature's surface thoughts - what is most on its mind in that moment. Conversation naturally shapes the course of a creature's thoughts and what it is thinking about may change based on questions verbally directed at it. Then, the spell ends."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Major success",
+                            "entries": [
+                                "As standard success, but you probe deeper into the creature's mind. You gain insight into the creature's motivations, emotional state, and something that looms large in its mind. The creature then becomes aware you are proving its mind and can use an action to make an Intelligence check contested by your Intelligence check, ending the spell if it succeeds."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As major success, but the creature does not become aware of your probing. If the creature passes a passive save, the spell ends."
+                            ]
+                        }
                     ]
                 },
-                "On the round you cast it, and as an action on subsequent turns until the spell ends, you can probe a creature's mind to read its thoughts by focusing on one creature you can see within range. The creature makes a Wisdom saving throw. Creatures with an Intelligence score of 3 or less or that don't speak any languages are unaffected. On a failed save, you learn the creature's surface thoughts —what is most on its mind in that moment. On a successful save, you fail to read the creature's thoughts and can't attempt to probe its mind for the duration. Conversation naturally shapes the course of a creature's thoughts and what it is thinking about may change based on questions verbally directed at it.",
-                "Once you have read a creature's surface thoughts, you can use an action to probe deeper into its mind.",
-                "The creature makes a second Wisdom saving throw.",
-                "On a successful save, you fail to read the creature's deeper thoughts and the spell ends. On a failure, you gain insight into the creature's motivations, emotional state, and something that looms large in its mind.",
-                "The creature then becomes aware you are probing its mind and can use an action to make an Intelligence check contested by your Intelligence check, ending the spell if it succeeds.",
                 "Additionally, you can use an action to scan for thinking creatures within range that you can't see.",
-                "Once you detect the presence of a thinking creature, so long as it remains within range you can attempt to read its thoughts as described above (even if you can't see it).",
+                "Once you detect the presence of a thinking creature, so long as it remains within range you can attempt to read its thoughts as described above (even if you don't have line of sight to it).",
                 "The spell penetrates most barriers but is blocked by 2 feet of stone, 2 inches of common metal, or a thin sheet of lead.",
                 {
                     "type": "entries",
@@ -7545,12 +7685,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "senses",
-                "telepathy"
+                "telepathy",
+                "ranged"
             ],
             "level": 2,
             "components": {
@@ -8819,17 +8959,34 @@
                     ]
                 },
                 "You bestow a magical enhancement on the target. Choose one of the following effects for the target to receive until the spell ends.",
-                "Bear's Endurance: The target has advantage on Constitution checks and it gains {@dice 2d6} temporary hit points (lost when the spell ends).",
-                "Bull's Strength: The target has advantage on Strength checks and doubles its carrying capacity.",
-                "Cat's Grace: The target has advantage on Dexterity checks and it reduces any falling damage it takes by 10 unless it is {@condition dazed|LevelUp}.",
-                "Eagle's Splendor: The target has advantage on Charisma checks and is instantly cleaned (as if it had just bathed and put on fresh clothing).",
-                "Fox's Cunning: The target has advantage on Intelligence checks and on checks using gaming sets.",
-                "Owl's Wisdom: The target has advantage on Wisdom checks and it gains darkvision to a range of 30 feet (or extends its existing darkvision by 30 feet).",
                 {
-                    "type": "entries",
-                    "name": "Rare",
-                    "entries": [
-                        "Nevard's Guarded Enhance Ability. When the target makes a saving throw using the chosen ability score, it can use its reaction to end the spell and gain advantage."
+                    "type": "list",
+                    "items": [
+                        "Bull's Strength: The target has advantage on Strength checks and adds its Strength modifier an additional time to its Brawn checks."
+                    ]
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Cat's Grace: The target has advantage on Dexterity checks and it reduces any falling damage it takes by 10 unless it is {@condition unconscious|sns}."
+                    ]
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Eagle's Splendor: The target has advantage on Charisma checks and is instantly cleaned (as if it had just bathed and put on fresh clothing)."
+                    ]
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Fox's Cunning: The target has advantage on Intelligence checks and on checks using gaming sets."
+                    ]
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Owl's Wisdom: The target has advantage on Wisdom checks and it gains darkvision to a range of 30 feet (or extends its existing darkvision by 30 feet)."
                     ]
                 }
             ],
@@ -8860,8 +9017,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement"
             ],
@@ -8910,17 +9066,54 @@
                         "One creature or object that is not being worn or carried within range"
                     ]
                 },
+                "You cause the target to grow or shrink. If the target is unwilling, you must make a fortitude attack against them with the following outcomes.",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "Armour attacks against the target have advantage for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "You can choose one of the below effects to apply to the target."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but you do not need to maintain concentration on the spell."
+                            ]
+                        }
                     ]
                 },
-                "You cause the target to grow or shrink. An unwilling target may attempt a saving throw to resist the spell.",
+                "If the target is willing, you automatically effect them with the standard success outcome without making an attack.",
                 "If the target is a creature, all items worn or carried by it also change size with it, but an item dropped by the target immediately returns to normal size.",
-                "Enlarge: Until the spell ends, the target's size increases by one size category. Its size doubles in all dimensions and its weight increases eightfold. The target also has advantage on Strength checks and Strength saving throws. Its weapons also enlarge, dealing an extra {@dice 1d4} damage.",
-                "Reduce: Until the spell ends, the target's size decreases one size category. Its size is halved in all dimensions and its weight decreases to one-eighth of its normal value. The target has disadvantage on Strength checks and Strength saving throws and its weapons shrink, dealing {@dice 1d4} less damage (its attacks deal a minimum of 1 damage)."
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Enlarge",
+                            "entries": [
+                                "Until the spell ends, the target's size increases by one size category. Its size doubles in all dimensions and its weight increases eightfold. The target also has advantage on Strength checks and fortitude attacks made against it have disadvantage. Its weapons also enlarge, dealing an extra {@dice 1d4} damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Reduce",
+                            "entries": [
+                                "Until the spell ends, the target's size decreases one size category. Its size is halved in all dimensions and its weight decreases to one-eighth of its normal value. The target has disadvantage on Strength checks and fortitude attacks against it have advantage. Its weapons also shrink, dealing {@dice 1d4} less damage."
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Enlarge/Reduce",
             "time": [
@@ -8934,7 +9127,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "When using a spell slot of 4th-level, you can cause the target and its gear to increase by two size categories—from Medium to Huge, for example. Until the spell ends, the target's size is quadrupled in all dimensions, multiplying its weight twentyfold. The target has advantage on Strength checks and Strength saving throws. Its weapons also enlarge, dealing an extra {@dice 2d4} damage."
+                        "When using a spell slot of 4th-level, you can cause the target and its gear to increase by two size categories—from Medium to Huge, for example. Until the spell ends, the target's size is quadrupled in all dimensions, multiplying its weight twentyfold. The target has advantage on Strength checks and fortitude attacks against it have disadvantage. Its weapons also enlarge, dealing an extra {@dice 2d4} damage."
                     ]
                 }
             ],
@@ -8949,13 +9142,13 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
                 "arcane",
                 "enhancement",
-                "transformation"
+                "transformation",
+                "ranged"
             ],
             "level": 2,
             "components": {
@@ -28465,6 +28658,284 @@
                 "type": "point",
                 "distance": {
                     "type": "self"
+                }
+            }
+        },
+        {
+            "meta": {
+                "ritual": true
+            },
+            "school": "D",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing beast"
+                    ]
+                },
+                "You touch the target. For the duration of the spell, you can use your action to see through the target's eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the beast's senses, you gain the benefits of any special senses possessed by that creature, though you are {@condition blinded|sns} and {@condition deafened|sns} to your own surroundings."
+            ],
+            "name": "Beast Sense",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [],
+            "level": 2,
+            "components": {
+                "v": false,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "The next time you hit a creature with a melee weapon attack before this spell ends, the weapon gleams with astral radiance and the attack deals an extra {@dice 2d6} radiant damage to the target. On a hit, the target becomes visible if it's {@condition invisible}, and the target sheds dim light in a 5-foot radius and can't become {@condition invisible} until the spell ends."
+            ],
+            "name": "Branding Smite",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "radiant"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "5-foot cube"
+                    ]
+                },
+                "You fill the air with spinning daggers centred on a point you choose within range. This is a persistent zone that deals {@dice 4d4} slashing DoT damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 2d4} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "name": "Cloud of Daggers",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "slashing",
+                "persistent",
+                "dot"
+            ],
+            "level": 2,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a sliver of glass"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One humanoid"
+                    ]
+                },
+                "Make a will attack against the target with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition charmed|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is {@condition charmed|sns} until either the spell ends or it passes a passive save. While {@condition charmed|sns} in this way, a twisted crown of jagged iron appears on the target's head, and a madness glows in its eyes.",
+                                "The target gains a free action at the start of each of its turns that must be used to make a melee weapon attack against a creature other than itself that you mentally choose."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is {@condition dominated|sns} instead of gaining the free action for melee attacks."
+                            ]
+                        }
+                    ]
+                },
+                "On your subsequent turns until the spell ends, you must use your action to maintain control over the target, or the spell ends."
+            ],
+            "name": "Crown of Madness",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "ranged"
+            ],
+            "level": 2,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "amount": 120,
+                    "type": "feet"
                 }
             }
         }
