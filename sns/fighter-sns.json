@@ -932,6 +932,7 @@
 				{
 					"type": "entries",
 					"name": "Crack Shot",
+					"level": 1,
 					"entries": [
 						"At tier 1, your training with ranged weapons grants the following benefits:",
 						{
@@ -946,6 +947,7 @@
 				{
 					"type": "entries",
 					"name": "Sharpshooting Traditions",
+					"level": 1,
 					"entries": [
 						"Also at tier 1, you gain proficiency in one of the following combat traditions of your choice: {@filter Biting Zephyr|spells|Subschool=biting zephyr|}, {@filter Razor's Edge|spells|Subschool=razor's edge|}, {@filter Unending Wheel|spells|Subschool=unending wheel|}."
 					]
@@ -953,8 +955,9 @@
 				{
 					"type": "entries",
 					"name": "Sharpshooter Major Effect #1",
+					"level": 1,
 					"entries": [
-						"Major effect that must be designed."
+						"For 1 round, attacks against the target have +2 critical hit range. If the target dies from this attack, your attacks have +2 critical hit range for the rest of the combat, or until you land a critical hit."
 					]
 				}
 			]
@@ -993,7 +996,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"Major effect that must be designed."
+				"For 1 round, if you make a ranged weapon attack as part of a maneuver you perform (e.g. Missile Volley, Horizon Shot), or use a bonus action to perform a maneuver that impacts your next ranged weapon attack (e.g. Doubleshot, Blindshot), it has no Exertion cost."
 			]
 		},
 		{
@@ -1010,7 +1013,7 @@
 			]
 		},
 		{
-			"name": "New Minor Feature",
+			"name": "Sniper",
 			"source": "sns",
 			"className": "Fighter",
 			"classSource": "sns",
@@ -1019,7 +1022,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Also at tier 2, you gain a new minor feature that needs to be designed."
+				"Also from tier 2, your threshold for landing a major success with ranged weapon attacks is reduced by 1."
 			]
 		},
 		{

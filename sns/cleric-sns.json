@@ -1266,7 +1266,7 @@
 					"type": "entries",
 					"name": "Sun Priest Major Effect #1",
 					"entries": [
-						"Major effect that must be designed."
+						"The target makes a saving throw, becoming blinded for 1 round on a failed save. On a successful save, or if they were already blinded, their attacks have -1AB for 1 round. If the target dies from this attack, your next blinding effect during the combat has advantaged offence."
 					]
 				}
 			]
@@ -1315,7 +1315,7 @@
 			]
 		},
 		{
-			"name": "New Minor Feature",
+			"name": "Honed Searing",
 			"source": "sns",
 			"className": "Cleric",
 			"classSource": "sns",
@@ -1324,7 +1324,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Also at tier 2, you gain a new minor feature that needs to be designed."
+				"Also from tier 2, no more than once per turn when you roll 1 on a damage die for fire or radiant damage, you may treat that roll as if it was the maximum value on that die."
 			]
 		},
 		{
@@ -1350,7 +1350,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"Major effect that must be designed."
+				"Any number of creatures of your choice that you can see and are in bright light gain +3 to saving throws for 1 round."
 			]
 		},
 		{
