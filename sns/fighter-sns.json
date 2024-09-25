@@ -1010,6 +1010,19 @@
 			]
 		},
 		{
+			"name": "New Minor Feature",
+			"source": "sns",
+			"className": "Fighter",
+			"classSource": "sns",
+			"subclassShortName": "Sharpshooter",
+			"subclassSource": "sns",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at tier 2, you gain a new minor feature that needs to be designed."
+			]
+		},
+		{
 			"name": "Reflexive Shot",
 			"source": "sns",
 			"className": "Fighter",
