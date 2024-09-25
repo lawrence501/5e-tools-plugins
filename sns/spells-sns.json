@@ -9356,15 +9356,34 @@
                         "Any number of creatures you choose within range"
                     ]
                 },
+                "You weave a compelling stream of words that captivates your targets. Make a will attack against each target, automatically scoring a critical failure against any target that can't be {@condition charmed|sns}. You have disadvantage on the attack against targets fighting you or creatures friendly to you. The attack has the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "Until the spell ends, the target has a -1 penalty to Perception checks made to perceive any creature other than you."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "As minor success, but the target has disadvantage on those Perception checks instead of -1."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target automatically fails those Perception checks instead."
+                            ]
+                        }
                     ]
                 },
-                "You weave a compelling stream of words that captivates your targets. Any target that can't be {@condition charmed} automatically succeeds on its saving throw, and targets fighting you or creatures friendly to you have advantage on the saving throw.",
-                "Until the spell ends or a target can no longer hear you, it has disadvantage on Perception checks made to perceive any creature other than you. The spell ends if you are {@condition dazed|LevelUp} or can no longer speak."
+                "The spell ends if you are {@condition incapacitated|sns} or can no longer speak, and its effects end on a target if that target can no longer hear you."
             ],
             "name": "Enthrall",
             "time": [
@@ -9383,10 +9402,10 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
-                "compulsion"
+                "compulsion",
+                "area"
             ],
             "level": 2,
             "components": {
@@ -10232,7 +10251,7 @@
         {
             "school": "C",
             "entries": [
-                "You summon a spirit that takes the form of a loyal mount, creating a lasting bond with it. You decide on the steed's appearance, and choose whether it uses the statistics of an elk, giant lizard, panther, warhorse, or wolf (the Narrator may offer additional options.) Its statistics change in the following ways:",
+                "You summon a spirit that takes the form of a loyal mount, creating a lasting bond with it. You decide on the steed's appearance, and choose whether it uses the statistics of an elk, giant lizard, panther, warhorse, or wolf (the DM may offer additional options.) Its statistics change in the following ways:",
                 {
                     "items": [
                         "Its type is your choice of celestial, fey, or fiend.",
@@ -10257,7 +10276,7 @@
                 {
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The steed has an additional 20 hit points for each slot level above 2nd. When using a 4th-level spell slot or higher, you may grant the steed either a swim speed or fly speed equal to its base Speed."
+                        "The steed has an additional 22 hit points for each slot level above 2nd. When using a 4th-level spell slot or higher, you may grant the steed either a swim speed or fly speed equal to its base Speed."
                     ],
                     "type": "entries"
                 }
@@ -10267,8 +10286,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "beasts",
                 "divine",
@@ -10372,8 +10390,7 @@
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Diogenes' Reactive Find Traps. When you cast the spell, choose a point within 10 feet.",
-                        "The spell triggers {@dice 1d4} traps in a 5-foot radius around that point."
+                        "Diogenes' Reactive Find Traps. When you cast the spell, choose a point within 10 feet. The spell triggers {@dice 1d4} traps in a 5-foot radius around that point."
                     ]
                 }
             ],
@@ -10389,8 +10406,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "protection",
@@ -10823,9 +10839,7 @@
         {
             "school": "V",
             "entries": [
-                "A scimitar-shaped blade of fire appears in your hand, lasting for the duration. It disappears if you drop it, but you can use a bonus action to recall it. The blade casts bright light in a 10-foot radius and dim light for another 10 feet. You can use an action to make a melee spell attack with the blade that deals {@dice 3d6} fire damage.",
-                "Cast at Higher Levels.",
-                "The damage increases by {@dice 1d6} for every two slot levels above 2nd.",
+                "A scimitar-shaped blade of fire appears in your hand, lasting for the duration. It disappears if you drop it, but you can use a bonus action to recall it. The blade casts bright light in a 10-foot radius and dim light for another 10 feet. You can use an action to make a melee spell armour attack with the blade that deals {@dice 3d6} fire damage. The blade cannot be used in any other way, including as part of the Attack action, as a reaction, or when triggered by a maneuver.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -10838,7 +10852,7 @@
                     "name": "Rare",
                     "entries": [
                         "Sidoneth's Storming Flame Blade.",
-                        "This spell produces a crackling white blade which deals lightning damage. Attacks with this weapon have advantage against creatures wearing metal armor."
+                        "This spell produces a crackling white blade which deals lightning damage. Attacks with this weapon have advantage against creatures wearing metal armour."
                     ]
                 }
             ],
@@ -10847,6 +10861,15 @@
                 {
                     "number": 1,
                     "unit": "bonus"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 1d6} for every two slot levels above 2nd."
+                    ]
                 }
             ],
             "duration": [
@@ -10860,8 +10883,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "attack",
                 "fire",
@@ -10975,12 +10997,12 @@
             "school": "C",
             "entries": [
                 "A 5-foot-diameter sphere of fire appears within range, lasting for the duration. It casts bright light in a 20-foot radius and dim light for another 20 feet, and ignites unattended flammable objects it touches.",
-                "You can use a bonus action to move the sphere up to 30 feet. It can jump over pits 10 feet wide or obstacles 5 feet tall. If you move the sphere into a creature, the sphere ends its movement for that turn and the creature makes a Dexterity saving throw, taking {@dice 2d6} fire damage on a failed save, or half as much on a successful one. A creature that ends its turn within 5 feet of the sphere makes a Dexterity saving throw against the sphere's damage.",
+                "You can use a bonus action to move the sphere up to 30 feet. It can jump over pits 10 feet wide or obstacles 5 feet tall. If you move the sphere into a creature, the sphere ends its movement for that turn and the creature takes {@dice 1d8} fire DoT damage. A creature that ends its turn adjacent to the sphere takes the same damage.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Katrina's Chariot Flaming Sphere. If you are Medium or smaller you can use 5 feet of your movement to enter or exit the sphere. While inside, you can't be harmed by the sphere, you move with it when it moves, and creatures take {@dice 1d4} fire damage when they hit you with a melee attack."
+                        "Katrina's Chariot Flaming Sphere. If you are Medium or smaller you can use 5 feet of your movement to enter or exit the sphere. While inside, you can't be harmed by the sphere, you move with it when it moves, and creatures take {@dice 1d4} DoT fire damage when they hit you with a melee weapon attack."
                     ]
                 }
             ],
@@ -11011,11 +11033,11 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
-                "fire"
+                "fire",
+                "dot"
             ],
             "level": 2,
             "components": {
@@ -11145,7 +11167,7 @@
                         "One creature"
                     ]
                 },
-                "You bestow a glamor upon a creature that highlights its physique to show a stunning idealized form. For the spell's duration, the target adds both its Strength modifier and Charisma modifier to any Charisma checks it makes."
+                "You bestow a glamor upon a creature that highlights its physique to show a stunning idealized form. For the spell's duration, the target adds its Strength modifier to any Charisma checks it makes, in addition to its Charisma modifier as usual."
             ],
             "name": "Flex",
             "time": [
@@ -11173,8 +11195,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement",
                 "utility"
@@ -11602,13 +11623,14 @@
         {
             "school": "A",
             "entries": [
-                "Your iron resolve allows you to withstand an attack. The damage you take from the triggering attack is reduced by {@dice 2d1}0 + your spellcasting ability modifier."
+                "Your iron resolve allows you to withstand an armour attack. The damage you take from the triggering attack is reduced by {@dice 2d12} + your spellcasting ability modifier."
             ],
             "name": "Force of Will",
             "time": [
                 {
                     "number": 1,
-                    "unit": "reaction"
+                    "unit": "reaction",
+                    "condition": "which you take in response to being hit"
                 }
             ],
             "entriesHigherLevel": [
@@ -11616,7 +11638,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage is reduced by an additional {@dice 1d1}0 for each slot level above 2nd."
+                        "The damage is reduced by an additional {@dice 1d12} for each slot level above 2nd."
                     ]
                 }
             ],
@@ -11625,8 +11647,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "protection"
             ],
@@ -12350,8 +12371,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine"
@@ -13244,15 +13264,8 @@
                         "Line 60 feet long and 10 feet wide"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Strength (special)"
-                    ]
-                },
-                "A torrent of wind erupts from your hand in a direction you choose. Each creature that starts its turn in the area or moves into the area must succeed on a Strength saving throw or be pushed 15 feet from you in the direction of the line.",
-                "Any creature in the area must spend 2 feet of movement for every foot moved when trying to approach you.",
+                "A torrent of wind erupts from your hand in a direction you choose. The area becomes a persistent zone that forces targets to pass a save or be pushed 15 feet from you in the direction of the line.",
+                "Any creature in the area is {@condition sluggish|sns} when trying to approach you.",
                 "The blast of wind extinguishes small fires and disperses gas or vapor.",
                 "You can use a bonus action to change the direction of the gust.",
                 {
@@ -13281,8 +13294,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "L"
             ],
@@ -13884,7 +13896,7 @@
                         "One metal object (such as a sword or a suit of metal armor)"
                     ]
                 },
-                "The target becomes oven hot. Any creature touching the target takes {@dice 2d8} fire damage when the spell is cast. Until the spell ends, on subsequent turns you can use a bonus action to inflict the same damage. If a creature is holding or wearing the target and suffers damage, it makes a Constitution saving throw or it drops the target. If a creature does not or cannot drop the target, it has disadvantage on attack rolls and ability checks until the start of your next turn."
+                "The target becomes oven hot. Any creature touching the target takes {@dice 2d8} fire DoT damage when the spell is cast. Until the spell ends, on subsequent turns you can use a bonus action to inflict the same damage. If a creature is holding or wearing the target and suffers damage, it makes a save or it drops the target. If a creature does not or cannot drop the target, it has disadvantage on armour attack rolls and ability checks until the start of your next turn."
             ],
             "name": "Heat Metal",
             "time": [
@@ -13913,12 +13925,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
                 "fire",
-                "nature"
+                "nature",
+                "dot"
             ],
             "level": 2,
             "components": {
@@ -14304,14 +14316,33 @@
                         "One humanoid"
                     ]
                 },
+                "Make a will attack against the target with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "Attacks against the target have advantage for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is {@condition staggered|sns} until the spell ends or it passes a passive save."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also vulnerable to all damage."
+                            ]
+                        }
                     ]
-                },
-                "The target is {@condition staggered|LevelUp}. At the end of each of its turns, the target makes another saving throw, ending the spell's effects on it on a successful save."
+                }
             ],
             "name": "Hold Person",
             "time": [
@@ -14340,11 +14371,11 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
-                "arcane"
+                "arcane",
+                "ranged"
             ],
             "level": 2,
             "components": {
