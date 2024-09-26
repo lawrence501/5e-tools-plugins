@@ -1668,7 +1668,7 @@
 			"subclassSource": "sns",
 			"level": 1,
 			"entries": [
-				"Major effect that must be designed."
+				"For 1 round, the target of this attack takes additional damage equal to your proficiency bonus, of a type determined by your patron’s kind, whenever it is hit by an attack. If the target dies from this attack, creatures of your choice that you can see immediately take this damage instead."
 			]
 		},
 		{
@@ -1686,7 +1686,7 @@
 			]
 		},
 		{
-			"name": "New Strong Feature",
+			"name": "Assisted Arcana",
 			"source": "sns",
 			"className": "Warlock",
 			"classSource": "sns",
@@ -1695,7 +1695,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"At tier 3, you get a new strong feature."
+				"You learn each of the spells specific to your patron’s kind available on your expanded spell list. Additionally, when learning warlock spells, you may learn any spell that can deal damage matching your patron’s kind. Whenever you cast either such spells, their spell point cost is reduced by 50%."
 			]
 		},
 		{
@@ -1708,7 +1708,7 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"Major effect that must be designed."
+				"For 1 round, if you cast a spell that would have its spell point cost reduced by your Assisted Arcana feature, its spell point cost is 0 instead."
 			]
 		},
 		{
