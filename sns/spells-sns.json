@@ -1796,7 +1796,7 @@
             "school": "V",
             "entries": [
                 "You summon an insubstantial yet deadly sword to do your bidding.",
-                "Make a melee spell attack against a target of your choice within 5 feet of the sword, dealing {@dice 3d1}0 force damage on a hit.",
+                "Make a melee spell attack against a target of your choice within 5 feet of the sword, dealing {@dice 3d10} force damage on a hit.",
                 "Until the spell ends, you can use a bonus action on subsequent turns to move the sword up to 20 feet to a space you can see and make an identical melee spell attack against a target.",
                 {
                     "type": "entries",
@@ -2832,7 +2832,7 @@
                     ]
                 },
                 "You create a wall of slashing blades. The wall can be up to 20 feet high and 5 feet thick, and can either be a straight wall up to 100 feet long or a ringed wall of up to 60 feet in diameter. The wall provides three-quarters cover and its area is difficult terrain.",
-                "When a creature starts its turn within the wall's area or enters the wall's area for the first time on a turn, it makes a Dexterity saving throw, taking {@dice 6d1}0 slashing damage on a failed save, or half as much on a successful save."
+                "When a creature starts its turn within the wall's area or enters the wall's area for the first time on a turn, it makes a Dexterity saving throw, taking {@dice 6d10} slashing damage on a failed save, or half as much on a successful save."
             ],
             "name": "Blade Barrier",
             "time": [
@@ -2846,7 +2846,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d1}0 for each slot level above 6th."
+                        "The damage increases by {@dice 1d10} for each slot level above 6th."
                     ]
                 }
             ],
@@ -3156,7 +3156,7 @@
         {
             "school": "T",
             "entries": [
-                "Until the spell ends, roll {@dice 1d2}0 at the end of each of your turns. When you roll an 11 or higher you disappear and reappear in the Ethereal Plane (if you are already on the Ethereal Plane, the spell fails and the spell slot is wasted). At the start of your next turn you return to an unoccupied space that you can see within 10 feet of where you disappeared from. If no unoccupied space is available within range, you reappear in the nearest unoccupied space (determined randomly when there are multiple nearest choices). As an action, you can dismiss this spell.",
+                "Until the spell ends, roll {@dice 1d20} at the end of each of your turns. When you roll an 11 or higher you disappear and reappear in the Ethereal Plane (if you are already on the Ethereal Plane, the spell fails and the spell slot is wasted). At the start of your next turn you return to an unoccupied space that you can see within 10 feet of where you disappeared from. If no unoccupied space is available within range, you reappear in the nearest unoccupied space (determined randomly when there are multiple nearest choices). As an action, you can dismiss this spell.",
                 "While on the Ethereal Plane, you can see and hear into the plane you were originally on out to a range of 60 feet, but everything is obscured by mist and in shades of gray. You can only target and be targeted by other creatures on the Ethereal Plane.",
                 "Creatures on your original plane cannot perceive or interact with you, unless they are able to interact with the Ethereal Plane."
             ],
@@ -3574,8 +3574,8 @@
                     ]
                 },
                 "A 60-foot radius storm cloud that is 10 feet high appears in a space 100 feet above you. If there is not a point in the air above you that the storm cloud could appear, the spell fails (such as if you are in a small cavern or indoors).",
-                "On the round you cast it, and as an action on subsequent turns until the spell ends, you can call down a bolt of lightning to a point directly beneath the cloud. Each creature within 5 feet of the point makes a Dexterity saving throw, taking {@dice 3d1}0 lightning damage on a failed save or half as much on a successful one.",
-                "If you are outdoors in a storm when you cast this spell, you take control of the storm instead of creating a new cloud and the spell's damage is increased by {@dice 1d1}0.",
+                "On the round you cast it, and as an action on subsequent turns until the spell ends, you can call down a bolt of lightning to a point directly beneath the cloud. Each creature within 5 feet of the point makes a Dexterity saving throw, taking {@dice 3d10} lightning damage on a failed save or half as much on a successful one.",
+                "If you are outdoors in a storm when you cast this spell, you take control of the storm instead of creating a new cloud and the spell's damage is increased by {@dice 1d10}.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -3597,7 +3597,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d1}0 for each slot level above 3rd."
+                        "The damage increases by {@dice 1d10} for each slot level above 3rd."
                     ]
                 }
             ],
@@ -3751,7 +3751,7 @@
             "savingThrow": [],
             "range": {
                 "type": "point",
-                "distance": {                                                                                                                                                    
+                "distance": {
                     "amount": 60,
                     "type": "feet"
                 }
@@ -8808,7 +8808,7 @@
                 "When you cast this spell and at the end of each turn you spend concentrating on it, each creature in contact with the ground in the spell's area must make a Dexterity saving throw or be knocked {@condition prone}.",
                 "Additionally, any creature that is concentrating on a spell while in contact with the ground in the spell's area must make a Constitution saving throw or lose concentration.",
                 "At the Narrator's discretion, this spell may have additional effects depending on the terrain in the area.",
-                "Fissures: Fissures open within the spell's area at the start of your next turn after you cast the spell. A total of {@dice 1d6} such fissures open in locations you choose. Each is {@dice 1d1}0 × 10 feet deep, 10 feet wide, and extends from one edge of the spell's area to the opposite side. A creature standing on a spot where a fissure opens makes a Dexterity saving throw or falls in. On a successful save, a creature moves with the fissure's edge as it opens.",
+                "Fissures: Fissures open within the spell's area at the start of your next turn after you cast the spell. A total of {@dice 1d6} such fissures open in locations you choose. Each is {@dice 1d10} × 10 feet deep, 10 feet wide, and extends from one edge of the spell's area to the opposite side. A creature standing on a spot where a fissure opens makes a Dexterity saving throw or falls in. On a successful save, a creature moves with the fissure's edge as it opens.",
                 "A structure automatically collapses if a fissure opens beneath it (see below).",
                 "Structures: A structure in contact with the ground in the spell's area takes 50 bludgeoning damage when you cast the spell and again at the start of each of your turns while the spell is active. A structure reduced to 0 hit points this way collapses.",
                 "Creatures within half the distance of a collapsing structure's height make a Dexterity saving throw or take {@dice 5d6} bludgeoning damage, are knocked {@condition prone}, and are buried in the rubble, requiring a DC 20 Acrobatics or Athletics check as an action to escape. A creature inside (instead of near) a collapsing structure has disadvantage on its saving throw. The Narrator can adjust the DC higher or lower depending on the composition of the rubble. On a successful save, the creature takes half as much damage and doesn't fall {@condition prone} or become buried.",
@@ -9189,7 +9189,7 @@
                         "One artificial nonmagical structure with a foundation area of no more than 3,000 square feet."
                     ]
                 },
-                "You animate and enrage a target building that lashes out at its inhabitants and surroundings. As a bonus action you may command the target to open, close, lock, or unlock any nonmagical doors or windows, or to thrash about and attempt to crush its inhabitants. While the target is thrashing, any creature inside or within 30 feet of it must make a Dexterity saving throw, taking {@dice 2d1}0+5 bludgeoning damage on a failed save or half as much on a successful one. When the spell ends, the target returns to its previous state, magically repairing any damage it sustained during the spell's duration."
+                "You animate and enrage a target building that lashes out at its inhabitants and surroundings. As a bonus action you may command the target to open, close, lock, or unlock any nonmagical doors or windows, or to thrash about and attempt to crush its inhabitants. While the target is thrashing, any creature inside or within 30 feet of it must make a Dexterity saving throw, taking {@dice 2d10}+5 bludgeoning damage on a failed save or half as much on a successful one. When the spell ends, the target returns to its previous state, magically repairing any damage it sustained during the spell's duration."
             ],
             "name": "Enrage Architecture",
             "time": [
@@ -10752,7 +10752,7 @@
                         "Dexterity halves"
                     ]
                 },
-                "Flames roar, dealing {@dice 7d1}0 fire damage to creatures and objects in the area and igniting unattended flammable objects. If you choose, plant life in the area is unaffected. This spell's area consists of a contiguous group of ten 10-foot cubes in an arrangement you choose, with each cube adjacent to at least one other cube.",
+                "Flames roar, dealing {@dice 7d10} fire damage to creatures and objects in the area and igniting unattended flammable objects. If you choose, plant life in the area is unaffected. This spell's area consists of a contiguous group of ten 10-foot cubes in an arrangement you choose, with each cube adjacent to at least one other cube.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -10773,7 +10773,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d1}0 for each slot level above 7th."
+                        "The damage increases by {@dice 1d10} for each slot level above 7th."
                     ]
                 }
             ],
@@ -11458,7 +11458,7 @@
                 "You protect the target area against magical travel.",
                 "Creatures can't teleport into the area, use a magical portal to enter it, or travel into it from another plane of existence, such as the Astral or Ethereal Plane.",
                 "The spell's area can't overlap with another forbiddance spell.",
-                "The spell damages specific types of trespassing creatures. Choose one or more of celestials, elementals, fey, fiends, and undead. When a chosen creature first enters the area on a turn or starts its turn there, it takes {@dice 5d1}0 radiant or necrotic damage (your choice when you cast the spell). You may designate a password. A creature speaking this password as it enters takes no damage from the spell.",
+                "The spell damages specific types of trespassing creatures. Choose one or more of celestials, elementals, fey, fiends, and undead. When a chosen creature first enters the area on a turn or starts its turn there, it takes {@dice 5d10} radiant or necrotic damage (your choice when you cast the spell). You may designate a password. A creature speaking this password as it enters takes no damage from the spell.",
                 "After casting this spell on the same area for 30 consecutive days it becomes permanent until dispelled. This final casting to make the spell permanent consumes its material components."
             ],
             "name": "Forbiddance",
@@ -11602,7 +11602,7 @@
         {
             "school": "A",
             "entries": [
-                "Your iron resolve allows you to withstand an attack. The damage you take from the triggering attack is reduced by {@dice 2d1}0 + your spellcasting ability modifier."
+                "Your iron resolve allows you to withstand an attack. The damage you take from the triggering attack is reduced by {@dice 2d10} + your spellcasting ability modifier."
             ],
             "name": "Force of Will",
             "time": [
@@ -11616,7 +11616,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage is reduced by an additional {@dice 1d1}0 for each slot level above 2nd."
+                        "The damage is reduced by an additional {@dice 1d10} for each slot level above 2nd."
                     ]
                 }
             ],
@@ -11798,7 +11798,7 @@
             "entries": [
                 "While casting and concentrating on this spell, you enter a deep trance and awaken an army of trees and plants within range. These plants rise up under your control as a grove swarm and act on your initiative. Although you are in a trance and deaf and blind with regard to your own senses, you see and hear through your grove swarm's senses. You can command your grove swarm telepathically, ordering it to advance, attack, or retreat. If the grove swarm enters your space, you can order it to carry you.",
                 "If you take any action other than continuing to concentrate on this spell, the spell ends and the trees and plants set down roots wherever they are currently located.",
-                "GROVE SWARM GARGANTUAN SWARM OF LARGE PLANTS AC 16 (natural armor) HP 217 ({@dice 15d2}0+60) Speed 50 ft., climb 30 ft. STR DEX CON INT WIS CHA 25 (+7) 6 (–2) 18 (+4) 10 (+0) 10 (+0) 7 (–2) Damage Vulnerabilities fire Damage Resistances bludgeoning, piercing Condition Immunities {@condition charmed}, {@condition frightened}, {@condition grappled}, {@condition petrified}, {@condition prone}, {@condition restrained}, {@condition debilitated|LevelUp} Senses passive Perception 10 Languages Druidic, Sylvan Challenge —; Proficiency +5 Magic Resistance. The swarm has advantage on saving throws made against spells and other magical effects.",
+                "GROVE SWARM GARGANTUAN SWARM OF LARGE PLANTS AC 16 (natural armor) HP 217 ({@dice 15d20}+60) Speed 50 ft., climb 30 ft. STR DEX CON INT WIS CHA 25 (+7) 6 (–2) 18 (+4) 10 (+0) 10 (+0) 7 (–2) Damage Vulnerabilities fire Damage Resistances bludgeoning, piercing Condition Immunities {@condition charmed}, {@condition frightened}, {@condition grappled}, {@condition petrified}, {@condition prone}, {@condition restrained}, {@condition debilitated|LevelUp} Senses passive Perception 10 Languages Druidic, Sylvan Challenge —; Proficiency +5 Magic Resistance. The swarm has advantage on saving throws made against spells and other magical effects.",
                 "Regeneration. The swarm regains 10 hit points at the start of its turn if it has at least 1 hit point.",
                 "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Large plant. The swarm can't regain hit points from spells or potions, and it cannot gain temporary hit points.",
                 "Titanic. The swarm fills a 100-foot radius circle and ignores difficult terrain.",
@@ -12236,7 +12236,7 @@
                         "Wisdom negates"
                     ]
                 },
-                "You give a command to a target which can understand you. It becomes {@condition charmed} by you. While {@condition charmed} in this way, it takes {@dice 5d1}0 psychic damage the first time each day that it disobeys your command. Your command can be any course of action or inaction that wouldn't result in the target's death. The spell ends if the command is suicidal or you use an action to dismiss the spell. Alternatively, a remove curse, greater restoration, or wish spell cast on the target using a spell slot at least as high as the slot used to cast this spell also ends it."
+                "You give a command to a target which can understand you. It becomes {@condition charmed} by you. While {@condition charmed} in this way, it takes {@dice 5d10} psychic damage the first time each day that it disobeys your command. Your command can be any course of action or inaction that wouldn't result in the target's death. The spell ends if the command is suicidal or you use an action to dismiss the spell. Alternatively, a remove curse, greater restoration, or wish spell cast on the target using a spell slot at least as high as the slot used to cast this spell also ends it."
             ],
             "name": "Geas",
             "time": [
@@ -13952,12 +13952,12 @@
             "school": "C",
             "entries": [
                 "The spell summons forth a sumptuous feast with a cuisine of your choosing that provides 1 Supply for a number of creatures equal to twice your proficiency bonus. Consuming the food takes 1 hour and leaves a creature feeling nourished—it immediately makes a saving throw with advantage against any disease or poison it is suffering from, and it is cured of any effect that frightens it.",
-                "For up to 24 hours afterward the feast's participants have advantage on Wisdom saving throws, advantage on saving throws made against disease and poison, resistance against damage from poison and disease, and each increases its hit point maximum by {@dice 2d1}0.",
+                "For up to 24 hours afterward the feast's participants have advantage on Wisdom saving throws, advantage on saving throws made against disease and poison, resistance against damage from poison and disease, and each increases its hit point maximum by {@dice 2d10}.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Komanav's Final Heroes' Feast. Instead of receiving any benefits, 10 minutes after the food is consumed all participants other than you take {@dice 8d1}0 necrotic damage."
+                        "Komanav's Final Heroes' Feast. Instead of receiving any benefits, 10 minutes after the food is consumed all participants other than you take {@dice 8d10} necrotic damage."
                     ]
                 },
                 {
@@ -14934,7 +14934,7 @@
                         "One creature"
                     ]
                 },
-                "You infect your target with an arcane disease. At any time after you cast this spell, as long as you are on the same plane of existence as the target, you can use an action to deal {@dice 7d1}0 necrotic damage to the target. If this damage would reduce the target to 0 hit points, you can choose to leave it with 1 hit point.",
+                "You infect your target with an arcane disease. At any time after you cast this spell, as long as you are on the same plane of existence as the target, you can use an action to deal {@dice 7d10} necrotic damage to the target. If this damage would reduce the target to 0 hit points, you can choose to leave it with 1 hit point.",
                 "As part of dealing the damage, you may expend a 7th-level spell slot to sustain the disease. Otherwise, the spell ends. The spell ends when you die. Casting remove curse, greater restoration, or heal on the target allows the target to make a Constitution saving throw against the disease. Otherwise the disease can only be cured by a wish spell."
             ],
             "name": "Inescapable Malady",
@@ -14949,7 +14949,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d1}0 for each slot level above 7th."
+                        "The damage increases by {@dice 1d10} for each slot level above 7th."
                     ]
                 }
             ],
@@ -15128,7 +15128,7 @@
                         "20-foot radius sphere"
                     ]
                 },
-                "A roiling cloud of insects appears, biting and stinging any creatures it touches. The cloud lightly obscures its area, spreads around corners, and is considered difficult terrain. When the cloud appears and a creature is in it, when a creature enters the cloud for the first time on a turn, or when a creature ends its turn within the cloud it makes a Constitution saving throw, taking {@dice 4d1}0 piercing damage on a failed save, or half as much on a successful one.",
+                "A roiling cloud of insects appears, biting and stinging any creatures it touches. The cloud lightly obscures its area, spreads around corners, and is considered difficult terrain. When the cloud appears and a creature is in it, when a creature enters the cloud for the first time on a turn, or when a creature ends its turn within the cloud it makes a Constitution saving throw, taking {@dice 4d10} piercing damage on a failed save, or half as much on a successful one.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -15149,7 +15149,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d1}0 for each slot level above 5th."
+                        "The damage increases by {@dice 1d10} for each slot level above 5th."
                     ]
                 }
             ],
@@ -15301,7 +15301,7 @@
                     "name": "Cast at Higher Levels",
                     "entries": [
                         "When you cast this spell with a 3rd-level spell slot, the extra damage increases from {@dice 1d4} to {@dice 1d6}. When you cast this spell with a 5th-level spell slot, the extra damage increases to {@dice 1d8}.",
-                        "When you cast this spell with a 7th-level spell slot, the extra damage increases to {@dice 1d1}0."
+                        "When you cast this spell with a 7th-level spell slot, the extra damage increases to {@dice 1d10}."
                     ]
                 }
             ],
@@ -18059,7 +18059,7 @@
             "entries": [
                 "A total of 3 illusory copies of yourself appear in your space. For the duration, these copies move with you and mimic your actions, creating confusion as to which is real.",
                 "You can use an action to dismiss them.",
-                "Each time you're targeted by a creature's attack, roll a {@dice d2}0 to see if it targets you or one of your copies.",
+                "Each time you're targeted by a creature's attack, roll a {@dice d20} to see if it targets you or one of your copies.",
                 "With 3 copies, a roll of 6 or higher means a copy is targeted. With two copies, a roll of 8 or higher targets a copy, and with 1 copy a roll of 11 or higher targets the copy.",
                 "A copy's AC is 10 + your Dexterity modifier, and when it is hit by an attack a copy is destroyed.",
                 "It may be destroyed only by an attack that hits it.",
@@ -18357,7 +18357,7 @@
                     ]
                 },
                 "A beam of moonlight fills the area with dim light.",
-                "When a creature enters the area for the first time on a turn or begins its turn in the area, it is struck by silver flames and makes a Constitution saving throw, taking {@dice 2d1}0 radiant damage on a failed save, or half as much on a success.",
+                "When a creature enters the area for the first time on a turn or begins its turn in the area, it is struck by silver flames and makes a Constitution saving throw, taking {@dice 2d10} radiant damage on a failed save, or half as much on a success.",
                 "Shapechangers have disadvantage on this saving throw. On a failed save, a shapechanger is forced to take its original form while within the spell's light.",
                 "On your turn, you may use an action to move the beam 60 feet in any direction.",
                 {
@@ -18380,7 +18380,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d1}0 for each slot level above 2nd."
+                        "The damage increases by {@dice 1d10} for each slot level above 2nd."
                     ]
                 }
             ],
@@ -18800,7 +18800,7 @@
                         "One creature"
                     ]
                 },
-                "Saving Throws: Wisdom (special) You create an illusion that invokes the target's deepest fears. Only the target can see this illusion. When the spell is cast and at the end of each of its turns, the target makes a Wisdom saving throw or takes {@dice 4d1}0 psychic damage and becomes {@condition frightened}.",
+                "Saving Throws: Wisdom (special) You create an illusion that invokes the target's deepest fears. Only the target can see this illusion. When the spell is cast and at the end of each of its turns, the target makes a Wisdom saving throw or takes {@dice 4d10} psychic damage and becomes {@condition frightened}.",
                 "The spell ends early when the target succeeds on its saving throw. A target that succeeds on its initial saving throw takes half damage.",
                 {
                     "type": "entries",
@@ -18829,7 +18829,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d1}0 for each slot level above the 4th."
+                        "The damage increases by {@dice 1d10} for each slot level above the 4th."
                     ]
                 }
             ],
@@ -20595,7 +20595,7 @@
                     ]
                 },
                 "You transform the land around you into a blasted hellscape. When you cast the spell, all nonmagical vegetation in the area immediately dies. In addition, you can create any of the following effects within the area. Fiends are immune to these effects, as are any creatures you specify at the time you cast the spell. A successful dispel magic ends a single effect, not the entire area.",
-                "Brimstone Rubble. You can fill any number of unoccupied 5-foot squares in the area with smoldering brimstone. These spaces become difficult terrain. A creature that enters an affected square or starts its turn there takes {@dice 2d1}0 fire damage.",
+                "Brimstone Rubble. You can fill any number of unoccupied 5-foot squares in the area with smoldering brimstone. These spaces become difficult terrain. A creature that enters an affected square or starts its turn there takes {@dice 2d10} fire damage.",
                 "Field of Fear. Dread pervades the entire area. A creature that starts its turn in the area must make a successful Wisdom saving throw or be {@condition frightened} until the start its next turn. While {@condition frightened}, a creature must take the Dash action to escape the area by the safest available route on each of its turns. On a successful save, the creature becomes immune to this effect for 24 hours.",
                 "Spawning Pits. The ground opens to create up to 6 pits filled with poisonous bile. Each pit fills a 10-foot cube that drops beneath the ground.",
                 "When this spell is cast, any creature whose space is on a pit may make a Dexterity saving throw, moving to an unoccupied space next to the pit on a success. A creature that enters a pit or starts its turn there takes {@dice 15d6} poison damage, or half as much damage on a successful Constitution saving throw. A creature reduced to 0 hit points by this damage immediately dies and rises as a lemure at the start of its next turn. Lemures created this way obey your verbal commands, but they disappear when the spell ends or if they leave the area for any reason.",
@@ -23072,7 +23072,7 @@
                     ]
                 },
                 "You alter the flow of time around your targets and they become {@condition slowed|LevelUp}. On a successful saving throw, a target is {@condition rattled|LevelUp} until the end of its next turn.",
-                "In addition, if a {@condition slowed|LevelUp} target casts a spell with a casting time of 1 action, roll a {@dice d2}0. On an 11 or higher, the target doesn't finish casting the spell until its next turn. The target must use its action on that turn to complete the spell or the spell fails.",
+                "In addition, if a {@condition slowed|LevelUp} target casts a spell with a casting time of 1 action, roll a {@dice d20}. On an 11 or higher, the target doesn't finish casting the spell until its next turn. The target must use its action on that turn to complete the spell or the spell fails.",
                 "At the end of each of its turns, a {@condition slowed|LevelUp} target repeats the saving throw to end the spell's effect on it."
             ],
             "name": "Slow",
@@ -24511,7 +24511,7 @@
                 "Describe the actions a creature must perform to trigger the spell, such as approaching within a certain distance, opening or touching the object the glyph is inscribed on, or seeing or reading the glyph. The creature must have a clear path to the glyph to trigger it. You can specify certain creatures which don't trigger the spell, such as those with a certain appearance or those who speak a certain phrase. Once the glyph is triggered, the spell ends.",
                 "When triggered, the glyph sheds dim light in a 60-foot radius for 10 minutes, after which the spell ends. Each creature within the sphere's area is targeted by the glyph, as are creatures that enter the sphere for the first time on a turn.",
                 "When you cast the spell, choose one of the following effects.",
-                "Death: Creatures in the area make a Constitution saving throw, taking {@dice 10d1}0 necrotic damage on a failed save, or half as much on a successful save.",
+                "Death: Creatures in the area make a Constitution saving throw, taking {@dice 10d10} necrotic damage on a failed save, or half as much on a successful save.",
                 "Discord: Creatures in the area make a Constitution saving throw or bicker and argue with other creatures for 1 minute. While bickering, a creature cannot meaningfully communicate and it has disadvantage on attack rolls and ability checks.",
                 "{@condition Confused|LevelUp}: Creatures in the area make an Intelligence saving throw or become {@condition confused|LevelUp} for 1 minute.",
                 "Fear: Creatures in the area make a Wisdom saving throw or are {@condition frightened} for 1 minute.",
@@ -26754,7 +26754,7 @@
         {
             "school": "D",
             "entries": [
-                "Your senses sharpen, allowing you to anticipate incoming attacks and find weaknesses in the defenses of your foes. Until the spell ends, creatures cannot gain bonuses (like those granted by bless or expertise dice) or advantage on attack rolls against you. In addition, none of your movement provokes opportunity attacks, and you ignore nonmagical difficult terrain. Finally, you can end the spell early to treat a single weapon attack roll as though you had rolled a 15 on the {@dice d2}0."
+                "Your senses sharpen, allowing you to anticipate incoming attacks and find weaknesses in the defenses of your foes. Until the spell ends, creatures cannot gain bonuses (like those granted by bless or expertise dice) or advantage on attack rolls against you. In addition, none of your movement provokes opportunity attacks, and you ignore nonmagical difficult terrain. Finally, you can end the spell early to treat a single weapon attack roll as though you had rolled a 15 on the {@dice d20}."
             ],
             "name": "Warrior's Instincts",
             "time": [
@@ -27091,7 +27091,7 @@
                         "30-foot sphere"
                     ]
                 },
-                "You create illusions which manifest the deepest fears and worst nightmares in the minds of all creatures in the spell's area. Each creature in the area makes a Wisdom saving throw or becomes {@condition frightened} until the spell ends. At the end of each of a {@condition frightened} creature's turns, it makes a Wisdom saving throw or it takes {@dice 4d1}0 psychic damage. On a successful save, the spell ends for that creature."
+                "You create illusions which manifest the deepest fears and worst nightmares in the minds of all creatures in the spell's area. Each creature in the area makes a Wisdom saving throw or becomes {@condition frightened} until the spell ends. At the end of each of a {@condition frightened} creature's turns, it makes a Wisdom saving throw or it takes {@dice 4d10} psychic damage. On a successful save, the spell ends for that creature."
             ],
             "name": "Weird",
             "time": [
