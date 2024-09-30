@@ -4322,7 +4322,7 @@
                 "An {@condition invisible} sensor is created within the spell's range. The sensor remains there for the duration, and it cannot be targeted or attacked.",
                 "Choose seeing or hearing when you cast the spell.",
                 "You may use that sense through the sensor as if you were there. As an action, you may switch which sense you are using through the sensor.",
-                "A creature able to see {@condition invisible} things (from the see invisibility spell or truesight, for instance) sees a 4-inch diameter glowing, ethereal orb."
+                "A creature able to see {@condition invisible} things (from the {@spell see invisibility|sns} spell or truesight, for instance) sees a 4-inch diameter glowing, ethereal orb."
             ],
             "name": "Clairvoyance",
             "time": [
@@ -4342,8 +4342,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
@@ -4526,12 +4525,12 @@
         {
             "school": "C",
             "entries": [
-                "Until the spell ends, you can use an action to spit venom, making a ranged spell attack at a creature or object within 30 feet. On a hit, the venom deals {@dice 4d8} poison damage, and if the target is a creature it is {@condition poisoned} until the end of its next turn.",
+                "Until the spell ends, you can use an action to spit venom, making a ranged spell armour attack at a creature or object within 30 feet. The venom deals {@dice 4d8} poison damage and if the target is a creature, it is {@condition poisoned|sns} until the end of its next turn on a hit.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Sidoneth's Vomitous Cobra's Spit. You can use an action to end the spell early, taking {@dice 4d8} poison damage and spewing a 15-foot cone that deals {@dice 8d8} poison damage. Creatures in the area make a Dexterity saving throw, halving the damage on a success."
+                        "Sidoneth's Vomitous Cobra's Spit. You can use an action to end the spell early, taking {@dice 4d8} poison DoT damage and spewing a 15-foot cone of poison. Make an area spell reflex attack against each creature in the area that deals {@dice 9d8} poison damage."
                     ]
                 }
             ],
@@ -4562,8 +4561,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "attack",
                 "poison"
@@ -5159,27 +5157,8 @@
         {
             "school": "C",
             "entries": [
-                "You summon forth the spirit of a beast that takes the physical form of your choosing in unoccupied spaces you can see.",
-                "Choose one of the following:",
-                {
-                    "items": [
-                        "One beast of CR 2 or less",
-                        "Two beasts of CR 1 or less",
-                        "Three beasts of CR 1/2 or less Beasts summoned this way are allied to you and your companions. While it is within 60 feet you can use a bonus action to mentally command a summoned beast. When you command multiple beasts using this spell, you must give them all the same command. You may decide the action the beast takes and where it moves during its next turn, or you can issue a general command, such as guarding an area. If not given a command, a conjured beast only defends itself."
-                    ],
-                    "type": "list"
-                },
-                {
-                    "name": "Rare",
-                    "entries": [
-                        "Nevard's Naturalized Conjure Animals. This spell does not require your concentration.",
-                        "ACTIONS Multiattack. The celestial attacks twice with its smite. Smite. Melee Weapon Attack: your spell attack bonus to hit, reach 5 ft., one target. Hit: 24 ({@dice 4d8+6}) radiant damage.",
-                        "Inescapable Strike (Angel of Vengeance Only). Before making an attack, the celestial can teleport 30 feet as part of the same action.",
-                        "Protection Strike (Angel of Protection Only). When the celestial attacks a creature, until the start of the celestial's next turn that creature has disadvantage on attack rolls against creatures other than the celestial.",
-                        "Radiant Strike (Angel of Battle Only). The celestial's smite can be used as a ranged weapon attack (range 150/600 ft.) in addition to as a melee weapon attack. Lay on Hands (1/Day). A creature the celestial touches regains 17 ({@dice 2d8+8}) hit points. Alternatively, it can end one disease or neutralize one poison affecting the creature."
-                    ],
-                    "type": "entries"
-                }
+                "You call forth a bestial spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Bestial Spirit|sns} stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature resembles an animal of your choice that is native to the chosen environment, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+                "The creature is an ally to you and your companions. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger."
             ],
             "name": "Conjure Animals",
             "time": [
@@ -5192,7 +5171,7 @@
                 {
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The challenge rating of beasts you can summon increases by one step for each slot level above 3rd. For example, when using a 4th-level spell slot you can summon one beast of CR 3 or less, two beasts of CR 2 or less, or three beasts of CR 1 or less."
+                        "Use the higher spell slot level wherever the spell's level appears in the stat block."
                     ],
                     "type": "entries"
                 }
@@ -5208,12 +5187,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "beasts",
                 "nature",
-                "summoning"
+                "summoning",
+                "minion"
             ],
             "level": 3,
             "components": {
@@ -6221,9 +6200,10 @@
         {
             "school": "A",
             "entries": [
-                "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 2nd-level or lower, its spell fails and has no effect.",
-                "If it is casting a spell of 3rd-level or higher, make an ability check using your spellcasting ability (DC 10 + the spell's level). On a success, the creature's spell fails and has no effect, but the creature can use its reaction to reshape the fraying magic and cast another spell with the same casting time as the original spell.",
-                "This new spell must be cast at a spell slot level equal to or less than half the original spell slot."
+                "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 2nd-level or lower, its spell is countered.",
+                "The creature cannot cast the countered spell again for the next minute.",
+                "If it is casting a spell of 3rd-level or higher, make an ability check using your spellcasting ability (DC 10 + the spell's level). On a success, the spell is countered.",
+                "A countered spell fails and has no effect, consuming its resources as usual. When the spell is countered, the caster may then use the same action it used to cast another spell with the same casting time as the countered spell, consuming resources as required. It cannot cast the countered spell again for the next minute."
             ],
             "name": "Counterspell",
             "time": [
@@ -6237,7 +6217,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The interrupted spell has no effect if its level is less than the level of the spell slot used to cast this spell, or if both spells use the same level spell slot an opposed spellcasting ability check is made."
+                        "The interrupted spell is automatically countered if its level is less than the level of the spell slot used to cast this spell."
                     ]
                 }
             ],
@@ -6246,8 +6226,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "negation"
@@ -6283,13 +6262,14 @@
         {
             "school": "C",
             "entries": [
-                "Your magic turns one serving of food or water into 3 Supply. The food is nourishing but bland, and the water is clean. After 24 hours uneaten food spoils and water affected or created by this spell goes bad."
+                "Your magic creates 3 rations that can each be consumed to remove one level of {@condition fatigue|sns} from the creature that eats it. The food is nourishing but bland. At the end of your next long rest, uneaten rations spoil."
             ],
             "name": "Create Food and Water",
             "time": [
                 {
                     "number": 1,
-                    "unit": "action"
+                    "unit": "reaction",
+                    "condition": "which you take in response to a member of your party scoring a substantial or higher success on the Harvest journey activity"
                 }
             ],
             "entriesHigherLevel": [
@@ -6297,7 +6277,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "You create an additional 2 Supply for each slot level above 3rd."
+                        "You create an additional 2 rations for each slot level above 3rd."
                     ]
                 }
             ],
@@ -6306,8 +6286,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "utility"
@@ -6582,14 +6561,7 @@
         {
             "school": "V",
             "entries": [
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Special"
-                    ]
-                },
-                "Your fist reverberates with destructive energy, and woe betide whatever it strikes. As part of casting the spell, make a melee spell attack against a creature or object within 5 feet. If you hit, the target of your attack takes {@dice 7d6} thunder damage, and must make a Constitution saving throw or be knocked {@condition prone} and {@condition debilitated|LevelUp} until the end of its next turn. This spell's damage is doubled against objects and structures."
+                "Your fist reverberates with destructive energy, and woe betide whatever it strikes. As part of casting the spell, make an armour attack against an adjacent creature or object that deals {@dice 7d6} thunder damage. On a major success, the target is knocked {@condition prone|sns} and {@condition debilitated|sns} until the end of its next turn. This spell's damage is doubled against objects and structures."
             ],
             "name": "Crushing Haymaker",
             "time": [
@@ -6612,13 +6584,14 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "attack",
                 "thunder",
                 "unarmed",
-                "weaponry"
+                "weaponry",
+                "melee",
+                "spell"
             ],
             "level": 3,
             "components": {
@@ -6820,8 +6793,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "utility"
             ],
@@ -7039,8 +7011,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -8011,7 +7982,7 @@
                         "One creature, object, or magical effect"
                     ]
                 },
-                "You scour the magic from your target. Any spell cast on the target ends if it was cast with a spell slot of 3rd-level or lower. For spells using a spell slot of 4th-level or higher, make an ability check with a DC equal to 10 + the spell's level for each one, ending the effect on a success.",
+                "You scour the magic from your target. Any spell cast on the target ends if it was cast with a spell slot of 3rd-level or lower. For spells using a spell slot of 4th-level or higher, make a spellcasting ability check with a DC equal to 10 + the spell's level for each one, ending the effect on a success.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -8041,8 +8012,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "negation",
@@ -9967,20 +9937,39 @@
                         "30-foot cone"
                     ]
                 },
+                "You project a phantasmal image into the minds of each creature in the area showing them what they fear most. Make a will attack against each of them with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target immediately drops whatever it is holding."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target becomes {@condition frightened|sns} until either the spell ends or the it passes a passive save, and it must drop whatever it is holding.",
+                                "On each of its turns, a creature {@condition frightened|sns} by this spell uses all of its movement to move away from you by the safest available route. If there is nowhere it can move, it remains stationary. When the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a save, ending the spell's effects on it on a success."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition debilitated|sns}."
+                            ]
+                        }
                     ]
                 },
-                "You project a phantasmal image into the minds of each creature in the area showing them what they fear most. On a failed save, a creature becomes {@condition frightened} until the spell ends and must drop whatever it is holding.",
-                "On each of its turns, a creature {@condition frightened} by this spell uses its action to take the Dash action and move away from you by the safest available route. If there is nowhere it can move, it remains stationary. When the creature ends its turn in a location where it doesn't have line of sight to you, the creature can repeat the saving throw, ending the spell's effects on it on a successful save.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Aurana's Feast of Fear. The spell affects every creature within 30 feet of you. When you first cast the spell and again at the start of each of your turns, you gain temporary hit points equal to the number of {@condition frightened} creatures you can see within 30 feet of you."
+                        "Aurana's Feast of Fear. The spell affects every creature within 30 feet of you. When you first cast the spell and again at the start of each of your turns, you gain temporary hit points equal to double the number of {@condition frightened|sns} creatures within 30 feet of you."
                     ]
                 }
             ],
@@ -10002,14 +9991,14 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "N"
             ],
             "subschools": [
                 "arcane",
-                "fear"
+                "fear",
+                "area"
             ],
             "level": 3,
             "components": {
@@ -10539,20 +10528,13 @@
                         "20-foot radius sphere"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
                 "A fiery mote streaks to a point within range and explodes in a burst of flame. The fire spreads around corners and ignites unattended flammable objects.",
-                "Each creature in the area takes {@dice 6d6} fire damage.",
+                "Make a reflex attack agains each creature in the area that deals {@dice 5d8} fire damage.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Katrina's Improved Fireball. The fireball deals {@dice 8d6} fire damage."
+                        "Katrina's Improved Fireball. The fireball deals {@dice 7d8} fire damage."
                     ]
                 },
                 {
@@ -10576,7 +10558,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d6} for each slot level above 3rd."
+                        "The damage increases by {@dice 1d8} for each slot level above 3rd."
                     ]
                 }
             ],
@@ -10585,14 +10567,15 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
             "subschools": [
                 "arcane",
-                "fire"
+                "fire",
+                "area",
+                "spell"
             ],
             "level": 3,
             "components": {
@@ -29234,6 +29217,284 @@
                     "type": "self"
                 }
             }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "30-foot radius"
+                    ]
+                },
+                "Holy power radiates from you in an aura, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each non-hostile creature in the aura (including you) deals an extra {@dice 1d4} radiant damage when it hits with a weapon armour attack."
+            ],
+            "name": "Crusader's Mantle",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "radiant"
+            ],
+            "level": 3,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "T",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One weapon"
+                    ]
+                },
+                "Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the target has a +1 bonus to attack rolls and deals an extra {@dice 1d4} damage of the chosen type when it hits."
+            ],
+            "name": "Elemental Weapon",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "thunder"
+            ],
+            "level": 3,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            }
+        },
+        {
+            "meta": {
+                "ritual": true
+            },
+            "school": "N",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One willing creature"
+                    ]
+                },
+                "You put the target into a cataleptic state that is indistinguishable from death.",
+                "For the spell's duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target's status. The target is {@condition blinded|sns} and {@condition incapacitated|sns}, and its speeds drop to 0. The target has 50% resistance to all damage except psychic damage. If the target is diseased or {@condition poisoned|sns} when you cast the spell, or becomes diseased or {@condition poisoned|sns} while under the spell's effect, the disease and poison have no effect until the spell ends."
+            ],
+            "name": "Feign Death",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1,
+                        "upTo": false
+                    }
+                }
+            ],
+            "source": "sns",
+            "subschools": [],
+            "level": 3,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a pinch of graveyard dirt"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            }
+        }
+    ],
+    "monster": [
+        {
+            "name": "Bestial Spirit",
+            "source": "sns",
+            "size": [
+                "S"
+            ],
+            "type": "beast",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "half the level of the spell (rounded up)"
+                }
+            ],
+            "hp": {
+                "special": "22 (Air only) or 33 (Land and Water only) + 6 for each spell level above 2"
+            },
+            "speed": {
+                "walk": 30,
+                "climb": {
+                    "number": 30,
+                    "condition": "(Land only)"
+                },
+                "fly": {
+                    "number": 60,
+                    "condition": "(Air only)"
+                },
+                "swim": {
+                    "number": 30,
+                    "condition": "(Water only)"
+                }
+            },
+            "str": 18,
+            "dex": 11,
+            "con": 16,
+            "int": 4,
+            "wis": 14,
+            "cha": 5,
+            "save": {
+                "str": "+4",
+                "dex": "+0",
+                "wis": "+2"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "understands the languages you speak"
+            ],
+            "trait": [
+                {
+                    "name": "—MAJOR EFFECTS—",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "The target's armour is reduced by 1 for 1 round."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Flyby (Air Only)",
+                    "entries": [
+                        "The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Pack Tactics (Land and Water Only)",
+                    "entries": [
+                        "The beast has advantage on an armour attack roll against a creature if at least one of the beast's allies is adjacent to the creature and the ally isn't {@condition incapacitated|sns}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Water Breathing (Water Only)",
+                    "entries": [
+                        "The beast can breathe only underwater."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk mw} reach 5 ft., one target. {@damage 1d8 + 4} + the spell's level piercing damage. This damage is multiplied by half this spell's level. For example, at spell level 4, the damage is {@dice 2d8} + 8 + 8. Each of these multipliers counts as an instance of the Empowered Attack feature."
+                    ]
+                }
+            ]
         }
     ]
 }
