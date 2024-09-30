@@ -994,7 +994,7 @@
                     ]
                 },
                 "You animate a mortal's remains to become your undead servant.",
-                "If the spell is cast upon bones you create a skeleton, and if cast upon a corpse you choose to create a skeleton or a zombie. The Narrator has the undead's statistics.",
+                "If the spell is cast upon bones you create a {@creature skeleton}, and if cast upon a corpse you choose to create a {@creature skeleton} or a {@creature zombie}. The DM has the undead's statistics.",
                 "While it is within 60 feet you can use a bonus action to mentally command the undead. When you command multiple undead using this spell, you must give them all the same command. You may decide the action the undead takes and where it moves during its next turn, or you can issue a general command, such as guarding an area. If not given a command, the undead only defends itself. The undead continues to follow a command until its task is complete.",
                 "The undead is under your control for 24 hours, after which it stops obeying any commands. You must cast this spell on the undead before the spell ends to maintain control of it for another 24 hours.",
                 "Casting the spell in this way reasserts control over up to 4 of your previously-animated undead instead of animating a new one.",
@@ -1002,7 +1002,7 @@
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Komanov's Chilling Animate Dead. Natural weapon attacks by undead created using this spell deal cold damage instead of bludgeoning damage."
+                        "Komanov's Chilling Animate Dead. Unarmed attacks by undead created using this spell deal cold damage instead of bludgeoning damage."
                     ]
                 }
             ],
@@ -1018,7 +1018,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "You create or reassert control over 2 additional undead for each slot level above 3rd. When commanding more than 3 undead they make group attack rolls (see page 454 in Chapter 8: Combat)."
+                        "You create or reassert control over 2 additional undead for each slot level above 3rd."
                     ]
                 }
             ],
@@ -1027,8 +1027,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "necrotic",
                 "summoning",
@@ -1952,7 +1951,7 @@
         {
             "school": "T",
             "entries": [
-                "You throw your head back and howl like a beast, embracing your most basic impulses. Until the spell ends your hair grows, your features become more feral, and sharp claws grow on your fingers. You gain a +1 bonus to AC, your Speed increases by 10 feet, you have advantage on Perception checks, and your unarmed strikes deal {@dice 1d8} slashing damage. You may use your Strength or Dexterity for attack and damage rolls with unarmed strikes, and treat your unarmed strikes as weapons with the finesse property. You gain an additional action on your turn, which may only be used to make a melee attack with your unarmed strike. If you are hit by a silvered weapon, you have disadvantage on your Constitution saving throw to maintain concentration."
+                "You throw your head back and howl like a beast, embracing your most basic impulses. Until the spell ends your hair grows, your features become more feral, and sharp claws grow on your fingers. You gain a +1 bonus to armour, your Speed increases by 10 feet, you have advantage on Perception checks, and the damage die of your unarmed attacks is {@dice 1d8} and they deal slashing damage. You may choose either Strength or Dexterity to govern your unarmed attacks. Additionally, you gain an instance of the Empowered Attack feature for your unarmed attacks. If you are hit by a silvered weapon, you must make a save, losing concentration on a fail."
             ],
             "name": "Aspect of the Moon",
             "time": [
@@ -1972,12 +1971,11 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement",
                 "nature",
-                "transformation",
+                "shapeshift",
                 "unarmed",
                 "weaponry"
             ],
@@ -2510,13 +2508,13 @@
                         "Any number of creatures"
                     ]
                 },
-                "You fill your allies with a thirst for glory and battle using your triumphant rallying cry. Expend and roll a Bardic Inspiration die to determine the number of rounds you can maintain concentration on this spell (minimum 1 round). Each target gains a bonus to attack and damage rolls equal to the number of rounds you have maintained concentration on this spell (maximum +4).",
+                "You fill your allies with a thirst for glory and battle using your triumphant rallying cry. Expend and roll a Bardic Inspiration die to determine the number of rounds you can maintain concentration on this spell (minimum 1 round). Each target gains a bonus to armour attack and damage rolls equal to the number of rounds you have maintained concentration on this spell (maximum +4).",
                 "You cannot cast another spell through your spellcasting focus while concentrating on this spell.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Koren's Courageous Battlecry Ballad. Targets gain an expertise die on saving throws against fear."
+                        "Koren's Courageous Battlecry Ballad. Targets gain an expertise die on saves against fear."
                     ]
                 }
             ],
@@ -2542,8 +2540,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement",
                 "sound"
@@ -2583,7 +2580,7 @@
                     ]
                 },
                 "The targets are filled with hope and vitality.",
-                "Until the spell ends, each target gains advantage on Wisdom saving throws and death saving throws, and when a target receives healing it regains the maximum number of hit points possible."
+                "Until the spell ends, each target gains advantage on death saves and all will attacks against them have disadvantage, and when a target receives healing it regains the maximum number of hit points possible."
             ],
             "name": "Beacon of Hope",
             "time": [
@@ -2603,8 +2600,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "protection"
@@ -2640,25 +2636,44 @@
                     ],
                     "type": "entries"
                 },
+                "Make a will attack against the target with the following outcomes:",
                 {
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
-                    ],
-                    "type": "entries"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is cursed to take 1 additional necrotic damage from your attacks for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Choose one of the below curse effects. The curse lasts on the target until the spell ends. At the DM's discretion you may create a different curse with this spell so long as it is weaker than the predefined options."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but you can choose two curse effects instead."
+                            ]
+                        }
+                    ]
                 },
-                "Choose one of the following:",
+                "Curse effect options:",
                 {
                     "items": [
-                        "Select one ability score; the target has disadvantage on ability checks and saving throws using that ability score.",
-                        "The target makes attack rolls against you with disadvantage.",
-                        "Each turn, the target loses its action unless it succeeds a Wisdom saving throw at the start of its turn.",
-                        "Your attacks and spells deal an additional 1d8 necrotic damage against the target."
+                        "Select one ability score; the target has disadvantage on ability checks using that ability score.",
+                        "The target makes armour attack rolls against you with disadvantage.",
+                        "At the start of each of its turns, the target makes a save. On a fail, it is {@condition debilitated|sns} for that turn.",
+                        "Your damaging attacks deal an additional 1d8 necrotic damage against the target."
                     ],
                     "type": "list"
                 },
-                "A curse lasts until the spell ends. At the Narrator's discretion you may create a different curse effect with this spell so long as it is weaker than the options above.",
-                "A remove curse spell ends the effect if the spell slot used to cast it is equal to or greater than the spell slot used to cast bestow curse.",
+                "A {@spell remove curse|sns} spell ends the spell if the spell slot used to cast it is equal to or greater than the spell slot used to cast bestow curse.",
                 {
                     "name": "Rare",
                     "entries": [
@@ -2695,13 +2710,13 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
                 "arcane",
                 "divine",
-                "necrotic"
+                "necrotic",
+                "melee"
             ],
             "level": 3,
             "components": {
@@ -3177,8 +3192,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "planar",
@@ -3222,7 +3236,7 @@
                     ]
                 },
                 "This spell creates a pact which is enforced by celestial or fiendish forces. You and another willing creature commit to a mutual agreement, clearly declaring your parts of the agreement during the casting.",
-                "Until the spell ends, if for any reason either participant breaks the agreement or fails to uphold their part of the bargain, beings of celestial or fiendish origin appear within unoccupied spaces as close as possible to the participant who broke the bargain. The beings are hostile to the deal-breaking participant and attempt to kill them, as well as any creatures that defend them. When the dealbreaking participant is killed, or the spell's duration ends, the beings disappear in a flash of smoke. The spellcaster chooses whether the beings are celestial or fiendish while casting the spell, and the Narrator chooses the exact creatures summoned (such as a couatl or 5 imps). There may be any number of beings, but their combined Challenge Rating can't exceed 5."
+                "Until the spell ends, if for any reason either participant breaks the agreement or fails to uphold their part of the bargain, beings of celestial or fiendish origin appear within unoccupied spaces as close as possible to the participant who broke the bargain. The beings are hostile to the deal-breaking participant and attempt to kill them, as well as any creatures that defend them. When the dealbreaking participant is killed, or the spell's duration ends, the beings disappear in a flash of smoke. The spellcaster chooses whether the beings are celestial or fiendish while casting the spell, and the DM chooses the exact creatures summoned (such as a {@creature couatl} or 5 {@creature imp||imps}). There may be any number of beings, but their combined Challenge Rating can't exceed 5."
             ],
             "name": "Blood-Writ Bargain",
             "time": [
@@ -3250,8 +3264,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "evil",
                 "good",
@@ -3566,16 +3579,9 @@
                         "Special"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
                 "A 60-foot radius storm cloud that is 10 feet high appears in a space 100 feet above you. If there is not a point in the air above you that the storm cloud could appear, the spell fails (such as if you are in a small cavern or indoors).",
-                "On the round you cast it, and as an action on subsequent turns until the spell ends, you can call down a bolt of lightning to a point directly beneath the cloud. Each creature within 5 feet of the point makes a Dexterity saving throw, taking {@dice 3d10} lightning damage on a failed save or half as much on a successful one.",
-                "If you are outdoors in a storm when you cast this spell, you take control of the storm instead of creating a new cloud and the spell's damage is increased by {@dice 1d10}.",
+                "On the round you cast it, and as an action on subsequent turns until the spell ends, you can call down a bolt of lightning to a point directly beneath the cloud. Make a ranged spell reflex attack against each creature adjacent to the point that deals {@dice 4d8} lightning damage.",
+                "If you are outdoors in a storm when you cast this spell, you take control of the storm instead of creating a new cloud and the spell's damage is increased by {@dice 2d8}.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -3597,7 +3603,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d10} for each slot level above 3rd."
+                        "The damage increases by {@dice 2d8} for each slot level above 3rd."
                     ]
                 }
             ],
@@ -3612,8 +3618,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "lightning",
@@ -28835,7 +28840,7 @@
             "subschools": [
                 "radiant"
             ],
-            "level": 1,
+            "level": 2,
             "components": {
                 "v": true,
                 "s": false
@@ -29126,6 +29131,107 @@
                 "distance": {
                     "amount": 60,
                     "type": "feet"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "30-foot radius"
+                    ]
+                },
+                "Healing energy radiates from you in an aura. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain {@dice 3d4} hit points."
+            ],
+            "name": "Aura of Vitality",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "healing"
+            ],
+            "level": 3,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "The next time you hit a creature with a melee weapon attack before this spell ends, your weapon flares with bright light, and the attack deals an extra {@dice 3d8} radiant damage to the target. Additionally, if the attack scores a major success, the target is {@condition blinded|sns} until either the spell ends or it passes a passive save."
+            ],
+            "name": "Blinding Smite",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "radiant"
+            ],
+            "level": 3,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
                 }
             }
         }
