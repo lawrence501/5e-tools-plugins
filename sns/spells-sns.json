@@ -11330,8 +11330,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "movement"
@@ -12091,7 +12090,7 @@
                     ]
                 },
                 "The target, along with anything it's wearing and carrying, becomes a hovering, wispy cloud. In this form, it can't attack, use or drop objects, talk, or cast spells.",
-                "As a cloud, the target's base Speed is 0 and it gains a flying speed of 10 feet. It can enter another creature's space, and can pass through small holes and cracks, but not through liquid. It is resistant to nonmagical damage, has advantage on Strength, Dexterity, and Constitution saving throws, and can't fall.",
+                "As a cloud, the target's base Speed is 0 and it gains a flying speed of 10 feet. It can enter another creature's space, and can pass through small holes and cracks, but not through liquid. It has 50% resistance to nonmagical damage, fortitude and reflex attacks against it have disadvantage, and it can't fall.",
                 "The spell ends if the creature drops to 0 hit points."
             ],
             "name": "Gaseous Form",
@@ -12121,8 +12120,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "air",
                 "arcane",
@@ -12604,12 +12602,29 @@
                         "One object or a surface no larger than 10 feet in diameter"
                     ]
                 },
-                "You trace a glyph on the target. If the glyph is moved more than 10 feet from its original position, or if it comes within 20 feet of another glyph that you have cast, the spell ends. Finding the Tiny glyph requires an Investigation check against your spell save DC.",
+                "You trace a glyph on the target. If the glyph is moved more than 10 feet from its original position, or if it comes within 20 feet of another glyph that you have cast, the spell ends. Finding the Tiny glyph requires an Investigation check against your standard DC.",
                 "Describe the actions a creature must perform to trigger the spell, such as approaching within a certain distance, opening or touching the object the glyph is inscribed on, or seeing or reading the glyph. The creature must have a clear path to the glyph to trigger it. You can specify certain creatures which don't trigger the spell, such as those with a certain appearance or those who speak a certain phrase. Once the glyph is triggered, the spell ends.",
                 "When you cast the spell, choose Explosive Runes or Spell Glyph.",
-                "Explosive Runes: When triggered, the glyph explodes. Creatures in a 20-foot radius sphere make a Dexterity saving throw or take {@dice 5d8} acid, cold, fire, lightning, or thunder damage (your choice when you cast the spell), or half damage on a successful save. The explosion spreads around corners.",
-                "Spell Glyph: You store a spell of 3rd-level or lower as part of creating the glyph, expending its spell slot. The stored spell must target a single creature or area with a non-beneficial effect and it is cast when the glyph is triggered. A spell that targets a creature targets the triggering creature.",
-                "A spell with an area is centered on the targeting creature. A creation or conjuration spell affects an area next to that creature, and targets it with any harmful effects. Spells requiring concentration last for their full duration.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Explosive Runes",
+                            "entries": [
+                                "When triggered, the glyph explodes. Make an area reflex spell attack against each creature in a 20-foot radius sphere centered on the glyph that deals {@dice 7d6} acid, cold, fire, lightning, or thunder damage (your choice when you cast the spell). The explosion spreads around corners."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Spell Glyph",
+                            "entries": [
+                                "You store a spell of 3rd-level or lower as part of creating the glyph, expending its spell slot. The stored spell must target a single creature or area with a non-beneficial effect and it is cast when the glyph is triggered. A spell that targets a creature targets the triggering creature.",
+                                "A spell with an area is centered on the targeting creature. A creation or conjuration spell affects an area next to that creature, and targets it with any harmful effects. Spells requiring concentration last for their full duration."
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -12630,7 +12645,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The cost of the material component increases by 200 gold for each slot level above 3rd. For Explosive Runes, the damage increases by {@dice 1d8} for each slot level above 3rd, and for Spell Glyph you can store a spell of up to the same level as the spell slot used to cast glyph of warding."
+                        "For Explosive Runes, the damage increases by {@dice 2d6} for each slot level above 3rd, and for Spell Glyph you can store a spell of up to the same level as the spell slot used to cast glyph of warding."
                     ]
                 }
             ],
@@ -12643,8 +12658,7 @@
                     ]
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "utility"
             ],
@@ -13611,8 +13625,8 @@
                         "One willing creature"
                     ]
                 },
-                "Until the spell ends, the target's Speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains one additional action on each of its turns. This action can be used to make a single weapon attack, or to take the Dash, Disengage, Hide, or Use an Object action.",
-                "When the spell ends, the target is tired and cannot move or take actions until after its next turn."
+                "Until the spell ends, the target's Speed is doubled, it gains a +2 bonus to armour, reflex attacks against it have disadvantage, and it gains one additional action on each of its turns. This action can be used only to take the Dash, Disengage, Hide, or Use an Object action.",
+                "When the spell ends, the target is tired and cannot move until after its next turn."
             ],
             "name": "Haste",
             "time": [
@@ -13626,7 +13640,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "Target one additional creature for each slot level above 3rd. All targets of this spell must be within 30 feet of each other."
+                        "Target one additional creature for each slot level above 2nd. All targets of this spell must be within 30 feet of each other."
                     ]
                 }
             ],
@@ -13641,13 +13655,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement",
                 "time"
             ],
-            "level": 3,
+            "level": 2,
             "components": {
                 "v": true,
                 "s": true,
@@ -14488,7 +14501,33 @@
                         "20-foot cube"
                     ]
                 },
-                "You conjure a swirling pattern of twisting hues that roils through the air, appearing for a moment and then vanishing. Creatures in the area that can perceive the pattern make a Wisdom saving throw or become {@condition charmed}. A creature {@condition charmed} by this spell becomes {@condition dazed|LevelUp} and its Speed is reduced to 0.",
+                "You conjure a swirling pattern of twisting hues that roils through the air, appearing for a moment and then vanishing. Make a will attack against creatures in the area that can see the pattern with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target becomes {@condition charmed|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target becomes {@condition charmed|sns}. While {@condition charmed|sns} by this spell, the target is {@condition dazed|sns} and {@condition sluggish|sns}."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition debilitated|sns}."
+                            ]
+                        }
+                    ]
+                },
                 "The effect ends on a creature when it takes damage or when another creature uses an action to shake it out of its daze."
             ],
             "name": "Hypnotic Pattern",
@@ -14509,14 +14548,14 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
             "subschools": [
                 "arcane",
-                "prismatic"
+                "prismatic",
+                "area"
             ],
             "level": 3,
             "components": {
@@ -16088,20 +16127,13 @@
                         "Line 100 feet long and 5 feet wide"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
-                "A bolt of lightning arcs out from you in a direction you choose. Each creature in the area takes {@dice 8d6} lightning damage. The lightning ignites flammable objects in its path that aren't worn or carried by another creature.",
+                "A bolt of lightning arcs out from you in a direction you choose. Make a reflex attack against each creature in the area that deals {@dice 7d8} lightning damage. The lightning ignites flammable objects in its path that aren't worn or carried by another creature.",
                 "If the spell is stopped by an object at least as large as its width, it ends there unless it deals enough damage to break through. When it does, it continues to the end of its area.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Gabal's Conductive Lightning Bolt. Metallic creatures and creatures wearing metal armor make their saving throw with disadvantage."
+                        "Gabal's Conductive Lightning Bolt. The attack has advantage against metallic creatures and creatures wearing metal armour."
                     ]
                 }
             ],
@@ -16117,7 +16149,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "Damage increases by {@dice 1d6} for every slot level above 3rd."
+                        "Damage increases by {@dice 1d8} for every slot level above 3rd."
                     ]
                 }
             ],
@@ -16126,8 +16158,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "L"
             ],
@@ -16135,7 +16166,9 @@
                 "arcane",
                 "lightning",
                 "nature",
-                "storm"
+                "storm",
+                "spell",
+                "area"
             ],
             "level": 3,
             "components": {
@@ -16624,7 +16657,7 @@
                     ]
                 },
                 "Magical energies surround the area and stop the type of designated creature from willingly entering by nonmagical means.",
-                "Designated creatures have disadvantage when attacking creatures within the area and are unable to charm, frighten, or possess creatures within the area. When a designated creature attempts to teleport or use interplanar travel to enter the area, it makes a Charisma saving throw or its attempt fails.",
+                "Designated creatures have disadvantage when making armour attacks against creatures within the area and are unable to charm, frighten, or possess creatures within the area. When a designated creature attempts to teleport or use interplanar travel to enter the area, it must succeed on a save or its attempt fails.",
                 "You may also choose to reverse this spell, trapping a creature of your chosen type within the area in order to protect targets outside it."
             ],
             "name": "Magic Circle",
@@ -16653,8 +16686,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "Y"
             ],
@@ -17045,7 +17077,7 @@
                 },
                 "Until the spell ends, you create an image that appears completely real. The illusion includes sounds, smells, and temperature in addition to visual phenomena. None of the effects of the illusion are able to cause actual harm.",
                 "While within range you can use an action to move the illusion. As the image moves you may also change its appearance to make the movement seem natural (like a roc moving its wings to fly) and also change the nonvisual elements of the illusion for the same reason (like the sound of beating wings as the roc flies).",
-                "Any physical interaction immediately reveals the image is an illusion, as objects and creatures alike pass through it. An Investigation check against your spell save DC also reveals the image is an illusion.",
+                "Any physical interaction immediately reveals the image is an illusion, as objects and creatures alike pass through it. An Investigation check against your standard DC also reveals the image is an illusion.",
                 "When a creature realizes the image is an illusion, the effects become fainter for that creature."
             ],
             "name": "Major Image",
@@ -17075,8 +17107,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
@@ -17246,7 +17277,7 @@
                         "Up to six creatures that are not constructs or undead"
                     ]
                 },
-                "Healing energy flows from you in a wash of restorative power and each target regains hit points equal to {@dice 1d4} + your spellcasting ability modifier."
+                "Healing energy flows from you in a wash of restorative power and each target regains hit points equal to {@dice 1d6} + your spellcasting ability modifier."
             ],
             "name": "Mass Healing Word",
             "time": [
@@ -17260,7 +17291,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The hit points regained increase by {@dice 1d4} for each slot level above 3rd."
+                        "The hit points regained increase by {@dice 1d6} for each slot level above 3rd."
                     ]
                 }
             ],
@@ -17269,8 +17300,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "healing"
@@ -17459,7 +17489,7 @@
                 },
                 "Until the spell ends, you meld yourself and your carried equipment into the target stone. Using your movement, you may enter the stone from any point you can touch. No trace of your presence is visible or detectable by nonmagical senses.",
                 "Within the stone, you can't see outside it and have disadvantage on Perception checks made to hear beyond it. You are aware of time passing, and may cast spells upon yourself. You may use your movement only to step out of the target where you entered it, ending the spell.",
-                "If the target is damaged such that its shape changes and you no longer fit within it, you are expelled and take {@dice 6d6} bludgeoning damage. Complete destruction of the target, or its transmutation into another substance, expels you and you take 50 bludgeoning damage. When expelled you fall {@condition prone} into the closest unoccupied space near your entrance point.",
+                "If the target is damaged such that its shape changes and you no longer fit within it, you are expelled and take {@dice 6d6} bludgeoning DoT damage. Complete destruction of the target, or its transmutation into another substance, expels you and you take 50 bludgeoning DoT damage. When expelled you fall {@condition prone|sns} into the closest unoccupied space near your entrance point.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -17480,7 +17510,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "When using a 5th-level spell slot, you may reach out of the target to make spell attacks or ranged weapon attacks without ending the spell. You make these attacks with disadvantage."
+                        "When using a 5th-level spell slot, you may reach out of the target to make spell armour attacks or ranged weapon attacks without ending the spell. You make these attacks with disadvantage."
                     ]
                 }
             ],
@@ -17494,8 +17524,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "nature",
                 "obscurement",
@@ -18563,8 +18592,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "negation",
@@ -18949,7 +18977,7 @@
             "school": "I",
             "entries": [
                 "You create an illusory Large creature with an appearance determined by you that comes into being with all the necessary equipment needed to use it as a mount. This equipment vanishes when more than 10 feet away from the creature.",
-                "You or any creature you allow may ride the steed, which uses the statistics for a riding horse but has a Speed of 100 feet and travels at 10 miles per hour at a steady pace (13 miles per hour at a fast pace).",
+                "You or any creature you allow may ride the steed, which uses the statistics for a {@creature riding horse} but has a Speed of 100 feet.",
                 "The steed vanishes if it takes damage (disappearing instantly) or you use an action to dismiss it (fading away, giving the rider 1 minute to dismount).",
                 {
                     "type": "entries",
@@ -18984,8 +19012,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "movement",
@@ -19272,8 +19299,25 @@
                     ]
                 },
                 "You channel vitality into vegetation to achieve one of the following effects, chosen when casting the spell.",
-                "Enlarged: Plants in the area are greatly enriched. Any harvests of the affected plants provide twice as much food as normal.",
-                "Rapid: All nonmagical plants in the area surge with the power of life. A creature that moves through the area must spend 4 feet of movement for every foot it moves. You can exclude one or more areas of any size from being affected.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Enlarged",
+                            "entries": [
+                                "Plants in the area are greatly enriched. Any harvests of the affected plants provide twice as much food as normal."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Rapid",
+                            "entries": [
+                                "All nonmagical plants in the area surge with the power of life. A creature that moves through the area must spend 4 feet of movement for every foot it moves. You can exclude one or more areas of any size from being affected."
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -19294,8 +19338,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "nature",
@@ -19337,9 +19380,8 @@
                         "One creature"
                     ]
                 },
-                "The target becomes poisonous to the touch. Until the spell ends, whenever a creature within 5 feet of the target damages the target with a melee weapon attack, the creature makes a Constitution saving throw. On a failed save, the creature becomes {@condition poisoned} and takes {@dice 1d6} ongoing poison damage.",
-                "A {@condition poisoned} creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                "The target of the spell also becomes bright and multicolored like a poisonous dart frog, giving it disadvantage on Dexterity (Stealth) checks."
+                "The target becomes poisonous to the touch. Until the spell ends, whenever a creature adjacent to the target hits the target with a melee weapon attack, the creature makes a save, becoming {@condition poisoned|sns} and taking {@dice 1d6} ongoing poison damage on a fail, both until the target passes a passive save.",
+                "The target of the spell also becomes bright and multicolored like a poisonous dart frog, giving it disadvantage on Stealth checks."
             ],
             "name": "Poison Skin",
             "time": [
@@ -19353,7 +19395,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The target's skin is also covered in mucus, giving it advantage on saving throws and checks made to resist being {@condition grappled} or {@condition restrained}. In addition, the damage increases by {@dice 1d6} for each slot level above 3rd."
+                        "The target's skin is also covered in mucus, granting attacks against it that can {@condition grappled|sns|grapple} or {@condition restrained|sns|restrain} disadvantage. In addition, the damage increases by {@dice 1d6} for each slot level above 3rd."
                     ]
                 }
             ],
@@ -19368,8 +19410,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "nature",
                 "poison",
@@ -21066,7 +21107,7 @@
                         "One creature or object"
                     ]
                 },
-                "This spell ends a curse inflicted with a spell slot of 3rd-level or lower. If the curse was instead inflicted by a feature or trait, the spell ends a curse inflicted by a creature of Challenge Rating 6 or lower. If cast on a cursed object of Rare or lesser rarity, this spell breaks the owner's attunement to the item (although it does not end the curse on the object)."
+                "This spell ends a curse inflicted with a spell slot of 3rd-level or lower. If the curse was instead inflicted by a feature or trait, the spell ends a curse inflicted by a creature of Challenge Rating 6 or lower. If cast on a cursed object, this spell breaks the owner's attunement to the item (although it does not end the curse on the object)."
             ],
             "name": "Remove Curse",
             "time": [
@@ -21080,8 +21121,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "For each slot level above 3rd, the spell ends a curse inflicted either by a spell one level higher or by a creature with a Challenge Rating two higher. When using a 6th-level spell slot, the spell breaks the owner's attunement to a Very Rare item.",
-                        "When using a 9th-level spell slot, the spell breaks the owner's attunement to a Legendary item."
+                        "For each slot level above 3rd, the spell ends a curse inflicted either by a spell one level higher or by a creature with a Challenge Rating two higher."
                     ]
                 }
             ],
@@ -21090,8 +21130,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
@@ -21383,63 +21422,6 @@
                 "distance": {
                     "amount": 120,
                     "type": "feet"
-                }
-            }
-        },
-        {
-            "school": "N",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature that is neither a construct nor undead which has died within the last minute"
-                    ]
-                },
-                "The target returns to life with 1 hit point. The spell does not restore any missing body parts and cannot return to life a creature that died of old age."
-            ],
-            "name": "Revivify",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "page": 497,
-            "source": "LevelUp",
-            "subschools": [
-                "divine",
-                "healing"
-            ],
-            "level": 3,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": {
-                    "text": "diamonds worth 300 gold, consumed by the spell"
-                }
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Cleric",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Herald",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "touch"
                 }
             }
         },
@@ -22158,8 +22140,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "communication",
@@ -23114,16 +23095,34 @@
                         "40-foot cube"
                     ]
                 },
+                "You alter the flow of time around your targets. Make a will attack against each target with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition rattled|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target becomes {@condition slowed|sns} until it passes a passive save.",
+                                "The {@condition slowed|sns} target is also {@condition debilitated|sns} while casting spells."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is {@condition debilitated|sns}."
+                            ]
+                        }
                     ]
-                },
-                "You alter the flow of time around your targets and they become {@condition slowed|LevelUp}. On a successful saving throw, a target is {@condition rattled|LevelUp} until the end of its next turn.",
-                "In addition, if a {@condition slowed|LevelUp} target casts a spell with a casting time of 1 action, roll a {@dice d20}. On an 11 or higher, the target doesn't finish casting the spell until its next turn. The target must use its action on that turn to complete the spell or the spell fails.",
-                "At the end of each of its turns, a {@condition slowed|LevelUp} target repeats the saving throw to end the spell's effect on it."
+                }
             ],
             "name": "Slow",
             "time": [
@@ -23143,8 +23142,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
@@ -23152,7 +23150,8 @@
                 "arcane",
                 "movement",
                 "negation",
-                "time"
+                "time",
+                "area"
             ],
             "level": 3,
             "components": {
@@ -23429,8 +23428,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "communication",
                 "divine",
@@ -23475,13 +23473,13 @@
                     ]
                 },
                 "Your voice takes on a magical timbre, awakening the targets to limited sentience. Until the spell ends, the targets can communicate with you and follow simple commands, telling you about recent events including creatures that have passed, weather, and nearby locations.",
-                "The targets have a limited mobility: they can move their branches, tendrils, and stalks freely. This allows them to turn ordinary terrain into difficult terrain, or make difficult terrain caused by vegetation into ordinary terrain for the duration as vines and branches move at your request. This spell can also release a creature {@condition restrained} by an entangle spell.",
-                "At the Narrator's discretion the targets may be able to perform other tasks, though each must remain rooted in place. If a plant creature is in the area, you can communicate with it but it is not compelled to follow your requests.",
+                "The targets have a limited mobility: they can move their branches, tendrils, and stalks freely. This allows them to turn ordinary terrain into difficult terrain, or make difficult terrain caused by vegetation into ordinary terrain for the duration as vines and branches move at your request. This spell can also release a creature {@condition restrained|sns} by an {@spell entangle|sns} spell.",
+                "At the DM's discretion the targets may be able to perform other tasks, though each must remain rooted in place. If a plant creature is in the area, you can communicate with it but it is not compelled to follow your requests.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Sidoneth's Insightful Speak with Plants. So long as your spell save DC is higher than the passive Insight score of a plant you are conversing with, you can use an action to view the memories of an event the plant is describing."
+                        "Sidoneth's Insightful Speak with Plants. So long as your standard DC is higher than the passive Insight score of a plant you are conversing with, you can use an action to view the memories of an event the plant is describing."
                     ]
                 }
             ],
@@ -23502,8 +23500,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "communication",
                 "nature",
@@ -23697,15 +23694,8 @@
                         "10-foot radius"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom halves damage"
-                    ]
-                },
                 "You call down spirits of divine fury, filling the area with flitting spectral forms. You choose the form taken by the spirits.",
-                "Creatures of your choice halve their Speed while in the area. When a creature enters the area for the first time on a turn or starts its turn there, it takes {@dice 3d6} radiant or necrotic damage (your choice)."
+                "Creatures of your choice halve their Speed while in the area. The area also becomes a persistent zone that deals {@dice 2d6} radiant or necrotic DoT damage (your choice)."
             ],
             "name": "Spirit Guardians",
             "time": [
@@ -23734,13 +23724,14 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "divine",
                 "necrotic",
-                "radiant"
+                "radiant",
+                "persistent",
+                "dot"
             ],
             "level": 3,
             "components": {
@@ -23928,7 +23919,7 @@
                     ]
                 },
                 "You create a roiling, noxious cloud that hinders creatures and leaves them retching. The cloud spreads around corners and lingers in the air until the spell ends.",
-                "The area is heavily obscured. A creature in the area at the start of its turn makes a Constitution saving throw or uses its action to retch and reel.",
+                "The area is heavily obscured. A creature in the area at the start of its turn makes a save or becomes {@condition debilitated|sns} until the end of that turn.",
                 "Creatures that don't need to breathe or are immune to poison automatically succeed on the save.",
                 "A moderate wind (10 miles per hour) disperses the cloud after 4 rounds, a strong wind (20 miles per hour) after 1 round.",
                 {
@@ -23936,7 +23927,7 @@
                     "name": "Rare",
                     "entries": [
                         "Diogenes' Dyed Stinking Cloud. Choose a color for the cloud when you cast this spell.",
-                        "When a creature makes a saving throw against this spell it is dyed that color until it uses an action to wipe away the residue."
+                        "When a creature makes a save against this spell it is dyed that color until it uses an action to wipe away the residue."
                     ]
                 }
             ],
@@ -23967,8 +23958,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -25330,7 +25320,7 @@
                         "10-foot radius hemisphere"
                     ]
                 },
-                "You create an immobile dome of protective force that provides shelter and can be used as a safe haven (Chapter 4: Exploration in Trials & Treasures). The dome is of a color of your choosing, can't be seen through from the outside, is transparent on the inside, and can fit up to 10 Medium creatures (including you) within.",
+                "You create an immobile dome of protective force that provides shelter and can be used as a haven. The dome is of a color of your choosing, can't be seen through from the outside, is transparent on the inside, and can fit up to 10 Medium creatures (including you) within.",
                 "The dome prevents inclement weather and environmental effects from passing through it, though creatures and objects may pass through freely. Spells and other magical effects can't cross the dome in either direction, and the dome provides a comfortable dry interior no matter the conditions outside of it. You can command the interior to become dimly lit or dark at any time on your turn.",
                 "The spell fails if a Large creature or more than 10 creatures are inside the dome. The spell ends when you leave the dome."
             ],
@@ -25351,8 +25341,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "H"
             ],
@@ -25418,8 +25407,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "communication",
@@ -26085,13 +26073,13 @@
         {
             "school": "N",
             "entries": [
-                "Shadows roil about your hand and heal you by siphoning away the life force from others. On the round you cast it, and as an action on subsequent turns until the spell ends, you can make a melee spell attack against a creature within your reach.",
-                "On a hit, you deal {@dice 3d6} necrotic damage and regain hit points equal to half the amount of necrotic damage dealt.",
+                "Shadows roil about your hand and heal you by siphoning away the life force from others. On the round you cast it, and as an action on subsequent turns until the spell ends, you can make a melee spell armour attack against a creature within your reach.",
+                "The attack deals {@dice 3d6} necrotic damage and you regain hit points equal to half the amount of necrotic damage dealt.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Ravjahani's Distant Vampiric Touch. Instead of making melee spell attacks, you make ranged spell attacks (range 10/20 ft.) in the form of shadowy lines that streak from your hand."
+                        "Ravjahani's Distant Vampiric Touch. Instead of making melee attacks, you make ranged attacks (range 10/20 ft.) in the form of shadowy lines that streak from your hand."
                     ]
                 }
             ],
@@ -26122,8 +26110,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "attack",
@@ -26164,14 +26151,7 @@
                         "One creature"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution negates"
-                    ]
-                },
-                "You cause a searing poison to burn quickly through the target's wounds, dealing {@dice 1d6} poison damage. The target regains {@dice 2d4} hit points at the start of each of its turns for the next {@dice 1d4+1} rounds."
+                "You cause a searing poison to burn quickly through the target's wounds. The target makes a save. On a fail, the target takes {@dice 1d6} poison DoT damage and regains {@dice 1d10} hit points at the start of each of its turns for the next {@dice 1d4+1} rounds."
             ],
             "name": "Venomous Succor",
             "time": [
@@ -26185,7 +26165,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "For each slot level above 2nd, the initial damage increases by {@dice 1d6} and target regains an additional {@dice 1d4} hit points."
+                        "For each slot level above 2nd, the initial damage increases by {@dice 1d6} and target regains an additional {@dice 1d10} hit points."
                     ]
                 }
             ],
@@ -26194,12 +26174,12 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "healing",
                 "nature",
-                "poison"
+                "poison",
+                "dot"
             ],
             "level": 3,
             "components": {
@@ -26939,8 +26919,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
@@ -27020,8 +26999,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
@@ -27230,8 +27208,8 @@
                         "Line up to 60 feet long and 15 feet wide"
                     ]
                 },
-                "You must be able to move in order to cast this spell. You leap into the air and spin like a tornado, striking foes all around you with supernatural force as you fly up to 60 feet in a straight line. Your movement (which does not provoke attacks of opportunity) must end on a surface that can support your weight or you fall as normal.",
-                "As part of the casting of this spell, make a melee spell attack against any number of creatures in the area. On a hit, you deal your unarmed strike damage plus {@dice 2d6} thunder damage. In addition, creatures in the area make a Dexterity saving throw or are either pulled 10 feet closer to you or pushed 10 feet away (your choice)."
+                "You must have a usable speed greater than 0 and not be {@condition sluggish|sns} to cast this spell. You leap into the air and spin like a tornado, striking foes all around you with supernatural force as you fly up to 60 feet in a straight line. Your movement (which does not provoke attacks of opportunity) must end on a surface that can support your weight or you fall as normal.",
+                "As part of the casting of this spell, make an armour attack against any number of creatures in the area that deals your unarmed strike damage plus {@dice 2d6} thunder damage. On a major success, a target is either pulled 10 feet closer to you or pushed 10 feet away (your choice)."
             ],
             "name": "Whirlwind Kick",
             "time": [
@@ -27254,15 +27232,16 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "L"
             ],
             "subschools": [
                 "movement",
                 "thunder",
-                "unarmed"
+                "unarmed",
+                "melee",
+                "spell"
             ],
             "level": 3,
             "components": {
@@ -27427,8 +27406,8 @@
                     ]
                 },
                 "A wall of strong wind rises from the ground at a point you choose. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground.",
-                "When the wall appears, each creature within its area makes a Strength saving throw, taking {@dice 3d8} bludgeoning damage on a failed save, or half as much damage on a successful one.",
-                "The wall keeps fog, smoke, and other gases (including creatures in gaseous form) at bay. Small or smaller flying creatures or objects can't pass through. Loose, lightweight materials brought into the area fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and automatically miss (larger projectiles such as boulders and siege engine attacks are unaffected)."
+                "When the wall appears, make a fortitude attack against each creature within its area that deals {@dice 4d6} bludgeoning damage.",
+                "The wall keeps fog, smoke, and other gases (including creatures in gaseous form) at bay. Small or smaller flying creatures or objects can't pass through. Loose, lightweight materials brought into the area fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and automatically score critical failures on any attacks they may make (larger projectiles such as boulders and siege engine attacks are unaffected)."
             ],
             "name": "Wind Wall",
             "time": [
@@ -27442,7 +27421,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d8} for each slot level above 3rd."
+                        "The damage increases by {@dice 2d6} for each slot level above 3rd."
                     ]
                 }
             ],
@@ -27457,15 +27436,16 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "air",
                 "attack",
                 "divine",
                 "protection",
-                "weather"
+                "weather",
+                "area",
+                "spell"
             ],
             "level": 3,
             "components": {
@@ -29397,6 +29377,63 @@
                 "type": "point",
                 "distance": {
                     "type": "touch"
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "20-foot-radius sphere"
+                    ]
+                },
+                "You open a gateway to the dark between the stars, a region infested with unknown horrors. The area is filled with blackness and bitter cold, lasting for the duration. This void is filled with a cacophony of soft whispers and slurping noises that can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within the area are {@condition blinded|sns}.",
+                "The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area takes {@dice 2d6} cold DoT damage. Any creature that ends its turn in the area takes {@dice 1d10} acid DoT damage as milky, otherworldly tentacles rub against it."
+            ],
+            "name": "Hunger of Hadar",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [],
+            "level": 3,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a pickled octopus tentacle"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
                 }
             }
         }
