@@ -25,19 +25,47 @@
                         "Up to six willing creatures"
                     ]
                 },
-                "You play a complex and quick up-tempo piece that gradually gets faster and more complex, instilling the targets with its speed. You cannot cast another spell through your spellcasting focus while concentrating on this spell.",
+                "You play a complex and quick up-tempo piece that gradually gets faster and more complex, instilling the targets with its speed. You cannot cast another spell with material components while concentrating on this spell.",
                 "Until the spell ends, targets gain cumulative benefits the longer you maintain concentration on this spell (including the turn you cast it).",
-                "1 Round: Double Speed.",
-                "2 Rounds: +2 bonus to AC.",
-                "3 Rounds: Advantage on Dexterity saving throws.",
-                "4 Rounds: An additional action each turn.",
-                "This action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.",
-                "When the spell ends, a target can't move or take actions until after its next turn as the impact of their frenetic speed catches up to it.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "1 Round",
+                            "entries": [
+                                "Double Speed."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "2 Rounds",
+                            "entries": [
+                                "+2 bonus to armour."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "3 Rounds",
+                            "entries": [
+                                "Incoming reflex attacks have disadvantage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "4 Rounds",
+                            "entries": [
+                                "An additional action each turn. This action can be used only to take the Dash, Disengage, Hide, or Use an Object action."
+                            ]
+                        }
+                    ]
+                },
+                "When the spell ends, a target can't move until after its next turn as the impact of their frenetic speed catches up to it.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Koren's Agile Accelerando. A target's additional action can be used to escape a grapple, and targets have advantage on saving throws made to avoid or escape a grapple."
+                        "Koren's Agile Accelerando. A target's additional action can be used to escape a grapple, and targets have advantage on saves made to avoid or escape a grapple."
                     ]
                 }
             ],
@@ -68,15 +96,14 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement",
                 "movement",
                 "sound",
                 "time"
             ],
-            "level": 4,
+            "level": 3,
             "components": {
                 "v": true,
                 "s": true,
@@ -1460,7 +1487,7 @@
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Soliogn's Sharpshooting Arcane Eye. Until the spell ends, you have advantage on spell attacks you make against targets you can see with the eye."
+                        "Soliogn's Sharpshooting Arcane Eye. Until the spell ends, you have advantage on spell armour attacks you make against targets you can see with the eye."
                     ]
                 }
             ],
@@ -1482,8 +1509,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "scrying"
@@ -2338,21 +2364,40 @@
                         "One creature"
                     ]
                 },
+                "You employ sheer force of will to make reality question the existence of a nearby creature, causing them to warp visibly in front of you. Make a will attack against the target with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Charisma negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition debilitated|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Until the spell ends, a target native to your current plane is banished to a harmless demiplane and {@condition dazed|sns}. At the end of the duration the target reappears in the space it left (or the nearest unoccupied space). A target native to a different plane is instead banished to its native plane.",
+                                "The target can make passive saves to return early, but it has a -1 penalty to these saves for each round it has spent banished. If the spell ends before its maximum duration, the target reappears in the space it left (or the nearest unoccupied space) but otherwise a target native to a different plane doesn't return.",
+                                "If the target returns early during combat and it had at least one turn while banished, it immediately takes a turn. This does not change initiative order."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but if the target returns early, it is {@condition debilitated|sns} for the remainder of the spell's duration."
+                            ]
+                        }
                     ]
                 },
-                "You employ sheer force of will to make reality question the existence of a nearby creature, causing them to warp visibly in front of you.",
-                "Until the spell ends, a target native to your current plane is banished to a harmless demiplane and {@condition dazed|LevelUp}. At the end of the duration the target reappears in the space it left (or the nearest unoccupied space). A target native to a different plane is instead banished to its native plane.",
-                "At the end of each of its turns, a banished creature can repeat the saving throw with a –1 penalty for each round it has spent banished, returning on a success. If the spell ends before its maximum duration, the target reappears in the space it left (or the nearest unoccupied space) but otherwise a target native to a different plane doesn't return.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Komanov's Icy Displeasure. Until the spell ends, the target is vulnerable to cold damage and it has disadvantage on ability checks and attack rolls."
+                        "Komanov's Icy Displeasure. Until the spell ends, the target is vulnerable to cold damage and it has disadvantage on ability checks and armour attack rolls."
                     ]
                 }
             ],
@@ -2383,11 +2428,11 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
-                "planar"
+                "planar",
+                "ranged"
             ],
             "level": 4,
             "components": {
@@ -2757,15 +2802,8 @@
                         "20-foot square"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Special"
-                    ]
-                },
-                "Writhing black tentacles fill the ground within the area turning it into difficult terrain. When a creature starts its turn in the area or enters the area for the first time on its turn, it takes {@dice 3d6} bludgeoning damage and is {@condition restrained} by the tentacles unless it succeeds on a Dexterity saving throw. A creature that starts its turn {@condition restrained} by the tentacles takes {@dice 3d6} bludgeoning damage.",
-                "A {@condition restrained} creature can use its action to make an Acrobatics or Athletics check against the spell save DC, freeing itself on a success."
+                "Writhing black tentacles fill the ground within the area turning it into difficult terrain. The area also becomes a persistent zone that deals {@dice 4d4} bludgeoning DoT damage and forces targets to make a save, becoming {@condition restrained|sns} by the tentacles on a fail. A creature that starts its turn {@condition restrained|sns} by the tentacles takes {@dice 3d6} bludgeoning DoT damage.",
+                "A {@condition restrained|sns} creature can use its action to make an Acrobatics or Athletics check against your standard DC, freeing itself on a success."
             ],
             "name": "Black Tentacles",
             "time": [
@@ -2779,7 +2817,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d6} for every 2 slot levels above 4th."
+                        "The persistent zone damage increases by {@dice 2d4} and the restrain damage increases by {@dice 1d6} for every 2 slot levels above 4th."
                     ]
                 }
             ],
@@ -2794,15 +2832,17 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "Q"
             ],
             "subschools": [
                 "arcane",
                 "summoning",
-                "terrain"
+                "terrain",
+                "bludgeoning",
+                "persistent",
+                "dot"
             ],
             "level": 4,
             "components": {
@@ -2990,15 +3030,8 @@
                         "One creature or plant"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves"
-                    ]
-                },
-                "Necrotic energies drain moisture and vitality from the target, dealing {@dice 8d8} necrotic damage. Undead and constructs are immune to this spell.",
-                "A plant creature or magical plant has disadvantage on its saving throw and takes the maximum damage possible from this spell. A nonmagical plant that isn't a creature receives no saving throw and instead withers until dead."
+                "Necrotic energies drain moisture and vitality from the target. Make a fortitude attack against the target that deals {@dice 9d8} necrotic damage. Undead and constructs are immune to this spell.",
+                "The attack has advantage against a plant creature or magical plant and deals the maximum damage possible from this spell. A nonmagical plant targeted does not require an attack rolls and instead automatically withers until dead."
             ],
             "name": "Blight",
             "time": [
@@ -3021,13 +3054,14 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "nature",
                 "necrotic",
-                "plants"
+                "plants",
+                "spell",
+                "ranged"
             ],
             "level": 4,
             "components": {
@@ -3911,15 +3945,34 @@
                         "One creature"
                     ]
                 },
+                "You do not require line of sight to the target and this spell's attack against it has disadvantage if you or your companions are fighting it. Make a will attack against the target with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "Your next Charisma check made towards the target before the end of your next turn gains an expertise die."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Until the spell ends, the target is {@condition charmed|sns} and friendly towards you."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition dominated|sns}."
+                            ]
+                        }
                     ]
                 },
-                "You only require line of sight to the target (not line of effect) and it has advantage on its saving throw to resist the spell if you or your companions are fighting it. Until the spell ends, the target is {@condition charmed} by you and friendly towards you.",
-                "The spell ends if you or your companions do anything harmful towards the target. The target knows it was {@condition charmed} by you when the spell ends."
+                "The spell ends if you or your companions do anything harmful towards the target. The target knows it was affected by the spell when the spell ends."
             ],
             "name": "Charm Monster",
             "time": [
@@ -3947,11 +4000,11 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
-                "compulsion"
+                "compulsion",
+                "ranged"
             ],
             "level": 4,
             "components": {
@@ -5071,14 +5124,33 @@
                         "10-foot radius sphere"
                     ]
                 },
+                "You assault the minds of your targets, filling them with delusions. Make a will attack against each target with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition frightened|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is {@condition confused|sns} until either the spell ends or they pass a passive save."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target reduces their confusion {@dice d8} rolls by one outcome tier."
+                            ]
+                        }
                     ]
-                },
-                "You assault the minds of your targets, filling them with delusions and making them {@condition confused|LevelUp} until the spell ends. On a successful saving throw, a target is {@condition rattled|LevelUp} for 1 round. At the end of each of its turns, a {@condition confused|LevelUp} target makes a Wisdom saving throw to end the spell's effects on it."
+                }
             ],
             "name": "Confusion",
             "time": [
@@ -5107,15 +5179,15 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
             "subschools": [
                 "affliction",
                 "chaos",
-                "compulsion"
+                "compulsion",
+                "area"
             ],
             "level": 4,
             "components": {
@@ -5458,24 +5530,10 @@
         {
             "school": "C",
             "entries": [
-                "You summon up to 3 creatures from the Elemental Planes. These creatures use the statistics of a minor elemental (detailed below) with certain traits determined by your choice of its type: air, earth, fire, or water. If you summon only 2 creatures with this spell, increase its effective slot level by 1 when determining the minor elemental's statistics, and if you summon a single creature with this spell its effective slot level is increased by 2 instead.",
-                "The summoned creatures are friendly to you and your companions and take their turns immediately after yours. They obey your verbal commands. When you command multiple minor elementals using this spell, you must give them all the same command.",
-                "Without such commands, a minor elemental only defends itself.",
-                "The summoned creature disappears when reduced to 0 hit points. If your concentration is broken before the spell ends, you lose control of any summoned creatures, which become hostile and might attack you and your companions. An uncontrolled creature disappears at the end of the spell's maximum duration.",
-                {
-                    "type": "entries",
-                    "name": "Rare",
-                    "entries": [
-                        "Nevard's Rapid Conjure Minor Elementals.",
-                        "When you use rapid summoning to cast this spell, after the casting is complete it does not require your concentration.",
-                        "MINOR ELEMENTAL SMALL ELEMENTAL (AIR, EARTH, FIRE, OR WATER) Armor Class 11 + spell slot level (natural armor) Hit Points 40 + 10 for each spell slot level above 4th Speed 30 ft.; burrow 30 ft. (Earth only); fly 30 ft. (hover; Air only); swim 30 ft. (Water only) STR DEX CON INT WIS CHA 12 (+1) 12 (+1) 15 (+2) 10 (+0) 10 (+0) 6 (–2) Damage Immunities fire (Fire only), poison Condition Immunities fatigue, {@condition staggered|LevelUp}, {@condition petrified}, {@condition poisoned}, strife, {@condition unconscious} Senses darkvision 60 ft., tremorsense 60 ft. (Earth only), passive Perception 10 Languages Primordial and one determined by type:",
-                        "Auran (Air), Aquan (Water), Ignan (Fire), Terran (Earth) Challenge —; Proficiency your proficiency bonus Amorphous Form (Air, Fire, and Water Only). The elemental can move through a space as narrow as 1 inch wide without squeezing.",
-                        "Death Burst. The minor elemental explodes when it dies. Each creature within 5 feet of it must make a Dexterity saving throw against your spell save DC, taking 7 ({@dice 2d6}) bludgeoning damage (or fire damage for a Fire elemental) on a failed save, or half as much damage on a successful one.",
-                        "Insubstantial (Air and Fire Only). The minor elemental cannot be {@condition grappled}, knocked {@condition prone}, or {@condition restrained}.",
-                        "ACTIONS Slam. Melee Weapon Attack: your spell attack bonus to hit, reach 5 ft., one target. Hit: 4 ({@dice 1d6+1}) bludgeoning damage (or fire damage for a Fire elemental) plus extra damage equal to spell slot level.",
-                        "<<<ADD STAT BLOCK MANUALLY>>>"
-                    ]
-                }
+                "You summon a creature from the Elemental Planes. This creature uses the statistics of a {@creature minor elemental|sns} with certain traits determined by your choice of its type: air, earth, fire, or water.",
+                "The summoned creature is friendly to you and your companions. It obeys your verbal commands.",
+                "Without such commands, a {@creature minor elemental|sns} only defends itself.",
+                "The summoned creature disappears when reduced to 0 hit points. If your concentration is broken before the spell ends, you lose control of the summoned creature, which becomes hostile and might attack you and your companions. An uncontrolled creature disappears at the end of the spell's maximum duration."
             ],
             "name": "Conjure Minor Elementals",
             "time": [
@@ -5504,8 +5562,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "air",
                 "arcane",
@@ -5513,7 +5570,8 @@
                 "fire",
                 "nature",
                 "summoning",
-                "water"
+                "water",
+                "minion"
             ],
             "level": 4,
             "components": {
@@ -5543,23 +5601,15 @@
         {
             "school": "C",
             "entries": [
-                "You summon up to 3 creatures from The Dreaming. These creatures use the statistics of a woodland being (detailed below) with certain traits determined by your choice of its type: blink dog, satyr, or sprite. If you summon only 2 creatures with this spell, increase its effective slot level by 1 when determining the minor woodland being's statistics, and if you summon a single creature with this spell its effective slot level is increased by 2 instead.",
-                "The summoned creatures are friendly to you and your companions and take their turns immediately after yours. They obey your verbal commands. When you command multiple woodland beings using this spell, you must give them all the same command.",
+                "You summon a creature from The Dreaming. This creature uses the statistics of a {@creature woodland being|sns} with certain traits determined by your choice of its type: blink dog, satyr, or sprite.",
+                "The summoned creature is friendly to you and your companions. It obeys your verbal commands.",
                 "Without such commands, a summoned creature only defends itself.",
-                "The summoned creature disappears when reduced to 0 hit points. If your concentration is broken before the spell ends, you lose control of any summoned creatures, which become hostile and might attack you and your companions. An uncontrolled creature disappears at the end of the spell's maximum duration.",
+                "The summoned creature disappears when reduced to 0 hit points. If your concentration is broken before the spell ends, you lose control of the summoned creature, which becomes hostile and might attack you and your companions. An uncontrolled creature disappears at the end of the spell's maximum duration.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Nevard's Naturalized Conjure Woodland Beings.",
-                        "This spell does not require your concentration.",
-                        "WOODLAND BEING MEDIUM FEY (BLINK DOG, SATYR, OR SPRITE) Armor Class 12 + spell slot level (natural armor) Hit Points 40 + 10 for each spell slot level above 4th Speed 40 ft. (or 10 ft., fly 40 ft. Sprite only) STR DEX CON INT WIS CHA 12 (+1) 15 (+2) 12 (+1) 10 (+0) 10 (+0) 15 (+2) Senses darkvision 60 ft., passive Perception 10 Languages Common, Sylvan Challenge —; Proficiency your proficiency bonus Keen Hearing and Smell (Blink Dog Only). The blink dog has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
-                        "Magic Resistance (Satyr Only). The satyr has advantage on saving throws against spells and other magical effects.",
-                        "ACTIONS Blinking Bite (Blink Dog Only). Melee Weapon Attack: your spell attack bonus to hit, reach 5 ft., one target. Hit: 4 ({@dice 1d6+1}) piercing damage plus extra damage equal to spell slot level. Before or after the attack, the blink dog can teleport up to 40 feet to an unoccupied space it can see.",
-                        "Ram (Satyr Only). Melee Weapon Attack: your spell attack bonus to hit, reach 5 ft., one target. Hit: 6 ({@dice 2d4+1}) bludgeoning damage plus extra damage equal to spell slot level.",
-                        "Shortbow (Sprite Only). Ranged Weapon Attack: your spell attack bonus to hit, range 40/160 ft., one target. Hit: 3 piercing damage plus extra damage equal to spell slot level. If the target is a creature it must succeed on a Constitution saving throw against your spell save DC or become {@condition poisoned} for 1 minute.",
-                        "On a failure by 5 or more, the {@condition poisoned} target falls {@condition unconscious} for the same duration, or until another creature uses an action to shake it awake.",
-                        "<<<ADD STAT BLOCK MANUALLY>>>"
+                        "Nevard's Naturalized Conjure Woodland Beings. This spell does not require your concentration and therefore no longer counts as a minion."
                     ]
                 }
             ],
@@ -5590,10 +5640,10 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
-                "nature"
+                "nature",
+                "minion"
             ],
             "level": 4,
             "components": {
@@ -5874,11 +5924,40 @@
                     ]
                 },
                 "Water inside the area is yours to command. On the round you cast it, and as an action on subsequent turns until the spell ends, you can choose one of the following effects. When you choose a different effect, the current one ends.",
-                "Flood: The standing water level rises by up to 20 feet. The flood water spills onto land if the area includes a shore, but when the area is in a large body of water you instead create a 20-foottall wave. The wave travels across the area and crashes down, carrying Huge or smaller vehicles to the other side, each of which has a 25% chance of capsizing. The wave repeats on the start of your next turn while this effect continues.",
-                "Part Water: You create a 20-foot wide trench spanning the area with walls of water to either side. When this effect ends, the trench slowly refills over the course of the next round.",
-                "Redirect Flow: Flowing water in the area moves in a direction you choose, including up.",
-                "Once the water moves beyond the spell's area, it resumes its regular flow based on the terrain.",
-                "Whirlpool: If the affected body of water is at least 50 feet square and 25 feet deep, a whirlpool forms within the area in a 50-foot wide cone that is 25 feet long. Creatures and objects that are in the area and within 25 feet of the whirlpool make an Athletics check against your spell save DC or are pulled 10 feet toward it. Once within the whirlpool, checks made to swim out of it have disadvantage. When a creature first enters the whirlpool on a turn or starts its turn there, it makes a Strength saving throw or takes {@dice 2d8} bludgeoning damage and is pulled into the center of the whirlpool. On a successful save, the creature takes half damage and isn't pulled."
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Flood",
+                            "entries": [
+                                "The standing water level rises by up to 20 feet. The flood water spills onto land if the area includes a shore, but when the area is in a large body of water you instead create a 20-foot-tall wave. The wave travels across the area and crashes down, carrying Huge or smaller vehicles to the other side, each of which has a 25% chance of capsizing. The wave repeats on the start of your next turn while this effect continues."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Part Water",
+                            "entries": [
+                                "You create a 20-foot wide trench spanning the area with walls of water to either side. When this effect ends, the trench slowly refills over the course of the next round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Redirect Flow",
+                            "entries": [
+                                "Flowing water in the area moves in a direction you choose, including up.",
+                                "Once the water moves beyond the spell's area, it resumes its regular flow based on the terrain."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Whirlpool",
+                            "entries": [
+                                "If the affected body of water is at least 50 feet square and 25 feet deep, a whirlpool forms within the area in a 50-foot wide cone that is 25 feet long. Creatures and objects that are in the area and within 25 feet of the whirlpool make an Athletics check against your standard DC or are pulled 10 feet toward it. Once within the whirlpool, checks made to swim out of it have disadvantage. The whirlpool is a persistent zone that deals {@dice 1d10} bludgeoning DoT damage and forces creatures to make a save, being pulled into the centre of the whirlpool on a fail."
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Control Water",
             "time": [
@@ -5898,8 +5977,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
@@ -5908,7 +5986,10 @@
                 "divine",
                 "nature",
                 "terrain",
-                "water"
+                "water",
+                "bludgeoning",
+                "persistent",
+                "dot"
             ],
             "level": 4,
             "components": {
@@ -7178,8 +7259,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "protection"
@@ -7706,7 +7786,7 @@
             "entries": [
                 "You teleport to any place you can see, visualize, or describe by stating distance and direction such as 200 feet straight downward or 400 feet upward at a 30-degree angle to the southeast.",
                 "You can bring along objects if their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller, provided it isn't carrying gear beyond its carrying capacity and is within 5 feet.",
-                "If you would arrive in an occupied space the spell fails, and you and any creature with you each take {@dice 4d6} force damage."
+                "If you would arrive in an occupied space the spell fails, and you and any creature with you each take {@dice 4d6} force DoT damage."
             ],
             "name": "Dimension Door",
             "time": [
@@ -7720,8 +7800,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "teleportation"
@@ -8071,9 +8150,9 @@
             "school": "D",
             "entries": [
                 "Your offering and magic put you in contact with the higher power you serve or its representatives.",
-                "You ask a single question about something that will (or could) happen in the next 7 days. The Narrator offers a truthful reply, which may be cryptic or even nonverbal as appropriate to the being in question.",
+                "You ask a single question about something that will (or could) happen in the next 7 days. The DM offers a truthful reply, which may be cryptic or even nonverbal as appropriate to the being in question.",
                 "The reply does not account for possible circumstances that could change the outcome, such as making additional precautions.",
-                "When you cast this spell again before finishing a long rest, the chance of getting a random reading from the above options increases. The Narrator makes the following roll in secret: second casting— 25%, third casting—50%, fourth casting—75%, fifth casting—100%."
+                "When you cast this spell again before finishing a long rest, the chance of getting a random reading increases. The DM makes the following roll in secret: second casting— 25%, third casting—50%, fourth casting—75%, fifth casting—100%."
             ],
             "name": "Divination",
             "time": [
@@ -8087,8 +8166,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "communication",
                 "divine",
@@ -8255,18 +8333,34 @@
                         "One beast"
                     ]
                 },
+                "You assert control over the target's mind. Make a will attack against the target, which has disadvantage if the target is engaged in combat with you or creatures friendly to you. The attack has the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition charmed|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is {@condition dominated|sns} for the duration.",
+                                "Each time the target takes damage, it makes a save, ending the spell on a success."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target has advantage on attack rolls against creatures of your choice."
+                            ]
+                        }
                     ]
-                },
-                "You assert control over the target's mind and it is {@condition charmed} for the duration. If it is engaged in combat with you or creatures friendly to you, it has advantage on its saving throw.",
-                "Until the {@condition charmed} condition ends, you establish a telepathic link with it while you are on the same plane. You may issue commands through this link and the target does its best to obey. No action is required to issue commands, which can be a simple and general course of action such as “Attack that target,” “Go over there,” or “Bring me that object.” Without commands the target only defends itself.",
-                "The target continues to follow a command until its task is complete.",
-                "You can use your action to assume direct control of the target. Until the end of your next turn, you decide all of the target's actions and it does nothing you do not allow it to. While a target is directly controlled in this way, you can also cause it to use a reaction, but this requires you to use your own reaction as well.",
-                "Each time the target takes damage, it makes a new saving throw against the spell, ending the spell on a success."
+                }
             ],
             "name": "Dominate Beast",
             "time": [
@@ -8280,7 +8374,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The spell's duration is extended: 5th-level—Concentration (10 minutes), 6th-level—Concentration (1 hour), 7th-level— Concentration (8 hours)."
+                        "The spell's duration is extended: 5th-level — Concentration (10 minutes), 6th-level — Concentration (1 hour), 7th-level — Concentration (8 hours)."
                     ]
                 }
             ],
@@ -8295,8 +8389,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "beasts",
                 "compulsion",
@@ -9639,7 +9732,7 @@
             "entries": [
                 "You convert raw materials into finished items of the same material. For example, you can fabricate a pitcher from a lump of clay, a bridge from a pile of lumber or group of trees, or rope from a patch of hemp.",
                 "When you cast the spell, select raw materials you can see within range. From them, the spell fabricates a Large or smaller object (contained within a single 10-foot cube or up to eight connected 5-foot cubes) given a sufficient quantity of raw material. When fabricating with metal, stone, or another mineral substance, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of any objects made with the spell is equivalent to the quality of the raw materials.",
-                "Creatures or magic items can't be created or used as materials with this spell. It also may not be used to create items that require highly-specialized craftsmanship such as armor, weapons, clockworks, glass, or jewelry unless you have proficiency with the type of artisan's tools needed to craft such objects.",
+                "Creatures or magic items can't be created or used as materials with this spell. It also may not be used to create items that require highly-specialized craftsmanship such as equipment, clockworks, glass, or jewelry unless you have proficiency with the type of artisan's tools needed to craft such objects.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -9660,8 +9753,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "transformation"
@@ -9798,7 +9890,7 @@
                 "You conjure a phantasmal watchdog. Until the spell ends, the hound remains in the area unless you spend an action to dismiss it or you move more than 100 feet away from it.",
                 "The hound is {@condition invisible} except to you and can't be harmed. When a Small or larger creature enters the area without speaking a password you specify when casting the spell, the hound starts barking loudly.",
                 "The hound sees {@condition invisible} creatures, can see into the Ethereal Plane, and is immune to illusions.",
-                "At the start of each of your turns, the hound makes a bite attack against a hostile creature of your choice that is within the area, using your spell attack bonus and dealing {@dice 4d8} piercing damage on a hit.",
+                "At the start of each of your turns, the hound bites a hostile creature of your choice that is within the area, dealing {@dice 4d6} piercing DoT damage, treated as if it were your own damage.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -9825,13 +9917,14 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "arcane",
                 "protection",
-                "sound"
+                "sound",
+                "piercing",
+                "dot"
             ],
             "level": 4,
             "components": {
@@ -10672,8 +10765,25 @@
             "school": "V",
             "entries": [
                 "Until the spell ends, flames envelop your body, casting bright light in a 10-foot radius and dim light for an additional 10 feet. You can use an action to end the spell early. Choose one of the following options:",
-                "Chill Shield: You have resistance to fire damage. A creature within 5 feet of you takes {@dice 2d8} cold damage when it hits you with a melee attack.",
-                "Warm Shield: You have resistance to cold damage. A creature within 5 feet of you takes {@dice 2d8} fire damage when it hits you with a melee attack.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Chill Shield",
+                            "entries": [
+                                "You have 50% resistance to fire damage. A creature adjacent to you takes {@dice 2d8} cold DoT damage when it hits you with a melee weapon attack."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Warm Shield",
+                            "entries": [
+                                "You have 50% resistance to cold damage. A creature adjacent to you takes {@dice 2d8} fire DoT damage when it hits you with a melee weapon attack."
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -10708,13 +10818,13 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "cold",
                 "fire",
-                "protection"
+                "protection",
+                "dot"
             ],
             "level": 4,
             "components": {
@@ -11871,7 +11981,7 @@
                         "One willing creature"
                     ]
                 },
-                "The target ignores difficult terrain. Spells and magical effects can't reduce its speed or cause it to be {@condition staggered|LevelUp} or {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or grapples. The target's movement and attacks aren't penalized from being underwater."
+                "The target ignores difficult terrain. Spells and magical effects can't reduce its speed or cause it to be {@condition staggered|sns} or {@condition restrained|sns}. It can spend 5 feet of movement to escape from nonmagical restraints or grapples. The target's movement and attacks aren't penalized from being underwater."
             ],
             "name": "Freedom of Movement",
             "time": [
@@ -11899,8 +12009,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "movement",
@@ -12396,19 +12505,11 @@
                     "type": "entries",
                     "name": "Target",
                     "entries": [
-                        "Special"
+                        "One centipede or scorpion"
                     ]
                 },
-                "You transform insects and other vermin into monstrous versions of themselves. Until the spell ends, up to 3 spiders become giant spiders, 2 ants become giant ants, 2 crickets or mantises become ankhegs, a centipede becomes a giant centipede, or a scorpion becomes a giant scorpion. The spell ends for a creature when it dies or when you use an action to end the effect on it.",
-                "While it is within 60 feet you can use a bonus action to mentally command the insects. When you command multiple insects using this spell, you may simultaneously give them all the same command.",
-                {
-                    "type": "entries",
-                    "name": "Rare",
-                    "entries": [
-                        "Nevard's Mounted Giant Insect. The spell transforms up to 10 beetles into riding beetles.",
-                        "When using a 5th-level spell slot and transforming beetles into riding beetles, the spell doesn't require concentration."
-                    ]
-                }
+                "You transform insects and other vermin into monstrous versions of themselves. Until the spell ends, a centipede becomes a {@creature giant centipede}, or a scorpion becomes a {@creature giant scorpion}. The spell ends when the target dies or when you use an action to end the effect on it.",
+                "While it is within 60 feet you can use a bonus action to mentally command the insect."
             ],
             "name": "Giant Insect",
             "time": [
@@ -12437,11 +12538,11 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "beasts",
-                "nature"
+                "nature",
+                "minion"
             ],
             "level": 4,
             "components": {
@@ -12931,8 +13032,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "obscurement",
@@ -13415,7 +13515,7 @@
                         "150-foot cube"
                     ]
                 },
-                "You weave a veil over the natural terrain within the area, making it look, sound, or smell like another sort of terrain. A small lake could be made to look like a grassy glade. A path or trail could be made to look like an impassable swamp. A cliff face could even appear as a gentle slope or seem to extend further than it does. This spell does not affect any manufactured structures, equipment, or creatures. Only the visual, auditory, and olfactory components of the terrain are changed. Any creature that enters or attempts to interact with the illusion feels the real terrain below. If given sufficient reason, a creature may make an Investigation check against your spell save DC to disbelieve it. On a successful save, the creature sees the illusion superimposed over the actual terrain.",
+                "You weave a veil over the natural terrain within the area, making it look, sound, or smell like another sort of terrain. A small lake could be made to look like a grassy glade. A path or trail could be made to look like an impassable swamp. A cliff face could even appear as a gentle slope or seem to extend further than it does. This spell does not affect any manufactured structures, equipment, or creatures. Only the visual, auditory, and olfactory components of the terrain are changed. Any creature that enters or attempts to interact with the illusion feels the real terrain below. If given sufficient reason, a creature may make an Investigation check against your standard DC to disbelieve it. On a success, the creature sees the illusion superimposed over the actual terrain.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -13450,8 +13550,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
@@ -14602,19 +14701,12 @@
                         "20-foot radius cylinder that is 40 feet high"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
-                "A bombardment of jagged ice erupts throughout the target area. All creatures in the area take {@dice 2d8} bludgeoning damage and {@dice 4d6} cold damage. Large chunks of ice turn the area into difficult terrain until the end of your next turn.",
+                "A bombardment of jagged ice erupts throughout the target area. Make a reflex attack against all creatures in the area that deals {@dice 4d4} bludgeoning damage and {@dice 5d6} cold damage. Large chunks of ice turn the area into difficult terrain until the end of your next turn.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Gabal's Shackling Ice Storm. A creature that takes 20 or more damage is ensnared in icy shackles. An ensnared creature is {@condition grappled} and takes {@dice 2d6} ongoing cold damage until it uses an action to make a Strength saving throw to end the effect."
+                        "Gabal's Shackling Ice Storm. A creature that takes 22 or more damage is ensnared in icy shackles. An ensnared creature is {@condition grappled|sns} and takes {@dice 2d6} ongoing cold damage until it uses an action to make a save to end the effect."
                     ]
                 }
             ],
@@ -14630,7 +14722,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The bludgeoning damage increases by {@dice 1d8} for each slot level above 4th."
+                        "The bludgeoning damage increases by {@dice 2d4} for each slot level above 4th."
                     ]
                 }
             ],
@@ -14639,15 +14731,17 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "Y"
             ],
             "subschools": [
                 "cold",
                 "nature",
-                "storm"
+                "storm",
+                "bludgeoning",
+                "spell",
+                "area"
             ],
             "level": 4,
             "components": {
@@ -16274,7 +16368,7 @@
                 },
                 "Name or describe in detail a creature familiar to you. The spell reveals the general direction the creature is in (south, east, northwest, and so on) if it exists within range. This includes its current trajectory if it's travelling.",
                 "You may locate specific, known creatures, or the nearest creature of a specific type (like a bat, gnome, or red dragon) provided that you have observed that type within 30 feet at least once. If a specific creature you seek is in a different form (for example a wildshaped druid) the spell is unable to find it.",
-                "The spell cannot travel across running water 10 feet across or wider—it is unable to find the creature and the trail ends."
+                "The spell cannot travel across running water 10 feet across or wider — it is unable to find the creature and the trail ends."
             ],
             "name": "Locate Creature",
             "time": [
@@ -16294,8 +16388,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "beasts",
@@ -17910,7 +18003,7 @@
                         "One creature"
                     ]
                 },
-                "The target has resistance to psychic damage and advantage on saving throws made to resist being {@condition charmed} or {@condition frightened}."
+                "The target has 50% resistance to psychic damage and attacks against it that can {@condition charmed|sns|charm} or {@condition frightened|sns|frighten} have disadvantage."
             ],
             "name": "Mindshield",
             "time": [
@@ -17930,8 +18023,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "protection",
                 "psychic"
@@ -18846,20 +18938,19 @@
                         "One creature"
                     ]
                 },
-                "Saving Throws: Wisdom (special) You create an illusion that invokes the target's deepest fears. Only the target can see this illusion. When the spell is cast and at the end of each of its turns, the target makes a Wisdom saving throw or takes {@dice 4d10} psychic damage and becomes {@condition frightened}.",
-                "The spell ends early when the target succeeds on its saving throw. A target that succeeds on its initial saving throw takes half damage.",
+                "You create an illusion that invokes the target's deepest fears. Only the target can see this illusion. When the spell is cast, make a will attack against the target that deals {@dice 7d6} psychic damage. On a hit, the target becomes {@condition frightened|sns} and takes {@dice 4d10} ongoing psychic damage until it passes a passive save.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Aurana's Creeping Phantasmal Killer. When a target succeeds on its saving throw you may choose a new target for the spell. That target must make its own saving throw, and on a failure the spell continues without the expenditure of an additional spell slot, using the same duration."
+                        "Aurana's Creeping Phantasmal Killer. When the spell ends early from the target passing a passive save, you may choose a new target for the spell. That target must make its own save, and on a fail the spell's {@condition frightened|sns} condition and ongoing damage continue on this new target without the expenditure of an additional spell slot, using the same duration."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Aurana's Draining Phantasmal Killer. When a target is damaged by this spell, you regain a number of hit points equal to half the damage dealt."
+                        "Aurana's Draining Phantasmal Killer. Whenever a target is damaged by this spell, you regain a number of hit points equal to half the damage dealt."
                     ]
                 }
             ],
@@ -18875,7 +18966,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d10} for each slot level above the 4th."
+                        "The attack damage increases by {@dice 2d6} and the ongoing damage by {@condition 1d10} for each slot level above the 4th."
                     ]
                 }
             ],
@@ -18890,12 +18981,14 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "fear",
-                "psychic"
+                "psychic",
+                "spell",
+                "ranged",
+                "dot"
             ],
             "level": 4,
             "components": {
@@ -19448,92 +19541,6 @@
             }
         },
         {
-            "school": "T",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature with at least 1 hit point that is not a shapechanger"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
-                    ]
-                },
-                "The target's body is transformed into a beast with a Challenge Rating equal to or less than its own. If the target doesn't have a Challenge Rating, use its level.",
-                "Until the spell ends or it is dropped to 0 hit points, the target's game statistics (including its hit points and mental ability scores) are replaced by the statistics of the chosen beast. The target is limited to actions that it is physically capable of doing, and it can't speak or cast spells. The target's gear melds into the new form. Equipment that merges with a target's form has no effect until it leaves the form.",
-                "When the target reverts to its normal form, it returns to the number of hit points it had before it transformed. If the spell's effects on the target end early from dropping to 0 hit points, any excess damage carries over to its normal form and knocks it {@condition unconscious} if the damage reduces it to 0 hit points."
-            ],
-            "name": "Polymorph",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "hour",
-                        "amount": 1,
-                        "upTo": false
-                    },
-                    "concentration": true
-                }
-            ],
-            "page": 497,
-            "source": "LevelUp",
-            "subschools": [
-                "affliction",
-                "arcane",
-                "beasts",
-                "nature",
-                "shapechanging",
-                "transformation"
-            ],
-            "level": 4,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": {
-                    "text": "cocoon"
-                }
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Bard",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Druid",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Sorcerer",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Wizard",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "savingThrow": [],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "amount": 60,
-                    "type": "feet"
-                }
-            }
-        },
-        {
             "school": "E",
             "entries": [
                 {
@@ -20010,8 +20017,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
@@ -20515,7 +20521,7 @@
         {
             "school": "T",
             "entries": [
-                "You unleash the discipline of your magical training and let arcane power burn from your fists, consuming the material components of the spell. Until the spell ends you have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons, and on each of your turns you can use an action to make a melee spell attack against a target within 5 feet that deals {@dice 4d8} force damage on a successful hit.",
+                "You unleash the discipline of your magical training and let arcane power burn from your fists, consuming the material components of the spell. Until the spell ends you have 50% resistance to bludgeoning, piercing, and slashing damage, and on each of your turns you can use an action to make a melee spell armour attack against an adjacent target that deals {@dice 4d8} force damage.",
                 "For the duration, you cannot cast other spells or concentrate on other spells. The spell ends early if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end this spell early on your turn as a bonus action."
             ],
             "name": "Rage of the Meek",
@@ -20545,7 +20551,6 @@
                     }
                 }
             ],
-            "page": 497,
             "source": "LevelUp",
             "subschools": [
                 "force",
@@ -21174,16 +21179,35 @@
                         "One creature or object of Large size or smaller"
                     ]
                 },
+                "A transparent sphere of force encloses the target. If the target is unwilling, make a reflex attack against it. Otherwise, use the standard success outcome. The attack has the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The sphere lasts for 1 round and grants all attacks against the target disadvantage and grants all of the target's attacks disadvantage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The sphere lasts until the spell ends and can be destroyed without harming anyone inside by being dealt at least 16 force damage at once or by being targeted with a {@spell dispel magic|sns} spell cast using a 4th-level or higher spell slot. The sphere is immune to all other damage, and no spell effects, physical objects, or anything else can pass through, though a target can breathe while inside it. The target cannot be damaged by any attacks or effects originating from outside the sphere, and the target cannot damage anything outside of it.",
+                                "The target can use an action to roll the sphere at half its Speed. Similarly, the sphere can be picked up and moved by other creatures."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target cannot roll the sphere."
+                            ]
+                        }
                     ]
                 },
-                "A transparent sphere of force encloses the target.",
-                "The sphere is weightless and just large enough for the target to fit inside. The sphere can be destroyed without harming anyone inside by being dealt at least 15 force damage at once or by being targeted with a dispel magic spell cast using a 4th-level or higher spell slot. The sphere is immune to all other damage, and no spell effects, physical objects, or anything else can pass through, though a target can breathe while inside it. The target cannot be damaged by any attacks or effects originating from outside the sphere, and the target cannot damage anything outside of it.",
-                "The target can use an action to roll the sphere at half its Speed. Similarly, the sphere can be picked up and moved by other creatures."
+                ""
             ],
             "name": "Resilient Sphere",
             "time": [
@@ -21203,11 +21227,11 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
-                "protection"
+                "protection",
+                "ranged"
             ],
             "level": 4,
             "components": {
@@ -21840,7 +21864,7 @@
             "school": "C",
             "entries": [
                 "You stash a chest and its contents on the Ethereal Plane. To do so, you must touch the chest and its Tiny replica. The chest can hold up to 12 cubic feet of nonliving matter. Food stored in the chest spoils after 1 day.",
-                "While the chest is in the Ethereal Plane, you can recall it to you at any point by using an action to touch the Tiny replica. The chest reappears in an unoccupied space on the ground within 5 feet of you. You can use an action at any time to return the chest to the Ethereal Plane so long as you are touching both the chest and its Tiny replica.",
+                "While the chest is in the Ethereal Plane, you can recall it to you at any point by using an action to touch the Tiny replica. The chest reappears in an unoccupied space on the ground adjacent to you. You can use an action at any time to return the chest to the Ethereal Plane so long as you are touching both the chest and its Tiny replica.",
                 "This effect ends if you cast the spell again on a different chest, if the replica is destroyed, or if you use an action to end the spell. After 60 days without being recalled, there is a cumulative 5% chance per day that the spell effect will end. If for whatever reason the spell ends while the chest is still in the Ethereal Plane, the chest and all of its contents are lost."
             ],
             "name": "Secret Chest",
@@ -21855,8 +21879,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "planar",
@@ -24032,8 +24055,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "nature",
                 "transformation"
@@ -24079,22 +24101,13 @@
                         "One willing creature"
                     ]
                 },
-                "Until the spell ends, the target's flesh becomes as hard as stone and it gains resistance to nonmagical bludgeoning, piercing, and slashing damage."
+                "Until the spell ends, the target's flesh becomes as hard as stone and it gains 50% resistance to bludgeoning, piercing, and slashing damage."
             ],
             "name": "Stoneskin",
             "time": [
                 {
                     "number": 1,
                     "unit": "action"
-                }
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "When using a 7th-level spell slot, the target gains resistance to magical bludgeoning, piercing, and slashing damage."
-                    ]
                 }
             ],
             "duration": [
@@ -24108,12 +24121,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "nature",
-                "protection"
+                "protection",
+                "shapeshift"
             ],
             "level": 4,
             "components": {
@@ -24662,14 +24675,14 @@
                         "20-foot radius"
                     ]
                 },
-                "You quietly play a tragedy, a song that fills those around you with magical sorrow. Each creature in the area makes a Charisma saving throw at the start of its turn. On a failed save, a creature takes {@dice 2d4} psychic damage, it spends its action that turn crying, and it can't take reactions until the start of its next turn. Creatures that are immune to the {@condition charmed} condition automatically succeed on this saving throw.",
-                "If a creature other than you hears the entire song (remaining within the spell's area from the casting through the duration) it is so wracked with sadness that it is {@condition debilitated|LevelUp} for {@dice 1d4} rounds.",
-                "You cannot cast another spell through your spellcasting focus while concentrating on this spell.",
+                "You quietly play a tragedy, a song that fills those around you with magical sorrow. Each creature in the area makes a save at the start of its turn. On a fail, a creature takes {@dice 2d4} psychic DoT damage, it is {@condition debilitated|sns} for that turn due to its crying, and it can't take reactions until the start of its next turn. Creatures that are immune to the {@condition charmed|sns} condition automatically succeed on this save.",
+                "If a creature other than you hears the entire song (remaining within the spell's area from the casting through the duration) it is so wracked with sadness that it is {@condition debilitated|sns} for {@dice 1d4} rounds.",
+                "You cannot cast another spell with material components while concentrating on this spell.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Koren's Pervading Tearful Sonnet. This spell deals double the normal damage against {@condition frightened} creatures."
+                        "Koren's Pervading Tearful Sonnet. This spell deals double the normal damage against {@condition frightened|sns} creatures."
                     ]
                 }
             ],
@@ -24700,13 +24713,13 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "compulsion",
                 "psychic",
-                "sound"
+                "sound",
+                "dot"
             ],
             "level": 4,
             "components": {
@@ -26272,8 +26285,8 @@
                         "Special"
                     ]
                 },
-                "You create a wall of fire on a solid surface. The wall can be up to 60 feet long (it does not have to be a straight line; sections of the wall can angle as long as they are contiguous), 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall blocks sight. When the wall appears, each creature within its area makes a Dexterity saving throw, taking {@dice 5d8} fire damage on a failed save, or half as much damage on a successful save.",
-                "One side of the wall (chosen when the spell is cast) deals {@dice 5d8} fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall itself for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+                "You create a wall of fire on a solid surface. The wall can be up to 60 feet long (it does not have to be a straight line; sections of the wall can angle as long as they are contiguous), 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall blocks sight. When the wall appears, make a reflex attack against each creature within its area that deals {@dice 7d6} fire damage.",
+                "One side of the wall (chosen when the spell is cast) deals {@dice 5d8} fire DoT damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall itself for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
             ],
             "name": "Wall of Fire",
             "time": [
@@ -26287,7 +26300,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d8} for each slot level above 4th."
+                        "The damage increases by {@dice 2d6} for each slot level above 4th."
                     ]
                 }
             ],
@@ -26302,15 +26315,17 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "arcane",
                 "attack",
                 "divine",
                 "fire",
-                "protection"
+                "protection",
+                "spell",
+                "area",
+                "dot"
             ],
             "level": 4,
             "components": {
@@ -29436,6 +29451,338 @@
                     "amount": 150
                 }
             }
+        },
+        {
+            "school": "A",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "30-foot radius"
+                    ]
+                },
+                "Life-preserving energy radiates from you. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has 50% resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
+            ],
+            "name": "Aura of Life",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [],
+            "level": 4,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "A",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "30-foot radius"
+                    ]
+                },
+                "Purifying energy radiates from you. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the area (including you) can't become diseased, has 50% resistance to poison damage, and grants disadvantage to incoming attacks that can cause any of the following conditions: {@condition blinded|sns}, {@condition charmed|sns}, {@condition deafened|sns}, {@condition frightened|sns}, {@condition staggered|sns}, {@condition poisoned|sns}, and {@condition debilitated|sns}."
+            ],
+            "name": "Aura of Purity",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [],
+            "level": 4,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "Any number of creatures you choose that can hear you"
+                    ]
+                },
+                "Make a will attack against each target. If a target can't be {@condition charmed|sns}, the attack against them automatically scores a critical failure. The attack has the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target moves 5 feet in a random direction at the end of their next turn."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is compelled by this spell."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition dominated|sns}."
+                            ]
+                        }
+                    ]
+                },
+                "Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each compelled target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make a save to try to end the effect.",
+                "A compelled target isn't compelled to move into an obviously deadly hazard, such as a fire or pit."
+            ],
+            "name": "Compulsion",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "area"
+            ],
+            "level": 4,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                "You conjure a vine that sprouts from the ground in an unoccupied space of your choice within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it. The creature makes a save, being pushed 20 feet directly towards the vine on a fail.",
+                "Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns."
+            ],
+            "name": "Grasping Vine",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "plants"
+            ],
+            "level": 4,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.",
+                "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn takes 13 radiant DoT damage. The guardian vanishes when it has dealt a total of 39 damage."
+            ],
+            "name": "Guardian of Faith",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8,
+                        "upTo": false
+                    }
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "radiant",
+                "dot"
+            ],
+            "level": 4,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "The next time you hit a creature with a melee weapon attack during this spell's duration, your weapon pierces both body and mind, and the attack deals an extra {@dice 4d6} psychic damage to the target. If the attack scores a major success, the target has disadvantage on armour attack rolls and ability checks, and can't take reactions, until the end of its next turn."
+            ],
+            "name": "Sapping Smite",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "psychic"
+            ],
+            "level": 4,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Herald",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
         }
     ],
     "monster": [
@@ -29455,7 +29802,7 @@
                 }
             ],
             "hp": {
-                "special": "22 (Air only) or 33 (Land and Water only) + 6 for each spell level above 2"
+                "special": "22 (Air only) or 33 (Land and Water only) + 6 for each spell level above 2nd"
             },
             "speed": {
                 "walk": 30,
@@ -29529,6 +29876,221 @@
                     "name": "Maul",
                     "entries": [
                         "{@atk mw} reach 5 ft., one target. {@damage 1d8 + 4} + the spell's level piercing damage. This damage is multiplied by half this spell's level. For example, at spell level 4, the damage is {@dice 2d8} + 8 + 8. Each of these multipliers counts as an instance of the Empowered Attack feature."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Minor Elemental",
+            "source": "sns",
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "elemental",
+                "tags": [
+                    "air, earth, fire, or water"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "1 + half the level of the spell (rounded up)"
+                }
+            ],
+            "hp": {
+                "special": "67 + 11 for each spell level above 4th"
+            },
+            "speed": {
+                "walk": 30,
+                "burrow": {
+                    "number": 30,
+                    "condition": "(Earth only)"
+                },
+                "fly": {
+                    "number": 30,
+                    "condition": "(hover; Air only)"
+                },
+                "swim": {
+                    "number": 30,
+                    "condition": "(Water only)"
+                }
+            },
+            "str": 12,
+            "dex": 12,
+            "con": 15,
+            "int": 10,
+            "wis": 10,
+            "cha": 6,
+            "save": {
+                "str": "+2",
+                "dex": "+1",
+                "wis": "+0"
+            },
+            "immune": [
+                "fire (Fire only)",
+                "poison"
+            ],
+            "conditionImmune": [
+                "fatigue|sns",
+                "staggered|sns",
+                "poisoned|sns",
+                "strife|sns",
+                "unconscious|sns"
+            ],
+            "senses": [
+                "darkvision 60 ft.",
+                "tremorsense 60 ft. (Earth only)"
+            ],
+            "passive": 10,
+            "languages": [
+                "primordial",
+                "auran (Air only)",
+                "aquan (Water only)",
+                "ignan (Fire only)",
+                "terran (Earth only)"
+            ],
+            "trait": [
+                {
+                    "name": "—MAJOR EFFECTS—",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "The target's armour is reduced by 1 for 1 round."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Amorphous Form (Air, Fire, and Water Only)",
+                    "entries": [
+                        "The elemental can move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Death Burst",
+                    "entries": [
+                        "The minor elemental explodes when it dies. It makes a reflex attack against each adjacent creature that deals 7 ({@dice 3d4}) bludgeoning damage (or fire damage for a Fire elemental)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Insubstantial (Air and Fire Only)",
+                    "entries": [
+                        "The minor elemental cannot be {@condition grappled|sns}, knocked {@condition prone|sns}, or {@condition restrained|sns}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "{@atk mw} reach 5 ft., one target. 6 ({@damage 1d6 + 3}) bludgeoning damage (or fire damage for a Fire elemental) plus extra damage equal to spell slot level."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Woodland Being",
+            "source": "sns",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "fey",
+                "tags": [
+                    "blink dog, satyr, or sprite"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "2 + half the level of the spell"
+                }
+            ],
+            "hp": {
+                "special": "67 + 11 for each spell level above 4th"
+            },
+            "speed": {
+                "walk": {
+                    "number": 40,
+                    "condition": "(or 10 ft. for Sprite)"
+                },
+                "fly": {
+                    "number": 40,
+                    "condition": "(Sprite only)"
+                }
+            },
+            "str": 12,
+            "dex": 15,
+            "con": 12,
+            "int": 10,
+            "wis": 10,
+            "cha": 15,
+            "save": {
+                "str": "+1",
+                "dex": "+2",
+                "wis": "+2"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "languages": [
+                "common",
+                "sylvan"
+            ],
+            "trait": [
+                {
+                    "name": "—MAJOR EFFECTS—",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "The target's armour is reduced by 1 for 1 round."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Hearing and Smell (Blink Dog Only)",
+                    "entries": [
+                        "The blink dog has advantage on Perception checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Magic Resistance (Satyr Only)",
+                    "entries": [
+                        "Spell attacks against the satyr have disadvantage."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Blinking Bite (Blink Dog Only)",
+                    "entries": [
+                        "{@atk mw} reach 5 ft., one target. 6 {@damage 1d6 + 3} piercing damage plus extra damage equal to spell slot level. Before or after the attack, the blink dog can teleport up to 40 feet to an unoccupied space it can see."
+                    ]
+                },
+                {
+                    "name": "Ram (Satyr Only)",
+                    "entries": [
+                        "{@atk mw} reach 5 ft., one target. 8 {@damage 2d4 + 3} bludgeoning damage plus extra damage equal to spell slot level."
+                    ]
+                },
+                {
+                    "name": "Shortbow (Sprite Only)",
+                    "entries": [
+                        "{@atk rw} range 40/160 ft., one target. 5 piercing damage plus extra damage equal to spell slot level. If this attack scores a major success against a creature, the target is {@condition poisoned|sns} for 1 minute. On a critical success, the {@condition poisoned|sns} target falls {@condition unconscious|sns} for the same duration, or until it takes damage or another creature uses an action to shake it awake."
                     ]
                 }
             ]
