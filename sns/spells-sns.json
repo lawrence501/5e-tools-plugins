@@ -148,6 +148,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "acid"
+            ],
             "subschools": [
                 "acid",
                 "arcane",
@@ -208,6 +211,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "acid"
+            ],
             "subschools": [
                 "acid",
                 "arcane",
@@ -359,6 +365,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "slashing"
+            ],
             "subschools": [
                 "air",
                 "weaponry",
@@ -626,6 +635,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "bludgeoning", "piercing", "slashing"
+		        ],
             "subschools": [
                 "arcane",
                 "movement",
@@ -696,6 +708,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+            "damageInflict": [
+              "radiant"
+            ],
             "subschools": [
                 "radiant",
                 "undead"
@@ -1561,6 +1576,10 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "force",
+			        "bludgeoning"
+		        ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -1678,6 +1697,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			          "bludgeoning"
+		        ],
             "subschools": [
                 "arcane",
                 "enhancement",
@@ -1753,6 +1775,18 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "acid",
+			        "cold",
+			        "fire",
+			        "lightning",
+			        "poison",
+			        "thunder",
+			        "psychic",
+			        "radiant",
+			        "necrotic",
+			        "force"
+		        ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -1825,6 +1859,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+            "damageInflict": [
+              "force"
+            ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -1972,6 +2009,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "slashing"
+		        ],
             "subschools": [
                 "enhancement",
                 "nature",
@@ -2711,6 +2751,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "affliction",
                 "arcane",
@@ -2799,6 +2842,9 @@
             "areaTags": [
                 "Q"
             ],
+		        "damageInflict": [
+			        "bludgeoning"
+		        ],
             "subschools": [
                 "arcane",
                 "summoning",
@@ -2881,6 +2927,9 @@
             "areaTags": [
                 "W"
             ],
+		        "damageInflict": [
+			        "slashing"
+		        ],
             "subschools": [
                 "divine",
                 "protection",
@@ -3023,6 +3072,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "arcane",
                 "nature",
@@ -3411,6 +3463,9 @@
             "areaTags": [
                 "N"
             ],
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "arcane",
                 "fire",
@@ -3532,6 +3587,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "force"
+		        ],
             "subschools": [
                 "force",
                 "weaponry",
@@ -3620,6 +3678,9 @@
             ],
             "source": "sns",
             "areaTags": [],
+		        "damageInflict": [
+			        "lightning"
+		        ],
             "subschools": [
                 "lightning",
                 "nature",
@@ -3868,6 +3929,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "lightning"
+		        ],
             "subschools": [
                 "arcane",
                 "lightning"
@@ -4131,6 +4195,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "affliction",
                 "arcane",
@@ -4221,6 +4288,9 @@
             "areaTags": [
                 "S"
             ],
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "necrotic"
             ],
@@ -4491,6 +4561,9 @@
             "areaTags": [
                 "S"
             ],
+		        "damageInflict": [
+			        "poison"
+		        ],
             "subschools": [
                 "arcane",
                 "obscurement",
@@ -4562,6 +4635,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "poison"
+		        ],
             "subschools": [
                 "attack",
                 "poison"
@@ -5027,6 +5103,9 @@
             "source": "LevelUp",
             "areaTags": [
                 "N"
+            ],
+            "damageInflict": [
+              "cold"
             ],
             "subschools": [
                 "arcane",
@@ -5903,6 +5982,9 @@
             "areaTags": [
                 "C"
             ],
+		        "damageInflict": [
+		          "bludgeoning"
+		        ],
             "subschools": [
                 "arcane",
                 "divine",
@@ -6153,6 +6235,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "thunder"
+		        ],
             "subschools": [
                 "poison",
                 "thunder",
@@ -6585,6 +6670,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "thunder"
+		        ],
             "subschools": [
                 "attack",
                 "thunder",
@@ -7261,6 +7349,9 @@
             "areaTags": [
                 "S"
             ],
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "arcane",
                 "fire"
@@ -7869,6 +7960,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "force"
+		        ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -7941,6 +8035,10 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "necrotic",
+			        "radiant"
+		        ],
             "subschools": [
                 "divine",
                 "protection"
@@ -8152,6 +8250,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "radiant"
+		        ],
             "subschools": [
                 "attack",
                 "divine",
@@ -8544,6 +8645,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "fear",
                 "psychic",
@@ -8818,6 +8922,9 @@
             "areaTags": [
                 "R"
             ],
+		        "damageInflict": [
+		          "bludgeoning"
+	          ],
             "subschools": [
                 "earth",
                 "terrain"
@@ -8894,6 +9001,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "psychic"
             ],
@@ -9186,6 +9296,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "bludgeoning"
+		        ],
             "subschools": [
                 "earth",
                 "terrain"
@@ -9828,6 +9941,9 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+		        "damageInflict": [
+			        "piercing"
+		        ],
             "subschools": [
                 "arcane",
                 "protection",
@@ -10147,6 +10263,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "affliction",
                 "arcane",
@@ -10483,6 +10602,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "arcane",
                 "necrotic",
@@ -10571,6 +10693,9 @@
             "areaTags": [
                 "S"
             ],
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "arcane",
                 "fire",
@@ -10638,6 +10763,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "arcane",
                 "fire",
@@ -10710,6 +10838,10 @@
             ],
             "page": 497,
             "source": "LevelUp",
+            "damageInflict": [
+              "cold",
+              "fire"
+            ],
             "subschools": [
                 "arcane",
                 "cold",
@@ -10789,6 +10921,9 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "divine",
                 "fire",
@@ -10872,6 +11007,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+                "fire"
+            ],
             "subschools": [
                 "attack",
                 "fire",
@@ -10952,9 +11090,14 @@
             "areaTags": [
                 "Y"
             ],
+            "damageInflict": [
+              "fire",
+              "radiant"
+            ],
             "subschools": [
                 "divine",
-                "fire"
+                "fire",
+                "radiant"
             ],
             "level": 5,
             "components": {
@@ -11022,6 +11165,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "arcane",
                 "fire",
@@ -11488,6 +11634,10 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "necrotic",
+			        "radiant"
+		        ],
             "subschools": [
                 "divine",
                 "negation",
@@ -11707,6 +11857,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "force"
+            ],
             "subschools": [
                 "attack",
                 "force",
@@ -11983,6 +12136,9 @@
             "source": "LevelUp",
             "areaTags": [
                 "S"
+            ],
+            "damageInflict": [
+              "cold"
             ],
             "subschools": [
                 "arcane",
@@ -12273,6 +12429,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "arcane",
                 "compulsion",
@@ -12659,6 +12818,13 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "acid",
+			        "cold",
+			        "fire",
+			        "lightning",
+			        "thunder"
+		        ],
             "subschools": [
                 "utility"
             ],
@@ -13228,6 +13394,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "radiant"
+		        ],
             "subschools": [
                 "attack",
                 "divine",
@@ -13530,6 +13699,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "attack",
                 "divine"
@@ -13927,6 +14099,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "affliction",
                 "fire",
@@ -14644,6 +14819,10 @@
             "areaTags": [
                 "Y"
             ],
+            "damageInflict": [
+              "cold",
+              "bludgeoning"
+            ],
             "subschools": [
                 "cold",
                 "nature",
@@ -14952,6 +15131,9 @@
             "areaTags": [
                 "S"
             ],
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "arcane",
                 "fire"
@@ -15018,6 +15200,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "affliction"
             ],
@@ -15089,6 +15274,10 @@
             ],
             "page": 497,
             "source": "LevelUp",
+            "damageInflict": [
+              "cold",
+              "fire"
+            ],
             "subschools": [
                 "attack",
                 "cold",
@@ -15149,6 +15338,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "attack",
                 "divine",
@@ -15227,6 +15419,9 @@
             "areaTags": [
                 "S"
             ],
+		        "damageInflict": [
+			        "piercing"
+		        ],
             "subschools": [
                 "beasts",
                 "nature",
@@ -16162,6 +16357,9 @@
             "areaTags": [
                 "L"
             ],
+		        "damageInflict": [
+			        "lightning"
+		        ],
             "subschools": [
                 "arcane",
                 "lightning",
@@ -16830,6 +17028,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "force"
+            ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -17807,6 +18008,10 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+            "damageInflict": [
+              "bludgeoning",
+	            "fire"
+            ],
             "subschools": [
                 "affliction",
                 "arcane",
@@ -18446,6 +18651,9 @@
             "areaTags": [
                 "Y"
             ],
+		        "damageInflict": [
+			        "radiant"
+		        ],
             "subschools": [
                 "nature",
                 "radiant",
@@ -18793,6 +19001,9 @@
             "areaTags": [
                 "S"
             ],
+		        "damageInflict": [
+			        "piercing"
+		        ],
             "subschools": [
                 "nature",
                 "summoning",
@@ -18892,6 +19103,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "arcane",
                 "fear",
@@ -18943,6 +19157,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "psychic",
                 "unarmed"
@@ -19411,6 +19628,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "poison"
+		        ],
             "subschools": [
                 "nature",
                 "poison",
@@ -19855,6 +20075,9 @@
             "areaTags": [
                 "N"
             ],
+	          "damageInflict": [
+		         "fire", "acid","lightning","poison","cold"
+	          ],
             "subschools": [
                 "arcane",
                 "prismatic"
@@ -19934,6 +20157,9 @@
                 "W",
                 "S"
             ],
+		        "damageInflict": [
+			        "fire", "acid","lightning","poison","cold"
+		        ],
             "subschools": [
                 "arcane",
                 "prismatic",
@@ -20077,6 +20303,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "attack",
                 "fire",
@@ -20547,6 +20776,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+            "damageInflict": [
+              "force"
+            ],
             "subschools": [
                 "force",
                 "protection"
@@ -20681,6 +20913,11 @@
             "areaTags": [
                 "S"
             ],
+		        "damageInflict": [
+			        "fire",
+			        "poison",
+			        "necrotic"
+		        ],
             "subschools": [
                 "evil",
                 "terrain"
@@ -20834,6 +21071,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "cold"
+            ],
             "subschools": [
                 "arcane",
                 "cold",
@@ -21518,6 +21758,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "radiant"
+		        ],
             "subschools": [
                 "attack",
                 "divine",
@@ -21648,6 +21891,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -21805,6 +22051,9 @@
             "areaTags": [
                 "N"
             ],
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "affliction",
                 "psychic",
@@ -21950,6 +22199,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "piercing"
+		        ],
             "subschools": [
                 "nature",
                 "weaponry"
@@ -22340,6 +22592,9 @@
             "areaTags": [
                 "S"
             ],
+		        "damageInflict": [
+			        "thunder"
+		        ],
             "subschools": [
                 "arcane",
                 "sound",
@@ -22427,6 +22682,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "slashing"
+		        ],
             "subschools": [
                 "air",
                 "terrain",
@@ -22691,6 +22949,9 @@
                 }
             ],
             "source": "sns",
+	          "damageInflict": [
+		          "lightning"
+	          ],
             "subschools": [
                 "affliction",
                 "arcane",
@@ -23040,6 +23301,10 @@
             "areaTags": [
                 "Y"
             ],
+            "damageInflict": [
+              "cold",
+              "bludgeoning"
+            ],
             "subschools": [
                 "cold",
                 "nature",
@@ -23240,6 +23505,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "bludgeoning"
+		        ],
             "subschools": [
                 "enhancement",
                 "shapeshift",
@@ -23654,6 +23922,9 @@
             ],
             "source": "sns",
             "areaTags": [],
+		        "damageInflict": [
+			        "piercing"
+		        ],
             "subschools": [
                 "nature",
                 "terrain",
@@ -23726,6 +23997,10 @@
             ],
             "source": "sns",
             "areaTags": [],
+		        "damageInflict": [
+			        "necrotic",
+			        "radiant"
+		        ],
             "subschools": [
                 "divine",
                 "necrotic",
@@ -23797,6 +24072,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "force"
+            ],
             "subschools": [
                 "attack",
                 "divine",
@@ -24182,6 +24460,11 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "bludgeoning",
+			        "thunder",
+			        "lightning"
+		        ],
             "subschools": [
                 "lightning",
                 "movement",
@@ -24258,6 +24541,13 @@
             ],
             "page": 497,
             "source": "LevelUp",
+            "damageInflict": [
+              "acid",
+	            "bludgeoning",
+              "cold",
+              "lightning",
+              "thunder"
+            ],
             "subschools": [
                 "acid",
                 "cold",
@@ -24450,6 +24740,9 @@
             "areaTags": [
                 "L"
             ],
+		        "damageInflict": [
+			        "radiant"
+		        ],
             "subschools": [
                 "arcane",
                 "radiant"
@@ -24537,6 +24830,9 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+		        "damageInflict": [
+			        "radiant"
+		        ],
             "subschools": [
                 "arcane",
                 "radiant"
@@ -24617,6 +24913,9 @@
             ],
             "page": 497,
             "source": "LevelUp",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "arcane",
                 "protection"
@@ -24703,6 +25002,9 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "compulsion",
                 "psychic",
@@ -25220,6 +25522,9 @@
             "areaTags": [
                 "C"
             ],
+		        "damageInflict": [
+			        "thunder"
+		        ],
             "subschools": [
                 "arcane",
                 "nature",
@@ -25956,6 +26261,10 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+            "damageInflict": [
+              "fire",
+              "necrotic"
+            ],
             "subschools": [
                 "fire",
                 "necrotic"
@@ -26111,6 +26420,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -26175,6 +26487,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "poison"
+		        ],
             "subschools": [
                 "healing",
                 "nature",
@@ -26234,6 +26549,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -26305,6 +26623,9 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -26397,6 +26718,9 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+		        "damageInflict": [
+			        "bludgeoning"
+		        ],
             "subschools": [
                 "chaos",
                 "evil",
@@ -26556,6 +26880,9 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+            "damageInflict": [
+              "cold"
+            ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -26718,6 +27045,10 @@
             "page": 497,
             "source": "LevelUp",
             "areaTags": [],
+		        "damageInflict": [
+			        "piercing",
+			        "slashing"
+		        ],
             "subschools": [
                 "attack",
                 "divine",
@@ -27172,6 +27503,9 @@
             "areaTags": [
                 "S"
             ],
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "arcane",
                 "attack",
@@ -27236,6 +27570,9 @@
             "areaTags": [
                 "L"
             ],
+		        "damageInflict": [
+			        "thunder"
+		        ],
             "subschools": [
                 "movement",
                 "thunder",
@@ -27438,6 +27775,9 @@
             ],
             "source": "sns",
             "areaTags": [],
+		        "damageInflict": [
+			        "bludgeoning"
+		        ],
             "subschools": [
                 "air",
                 "attack",
@@ -27774,6 +28114,9 @@
             "areaTags": [
                 "S"
             ],
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "communication",
                 "compulsion",
@@ -27893,6 +28236,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "poison"
+		        ],
             "subschools": [
                 "ranged",
                 "spell"
@@ -27957,6 +28303,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "piercing"
+		        ],
             "subschools": [
                 "piercing",
                 "melee",
@@ -28015,6 +28364,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "cold"
+            ],
             "subschools": [
                 "cold",
                 "dot"
@@ -28076,6 +28428,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "necrotic",
                 "area",
@@ -28135,6 +28490,14 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "poison",
+                "thunder"
+            ],
             "subschools": [
                 "acid",
                 "cold",
@@ -28280,6 +28643,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "ranged",
                 "psychic",
@@ -28334,6 +28700,9 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "fire"
+            ],
             "subschools": [
                 "fire",
                 "ranged",
@@ -28402,6 +28771,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "necrotic"
+		        ],
             "subschools": [
                 "necrotic"
             ],
@@ -28463,6 +28835,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "poison"
+		        ],
             "subschools": [
                 "poison",
                 "ranged",
@@ -28526,6 +28901,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "fire"
+		        ],
             "subschools": [
                 "fire"
             ],
@@ -28573,6 +28951,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "thunder"
+		        ],
             "subschools": [
                 "thunder"
             ],
@@ -28636,6 +29017,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "lightning"
+		        ],
             "subschools": [
                 "lightning",
                 "ranged",
@@ -28698,6 +29082,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "psychic"
             ],
@@ -28800,6 +29187,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "radiant"
+		        ],
             "subschools": [
                 "radiant"
             ],
@@ -28863,6 +29253,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "slashing"
+		        ],
             "subschools": [
                 "slashing",
                 "persistent",
@@ -29061,6 +29454,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "psychic"
+		        ],
             "subschools": [
                 "psychic",
                 "dot"
@@ -29175,6 +29571,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "radiant"
+		        ],
             "subschools": [
                 "radiant"
             ],
@@ -29229,6 +29628,9 @@
                 }
             ],
             "source": "sns",
+		        "damageInflict": [
+			        "radiant"
+		        ],
             "subschools": [
                 "radiant"
             ],
@@ -29283,6 +29685,13 @@
                 }
             ],
             "source": "sns",
+            "damageInflict": [
+              "acid",
+              "cold",
+              "fire",
+              "lightning",
+              "thunder"
+            ],
             "subschools": [
                 "acid",
                 "cold",
@@ -29412,7 +29821,13 @@
                 }
             ],
             "source": "sns",
-            "subschools": [],
+		        "damageInflict": [
+			        "cold"
+		        ],
+		        "subschools": [
+	            "cold",
+			        "dot"
+            ],
             "level": 3,
             "components": {
                 "v": true,
