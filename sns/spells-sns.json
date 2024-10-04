@@ -20838,70 +20838,6 @@
             }
         },
         {
-            "school": "N",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature that died within the last 10 days"
-                    ]
-                },
-                "You return the target to life, provided its soul is willing and able to return to its body. The creature returns to life with 1 hit point. The spell cannot return an undead creature to life.",
-                "The spell cures any poisons and nonmagical diseases that affected the creature at the time of death. It does not remove any magical diseases, curses, or other magical effects; these must be removed prior to the spell being cast, otherwise they immediately take effect when the creature returns to life.",
-                "The spell does not regrow limbs or organs, and it automatically fails if the target is missing any body parts necessary for life (like its heart or head).",
-                "Being raised from the dead takes a toll on the body, mind, and spirit. The target suffers 3 levels of fatigue and strife. At the conclusion of each long rest, the target removes one level of fatigue and strife until the target completely recovers."
-            ],
-            "name": "Raise Dead",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "hour"
-                }
-            ],
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "page": 497,
-            "source": "LevelUp",
-            "subschools": [
-                "divine",
-                "healing"
-            ],
-            "level": 5,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": {
-                    "text": "diamond worth at least 500 gold, consumed by the spell"
-                }
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Bard",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Cleric",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Herald",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "touch"
-                }
-            }
-        },
-        {
             "school": "T",
             "entries": [
                 {
@@ -21182,169 +21118,6 @@
                         "name": "Cleric",
                         "source": "PHB"
                     },
-                    {
-                        "name": "Druid",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "touch"
-                }
-            }
-        },
-        {
-            "school": "T",
-            "entries": [
-                {
-                    "name": "Target",
-                    "entries": [
-                        "One dead humanoid or piece of a dead humanoid (dead no more than 10 days)"
-                    ],
-                    "type": "entries"
-                },
-                "You return the target to life, provided the target's soul is willing and able to return to its body. If you only have a piece of the target, the spell reforms a new adult body for the soul to inhabit. Once reincarnated the target remembers everything from its former life, and retains all its proficiencies, cultural traits, and class features.",
-                "The target's heritage traits change according to its new form. The Narrator chooses the form of the new body, or rolls on Table: Reincarnation.",
-                {
-                    "type": "table",
-                    "rows": [
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 1,
-                                    "pad": true,
-                                    "max": 4
-                                }
-                            },
-                            "{@race Dragonborn}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 5,
-                                    "pad": true,
-                                    "max": 21
-                                }
-                            },
-                            "{@race Dwarf}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 22,
-                                    "max": 42
-                                }
-                            },
-                            "{@race Elf}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 43,
-                                    "max": 52
-                                }
-                            },
-                            "{@race Gnome}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 53,
-                                    "max": 60
-                                }
-                            },
-                            "{@race Orc}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 61,
-                                    "max": 76
-                                }
-                            },
-                            "{@race Halfling}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 77,
-                                    "max": 88
-                                }
-                            },
-                            "{@race Human}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 89,
-                                    "pad": true,
-                                    "max": 93
-                                }
-                            },
-                            "{@race Planetouched}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 94,
-                                    "pad": true,
-                                    "max": 0
-                                }
-                            },
-                            "Mixed Heritage (page 23)"
-                        ]
-                    ],
-                    "colStyles": [
-                        "col-1 text-center no-wrap",
-                        "col-11"
-                    ],
-                    "colLabels": [
-                        "{@dice d100}",
-                        "Heritage"
-                    ],
-                    "caption": "Reincarnation"
-                }
-            ],
-            "name": "Reincarnate",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "hour"
-                }
-            ],
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "page": 497,
-            "source": "LevelUp",
-            "subschools": [
-                "healing",
-                "nature",
-                "transformation"
-            ],
-            "level": 5,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": {
-                    "text": "rare oils and unguents worth at least 1,000 gold, consumed by the spell"
-                }
-            },
-            "classes": {
-                "fromClassList": [
                     {
                         "name": "Druid",
                         "source": "PHB"
@@ -21970,16 +21743,74 @@
                     ],
                     "type": "entries"
                 },
+                "You can see and hear a specific creature that you choose. If the target is unwilling, make a will attack against it. Otherwise, use the standard success outcome of the attack.",
+                "You have penalties or bonuses to the attack roll based on your knowledge of the target and whether you possess a physical item with a connection to the target.",
                 {
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates (24 hours)"
+                    "type": "table",
+                    "caption": "Scrying",
+                    "colLabels": [
+                        "Knowledge or Physical Connection",
+                        "Attack Roll Modifier"
                     ],
-                    "type": "entries"
+                    "colStyles": [
+                        "col-11",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "You have heard of the target",
+                            "-5"
+                        ],
+                        [
+                            "You have met the target",
+                            "+0"
+                        ],
+                        [
+                            "You know the target well",
+                            "+5"
+                        ],
+                        [
+                            "Likeness or picture",
+                            "+2"
+                        ],
+                        [
+                            "Possession or garment",
+                            "+4"
+                        ],
+                        [
+                            "Lock of hair, nail clipping, tooth, finger, true name, and so on",
+                            "+10"
+                        ]
+                    ]
                 },
-                "You can see and hear a specific creature that you choose. The difficulty of the saving throw for this spell is modified by your knowledge of the target and whether you possess a physical item with a connection to the target.",
-                "On a failed save, you can see and hear the target through an {@condition invisible} sensor that appears within 10 feet of it and moves with the target. Any creature who can see invisibility or rolls a critical success on its saving throw perceives the sensor as a fist-sized glowing orb hovering in the air. Creatures cannot see or hear you through the sensor.",
-                "If you choose to target a location, the sensor appears at that location and is immobile."
+                "The attack has the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "You get a still, instantaneous image from a sensor that appears within 10 feet of the target, pointed at the target. The sensor only appears for a fraction of a second, but when it does it flashes with bright, white light and makes an audible snapping sound that can be heard from up to 30 feet away."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "You can see and hear the target through an {@condition invisible} sensor that appears within 10 feet of it and moves with the target. Any creature who can see invisibility perceives the sensor as a fist-sized glowing orb hovering in the air. Creatures cannot see or hear you through the sensor.",
+                                "If you choose to target a location, the sensor appears at that location and is immobile."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but you can change the angle and rotation of the sensor at will, so long as it remains within 10 feet of the target."
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Scrying",
             "time": [
@@ -21999,13 +21830,13 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
                 "nature",
-                "scrying"
+                "scrying",
+                "ranged"
             ],
             "level": 5,
             "components": {
@@ -22329,13 +22160,39 @@
                     "type": "entries",
                     "name": "Target",
                     "entries": [
-                        "Any number of creatures you can see"
+                        "Any number of creatures in range"
                     ]
                 },
-                "Until the spell ends or you use an action to dispel it, you can change the appearance of the targets. The spell disguises their clothing, weapons, and items as well as changes to their physical appearance. An unwilling target can make a Charisma saving throw to avoid being affected by the spell.",
-                "You can alter the appearance of the target as you see fit, including but not limited to: its heritage, 1 foot of height, weight, clothing, tattoos, piercings, facial features, hair style and length, skin and eye coloration, sex and any other distinguishing features.",
-                "You cannot disguise the target as a creature of a different size category, and its limb structure remains the same; for example if it's bipedal, you can't use this spell to make it appear as a quadruped.",
-                "The disguise does not hold up to physical inspection. A creature that tries to grab an illusory hat, for example, finds its hand passes straight through the figment. To see through your disguise without such an inspection, a creature must use its action to make an Investigation check against your spell save DC."
+                "Until the spell ends or you use an action to dispel it, you can change the appearance of the targets. If a target is unwilling, make a will attack against it. Otherwise, use the standard success outcome of the attack. The attack has the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "You can alter the target's physical facial features for 1 round, but not any of their clothing, weapons, or items."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The spell disguises the target's clothing, weapons, and items as well as changes to their physical appearance.",
+                                "You can alter the appearance of the target as you see fit, including but not limited to: its heritage, 1 foot of height, weight, clothing, tattoos, piercings, facial features, hair style and length, skin and eye colouration, sex, and any other distinguishing features.",
+                                "You cannot disguise the target as a creature of a different size category, and its limb structure remains the same; for example if it's bipedal, you can't use this spell to make it appear as a quadruped.",
+                                "The disguise does not hold up to physical inspection. A creature that tries to grab an illusory hat, for example, finds its hand passes straight through the figment. To see through your disguise without such an inspection, a creature must use its action to make an Investigation check against your standard DC."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but you can alter a creature's shape to be one size category larger or smaller."
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Seeming",
             "time": [
@@ -22354,12 +22211,12 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "obscurement",
-                "utility"
+                "utility",
+                "area"
             ],
             "level": 5,
             "components": {
@@ -24426,7 +24283,7 @@
                     ]
                 },
                 "You must be able to move in order to cast this spell.",
-                "You leap into the air and flash across the battlefield, arriving feet-first with the force of a thunderbolt. As part of casting this spell, make a ranged spell attack against a creature you can see within range. If you hit, you instantly flash to an open space of your choosing adjacent to the target, dealing bludgeoning damage equal to {@dice 1d6} + your spellcasting modifier plus {@dice 3d8} thunder damage and {@dice 6d8} lightning damage. If your unarmed strike normally uses a larger die, use that instead of a {@dice d6}. If you miss, you may still choose to teleport next to the target."
+                "You leap into the air and flash across the battlefield, arriving feet-first with the force of a thunderbolt. As part of casting this spell, make an armour attack against a creature within range. You instantly flash to an open space of your choosing adjacent to the target, and the attack deals bludgeoning damage equal to {@dice 1d6} + your spellcasting modifier plus {@dice 3d8} thunder damage and {@dice 6d8} lightning damage. If your unarmed strike normally uses a larger die, use that instead of a {@dice d6}."
             ],
             "name": "Storm Kick",
             "time": [
@@ -24440,7 +24297,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "When using a 6th-level spell slot or higher, if you are able to make more than one attack when you take the Attack action, you may make an additional melee weapon attack against the target. When using a 7th-level spell slot, you may choose an additional target within 30 feet of the target for each spell slot level above 6th, forcing each additional target to make a Dexterity saving throw or take {@dice 6d8} lightning damage."
+                        "When using a 6th-level spell slot or higher, if you have the Empowered Attack feature, one instance of it applies to this spell. When using a 7th-level spell slot, you may choose an additional target within 30 feet of the target for each spell slot level above 6th, forcing each additional target to make a save or take {@dice 6d8} lightning DoT damage."
                     ]
                 }
             ],
@@ -24449,13 +24306,15 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "lightning",
                 "movement",
                 "thunder",
-                "unarmed"
+                "unarmed",
+                "bludgeoning",
+                "spell",
+                "melee"
             ],
             "level": 5,
             "components": {
@@ -25012,9 +24871,26 @@
                 },
                 "You move the target with the power of your mind.",
                 "Until the spell ends you can use an action on subsequent turns to pick a new target or continue to affect the same target. Depending on whether you target a creature or an object, the spell has the following effects:",
-                "Creature: The target makes a Strength check against your spell save DC or it is moved up to 30 feet in any direction and {@condition restrained} (even in mid-air) until the end of your next turn. You cannot move a target beyond the range of the spell.",
-                "Object: You move the target 30 feet in any direction. If the object is worn or carried by a creature, that creature can make a Strength check against your spell save DC. If the target fails, you pull the object away from that creature and can move it up to 30 feet in any direction, but not beyond the range of the spell.",
-                "You can use telekinesis to finely manipulate objects as though you were using them yourself—you can open doors and unscrew lids, dip a quill in ink and make it write, and so on."
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Creature",
+                            "entries": [
+                                "The target makes a Brawn check against your standard DC or it is moved up to 30 feet in any direction and {@condition restrained|sns} (even in mid-air) until the end of your next turn. You cannot move a target beyond the range of the spell."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Object",
+                            "entries": [
+                                "You move the target 30 feet in any direction. If the object is worn or carried by a creature, that creature can make a Brawn check against your standard DC. If the target fails, you pull the object away from that creature and can move it up to 30 feet in any direction, but not beyond the range of the spell."
+                            ]
+                        }
+                    ]
+                },
+                "You can use telekinesis to finely manipulate objects as though you were using them yourself — you can open doors and unscrew lids, dip a quill in ink and make it write, and so on."
             ],
             "name": "Telekinesis",
             "time": [
@@ -25043,8 +24919,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "movement"
@@ -25122,8 +24997,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "communication",
@@ -25311,7 +25185,7 @@
                 },
                 "You draw a 10-foot diameter circle on the ground and open within it a shimmering portal to a permanent teleportation circle elsewhere in the world. The portal remains open until the end of your next turn. Any creature that enters the portal instantly travels to the destination circle.",
                 "Permanent teleportation circles are commonly found within major temples, guilds, and other important locations. Each circle has a unique sequence of magical runes inscribed in a certain pattern called a sigil sequence.",
-                "When you cast teleportation circle, you inscribe runes that match the sigil sequence of a teleportation circle you know. When you first gain the ability to cast this spell, you learn the sigil sequences for 2 destinations on the Material Plane, determined by the Narrator. You can learn a new sigil sequence with 1 minute of observation and study.",
+                "When you cast teleportation circle, you inscribe runes that match the sigil sequence of a teleportation circle you know. When you first gain the ability to cast this spell, you learn the sigil sequences for 2 destinations on the Material Plane, determined by the DM. You can learn a new sigil sequence with 1 minute of observation and study.",
                 "Casting the spell in the same location every day for a year creates a permanent teleportation circle with its own unique sigil sequence. You do not need to teleport when casting the spell to make a permanent destination."
             ],
             "name": "Teleportation Circle",
@@ -25331,8 +25205,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "R"
             ],
@@ -25850,7 +25723,7 @@
         {
             "school": "C",
             "entries": [
-                "Until the spell ends, once per round you can use 5 feet of movement to enter a living tree and move to inside another living tree of the same kind within 500 feet so long as you end your turn outside of a tree. Both trees must be at least your size. You instantly know the location of all other trees of the same kind within 500 feet. You may step back outside of the original tree or spend 5 more feet of movement to appear within a spot of your choice within 5 feet of the destination tree. If you have no movement left, you appear within 5 feet of the tree you entered."
+                "Until the spell ends, once per round you can use 5 feet of movement to enter a living tree and move to inside another living tree of the same kind within 500 feet so long as you end your turn outside of a tree. Both trees must be at least your size. You instantly know the location of all other trees of the same kind within 500 feet. You may step back outside of the original tree or spend 5 more feet of movement to appear within a spot of your choice adjacent to the destination tree. If you have no movement left, you appear adjacent to the tree you entered."
             ],
             "name": "Tree Stride",
             "time": [
@@ -25879,8 +25752,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "nature",
@@ -26712,14 +26584,14 @@
                     ]
                 },
                 "You create an {@condition invisible} wall of force at a point you choose. The wall is a horizontal or vertical barrier, or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere, either with a radius of up to 10 feet. You may also choose to create a flat surface made up of a contiguous group of ten 10-foot square sections. The wall is 1/4 inch thick.",
-                "If the wall enters a creature's space when it appears, the creature is pushed to one side of the wall (your choice), but when a creature would be surrounded on all sides by the wall (or the wall and another solid surface), it can use its reaction to make a Dexterity saving throw to move up to its Speed to escape. Any creature without a special sense like blindsight has disadvantage on this saving throw.",
+                "If the wall enters a creature's space when it appears, the creature is pushed to one side of the wall (your choice), but when a creature would be surrounded on all sides by the wall (or the wall and another solid surface), it can use its reaction to make a save. On a success, it can move up to its Speed to escape. Any creature without a special sense like blindsight has disadvantage on this save.",
                 "Nothing can physically pass through the wall.",
-                "It can be destroyed with dispel magic cast using a spell slot of at least 5th-level or by being dealt at least 25 force damage at once. It is otherwise immune to damage. The wall also extends into the Ethereal Plane, blocking ethereal travel through it.",
+                "It can be destroyed with {@spell dispel magic|sns} cast using a spell slot of at least 5th-level or by being dealt at least 28 force damage at once. It is otherwise immune to damage. The wall also extends into the Ethereal Plane, blocking ethereal travel through it.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Aurana's Superior Forcewall. Creatures pushed to one side of the wall are knocked {@condition prone}. The wall can be destroyed with a dispel magic cast using a spell slot of at least 6th-level or by being dealt at least 50 force damage at once. It is otherwise immune to damage."
+                        "Aurana's Superior Forcewall. Creatures pushed to one side of the wall are knocked {@condition prone|sns}. The wall can be destroyed with a {@spell dispel magic|sns} cast using a spell slot of at least 6th-level or by being dealt at least 56 force damage at once. It is otherwise immune to damage."
                     ]
                 }
             ],
@@ -26741,8 +26613,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "arcane",
@@ -26870,16 +26741,16 @@
                 "A nonmagical wall of solid stone appears at a point you choose. The wall is 6 inches thick and is made up of a contiguous group of ten 10-foot square sections. Alternatively, you can create 10-foot-by-20- foot sections that are only 3 inches thick.",
                 "The wall can have any shape you desire, though it can't occupy the same space as a creature or object.",
                 "The wall doesn't need to be vertical or rest on any firm foundation but must merge with and be solidly supported by existing stone. Thus, you can use this spell to bridge a chasm or create a ramp.",
-                "If the wall enters a creature's space when it appears, the creature is pushed to one side of the wall (your choice), but when a creature would be surrounded on all sides by the wall (or the wall and another solid surface), it can use its reaction to make a Dexterity saving throw to move up to its Speed to escape.",
+                "If the wall enters a creature's space when it appears, the creature is pushed to one side of the wall (your choice), but when a creature would be surrounded on all sides by the wall (or the wall and another solid surface), it can use its reaction to make a save. On a success, it can move up to its Speed to escape.",
                 "If you create a span greater than 20 feet in length, you must halve the size of each panel to create supports. You can crudely shape the wall to create crenelations, battlements, and so on.",
-                "The wall is an object made of stone. Each panel has AC 15 and 30 hit points per inch of thickness.",
-                "Reducing a panel to 0 hit points destroys it and at the Narrator's discretion might cause connected panels to collapse.",
+                "The wall is an object made of stone. Each panel has 2 Armour and 33 hit points per inch of thickness.",
+                "Reducing a panel to 0 hit points destroys it and at the DM's discretion might cause connected panels to collapse.",
                 "You can make the wall permanent by concentrating on the spell for the full duration.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Gabal's Hardy Wall of Stone. Each panel has AC 18 and 40 hit points per inch of thickness.",
+                        "Gabal's Hardy Wall of Stone. Each panel has 4 Armour and 45 hit points per inch of thickness.",
                         "Reducing a panel to 0 hit points destroys it but does not cause connected panels to collapse."
                     ]
                 }
@@ -26902,8 +26773,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "arcane",
@@ -27091,7 +26961,7 @@
         {
             "school": "D",
             "entries": [
-                "Your senses sharpen, allowing you to anticipate incoming attacks and find weaknesses in the defenses of your foes. Until the spell ends, creatures cannot gain bonuses (like those granted by bless or expertise dice) or advantage on attack rolls against you. In addition, none of your movement provokes opportunity attacks, and you ignore nonmagical difficult terrain. Finally, you can end the spell early to treat a single weapon attack roll as though you had rolled a 15 on the {@dice d20}."
+                "Your senses sharpen, allowing you to anticipate incoming attacks and find weaknesses in the defenses of your foes. Until the spell ends, creatures cannot gain bonuses (like those granted by bless or expertise dice) or advantage on armour attack rolls against you. In addition, none of your movement provokes opportunity attacks, and you ignore nonmagical difficult terrain. Finally, you can end the spell early to treat a single weapon attack roll as though you had rolled a 15 on the {@dice d20}."
             ],
             "name": "Warrior's Instincts",
             "time": [
@@ -27120,8 +26990,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement",
                 "protection",
