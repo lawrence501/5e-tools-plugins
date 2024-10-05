@@ -2907,15 +2907,8 @@
                         "Wall, varies"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
                 "You create a wall of slashing blades. The wall can be up to 20 feet high and 5 feet thick, and can either be a straight wall up to 100 feet long or a ringed wall of up to 60 feet in diameter. The wall provides three-quarters cover and its area is difficult terrain.",
-                "When a creature starts its turn within the wall's area or enters the wall's area for the first time on a turn, it makes a Dexterity saving throw, taking {@dice 6d10} slashing damage on a failed save, or half as much on a successful save."
+                "The wall is a persistent zone that deals {@dice 4d10} slashing DoT damage."
             ],
             "name": "Blade Barrier",
             "time": [
@@ -2944,15 +2937,17 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "W"
             ],
             "subschools": [
                 "divine",
                 "protection",
-                "weaponry"
+                "weaponry",
+                "slashing",
+                "persistent",
+                "dot"
             ],
             "level": 6,
             "components": {
@@ -3898,14 +3893,7 @@
                         "One creature or object (primary) and up to three additional"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
-                "You fire a bolt of electricity at the primary target that deals {@dice 10d8} lightning damage. Electricity arcs to up to 3 additional targets you choose that are within 30 feet of the primary target."
+                "You fire a bolt of electricity at the primary target. Make a reflex attack against it that deals {@dice 9d10} lightning damage. Electricity arcs to up to 3 additional targets you choose that are within 30 feet of the primary target, and you also make the same attack against each of them. These additional targets must have line of sight from the primary target."
             ],
             "name": "Chain Lightning",
             "time": [
@@ -3928,11 +3916,12 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
-                "lightning"
+                "lightning",
+                "spell",
+                "ranged"
             ],
             "level": 6,
             "components": {
@@ -4259,20 +4248,13 @@
                         "60-foot radius sphere"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves"
-                    ]
-                },
                 "A sphere of negative energy sucks life from the area.",
-                "Creatures in the area take {@dice 9d6} necrotic damage.",
+                "Make a fortitude attack against each creature in the area that deals {@dice 10d6} necrotic damage.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Roav's Reanimating Circle of Death. Creatures killed by this spell rise as zombies at the start of your next turn. These zombies have 1 hit point, they are not under your control, and they attack the nearest living creature."
+                        "Roav's Reanimating Circle of Death. Creatures killed by this spell rise as {@creature zombie||zombies} at the start of your next turn. These zombies have 1 hit point, they are not under your control, and they attack the nearest living creature."
                     ]
                 }
             ],
@@ -4297,13 +4279,14 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
             "subschools": [
-                "necrotic"
+                "necrotic",
+                "area",
+                "spell"
             ],
             "level": 6,
             "components": {
@@ -5452,24 +5435,10 @@
             "school": "C",
             "entries": [
                 "You summon a creature from The Dreaming.",
-                "This creature uses the statistics of a fey creature (detailed below) with certain traits determined by your choice of its type: hag, hound, or redcap.",
-                "The creature is friendly to you and your companions and takes its turn immediately after yours.",
+                "This creature uses the statistics of a {@creature fey creature|sns} with certain traits determined by your choice of its type: hag, hound, or redcap.",
+                "The creature is friendly to you and your companions.",
                 "It obeys your verbal commands. Without such commands, the creature only defends itself.",
-                "The summoned creature disappears when reduced to 0 hit points. If your concentration is broken before the spell ends, you lose control of the summoned creature, which becomes hostile and might attack you and your companions. An uncontrolled creature disappears at the end of the spell's maximum duration.",
-                {
-                    "type": "entries",
-                    "name": "Rare",
-                    "entries": [
-                        "Nevard's Rapid Conjure Fey. When you use rapid summoning to cast this spell, after the casting is complete it does not require your concentration.",
-                        "FEY CREATURE MEDIUM FEY (HAG, HOUND, OR REDCAP) Armor Class 13 (natural armor) Hit Points 60 Speed 30 ft. (or 40 ft. for a hound) STR DEX CON INT WIS CHA 14 (+2) 16 (+3) 14 (+2) 10 (+0) 12 (+1) 16 (+3) Damage Resistances bludgeoning, piercing, or slashing damage from nonmagical attacks not made with silvered weapons Condition Immunities {@condition charmed} Senses darkvision 60 ft., passive Perception 11 Languages Common, Sylvan Challenge —; Proficiency your proficiency bonus ACTIONS Bite. Melee Weapon Attack: your spell attack bonus to hit, reach 5 ft., one target. Hit: 9 ({@dice 2d6+2}) piercing damage.",
-                        "Baleful Curse (Hag Only). The hag selects one creature it can see. The creature must make a successful Wisdom saving throw against your spell save DC or become cursed for 1 minute. While cursed, the creature has disadvantage on ability checks and attack rolls. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on a success. A remove curse spell also ends the effect. Once the hag has targeted a creature with Baleful Curse, it can't do so again for 1 minute.",
-                        "Bloodletting Sickle (Redcap Only). Melee Weapon Attack: your spell attack bonus to hit, reach 5 ft., one target. Hit: 7 ({@dice 2d4+2}) slashing damage. If the target is a creature other than an undead or construct, it must succeed on a Constitution saving throw against your spell save DC or take 5 ({@dice 2d4}) ongoing slashing damage due to a bleeding wound.",
-                        "Each time the redcap hits the wounded target with this attack, the ongoing damage dealt by the wound increases by 5 ({@dice 2d4}). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.",
-                        "Terrifying Howl (Hound Only). One creature that can hear the hound must make a Wisdom saving throw against your spell save DC. On a failure, the target takes 10 ({@dice 3d6}) psychic damage and is {@condition frightened} of the hound until the end of the hound's next turn.",
-                        "On a success, the target takes half damage, isn't {@condition frightened}, and can't be affected by Terrifying Howl again for 1 minute.",
-                        "<<<ADD STAT BLOCK MANUALLY>>>"
-                    ]
-                }
+                "The summoned creature disappears when reduced to 0 hit points. If your concentration is broken before the spell ends, you lose control of the summoned creature, which becomes hostile and might attack you and your companions. An uncontrolled creature disappears at the end of the spell's maximum duration."
             ],
             "name": "Conjure Fey",
             "time": [
@@ -5483,7 +5452,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "For each slot level above 6th the fey creature's AC increases by 1, its hit points increase by 10, and when it deals damage with an attack it deals {@dice 1d4} extra damage."
+                        "For each slot level above 6th the fey creature's armour increases by 0.5 (rounded down), its hit points increase by 11, and when its damaging attacks deal {@dice 1d4} extra damage."
                     ]
                 }
             ],
@@ -5498,12 +5467,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "nature",
-                "summoning"
+                "summoning",
+                "minion"
             ],
             "level": 6,
             "components": {
@@ -5867,7 +5836,7 @@
             "school": "V",
             "entries": [
                 "As part of this spell, cast a spell of 5th-level or lower that has a casting time of 1 action, expending spell slots for both. The second spell must target you, and doesn't target others even if it normally would.",
-                "Describe the circumstances under which the second spell should be cast. It is automatically triggered the first time these circumstances are met. This spell ends when the second spell is triggered, when you cast contingency again, or if the material component for it is not on your person. For example, when you cast contingency with blur as a second spell you might make the trigger be when you see a creature target you with a weapon attack, or you might make it be when you make a weapon attack against a creature, or you could choose for it to be when you see an ally make a weapon attack against a creature."
+                "Describe the circumstances under which the second spell should be cast. It is automatically triggered the first time these circumstances are met. This spell ends when the second spell is triggered, when you cast contingency again, or if the material component for it is not on your person. For example, when you cast contingency with {@spell blur|sns} as a second spell you might make the trigger be when a creature targets you with an armour attack, or you might make it be when you make an attack against a creature, or you could choose for it to be when you see an ally make an attack against a creature."
             ],
             "name": "Contingency",
             "time": [
@@ -5886,8 +5855,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "time"
@@ -6541,7 +6509,7 @@
                         "Up to three corpses of Medium or Small humanoids"
                     ]
                 },
-                "This spell cannot be cast in sunlight. You reanimate the targets as undead and transform them into ghouls under your control.",
+                "This spell cannot be cast in sunlight. You reanimate the targets as undead and transform them into {@creature ghouls} under your control.",
                 "While it is within 120 feet you can use a bonus action to mentally command the undead. When you command multiple undead using this spell, you must give them all the same command. You may decide the action the undead takes and where it moves during its next turn, or you can issue a general command, such as guarding an area. If not given a command, the undead only defends itself. The undead continues to follow a command until its task is complete.",
                 "The undead is under your control for 24 hours, after which it stops obeying any commands. You must cast this spell on the undead before the spell ends to maintain control of it for another 24 hours.",
                 "Casting the spell in this way reasserts control over up to 3 undead you have animated with this spell, rather than animating a new one."
@@ -6558,7 +6526,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "You create or reassert control over one additional ghoul for each slot level above 6th. Alternatively, when using an 8th-level spell slot you create or reassert control over 2 ghasts or wights, or when using a 9th-level spell slot you create or reassert control over 3 ghasts or wights, or 2 mummies. When commanding more than 3 undead they make group attack rolls (see page 454 in Chapter 8: Combat)."
+                        "You create or reassert control over one additional ghoul for each slot level above 6th. Alternatively, when using an 8th-level spell slot you create or reassert control over 2 {@creature ghast||ghasts} or {@creature wight||wights}, or when using a 9th-level spell slot you create or reassert control over 3 ghasts or wights, or 2 {@creature mummy||mummies}."
                     ]
                 }
             ],
@@ -6567,8 +6535,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
@@ -7973,15 +7940,8 @@
                         "One creature, object, or creation of magical force"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity negates"
-                    ]
-                },
                 "A pale ray emanates from your pointed finger to the target as you attempt to undo it.",
-                "The target takes {@dice 10d6} + 40 force damage. A creature reduced to 0 hit points is obliterated, leaving behind nothing but fine dust, along with anything it was wearing or carrying (except magic items). Only true resurrection or a wish spell can restore it to life.",
+                "Make a reflex attack against the target that deals {@dice 10d6} + 40 force damage. A creature reduced to 0 hit points is obliterated, leaving behind nothing but fine dust, along with anything it was wearing or carrying (except magic items).",
                 "This spell automatically disintegrates nonmagical objects and creations of magical force that are Large-sized or smaller.",
                 "Larger objects and creations of magical force have a 10-foot-cube portion disintegrated instead.",
                 "Magic items are unaffected."
@@ -8007,12 +7967,14 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "attack",
-                "transformation"
+                "transformation",
+                "force",
+                "spell",
+                "ranged"
             ],
             "level": 6,
             "components": {
@@ -9747,24 +9709,67 @@
         {
             "school": "N",
             "entries": [
+                "Your eyes become an inky void imbued with fell power. Make a will attack against one creature of your choice within 60 feet of you with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom (special)"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "THe target has disadvantage on attack rolls for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is afflicted by one the effects described below for the duration."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but you can choose two of the effects."
+                            ]
+                        }
                     ]
                 },
-                "Your eyes become an inky void imbued with fell power. One creature of your choice within 60 feet of you that you can see and that can see you must succeed on a Wisdom saving throw or be afflicted by one of the following effects for the duration.",
-                "Until the spell ends, on each of your turns you can use an action to target a creature that has not already succeeded on a saving throw against this casting of eyebite.",
-                "Asleep: The target falls {@condition unconscious}, waking if it takes any damage or another creature uses an action to rouse it.",
-                "Panicked: The target is {@condition frightened} of you. On each of its turns, the {@condition frightened} creature uses its action to take the Dash action and move away from you by the safest and shortest available route unless there is nowhere for it to move.",
-                "If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.",
-                "Sickened: The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another Wisdom saving throw, ending this effect on a successful save.",
+                "Until the spell ends, on each of your turns you can use an action to target a creature that this casting of eyebite has not already scored a minor success or lower against.",
+                "Effect options:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Asleep",
+                            "entries": [
+                                "The target falls {@condition unconscious|sns}, waking if it takes any damage or another creature uses an action to rouse it."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Panicked",
+                            "entries": [
+                                "The target is {@condition frightened|sns}. On each of its turns, the {@condition frightened|sns} creature uses its full movement to move away from you by the safest and shortest available route unless there is nowhere for it to move.",
+                                "If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Sickened",
+                            "entries": [
+                                "The target has disadvantage on armour attack rolls and ability checks. It can end this effect by passing a passive save."
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Beshela's Devious Eyebite. Your eyes glow with a soft purple light. You gain an additional option: {@condition Charmed}. The target is {@condition charmed} by you. On each of its turns while it is {@condition charmed}, you may beckon it (no action required) to force the target to move closer to you by the shortest, safest route."
+                        "Beshela's Devious Eyebite. Your eyes glow with a soft purple light. You gain an additional option: The target is {@condition charmed|sns}. On each of its turns while it is {@condition charmed|sns}, you may beckon it (no action required) to force the target to move closer to you by the shortest, safest route."
                     ]
                 }
             ],
@@ -9786,12 +9791,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
                 "arcane",
-                "fear"
+                "fear",
+                "ranged"
             ],
             "level": 6,
             "components": {
@@ -10529,8 +10534,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "nature",
@@ -11259,96 +11263,6 @@
             }
         },
         {
-            "school": "T",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature of flesh and blood"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution (special)"
-                    ]
-                },
-                "The target becomes {@condition restrained} as it begins to turn to stone. On a successful saving throw, the target is instead {@condition slowed|LevelUp} until the end of its next turn and the spell ends.",
-                "A creature {@condition restrained} by this spell makes a second saving throw at the end of its turn. On a success, the spell ends. On a failure, the target is {@condition petrified} for the duration. If you maintain concentration for the maximum duration of the spell, this petrification is permanent.",
-                "Any pieces removed from a {@condition petrified} creature are missing when the petrification ends.",
-                {
-                    "type": "entries",
-                    "name": "Rare",
-                    "entries": [
-                        "Kasvarina's Punishing Flesh to Stone. When you permanently petrify a target, you can designate a trigger event within 60 feet of the statue which causes the petrification to end. Example trigger events include a creature touching the statue or a specific item, or a word or phrase being spoken."
-                    ]
-                }
-            ],
-            "name": "Flesh to Stone",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Cast at Higher Levels",
-                    "entries": [
-                        "Target one additional creature when you cast this spell with an 8th-level spell slot."
-                    ]
-                }
-            ],
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": false
-                    },
-                    "concentration": true
-                }
-            ],
-            "page": 497,
-            "source": "LevelUp",
-            "subschools": [
-                "arcane",
-                "earth",
-                "transformation"
-            ],
-            "level": 6,
-            "components": {
-                "s": true,
-                "m": {
-                    "text": "limestone"
-                }
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Warlock",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Wizard",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "savingThrow": [],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "amount": 60,
-                    "type": "feet"
-                }
-            }
-        },
-        {
             "school": "I",
             "entries": [
                 {
@@ -11669,7 +11583,7 @@
                 "You protect the target area against magical travel.",
                 "Creatures can't teleport into the area, use a magical portal to enter it, or travel into it from another plane of existence, such as the Astral or Ethereal Plane.",
                 "The spell's area can't overlap with another forbiddance spell.",
-                "The spell damages specific types of trespassing creatures. Choose one or more of celestials, elementals, fey, fiends, and undead. When a chosen creature first enters the area on a turn or starts its turn there, it takes {@dice 5d10} radiant or necrotic damage (your choice when you cast the spell). You may designate a password. A creature speaking this password as it enters takes no damage from the spell.",
+                "The spell damages specific types of trespassing creatures. Choose one or more of celestials, elementals, fey, fiends, and undead. The area is a persistent zone that deals {@dice 5d10} radiant or necrotic DoT damage (your choice when you cast the spell) against creatures of the chosen type. You may designate a password. A creature speaking this password as it enters takes no damage from the spell.",
                 "After casting this spell on the same area for 30 consecutive days it becomes permanent until dispelled. This final casting to make the spell permanent consumes its material components."
             ],
             "name": "Forbiddance",
@@ -11689,8 +11603,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "negation",
@@ -12150,14 +12063,7 @@
                         "60-foot radius sphere"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves"
-                    ]
-                },
-                "A freezing globe streaks to a point within range and explodes, dealing {@dice 10d6} cold damage to creatures in the area. Liquid in the area is frozen to a depth of 6 inches for 1 minute. Any creature caught in the ice can use an action to make a Strength check against your spell save DC to escape.",
+                "A freezing globe streaks to a point within range and explodes. Make a fortitude attack against each creature in the area that deals {@dice 6d12} cold damage. Liquid in the area is frozen to a depth of 6 inches for 1 minute. Any creature caught in the ice can use an action to make a Brawn check against your standard DC to escape.",
                 "Instead of firing the globe, you can hold it in your hand. If you handle it carefully, it won't explode until a minute after you cast the spell. At any time, you or another creature can strike the globe, throw it up to 60 feet, or use it as a slingstone, causing it to explode on impact."
             ],
             "name": "Freezing Sphere",
@@ -12172,7 +12078,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d6} for each slot level above 6th."
+                        "The damage increases by {@dice 1d12} for each slot level above 6th."
                     ]
                 }
             ],
@@ -12181,15 +12087,16 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
             "subschools": [
                 "arcane",
                 "cold",
-                "water"
+                "water",
+                "spell",
+                "area"
             ],
             "level": 6,
             "components": {
@@ -12771,8 +12678,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -13265,21 +13171,44 @@
                 "Each warded area has a maximum height of 20 feet and can be shaped. Several stories of a stronghold can be warded by dividing the area among them if you can walk from one to the next while the spell is being cast.",
                 "When cast, you can create a password that can make a creature immune to these effects when it is spoken aloud. You may also specify individuals that are unaffected by any or all of the effects that you choose.",
                 "Guards and wards creates the following effects within the area of the spell.",
-                "Corridors: Corridors are heavily obscured with fog. Additionally, creatures that choose between multiple passages or branches have a 50% chance to unknowingly choose a path other than the one they meant to choose.",
-                "Doors: Doors are magically locked as if by an arcane lock spell. Additionally, you may conceal up to 10 doors with an illusion as per the illusory object component of the minor illusion spell to make the doors appear as unadorned wall sections.",
-                "Stairs: Stairs are filled from top to bottom with webs as per the web spell. Until the spell ends, the webbing strands regrow 10 minutes after they are damaged or destroyed.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Corridors",
+                            "entries": [
+                                "Corridors are heavily obscured with fog. Additionally, creatures that choose between multiple passages or branches have a 50% chance to unknowingly choose a path other than the one they meant to choose."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Doors",
+                            "entries": [
+                                "Doors are magically locked as if by an {@spell arcane lock|sns} spell. Additionally, you may conceal up to 10 doors with an illusion as per the illusory object component of the {@spell minor illusion|sns} spell to make the doors appear as unadorned wall sections."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Stairs",
+                            "entries": [
+                                "Stairs are filled from top to bottom with webs as per the {@spell web|sns} spell. Until the spell ends, the webbing strands regrow 10 minutes after they are damaged or destroyed."
+                            ]
+                        }
+                    ]
+                },
                 "In addition, one of the following spell effects can be placed within the spell's area.",
                 {
                     "items": [
-                        "Dancing lights can be placed in 4 corridors and you can choose for them to repeat a simple sequence.",
-                        "Magic mouth spells can be placed in 2 locations.",
-                        "Stinking clouds can be placed in 2 locations. The clouds return after 10 minutes if dispersed while the spell remains.",
-                        "A gust of wind can be placed in a corridor or room.",
-                        "Pick a 5-foot square. Any creature that passes through it subjected to a suggestion spell, hearing the suggestion mentally."
+                        "{@spell Dancing lights|sns} can be placed in 4 corridors and you can choose for them to repeat a simple sequence.",
+                        "{@spell Magic mouth|sns} spells can be placed in 2 locations.",
+                        "{@spell stinking cloud|sns|Stinking clouds} can be placed in 2 locations. The clouds return after 10 minutes if dispersed while the spell remains.",
+                        "A {@spell gust of wind|sns} can be placed in a corridor or room.",
+                        "Pick a 5-foot square. Any creature that passes through it subjected to a {@spell suggestion|sns} spell, hearing the suggestion mentally."
                     ],
                     "type": "list"
                 },
-                "The entirety of the warded area radiates as magic. Each effect must be targeted by separate dispel magic spells to be removed.",
+                "The entirety of the warded area radiates as magic. Each effect must be targeted by separate {@spell dispel magic|sns} spells to be removed.",
                 "The spell can be made permanent by recasting the spell every day for a year."
             ],
             "name": "Guards and Wards",
@@ -13299,8 +13228,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "protection"
@@ -30059,6 +29987,64 @@
                     "type": "self"
                 }
             }
+        },
+        {
+            "school": "C",
+            "entries": [
+                "You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.",
+                "The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.",
+                "Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction."
+            ],
+            "name": "Arcane Gate",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "teleportation"
+            ],
+            "level": 6,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 500
+                }
+            }
         }
     ],
     "monster": [
@@ -30484,6 +30470,135 @@
                     "name": "Slam",
                     "entries": [
                         "{@atk mw} reach 5 ft., one target. 26 ({@damage 4d8 + 8}) bludgeoning damage (or fire damage for a Fire elemental) plus extra damage equal to spell slot level."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fey Creature",
+            "source": "sns",
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "fey",
+                "tags": [
+                    "hag, hound, or redcap"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": {
+                "ac": 1,
+                "from": [
+                    "natural armor"
+                ]
+            },
+            "hp": {
+                "special": "67"
+            },
+            "speed": {
+                "walk": {
+                    "number": 30,
+                    "condition": "(or 40 ft. for Hound)"
+                }
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 16,
+            "save": {
+                "str": "+2",
+                "dex": "+3",
+                "wis": "+3"
+            },
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning, piercing, and slashing damage"
+                    ],
+                    "note": "from attacks not made with silvered weapons",
+                    "cond": "true"
+                }
+            ],
+            "conditionImmune": [
+                "charmed|sns"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "languages": [
+                "common",
+                "sylvan"
+            ],
+            "trait": [
+                {
+                    "name": "—MAJOR EFFECTS—",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "The target's armour is reduced by 1 for 1 round."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} reach 5 ft., one target. 9 ({@damage 2d6 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Baleful Curse (Hag Only)",
+                    "entries": [
+                        "The hag selects one creature it can see. It makes a will attack against the creature with the following outcomes:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Minor success",
+                                    "entries": [
+                                        "The target has disadvantage on ability checks for 1 round."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Standard success",
+                                    "entries": [
+                                        "The target is cursed for 1 minute or until it passes a passive save. While cursed, the creature has disadvantage on ability checks and armour attack rolls. A {@spell remove curse|sns} spell ends the effect."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Critical success",
+                                    "entries": [
+                                        "As standard success, but the target has disadvantage on all attack rolls."
+                                    ]
+                                }
+                            ]
+                        },
+                        "Once the hag has targeted a creature with Baleful Curse, it can't do so again for 1 minute."
+                    ]
+                },
+                {
+                    "name": "Bloodletting Sickle (Redcap Only)",
+                    "entries": [
+                        "{@atk mw} reach 5 ft., one target. 7 ({@damage 2d4 + 2}) slashing damage. If the target is a creature other than an undead or construct and the attack scores a major success, the target takes 5 ({@dice 2d4}) ongoing slashing damage due to a bleeding wound.",
+                        "Each time the redcap hits the wounded target with this attack, the ongoing damage dealt by the wound increases by 5 ({@dice 2d4}). Any creature can take an action to staunch the wound with a successful {@dc 12} Medicine check. The wound also closes if the target receives magical healing."
+                    ]
+                },
+                {
+                    "name": "Terrifying Howl (Hound Only)",
+                    "entries": [
+                        "The hound makes a will attack against one creature that can hear it that deals {@dice 2d10} psychic damage. On a hit, the target is {@condition frightened|sns} until the end of the hound's next turn. If the attack fails to hit, the target can't be affected by Terrifying Howl again for 1 minute."
                     ]
                 }
             ]
