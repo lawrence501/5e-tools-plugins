@@ -1332,14 +1332,50 @@
                         "10-foot radius sphere"
                     ]
                 },
-                "An {@condition invisible} sphere of antimagic forms around you, moving with you and suppressing all magical effects within it. At the Narrator's discretion, sufficiently powerful artifacts and deities may be able to ignore the sphere's effects.",
-                "Area Suppression: When a magical effect protrudes into the sphere, that part of the effect's area is suppressed. For example, the ice created by a wall of ice is suppressed within the sphere, creating a gap in the wall if the overlap is large enough.",
-                "Creatures and Objects: While within the sphere, any creatures or objects created or conjured by magic temporarily wink out of existence, reappearing immediately once the space they occupied is no longer within the sphere.",
-                "Dispel Magic: The sphere is immune to dispel magic and similar magical effects, including other antimagic field spells.",
-                "Magic Items: While within the sphere, magic items function as if they were mundane objects.",
-                "Magic weapons and ammunition cease to be suppressed when they fully leave the sphere.",
-                "Magical Travel: Whether the sphere includes a destination or departure point, any planar travel or teleportation within it automatically fails. Until the spell ends or the sphere moves, magical portals and extradimensional spaces (such as that created by a bag of holding) within the sphere are closed.",
-                "Spells: Any spell cast within the sphere or at a target within the sphere is suppressed and the spell slot is consumed. Active spells and magical effects are also suppressed within the sphere. If a spell or magical effect has a duration, time spent suppressed counts against it.",
+                "An {@condition invisible} sphere of antimagic forms around you, moving with you and suppressing all magical effects within it. At the DM's discretion, sufficiently powerful artifacts and deities may be able to ignore the sphere's effects.",
+                {
+                    "type": "entries",
+                    "name": "Area Suppression",
+                    "entries": [
+                        "When a magical effect protrudes into the sphere, that part of the effect's area is suppressed. For example, the ice created by a {@spell wall of ice|sns} is suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Creatures and Objects",
+                    "entries": [
+                        "While within the sphere, any creatures or objects created or conjured by magic temporarily wink out of existence, reappearing immediately once the space they occupied is no longer within the sphere."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dispel Magic",
+                    "entries": [
+                        "The sphere is immune to {@spell dispel magic|sns} and similar magical effects, including other antimagic field spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Magic Items",
+                    "entries": [
+                        "While within the sphere, magic items function as if they were mundane objects.",
+                        "Magic weapons and ammunition cease to be suppressed when they fully leave the sphere."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Magical Travel",
+                    "entries": [
+                        "Whether the sphere includes a destination or departure point, any planar travel or teleportation within it automatically fails. Until the spell ends or the sphere moves, magical portals and extradimensional spaces (such as that created by a bag of holding) within the sphere are closed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spells",
+                    "entries": [
+                        "Any spell cast within the sphere or at a target within the sphere is suppressed and the spell slot is consumed. Active spells and magical effects are also suppressed within the sphere. If a spell or magical effect has a duration, time spent suppressed counts against it."
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -1351,7 +1387,7 @@
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Stekart's Steadfast Antimagic Field. Creatures that are within the area when the spell is cast gain temporary hit points equal to your level.",
+                        "Stekart's Steadfast Antimagic Field. Creatures that are within the area when the spell is cast gain temporary hit points equal to your level plus your proficiency bonus.",
                         "These temporary hit points last while they are within the spell's area."
                     ]
                 }
@@ -1374,8 +1410,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -1422,23 +1457,33 @@
                         "Huge or smaller object, creature, or 200-foot cube"
                     ]
                 },
+                "You mystically impart great love or hatred for a place, thing, or creature. Designate a kind of intelligent creature, such as dragons, goblins, or vampires. The target now causes either antipathy or sympathy for the specified creatures for the duration of the spell. When a designated creature successfully saves against the effects of this spell, it immediately understands it was under a magical effect and is immune to this spell's effects for 1 minute.",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom (special)"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Antipathy",
+                            "entries": [
+                                "When a designated creature can see the target or comes within 60 feet of it, the creature makes a save, becoming {@condition frightened|sns} of the target on a fail. While {@condition frightened|sns} the creature must use half its movement to move away from the target to the nearest safe spot from which it can no longer see the target. If the creature moves more than 60 feet from the target and can no longer see it, the creature is no longer {@condition frightened|sns}, but the creature becomes {@condition frightened|sns} again if it regains sight of the target or moves within 60 feet of it."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Sympathy",
+                            "entries": [
+                                "When a designated creature can see the target or comes within 60 feet of it, the creature must succeed on a save. On a fail, the creature uses half its movement on each of its turns to enter the area or move within reach of the target, and is unwilling to move away from the target."
+                            ]
+                        }
                     ]
                 },
-                "You mystically impart great love or hatred for a place, thing, or creature. Designate a kind of intelligent creature, such as dragons, goblins, or vampires. The target now causes either antipathy or sympathy for the specified creatures for the duration of the spell. When a designated creature successfully saves against the effects of this spell, it immediately understands it was under a magical effect and is immune to this spell's effects for 1 minute.",
-                "Antipathy: When a designated creature can see the target or comes within 60 feet of it, the creature makes a Wisdom saving throw or becomes {@condition frightened}. While {@condition frightened} the creature must use its movement to move away from the target to the nearest safe spot from which it can no longer see the target. If the creature moves more than 60 feet from the target and can no longer see it, the creature is no longer {@condition frightened}, but the creature becomes {@condition frightened} again if it regains sight of the target or moves within 60 feet of it.",
-                "Sympathy: When a designated creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw. On a failure, the creature uses its movement on each of its turns to enter the area or move within reach of the target, and is unwilling to move away from the target.",
-                "If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect.",
-                "An affected creature can also make a saving throw once every 24 hours while within the area of the spell, and whenever it ends its turn more than 60 feet from the target and is unable to see the target.",
+                "If the target damages or otherwise harms an affected creature, the affected creature can make a save to end the effect.",
+                "An affected creature can also make a save to end the effect once every 24 hours while within the area of the spell, and whenever it ends its turn more than 60 feet from the target and is unable to see the target.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Roav's Fiendish Antipathy/Sympathy. A fiend has disadvantage on its first saving throw against an effect caused by this spell."
+                        "Roav's Fiendish Antipathy/Sympathy. A fiend has disadvantage on its first save against an effect caused by this spell."
                     ]
                 }
             ],
@@ -1459,8 +1504,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "compulsion"
             ],
@@ -6135,114 +6179,8 @@
                     ],
                     "type": "entries"
                 },
-                "You must be outdoors to cast this spell, and it ends early if you don't have a clear path to the sky.",
-                "Until the spell ends, you change the weather conditions in the area from what is normal for the current climate and season. Choose to increase or decrease each weather condition (precipitation, temperature, and wind) up or down by one stage on the following tables. Whenever you change the wind, you can also change its direction. The new conditions take effect after 1d4 × 10 minutes, at which point you can change the conditions again. The weather gradually returns to normal when the spell ends.",
-                {
-                    "type": "table",
-                    "rows": [
-                        [
-                            "1",
-                            "Clear"
-                        ],
-                        [
-                            "2",
-                            "Light clouds"
-                        ],
-                        [
-                            "3",
-                            "Overcast or ground fog"
-                        ],
-                        [
-                            "4",
-                            "Rain, hail, or snow"
-                        ],
-                        [
-                            "5",
-                            "Torrential rain, driving hail, or blizzard"
-                        ]
-                    ],
-                    "colStyles": [
-                        "col-1 text-center",
-                        "col-11"
-                    ],
-                    "colLabels": [
-                        "Stage",
-                        "Condition"
-                    ],
-                    "caption": "Precipitation"
-                },
-                {
-                    "type": "table",
-                    "rows": [
-                        [
-                            "1",
-                            "Extreme heat"
-                        ],
-                        [
-                            "2",
-                            "Hot"
-                        ],
-                        [
-                            "3",
-                            "Warm"
-                        ],
-                        [
-                            "4",
-                            "Cool"
-                        ],
-                        [
-                            "5",
-                            "Cold"
-                        ],
-                        [
-                            "6",
-                            "Extreme cold"
-                        ]
-                    ],
-                    "colStyles": [
-                        "col-1 text-center",
-                        "col-11"
-                    ],
-                    "colLabels": [
-                        "Stage",
-                        "Condition"
-                    ],
-                    "caption": "Temperature"
-                },
-                {
-                    "type": "table",
-                    "rows": [
-                        [
-                            "1",
-                            "Calm"
-                        ],
-                        [
-                            "2",
-                            "Moderate wind"
-                        ],
-                        [
-                            "3",
-                            "Strong wind"
-                        ],
-                        [
-                            "4",
-                            "Gale"
-                        ],
-                        [
-                            "5",
-                            "Storm"
-                        ]
-                    ],
-                    "colStyles": [
-                        "col-1 text-center",
-                        "col-11"
-                    ],
-                    "colLabels": [
-                        "Stage",
-                        "Condition"
-                    ],
-                    "caption": "Wind"
-                }
+                "You must be on a journey affected by weather to cast this spell.",
+                "Until the spell ends, you change the weather conditions in the area from what is normal for the current climate and season. The area's weather is rolled twice, and you can choose between either result. After each activity on a journey, you can reroll the weather again. The weather gradually returns to normal when the spell ends."
             ],
             "name": "Control Weather",
             "time": [
@@ -6262,8 +6200,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "arcane",
@@ -7507,8 +7444,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "planar"
@@ -8563,14 +8499,7 @@
                         "One creature"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
-                    ]
-                },
-                "As dominate beast but you may target any creature."
+                "As {@spell dominate beast|sns} but you may target any creature."
             ],
             "name": "Dominate Monster",
             "time": [
@@ -8599,11 +8528,11 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
-                "compulsion"
+                "compulsion",
+                "ranged"
             ],
             "level": 8,
             "components": {
@@ -9027,18 +8956,35 @@
                 "You create a seismic disturbance in the spell's area.",
                 "Until the spell ends, an intense tremor rips through the ground and shakes anything in contact with it.",
                 "The ground in the spell's area becomes difficult terrain as it warps and cracks.",
-                "When you cast this spell and at the end of each turn you spend concentrating on it, each creature in contact with the ground in the spell's area must make a Dexterity saving throw or be knocked {@condition prone}.",
-                "Additionally, any creature that is concentrating on a spell while in contact with the ground in the spell's area must make a Constitution saving throw or lose concentration.",
-                "At the Narrator's discretion, this spell may have additional effects depending on the terrain in the area.",
-                "Fissures: Fissures open within the spell's area at the start of your next turn after you cast the spell. A total of {@dice 1d6} such fissures open in locations you choose. Each is {@dice 1d10} × 10 feet deep, 10 feet wide, and extends from one edge of the spell's area to the opposite side. A creature standing on a spot where a fissure opens makes a Dexterity saving throw or falls in. On a successful save, a creature moves with the fissure's edge as it opens.",
-                "A structure automatically collapses if a fissure opens beneath it (see below).",
-                "Structures: A structure in contact with the ground in the spell's area takes 50 bludgeoning damage when you cast the spell and again at the start of each of your turns while the spell is active. A structure reduced to 0 hit points this way collapses.",
-                "Creatures within half the distance of a collapsing structure's height make a Dexterity saving throw or take {@dice 5d6} bludgeoning damage, are knocked {@condition prone}, and are buried in the rubble, requiring a DC 20 Acrobatics or Athletics check as an action to escape. A creature inside (instead of near) a collapsing structure has disadvantage on its saving throw. The Narrator can adjust the DC higher or lower depending on the composition of the rubble. On a successful save, the creature takes half as much damage and doesn't fall {@condition prone} or become buried.",
+                "When you cast this spell and at the end of each turn you spend concentrating on it, each creature in contact with the ground in the spell's area must make a save or be knocked {@condition prone|sns}.",
+                "Additionally, any creature that is concentrating on a spell while in contact with the ground in the spell's area must make a save or lose concentration.",
+                "At the DM's discretion, this spell may have additional effects depending on the terrain in the area.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Fissures",
+                            "entries": [
+                                "Fissures open within the spell's area at the start of your next turn after you cast the spell. A total of {@dice 1d6} such fissures open in locations you choose. Each is {@dice 1d10} x 10 feet deep, 10 feet wide, and extends from one edge of the spell's area to the opposite side. A creature standing on a spot where a fissure opens makes a save, falling in on a fail. On a successful save, a creature moves with the fissure's edge as it opens.",
+                                "A structure automatically collapses if a fissure opens beneath it (see below)."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Structures",
+                            "entries": [
+                                "A structure in contact with the ground in the spell's area takes 50 bludgeoning DoT damage when you cast the spell and again at the start of each of your turns while the spell is active. A structure reduced to 0 hit points this way collapses.",
+                                "Creatures within half the distance of a collapsing structure's height must pass a save or take {@dice 5d6} bludgeoning DoT damage, be knocked {@condition prone|sns}, and be buried in the rubble, requiring a DC 20 Acrobatics or Athletics check as an action to escape. A creature inside (instead of near) a collapsing structure has disadvantage on its save. The DM can adjust the DC higher or lower depending on the composition of the rubble. On a successful save, the creature takes half as much damage and doesn't fall {@condition prone|sns} or become buried."
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Soliogn's Tempestuous Earthquake. The spell fills the area with violent winds. A flying creature halves its speed while in the area and makes a Dexterity saving throw at the start of each of its turns or falls {@condition prone}."
+                        "Soliogn's Tempestuous Earthquake. The spell fills the area with violent winds. A flying creature halves its speed while in the area and makes a save at the start of each of its turns, falling {@condition prone|sns} on a fail."
                     ]
                 }
             ],
@@ -9060,8 +9006,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "R"
             ],
@@ -9070,7 +9015,8 @@
 	          ],
             "subschools": [
                 "earth",
-                "terrain"
+                "terrain",
+                "bludgeoning"
             ],
             "level": 8,
             "components": {
@@ -10417,17 +10363,36 @@
                         "One creature"
                     ]
                 },
+                "You blast the target's mind, attempting to crush its intellect and sense of self. The target takes {@dice 4d6} psychic DoT damage.",
+                "Then, make a will attack against the target with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Intelligence (special)"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target has disadvantage on spell attacks for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Until the spell ends the target's Intelligence and Charisma scores are both reduced to 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way, but it is still able to recognise, follow, and even protect its allies."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target's Wisdom score is also reduced to 1."
+                            ]
+                        }
                     ]
                 },
-                "You blast the target's mind, attempting to crush its intellect and sense of self. The target takes {@dice 4d6} psychic damage.",
-                "On a failed save, until the spell ends the creature's Intelligence and Charisma scores are both reduced to 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way, but it is still able to recognize, follow, and even protect its allies.",
-                "At the end of every 30 days, the creature can repeat its saving throw against this spell, ending it on a success.",
-                "Greater restoration, heal, or wish can also be used to end the spell."
+                "At the end of every 30 days, the creature can make a save against this spell, ending it on a success.",
+                "{@spell Greater restoration|sns}, {@spell heal|sns}, or {@spell wish|sns} can also be used to end the spell."
             ],
             "name": "Feeblemind",
             "time": [
@@ -10441,15 +10406,16 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
 		        "damageInflict": [
 			        "psychic"
 		        ],
             "subschools": [
                 "affliction",
                 "arcane",
-                "psychic"
+                "psychic",
+                "dot",
+                "ranged"
             ],
             "level": 8,
             "components": {
@@ -12738,8 +12704,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "communication",
                 "enhancement",
@@ -14168,11 +14133,10 @@
         {
             "school": "N",
             "entries": [
-                "You magically replace your heart with one forged on the second layer of Hell. While the spell lasts, you are immune to fear and can't be {@condition poisoned}, and you are immune to fire and poison damage. You gain resistance to cold damage, as well as to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered. You have advantage on saving throws against spells and other magical effects. Finally, while you are conscious, any creature hostile to you that starts its turn within 20 feet of you must make a Wisdom saving throw.",
-                "On a failed save, the creature is {@condition frightened} of you until the start of your next turn. On a success, the creature is immune to the effect for 24 hours.",
+                "You magically replace your heart with one forged on the second layer of Hell. While the spell lasts, you are immune to fear and can't be {@condition poisoned|sns}, and you are immune to fire and poison damage. You gain 50% resistance to cold damage, as well as to bludgeoning, piercing, and slashing damage from weapons that aren't silvered. Non-armour spell attacks have disadvantage against you. Finally, while you are conscious, any creature hostile to you that starts its turn within 20 feet of you must make a save.",
+                "On a failed save, the creature is {@condition frightened|sns} of you until the start of your next turn. On a success, the creature is immune to the effect for 24 hours.",
                 "Casting this spell magically transports your mortal heart to the lair of one of the lords of Hell.",
                 "The heart returns to your body when the spell ends.",
-                "If you die while under the effects of this spell, you can't be brought back to life until your original heart is retrieved.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -14198,8 +14162,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement",
                 "evil",
@@ -14808,7 +14771,7 @@
                         "30-foot radius"
                     ]
                 },
-                "Holy radiance emanates from you and fills the area. Targets shed dim light in a 5-foot radius and have advantage on saving throws. Attacks made against a target have disadvantage. When a fiend or undead hits a target, the aura erupts into blinding light, forcing the attacker to make a Constitution saving throw or be {@condition blinded} until the spell ends."
+                "Holy radiance emanates from you and fills the area. Targets shed dim light in a 5-foot radius and attacks against them have disadvantage. When a fiend or undead hits a target with an armour attack, the aura erupts into blinding light, forcing the attacker to make a save, becoming {@condition blinded|sns} until the spell ends on a fail."
             ],
             "name": "Holy Aura",
             "time": [
@@ -14828,8 +14791,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "subschools": [
                 "divine",
