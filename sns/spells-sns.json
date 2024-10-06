@@ -705,7 +705,7 @@
                         "One non-celestial creature"
                     ]
                 },
-                "The target is bombarded with a fraction of energy stolen from some slumbering, deific source, immediately taking 40 radiant damage. This spell ignores resistances but does not ignore immunities. A creature killed by this spell does not decay and cannot become undead for the spell's duration. Days spent under the influence of this spell don't count against the time limit of spells such as raise dead. This effect ends early if the corpse takes necrotic damage."
+                "The target is bombarded with a fraction of energy stolen from some slumbering, deific source, immediately taking 40 radiant DoT damage. This spell ignores resistances but does not ignore immunities. A creature killed by this spell does not decay and cannot become undead for the spell's duration. Days spent under the influence of this spell don't count against the time limit of spells such as raise dead. This effect ends early if the corpse takes necrotic damage."
             ],
             "name": "Angel Paradox",
             "time": [
@@ -733,14 +733,14 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "damageInflict": [
               "radiant"
             ],
             "subschools": [
                 "radiant",
-                "undead"
+                "undead",
+                "dot"
             ],
             "level": 7,
             "components": {
@@ -1884,13 +1884,13 @@
             "school": "V",
             "entries": [
                 "You summon an insubstantial yet deadly sword to do your bidding.",
-                "Make a melee spell attack against a target of your choice within 5 feet of the sword, dealing {@dice 3d10} force damage on a hit.",
-                "Until the spell ends, you can use a bonus action on subsequent turns to move the sword up to 20 feet to a space you can see and make an identical melee spell attack against a target.",
+                "A target of your choice adjacent to the sword takes {@dice 3d8} force DoT damage.",
+                "Until the spell ends, you can use a bonus action on subsequent turns to move the sword up to 20 feet to a space you can see and deal the damage again to a similar target.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Bloody Arcane Sword. The spell's damage is reduced to {@dice 3d6} and when a creature is damaged by the spell it makes a Constitution saving throw or it suffers a level of fatigue."
+                        "Kreven's Bloody Arcane Sword. The spell's damage is reduced to {@dice 4d4} and when a creature is damaged by the spell it makes a save or it suffers a level of {@condition fatigue|sns}."
                     ]
                 }
             ],
@@ -1912,8 +1912,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "damageInflict": [
               "force"
             ],
@@ -1922,7 +1921,8 @@
                 "attack",
                 "force",
                 "summoning",
-                "weaponry"
+                "weaponry",
+                "dot"
             ],
             "level": 7,
             "components": {
@@ -5366,19 +5366,10 @@
             "school": "C",
             "entries": [
                 "You summon a creature from the realms celestial.",
-                "This creature uses the statistics of a celestial creature (detailed below) with certain traits determined by your choice of its type: an angel of battle, angel of protection, or angel of vengeance.",
-                "The creature is friendly to you and your companions and takes its turn immediately after yours.",
+                "This creature uses the statistics of a {@creature celestial creature|sns} (detailed below) with certain traits determined by your choice of its type: an angel of battle, angel of protection, or angel of vengeance.",
+                "The creature is friendly to you and your companions.",
                 "It obeys your verbal commands. Without such commands, the creature only defends itself.",
-                "The creature disappears when reduced to 0 hit points. If your concentration is broken before the spell ends, you lose control of the celestial creature, which becomes hostile and might attack you and your companions. An uncontrolled creature disappears 1 hour after you summoned it.",
-                {
-                    "type": "entries",
-                    "name": "Rare",
-                    "entries": [
-                        "Leska's Rapid Conjure Celestial. When you use rapid summoning to cast this spell, after the casting is complete it does not require your concentration.",
-                        "CELESTIAL CREATURE LARGE CELESTIAL (ANGEL OF BATTLE, ANGEL OF PROTECTION, OR ANGEL OF VENGEANCE) Armor Class 18 (natural armor); or 20 (angel of protection only) Hit Points 60 Speed 30 ft., fly 40 ft. STR DEX CON INT WIS CHA 18 (+4) 14 (+2) 16 (+3) 10 (+0) 14 (+2) 18 (+4) Damage Resistances radiant, necrotic Condition Immunities {@condition charmed}, {@condition frightened} Senses darkvision 60 ft., passive Perception 12 Languages Celestial, Common Challenge —; Proficiency your proficiency bonus",
-                        "<<<ADD STAT BLOCK MANUALLY>>>"
-                    ]
-                }
+                "The creature disappears when reduced to 0 hit points. If your concentration is broken before the spell ends, you lose control of the celestial creature, which becomes hostile and might attack you and your companions. An uncontrolled creature disappears 1 hour after you summoned it."
             ],
             "name": "Conjure Celestial",
             "time": [
@@ -5392,7 +5383,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "For each slot level above 7th the celestial creature's AC increases by 1, its hit points increase by 10, and when it deals damage with an attack it deals {@dice 1d4} extra damage."
+                        "For each slot level above 7th the celestial creature's armour increases by 0.5 (rounded down), its hit points increase by 11, and its damaging attacks deal {@dice 1d4} extra damage."
                     ]
                 }
             ],
@@ -5407,12 +5398,12 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "good",
-                "summoning"
+                "summoning",
+                "minion"
             ],
             "level": 7,
             "components": {
@@ -7413,15 +7404,8 @@
                         "20-foot radius sphere"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
-                "A glowing bead of yellow light flies from your finger and lingers at a point at the center of the area until you end the spell— either because your concentration is broken or because you choose to end it— and the bead detonates. Each creature in the area takes {@dice 12d6} fire damage. If at the end of your turn the bead has not yet detonated, the damage increases by {@dice 1d6}.",
-                "If touched before the spell ends, the creature touching the bead makes a Dexterity saving throw or the bead detonates. On a successful save, the creature can use an action to throw the bead up to 40 feet, moving the area with it. If the bead strikes a creature or solid object, the bead detonates.",
+                "A glowing bead of yellow light flies from your finger and lingers at a point at the center of the area until you end the spell — either because your concentration is broken or because you choose to end it — and the bead detonates. Make a reflex attack against each creature in the area that deals {@dice 7d12} fire damage. If at the end of your turn the bead has not yet detonated, the damage increases by {@dice 1d12}.",
+                "If touched before the spell ends, the creature touching the bead makes a save or the bead detonates. On a successful save, the creature can use an action to throw the bead up to 40 feet, moving the area with it. If the bead strikes a creature or solid object, the bead detonates.",
                 "The fire spreads around corners, and it damages and ignites any flammable unattended objects in the area."
             ],
             "name": "Delayed Blast Fireball",
@@ -7436,7 +7420,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d6} for each slot level above 7th."
+                        "The damage increases by {@dice 1d12} for each slot level above 7th."
                     ]
                 }
             ],
@@ -7451,8 +7435,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -7461,7 +7444,9 @@
             ],
             "subschools": [
                 "arcane",
-                "fire"
+                "fire",
+                "area",
+                "spell"
             ],
             "level": 7,
             "components": {
@@ -8417,14 +8402,14 @@
                 "You utter a primordial imprecation that brings woe upon your enemies. A target suffers an effect based on its current hit points.",
                 {
                     "items": [
-                        "Fewer than 50 hit points: {@condition deafened} for 1 minute.",
-                        "Fewer than 40 hit points: {@condition blinded} and {@condition deafened} for 10 minutes.",
-                        "Fewer than 30 hit points: {@condition debilitated|LevelUp}, {@condition blinded}, and {@condition deafened} for 1 hour.",
+                        "Fewer than 50 hit points: {@condition deafened|sns} for 1 minute.",
+                        "Fewer than 40 hit points: {@condition blinded|sns} and {@condition deafened|sns} for 10 minutes.",
+                        "Fewer than 30 hit points: {@condition debilitated|sns}, {@condition blinded|sns}, and {@condition deafened|sns} for 1 hour.",
                         "Fewer than 20 hit points: instantly killed outright."
                     ],
                     "type": "list"
                 },
-                "Additionally, when a celestial, elemental, fey, or fiend is affected by this spell it is immediately forced back to its home plane and for 24 hours it is unable to return to your current plane by any means less powerful than a wish spell. Such a creature does not suffer this effect if it is already on its plane of origin.",
+                "Additionally, when a celestial, elemental, fey, or fiend is affected by this spell it is immediately forced back to its home plane and for 24 hours it is unable to return to your current plane by any means less powerful than a {@spell wish|sns} spell. Such a creature does not suffer this effect if it is already on its plane of origin.",
                 {
                     "name": "Rare",
                     "entries": [
@@ -8445,8 +8430,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
                 "divine"
@@ -9427,7 +9411,7 @@
                         "One artificial nonmagical structure with a foundation area of no more than 3,000 square feet."
                     ]
                 },
-                "You animate and enrage a target building that lashes out at its inhabitants and surroundings. As a bonus action you may command the target to open, close, lock, or unlock any nonmagical doors or windows, or to thrash about and attempt to crush its inhabitants. While the target is thrashing, any creature inside or within 30 feet of it must make a Dexterity saving throw, taking {@dice 2d10}+5 bludgeoning damage on a failed save or half as much on a successful one. When the spell ends, the target returns to its previous state, magically repairing any damage it sustained during the spell's duration."
+                "You animate and enrage a target building that lashes out at its inhabitants and surroundings. As a bonus action you may command the target to open, close, lock, or unlock any nonmagical doors or windows, or to thrash about and attempt to crush its inhabitants. While the target is thrashing, any creature inside or within 30 feet of it takes {@damage 1d10 + 5} bludgeoning DoT damage. When the spell ends, the target returns to its previous state, magically repairing any damage it sustained during the spell's duration."
             ],
             "name": "Enrage Architecture",
             "time": [
@@ -9447,14 +9431,15 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
 		        "damageInflict": [
 			        "bludgeoning"
 		        ],
             "subschools": [
                 "earth",
-                "terrain"
+                "terrain",
+                "dot",
+                "bludgeoning"
             ],
             "level": 7,
             "components": {
@@ -9681,7 +9666,7 @@
                 "While on the Ethereal Plane, you can move in any direction, but vertical movement is considered difficult terrain. You can see and hear the plane you originated from, but everything looks desaturated and you can see no further than 60 feet.",
                 "While on the Ethereal Plane, you can only affect and be affected by other creatures on that plane.",
                 "Creatures not on the Ethereal Plane can't perceive you unless some special ability or magic explicitly allows them to.",
-                "When the spell ends, you immediately return to the plane you originated from in the spot you currently occupy. If you occupy the same spot as a solid object or creature when this happens, you are immediately shunted to the nearest unoccupied space and you take force damage equal to twice the number of feet you are moved.",
+                "When the spell ends, you immediately return to the plane you originated from in the spot you currently occupy. If you occupy the same spot as a solid object or creature when this happens, you are immediately shunted to the nearest unoccupied space and you take force DoT damage equal to twice the number of feet you are moved.",
                 "The spell has no effect if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as an Outer Plane."
             ],
             "name": "Etherealness",
@@ -9710,8 +9695,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "movement",
                 "obscurement",
@@ -10757,20 +10741,13 @@
                         "One creature"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves"
-                    ]
-                },
-                "Negative energy wracks the target and deals {@dice 7d8} + 30 necrotic damage. A humanoid killed by this spell turns into a zombie at the start of your next turn. It is permanently under your control and follows your spoken commands.",
+                "Negative energy wracks the target. Make a fortitude attack against the target that deals {@dice 10d6} + 33 necrotic damage. A humanoid killed by this spell turns into a {@creature zombie} at the start of your next turn. It is permanently under your control and follows your spoken commands.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Cyneburg's Shadowed Finger of Death. This spell's duration is 1 hour. You can store the spell harmlessly on a willing creature, causing an inky stain to appear on its finger. That creature can touch or make an unarmed melee attack to deliver the spell to a target, triggering the damage on a hit.",
-                        "The spell ends on a hit or miss."
+                        "Cyneburg's Shadowed Finger of Death. This spell's duration is 1 hour. You can store the spell harmlessly on a willing creature, causing an inky stain to appear on its finger. That creature can make a melee weapon or spell armour attack to deliver the spell to a target, replacing its usual fortitude attack.",
+                        "The spell ends once the attack has been made."
                     ]
                 }
             ],
@@ -10786,7 +10763,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 2d8} for each slot level above 7th."
+                        "The damage increases by {@dice 3d6} for each slot level above 7th."
                     ]
                 }
             ],
@@ -10795,15 +10772,16 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
 		        "damageInflict": [
 			        "necrotic"
 		        ],
             "subschools": [
                 "arcane",
                 "necrotic",
-                "undead"
+                "undead",
+                "spell",
+                "ranged"
             ],
             "level": 7,
             "components": {
@@ -11093,19 +11071,12 @@
                         "Special"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
-                "Flames roar, dealing {@dice 7d10} fire damage to creatures and objects in the area and igniting unattended flammable objects. If you choose, plant life in the area is unaffected. This spell's area consists of a contiguous group of ten 10-foot cubes in an arrangement you choose, with each cube adjacent to at least one other cube.",
+                "Flames roar. Make an attack against each creature in the area that deals {@dice 10d8} fire damage. Objects in the area also take this damage and are ignited if unattended and flammable. If you choose, plant life in the area is unaffected. This spell's area consists of a contiguous group of ten 10-foot cubes in an arrangement you choose, with each cube adjacent to at least one other cube.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Stekart's Delayed Fire Storm. This spell has a duration of 10 minutes. The flames do not immediately appear when the spell is cast. If a Small or larger creature enters the area of the spell, the flames appear and deal damage, ending the spell."
+                        "Stekart's Delayed Fire Storm. This spell has a duration of 10 minutes. The flames do not immediately appear when the spell is cast. If a Small or larger creature enters the area of the spell, the flames appear and make the attack, ending the spell."
                     ]
                 }
             ],
@@ -11121,7 +11092,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage increases by {@dice 1d10} for each slot level above 7th."
+                        "The damage increases by {@dice 2d8} for each slot level above 7th."
                     ]
                 }
             ],
@@ -11130,8 +11101,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "damageInflict": [
               "fire"
@@ -11139,7 +11109,9 @@
             "subschools": [
                 "divine",
                 "fire",
-                "storm"
+                "storm",
+                "spell",
+                "area"
             ],
             "level": 7,
             "components": {
@@ -11792,14 +11764,14 @@
                     ]
                 },
                 "An opaque cube of banded force surrounds the area, preventing any matter or spells from passing through it, though creatures can breathe inside it.",
-                "Creatures that make a Dexterity saving throw and creatures that are only partially inside the area are pushed out of the area. Any other creature is trapped and can't leave by nonmagical means. The cage also traps creatures on the Ethereal Plane, and can only be destroyed by being dealt at least 25 force damage at once or by a dispel magic spell cast using an 8th-level or higher spell slot.",
-                "If a trapped creature tries to teleport or travel to another plane, it makes a Charisma saving throw.",
-                "On a failure, the attempt fails and the spell or effect is wasted.",
+                "Creatures that pass a save and creatures that are only partially inside the area are pushed out of the area. Any other creature is trapped and can't leave by nonmagical means. The cage also traps creatures on the Ethereal Plane, and can only be destroyed by being dealt at least 28 force damage at once or by a {@spell dispel magic|sns} spell cast using an 8th-level or higher spell slot.",
+                "If a trapped creature tries to teleport or travel to another plane, it makes a save.",
+                "On a fail, the attempt fails and the spell or effect is wasted.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Imprisoning Forcecage. The spell's duration is 1 day. You can pass in and out of the cage freely, and you can dispel it at any time. If you cast this spell on the same area for 3 consecutive days, it is permanent until dispelled. Each time you cast the spell, any imprisoned creature can repeat its Dexterity saving throw to escape."
+                        "Kreven's Imprisoning Forcecage. The spell's duration is 1 day. You can pass in and out of the cage freely, and you can dispel it at any time. If you cast this spell on the same area for 3 consecutive days, it is permanent until dispelled. Each time you cast the spell, any imprisoned creature can make a save to attempt to escape."
                     ]
                 }
             ],
@@ -11829,8 +11801,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
@@ -15391,8 +15362,8 @@
                         "One creature"
                     ]
                 },
-                "You infect your target with an arcane disease. At any time after you cast this spell, as long as you are on the same plane of existence as the target, you can use an action to deal {@dice 7d10} necrotic damage to the target. If this damage would reduce the target to 0 hit points, you can choose to leave it with 1 hit point.",
-                "As part of dealing the damage, you may expend a 7th-level spell slot to sustain the disease. Otherwise, the spell ends. The spell ends when you die. Casting remove curse, greater restoration, or heal on the target allows the target to make a Constitution saving throw against the disease. Otherwise the disease can only be cured by a wish spell."
+                "You infect your target with an arcane disease. At any time after you cast this spell, as long as you are on the same plane of existence as the target, you can use an action to deal {@dice 7d10} necrotic DoT damage to the target. If this damage would reduce the target to 0 hit points, you can choose to leave it with 1 hit point.",
+                "As part of dealing the damage, you may expend a 7th-level spell slot to sustain the disease. Otherwise, the spell ends. The spell ends when you die. Casting {@spell remove curse|sns}, {@spell greater restoration|sns}, or {@spell heal|sns} on the target allows the target to make a save, ending the disease on a success. Otherwise the disease can only be cured by a {@spell wish|sns} spell."
             ],
             "name": "Inescapable Malady",
             "time": [
@@ -15415,13 +15386,14 @@
                     "type": "special"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
 		        "damageInflict": [
 			        "necrotic"
 		        ],
             "subschools": [
-                "affliction"
+                "affliction",
+                "necrotic",
+                "dot"
             ],
             "level": 7,
             "components": {
@@ -17488,7 +17460,7 @@
             "entries": [
                 "You conjure an extradimensional residence within range. It has one entrance that is in a place of your choosing, has a faint luster to it, and is 5 feet wide and 10 feet tall. You and any designated creature may enter your mansion while the portal is open. You may open and close the portal while you are within 30 feet of it. Once closed the entrance is {@condition invisible}. The entrance leads to an opulent entrance hall, with many doors and halls coming from it. The atmosphere is welcoming, warm, and comfortable, and the whole place is sparkling clean.",
                 "The floor plan of the residence is up to you, but it must be made up of fifty or fewer 10-foot cubes.",
-                "The furniture and decor are chosen by you. The residence contains enough food to provide Supply for a number of people equal to 5 × your proficiency bonus. A staff of translucent, lustrous servants dwell within the residence. They may otherwise look how you wish. These servants obey your commands without question, and can perform the same nonhostile actions as a human servant—they might carry objects, prepare and serve food and drinks, clean, make simple repairs, and so on. Servants have access to the entire mansion but may not leave.",
+                "The furniture and decor are chosen by you. The residence contains enough food to provide Supply for a number of people equal to 5 x your proficiency bonus. A staff of translucent, lustrous servants dwell within the residence. They may otherwise look how you wish. These servants obey your commands without question, and can perform the same nonhostile actions as a human servant—they might carry objects, prepare and serve food and drinks, clean, make simple repairs, and so on. Servants have access to the entire mansion but may not leave.",
                 "All objects and furnishings belonging to the mansion evaporate into shimmering smoke when they leave it. Any creature within the mansion when the spell ends is expelled into an unoccupied space near the entrance."
             ],
             "name": "Magnificent Mansion",
@@ -17508,8 +17480,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "planar"
@@ -18571,8 +18542,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "Q"
             ],
@@ -19785,8 +19755,41 @@
                         "One creature, or you and up to 8 willing creatures linking hands in a circle"
                     ]
                 },
-                "Willing targets are transported to a plane of existence that you choose. If the destination is generally described, targets arrive near that destination in a location chosen by the Narrator. If you know the correct sequence of an existing teleportation circle (see teleportation circle), you can choose it as the destination (when the designated circle is too small for all targets to fit, any additional targets are shunted to the closest unoccupied spaces).",
-                "Alternatively this spell can be used offensively to banish an unwilling target. You make a melee spell attack and on a hit the target makes a Charisma saving throw or is transported to a random location on a plane of existence that you choose. Once transported, you must spend 1 minute concentrating on this spell or the target returns to the last space it occupied (otherwise it must find its own way back)."
+                "Willing targets are transported to a plane of existence that you choose. If the destination is generally described, targets arrive near that destination in a location chosen by the Narrator. If you know the correct sequence of an existing teleportation circle (see {@spell teleportation circle|sns}), you can choose it as the destination (when the designated circle is too small for all targets to fit, any additional targets are shunted to the closest unoccupied spaces).",
+                "Alternatively this spell can be used offensively to banish an unwilling target. You make an armour attack with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition debilitated|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is rendered {@condition unconscious|sns} until it passes a passive save."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Major success",
+                            "entries": [
+                                "The target is transported to a random location on a plane of existence that you choose. Once transported, you must spend 1 minute concentrating on this spell or the target returns to the last space it occupied (otherwise it must find its own way back)."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As major success, but you only need to spend 18 seconds concentrating on the spell."
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Plane Shift",
             "time": [
@@ -19809,15 +19812,15 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
                 "nature",
                 "planar",
                 "teleportation",
-                "utility"
+                "utility",
+                "ranged"
             ],
             "level": 7,
             "components": {
@@ -20306,24 +20309,70 @@
                         "60-foot cone"
                     ]
                 },
+                "You unleash 8 rays of light, each with a different purpose and effect. For each target in the area, roll a {@dice d8} to determine the ray that affects it. An affected target can ignore the effects of the ray by passing a save.",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves damage or negates a condition"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "1. Red",
+                            "entries": [
+                                "The target takes {@dice 10d6} fire DoT damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "2. Orange",
+                            "entries": [
+                                "The target takes {@dice 10d6} acid DoT damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "3. Yellow",
+                            "entries": [
+                                "The target takes {@dice 10d6} lightning DoT damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "4. Green",
+                            "entries": [
+                                "The target takes {@dice 10d6} poison DoT damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "5. Blue",
+                            "entries": [
+                                "The target takes {@dice 10d6} cold DoT damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "6. Indigo",
+                            "entries": [
+                                "The target is {@condition restrained|sns} for 1 minute."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "7. Violet",
+                            "entries": [
+                                "The target is {@condition blinded|sns}. At the start of your next turn, the target makes a save, ending the effect on a success.",
+                                "On a failed save, the target is banished to another random plane and is no longer blind. If it originated from another plane it returns there, while other creatures are generally cast into the Astral Plane or Ethereal Plane."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "8. Special",
+                            "entries": [
+                                "The target is hit by two rays.",
+                                "Roll a {@dice d8} twice to determine which rays, rerolling any 8s."
+                            ]
+                        }
                     ]
-                },
-                "You unleash 8 rays of light, each with a different purpose and effect. For each target in the area, roll a {@dice d8} to determine the ray that affects it.",
-                "1—Red: The target takes {@dice 10d6} fire damage.",
-                "2—Orange: The target takes {@dice 10d6} acid damage.",
-                "3—Yellow: The target takes {@dice 10d6} lightning damage.",
-                "4—Green: The target takes {@dice 10d6} poison damage.",
-                "5—Blue: The target takes {@dice 10d6} cold damage.",
-                "6—Indigo: The target is {@condition restrained} and at the end of each of its turns it makes a Constitution saving throw. Once it accumulates two failed saves it permanently turns to stone, or when it accumulates two successful saves the effect ends.",
-                "7—Violet: The target is {@condition blinded}. At the start of your next turn, the target makes a Wisdom saving throw, ending the effect on a success.",
-                "On a failed save, the target is banished to another random plane and is no longer blind. If it originated from another plane it returns there, while other creatures are generally cast into the Astral Plane or Ethereal Plane.",
-                "8—Special: The target is hit by two rays.",
-                "Roll a {@dice d8} twice to determine which rays, rerolling any 8s."
+                }
             ],
             "name": "Prismatic Spray",
             "time": [
@@ -20337,8 +20386,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "N"
             ],
@@ -20347,7 +20395,13 @@
 	          ],
             "subschools": [
                 "arcane",
-                "prismatic"
+                "prismatic",
+                "fire",
+                "acid",
+                "lightning",
+                "poison",
+                "cold",
+                "dot"
             ],
             "level": 7,
             "components": {
@@ -20671,7 +20725,7 @@
             "entries": [
                 "You create an illusory duplicate of yourself that looks and sounds like you but is intangible. The duplicate can appear anywhere within range as long as you have seen the space before (it ignores any obstacles in the way).",
                 "You can use an action to move this duplicate up to twice your Speed and make it speak and behave in whatever way you choose, mimicking your mannerism with perfect accuracy. You can use a bonus action to see through your duplicate's eyes and hear through its ears until the beginning of your next turn. During this time, you are blind and deaf to your body's surroundings.",
-                "A creature can use an action to attempt an Investigation check against your spell save DC to reveal the spell's illusory nature. Physical interactions reveal the illusion for what it is as things can pass through it with ease. A creature aware of the illusion perceives the image as transparent and the sounds it generates hollow."
+                "A creature can use an action to attempt an Investigation check against your standard DC to reveal the spell's illusory nature. Physical interactions reveal the illusion for what it is as things can pass through it with ease. A creature aware of the illusion perceives the image as transparent and the sounds it generates hollow."
             ],
             "name": "Project Image",
             "time": [
@@ -20691,8 +20745,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "chaos",
@@ -21316,7 +21369,7 @@
                         "One creature"
                     ]
                 },
-                "You touch a creature, causing its body to spontaneously heal itself. The target immediately regains {@dice 4d8 + 15} hit points and regains 10 hit points per minute (1 hit point at the start of each of its turns).",
+                "You touch a creature, causing its body to spontaneously heal itself. The target immediately regains {@dice 3d12 + 16} hit points and regains 2 hit points at the start of each of its turns.",
                 "If the target is missing any body parts, the lost parts are restored after 2 minutes. If a severed part is held against the stump, the limb instantaneously reattaches itself."
             ],
             "name": "Regenerate",
@@ -21336,8 +21389,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "healing",
@@ -21593,68 +21645,6 @@
             }
         },
         {
-            "school": "N",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "One creature that died within the last century from something other than old age"
-                    ]
-                },
-                "Provided the target's soul is willing and able to return to its body, so long as it is not undead it returns to life with all of its hit points.",
-                "The spell cures any poisons and nonmagical diseases that affected the target at the time of death.",
-                "It does not remove any magical diseases, curses, or other magical effects; these must be removed prior to the spell being cast, otherwise they immediately take effect when the target returns to life. The spell closes all mortal wounds and restores any missing body parts.",
-                "Being raised from the dead takes a toll on the body, mind, and spirit. The target takes a –4 penalty to attack rolls, saving throws, and ability checks.",
-                "At the conclusion of each long rest, the penalty is reduced by 1 until the target completely recovers.",
-                "Resurrecting a creature that has been dead for one year or longer is exhausting. Until you finish a long rest, you can't cast spells again and you have disadvantage on attack rolls, ability checks, and saving throws."
-            ],
-            "name": "Resurrection",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "hour"
-                }
-            ],
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "page": 497,
-            "source": "LevelUp",
-            "subschools": [
-                "divine",
-                "healing"
-            ],
-            "level": 7,
-            "components": {
-                "v": true,
-                "s": true,
-                "m": {
-                    "text": "diamond worth at least 2,500 gold, consumed by the spell"
-                }
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Bard",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Cleric",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "touch"
-                }
-            }
-        },
-        {
             "school": "T",
             "entries": [
                 {
@@ -21664,7 +21654,7 @@
                         "50-foot radius cylinder that is 100 feet high"
                     ]
                 },
-                "Gravity reverses in the area. Any creatures or objects not anchored to the ground fall upward until they reach the top of the area. A creature may make a Dexterity saving throw to prevent the fall by grabbing hold of something. If a solid object (such as a ceiling) is encountered, the affected creatures and objects impact against it with the same force as a downward fall. When an object or creature reaches the top of the area, it remains suspended there until the spell ends.",
+                "Gravity reverses in the area. Any creatures or objects not anchored to the ground fall upward until they reach the top of the area. A creature may make a save, preventing the fall by grabbing hold of something on a success. If a solid object (such as a ceiling) is encountered, the affected creatures and objects impact against it with the same force as a downward fall. When an object or creature reaches the top of the area, it remains suspended there until the spell ends.",
                 "When the spell ends, all affected objects and creatures fall back down."
             ],
             "name": "Reverse Gravity",
@@ -21685,8 +21675,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "Y"
             ],
@@ -22596,8 +22585,7 @@
                     ]
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "obscurement",
@@ -23273,7 +23261,7 @@
                 },
                 "You sculpt an illusory duplicate of the target from ice and snow. The duplicate looks exactly like the target and uses all the statistics of the original, though it is formed without any gear, and has only half of the target's hit point maximum. The duplicate is a creature, can take actions, and be affected like any other creature. If the target is able to cast spells, the duplicate cannot cast spells of 7th-level or higher.",
                 "The duplicate is friendly to you and creatures you designate. It follows your spoken commands, and moves and acts on your turn in combat. It is a static creature and it does not learn, age, or grow, so it never increases in levels and cannot regain any spent spell slots.",
-                "When the simulacrum is damaged you can repair it in an alchemy lab using components worth 100 gold per hit point it regains. The simulacrum remains until it is reduced to 0 hit points, at which point it crumbles into snow and melts away immediately.",
+                "The simulacrum remains until it is reduced to 0 hit points, at which point it crumbles into snow and melts away immediately.",
                 "If you cast this spell again, any existing simulacrum you have created with this spell is instantly destroyed."
             ],
             "name": "Simulacrum",
@@ -23291,8 +23279,7 @@
                     ]
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "transformation"
@@ -24252,12 +24239,12 @@
                     ]
                 },
                 "You throw a mushroom at a point within range and detonate it, creating a cloud of spores that fills the area. The cloud of spores travels around corners, and the area is considered lightly obscured for everyone except you. Creatures and objects within the area are covered in spores.",
-                "Until the spell ends, you know the exact location of all affected objects and creatures. Any attack roll you make against an affected creature or object has advantage, and the affected creatures and objects can't benefit from being {@condition invisible}.",
+                "Until the spell ends, you know the exact location of all affected objects and creatures. Any armour attack roll you make against an affected creature or object has advantage, and the affected creatures and objects can't benefit from being {@condition invisible}.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Sidoneth's Poisonous Sporesight. Choose a number of creatures in the area equal to your proficiency bonus. Any other creature that starts its turn in the area or first enters into the area on a turn makes a Constitution saving throw, taking {@dice 2d6} poison damage on a failed save."
+                        "Sidoneth's Poisonous Sporesight. Choose a number of creatures in the area equal to your proficiency bonus. The area is a persistent zone that deals {@dice 1d10} poison DoT damage."
                     ]
                 }
             ],
@@ -24279,8 +24266,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -25005,20 +24991,73 @@
                         "One object or a surface no larger than 10 feet in diameter"
                     ]
                 },
-                "You inscribe a potent glyph on the target, setting a magical trap for your enemies. If the glyph is moved more than 10 feet from its original position, or if it comes within 20 feet of another glyph that you have cast, the spell ends. Finding the Tiny glyph requires an Investigation check against your spell save DC.",
+                "You inscribe a potent glyph on the target, setting a magical trap for your enemies. If the glyph is moved more than 10 feet from its original position, or if it comes within 20 feet of another glyph that you have cast, the spell ends. Finding the Tiny glyph requires an Investigation check against your standard DC.",
                 "Describe the actions a creature must perform to trigger the spell, such as approaching within a certain distance, opening or touching the object the glyph is inscribed on, or seeing or reading the glyph. The creature must have a clear path to the glyph to trigger it. You can specify certain creatures which don't trigger the spell, such as those with a certain appearance or those who speak a certain phrase. Once the glyph is triggered, the spell ends.",
                 "When triggered, the glyph sheds dim light in a 60-foot radius for 10 minutes, after which the spell ends. Each creature within the sphere's area is targeted by the glyph, as are creatures that enter the sphere for the first time on a turn.",
                 "When you cast the spell, choose one of the following effects.",
-                "Death: Creatures in the area make a Constitution saving throw, taking {@dice 10d10} necrotic damage on a failed save, or half as much on a successful save.",
-                "Discord: Creatures in the area make a Constitution saving throw or bicker and argue with other creatures for 1 minute. While bickering, a creature cannot meaningfully communicate and it has disadvantage on attack rolls and ability checks.",
-                "{@condition Confused|LevelUp}: Creatures in the area make an Intelligence saving throw or become {@condition confused|LevelUp} for 1 minute.",
-                "Fear: Creatures in the area make a Wisdom saving throw or are {@condition frightened} for 1 minute.",
-                "While {@condition frightened}, a creature drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns.",
-                "Hopelessness: Creatures in the area make a Charisma saving throw or become overwhelmed with despair for 1 minute. While despairing, a creature can't attack or target any creature with harmful features, spells, traits, or other magical effects.",
-                "Pain: Creatures in the area make a Constitution saving throw or become {@condition dazed|LevelUp} for 1 minute.",
-                "Sleep: Creatures in the area make a Wisdom saving throw or fall {@condition unconscious} for 10 minutes.",
-                "A sleeping creature awakens if it takes damage or an action is used to wake it.",
-                "Stunning: Creatures in the area make a Wisdom saving throw or become {@condition debilitated|LevelUp} for 1 minute."
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Death",
+                            "entries": [
+                                "Make a fortitude attack against creatures in the area that deals {@dice 10d12} necrotic damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Discord",
+                            "entries": [
+                                "Creatures in the area make a save or bicker and argue with other creatures for 1 minute. While bickering, a creature cannot meaningfully communicate and it has disadvantage on armour attack rolls and ability checks."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Confusion",
+                            "entries": [
+                                "Creatures in the area make a save or become {@condition confused|sns} for 1 minute."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Fear",
+                            "entries": [
+                                "Creatures in the area make a save or are {@condition frightened|sns} for 1 minute.",
+                                "While {@condition frightened|sns}, a creature drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Hopelessness",
+                            "entries": [
+                                "Creatures in the area make a save or become overwhelmed with despair for 1 minute. While despairing, a creature can't attack any creature."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Pain",
+                            "entries": [
+                                "Creatures in the area make a save or become {@condition dazed|sns} for 1 minute."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Sleep",
+                            "entries": [
+                                "Creatures in the area make a save or fall {@condition unconscious|sns} for 10 minutes.",
+                                "A sleeping creature awakens if it takes damage or an action is used to wake it."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Debilitation",
+                            "entries": [
+                                "Creatures in the area make a save or become {@condition debilitated|sns} for 1 minute"
+                            ]
+                        }
+                    ]
+                }
             ],
             "name": "Symbol",
             "time": [
@@ -25036,14 +25075,15 @@
                     ]
                 }
             ],
-            "page": 497,
             "source": "LevelUp",
 		        "damageInflict": [
 			        "necrotic"
 		        ],
             "subschools": [
                 "arcane",
-                "protection"
+                "protection",
+                "spell",
+                "area"
             ],
             "level": 7,
             "components": {
@@ -25340,22 +25380,98 @@
                     "type": "entries"
                 },
                 "You teleport the targets instantly across vast distances. When you cast this spell, choose a destination. You must know the location you're teleporting to, and it must be on the same plane of existence.",
-                "Teleportation is difficult magic and you may arrive off-target or somewhere else entirely depending on how familiar you are with the location you're teleporting to. When you teleport, the Narrator rolls 1d100 and consults Table: Teleport Familiarity.",
+                "Teleportation is difficult magic and you may arrive off-target or somewhere else entirely depending on how familiar you are with the location you're teleporting to. When you teleport, the DM rolls 1d100 and consults Table: Teleport Familiarity.",
                 "Familiarity is determined as follows:",
-                "Permanent Circle: A permanent teleportation circle whose sigil sequence you know (see teleportation circle).",
-                "Associated Object: You have an object taken from the target location within the last 6 months, such as a piece of wood from the pew in a grand temple or a pinch of grave dust from a vampire's hidden redoubt.",
-                "Very Familiar: A place you have frequented, carefully studied, or can see at the time you cast the spell.",
-                "Seen Casually: A place you have seen more than once but don't know well. This could be a castle you've passed by but never visited, or the farms you look down on from your tower of ivory.",
-                "Viewed Once: A place you have seen once, either in person or via magic.",
-                "Description: A place you only know from someone else's description (whether spoken, written, or even marked on a map).",
-                "False Destination: A place that doesn't actually exist. This typically happens when someone deceives you, either intentionally (like a wizard creating an illusion to hide their actual tower) or unintentionally (such as when the location you attempt to teleport to no longer exists).",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Permanent Circle",
+                            "entries": [
+                                "A permanent teleportation circle whose sigil sequence you know (see teleportation circle)."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Associated Object",
+                            "entries": [
+                                "You have an object taken from the target location within the last 6 months, such as a piece of wood from the pew in a grand temple or a pinch of grave dust from a vampire's hidden redoubt."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Very Familiar",
+                            "entries": [
+                                "A place you have frequented, carefully studied, or can see at the time you cast the spell."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Seen Casually",
+                            "entries": [
+                                "A place you have seen more than once but don't know well. This could be a castle you've passed by but never visited, or the farms you look down on from your tower of ivory."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Viewed Once",
+                            "entries": [
+                                "A place you have seen once, either in person or via magic."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Description",
+                            "entries": [
+                                "A place you only know from someone else's description (whether spoken, written, or even marked on a map)."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "False Destination",
+                            "entries": [
+                                "A place that doesn't actually exist. This typically happens when someone deceives you, either intentionally (like a wizard creating an illusion to hide their actual tower) or unintentionally (such as when the location you attempt to teleport to no longer exists)."
+                            ]
+                        }
+                    ]
+                },
                 "Your arrival is determined as follows:",
-                "On Target: You and your targets arrive exactly where you mean to.",
-                "Off Target: You and your targets arrive some distance away from the target in a random direction. The further you travel, the further away you are likely to arrive. You arrive off target by a number of miles equal to 1d10 × 1d10 percent of the total distance of your trip.",
-                "If you tried to travel 1,000 miles and roll a 2 and 4 on the d10s, you land 6 percent off target and arrive 60 miles away from your intended destination in a random direction. Roll 1d8 to randomly determine the direction: 1 — north, 2 — northeast, 3 — east, 4 — southeast, 5 — south, 6 — southwest, 7 — west, 8 — northwest.",
-                "Similar Location: You and your targets arrive in a different location that somehow resembles the target area. If you tried to teleport to your favorite inn, you might end up at a different inn, or in a room with much of the same decor.",
-                "Typically you appear at the closest similar location, but that is not always the case.",
-                "Mishap: The spell's magic goes awry, and each teleporting creature or object takes 3d10 force damage. The Narrator rerolls on the table to determine where you arrive. When multiple mishaps occur targets take damage each time.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "On Target",
+                            "entries": [
+                                "You and your targets arrive exactly where you mean to."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Off Target",
+                            "entries": [
+                                "You and your targets arrive some distance away from the target in a random direction. The further you travel, the further away you are likely to arrive. You arrive off target by a number of miles equal to 1d10 x 1d10 percent of the total distance of your trip.",
+                                "If you tried to travel 1,000 miles and roll a 2 and 4 on the d10s, you land 6 percent off target and arrive 60 miles away from your intended destination in a random direction. Roll 1d8 to randomly determine the direction: 1 — north, 2 — northeast, 3 — east, 4 — southeast, 5 — south, 6 — southwest, 7 — west, 8 — northwest."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Similar Location",
+                            "entries": [
+                                "You and your targets arrive in a different location that somehow resembles the target area. If you tried to teleport to your favorite inn, you might end up at a different inn, or in a room with much of the same decor.",
+                                "Typically you appear at the closest similar location, but that is not always the case."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Mishap",
+                            "entries": [
+                                "The spell's magic goes awry, and each teleporting creature or object takes 3d10 force damage. The Narrator rerolls on the table to determine where you arrive. When multiple mishaps occur targets take damage each time."
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "table",
                     "rows": [
@@ -25438,8 +25554,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "teleportation"
@@ -26378,8 +26493,8 @@
                         "Four 5-foot radius spheres"
                     ]
                 },
-                "A meteor ripped from diabolical skies streaks through the air and explodes at a point you can see 100 feet directly above you. The spell fails if you can't see the point where the meteor explodes.",
-                "Each creature within range that can see the meteor (other than you) makes a Dexterity saving throw or is {@condition blinded} until the end of your next turn. Fiery chunks of the meteor then plummet to the ground at different areas you choose within range. Each creature in an area makes a Dexterity saving throw, taking {@dice 6d6} fire damage and {@dice 6d6} necrotic damage on a failed save, or half as much damage on a successful one. A creature in more than one area is affected only once.",
+                "A meteor ripped from diabolical skies streaks through the air and explodes at a point 100 feet directly above you.",
+                "Make a reflex attack against each creature within range that can see the meteor (other than you) must make a save, becoming {@condition blinded} until the end of your next turn on a fail. Fiery chunks of the meteor then plummet to the ground at different areas you choose within range. Make a reflex attack against each creature in an area that deals {@dice 5d8} fire damage and {@dice 5d8} necrotic damage. A creature in more than one area is affected only once.",
                 "The spell damages objects in the area and ignites flammable objects that aren't being worn or carried."
             ],
             "name": "Unholy Star",
@@ -26394,8 +26509,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "damageInflict": [
               "fire",
@@ -26403,7 +26517,9 @@
             ],
             "subschools": [
                 "fire",
-                "necrotic"
+                "necrotic",
+                "area",
+                "spell"
             ],
             "level": 7,
             "components": {
@@ -31083,6 +31199,108 @@
                     "name": "Terrifying Howl (Hound Only)",
                     "entries": [
                         "The hound makes a will attack against one creature that can hear it that deals {@dice 2d10} psychic damage. On a hit, the target is {@condition frightened|sns} until the end of the hound's next turn. If the attack fails to hit, the target can't be affected by Terrifying Howl again for 1 minute."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Celestial Creature",
+            "source": "sns",
+            "size": [
+                "L"
+            ],
+            "type": {
+                "type": "celestial",
+                "tags": [
+                    "angel of battle, angel of protection, or angel of vengeance"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": {
+                "ac": 4,
+                "from": [
+                    "or 5 for Angel of Protection"
+                ]
+            },
+            "hp": {
+                "special": "67"
+            },
+            "speed": {
+                "walk": 30,
+                "fly": 40
+            },
+            "str": 18,
+            "dex": 14,
+            "con": 16,
+            "int": 10,
+            "wis": 14,
+            "cha": 18,
+            "save": {
+                "str": "+4",
+                "dex": "+2",
+                "wis": "+4"
+            },
+            "resist": [
+                "radiant",
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "charmed|sns",
+                "frightened|sns"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "celestial",
+                "common"
+            ],
+            "trait": [
+                {
+                    "name": "—MAJOR EFFECTS—",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "The target's armour is reduced by 1 for 1 round."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Inescapable Strike (Angel of Vengeance Only)",
+                    "entries": [
+                        "Before making an attack, the celestial can teleport 30 feet as part of the same action."
+                    ]
+                },
+                {
+                    "name": "Protection Strike (Angel of Protection Only)",
+                    "entries": [
+                        "When the celestial attacks a creature, until the start of the celestial's next turn that creature has disadvantage on armour attack rolls against creatures other than the celestial."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Radiant Strike (Angel of Battle Only)",
+                    "entries": [
+                        "The celestial's smite can be used as a ranged weapon attack (range 150/600 ft.) in addition to as a melee weapon attack."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Smite",
+                    "entries": [
+                        "{@atk mw} reach 5 ft., one target. 48 ({@damage 8d8 + 12}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lay on Hands (1/Day)",
+                    "entries": [
+                        "A creature the celestial touches regains 19 ({@damage 2d10 + 8}) hit points. Alternatively, it can end one disease or neutralise on poison affecting the creature."
                     ]
                 }
             ]
