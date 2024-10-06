@@ -9864,7 +9864,7 @@
                             "type": "item",
                             "name": "Panicked",
                             "entries": [
-                                "The target is {@condition frightened|sns}. On each of its turns, the {@condition frightened|sns} creature uses its full movement to move away from you by the safest and shortest available route unless there is nowhere for it to move.",
+                                "The target is {@condition frightened|sns}. On each of its turns, the {@condition frightened|sns} creature uses half its movement to move away from you by the safest and shortest available route unless there is nowhere for it to move.",
                                 "If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends."
                             ]
                         },
@@ -10265,7 +10265,7 @@
                             "name": "Standard success",
                             "entries": [
                                 "The target becomes {@condition frightened|sns} until either the spell ends or the it passes a passive save, and it must drop whatever it is holding.",
-                                "On each of its turns, a creature {@condition frightened|sns} by this spell uses all of its movement to move away from you by the safest available route. If there is nowhere it can move, it remains stationary. When the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a save, ending the spell's effects on it on a success."
+                                "On each of its turns, a creature {@condition frightened|sns} by this spell uses half its movement to move away from you by the safest available route. If there is nowhere it can move, it remains stationary. When the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a save, ending the spell's effects on it on a success."
                             ]
                         },
                         {
@@ -13877,16 +13877,17 @@
                         "One creature"
                     ]
                 },
+                "You assail a target with an agonizing disease.",
+                "Make a fortitude attack against the target that deals {@dice 10d10} necrotic damage. On a hit, the target's hit point maximum is reduced by an amount equal to the damage taken for 1 hour or until the disease is magically cured. This spell cannot reduce a target to less than 1 hit point."
+            ],
+            "entriesHigherLevel": [
                 {
                     "type": "entries",
-                    "name": "Saving Throw",
+                    "name": "Cast at Higher Levels",
                     "entries": [
-                        "Constitution halves"
+                        "Increase the damage by {@dice 2d10} for each slot level above 6th."
                     ]
-                },
-                "You assail a target with an agonizing disease.",
-                "The target takes {@dice 14d6} necrotic damage. If it fails its saving throw its hit point maximum is reduced by an amount equal to the damage taken for 1 hour or until the disease is magically cured. This spell cannot reduce a target to less than 1 hit point.",
-                "Cast At Higher Levels: Increase the damage by {@dice 2d6} for each slot level above 6th."
+                }
             ],
             "name": "Harm",
             "time": [
@@ -13900,14 +13901,15 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
 		        "damageInflict": [
 			        "necrotic"
 		        ],
             "subschools": [
                 "attack",
-                "divine"
+                "divine",
+                "spell",
+                "ranged"
             ],
             "level": 6,
             "components": {
@@ -14073,7 +14075,7 @@
                         "One creature that is neither a construct nor undead"
                     ]
                 },
-                "A torrent of healing energy suffuses the target and it regains 70 hit points. The spell also ends blindness, deafness, and any diseases afflicting the target."
+                "A torrent of healing energy suffuses the target and it regains 78 hit points. The spell also ends blindness, deafness, and any diseases afflicting the target."
             ],
             "name": "Heal",
             "time": [
@@ -14087,7 +14089,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The hit points regained increase by 10 for each slot level above 6th."
+                        "The hit points regained increase by 11 for each slot level above 6th."
                     ]
                 }
             ],
@@ -14096,8 +14098,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "healing"
@@ -14342,13 +14343,13 @@
         {
             "school": "C",
             "entries": [
-                "The spell summons forth a sumptuous feast with a cuisine of your choosing that provides 1 Supply for a number of creatures equal to twice your proficiency bonus. Consuming the food takes 1 hour and leaves a creature feeling nourished—it immediately makes a saving throw with advantage against any disease or poison it is suffering from, and it is cured of any effect that frightens it.",
-                "For up to 24 hours afterward the feast's participants have advantage on Wisdom saving throws, advantage on saving throws made against disease and poison, resistance against damage from poison and disease, and each increases its hit point maximum by {@dice 2d10}.",
+                "The spell summons forth a sumptuous feast with a cuisine of your choosing that provides sustenance for a number of creatures equal to twice your proficiency bonus. Consuming the food takes 1 hour and leaves a creature feeling nourished — it immediately makes a save with advantage against any disease or poison it is suffering from, it is cured of any effect that frightens it, and it recovers 1 level of {@condition fatigue|sns}.",
+                "For up to 24 hours afterward will attacks against the feast's participants have disadvantage, as do attacks that can cause disease or poison. Additionally, they gain 50% resistance to damage from poison and disease, and each increases its hit point maximum by {@dice 2d12}.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Komanav's Final Heroes' Feast. Instead of receiving any benefits, 10 minutes after the food is consumed all participants other than you take {@dice 8d10} necrotic damage."
+                        "Komanav's Final Heroes' Feast. Instead of receiving any benefits, 10 minutes after the food is consumed all participants other than you take {@dice 8d10} necrotic DoT damage."
                     ]
                 },
                 {
@@ -14371,8 +14372,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "enhancement"
             ],
@@ -15454,21 +15454,37 @@
         {
             "school": "C",
             "entries": [
-                "A weapon formed from the essence of Hell appears in your hands. You must use two hands to wield the weapon. If you let go of the weapon, it disappears and the spell ends.",
-                "When you cast the spell, choose either a flame fork or ice spear While the spell lasts, you can use an action to make a melee spell attack with the weapon against a creature within 10 feet of you.",
-                "On a hit, you deal {@dice 5d8} damage of a type determined by the weapon's form. On a critical hit, you inflict an additional effect.",
-                "In addition, on a hit with the infernal weapon, you can end the spell early to inflict an automatic critical hit.",
-                "Flame Fork. The weapon deals fire damage. On a critical hit, the target catches fire, taking {@dice 2d6} ongoing fire damage.",
-                "Ice Spear. The weapon deals cold damage. On a critical hit, for 1 minute the target is {@condition slowed|LevelUp}.",
-                "At the end of each of its turns a {@condition slowed|LevelUp} creature can make a Constitution saving throw, ending the effect on itself on a success.",
+                "A weapon formed from the essence of Hell appears in your hands. The weapon has the Two-handed trait. If you let go of the weapon, it disappears and the spell ends.",
+                "When you cast the spell, choose either a flame fork or ice spear. While the spell lasts, you can use an action to make a melee spell armour attack with the weapon against a creature within 10 feet of you. The weapon cannot be used in any other way, including as part of the Attack action, as a reaction, or when triggered by a maneuver.",
+                "The attack deals {@dice 5d8} damage of a type determined by the weapon's form. On a critical success, you inflict an additional effect.",
+                "In addition, on a hit with the infernal weapon, you can end the spell early to upgrade the attack's success tier to a critical success.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Flame Fork",
+                            "entries": [
+                                "The weapon deals fire damage. On a critical success, the target catches fire, taking {@dice 2d6} ongoing fire damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Ice Spear",
+                            "entries": [
+                                "The weapon deals cold damage. On a critical success, the target is {@condition slowed|sns} for 1 minute, or until it passes a passive save."
+                            ]
+                        }
+                    ]
+                },
                 "A creature reduced to 0 hit points by an infernal weapon immediately dies in a gruesome fashion.",
-                "For example, a creature killed by an ice spear might freeze solid, then shatter into a thousand pieces. Each creature of your choice within 60 feet of the creature and who can see it when it dies must make a Wisdom saving throw. On a failure, a creature becomes {@condition frightened} of you until the end of your next turn.",
+                "For example, a creature killed by an ice spear might freeze solid, then shatter into a thousand pieces. Each creature of your choice within 60 feet of the creature and who can see it when it dies must make a save. On a fail, a creature becomes {@condition frightened|sns} until the end of your next turn.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
                         "Roav's Malevolent Infernal Weapon. The spell may take a third form.",
-                        "Malevolent Maul. The weapon deals psychic damage. On a critical hit, the target is {@condition confused|LevelUp}. At the end of each of its turns, a {@condition confused|LevelUp} creature can make an Intelligence saving throw, ending the effect on itself on a success."
+                        "Malevolent Maul: The weapon deals psychic damage. On a critical success, the target is {@condition confused|sns} until it passes a passive save."
                     ]
                 }
             ],
@@ -15489,8 +15505,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "damageInflict": [
               "cold",
               "fire"
@@ -15693,7 +15708,7 @@
                 "Until the spell ends, a mystical bond connects the target and the precious stone used to cast this spell.",
                 "Any time after, you may crush the stone and speak the name of the item, summoning it instantly into your hand no matter the physical, metaphysical, or planar distances involved, at which point the spell ends. If another creature is holding the item when the stone is crushed, the item is not summoned to you. Instead, the spell grants you the knowledge of who possesses it and a general idea of the creature's location.",
                 "Each time you cast this spell, you must use a different precious stone.",
-                "Dispel magic or a similar effect targeting the stone ends the spell.",
+                "{@spell Dispel magic|sns} or a similar effect targeting the stone ends the spell.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -15718,8 +15733,7 @@
                     ]
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "summoning"
@@ -15921,19 +15935,38 @@
                         "One creature capable of being charmed"
                     ]
                 },
+                "You murmur a tune that takes root in the target's mind until the spell ends, forcing it to caper, dance, and shuffle. Make a will attack against the target with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition sluggish|sns}."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "At the start of each of its turns, the target must use half of its movement to dance in its space, and it has disadvantage on armour attack rolls, and attack rolls against it have advantage. On each of its turns, the target can use an action to make a save, ending the spell on a success."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition staggered|sns}."
+                            ]
+                        }
                     ]
                 },
-                "You murmur a tune that takes root in the target's mind until the spell ends, forcing it to caper, dance, and shuffle. At the start of each of its turns, the dancing target must use all of its movement to dance in its space, and it has disadvantage on attack rolls and saving throws. Attacks made against the target have advantage. On each of its turns, the target can use an action to repeat the saving throw, ending the spell on a successful save.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Beshala's Wild Irresistible Dance. The target is forced to dance with such vigor that it suffers a level of fatigue when the spell ends."
+                        "Beshala's Wild Irresistible Dance. The target is forced to dance with such vigor that it suffers a level of {@condition fatigue|sns} when the spell ends."
                     ]
                 }
             ],
@@ -15964,11 +15997,11 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
-                "compulsion"
+                "compulsion",
+                "ranged"
             ],
             "level": 6,
             "components": {
@@ -17152,10 +17185,37 @@
                 },
                 "Your body becomes catatonic as your soul enters the vessel used as a material component. While within this vessel, you're aware of your surroundings as if you physically occupied the same space.",
                 "The only action you can take is to project your soul within range, whether to return to your living body (and end the spell) or to possess a humanoid.",
-                "You may not target creatures protected by protection from good and evil or magic circle spells. A creature you try to possess makes a Charisma saving throw or your soul moves from your vessel and into its body. The creature's soul is now within the container. On a successful save, the creature resists and you may not attempt to possess it again for 24 hours.",
-                "Once you possess a creature, you have control of it. Replace your game statistics with the creature's, except your Charisma, Intelligence and Wisdom scores. Your own cultural traits and class features also remain, and you may not use the creature's cultural traits or class features (if it has any).",
-                "During possession, you can use an action to return to the vessel if it is within range, returning the host creature to its body. If the host body dies while you are possessing it, the creature also dies and you must make a Charisma save. On a success you return to the container if it's within range. Otherwise, you die. If the vessel is destroyed, the spell ends and your soul returns to your body if it's within range. If your body is out of range or dead when you try to return, you die.",
-                "The possessed creature perceives the world as if it occupied the same space as the vessel, but may not take any actions or movement. If the vessel is destroyed while occupied by a creature other than yourself, the creature returns to its body if the body is alive and within range. Otherwise, the creature dies. The vessel is destroyed when the spell ends."
+                "You may not target creatures protected by {@spell protection from good and evil|sns} or {@spell magic circle|sns} spells. Make a will attack against a creature you try to possess with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition charmed|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Your soul moves from your vessel and into the target's body. The target's soul is now within the container.",
+                                "Once you possess a target, you have control of it. Replace your game statistics with the target's, except your Charisma, Intelligence, and Wisdom scores. Your own class features also remain, and you may not use the target's passive features (if it has any).",
+                                "During possession, you can use an action to return to the vessel if it is within range, returning the host target to its body. If the host body dies while you are possessing it, the target also dies and you must make a save. On a success you return to the container if it's within range. Otherwise, you die. If the vessel is destroyed, the spell ends and your soul returns to your body if it's within range. If your body is out of range or dead when you try to return, you die.",
+                                "The possessed target perceives the world as if it occupied the same space as the vessel, but may not take any actions or movement. If the vessel is destroyed while occupied by a target other than yourself, the target returns to its body if the body is alive and within range. Otherwise, the target dies. The vessel is destroyed when the spell ends."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but you can use the target's passive features."
+                            ]
+                        }
+                    ]
+                },
+                "If the attack scores a minor success or lower, you may not attempt to possess the target again for 24 hours."
             ],
             "name": "Magic Jar",
             "time": [
@@ -17172,12 +17232,12 @@
                     ]
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "compulsion",
-                "evil"
+                "evil",
+                "spell"
             ],
             "level": 6,
             "components": {
@@ -17751,16 +17811,35 @@
                         "Up to twelve creatures that can hear and understand you"
                     ]
                 },
+                "Creatures that cannot be {@condition charmed|sns} are immune to this spell. Make a will attack against each target with the following outcomes:",
                 {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Wisdom negates"
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "You gain an expertise die on the first Persuasion check you make against the target before the end of your next turn."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "Suggest an activity phrased in a sentence or two. The target is magically influenced to follow that course of activity. The suggestion must be worded to sound reasonable. Asking the target to perform an action that is obviously harmful to it ends the spell.",
+                                "The target carries out the activity suggested by you as well as it can. The activity can last for the duration of the spell, and if it requires less time the spell ends after the target has carried out the activity.",
+                                "You may specify trigger conditions that cause the target to perform a specific activity while the spell lasts. For example, you may suggest that the target takes off its clothes and dives the next time it sees a body of water. If the target does not see a body of water before the spell ends, the specific activity isn't performed."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the suggestion can span up to three sentences."
+                            ]
+                        }
                     ]
                 },
-                "Creatures that cannot be {@condition charmed} are immune to this spell. Suggest an activity phrased in a sentence or two. The targets are magically influenced to follow that course of activity. The suggestion must be worded to sound reasonable. Asking the targets to perform an action that is obviously harmful to them ends the spell.",
-                "A target carries out the activity suggested by you as well as it can. The activity can last for the duration of the spell, and if it requires less time the spell ends after a target has carried out the activity.",
-                "You may specify trigger conditions that cause a target to perform a specific activity while the spell lasts. For example, you may suggest that the target takes off its clothes and dives the next time it sees a body of water. If the target does not see a body of water before the spell ends, the specific activity isn't performed.",
                 "Any damage done to a target by you or an ally ends the spell for that creature."
             ],
             "name": "Mass Suggestion",
@@ -17789,12 +17868,12 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "chaos",
-                "compulsion"
+                "compulsion",
+                "area"
             ],
             "level": 6,
             "components": {
@@ -18960,8 +19039,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "Q"
             ],
@@ -19519,7 +19597,7 @@
             "entries": [
                 "An entity from beyond the realm material answers your call for assistance. You must know this entity whether it is holy, unholy, or beyond the bounds of mortal comprehension. The entity sends forth a servant loyal to it to aid you in your endeavors. If you have a specific servant in mind you may speak its name during the casting, but ultimately who is sent to answer your call is the entity's decision.",
                 "The creature that appears (a celestial, elemental, fey, or fiend), is under no compulsion to behave in any particular way other than how its nature and personality direct it. Any request made of the creature, simple or complex, requires an equal amount of payment which you must bargain with the creature to ascertain. The creature can request either items, sacrifices, or services in exchange for its assistance. A creature that you cannot communicate with cannot be bargained with. A task that can be completed in minutes is worth 100 gold per minute, a task that requires hours is worth 1,000 gold per hour, and a task requiring days is worth 10,000 gold per day (the creature can only accept tasks contained within a 10 day timeframe). A creature can often be persuaded to lower or raise prices depending on how a task aligns with its personality and the goals of its master — some require no payment at all if the task is deemed worthy. Additionally, a task that poses little or no risk only requires half the usual amount of payment, and an extremely dangerous task might call for double the usual payment. Still, only extreme circumstances will cause a creature summoned this way to accept tasks with a near certain result of death.",
-                "A creature returns to its place of origin when a task is completed or if you fail to negotiate an agreeable task and payment. Should a creature join your party, it counts as a member of the group and receives a full portion of any experience gained.",
+                "A creature returns to its place of origin when a task is completed or if you fail to negotiate an agreeable task and payment.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -19531,7 +19609,7 @@
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Roav's Cruel Planar Ally. The creature summoned by this spell is always a fiend linked to you. The bargaining costs for all requests made with the fiend are halved, but in exchange the fiend uses the link to gain advantage on saving throws and checks made to avoid being banished or bound, it has resistance to all damage, and each time the fiend takes damage you take an equal amount of damage. Damage inflicted by this spell cannot kill you."
+                        "Roav's Cruel Planar Ally. The creature summoned by this spell is always a fiend linked to you. The bargaining costs for all requests made with the fiend are halved, but in exchange the fiend uses the link to grant disadvantage to attacks that could banish or bind it, gain 50% resistance to all damage, and cause you to take an equal amount of damage each time it takes damage. Damage inflicted to you by this spell is non-lethal."
                     ]
                 }
             ],
@@ -19547,8 +19625,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "planar",
