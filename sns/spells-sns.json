@@ -20613,7 +20613,7 @@
                 "You craft an illusory object, creature, or other effect which executes a scripted performance when a specific condition is met within 30 feet of the area.",
                 "You must describe both the condition and the details of the performance upon casting. The trigger must be based on something that can be seen or heard.",
                 "Once the illusion triggers, it runs its performance for up to 5 minutes before it disappears and goes dormant for 10 minutes. The illusion is undetectable until then and only reactivates when the condition is triggered and after the dormant period has passed.",
-                "A creature can use an action to attempt an Investigation check against your spell save DC to reveal the spell's illusory nature. Physical interactions reveal the illusion for what it is as things can pass through it with ease. A creature aware of the illusion perceives the image as transparent and the sounds it generates hollow."
+                "A creature can use an action to attempt an Investigation check against your standard DC to reveal the spell's illusory nature. Physical interactions reveal the illusion for what it is as things can pass through it with ease. A creature aware of the illusion perceives the image as transparent and the sounds it generates hollow."
             ],
             "name": "Programmed Illusion",
             "time": [
@@ -20630,8 +20630,7 @@
                     ]
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "C"
             ],
@@ -24830,14 +24829,7 @@
                         "Line 60 feet long and 5 feet wide"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves and negates blindness"
-                    ]
-                },
-                "Oozes and undead have disadvantage on saving throws made to resist this spell. A beam of radiant sunlight streaks from your hand. Each creature in the area takes {@dice 6d8} radiant damage and is {@condition blinded} for 1 round.",
+                "A beam of radiant sunlight streaks from your hand. Make a fortitude attack against each creature in the area that deals {@dice 9d6} radiant damage. This attack has advantage on oozes and undead. On a hit, a target is {@condition blinded} for 1 round.",
                 "Until the spell ends, you can use an action on subsequent turns to create a new beam of sunlight and a mote of brilliant radiance lingers on your hand, shedding bright light in a 30-foot radius and dim light an additional 30 feet. This light is sunlight."
             ],
             "name": "Sunbeam",
@@ -24852,7 +24844,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "When using an 8th-level spell slot the damage increases by {@dice 1d8}."
+                        "When using an 8th-level spell slot the damage increases by {@dice 2d6}."
                     ]
                 }
             ],
@@ -24867,8 +24859,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "L"
             ],
@@ -24877,7 +24868,9 @@
 		        ],
             "subschools": [
                 "arcane",
-                "radiant"
+                "radiant",
+                "spell",
+                "area"
             ],
             "level": 6,
             "components": {
@@ -25931,8 +25924,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "nature",
@@ -26259,8 +26251,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "divine",
@@ -26823,15 +26814,15 @@
                     ]
                 },
                 "A squirming wall of bodies, groping arms and tentacles, and moaning, biting mouths heaves itself up from the ground at a point you choose. The wall is 6 inches thick and is made up of a contiguous group of ten 10-foot square sections. The wall can have any shape you desire.",
-                "If the wall enters a creature's space when it appears, the creature makes a Dexterity saving throw, and on a success it moves up to its Speed to escape. On a failed save, it is swallowed by the wall (as below).",
-                "When a creature enters the area for the first time on a turn or starts its turn within 10 feet of the wall, tentacles and arms reach out to grab it. The creature makes a Dexterity saving throw or takes {@dice 5d8} bludgeoning damage and becomes {@condition grappled}. If the creature was already {@condition grappled} by the wall at the start of its turn and fails its saving throw, a mouth opens in the wall and swallows the creature.",
-                "A creature swallowed by the wall takes {@dice 5d8} ongoing bludgeoning damage and is {@condition blinded}, {@condition deafened}, and {@condition restrained}.",
-                "A creature {@condition grappled} or {@condition restrained} by the wall can use its action to make a Strength saving throw against your spell save DC. On a success, a {@condition grappled} creature frees itself and a {@condition restrained} creature claws its way out of the wall's space, exiting to an empty space next to the wall and still {@condition grappled}.",
+                "If the wall enters a creature's space when it appears, the creature makes a save, and on a success it moves up to its Speed to escape. On a failed save, it is swallowed by the wall (as below).",
+                "When a creature enters the area for the first time on a turn or starts its turn within 10 feet of the wall, tentacles and arms reach out to grab it. The creature makes a save or takes {@dice 5d8} bludgeoning DoT damage and becomes {@condition grappled|sns}. If the creature was already {@condition grappled|sns} by the wall at the start of its turn and fails its save, a mouth opens in the wall and swallows the creature.",
+                "A creature swallowed by the wall takes {@dice 5d8} ongoing bludgeoning damage and is {@condition blinded|sns}, {@condition deafened|sns}, and {@condition restrained|sns}.",
+                "A creature {@condition grappled|sns} or {@condition restrained|sns} by the wall can use its action to make a save. On a success, a {@condition grappled|sns} creature frees itself and a {@condition restrained|sns} creature claws its way out of the wall's space, exiting to an empty space next to the wall and still {@condition grappled|sns}.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Eager Wall of Flesh. The wall's reach increases and it can target creatures within 15 feet of it. In addition, when a creature fails its saving throw against the wall by 5 or more the wall swallows the creature."
+                        "Kreven's Eager Wall of Flesh. The wall's reach increases and it can target creatures within 15 feet of it. In addition, when a creature fails its save against the wall by 5 or more the wall swallows the creature."
                     ]
                 }
             ],
@@ -26862,8 +26853,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
 		        "damageInflict": [
 			        "bludgeoning"
@@ -26871,7 +26861,9 @@
             "subschools": [
                 "chaos",
                 "evil",
-                "protection"
+                "protection",
+                "bludgeoning",
+                "dot"
             ],
             "level": 6,
             "components": {
@@ -26986,13 +26978,13 @@
                 },
                 "You create a wall of ice on a solid surface. You can form it into a hemispherical dome or a sphere, either with a radius of up to 10 feet. You may also choose to create a flat surface made up of a contiguous group of ten 10-foot square sections. The wall is 1 foot thick.",
                 "If the wall enters a creature's space when it appears, the creature is pushed to one side of it (your choice).",
-                "In addition, the creature makes a Dexterity saving throw, taking {@dice 10d6} cold damage on a failed save, or half as much damage on a success.",
-                "The wall is an object with vulnerability to fire damage, with AC 12 and 30 hit points per 10-foot section. Reducing a 10-foot section of wall to 0 hit points destroys it and leaves behind a sheet of frigid air in the space the section occupied. A creature moving through the sheet of frigid air for the first time on a turn makes a Constitution saving throw, taking {@dice 5d6} cold damage on a failed save, or half as much damage on a successful one.",
+                "In addition, make a reflex attack against the creature that deals {@dice 6d12} cold damage.",
+                "The wall is an object with vulnerability to fire damage, with 1 Armour and 33 hit points per 10-foot section. Reducing a 10-foot section of wall to 0 hit points destroys it and leaves behind a sheet of frigid air in the space the section occupied. A creature moving through the sheet of frigid air for the first time on a turn takes {@dice 2d10} cold DoT damage.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Gabal's Glacier. The wall is not vulnerable to fire damage. Each section has AC 15 and 35 hit points."
+                        "Gabal's Glacier. The wall is not vulnerable to fire damage. Each section has 2 Armour and 39 hit points."
                     ]
                 }
             ],
@@ -27008,7 +27000,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The damage the wall deals when it appears increases by {@dice 2d6} and the damage from passing through the sheet of frigid air increases by {@dice 1d6} for each slot level above 6th."
+                        "The damage the wall deals when it appears increases by {@dice 2d12} and the damage from passing through the sheet of frigid air increases by {@dice 1d10} for each slot level above 6th."
                     ]
                 }
             ],
@@ -27023,8 +27015,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
             "damageInflict": [
               "cold"
@@ -27033,7 +27024,10 @@
                 "arcane",
                 "attack",
                 "cold",
-                "protection"
+                "protection",
+                "spell",
+                "area",
+                "dot"
             ],
             "level": 6,
             "components": {
@@ -27157,8 +27151,8 @@
                         "Special"
                     ]
                 },
-                "You create a wall of tough, pliable, tangled brush bristling with needle-sharp thorns on a solid surface. You can choose to make the wall up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight. When the wall appears, each creature within its area makes a Dexterity saving throw, taking {@dice 7d8} piercing damage on a failed save, or half as much damage on a successful save.",
-                "A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. The first time a creature enters the wall on a turn or ends its turn there, it makes a Dexterity saving throw, taking {@dice 7d8} slashing damage on a failed save, or half as much damage on a successful save."
+                "You create a wall of tough, pliable, tangled brush bristling with needle-sharp thorns on a solid surface. You can choose to make the wall up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight. When the wall appears, make a reflex attack against each creature within its area that deals {@dice 10d6} piercing damage.",
+                "A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. The first time a creature enters the wall on a turn or ends its turn there, it takes {@dice 6d6} slashing DoT damage."
             ],
             "name": "Wall of Thorns",
             "time": [
@@ -27172,7 +27166,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "Damage dealt by the wall increases by {@dice 1d8} for each slot level above 6th."
+                        "Damage dealt by the wall increases by {@dice 2d6} for each slot level above 6th."
                     ]
                 }
             ],
@@ -27187,8 +27181,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
 		        "damageInflict": [
 			        "piercing",
@@ -27200,7 +27193,10 @@
                 "nature",
                 "obscurement",
                 "plants",
-                "protection"
+                "protection",
+                "spell",
+                "area",
+                "dot"
             ],
             "level": 6,
             "components": {
@@ -27823,7 +27819,7 @@
                         "You and up to 10 willing creatures you can see"
                     ]
                 },
-                "The targets assume a gaseous form and appear as wisps of cloud. Each target has a flying speed of 300 feet and resistance to damage from nonmagical weapons, but the only action it can take is the Dash action or to revert to its normal form (a process that takes 1 minute during which it is {@condition dazed|LevelUp} and can't move).",
+                "The targets assume a gaseous form and appear as wisps of cloud. Each target has a flying speed of 300 feet and 50% resistance to weapon damage, but the only action it can take is the Dash action or to revert to its normal form (a process that takes 1 minute during which it is {@condition incapacitated|LevelUp} and can't move).",
                 "Until the spell ends, a target can change again to cloud form (in an identical transformation process).",
                 "When the effect ends for a target flying in cloud form, it descends 60 feet each round for up to 1 minute or until it safely lands. If the target can't land after 1 minute, the creature falls the rest of the way normally."
             ],
@@ -27844,8 +27840,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "air",
                 "divine",
@@ -28046,8 +28041,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "divine",
                 "teleportation"
@@ -28085,13 +28079,13 @@
                         "You and up to 50 willing creatures of Large size or smaller"
                     ]
                 },
-                "You call a Gargantuan monstrosity from the depths of the world to carry you and your allies across great distances. When you cast this spell, the nearest purple worm within range is {@condition charmed} by you and begins moving toward a point on the ground that you can see. If there are no purple worms within range, the spell fails. The earth rumbles slightly as it approaches and breaks through the surface. Any creatures within 20 feet of that point must make a Dexterity saving throw or be knocked {@condition prone} and pushed 10 feet away from it.",
+                "You call a Gargantuan monstrosity from the depths of the world to carry you and your allies across great distances. When you cast this spell, the nearest {@creature purple worm} within range is {@condition charmed|sns} and begins moving toward a point on the ground that you can see. If there are no purple worms within range, the spell fails. The earth rumbles slightly as it approaches and breaks through the surface. Any creatures within 20 feet of that point must make a save or be knocked {@condition prone|sns} and pushed 10 feet away from it.",
                 "Upon emerging, the purple worm lays down before you and opens its maw. Targets can climb inside where they are enclosed in an impervious hemispherical dome of force.",
-                "Once targets are loaded into the purple worm, nothing—not physical objects, energy, or other spell effects — can pass through the barrier, in or out, though targets in the sphere can breathe there. The hemisphere is immune to all damage, and creatures and objects inside can't be damaged by attacks or effects originating from outside, nor can a target inside the hemisphere damage anything outside it.",
+                "Once targets are loaded into the purple worm, nothing — not physical objects, energy, or other spell effects — can pass through the barrier, in or out, though targets in the sphere can breathe there. The hemisphere is immune to all damage, and creatures and objects inside can't be damaged by attacks or effects originating from outside, nor can a target inside the hemisphere damage anything outside it.",
                 "The atmosphere inside the dome is comfortable and dry regardless of conditions outside it.",
                 "The purple worm waits until you give it a mental command to depart, at which point it dives back into the ground and travels, without need for rest or food, as directly as possible while avoiding obstacles to a destination known to you. It travels 150 miles per day.",
                 "When the purple worm reaches its destination it surfaces, the dome vanishes, and it disgorges the targets in its mouth before diving back into the depths again.",
-                "The purple worm remains {@condition charmed} by you until it has delivered you to your destination and returned to the depths, or until it is attacked at which point the charm ends, it vomits its targets in the nearest unoccupied space as soon as possible, and then retreats to safety.",
+                "The purple worm remains {@condition charmed|sns} by you until it has delivered you to your destination and returned to the depths, or until it is attacked at which point the charm ends, it vomits its targets in the nearest unoccupied space as soon as possible, and then retreats to safety.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -28112,8 +28106,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "movement",
                 "summoning"
