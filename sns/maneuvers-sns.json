@@ -7293,7 +7293,7 @@
                     ]
                 },
                 "The art of the pratfall is to make the dive to the floor spectacular, and nothing impresses like taking somebody down with you.",
-                "When a creature no more than one size category larger than you uses a basic maneuver against you or targets you with a melee weapon attack, you can use your reaction to fall {@condition prone|sns} and make an advantaged reflex attack against the creature with the following outcomes:",
+                "When a creature no more than one size category larger than you uses a basic maneuver against you or targets you with a melee weapon attack, you can use your reaction to fall {@condition prone|sns} and make an advantaged melee reflex attack against the creature with the following outcomes:",
                 {
                     "type": "list",
                     "items": [
@@ -7647,6 +7647,239 @@
                 "Comedic Jabs"
             ],
             "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "With a hissing malediction, you place your curse upon a specific foe. Before the start of your next turn, when you score a major success against a creature with a melee weapon attack you can choose to lay a curse on it. The cursed target is unable to gain advantage on armour attack rolls against you for a number of rounds equal to your Charisma modifier. This curse can only be applied to one creature at a time."
+            ],
+            "name": "Blackguard's Blight",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Prerequisites",
+                    "entries": [
+                        "The Empowered Attack feature"
+                    ]
+                },
+                "You draw forth the unquiet dead and force them to your bidding. Choose a number of 5-foot spaces equal to your Charisma modifier within 30 feet. Each space becomes occupied by a spirit entity with Armour equal to half your Charisma modifier, 22 hit points, and vulnerability to radiant damage. Each entity also has a reach of 5 feet and its own reaction. When a creature moves out of its reach, an entity can deal your main hand weapon's base damage as DoT damage to the creature if your main hand weapon is a melee weapon. The entities cannot use any movement and cannot flank. The spaces they occupy are considered difficult terrain to any creature except you.",
+                "Additionally, while this stance is active, whenever you take the Attack action, you can make your attack from a chosen entity instead of from you. This stance ends early if all entities are destroyed."
+            ],
+            "name": "Darkstalkers",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "A phantasmal force manifests around your weapon, waiting to wrap itself around a foe. Make a melee weapon attack. On a major success, the target takes additional necrotic damage equal to your Strength modifier and becomes {@condition restrained|sns} until the beginning of your next turn."
+            ],
+            "name": "Deathgrip",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "Foul magic makes your strikes unnerving. Make a melee weapon attack. On a major success, the target is {@condition rattled|sns} for a number of rounds equal to your Charisma modifier."
+            ],
+            "name": "Dreadful Edge",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "Flesh and bone obey your command and form spines along your forearm. Flinging your arm out, you launch the bony projectiles into your opponents. Choose a number of targets up to your proficiency bonus in a 15-foot cone. Make an area weapon reflex attack against each that deals damage equal to your Strength modifier. The target is also {@condition rattled|sns} until the start of its next turn. This attack's damage is considered both necrotic and piercing."
+            ],
+            "name": "Fell Spines",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "At your behest, the shadows themselves grip at your foes, pulling and dragging like quicksand. Choose 4 5-foot spaces within 20 feet of you that are in dim light or darkness. These spaces become areas of magical darkness which are treated as difficult terrain and can't be illuminated except by magic, such as the {@spell light|sns} spell. This effect lasts until the end of your next turn."
+            ],
+            "name": "Grasping Shadows",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 1,
             "range": {
                 "type": "point",
                 "distance": {
