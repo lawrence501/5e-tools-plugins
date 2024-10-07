@@ -2492,8 +2492,7 @@
                             "name": "Standard success",
                             "entries": [
                                 "Until the spell ends, a target native to your current plane is banished to a harmless demiplane and {@condition dazed|sns}. At the end of the duration the target reappears in the space it left (or the nearest unoccupied space). A target native to a different plane is instead banished to its native plane.",
-                                "The target can make passive saves to return early, but it has a -1 penalty to these saves for each round it has spent banished. If the spell ends before its maximum duration, the target reappears in the space it left (or the nearest unoccupied space) but otherwise a target native to a different plane doesn't return.",
-                                "If the target returns early during combat and it had at least one turn while banished, it immediately takes a turn. This does not change initiative order."
+                                "The target can make passive saves to return early, but it has a -1 penalty to these saves for each round it has spent banished. If the spell ends before its maximum duration, the target reappears in the space it left (or the nearest unoccupied space) but otherwise a target native to a different plane doesn't return."
                             ]
                         },
                         {
@@ -15241,20 +15240,13 @@
                         "20-foot radius sphere"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Dexterity halves"
-                    ]
-                },
-                "A cloud of burning embers, smoke, and roiling flame appears within range. The cloud heavily obscures its area, spreading around corners and through cracks. When the cloud appears and a creature is in it, when a creature enters the cloud for the first time on a turn, or when a creature ends its turn within the cloud it makes a Dexterity saving throw, taking {@dice 10d8} fire damage on a failed save, or half as much on a successful one.",
+                "A cloud of burning embers, smoke, and roiling flame appears within range. The cloud heavily obscures its area, spreading around corners and through cracks. When the cloud appears and a creature is in it, when a creature enters the cloud for the first time on a turn, or when a creature ends its turn within the cloud it takes {@dice 9d6} fire DoT damage.",
                 "The cloud can be dispelled by a wind of at least 10 miles per hour. After it is cast, the cloud moves 10 feet away from you in a direction that you choose at the start of each of your turns.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Katrina's Clinging Incendiary Cloud. Until the spell ends, burning embers stick to any creatures caught within the cloud. A creature that fails a saving throw against the spell takes {@dice 1d8} ongoing fire damage. A creature outside of the cloud can use an action to brush the embers off."
+                        "Katrina's Clinging Incendiary Cloud. Until the spell ends, burning embers stick to any creatures caught within the cloud. A creature that takes damage from this spell must make a save, taking {@dice 1d8} ongoing fire damage on a fail. A creature outside of the cloud can use an action to brush the embers off."
                     ]
                 }
             ],
@@ -15276,8 +15268,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [
                 "S"
             ],
@@ -15286,7 +15277,8 @@
             ],
             "subschools": [
                 "arcane",
-                "fire"
+                "fire",
+                "dot"
             ],
             "level": 8,
             "components": {
@@ -17855,7 +17847,7 @@
                     ]
                 },
                 "The target is banished to a complex maze on its own demiplane, and remains there for the duration or until the target succeeds in escaping.",
-                "The target can use an action to attempt to escape, making an Intelligence saving throw. On a successful save it escapes and the spell ends. A creature with Labyrinthine Recall (or a similar trait) automatically succeeds on its save.",
+                "The target can use an action to attempt to escape, making a save. On a successful save it escapes and the spell ends. A creature with Labyrinthine Recall (or a similar trait) automatically succeeds on its save.",
                 "When the spell ends the target reappears in the space it occupied before the spell was cast, or the closest unoccupied space if that space is occupied."
             ],
             "name": "Maze",
@@ -17876,8 +17868,7 @@
                     "concentration": true
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "chaos",
@@ -18282,8 +18273,8 @@
                         "One willing creature"
                     ]
                 },
-                "The target is immune to psychic damage, any effect that would read its emotions or thoughts, divination spells, and the {@condition charmed} condition.",
-                "This immunity extends even to the wish spell, and magical effects or spells of similar power that would affect the target's mind or gain information about it."
+                "The target is immune to psychic damage, any effect that would read its emotions or thoughts, divination spells, and the {@condition charmed|sns} condition.",
+                "This immunity extends even to the {@spell wish|sns} spell, and magical effects or spells of similar power that would affect the target's mind or gain information about it."
             ],
             "name": "Mind Blank",
             "time": [
@@ -18302,8 +18293,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "negation"
@@ -20064,16 +20054,16 @@
                         "One creature"
                     ]
                 },
-                "Saving Throws: Constitution (special) You utter a powerful word that stuns a target with 150 hit points or less. At the end of the target's turn, it makes a Constitution saving throw to end the effect. If the target has more than 150 hit points, it is instead {@condition rattled|LevelUp} until the end of its next turn.",
+                "You utter a powerful word that {@condition debilitated|sns|debilitates} a target with 168 hit points or less until they pass a passive save. If the target has more than 168 hit points, it is instead {@condition rattled|sns} until the end of its next turn.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Maiming Power Word Stun. When a target succeeds on its saving throw, its movement is halved and it is either {@condition blinded} or {@condition deafened} (your choice) until the end of its next turn."
+                        "Kreven's Maiming Power Word Debilitate. When a target succeeds on its passive save, its movement is halved and it is either {@condition blinded|sns} or {@condition deafened|sns} (your choice) until the end of its next turn."
                     ]
                 }
             ],
-            "name": "Power Word Stun",
+            "name": "Power Word Debilitate",
             "time": [
                 {
                     "number": 1,
@@ -20085,8 +20075,7 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "affliction",
                 "arcane"
@@ -24862,20 +24851,13 @@
                         "60-foot radius"
                     ]
                 },
-                {
-                    "type": "entries",
-                    "name": "Saving Throw",
-                    "entries": [
-                        "Constitution halves and negates blindness"
-                    ]
-                },
-                "Oozes and undead have disadvantage on saving throws made to resist this spell. You create a burst of radiant sunlight that fills the area. Each creature in the area takes {@dice 12d6} radiant damage and is {@condition blinded} for 1 minute. A creature {@condition blinded} by this spell repeats its saving throw at the end of each of its turns, ending the blindness on a successful save.",
+                "You create a burst of radiant sunlight that fills the area. Make a fortitude attack against each creature in the area that deals {@dice 7d12} radiant damage. This attack has advantage against oozes and undead. On a hit, a target is {@condition blinded|sns} for 1 minute, or until it passes a passive save.",
                 "This spell dispels any magical darkness in its area.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Gabal's Disorienting Sunburst. A creature that takes 50 or more damage from this spell is {@condition confused|LevelUp}. At the start of each of its turns, a creature {@condition confused|LevelUp} by this spell makes an Intelligence saving throw, ending that effect on itself on a success."
+                        "Gabal's Disorienting Sunburst. A creature that takes 56 or more damage from this spell is {@condition confused|sns}. At the start of each of its turns, a creature {@condition confused|sns} by this spell makes a save, ending that effect on itself on a success."
                     ]
                 }
             ],
@@ -24891,7 +24873,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "When using a 9th-level spell slot the damage increases by {@dice 2d6}."
+                        "When using a 9th-level spell slot the damage increases by {@dice 2d12}."
                     ]
                 }
             ],
@@ -24900,15 +24882,16 @@
                     "type": "instant"
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "areaTags": [],
 		        "damageInflict": [
 			        "radiant"
 		        ],
             "subschools": [
                 "arcane",
-                "radiant"
+                "radiant",
+                "area",
+                "spell"
             ],
             "level": 8,
             "components": {
@@ -30605,6 +30588,110 @@
                 "distance": {
                     "type": "feet",
                     "amount": 500
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "You create a telepathic link between yourself and a willing creature with which you are familiar. The creature can be anywhere on the same plane of existence as you. The spell ends if you or the target are no longer on the same plane.",
+                "Until the spell ends, you and the target can instantaneously share words, images, sounds, and other sensory messages with one another through the link, and the target recognises you as the creature it is communicating with. The spell enables a creature with an Intelligence score of at least 1 to understand the meaning of your words and take in the scope of any sensory messages you send to it."
+            ],
+            "name": "Telepathy",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 24,
+                        "upTo": false
+                    }
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "telepathy"
+            ],
+            "level": 8,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a pair of linked silver rings"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "unlimited"
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                "A wall of water springs into existence at a point you choose within range. You can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The wall lasts for the duration.",
+                "When the wall appears, make a fortitude attack against each creature within its area that deals {@dice 8d8} bludgeoning damage.",
+                "At the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves take {@dice 5d8} bludgeoning DoT damage. A creature can take this damage only once per round. At the end of the turn, the wall's height is reduced by 50 feet, and the damage creatures take from the spell on subsequent turns is reduced by {@dice 1d8}. When the wall reaches 0 feet in height, the spell ends.",
+                "A creature caught in the wall can move by swimming. Because of the force of the wall, though, the creature must make a successful Athletics check against your standard DC in order to move at all. If it fails the check, it can't move. A creature that moves out of the area falls to the ground."
+            ],
+            "name": "Tsunami",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 6,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "water",
+                "bludgeoning",
+                "dot",
+                "spell",
+                "area"
+            ],
+            "level": 8,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "sight"
                 }
             }
         }
