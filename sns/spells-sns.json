@@ -26821,7 +26821,7 @@
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Eager Wall of Flesh. The wall's reach increases and it can target creatures within 15 feet of it. In addition, when a creature fails its save against the wall by 5 or more the wall swallows the creature."
+                        "Kreven's Eager Wall of Flesh. The wall's reach increases and it can target creatures within 15 feet of it. In addition, when a creature substantially fails its save against the wall the wall swallows the creature."
                     ]
                 }
             ],

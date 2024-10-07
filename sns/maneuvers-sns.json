@@ -7049,6 +7049,610 @@
                     "type": "special"
                 }
             }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "Even a well-told lie of being harmless only works if you're really believing it when you tell it - and in the midst of a pitched fight it's easy to muster some real feeling to briefly fool a foe.",
+                "When a creature makes an armour attack against you, you can use your reaction to make a Deception or nonmusical Performance check with disadvantage, opposed by its Insight check. On a success, the creature is briefly perplexed and targets a different creature with the attack instead."
+            ],
+            "name": "Don't Hit Me",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "The art of battle is driven as much by the minds of combatants as it is their muscles, and you have made it your business to get into a foe's head, even if only for a brief moment.",
+                "When a creature makes an armour attack against you, you can use your reaction to make a Deception check with advantage opposed by its Insight check. On a success, the creature is briefly perplexed and not sure you're an enemy, targeting a different creature with the attack instead.",
+                "In addition, until the end of your next turn the creature treats you as an ally (instead of an enemy) for the purposes of passives and other effects, and it cannot target you with attacks. The effects of this combat maneuver end early if you damage the creature."
+            ],
+            "name": "Instant Allyship",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "Just the right amount of lightness to a warrior's step can frustrate an opponent and make them easy to trick.",
+                "You gain an expertise die on Acrobatics and nonmusical Performance checks."
+            ],
+            "name": "Jovial Stance",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "Inversion is at the heart of humour, and nothing upends a no-holdsbarred fight faster than a solid joke.",
+                "Choose a creature able to see you and make a nonmusical Performance check opposed by its Insight check. On a success, your antics force it to laugh uncontrollably, making it {@condition dazed|sns} until the start of your next turn. After you have used Just a Giggle against a creature, until the end of combat it has advantage on Insight checks to resist this maneuver."
+            ],
+            "name": "Just a Giggle",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "6 points"
+                    ]
+                },
+                "With unmatched enthusiasm you undertake a fantastic bit of comedic gymnastics - flipping off of walls, slipping into cartwheels, landing in splits, and otherwise making a grand fool of yourself to the absolute delight of those able to see your exhausting display.",
+                "Make a nonmusical Performance check, gaining a number of rapt onlookers equal to half the result (at the DM's discretion, the amount of potential onlookers may be limited by your location). At the end of your routine, roll {@dice 1d20} and add 1 per rapt onlooker. On a result of 20 or higher, you gain inspiration. If you do not roll a natural 20 on either roll, you suffer a level of {@condition fatigue|sns}. Rapt onlookers (including those who are enemies) have disadvantage on Perception and Insight checks until the start of your next turn."
+            ],
+            "name": "Make Them Laugh",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "Sometimes putting on a friendly face and sidling up to an enemy thirsting for your blood is just unexpected enough to work.",
+                "Make a Deception check opposed by the Insight check of a creature able to see you. On a success, until the end of your next turn the creature treats you as an ally (instead of an enemy) for the purposes of traits and other effects. The creature can still target you with attacks, and the effects of this combat maneuver end early if you damage it."
+            ],
+            "name": "Old Pal",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "The art of the pratfall is to make the dive to the floor spectacular, and nothing impresses like taking somebody down with you.",
+                "When a creature no more than one size category larger than you uses a basic maneuver against you or targets you with a melee weapon attack, you can use your reaction to fall {@condition prone|sns} and make an advantaged reflex attack against the creature with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition sluggish|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target also falls {@condition prone|sns}."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition sluggish|sns} for 1 round."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "name": "Partner Fall",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "The extremely rapid delivery of food can be not only hilariously satisfying, but also give a warrior an edge in combat.",
+                "When you activate this maneuver, you take the Attack action. This attack must target a creature and be made using an improvised weapon that includes food. If you don't have food with you, you can gain one level of {@condition fatigue|sns} instead by using your rations. On a hit, the creature is {@condition blinded|sns} until either the start of its next turn or until it uses its reaction to wipe its eyes clean (whichever is first). Until the creature uses a bonus action to entirely clean its face, you gain an expertise die on Intimidation checks made against the creature."
+            ],
+            "name": "Pie to the Face",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "Physical comedy resonates best if performed in tandem, and with the right footwork even the unsuspecting can be made into an impromptu stage partner.",
+                "When you fall {@condition prone|sns} you can use your reaction to force an adjacent creature to make a save, falling {@condition prone|sns} with you on a fail."
+            ],
+            "name": "Pratfall Pull",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "With daring-do and practiced grace you seamlessly fling an obstacle across the floor with surprising swiftness. With some extra effort, you can distract from the violent intent.",
+                "You spread ball bearings, caltrops, or oil into a 5-foot square. If a creature is in the area, it makes a save with advantage (or normally if you spend an additional 1 exertion). On a fail against ball bearings or oil the creature falls {@condition prone|sns}, or on a failure against caltrops it takes {@dice 1d4} piercing DoT damage that reduces its Speed by 10 feet until it regains at least 1 hit point."
+            ],
+            "name": "Quick Spill",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "No matter how deadly or serious an opponent is, if they can drink, you can splash something down their throat with superlative timing.",
+                "Make a Persuasion check opposed by the Insight check of a creature within your reach. On a success, the creature drinks whatever item you are offering to it, whether that it a potion, poison, or otherwise. Any alchemical item (such as an acid flask or alchemist's fire) deals four times as much damage as normal when a creature drinks it in this way, although any ongoing damage is only doubled."
+            ],
+            "name": "Quick, Drink This",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "4 points"
+                    ]
+                },
+                "A little bit of slipping, an ungainly flip, or a teetering and unlikely turn disorients even the most perceptive of opponents.",
+                "Until the end of your next turn, creatures able to see your routine have disadvantage on Insight checks, and non-armour attacks from enchantment spells have advantage against them."
+            ],
+            "name": "Really Very Funny",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "Suffering in silence is the worst - pain is far easier to bear when you can laugh it off.",
+                "As long as you are able to speak, did not cast a spell with vocalised components on your last turn, and have an ally who can hear and respond to you, once per round you can reduce the damage you take from an attack by an amount equal to your proficiency bonus.",
+                "In addition, when you use this stance to reduce the damage you take, you can choose to fall {@condition prone|sns} to reduce the amount of damage you take by an amount equal to twice your proficiency bonus instead."
+            ],
+            "name": "Rolling with the Punches",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "There's truth to the old adage that practice makes perfect - and you have endlessly practised splashing people.",
+                "You splash an acid vial, alchemist's fire, or similar liquid onto an adjacent target, but instead of you making an armour attack, the target makes a save. On a successful save, count your action as what the attack's standard success would usually be. On a fail, count your action as what the attack's critical success would usually be."
+            ],
+            "name": "Splash of Humour",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "A good warrior is ready for anything, but even the most experienced opponents don't expect to receive a gift.",
+                "Make a Persuasion or nonmusical Performance check opposed by the Insight check of a creature within reach. On a success, as long as the creature has a free hand and is able to understand you, it takes the object you offer to it. On a substantial success, the creature does not need to be able to understand you."
+            ],
+            "name": "This is Yours",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Comedic Jabs"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
         }
     ]
 }
