@@ -8373,7 +8373,7 @@
                         "1 point"
                     ]
                 },
-                "When a creature fails to hit you with a melee weapon attack, you can use your reaction to disparage its performance. Make a will attack against the target with the following outcomes:",
+                "When a creature fails to hit you with a melee weapon attack, you can use your reaction to disparage its performance. Make a melee will attack against the target with the following outcomes:",
                 {
                     "type": "list",
                     "items": [
@@ -8849,6 +8849,608 @@
                 "Gallant Heart"
             ],
             "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "Make an area weapon fortitude attack against up to three creatures within your reach that deals bludgeoning damage equal to your Strength modifier. On a hit, a target is pushed 15 feet away from you."
+            ],
+            "name": "Arcane Dismissal",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "Make a melee weapon attack. On a hit, the target is {@condition blinded|sns} and {@condition deafened|sns} and can't benefit from either blindsight or tremorsense.",
+                "At the beginning of each of its turns, a creature affected by this maneuver can make a save, ending the effect on itself on a success."
+            ],
+            "name": "Argent Strike",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "If a creature moves out of your reach, you may expend your reaction to shift in the same direction up to 20 feet and make a melee weapon attack against the creature if they are within your reach. Your weapon attacks deal fire damage, as well as their original types, until the end of your next turn."
+            ],
+            "name": "Blazing Pursuit",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "You teleport a distance up to your Speed. If there is a creature within your reach, you can make a melee weapon attack, which you gain an expertise die on."
+            ],
+            "name": "Dimensional Strike",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "As part of this stance, you trace a rune onto a melee weapon. Your mark is transferred to the next creature you successfully hit with the inscribed weapon. If the marked creature attempts to make an armour attack against any other target but you, it takes force DoT damage equal to your Intelligence modifier, regardless of whether the attack hits. This stance ends early if you wish to mark another creature or if the target is more than 30 feet away from you."
+            ],
+            "name": "Duelist's Sigil",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "After hitting with a melee weapon, select three 5-foot spaces within your reach. These spaces erupt into flames 5 feet high and count as difficult terrain until the end of your next turn. These spaces are a persistent zone that deals fire DoT damage equal to your weapon's base damage."
+            ],
+            "name": "Flame Burst",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "With a shivering whisper of clouding breath, you strike at your target and shift the chill onto them.",
+                "Make a melee weapon attack. On a hit, your target's Speed is reduced by 15 feet until the end of your next turn."
+            ],
+            "name": "Frigid Strike",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "Make a melee weapon attack against a creature within 15 feet. The reach of this attack increases to 15 feet and its base damage is converted to lightning. On a hit, the target is pushed up to 10 feet towards you."
+            ],
+            "name": "Grasp of the Storm",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "Choose a creature of no more than one size category larger than you that is within 30 feet. Make a ranged weapon fortitude or reflex attack against that creature (target's choice) that deals bludgeoning damage equal to your Strength modifier. On a hit, the target is {@condition grappled|sns} by a gauntleted hand made of force. This effect requires concentration as though it were a spell.",
+                "You may use your bonus action each turn to maintain the grapple for up to a number of rounds equal to half your level. When you maintain a grapple, the target takes bludgeoning DoT damage equal to your Strength modifier. A creature that becomes {@condition grappled|sns} while in the air remains in its current space, even though its fly speed becomes 0, though at the DM's discretion it may have to make a save once it is no longer {@condition grappled|sns}, falling on a fail.",
+                "At the beginning of each of its turns, a creature {@condition grappled|sns} by this maneuver can make a save, ending the effect on itself on a success. This effect also ends early if you target another creature with the gauntlet or if you move more than 45 feet from the target."
+            ],
+            "name": "Grasping Gauntlet",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "When you use this ability, choose an adjacent space. When you strike this space a 50-foot long, 5-foot wide line of difficult terrain appears in the direction of your choosing. You may also choose to make the space you've chosen the centre of a 40-foot line. Creatures and objects within the line when it is created take bludgeoning DoT damage equal to your Strength modifier. Striking a surface that is 1 foot thick or less, such as a rooftop or bridge, severely damages it, causing creatures and objects in the area to fall."
+            ],
+            "name": "Groundshatter",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "As a bonus action, you can mark a creature within 15 feet with a sigil. Alternatively, you may activate this stance by expending your reaction after hitting with a weapon attack, marking the creature you hit. While a target is marked in this way, any attempt to use the Help action against that target is a bonus action, rather than an action. This stance ends early if you wish to mark another creature or if the target is more than 30 feet away from you."
+            ],
+            "name": "Malicious Mark",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "When a creature makes a melee weapon attack against you, you can use your reaction to gain an expertise die to your armour against that creature. This increase only applies to the attacking creature and ends at the start of your next turn. Once the attack is resolved, you may choose to switch spaces with the target."
+            ],
+            "name": "Mystic Feint",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "You can expend your reaction to gain advantage on an initiative roll."
+            ],
+            "name": "Quickening",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1-3 points"
+                    ]
+                },
+                "When you or an ally within 15 feet are targeted by a spell with a duration of 1 round or less, you may briefly manifest a 5-foot-square shield centered on the target. The creature gains three-quarters cover against the spell, potentially preventing it from doing anything. You may also spend up to a total of 3 exertion on this reaction, protecting one extra creature within range for each additional point spent."
+            ],
+            "name": "Reactive Ward",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "As an action, teleport up to your Speed to an unoccupied space. Make an area weapon fortitude attack against all enemies within 10 feet of the space that deals lightning damage equal to your weapon's base damage. On a hit, a target is pushed 5 feet away from you."
+            ],
+            "name": "Stormrider",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "Choose an ally within 15 feet that you can see. As long as that ally stays within 15 feet of you, they increase their armour by 2. You can only ward one creature at a time. This effect ends if you are {@condition incapacitated|sns}."
+            ],
+            "name": "Warding Flourish",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Arcane Knight"
+            ],
+            "level": 1,
             "range": {
                 "type": "point",
                 "distance": {
