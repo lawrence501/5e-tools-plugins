@@ -8230,6 +8230,631 @@
                     "type": "special"
                 }
             }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "You open your guard in a brazen display of confidence, daring your foes to strike you.",
+                "Each hostile creature of your choice whose reach you are within must succeed on a save or use its reaction to make a weapon attack against you. You gain 10 temporary hit points for each attack that fails to hit, up to a maximum number of times equal to your Charisma modifier. If any of the creatures are within your reach, you can then make one melee weapon attack against one of the creatures."
+            ],
+            "name": "Bravado Taunt",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "5 points"
+                    ]
+                },
+                "Through moving words, you stir the hearts of your allies and captivate your enemies so completely that your allies go unseen.",
+                "When you activate this maneuver, roll a Persuasion check. Then choose up to six creatures within 30 feet of you that can hear you. You can choose which of the following two effects to apply to each target.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "entries": [
+                                "If your Persuasion check was equal to or greater than the creature's passive Insight, the creature must make a disadvantaged save, becoming {@condition fixated|sns} for 1 minute on a fail. This effect requires concentration like a spell and ends early if you lose concentration or if the creature can no longer hear you.",
+                                "While {@condition fixated|sns} in this way, any ally who is not within 10 feet of you is considered to be hidden from the creature. An ally remains hidden until they reveal their position, such as by touching or attacking the creature or producing a lot of noise."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "entries": [
+                                "The creature gains temporary hit points equal to your roll. Additionally, choose from {@condition frightened|sns}, {@condition fixated|sns}, or {@condition charmed|sns}. The creature is immune to the chosen condition for a number of rounds equal to your Charisma modifier. If it is currently under the effects of one of these conditions, the effects are suppressed for the duration, though they resume when the effect ends. Time spent suppressed counts against a condition's duration. You can only choose one condition each time you use this maneuver."
+                            ]
+                        }
+                    ]
+                }
+                
+            ],
+            "name": "Captivating Speech",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "When you activate this maneuver, you take the Attack action. On a hit, make a Persuasion check against the target's passive Insight. On a success, the target has disadvantage on armour attacks made against creatures other than you until the end of your next turn."
+            ],
+            "name": "Challenger's Strike",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "When a creature fails to hit you with a melee weapon attack, you can use your reaction to disparage its performance. Make a will attack against the target with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target has disadvantage on opportunity attacks until the end of its next turn."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is {@condition rattled|sns} until the end of its next turn."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition frightened|sns}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "name": "Engender Doubt",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "You announce yourself, why you're here, and what you're about to do. From your opponent's reaction, you can take their measure.",
+                "When you activate this maneuver, choose one creature that has rolled initiative, shares a language with you, and hasn't had damage dealt to it by you in this combat. You reveal your name, as well as one piece of critical information about you (such as a notable title, your current objective, or a dark secret).",
+                "Make a Persuasion check against the creature's passive Deception. On a success, the chosen creature reveals the same information about itself to the best of its knowledge and ability. On a failure, the creature shares misleading information. This maneuver can only reveal new information about a creature once every 24 hours and only once per combat."
+            ],
+            "name": "Formal Introduction",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "Choose one creature within 30 feet of you that can see or hear you and has a clear path to you. Make a Persuasion check against the creature's passive Insight. On a success, you and the creature are {@condition fixated|sns} on each other until the end of your next turn, and it must spend its movement during its next turn safely moving as close to you as possible.",
+                "While {@condition fixated|sns} in this way, you have disadvantage on armour attacks against creatures other than the creature, and the creature has disadvantage on armour attacks against creatures other than you."
+            ],
+            "name": "Honourable Bout",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "4 points"
+                    ]
+                },
+                "The icon of decorum, your presence leaves no doubt of your whereabouts. When you have the attention you seek, you can add extra flourish that makes hearts swoon.",
+                "Allies within 30 feet of you are always aware of your location, regardless of effects or cover that would obfuscate you. You can target them and they can target you as if you can sense each other.",
+                "Additionally, you are always aware of the location of any creature {@condition fixated|sns} on you, and you can target them as if you can sense them.",
+                "Finally, if you willingly end this stance on your turn, any creature {@condition fixated|sns} on you is also {@condition rattled|sns} for as long as they are fixated in that way."
+            ],
+            "name": "Impeccable Presence",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "With utter certainty, you announce your impending success and the impressive means by which you'll achieve it. The sheer audacity of the atempt makes it that much more inspiring if you succeed.",
+                "When you take the Attack action, but before any dice are rolled, you can use your reaction to activate this maneuver. When using this maneuver, you can't gain the benefits of any expertise for attack rolls or ability checks made during the triggering attack.",
+                "If the attack hits, all allies within 30 feet that were able to see you do so gain advantage on their next armour attack roll or ability check if it is made within a number of rounds equal to your Charisma modifier. If the triggering attack is a critical success, this duration becomes 1 minute."
+            ],
+            "name": "Overconfident Gambit",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "You gain an expertise die on Persuasion checks made in combat."
+            ],
+            "name": "Socialite Stance",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "Confident in your ability to prevail, you handicap yourself, granting your opponent a chance at victory and renewing your resolve.",
+                "Choose one creature within your reach. The creature gains an expertise die on armour attacks against you until the end of your next turn. For this duration, attacks against you that can frighten, fixate, charm, or rattle have disadvantage. Additionally, if you are currently affected by any of these conditions, you can immediately make a save, ending the effect early on a success."
+            ],
+            "name": "Sporting Chance",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "When you activate this maneuver, you make a save. If you have proficiency with Performance, you gain an expertise die on the save. On a success, you can move through the space of an adjacent creature of your choice freely until the end of the turn, and you don't provoke opportunity attacks from it until the beginning of your next turn."
+            ],
+            "name": "Stylish Tumble",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "You beckon someone to your side with infectious fervor, be they stranger or comrade-in-arms.",
+                "Choose one conscious non-hostile creature within 30 feet of you that can see you. The creature can use its reaction to shift up to its Speed in a straight line towards you.",
+                "If the creature enters your reach, you can use your reaction to draw one item and administer it to the creature if it is willing. The item must be a potion, medicine, or some other beneficial consumable."
+            ],
+            "name": "To My Side",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "4 points"
+                    ]
+                },
+                "A duel is not fittingly dramatic without the proper stakes. You lock blades with a worthy foe, and fight to the bitter end. To the winner goes the glory.",
+                "Choose one creature within 30 feet that can see or hear you, whose CR is no less than half your level, and has a clear path to you. Make a Persuasion check against the creature's passive Insight. On a success, you and the creature enter a duel and are {@condition fixated|sns} on each other until either you or the challenged creature becomes {@condition incapacitated|sns}, or either ends their turn out of line of sight from the other. It also ends if you use this maneuver on a different creature.",
+                "At the beginning of each of your turns, you both must move closer to each other if your opponent is not within your reach for a melee weapon attack or attempt to overcome an effect or obstacle that blocks you from doing so. Once within range, you and the creature must make at least one melee weapon attack against each other on your turns. Neither of you can willingly target other creatures and both of you gain a +4 bonus to your defences against attacks made by other creatures.",
+                "If one creature drops to 0 hit points during the duel, the other creatures gain an expertise die to attack and damage rolls for the rest of the combat."
+            ],
+            "name": "To the Death",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "Not to be kept down, you return to the battle, defiant and ready for more.",
+                "If you are at 0 hit points and regain hit points, you can use your reaction to immediately stand up from being {@condition prone|sns} without spending movement.",
+                "Additionally, chosoe up to three creatures that can see you. Each creature gains an expertise die to the next attack roll or ability check it makes within 1 minute. You can use this reaction even if you are {@condition incapacitated|sns}."
+            ],
+            "name": "Triumphant Return",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "A tossed rose, a blown kiss - you acknowledge someone whose eye was caught by your swagger.",
+                "Choose one creature within 30 feet that can see you. Make a Performance check against the creature's passive Insight. On a success, the creature is {@condition fixated|sns} on you until the start of your next turn."
+            ],
+            "name": "Wink and Smile",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Gallant Heart"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
         }
     ]
 }
