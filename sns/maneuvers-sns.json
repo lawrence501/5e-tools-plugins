@@ -9457,6 +9457,122 @@
                     "type": "special"
                 }
             }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "You and your beast minion must both take this stance to gain its benefits. When you make a melee weapon attack against a creature, your beast minion gains advantage on armour attack rolls against that creature until the start of your next turn.",
+                "In addition, non-armour attacks against your beast minion have disadvantage and it has 50% resistance to damage."
+            ],
+            "name": "Attack in Tandem",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "You command your beast minion to move up to its Speed in a straight line towards a creature. If your beast minion ends this movement within reach of the creature, it makes one attack against that creature. Your beast minion cannot take the Dash action and this maneuver on the same turn."
+            ],
+            "name": "Bounding Charge",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "When a creature of up to one size category larger than your beast minion makes a melee weapon attack against it, you command your beast minion to respond by harrying the attacker's movements. If the creature's attack hits, it deals an additional damage die and must make a save or fall {@condition prone|sns}. If it fails to hit, the creature must make the save with disadvantage.",
+                "If the attacking creature is two categories larger than your beast minion, you may direct your beast minion to get under the creature's feet and take additional bludgeoning damage equal to that creature's Strength modifier in order to force it to make the save as above."
+            ],
+            "name": "Bring the Mighty Low",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
         }
     ]
 }
