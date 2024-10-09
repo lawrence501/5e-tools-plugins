@@ -7708,7 +7708,7 @@
                         "The Empowered Attack feature"
                     ]
                 },
-                "You draw forth the unquiet dead and force them to your bidding. Choose a number of 5-foot spaces equal to your Charisma modifier within 30 feet. Each space becomes occupied by a spirit entity with Armour equal to half your Charisma modifier, 22 hit points, and vulnerability to radiant damage. Each entity also has a reach of 5 feet and its own reaction. When a creature moves out of its reach, an entity can deal your main hand weapon's base damage as DoT damage to the creature if your main hand weapon is a melee weapon. The entities cannot use any movement and cannot flank. The spaces they occupy are considered difficult terrain to any creature except you.",
+                "You draw forth the unquiet dead and force them to your bidding. Choose a number of 5-foot spaces equal to your Charisma modifier within 30 feet. Each space becomes occupied by a spirit entity with Armour equal to half your Charisma modifier, 22 hit points, and vulnerability to radiant damage. Each entity also has a reach of 5 feet and its own reaction. When a creature moves out of its reach, an entity can deal half of your main hand weapon's base damage as DoT damage to the creature if your main hand weapon is a melee weapon. The entities cannot use any movement and cannot flank. The spaces they occupy are considered difficult terrain to any creature except you.",
                 "Additionally, while this stance is active, whenever you take the Attack action, you can make your attack from a chosen entity instead of from you. This stance ends early if all entities are destroyed."
             ],
             "name": "Darkstalkers",
@@ -7880,6 +7880,350 @@
                 "Eldritch Blackguard"
             ],
             "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "You draw your hand along your blade, limning it in hellish flame. As a bonus action, you coat your weapon in green flame, causing your next melee weapon attack before the end of your next turn to potentially damage an additional target. The attack's original target receives the effects of the attack as normal, but if the attack scores a major success, an additional target of your choice within reach takes necrotic DoT damage equal to half the damage dealt to the first target."
+            ],
+            "name": "Green-Flame Strike",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "You draw up the dead to do your horrible bidding. Choose a number of 5-foot spaces equal to your Charisma modifier within 30 feet. These spaces become occupied with shadowy apparitions, which have Armour equal to half your Charisma modifier and 11 hit points. Each apparition also has a reach of 5 feet and its own reaction. When a creature moves out of its reach, an entity can deal half of your Charisma modifier as true damage to the creature, and you gain hit points equal to the damage dealt. You can also use your own reaction to direct an apparition to deal this damage again if it has already used its own. The apparitions cannot flank.",
+                "While maintaining this stance, you can forgo your movement to instead move any apparition a number of feet up to your Speed. This can be split among multiple apparitions, as long as you have the movement available. The apparitions must stay within 30 feet of you or they vanish. This stance ends early if all apparitions are destroyed."
+            ],
+            "name": "Hungry Ghosts",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 4,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "With a baleful word and a vicious strike you draw the very lifeforce from your target. Make a melee weapon attack. If this attack scores a major success against a creature, you gain hit points equal to one of the target's hit dice + your Fortitude (two hit dice one a critical success). This does not deal additional damage, but does expend the hit die if the creature is capable of spending them."
+            ],
+            "name": "Life Drinker",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "Severing yourself from your own shadow, you place it at your opponent's back! Choose a space within 15 feet. Until the start of your next turn, your shadow (0 Armour, 2 HP) occupied the chosen space and has a reach of 5 feet. It cannot attack, but it can serve as a flanking partner for you and one other creature that you designate when using this maneuver."
+            ],
+            "name": "Living Shadow",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "As your foe's deadly attack falls upon you, your form becomes mist and shadow. When you are hit by a melee weapon attack, you can shift 15 feet."
+            ],
+            "name": "Mistfade Retreat",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "Your grip can wither flesh from bone. When you are grappling an opponent, you can use your reaction to deal necrotic DoT damage equal to {@dice 1d8} + your Charisma modifier."
+            ],
+            "name": "Necrotic Grip",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "Lashing out at your target gives you a moment to escape amongst concealing shadows. After hitting with a melee weapon attack, you may use your reaction to deal damage equal to your Strength modifier instead of the attack's normal damage (though major effects and critical damage still apply as usual). When you do so, you can shift up to 15 feet."
+            ],
+            "name": "Shadowy Feint",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Prerequisites",
+                    "entries": [
+                        "Two instances of the Empowered Attack feature"
+                    ]
+                },
+                "Channeling your dark power into a single brutal attack, you attempt to decapitate your target. Make a melee weapon attack. On a hit, your attack becomes a critical success, and if your attack would have already been a critical success, the target makes a save. On a fail, it takes an additional {@dice 10d10} base damage, or half as much on a success."
+            ],
+            "name": "Skull Taker",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "You enchant your weapon with clinging shadows. Until the end of your next turn, the next creature you score a major success against with a melee weapon attack takes ongoing necrotic damage equal to your main hand weapon's base damage for a number of rounds equal to your Charisma modifier."
+            ],
+            "name": "Vicious Blade",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Eldritch Blackguard"
+            ],
+            "level": 4,
             "range": {
                 "type": "point",
                 "distance": {
