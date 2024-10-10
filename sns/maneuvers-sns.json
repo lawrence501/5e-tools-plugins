@@ -9573,6 +9573,429 @@
                     "type": "special"
                 }
             }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "The next time your beast minion uses the {@spell Knockdown|sns} basic maneuver against a creature within its reach, if you are also within reach of the creature, choose one of the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The minion's attack that is triggering the maneuver has a {@dice 1d4} bonus.",
+                        "The maneuver may be used against a creature one size category larger than it normally would work on."
+                    ]
+                }
+            ],
+            "name": "Coordinated Trip",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "Choose a creature that is up to one size category larger than your beast minion within 20 feet. When your beast minion next successfully uses the {@spell Grapple|sns} basic maneuver on that creature, it can also use its bonus action to move 10 feet towards you, dragging the creature along with it."
+            ],
+            "name": "Fetch!",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "If you are within 20 feet when your beast minion is hit by an armour attack, you can use your reaction to call out and help it regain its fighting spirit. As long as it is able to hear you, your beast minion regains hit points equal to your level plus your proficiency bonus.",
+                "If your beast minion benefits from this feature and is {@condition charmed|sns}, {@condition poisoned|sns}, or {@condition restrained|sns}, it can use its action on its next turn to end those conditions."
+            ],
+            "name": "Fortifying Reassurance",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "When a creature damages your beast minion, you order it to retreat. As long as it can hear you, the minion moves up to its Speed towards you in the most direct course it is able to, stopping at the end of its movement or when you are between it and the creature that damaged it (whichever comes first). It can also choose to move up to twice its Speed, taking a level of {@condition fatigue|sns} in the process. This movement does not provoke opportunity attacks from creatures your beast minion can see."
+            ],
+            "name": "Get Back!",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "You command your beast minion to tactically lower its guard. While this stance is active, all melee weapon attacks against your beast minion are made with a {@dice d6} expertise die. On a hit, the attacking creature takes true damage equal to twice your proficiency bonus as your companion bites and claws at it."
+            ],
+            "name": "Goading Stance",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "The next time before the end of its next turn that your beast minion makes a melee weapon attack against a creature, it roars, howls, or makes some similar threatening noise. If the attack scores a major success, all hostile creatures within 30 feet of your beast minion have disadvantage on armour attacks against any creature that is not your beast minion until the start of your beast minion's next turn."
+            ],
+            "name": "Howl of Challenge",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "You command your beast minion to switch places with a creature adjacent to it. If the creature you command your beast minion to switch places with is unwilling, it makes a save. On a success, the switch doesn't happen."
+            ],
+            "name": "Quick Switch",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "3 points"
+                    ]
+                },
+                "You command your beast minion to leap at a flying creature and target its means of flight. Your beast minion may move up to 20 feet to get into position and gains a vertical jump height equal to half its Speed for the purposes of striking the target creature. The creature is forced to make a save. On a fail, its flight speed is reduced by half until healed and it immediately plummets to the ground (or 60 feet, whichever comes first) and takes falling damage as usual. On a success, it takes true damage equal to your proficiency bonus. Creatures more than 1 size category larger than your beast minion make this save with advantage.",
+                "Regardless of the result, after performing the maneuver, your beast minion lands in an unoccupied space of your choice that is adjacent to the one directly below the target, taking fall damage as normal. If there re no unoccupied adjacent spaces, your beast minion falls either into the space directly below the target creature (which may, in turn, fall on your companion), or onto the creature in the adjacent occupied space of your choice. Both the creature that falls into an occupied space and its occupant take double the normal amount of fall damage before the falling creature is shunted into the closest unoccupied space."
+            ],
+            "name": "Strike from Below",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 5,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "1 point"
+                    ]
+                },
+                "You command your beast minion to take a stance. While this stance is active, your beast minion reduces its attack damage rolls by half your proficiency bonus. However, it also adds half your proficiency bonus to its Armour."
+            ],
+            "name": "Vigilant Stance",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "stance"
+                    ]
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 1,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "When a creature makes a weapon armour attack against your beast minion, your warning causes your companion to shift position, reducing the attack's success tier by 1.",
+                "Your beast minion cannot benefit from this maneuver and {@spell Vigilant Stance|sns} at the same time. Instead, this maneuver overrides the stance against the triggering attack, after which the stance's effect returns as normal."
+            ],
+            "name": "Warning Cry",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 3,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
+        },
+        {
+            "school": "P",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Points",
+                    "entries": [
+                        "2 points"
+                    ]
+                },
+                "You command your beast minion to attack wildly on its turn. The next time your beast minion takes the Attack action before the end of its next turn, its attack is made at disadvantage, but its damage is multiplied by your proficiency bonus. For example, if it's damage is {@damage 1d6 + 5} and your proficiency bonus is +2, its damage becomes {@dice 2d6 + 10}. This attack counts as being benefit by the Empowered Attack feature."
+            ],
+            "name": "Wild Strikes",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "Maneuver",
+                "Beast Unity"
+            ],
+            "level": 2,
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "special"
+                }
+            }
         }
     ]
 }
