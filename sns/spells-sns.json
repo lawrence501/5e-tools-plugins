@@ -1928,13 +1928,13 @@
             "school": "V",
             "entries": [
                 "You summon an insubstantial yet deadly sword to do your bidding.",
-                "A target of your choice adjacent to the sword takes {@dice 3d8} force DoT damage.",
+                "A target of your choice adjacent to the sword takes {@dice 3d4} force DoT damage.",
                 "Until the spell ends, you can use a bonus action on subsequent turns to move the sword up to 20 feet to a space you can see and deal the damage again to a similar target.",
                 {
                     "type": "entries",
                     "name": "Rare",
                     "entries": [
-                        "Kreven's Bloody Arcane Sword. The spell's damage is reduced to {@dice 4d4} and when a creature is damaged by the spell it makes a save or it suffers a level of {@condition fatigue|sns}."
+                        "Kreven's Bloody Arcane Sword. The spell's damage is reduced to {@dice 2d4} and when a creature is damaged by the spell it makes a save or it suffers a level of {@condition fatigue|sns}."
                     ]
                 }
             ],
@@ -2915,7 +2915,7 @@
                         "20-foot square"
                     ]
                 },
-                "Writhing black tentacles fill the ground within the area turning it into difficult terrain. The area also becomes a persistent zone that deals {@dice 4d4} bludgeoning DoT damage and forces targets to make a save, becoming {@condition restrained|sns} by the tentacles on a fail. A creature that starts its turn {@condition restrained|sns} by the tentacles takes {@dice 3d6} bludgeoning DoT damage.",
+                "Writhing black tentacles fill the ground within the area turning it into difficult terrain. The area also becomes a persistent zone that deals {@dice 2d4} bludgeoning DoT damage and forces targets to make a save, becoming {@condition restrained|sns} by the tentacles on a fail. A creature that starts its turn {@condition restrained|sns} by the tentacles takes {@dice 3d6} bludgeoning DoT damage.",
                 "A {@condition restrained|sns} creature can use its action to make an Acrobatics or Athletics check against your standard DC, freeing itself on a success."
             ],
             "name": "Black Tentacles",
@@ -2930,7 +2930,7 @@
                     "type": "entries",
                     "name": "Cast at Higher Levels",
                     "entries": [
-                        "The persistent zone damage increases by {@dice 2d4} and the restrain damage increases by {@dice 1d6} for every 2 slot levels above 4th."
+                        "The persistent zone damage increases by {@dice 1d4} and the restrain damage increases by {@dice 1d6} for every 2 slot levels above 4th."
                     ]
                 }
             ],
@@ -10034,7 +10034,7 @@
                 "You conjure a phantasmal watchdog. Until the spell ends, the hound remains in the area unless you spend an action to dismiss it or you move more than 100 feet away from it.",
                 "The hound is {@condition invisible} except to you and can't be harmed. When a Small or larger creature enters the area without speaking a password you specify when casting the spell, the hound starts barking loudly.",
                 "The hound sees {@condition invisible} creatures, can see into the Ethereal Plane, and is immune to illusions.",
-                "At the start of each of your turns, the hound bites a hostile creature of your choice that is within the area, dealing {@dice 4d6} piercing DoT damage, treated as if it were your own damage.",
+                "At the start of each of your turns, the hound bites a hostile creature of your choice that is within the area, dealing {@dice 2d8} piercing DoT damage, treated as if it were your own damage.",
                 {
                     "type": "entries",
                     "name": "Rare",
@@ -22778,7 +22778,7 @@
                     ]
                 },
                 "You create three orbs of jagged broken glass and hurl them at targets within range. You can hurl them at one target or several.",
-                "For each unique target, make an armour attack that deals {@dice 2d4} slashing damage for each orb hurled at them (for example, a creature with two orbs hurled at them receives an attack that deals {@dice 4d4} slashing damage). On a hit, the shards of broken glass remain suspended in midair, filling the area they occupy (or 5 feet of the space they occupy if the creature is Large-sized or larger) with shards of suspended broken glass. This becomes a persistent zone that deals {@dice 1d6} slashing DoT damage for each orb that shattered there.",
+                "For each unique target, make an armour attack that deals {@dice 2d4} slashing damage for each orb hurled at them (for example, a creature with two orbs hurled at them receives an attack that deals {@dice 4d4} slashing damage). On a hit, the shards of broken glass remain suspended in midair, filling the area they occupy (or 5 feet of the space they occupy if the creature is Large-sized or larger) with shards of suspended broken glass. This becomes a persistent zone that deals {@dice 1d4} slashing DoT damage for each orb that shattered there.",
                 "The shards of broken glass dissolve into harmless wisps of sand and blow away after 1 minute.",
                 {
                     "type": "entries",
@@ -24162,7 +24162,7 @@
         {
             "school": "V",
             "entries": [
-                "You create a floating, incandescent weapon with an appearance of your choosing and use it to attack your enemies. On the round you cast it, a creature of your choice adjacent to the weapon takes force DoT damage equal to {@dice 1d4} + your spellcasting ability modifier.",
+                "You create a floating, incandescent weapon with an appearance of your choosing and use it to attack your enemies. On the round you cast it, a creature of your choice adjacent to the weapon takes force DoT damage equal to your spellcasting ability modifier.",
                 "As a bonus action on subsequent turns until the spell ends, you can move the weapon up to 20 feet and deal the damage to a creature adjacent to it.",
                 {
                     "type": "entries",
@@ -29968,7 +29968,7 @@
                     ]
                 },
                 "You open a gateway to the dark between the stars, a region infested with unknown horrors. The area is filled with blackness and bitter cold, lasting for the duration. This void is filled with a cacophony of soft whispers and slurping noises that can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within the area are {@condition blinded|sns}.",
-                "The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area takes {@dice 2d6} cold DoT damage. Any creature that ends its turn in the area takes {@dice 1d10} acid DoT damage as milky, otherworldly tentacles rub against it."
+                "The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area takes {@dice 2d6} cold DoT damage. Any creature that ends its turn in the area takes {@dice 1d6} acid DoT damage as milky, otherworldly tentacles rub against it."
             ],
             "name": "Hunger of Hadar",
             "time": [
@@ -29994,7 +29994,8 @@
 		        ],
 		        "subschools": [
 	            "cold",
-			        "dot"
+			        "dot",
+                    "acid"
             ],
             "level": 3,
             "components": {
@@ -30616,7 +30617,7 @@
             "entries": [
                 "A wall of water springs into existence at a point you choose within range. You can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The wall lasts for the duration.",
                 "When the wall appears, make a fortitude attack against each creature within its area that deals {@dice 8d8} bludgeoning damage.",
-                "At the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves take {@dice 5d8} bludgeoning DoT damage. A creature can take this damage only once per round. At the end of the turn, the wall's height is reduced by 50 feet, and the damage creatures take from the spell on subsequent turns is reduced by {@dice 1d8}. When the wall reaches 0 feet in height, the spell ends.",
+                "At the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves take {@dice 3d8} bludgeoning DoT damage. A creature can take this damage only once per round. At the end of the turn, the wall's height is reduced by 50 feet, and the damage creatures take from the spell on subsequent turns is reduced by {@dice 1d8}. When the wall reaches 0 feet in height, the spell ends.",
                 "A creature caught in the wall can move by swimming. Because of the force of the wall, though, the creature must make a successful Athletics check against your standard DC in order to move at all. If it fails the check, it can't move. A creature that moves out of the area falls to the ground."
             ],
             "name": "Tsunami",
@@ -30695,6 +30696,634 @@
                 "fromClassList": [
                     {
                         "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One adjacent creature"
+                    ]
+                },
+                "You make a melee weapon attack against the target. On a hit, the target becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, it takes {@dice 1d8} thunder DoT damage, and the spell ends.",
+                "This spell's damage increases when you reach certain levels. At 5th level, the attack deals an extra {@dice 1d8} thunder damageto the target on a hit, and the damage the target takes for moving increases to {@dice 2d8}. Both damage rolls increase by {@dice 1d8} at 11th level ({@dice 2d8} and {@dice 3d8}) and again at 17th level ({@dice 3d8} and {@dice 4d8})."
+            ],
+            "name": "Booming Blade",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1,
+                        "upTo": false
+                    }
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "thunder",
+                "weaponry"
+            ],
+            "level": 0,
+            "components": {
+                "v": false,
+                "s": true,
+                "m": {
+                    "text": "a melee weapon worth at least 1 sp"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "T",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "Nonmagical flame that fits within a 5-foot cube"
+                    ]
+                },
+                "You affect the target in one of the following ways:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You instantaneously expand the target 5 feet in one direction, provided that wood or other fuel is present in the new location.",
+                        "You instantaneously extinguish the target.",
+                        "You double or halve the area of bright light and dim light cast by the target, change its colour, or both. The change lasts for 1 hour.",
+                        "You cause simple shapes - such as the vague form of a creature, an inanimate object, or a location - to appear within the target and animate as you like. The shapes last for 1 hour."
+                    ]
+                },
+                "If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action."
+            ],
+            "name": "Control Flames",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "fire"
+            ],
+            "level": 0,
+            "components": {
+                "v": false,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "5-foot cube"
+                    ]
+                },
+                "You create a bonfire on ground within range. Until the spell ends, the magic bonfire fills the area. Any creature in the bonfire's space when you cast the spell takes {@dice 1d4} fire DoT damage. A creature also takes this damage when it moves into the bonfire's space for the first time on a turn or ends its turn there.",
+                "The bonfire ignites flammable objects in its area that aren't being worn or carried.",
+                "The spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+            ],
+            "name": "Create Bonfire",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "fire",
+                "dot"
+            ],
+            "level": 0,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "You cause numbing frost to form on the target. Make a fortitude attack against the target that deals {@dice 1d6} cold damage. On a hit, the target has disadvantage on the next weapon armour attack roll it makes before the end of its next turn.",
+                "The spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6}).",
+                "Casting this spell while holding a thought strand allows you to instantly receive whatever memory, idea, or message the thought strand contains. (Casting {@spell detect thoughts|sns} on the strand has the same effect.)"
+            ],
+            "name": "Frostbite",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "cold",
+                "ranged",
+                "spell"
+            ],
+            "level": 0,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One melee weapon you are holding in your main hand"
+                    ]
+                },
+                "You brandish the target and make a melee weapon attack with it against one adjacent creature. On a hit, you can cause green fire to leap from the target to a different creature of your choice adjacent to it. The second creature takes fire DoT damage equal to your spellcasting ability modifier.",
+                "This spell's damage increases when you reach certain levels. At 5th level, the weapon attack deals an extra {@dice 1d8} fire damage to the target on a hit, and the fire damage to the second creature increases to {@dice 1d8} + your spellcasting ability modifier. Both damage rolls increase by {@dice 1d8} at 11th level ({@dice 2d8}) and 17th level ({@dice 3d8})."
+            ],
+            "name": "Green-Flame Blade",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "fire",
+                "dot",
+                "weaponry"
+            ],
+            "level": 0,
+            "components": {
+                "v": false,
+                "s": true,
+                "m": {
+                    "text": "a melee weapon worth at least 1 sp"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "T",
+            "entries": [
+                "You seize the air and compel it to create one of the following effects at a point within range:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "entries",
+                            "entries": [
+                                "Make a fortitude attack against one Medium or smaller creature that you choose with the following outcomes:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "type": "item",
+                                            "name": "Minor success",
+                                            "entries": [
+                                                "The target's Speed is reduced by 5 feet for 1 round."
+                                            ]
+                                        },
+                                        {
+                                            "type": "item",
+                                            "name": "Standard success",
+                                            "entries": [
+                                                "The target is pushed 5 feet away from you."
+                                            ]
+                                        },
+                                        {
+                                            "type": "item",
+                                            "name": "Critical success",
+                                            "entries": [
+                                                "As standard success, but the push is increased to 10 feet."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn't pushed with enough force to cause damage.",
+                        "You create a harmless sensory effect using air, such as causing leaves to rustle, wind to slam shutters closed, or your clothing to ripple in a breeze."
+                    ]
+                }
+            ],
+            "name": "Gust",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "air",
+                "ranged"
+            ],
+            "level": 0,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "You cause a cloud of mites, fleas, and other parasites to appear momentarily on the target. Make a fortitude attack against the target that deals {@dice 1d6} poison damage. On a hit, the target shifts 5 feet in a random direction if it can move and its Speed is at least 5 feet.",
+                "The spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+            ],
+            "name": "Infestation",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "beasts",
+                "ranged",
+                "spell",
+                "poison"
+            ],
+            "level": 0,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a living flea"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature within 15 feet of you"
+                    ]
+                },
+                "You create a lash of lightning energy that strikes at the target. Make a fortitude attack against the target with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is pushed 5 feet straight towards you."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is pushed 10 feet straight towards you and then takes {@dice 1d8} lightning damage if it is within 5 feet of you."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the damage is increased to {@dice 2d8}."
+                            ]
+                        }
+                    ]
+                },
+                "The spell's damage increases by {@dice 1d9} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+            ],
+            "name": "Lightning Lure",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "melee",
+                "spell",
+                "lightning"
+            ],
+            "level": 0,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "T",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One to three pebbles"
+                    ]
+                },
+                "You touch the targets and imbue them with magic. You or someone else can make a ranged spell armour attack with one of the pebbles by throwing it as an action. If thrown, a pebble has a range of 60 feet. If someone else attacks with a pebble, that attack scales with your stats, not the attacker's. The attack deals bludgeoning damage equal to {@dice 1d6} + your spellcasting ability modifier. After the attack, the spell ends on the stone.",
+                "If you cast this spell again, the spell ends on any pebbles still affected by your previous casting."
+            ],
+            "name": "Magic Stone",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "ranged",
+                "spell",
+                "bludgeoning"
+            ],
+            "level": 0,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
                         "source": "PHB"
                     }
                 ]
