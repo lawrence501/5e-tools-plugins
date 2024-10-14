@@ -958,74 +958,6 @@
             }
         },
         {
-            "school": "T",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Target",
-                    "entries": [
-                        "Any number of visible and willing creatures"
-                    ]
-                },
-                "You transform the bodies of creatures into beasts without altering their minds. Each target transforms into a Large or smaller beast with a Challenge Rating of 4 or lower. Each target may have the same or a different form than other targets.",
-                "On subsequent turns, you can use your action to transform targets into new forms, gaining new hit points when they do so.",
-                "Until the spell ends or it is dropped to 0 hit points, the target's game statistics (including its hit points) are replaced by the statistics of the chosen beast excepting its Intelligence, Wisdom, and Charisma scores. The target is limited to actions that it is physically capable of doing, and it can't speak or cast spells. The target's gear melds into the new form. Equipment that merges with a target's form has no effect until it leaves the form.",
-                "When the target reverts to its normal form, it returns to the number of hit points it had before it transformed. If the spell's effect on the target end early from dropping to 0 hit points, any excess damage carries over to its normal form and knocks it {@condition unconscious} if the damage reduces it to 0 hit points.",
-                {
-                    "type": "entries",
-                    "name": "Rare",
-                    "entries": [
-                        "Sidoneth's Amorphous Animal Shapes. You may transform the targets into Large or smaller oozes of Challenge Rating 4 or lower."
-                    ]
-                }
-            ],
-            "name": "Animal Shapes",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "hour",
-                        "amount": 24,
-                        "upTo": false
-                    },
-                    "concentration": true
-                }
-            ],
-            "page": 497,
-            "source": "LevelUp",
-            "subschools": [
-                "beasts",
-                "shapechanging",
-                "transformation"
-            ],
-            "level": 8,
-            "components": {
-                "v": true,
-                "s": true
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Druid",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "range": {
-                "type": "point",
-                "distance": {
-                    "amount": 30,
-                    "type": "feet"
-                }
-            }
-        },
-        {
             "school": "N",
             "entries": [
                 {
@@ -4586,7 +4518,7 @@
                 }
             ],
             "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane"
             ],
@@ -14413,7 +14345,7 @@
                     ]
                 },
                 "The target is overwhelmed by the absurdity of the world and is crippled by paroxysms of laughter.",
-                "Make a will attack against the target with the following outcomes:The target falls {@condition prone}, becomes {@condition dazed|LevelUp}, and cannot stand.",
+                "Make a will attack against the target with the following outcomes:",
                 {
                     "type": "list",
                     "items": [
@@ -21131,7 +21063,7 @@
                     }
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
             "damageInflict": [
               "force"
             ],
@@ -22427,8 +22359,7 @@
                     }
                 }
             ],
-            "page": 497,
-            "source": "LevelUp",
+            "source": "sns",
             "subschools": [
                 "arcane",
                 "enhancement",
@@ -25101,7 +25032,7 @@
                     ]
                 }
             ],
-            "source": "LevelUp",
+            "source": "sns",
 		        "damageInflict": [
 			        "necrotic"
 		        ],
@@ -27846,7 +27777,7 @@
                         "You and up to 10 willing creatures you can see"
                     ]
                 },
-                "The targets assume a gaseous form and appear as wisps of cloud. Each target has a flying speed of 300 feet and 50% resistance to weapon damage, but the only action it can take is the Dash action or to revert to its normal form (a process that takes 1 minute during which it is {@condition incapacitated|LevelUp} and can't move).",
+                "The targets assume a gaseous form and appear as wisps of cloud. Each target has a flying speed of 300 feet and 50% resistance to weapon damage, but the only action it can take is the Dash action or to revert to its normal form (a process that takes 1 minute during which it is {@condition incapacitated|sns} and can't move).",
                 "Until the spell ends, a target can change again to cloud form (in an identical transformation process).",
                 "When the effect ends for a target flying in cloud form, it descends 60 feet each round for up to 1 minute or until it safely lands. If the target can't land after 1 minute, the creature falls the rest of the way normally."
             ],

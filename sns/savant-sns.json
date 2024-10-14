@@ -40,6 +40,7 @@
 						"choose": {
 							"from": [
 								"arcana",
+								"brawn",
 								"deception",
 								"engineering",
 								"insight",
@@ -413,7 +414,7 @@
                                     "type": "item",
                                     "name": "Undermining Taunt Aegis",
                                     "entries": [
-                                        "When a creature fails to hit with an attack, you can use this trick to capitalise on their failure, warning the creature why another possible course of action will also turn out badly. If that creature can understand you, choose an action, such as Attack or Cast a Spell. The trget must make a save. If it fails, until the end of its next turn it is {@condition debilitated|LevelUp} while attempting to take that action."
+                                        "When a creature fails to hit with an attack, you can use this trick to capitalise on their failure, warning the creature why another possible course of action will also turn out badly. If that creature can understand you, choose an action, such as Attack or Cast a Spell. The trget must make a save. If it fails, until the end of its next turn it is {@condition debilitated|sns} while attempting to take that action."
                                     ]
                                 }
                             ]
