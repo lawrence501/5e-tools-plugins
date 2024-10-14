@@ -31265,6 +31265,405 @@
                     "type": "touch"
                 }
             }
+        },
+        {
+            "school": "T",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "Portion of dirt or stone that fits within a 5-foot-cube"
+                    ]
+                },
+                "You manipulate the target in one of the following ways:",
+                {
+                    "type": "list",
+                    "items": [
+                        "If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't involve enough force to cause damage.",
+                        "You cause shapes, colours, or both to appear on the target, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.",
+                        "If the target is on the ground, you cause it to become difficult terrain. Alternatively, you can cause the ground to become normal terrain if it is already difficult terrain. This change lasts for 1 hour."
+                    ]
+                },
+                "If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+            ],
+            "name": "Mold Earth",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "earth"
+            ],
+            "level": 0,
+            "components": {
+                "v": false,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            }
+        },
+        {
+            "school": "T",
+            "entries": [
+                "You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make an armour attack against one adjacent creature that deals {@dice 1d10} acid damage. After you make the attack, your teeth or fingernails return to normal.",
+                "The spell's damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+            ],
+            "name": "Primal Savagery",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "shapeshift",
+                "melee",
+                "spell",
+                "acid"
+            ],
+            "level": 0,
+            "components": {
+                "v": false,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "T",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "Water that fits within a 5-foot cube"
+                    ]
+                },
+                "You manipulate the target in one of the following ways:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You instantaneously move or otherwise change the flow of the target as you direct, up to 5 feet in any direction. This movement doesn't haev enough force to cause damage.",
+                        "You cause the target to form into simple shapes and animate at your direction. This change lasts for 1 hour.",
+                        "You change the target's colour or opacity. The target must be changed in the same way throughout. This change lasts for 1 hour.",
+                        "You freeze the target, provided that there are no creatures in it. The target unfreezes in 1 hour."
+                    ]
+                },
+                "If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+            ],
+            "name": "Shape Water",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "water"
+            ],
+            "level": 0,
+            "components": {
+                "v": false,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                "You create a momentary circle of spectral blades that sweep around you. Make a reflex attack against all adjacent creatures that deals {@dice 1d6} force damage.",
+                "This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+            ],
+            "name": "Sword Burst",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "area",
+                "spell",
+                "force"
+            ],
+            "level": 0,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "You create a burst of thunderous sound that can be heard up to 100 feet away. Make a fortitude attack against each creature within range that deals {@dice 1d6} thunder damage.",
+                "This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+            ],
+            "name": "Thunderclap",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "area",
+                "spell",
+                "thunder"
+            ],
+            "level": 0,
+            "components": {
+                "v": false,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            }
+        },
+        {
+            "school": "N",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "You point at the target and the sound of a dolorous bell fills the air around it for the moment. Make a will attack against the target that deals {@dice 1d8} necrotic damage. If the target is missing any of its hit points, the attack instead deals {@dice 1d12} necrotic damage.",
+                "This spell's damage increases by one die when you reach 5th level ({@dice 2d8} or {@dice 2d12}), 11th level ({@dice 3d8} or {@dice 3d12}), and 17th level ({@dice 4d8} or {@dice 4d12})."
+            ],
+            "name": "Toll the Dead",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "ranged",
+                "spell",
+                "necrotic"
+            ],
+            "level": 0,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "You utter a divine word, and burning radiance erupts from you. Make a fortitude attack against each creature of your choice within range that deals {@dice 1d6} radiant damage.",
+                "This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+            ],
+            "name": "Word of Radiance",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "area",
+                "spell",
+                "radiant"
+            ],
+            "level": 0,
+            "components": {
+                "v": true,
+                "s": false,
+                "m": {
+                    "text": "a holy symbol"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            }
         }
     ],
     "monster": [
