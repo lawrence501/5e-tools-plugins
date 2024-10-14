@@ -349,7 +349,6 @@
 				},
 				"Ability Score Improvement|Warlock|sns|4|sns",
 				"Invocation of the Courts (1)|Warlock|sns|4|sns",
-				"Extra Blast|Warlock|sns|5|sns",
 				{
 					"classFeature": "First Subclass Tier 3|Warlock|sns|5|sns",
 					"gainSubclassFeature": true
@@ -506,7 +505,7 @@
 			"subclassFeatures": [
 				"The Genie|Warlock|sns|Genie|sns|1",
 				"Elemental Gift|Warlock|sns|Genie|sns|3",
-                "New Strong Feature|Warlock|sns|Genie|sns|5",
+                "Assisted Arcana|Warlock|sns|Genie|sns|5",
                 "Genie Major Effect #2|Warlock|sns|Genie|sns|5",
 				"Sanctuary Vessel|Warlock|sns|Genie|sns|7",
 				"Limited Wish|Warlock|sns|Genie|sns|9"
