@@ -31664,6 +31664,796 @@
                     "amount": 5
                 }
             }
+        },
+        {
+            "school": "A",
+            "entries": [
+                "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee weapon attack. You have 50% resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee weapon attack on your next turn, the target takes an extra {@dice 1d6} damage of the triggering type, and the spell ends."
+            ],
+            "name": "Absorb Elements",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction",
+                    "condition": "which you take when you take acid, cold, fire, lightning, or thunder damage"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The extra damage increases by {@dice 1d6} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1,
+                        "upTo": false
+                    }
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "thunder"
+            ],
+            "level": 1,
+            "components": {
+                "v": false,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "D",
+            "entries": [
+                "You establish a telepathic link with one beast you touch that is friendly to you or {@condition charmed|sns} by you. The spell fails if the beast's Intelligence score is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on armour attack rolls against any creature adjacent to you."
+            ],
+            "name": "Beast Bond",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "telepathy",
+                "beasts"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a bit of fur wrapped in a cloth"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            }
+        },
+        {
+            "school": "T",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One object weighing 1 to 5 pounds that isn't being worn or carried"
+                    ]
+                },
+                "The target flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts a solid surface. If the object would strike a creature, make a reflex attack against that creature that deals {@dice 3d8} bludgeoning damage. When this attack is made, the object stops moving and also takes the same damage."
+            ],
+            "name": "Catapult",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by {@dice 1d8}, for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "ranged",
+                "spell",
+                "bludgeoning"
+            ],
+            "level": 1,
+            "components": {
+                "v": false,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "N",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One non-construct, non-undead creature"
+                    ]
+                },
+                "You awaken the sense of mortality in the target. Make a will attack against the target with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target is {@condition rattled|sns} for 1 round."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is {@condition frightened|sns} until either the spell ends or it passes a passive save."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the target is also {@condition debilitated|sns}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "name": "Cause Fear",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "You can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "ranged"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "You hurl an undulating, warbling mass of chaotic energy at the target. Make an armour attack against the target that deals {@damage 2d8 + 1d6} damage. Choose one of the {@dice d8}s. The number rolled on that die determines the attack's damage type, as shown below.",
+                {
+                    "type": "table",
+                    "rows": [
+                        [
+                            "1",
+                            "Acid"
+                        ],
+                        [
+                            "2",
+                            "Cold"
+                        ],
+                        [
+                            "3",
+                            "Fire"
+                        ],
+                        [
+                            "4",
+                            "Force"
+                        ],
+                        [
+                            "5",
+                            "Lightning"
+                        ],
+                        [
+                            "6",
+                            "Poison"
+                        ],
+                        [
+                            "7",
+                            "Psychic"
+                        ],
+                        [
+                            "8",
+                            "Thunder"
+                        ]
+                    ],
+                    "colStyles": [
+                        "col-4 text-center",
+                        "col-8"
+                    ],
+                    "colLabels": [
+                        "{@dice d8}}",
+                        "Damage Type"
+                    ],
+                    "caption": "Chaos Bolt"
+                },
+                "If you roll the same number on both {@dice d8}s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack rolls against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.",
+                "A creature can be targeted only once by each casting of this spell."
+            ],
+            "name": "Chaos Bolt",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "Each target takes {@dice 1d6} extra damage of the type rolled for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "ranged",
+                "spell",
+                "acid",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "poison",
+                "psychic",
+                "thunder"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                "You cause a tremor in the ground within range. Make a reflex attack against each creature in that area that deals {@dice 1d6} bludgeoning damage. On a hit, a target is knocked {@condition prone|sns}. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand."
+            ],
+            "name": "Earth Tremor",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 1d6} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "area",
+                "spell",
+                "bludgeoning"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "15-foot cone"
+                    ]
+                },
+                "Freezing cold blasts from your fingertips. Make a fortitude attack against each creature in the area that deals {@dice 4d4} cold damage.",
+                "The cold freezes nonmagical liquids in the area that aren't being worn or carried."
+            ],
+            "name": "Frost Fingers",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 2d4} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "area",
+                "spell",
+                "cold"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
+        },
+        {
+            "school": "C",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Target",
+                    "entries": [
+                        "One creature"
+                    ]
+                },
+                "You create a shard of ice and fling it at the target. Make an armour attack against the target that deals {@dice 1d10} piercing damage. After the attack, the shard explodes. The target and each creature adjacent to it takes {@dice 1d6} cold DoT damage."
+            ],
+            "name": "Ice Knife",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The cold damage increases by {@dice 1d6} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "ranged",
+                "spell",
+                "dot",
+                "piercing",
+                "cold"
+            ],
+            "level": 1,
+            "components": {
+                "v": false,
+                "s": true,
+                "m": {
+                    "text": "a drop of water or piece of ice"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "E",
+            "entries": [
+                "You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the {@dice d20} and use the lower roll.",
+                "You can then choose a different creature within range. The chosen creature has advantage on the next attack roll, ability check, or save it makes within 1 minute. A creature can be empowered by only one use of this spell at a time."
+            ],
+            "name": "Silvery Barbs",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction",
+                    "condition": "which you take when a creature within range succeeds on an attack roll, an ability check, or a save"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "sound"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            }
+        },
+        {
+            "school": "A",
+            "entries": [
+                "As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magic trap.",
+                "This trap is nearly {@condition invisible}, requiring a successful Investigation check against your standard DC to be discerned.",
+                "The trap triggers when a Small, Medium, or Large creature moves onto the ground or the floor in the spell's radius. That creature must make a save, being magically hoisted in the air on a fail, leaving it hanging upside down 3 feet above the ground or the floor. The creature is {@condition restrained|sns} there until either the spell ends or it passes a passive save. Alternatively, the creature or someone else who can reach it can use an action make an Arcana check against your standard DC. On a success, the {@condition restrained|sns} effect ends.",
+                "After the trap is triggered, the spell ends when no creature is {@condition restrained|sns} by it."
+            ],
+            "name": "Snare",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8,
+                        "upTo": false
+                    }
+                }
+            ],
+            "source": "sns",
+            "subschools": [],
+            "level": 1,
+            "components": {
+                "v": false,
+                "s": true,
+                "m": {
+                    "text": "25 feet of rope"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            }
+        },
+        {
+            "school": "V",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Area",
+                    "entries": [
+                        "Line 30 feet long and 5 feet wide"
+                    ]
+                },
+                "A stream of acid emanates from you in a direction you choose. Make a reflex attack against each creature in the area with the following outcomes:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Minor success",
+                            "entries": [
+                                "The target immediately takes {@dice 1d4} acid DoT damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Standard success",
+                            "entries": [
+                                "The target is covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes {@dice 2d4} ongoing acid damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Critical success",
+                            "entries": [
+                                "As standard success, but the damage increases to {@dice 4d4}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "name": "Caustic Brew",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cast at Higher Levels",
+                    "entries": [
+                        "The damage increases by {@dice 2d4} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "source": "sns",
+            "subschools": [
+                "area",
+                "acid",
+                "dot"
+            ],
+            "level": 1,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a bit of rotten food"
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            }
         }
     ],
     "monster": [
