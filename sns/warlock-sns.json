@@ -349,6 +349,7 @@
 				},
 				"Ability Score Improvement|Warlock|sns|4|sns",
 				"Invocation of the Courts (1)|Warlock|sns|4|sns",
+				"Empowered Blast|Warlock|sns|5|sns",
 				{
 					"classFeature": "First Subclass Tier 3|Warlock|sns|5|sns",
 					"gainSubclassFeature": true
